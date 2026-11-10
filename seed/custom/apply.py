@@ -350,6 +350,25 @@ def with_logo(link):
     return out
 
 
+def patch_product_hero(doc):
+    """Product pages (/products-and-accelerators/<slug>) show their logo (custom/logos/<slug>.png) in the page hero,
+    in place of the text title. Drop a new <slug>.png into seed/assets/custom/logos to add one; no file = text title."""
+    if not isinstance(doc, dict):
+        return
+    path = (doc.get("path") or "").rstrip("/")
+    prefix = "/products-and-accelerators/"
+    if not path.startswith(prefix) or "/" in path[len(prefix):]:
+        return
+    slug = path[len(prefix):]
+    hero = next((s for s in doc.get("sections") or [] if s.get("__component") == "sections.page-hero"), None)
+    if not hero:
+        return
+    if os.path.exists(os.path.join(LOGOS, slug + ".png")):
+        hero["logo"] = media(f"custom/logos/{slug}.png", f"{hero.get('title') or slug} logo")
+    else:
+        hero.pop("logo", None)
+
+
 def patch_products_menu(g, portfolio):
     """Insert (or refresh) the sectioned Products & Accelerators menu group and its footer quick link."""
     pm = portfolio.get("productsMenu")
@@ -522,6 +541,7 @@ def main(argv):
             site_global.featured_insights(doc)
         else:
             patch_industries_sections(doc, portfolio)
+            patch_product_hero(doc)
         if p.endswith(os.sep + "index.json"):
             patch_home(doc, portfolio)
         if not p.endswith(("global.json", "blog-posts.json", "news-articles.json", "events.json")):

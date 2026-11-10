@@ -42,7 +42,11 @@
      "label": "Let’s connect",
      "targetId": "get-in-touch"
     }
-   ]
+   ],
+   "logo": {
+    "__media": "custom/logos/testoriumz.png",
+    "alt": "testoriumz logo"
+   }
   },
   {
    "__component": "sections.overview",

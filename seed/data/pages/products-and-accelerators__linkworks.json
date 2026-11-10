@@ -38,7 +38,11 @@
      "label": "Let’s connect",
      "targetId": "get-in-touch"
     }
-   ]
+   ],
+   "logo": {
+    "__media": "custom/logos/linkworks.png",
+    "alt": "Linkworks logo"
+   }
   },
   {
    "__component": "sections.overview",

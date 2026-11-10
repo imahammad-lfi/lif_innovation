@@ -38,7 +38,11 @@
      "label": "Let’s connect",
      "targetId": "get-in-touch"
     }
-   ]
+   ],
+   "logo": {
+    "__media": "custom/logos/ai-governance.png",
+    "alt": "AI Governance logo"
+   }
   },
   {
    "__component": "sections.overview",

@@ -1346,6 +1346,7 @@ export interface SectionsPageHero extends Struct.ComponentSchema {
   attributes: {
     anchorLinks: Schema.Attribute.Component<'shared.anchor-link', true>;
     backgroundImage: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+    logo: Schema.Attribute.Media<'images'>;
     subtitle: Schema.Attribute.Text;
     title: Schema.Attribute.String & Schema.Attribute.Required;
   };

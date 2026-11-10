@@ -38,7 +38,11 @@
      "label": "Let’s connect",
      "targetId": "get-in-touch"
     }
-   ]
+   ],
+   "logo": {
+    "__media": "custom/logos/edupilot.png",
+    "alt": "EduPilot logo"
+   }
   },
   {
    "__component": "sections.overview",

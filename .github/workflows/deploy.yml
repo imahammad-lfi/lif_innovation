@@ -1,8 +1,8 @@
 name: Deploy production
 
 on:
-  push:
-    branches: [main]
+  # Manual only: run from GitHub › Actions › "Deploy production" › Run workflow.
+  # (Auto-deploy on push to main was removed on purpose.)
   workflow_dispatch:
 
 permissions:

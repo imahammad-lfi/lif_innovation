@@ -76,7 +76,7 @@ export function DeckStage({
   return (
     <section
       id={id || undefined}
-      className={cn("relative isolate w-full overflow-hidden px-gutter py-16 xl:py-24 3xl:py-28", TONES[t], className)}
+      className={cn("relative isolate w-full overflow-clip px-gutter py-16 xl:py-24 3xl:py-28", TONES[t], className)}
     >
       {t === "navy" ? (
         <div

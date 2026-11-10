@@ -59,7 +59,7 @@
     },
     "autoplaySeconds": {
       "type": "integer",
-      "default": 6,
+      "default": 4,
       "min": 4,
       "max": 15
     }

@@ -696,7 +696,7 @@ def home_hero(doc):
         base.update(opts)
         out.append(base)
     hero["slides"] = out
-    hero["autoplaySeconds"] = 6  # seconds per slide (CMS field, 4-15)
+    hero["autoplaySeconds"] = 4  # seconds per slide (CMS field, 4-15)
     hero["partnersLabel"] = "OEM & technology partners"
     hero["partners"] = [{"label": label,
                          "image": _m(f"custom/partners/mono/oem-mono-{mono}.png", f"{label} logo"),

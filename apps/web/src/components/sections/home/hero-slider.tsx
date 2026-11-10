@@ -25,7 +25,7 @@ type Data = {
   partners?: Partner[] | null;
   partnersLabel?: string | null;
   proofPoints?: Proof[] | null;
-  /** Seconds each slide stays on screen (CMS: 4–15, default 6). */
+  /** Seconds each slide stays on screen (CMS: 4–15, default 4). */
   autoplaySeconds?: number | null;
 };
 export function HeroSlider({ data }: SectionProps<Data>) {
@@ -34,7 +34,7 @@ export function HeroSlider({ data }: SectionProps<Data>) {
   const globe = data.videoStyle === "globe" && Boolean(videoUrl);
   // The poster frame (home LCP image) is preloaded by <GlobeVideo> itself — see the note there.
   const slides = data.slides ?? [];
-  const seconds = Math.min(15, Math.max(4, Number(data.autoplaySeconds) || 6));
+  const seconds = Math.min(15, Math.max(4, Number(data.autoplaySeconds) || 4));
   const partners = data.partners ?? [];
   const proof = (data.proofPoints ?? []).filter((p) => p.label && (p.value || p.logo));
   // Height of the bottom strips, so the copy, dots and globe sit above them.

@@ -57,7 +57,7 @@ export function HeroSlider({ data }: SectionProps<Data>) {
       {globe && videoUrl ? (
         <div
           aria-hidden
-          className="pointer-events-none absolute right-[5vw] top-[calc(72px+(100%-72px-var(--hero-strips,132px))/2)] -z-10 aspect-square w-[min(40vw,580px)] -translate-y-1/2 3xl:w-[680px] min-[1921px]:right-[calc((100%_-_1920px)/2_+_100px)] max-[1180px]:right-[3vw] max-[1180px]:w-[42vw] max-[768px]:left-1/2 max-[768px]:right-auto max-[768px]:top-[84px] max-[768px]:w-[min(58vw,240px)] max-[768px]:-translate-x-1/2 max-[768px]:translate-y-0"
+          className="pointer-events-none absolute right-[5vw] top-[calc(72px+(100%-72px-var(--hero-strips,132px))/2)] -z-10 aspect-square w-[min(40vw,580px)] -translate-y-1/2 3xl:w-[680px] min-[1921px]:right-[calc(50%_-_860px)] max-[1180px]:right-[3vw] max-[1180px]:w-[42vw] max-[768px]:left-1/2 max-[768px]:right-auto max-[768px]:top-[84px] max-[768px]:w-[min(58vw,240px)] max-[768px]:-translate-x-1/2 max-[768px]:translate-y-0"
         >
           <div className="globe-halo absolute inset-[-30%] rounded-full" />
           <GlobeVideo src={videoUrl} type={data.backgroundVideo?.mime} poster={posterUrl} />
@@ -79,7 +79,7 @@ export function HeroSlider({ data }: SectionProps<Data>) {
                 globe ? "max-[768px]:pt-[calc(96px+min(58vw,240px))]" : "max-[768px]:pt-[260px]",
               )}
             >
-              <div className="mx-auto w-full max-w-[1920px] px-gutter">
+              <div className="w-full px-gutter">
               <div data-carousel-hold className={cn("w-full max-w-[650px] 3xl:max-w-[760px] max-[768px]:max-w-[440px]", globe && "max-w-[600px] max-[1180px]:max-w-[50vw] max-[768px]:max-w-[440px]")}>
                 {eyebrow ? (
                   <p className="mb-5 flex items-center gap-3 text-balance font-sans text-[11.5px] font-semibold uppercase tracking-[0.24em] text-brand 3xl:text-[12.5px] max-[768px]:mb-4 max-[768px]:text-[11px]">
@@ -183,8 +183,8 @@ export function HeroSlider({ data }: SectionProps<Data>) {
             </div>
           ) : null}
           {partners.length ? (
-            <div className="mx-auto flex max-w-[1920px] items-center min-[1921px]:px-gutter max-[768px]:flex-col max-[768px]:items-stretch max-[768px]:pt-3">
-              <p className="flex shrink-0 items-center gap-2.5 pl-gutter pr-6 min-[1921px]:pl-0 font-sans text-[11px] font-bold uppercase leading-[1.4] tracking-[0.22em] 3xl:text-[11.5px] max-[768px]:justify-center max-[768px]:px-gutter">
+            <div className="flex items-center min-[1921px]:pr-gutter max-[768px]:flex-col max-[768px]:items-stretch max-[768px]:pt-3">
+              <p className="flex shrink-0 items-center gap-2.5 pl-gutter pr-6 font-sans text-[11px] font-bold uppercase leading-[1.4] tracking-[0.22em] 3xl:text-[11.5px] max-[768px]:justify-center max-[768px]:px-gutter">
                 <span aria-hidden className="size-1.5 shrink-0 rounded-full bg-brand-gradient shadow-[0_0_10px_rgba(255,140,0,0.9)]" />
                 <span className="bg-[linear-gradient(90deg,#FFC21A,#FF8C00_55%,#FF7800)] bg-clip-text text-transparent">{data.partnersLabel || "OEM & technology partners"}</span>
               </p>

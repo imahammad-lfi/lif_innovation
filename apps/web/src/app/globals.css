@@ -567,18 +567,26 @@
   box-shadow: 0 10px 26px -12px var(--acc), inset 0 0 0 1px color-mix(in srgb, var(--acc) 38%, transparent);
 }
 
-/* Horizontal page gutters used across the original site (100 / 80 / 40 / 20 px) */
+/* Horizontal page gutters used across the original site (100 / 80 / 40 / 20 px). Wider than 1920px the gutter
+   grows so content stays in a centred 1920px column (the header's logo and button lines): use it on full-width
+   elements; % is the containing block's width. */
 @utility px-gutter {
   padding-inline: 20px;
   @media (width >= 40rem) { padding-inline: 40px; }
   @media (width >= 64.0625rem) { padding-inline: 80px; }
-  @media (width >= 97.5625rem) { padding-inline: 100px; }
+  @media (width >= 97.5625rem) { padding-inline: max(100px, calc(50% - 860px)); }
 }
 @utility pl-gutter {
   padding-left: 20px;
   @media (width >= 40rem) { padding-left: 40px; }
   @media (width >= 64.0625rem) { padding-left: 80px; }
-  @media (width >= 97.5625rem) { padding-left: 100px; }
+  @media (width >= 97.5625rem) { padding-left: max(100px, calc(50% - 860px)); }
+}
+@utility pr-gutter {
+  padding-right: 20px;
+  @media (width >= 40rem) { padding-right: 40px; }
+  @media (width >= 64.0625rem) { padding-right: 80px; }
+  @media (width >= 97.5625rem) { padding-right: max(100px, calc(50% - 860px)); }
 }
 
 @layer base {

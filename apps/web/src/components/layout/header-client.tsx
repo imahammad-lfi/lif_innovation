@@ -113,7 +113,7 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
           activeGroup && "bg-[#0b0b0b]/95",
         )}
       >
-        <div className="mx-auto flex h-[72px] max-w-[1920px] animate-fade-up items-center justify-between gap-6 px-gutter [animation-duration:0.5s] [animation-fill-mode:backwards] max-sm:h-[64px] 3xl:h-[84px]">
+        <div className="flex h-[72px] animate-fade-up items-center justify-between gap-6 px-gutter [animation-duration:0.5s] [animation-fill-mode:backwards] max-sm:h-[64px] 3xl:h-[84px]">
           <Logo logo={logo} className="h-[34px] w-[134px] max-[1025px]:h-[28px] max-[1025px]:w-[110px] 3xl:h-[40px] 3xl:w-[159px]" />
 
           {/* Desktop navigation */}
@@ -511,7 +511,7 @@ function MegaMenu({ group, onEnter, onLeave }: { group: NavGroup; onEnter: () =>
         onScroll={updateMoreBelow}
         className="menu-scroll max-h-[calc(100vh-136px)] overflow-y-auto overscroll-contain 3xl:max-h-[calc(100vh-148px)]"
       >
-        <div className="mx-auto grid max-w-[1920px] grid-cols-[250px_1fr] gap-10 px-gutter py-8 max-[1280px]:grid-cols-1 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
+        <div className="grid grid-cols-[250px_1fr] gap-10 px-gutter py-8 max-[1280px]:grid-cols-1 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
           <div className="flex flex-col gap-4 max-[1280px]:flex-row max-[1280px]:items-center max-[1280px]:justify-between max-[1280px]:border-b max-[1280px]:border-white/[0.07] max-[1280px]:pb-4">
             <span className="font-heading text-[22px] font-semibold leading-[1.2] tracking-[-0.01em] text-white max-[1280px]:text-[17px] 3xl:text-[26px]">{group.label}</span>
             <span aria-hidden className="h-[2px] w-10 rounded-full bg-brand-line max-[1280px]:hidden" />

@@ -20,7 +20,7 @@ export function CareerSlider({ data }: SectionProps<Data>) {
       {data.backgroundImage ? <CmsImage media={data.backgroundImage} alt="" fill sizes="100vw" className="object-cover" priority /> : null}
       <div aria-hidden className="absolute inset-0 bg-gradient-to-b from-ink/10 via-transparent to-ink/40" />
       <div className="relative">
-        {data.heading ? <h1 className="mx-auto max-w-[900px] px-gutter text-center font-heading text-[40px] font-semibold leading-[1.15] text-white 3xl:max-w-[1080px] 3xl:text-[48px] max-[768px]:text-[28px]">{data.heading}</h1> : null}
+        {data.heading ? <h1 className="mx-auto max-w-[900px] px-5 text-center sm:px-10 min-[1025px]:px-20 3xl:px-[100px] font-heading text-[40px] font-semibold leading-[1.15] text-white 3xl:max-w-[1080px] 3xl:text-[48px] max-[768px]:text-[28px]">{data.heading}</h1> : null}
         {data.ctaLabel ? (
           <div className="mt-8 flex justify-center">
             <SmartLink href={data.ctaHref} newTab className="btn-primary max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[14px]">

@@ -202,7 +202,7 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
         )}
       >
         <span aria-hidden className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/40 to-transparent" />
-        <div className="relative mx-auto flex h-[52px] max-w-[1920px] items-center max-sm:h-12 xl:grid xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] xl:gap-5 xl:px-gutter">
+        <div className="relative flex h-[52px] items-center max-sm:h-12 xl:grid xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] xl:gap-5 xl:px-gutter">
           {/* Page name: full name on one line, or two short lines on narrower desktops; hidden rather than cut off. */}
           <div className="@container hidden min-w-0 xl:block">
             <div className="hidden min-w-0 items-center gap-2.5 @min-[130px]:flex">

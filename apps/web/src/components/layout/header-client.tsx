@@ -479,6 +479,25 @@ function MegaMenu({ group, onEnter, onLeave }: { group: NavGroup; onEnter: () =>
   const sectioned = Boolean(group.items?.some((i) => i.section));
   const imageCards = !sectioned && Boolean(group.items?.some((i) => i.image));
   const servicesGrid = !sectioned && !imageCards && count === 5 && Boolean(group.items?.some((i) => i.groupLinks?.length));
+
+  // Tall panels scroll inside (orange `menu-scroll` bar); a bottom fade shows while more content is below.
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [moreBelow, setMoreBelow] = useState(false);
+  const updateMoreBelow = useCallback(() => {
+    const el = scrollRef.current;
+    if (el) setMoreBelow(el.scrollHeight - el.scrollTop - el.clientHeight > 4);
+  }, []);
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollTop = 0;
+    updateMoreBelow();
+    const ro = new ResizeObserver(updateMoreBelow);
+    ro.observe(el);
+    if (el.firstElementChild) ro.observe(el.firstElementChild);
+    return () => ro.disconnect();
+  }, [group, updateMoreBelow]);
+
   return (
     <div
       role="region"
@@ -487,50 +506,63 @@ function MegaMenu({ group, onEnter, onLeave }: { group: NavGroup; onEnter: () =>
       onMouseLeave={onLeave}
       className="absolute inset-x-0 top-full border-b border-white/[0.07] bg-[#070a14]/95 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.8)] backdrop-blur-xl animate-in fade-in slide-in-from-top-1 duration-300 max-lg:hidden"
     >
-      <div className="mx-auto grid max-h-[calc(100vh-136px)] max-w-[1920px] grid-cols-[250px_1fr] gap-10 overflow-y-auto px-gutter py-8 [scrollbar-width:none] max-[1280px]:grid-cols-1 3xl:max-h-[calc(100vh-148px)] 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
-        <div className="flex flex-col gap-4 max-[1280px]:flex-row max-[1280px]:items-center max-[1280px]:justify-between max-[1280px]:border-b max-[1280px]:border-white/[0.07] max-[1280px]:pb-4">
-          <span className="font-heading text-[22px] font-semibold leading-[1.2] tracking-[-0.01em] text-white max-[1280px]:text-[17px] 3xl:text-[26px]">{group.label}</span>
-          <span aria-hidden className="h-[2px] w-10 rounded-full bg-brand-line max-[1280px]:hidden" />
-          {group.description ? (
-            <p className="font-sans text-[13.5px] leading-[1.6] text-white/60 max-[1280px]:hidden 3xl:text-[14.5px]">{group.description}</p>
-          ) : null}
-          {group.coverImage ? (
-            <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden rounded-2xl ring-1 ring-white/10 max-[1280px]:hidden">
-              <CmsImage media={group.coverImage} alt={group.label} fill sizes="300px" className="object-cover" />
-              <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,10,20,0)_45%,rgba(7,10,20,0.6)_100%)]" />
-            </div>
-          ) : null}
-          {group.href ? (
-            <SmartLink href={group.href} className="hover-grow group mt-1 inline-flex w-fit origin-left items-center gap-2 font-heading text-[13.5px] font-semibold text-brand">
-              Explore {group.label.toLowerCase()}
-              <ArrowRight aria-hidden className="size-4 transition-transform group-hover:translate-x-0.5" />
-            </SmartLink>
-          ) : null}
-        </div>
-        {sectioned ? (
-          <SectionedItems items={group.items ?? []} />
-        ) : imageCards ? (
-          <ImageCardItems items={group.items ?? []} />
-        ) : (
-          servicesGrid ? (
-            // Five portfolios: three tiles, then two wide tiles that fill the row (services beside their IP chips).
-            // The second row sizes each tile to its content first, then shares the spare width, so long service
-            // names and chips stay on one line wherever the screen allows.
-            <div className="flex flex-col gap-3 3xl:gap-4">
-              <div className="grid grid-cols-3 gap-3 3xl:gap-4">
-                {group.items?.slice(0, 3).map((item) => <MenuTile key={item.label} item={item} />)}
+      <div
+        ref={scrollRef}
+        onScroll={updateMoreBelow}
+        className="menu-scroll max-h-[calc(100vh-136px)] overflow-y-auto overscroll-contain 3xl:max-h-[calc(100vh-148px)]"
+      >
+        <div className="mx-auto grid max-w-[1920px] grid-cols-[250px_1fr] gap-10 px-gutter py-8 max-[1280px]:grid-cols-1 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
+          <div className="flex flex-col gap-4 max-[1280px]:flex-row max-[1280px]:items-center max-[1280px]:justify-between max-[1280px]:border-b max-[1280px]:border-white/[0.07] max-[1280px]:pb-4">
+            <span className="font-heading text-[22px] font-semibold leading-[1.2] tracking-[-0.01em] text-white max-[1280px]:text-[17px] 3xl:text-[26px]">{group.label}</span>
+            <span aria-hidden className="h-[2px] w-10 rounded-full bg-brand-line max-[1280px]:hidden" />
+            {group.description ? (
+              <p className="font-sans text-[13.5px] leading-[1.6] text-white/60 max-[1280px]:hidden 3xl:text-[14.5px]">{group.description}</p>
+            ) : null}
+            {group.coverImage ? (
+              <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden rounded-2xl ring-1 ring-white/10 max-[1280px]:hidden">
+                <CmsImage media={group.coverImage} alt={group.label} fill sizes="300px" className="object-cover" />
+                <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,10,20,0)_45%,rgba(7,10,20,0.6)_100%)]" />
               </div>
-              <div className="grid grid-cols-[auto_auto] gap-3 3xl:gap-4">
-                {group.items?.slice(3).map((item) => <MenuTile key={item.label} item={item} layout="split" className="min-w-0" />)}
-              </div>
-            </div>
+            ) : null}
+            {group.href ? (
+              <SmartLink href={group.href} className="hover-grow group mt-1 inline-flex w-fit origin-left items-center gap-2 font-heading text-[13.5px] font-semibold text-brand">
+                Explore {group.label.toLowerCase()}
+                <ArrowRight aria-hidden className="size-4 transition-transform group-hover:translate-x-0.5" />
+              </SmartLink>
+            ) : null}
+          </div>
+          {sectioned ? (
+            <SectionedItems items={group.items ?? []} />
+          ) : imageCards ? (
+            <ImageCardItems items={group.items ?? []} />
           ) : (
-            <div className={cn("grid content-start gap-3 3xl:gap-4", count === 4 ? "grid-cols-4 max-[1280px]:grid-cols-2" : "grid-cols-3")}>
-              {group.items?.map((item) => <MenuTile key={item.label} item={item} />)}
-            </div>
-          )
-        )}
+            servicesGrid ? (
+              // Five portfolios: three tiles, then two wide tiles that fill the row (services beside their IP chips).
+              // The second row sizes each tile to its content first, then shares the spare width, so long service
+              // names and chips stay on one line wherever the screen allows.
+              <div className="flex flex-col gap-3 3xl:gap-4">
+                <div className="grid grid-cols-3 gap-3 3xl:gap-4">
+                  {group.items?.slice(0, 3).map((item) => <MenuTile key={item.label} item={item} />)}
+                </div>
+                <div className="grid grid-cols-[auto_auto] gap-3 3xl:gap-4">
+                  {group.items?.slice(3).map((item) => <MenuTile key={item.label} item={item} layout="split" className="min-w-0" />)}
+                </div>
+              </div>
+            ) : (
+              <div className={cn("grid content-start gap-3 3xl:gap-4", count === 4 ? "grid-cols-4 max-[1280px]:grid-cols-2" : "grid-cols-3")}>
+                {group.items?.map((item) => <MenuTile key={item.label} item={item} />)}
+              </div>
+            )
+          )}
+        </div>
       </div>
+      <span
+        aria-hidden
+        className={cn(
+          "pointer-events-none absolute bottom-0 left-0 right-2.5 h-14 bg-[linear-gradient(180deg,rgba(7,10,20,0),#070a14)] transition-opacity duration-300",
+          moreBelow ? "opacity-100" : "opacity-0",
+        )}
+      />
     </div>
   );
 }

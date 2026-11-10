@@ -209,6 +209,20 @@
 }
 
 /*
+ * Slim orange scrollbar for scrolling panels on dark surfaces (desktop mega menu). Standard properties for
+ * Chrome/Edge/Firefox; ::-webkit-scrollbar fallback for Safari, which does not support scrollbar-color.
+ */
+@utility menu-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-brand) rgba(255, 255, 255, 0.06);
+  @supports not (scrollbar-color: auto) {
+    &::-webkit-scrollbar { width: 8px; }
+    &::-webkit-scrollbar-track { background: rgba(255, 255, 255, 0.06); }
+    &::-webkit-scrollbar-thumb { background: var(--color-brand); border-radius: 9999px; }
+  }
+}
+
+/*
  * Buttons (design refresh): one primary (orange pill with soft glow) and one secondary (glass outline) style,
  * used by every CTA on the site. Size via h- and px- overrides when needed. Hover/focus changes colour
  * (a royal-blue wipe on primary, an orange wipe on secondary, both from the left), lifts 2px with the subtle

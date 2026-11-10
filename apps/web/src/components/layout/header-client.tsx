@@ -29,26 +29,71 @@ function Logo({ logo, className }: { logo: Media | null; className?: string }) {
 
 export function HeaderClient({ logo, navigation, cta }: Props) {
   const pathname = usePathname();
-  // The open menu remembers the path it was opened on, so navigating closes it without an effect.
-  const [menu, setMenu] = useState<{ label: string; path: string } | null>(null);
-  const open = menu && menu.path === pathname ? menu.label : null;
-  const setOpen = useCallback((label: string | null) => setMenu(label ? { label, path: pathname } : null), [pathname]);
+  /*
+   * Mega menu behaviour:
+   * - hover opens a panel; it closes shortly after the cursor leaves both the nav item and the panel;
+   * - a click (or Enter/Space) pins it: a pinned panel ignores the cursor leaving and closes only on a second
+   *   click of the same item, a click outside, Escape, a link click or a route change;
+   * - hovering another item switches to that item's panel in hover mode.
+   * The open menu remembers the path it was opened on, so navigating closes it without an effect.
+   */
+  const [menu, setMenu] = useState<{ label: string; path: string; pinned: boolean } | null>(null);
+  const current = menu && menu.path === pathname ? menu : null;
+  const open = current?.label ?? null;
+  const pinned = Boolean(current?.pinned);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const navRef = useRef<HTMLUListElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
 
   const cancelClose = () => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
   };
+  const close = useCallback(() => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    setMenu(null);
+  }, []);
+  const hoverOpen = (label: string) => {
+    cancelClose();
+    setMenu((m) => (m && m.label === label && m.path === pathname ? m : { label, path: pathname, pinned: false }));
+  };
+  const togglePin = (label: string) => {
+    cancelClose();
+    setMenu(open === label && pinned ? null : { label, path: pathname, pinned: true });
+  };
+  // Hover-mode panels close after a short grace period (enough to cross the gap between item and panel).
   const scheduleClose = useCallback(() => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
-    closeTimer.current = setTimeout(() => setOpen(null), 160);
-  }, [setOpen]);
+    closeTimer.current = setTimeout(() => setMenu((m) => (m && !m.pinned ? null : m)), 200);
+  }, []);
 
-  // close the mega menu on Escape
   useEffect(() => {
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(null);
+    if (!open) return;
+    // Escape closes the menu and returns focus to its nav item when focus was inside the menu.
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== "Escape") return;
+      const active = document.activeElement;
+      const focusInside = Boolean(active && (navRef.current?.contains(active) || panelRef.current?.contains(active)));
+      close();
+      if (focusInside) navRef.current?.querySelector<HTMLButtonElement>(`button[data-menu="${CSS.escape(open)}"]`)?.focus();
+    };
+    // A click anywhere outside the nav items and the panel closes it (pinned or not).
+    const onPointerDown = (e: PointerEvent) => {
+      const t = e.target as Node;
+      if (!navRef.current?.contains(t) && !panelRef.current?.contains(t)) close();
+    };
+    // The cursor leaving the browser window counts as leaving the menu.
+    const root = document.documentElement;
     window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [setOpen]);
+    document.addEventListener("pointerdown", onPointerDown);
+    root.addEventListener("mouseleave", scheduleClose);
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.removeEventListener("pointerdown", onPointerDown);
+      root.removeEventListener("mouseleave", scheduleClose);
+    };
+  }, [open, close, scheduleClose]);
+
+  useEffect(() => () => cancelClose(), []);
 
   const activeGroup = navigation.find((g) => g.label === open && g.items?.length);
 
@@ -59,7 +104,7 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
           aria-hidden
           className="fixed inset-x-0 bottom-0 top-[72px] -z-30 bg-black/50 backdrop-blur-[3px] animate-in fade-in duration-300 max-lg:hidden 3xl:top-[84px]"
           onMouseEnter={scheduleClose}
-          onClick={() => setOpen(null)}
+          onClick={close}
         />
       ) : null}
       <div
@@ -73,7 +118,7 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
 
           {/* Desktop navigation */}
           <nav aria-label="Main" className="max-lg:hidden">
-            <ul className="flex items-center gap-[34px] font-heading text-[14px] font-medium text-white/80 max-[1180px]:gap-[22px] max-[1025px]:gap-[14px] max-[1025px]:text-[13px] 3xl:gap-[44px] 3xl:text-[15px]">
+            <ul ref={navRef} className="flex items-center gap-[34px] font-heading text-[14px] font-medium text-white/80 max-[1180px]:gap-[22px] max-[1025px]:gap-[14px] max-[1025px]:text-[13px] 3xl:gap-[44px] 3xl:text-[15px]">
               {navigation.map((group) => {
                 const hasMenu = Boolean(group.items?.length);
                 const isOpen = open === group.label;
@@ -94,12 +139,13 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
                   );
                 }
                 return (
-                  <li key={group.label} onMouseEnter={() => (cancelClose(), setOpen(group.label))} onMouseLeave={scheduleClose}>
+                  <li key={group.label} onMouseEnter={() => hoverOpen(group.label)} onMouseLeave={scheduleClose}>
                     <button
                       type="button"
                       aria-expanded={isOpen}
                       aria-haspopup="true"
-                      onClick={() => setOpen(isOpen ? null : group.label)}
+                      data-menu={group.label}
+                      onClick={() => togglePin(group.label)}
                       className={cn(
                         "hover-grow relative flex cursor-pointer items-center gap-[6px] rounded-md py-[10px] outline-none transition-colors hover:text-white focus-visible:text-white after:absolute after:inset-x-0 after:-bottom-[2px] after:h-[2px] after:origin-center after:scale-x-0 after:rounded-full after:bg-brand-line after:transition-transform after:duration-300 hover:after:scale-x-100 focus-visible:after:scale-x-100",
                         (isOpen || active) && "text-white",
@@ -134,12 +180,10 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
             link (e.g. BFSI › Banking while on /industries/bfsi) keeps the path, so it would stay open over the page. */}
         {activeGroup ? (
           <div
+            ref={panelRef}
             className="contents"
             onClickCapture={(e) => {
-              if ((e.target as HTMLElement).closest("a[href]")) {
-                cancelClose();
-                setOpen(null);
-              }
+              if ((e.target as HTMLElement).closest("a[href]")) close();
             }}
           >
             <MegaMenu group={activeGroup} onEnter={cancelClose} onLeave={scheduleClose} />
@@ -443,7 +487,7 @@ function MegaMenu({ group, onEnter, onLeave }: { group: NavGroup; onEnter: () =>
       onMouseLeave={onLeave}
       className="absolute inset-x-0 top-full border-b border-white/[0.07] bg-[#070a14]/95 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.8)] backdrop-blur-xl animate-in fade-in slide-in-from-top-1 duration-300 max-lg:hidden"
     >
-      <div className="mx-auto grid max-h-[calc(100vh-72px)] max-w-[1920px] grid-cols-[250px_1fr] gap-10 overflow-y-auto px-gutter py-8 [scrollbar-width:none] max-[1280px]:grid-cols-1 3xl:max-h-[calc(100vh-84px)] 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
+      <div className="mx-auto grid max-h-[calc(100vh-136px)] max-w-[1920px] grid-cols-[250px_1fr] gap-10 overflow-y-auto px-gutter py-8 [scrollbar-width:none] max-[1280px]:grid-cols-1 3xl:max-h-[calc(100vh-148px)] 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
         <div className="flex flex-col gap-4 max-[1280px]:flex-row max-[1280px]:items-center max-[1280px]:justify-between max-[1280px]:border-b max-[1280px]:border-white/[0.07] max-[1280px]:pb-4">
           <span className="font-heading text-[22px] font-semibold leading-[1.2] tracking-[-0.01em] text-white max-[1280px]:text-[17px] 3xl:text-[26px]">{group.label}</span>
           <span aria-hidden className="h-[2px] w-10 rounded-full bg-brand-line max-[1280px]:hidden" />

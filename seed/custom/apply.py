@@ -333,18 +333,26 @@ def patch_global(g, portfolio):
 LOGOS = os.path.join(ROOT, "seed", "assets", "custom", "logos")
 
 
+def png_size(path):
+    """(width, height) from the PNG IHDR header; no PIL needed. (0, 0) if the file is not a readable PNG."""
+    try:
+        with open(path, "rb") as fh:
+            head = fh.read(24)
+        if head[:8] == b"\x89PNG\r\n\x1a\n" and head[12:16] == b"IHDR":
+            return int.from_bytes(head[16:20], "big"), int.from_bytes(head[20:24], "big")
+    except OSError:
+        pass
+    return 0, 0
+
+
 def with_logo(link):
     """Product links get their logo (seed/assets/custom/logos/<slug>.png) unless the mark is a very wide wordmark."""
     out = dict(link)
     slug = (link.get("href") or "").rstrip("/").rsplit("/", 1)[-1]
     f = os.path.join(LOGOS, slug + ".png")
     if slug and os.path.exists(f):
-        try:
-            from PIL import Image
-            w, h = Image.open(f).size
-            wide = w / max(h, 1) > 7
-        except Exception:
-            wide = False
+        w, h = png_size(f)
+        wide = w / max(h, 1) > 7
         if not wide:
             out["logo"] = media(f"custom/logos/{slug}.png", link.get("label"))
     return out

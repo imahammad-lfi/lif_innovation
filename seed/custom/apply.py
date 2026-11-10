@@ -359,8 +359,9 @@ def with_logo(link):
 
 
 def patch_product_hero(doc):
-    """Product pages (/products-and-accelerators/<slug>) show their logo (custom/logos/<slug>.png) in the page hero,
-    in place of the text title. Drop a new <slug>.png into seed/assets/custom/logos to add one; no file = text title."""
+    """Product pages (/products-and-accelerators/<slug>) show their on-dark logo in the page hero, in place of the
+    text title: custom/logos/on-dark/<slug>-on-dark.png (made by tools/mk_ondark_logos.mjs from logos/<slug>.png,
+    or official dark-background artwork). No on-dark file = text title."""
     if not isinstance(doc, dict):
         return
     path = (doc.get("path") or "").rstrip("/")
@@ -371,8 +372,8 @@ def patch_product_hero(doc):
     hero = next((s for s in doc.get("sections") or [] if s.get("__component") == "sections.page-hero"), None)
     if not hero:
         return
-    if os.path.exists(os.path.join(LOGOS, slug + ".png")):
-        hero["logo"] = media(f"custom/logos/{slug}.png", f"{hero.get('title') or slug} logo")
+    if os.path.exists(os.path.join(LOGOS, "on-dark", f"{slug}-on-dark.png")):
+        hero["logo"] = media(f"custom/logos/on-dark/{slug}-on-dark.png", f"{hero.get('title') or slug} logo")
     else:
         hero.pop("logo", None)
 

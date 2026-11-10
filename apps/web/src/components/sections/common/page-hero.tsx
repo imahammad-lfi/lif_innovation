@@ -6,7 +6,7 @@ import { HeroTabs } from "./hero-tabs";
 type Data = {
   title: string;
   subtitle?: string | null;
-  /** Optional product logo: replaces the visible title (the title stays as the accessible heading text). */
+  /** Optional on-dark (transparent, light lettering) product logo: replaces the visible title; the title stays as the accessible heading text. */
   logo?: Media | null;
   backgroundImage?: Media | null;
   anchorLinks?: AnchorLink[] | null;
@@ -39,21 +39,18 @@ export function PageHero({ data, context }: SectionProps<Data>) {
       <div className="flex flex-1 flex-col items-center justify-center px-gutter pt-[72px] text-center 3xl:pt-[84px]">
         <span aria-hidden className="mb-5 h-[3px] w-12 animate-fade-up rounded-full bg-brand-line 3xl:mb-6 3xl:w-14" />
         {data.logo?.url ? (
-          // Logos are drawn for light backgrounds (dark/blue lettering), so they sit on a white plate over the photo.
+          // Transparent on-dark logo (white lettering, brand accents) straight on the photo; a soft shadow keeps it
+          // legible over bright areas. The title stays as the heading's accessible text.
           <h1 id={heroId} className="animate-fade-up">
             <span className="sr-only">{data.title}</span>
-            <span
+            <CmsImage
+              media={data.logo}
+              alt=""
               aria-hidden
-              className="inline-flex items-center justify-center rounded-2xl bg-white px-6 py-4 shadow-[0_18px_50px_-18px_rgba(0,0,0,0.85)] ring-1 ring-black/5 sm:px-8 sm:py-5 3xl:px-10 3xl:py-6"
-            >
-              <CmsImage
-                media={data.logo}
-                alt=""
-                priority={context.index === 0}
-                sizes="(max-width: 640px) 70vw, 360px"
-                className="h-[40px] w-auto max-w-[min(70vw,300px)] object-contain sm:h-[48px] sm:max-w-[340px] xl:h-[56px] xl:max-w-[380px] 3xl:h-[64px] 3xl:max-w-[440px]"
-              />
-            </span>
+              priority={context.index === 0}
+              sizes="(max-width: 640px) 80vw, 520px"
+              className="mx-auto h-[48px] w-auto max-w-[min(80vw,340px)] object-contain drop-shadow-[0_2px_18px_rgba(0,0,0,0.55)] sm:h-[58px] sm:max-w-[420px] xl:h-[68px] xl:max-w-[480px] 3xl:h-[80px] 3xl:max-w-[560px]"
+            />
           </h1>
         ) : (
           <h1

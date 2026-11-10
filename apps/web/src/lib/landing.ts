@@ -27,9 +27,58 @@ export const pageHasTabs = () =>
 
 export const landingOffset = () => headerHeight() + (pageHasTabs() ? dockHeight() : 0);
 
-/** Scroll position that puts `el`'s top edge flush with the bottom of the chrome. */
+/** Space kept between the chrome and the section's content when landing. */
+const LAND_BREATH = 24;
+/** Lowest the heading may sit under the chrome when the page moves up to keep a card row off-screen whole. */
+const LAND_MAX_GAP = 150;
+/** Card-like blocks inside a section that should never be left half visible at the bottom of the screen. */
+const LAND_CARDS = "[data-land-card], .card-surface, .acc-tile";
+
+const docRect = (el: Element) => {
+  const r = el.getBoundingClientRect();
+  return { top: r.top + window.scrollY, bottom: r.bottom + window.scrollY, visible: r.width > 0 && r.height > 0 };
+};
+
+/**
+ * Scroll position for landing on a section (tabs, menu/footer #links, contact pop-up). Fits the section to the
+ * screen instead of using a fixed offset:
+ * 1. the section's empty top padding is skipped, so its heading sits LAND_BREATH px below the chrome;
+ * 2. if a card row is then cut by the bottom of the screen, the page moves down just far enough to show it in
+ *    full while the section heading stays below the chrome; if that is not possible, it moves up a little (the
+ *    heading at most LAND_MAX_GAP px under the chrome) so the row starts whole below the fold.
+ * Computed in document coordinates only, so repeated calls (the landing re-checks while late layout settles)
+ * return the same value wherever the page is currently scrolled.
+ */
 export function sectionScrollTop(el: Element) {
-  return Math.max(0, Math.round(el.getBoundingClientRect().top + window.scrollY - landingOffset() + 1));
+  const chrome = landingOffset();
+  const sec = docRect(el);
+  const pad = el instanceof HTMLElement ? parseFloat(getComputedStyle(el).paddingTop) || 0 : 0;
+  let top = sec.top - chrome + 1 + Math.max(0, pad - LAND_BREATH);
+
+  const view = window.innerHeight;
+  if (view - chrome > 240) {
+    const heading = el.querySelector("h2, h3");
+    const headTop = heading ? docRect(heading).top : sec.top + pad;
+    // Down: furthest the page may move while the heading stays fully visible (4 px under the chrome).
+    const maxTop = Math.max(top, headTop - chrome - 4);
+    // Up: the heading may sit lower, at most LAND_MAX_GAP px under the chrome (above it the previous section shows).
+    const minTop = Math.min(top, headTop - chrome - LAND_MAX_GAP);
+    const fold = top + view;
+    let down = top;
+    let rowTop = Infinity;
+    for (const card of el.querySelectorAll(LAND_CARDS)) {
+      if (card.parentElement?.closest(LAND_CARDS)) continue; // nested card: its outer card decides
+      const r = docRect(card);
+      if (!r.visible || r.top < headTop || r.top >= fold || r.bottom <= fold) continue;
+      down = Math.max(down, r.bottom - view + 4);
+      rowTop = Math.min(rowTop, r.top);
+    }
+    if (down > top) {
+      if (down <= maxTop) top = down; // the cut row fits once the page moves down a little: show it in full
+      else if (rowTop - view - 4 >= minTop) top = rowTop - view - 4; // else start that row below the fold
+    }
+  }
+  return Math.max(0, Math.round(top));
 }
 
 const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;

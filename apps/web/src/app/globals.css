@@ -3,6 +3,8 @@
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
+/* Short desktop screens (e.g. 1366×768 laptops): tighter vertical gaps so a section's heading and cards fit together. */
+@custom-variant short (@media (min-width: 1024px) and (max-height: 820px));
 
 @theme inline {
   --color-background: var(--background);

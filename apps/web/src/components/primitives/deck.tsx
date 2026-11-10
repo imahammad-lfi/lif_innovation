@@ -124,7 +124,7 @@ export function DeckHeader({
         ) : null}
         <DeckBars className="mt-4" />
         {description ? (
-          <p className="mt-5 max-w-[76ch] whitespace-pre-line font-sans text-[15px] leading-[1.7] text-white/70 xl:text-[16.5px] 3xl:text-[18px]">{description}</p>
+          <p className="mt-5 max-w-[76ch] whitespace-pre-line short:mt-3 font-sans text-[15px] leading-[1.7] text-white/70 xl:text-[16.5px] 3xl:text-[18px]">{description}</p>
         ) : null}
       </div>
       {aside ? <div className="shrink-0">{aside}</div> : null}

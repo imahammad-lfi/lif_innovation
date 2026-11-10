@@ -159,7 +159,7 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
         </div>
       ) : null}
       {items.length ? (
-        <div className={cn("flex flex-wrap justify-center gap-5", data.heading || (data.logos?.length && !logosAfter) ? "mt-10 xl:mt-12" : "")}>
+        <div className={cn("flex flex-wrap justify-center gap-5", data.heading || (data.logos?.length && !logosAfter) ? "mt-10 xl:mt-12 short:mt-7" : "")}>
           {items.map((item, i) => (
             <div key={`${item.title}-${i}`} className={cn("min-w-0", BASIS[cols])}>
               <Tile item={item} variant={data.variant} index={i} cycle={cycle} />

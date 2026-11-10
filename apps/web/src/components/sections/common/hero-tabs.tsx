@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import type { AnchorLink } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 import { CONTACT_SECTION_ID, openContactDialog } from "@/lib/contact-dialog";
-import { dockHeight, headerHeight } from "@/lib/landing";
+import { dockHeight, headerHeight, sectionScrollTop } from "@/lib/landing";
 import { byId } from "@/lib/dom";
 
 const noopSubscribe = () => () => undefined;
@@ -49,7 +49,9 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
     let current: string | null = null;
     for (const l of links) {
       const el = byId(l.targetId);
-      if (el && el.getBoundingClientRect().top <= line) current = l.targetId;
+      // Current once its top passes the line, or once the page is at (or past) its landing position, which can sit
+      // a little higher when the landing keeps a card row whole below the fold.
+      if (el && (el.getBoundingClientRect().top <= line || sectionScrollTop(el) <= window.scrollY + 2)) current = l.targetId;
     }
     const scrollable = range > 200;
     const atBottom = scrollable && window.innerHeight + window.scrollY >= doc.scrollHeight - 4;
@@ -113,7 +115,8 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
     const el = byId(id);
     if (!el) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    const target = () => el.getBoundingClientRect().top + window.scrollY - headerHeight() - dockHeight() + 1;
+    // Same fit-to-screen landing as menu/footer #links (lib/landing): heading under the chrome, no half cards.
+    const target = () => sectionScrollTop(el);
     lockUntil.current = Date.now() + (reduce ? 120 : 1100);
     setActive(id);
     window.scrollTo({ top: target(), behavior: reduce ? "auto" : "smooth" });

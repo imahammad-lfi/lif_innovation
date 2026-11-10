@@ -1,0 +1,247 @@
+{
+  "title": "GCC build-operate-transfer",
+  "path": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+  "seo": {
+    "metaTitle": "GCC build-operate-transfer | Linkfields",
+    "metaDescription": "Build, operate and transfer a Global Capability Centre with agreed delivery governance, quality and security IP, ownership scope and transfer-readiness gates.",
+    "keywords": "GCC build operate transfer, GCC BOT, Global Capability Centre, embedded IP, capability transfer",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "GCC build-operate-transfer",
+      "subtitle": "We build and run your GCC, then hand it over.",
+      "backgroundImage": {
+        "__media": "custom/hero-talent-gcc.jpg",
+        "alt": "A capability delivery team collaborating, not a verified Linkfields facility"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "Lifecycle",
+          "targetId": "lifecycle"
+        },
+        {
+          "label": "Embedded IP",
+          "targetId": "embedded-ip"
+        },
+        {
+          "label": "Transfer Readiness",
+          "targetId": "transfer-readiness"
+        },
+        {
+          "label": "Buyer Questions",
+          "targetId": "buyer-questions"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Global Capability Centres · Build–Operate–Transfer",
+      "heading": "Build capability today. Take ownership when ready.",
+      "body": "Build–Operate–Transfer (BOT) combines the setup and operation of a Global Capability Centre (GCC) with a planned handover to your organisation. Define the centre’s scope, operating responsibilities and transfer principles before delivery begins.\n\nUnlike [strategy and setup advisory](/services/talent-advisory-gcc/gcc-strategy-setup), BOT includes a separately agreed build and operating phase. Unlike a [managed team](/services/talent-advisory-gcc/specialist-talent-managed-teams#managed-teams), it plans for centre ownership and a transfer decision. Linkfields is headquartered in South Africa with an offshore delivery centre in India.",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "retained-capability",
+      "eyebrow": "",
+      "heading": "What your centre is designed to retain",
+      "description": "The retained capability and handover scope are contractual decisions. Centre transfer does not imply ownership of all proprietary software.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Specialist capability and leadership",
+          "description": "A capability and leadership model aligned to the centre’s agreed service scope.",
+          "bullets": "Deliverable – team responsibilities, capability plan and knowledge-transfer requirements",
+          "accent": "yellow"
+        },
+        {
+          "title": "Governed delivery and quality controls",
+          "description": "Working practices and review gates that make scope, quality, risks and decisions visible.",
+          "bullets": "Deliverable – governance model, acceptance criteria and delivery evidence",
+          "accent": "yellow"
+        },
+        {
+          "title": "Tooling and operating knowledge",
+          "description": "An agreed environment and tooling model with documented working practices.",
+          "bullets": "Deliverable – environment inventory, operating documentation and rights register",
+          "accent": "yellow"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "lifecycle",
+      "eyebrow": "",
+      "heading": "A phased journey from setup to handover",
+      "description": "Build a GCC with a clear path to ownership. Phase responsibilities and acceptance evidence are agreed before the engagement; dates depend on scope and readiness.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Build",
+          "description": "Agree the blueprint, then establish the team, environments and initial delivery practices within scope.",
+          "bullets": "Linkfields – build and launch the agreed capability\nClient decision – approve scope, access and launch readiness\nExit evidence – responsibility map, onboarding plan and ready environments",
+          "accent": "yellow",
+          "number": "01",
+          "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+          "linkLabel": "Start with the blueprint"
+        },
+        {
+          "title": "Operate",
+          "description": "Run agreed delivery, develop capability and review stabilisation and scaling needs.",
+          "bullets": "Linkfields – manage delivery and maintain operating evidence\nClient decision – approve priorities, changes and scale\nExit evidence – delivery records, controls, documentation and readiness review",
+          "accent": "yellow",
+          "number": "02"
+        },
+        {
+          "title": "Transfer",
+          "description": "Assess readiness and transition the agreed people, knowledge and operating responsibilities.",
+          "bullets": "Linkfields – prepare and execute the agreed handover\nClient decision – accept scope, exceptions and future accountability\nExit evidence – signed acceptance record and continuity plan",
+          "accent": "yellow",
+          "number": "03"
+        }
+      ],
+      "ctaLabel": "Discuss your ownership plan",
+      "ctaUrl": "#get-in-touch"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "embedded-ip",
+      "eyebrow": "",
+      "heading": "Capability centres with embedded IP",
+      "description": "Organisations need scalable delivery capacity with stronger governance and automation. The value play brings quality, security and engineering IP into BOT centres where applicable. SCALE describes capability, not a promised launch or transfer timeframe.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Delivery governance and quality IP",
+          "description": "Configure agreed review practices, delivery evidence and testing or release-assurance packs around the centre’s work.",
+          "bullets": "Operate – name control and evidence owners\nRetain – document the working model and agreed reusable artefacts",
+          "accent": "yellow",
+          "href": "/products-and-accelerators/delivery-accelerators",
+          "linkLabel": "Explore delivery accelerators"
+        },
+        {
+          "title": "Cyber-Safe Delivery",
+          "description": "Embed agreed security responsibilities and review gates into engineering and delivery workflows.",
+          "bullets": "Configure – access, code and release-control requirements\nOperate – agree security review and escalation ownership\nRetain – control documentation and agreed evidence",
+          "accent": "yellow"
+        },
+        {
+          "title": "Linkworks",
+          "description": "Consider composable enterprise applications where the centre’s work extends beyond ERP or CRM fit.",
+          "bullets": "Configure and operate – agree application scope and operator\nRetain – agreed applications and documentation subject to contract\nLicense – define continuing product-use rights separately",
+          "accent": "yellow",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        }
+      ],
+      "ctaLabel": "Explore the value play",
+      "ctaUrl": "/solutions/capability-centres-embedded-ip",
+      "noteLabel": "SCALE",
+      "note": "Scalable Talent & Delivery · Accelerated GCC Setup · Governed Delivery & Embedded IP · Sustainable Capability Transfer"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "transfer-readiness",
+      "eyebrow": "",
+      "heading": "What transfers, what stays licensed",
+      "description": "This sample checklist shows what to agree, not proof of completed BOT engagements. Sustainable transfer depends on accepted capability, clear rights and documented operating knowledge.",
+      "variant": "compact",
+      "columns": 2,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "People and operating responsibilities",
+          "description": "Illustrative readiness checklist, not a completed transfer: confirm named leadership, responsibilities and the proposed people-transition arrangements.",
+          "bullets": "Evidence – responsibility map and knowledge-transfer record\nGate – client accepts future accountability and unresolved people dependencies",
+          "accent": "yellow"
+        },
+        {
+          "title": "Processes, environments and records",
+          "description": "Check documented processes, environment inventories, access control, delivery records and operating instructions.",
+          "bullets": "Evidence – reviewed documentation and access-transition plan\nGate – agreed owners can operate the transferred scope",
+          "accent": "yellow"
+        },
+        {
+          "title": "Software, IP and licences",
+          "description": "Identify custom deliverables, reusable IP, proprietary products and third-party licences separately.",
+          "bullets": "Evidence – rights and licence register with restrictions\nGate – agreed ownership and continuing use rights\nBoundary – Linkfields products remain separately licensed unless otherwise contracted",
+          "accent": "yellow"
+        },
+        {
+          "title": "Acceptance and continuity",
+          "description": "Agree the readiness criteria, exceptions, handover sequence and any continuity-support scope.",
+          "bullets": "Evidence – acceptance record and exception register\nGate – client approval of readiness and residual risks\nBoundary – legal, entity and facility transfer must be explicitly agreed",
+          "accent": "yellow"
+        }
+      ]
+    },
+    {
+      "__component": "solutions.accordion-stack",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Before we begin",
+      "heading": "Before we agree your ownership path",
+      "variant": "full",
+      "items": [
+        {
+          "title": "What does “hand it over” include?",
+          "description": "The contract defines what transfers: people arrangements, operating responsibilities, environments, documentation and deliverables as applicable. Entity, legal and facility transfers must be explicitly scoped; they are not assumed."
+        },
+        {
+          "title": "Do we own all software and embedded IP afterwards?",
+          "description": "No blanket ownership transfer is implied. Agree rights for custom deliverables, reusable accelerators, Linkfields products and third-party software separately. Proprietary products are available by licence, subscription or SaaS, with or without services."
+        },
+        {
+          "title": "How is readiness accepted?",
+          "description": "Agree phase gates, required evidence, acceptance owners and exceptions before delivery. The client reviews operating capability, documentation, controls and rights, then accepts the agreed transfer scope and any residual risks."
+        },
+        {
+          "title": "What determines locations, timing and continuity?",
+          "description": "Location, access approvals, team readiness, scope and contractual dependencies shape the plan. Agree working-hour coverage and any post-transfer support separately. There is no standard transfer date implied by this page."
+        },
+        {
+          "title": "How do BOT and commercial models relate?",
+          "description": "BOT describes the build, operate and ownership-transition model. Fixed Price, Time & Materials, Managed Service, Dedicated Team and Outcome-Based describe commercials. Select them against phase scope and evidence; Outcome-Based fees require agreed measurable outcomes."
+        },
+        {
+          "title": "What should we bring to the first discussion?",
+          "description": "Share the capability scope, current centre stage, location constraints and intended transfer objective. We can agree an NDA before detailed discovery, then define the assessment and ownership questions together."
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your GCC ownership plan",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

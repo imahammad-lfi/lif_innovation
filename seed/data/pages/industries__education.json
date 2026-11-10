@@ -1,0 +1,255 @@
+{
+ "title": "Education",
+ "path": "/industries/education",
+ "seo": {
+  "metaTitle": "Education Technology & Campus Services | Linkfields",
+  "metaDescription": "Explore education technology services for connected campus operations, rapid course creation and governed data, with educator and staff review.",
+  "keywords": "education, EduPilot, course creation, campus integration, student services, textIQ, education technology services, campus systems integration, AI course creation for educators, student services automation, education data analytics services, education technology services South Africa",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Education",
+   "subtitle": "Accelerate course creation with EduPilot and connect student services with campus operations.",
+   "backgroundImage": {
+    "__media": "custom/hero-education.jpg",
+    "alt": "Education and campus learning environment"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Portfolios",
+     "targetId": "portfolio-map"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Software & IP",
+     "targetId": "software-accelerators"
+    },
+    {
+     "label": "Delivery",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Industry overview",
+   "heading": "Education technology services. Connected campuses.",
+   "body": "Linkfields combines enterprise platforms, integration, automation and governed Data & AI with EduPilot for rapid course creation. We connect student-service and administrative applications while defining educator and staff decision rights.\n\nSecure-by-design delivery starts with identity, access and student-data boundaries. EduPilot is positioned for course creation, not as a complete learning-management system; supported inputs, outputs and integration fit should be reviewed for your institution.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "portfolio-map",
+   "eyebrow": "Integrated delivery",
+   "heading": "Five portfolios, shaped around your work",
+   "description": "",
+   "columns": 5,
+   "tone": "navy",
+   "variant": "compact",
+   "items": [
+    {
+     "title": "Digital Transformation",
+     "description": "Connect student channels, campus applications and administrative hand-offs.",
+     "accent": "orange",
+     "number": "01",
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Integrate campus finance, procurement and operational platforms.",
+     "accent": "blue",
+     "number": "02",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Data & AI",
+     "description": "Combine governed campus analytics with course and document intelligence.",
+     "accent": "purple",
+     "number": "03",
+     "href": "/services/data-ai",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Cyber Security",
+     "description": "Design identity, application and data-access controls around campus roles.",
+     "accent": "teal",
+     "number": "04",
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Talent Advisory & GCC",
+     "description": "Shape technology roadmaps and specialist or managed delivery capacity.",
+     "accent": "yellow",
+     "number": "05",
+     "href": "/services/talent-advisory-gcc",
+     "linkLabel": "Explore portfolio"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "Learning and campus workflows",
+   "heading": "What we deliver",
+   "description": "Start with course preparation or a campus process, keeping educators and staff accountable for decisions.",
+   "columns": 2,
+   "tone": "ink",
+   "variant": "default",
+   "items": [
+    {
+     "title": "Educator-reviewed course creation",
+     "description": "Shape an EduPilot course-creation workflow around your educators’ brief, with supported inputs and review criteria agreed with the product team.",
+     "accent": "purple",
+     "bullets": "Control – educators review, edit and approve generated course outputs.\nOutput – a course-creation workflow and educator acceptance checklist.",
+     "footLabel": "Measure to agree",
+     "footText": "Preparation effort and revision needs against an agreed baseline.",
+     "href": "/products-and-accelerators/edupilot",
+     "linkLabel": "Explore EduPilot"
+    },
+    {
+     "title": "Admissions and support hand-offs",
+     "description": "When applicants or students repeat enquiries, connect approved channel interactions with admissions and service teams.",
+     "accent": "orange",
+     "bullets": "Control – staff handle decisions and sensitive or exceptional requests.\nOutput – request ownership, status updates and assisted-channel escalation.",
+     "footLabel": "Measure to agree",
+     "footText": "Hand-off effort, status clarity and request resolution time.",
+     "href": "/services/digital-transformation/whatsapp-omnichannel",
+     "linkLabel": "Explore connected channels"
+    },
+    {
+     "title": "Administrative records and approvals",
+     "description": "When records and routine approvals sit in separate systems, connect document search, routing and review with responsible staff.",
+     "accent": "purple",
+     "bullets": "Control – authorised staff review records and approve changes.\nOutput – searchable document sources and traceable approval records.",
+     "footLabel": "Measure to agree",
+     "footText": "Record-finding effort, approval time and administrative rework.",
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore document intelligence"
+    },
+    {
+     "title": "Controlled campus integration and analytics",
+     "description": "When campus reports need manual assembly, connect agreed enterprise and student-service sources through governed interfaces.",
+     "accent": "blue",
+     "bullets": "Discovery – define data access, accessibility and reporting purposes.\nControl – staff review source quality, metric definitions and reconciled reporting outputs.",
+     "footLabel": "Measure to agree",
+     "footText": "Reporting freshness, completeness and reconciliation effort.",
+     "href": "/services/data-ai/data-platforms-analytics",
+     "linkLabel": "Explore campus data platforms"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "software-accelerators",
+   "eyebrow": "",
+   "heading": "EduPilot and document intelligence",
+   "description": "Selected Linkfields products for education. Campus integrations and other IP are considered only after fit and controls are confirmed.",
+   "columns": 2,
+   "tone": "navy",
+   "variant": "default",
+   "items": [
+    {
+     "title": "EduPilot",
+     "description": "Rapid course creation for education and corporate learning. Review supported inputs, generated outputs and educator editing in a product walkthrough.",
+     "accent": "purple",
+     "eyebrow": "Product",
+     "href": "/products-and-accelerators/edupilot",
+     "linkLabel": "Explore EduPilot",
+     "logo": {
+      "__media": "custom/logos/edupilot.png",
+      "alt": "EduPilot logo"
+     },
+     "footLabel": "Evaluate fit",
+     "footText": "Agree the course brief, review workflow and deployment boundary before adoption."
+    },
+    {
+     "title": "textIQ",
+     "description": "Intelligent search and insight across unstructured enterprise content. Apply it to approved institutional documents with agreed source access and staff review.",
+     "accent": "purple",
+     "eyebrow": "Product",
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore textIQ",
+     "logo": {
+      "__media": "custom/logos/textiq.png",
+      "alt": "textIQ logo"
+     },
+     "footLabel": "Evaluate fit",
+     "footText": "Define document scope, permissions and review criteria before connecting sources."
+    }
+   ],
+   "noteLabel": "Commercial fit",
+   "note": "Products are available by licence, subscription or SaaS, with or without services. [Buying options](/products-and-accelerators#how-to-buy).",
+   "ctaLabel": "Explore EduPilot",
+   "ctaUrl": "/products-and-accelerators/edupilot"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-approach",
+   "eyebrow": "Example engagement pattern",
+   "heading": "Start with a course-creation or campus workflow",
+   "description": "Discuss the starting workflow and its constraints, then agree discovery scope, review gates and suitable commercial terms.",
+   "columns": 3,
+   "tone": "ink",
+   "variant": "compact",
+   "items": [
+    {
+     "title": "Agree inputs and responsibilities",
+     "description": "An example engagement defines the course brief or campus process, supported sources and responsible educators or staff. Agree student-data permissions and accessibility requirements.",
+     "accent": "orange",
+     "bullets": "Artefacts – workflow map and responsibility matrix\nDecisions – supported inputs, outputs and deployment boundary"
+    },
+    {
+     "title": "Review outputs and acceptance",
+     "description": "Evaluate a course-creation workflow through educator review and edits, or validate a campus integration through staff acceptance and reconciled records.",
+     "accent": "teal",
+     "bullets": "Artefacts – review checklist, test evidence and acceptance record\nMeasures – preparation effort, rework or operational hand-offs"
+    },
+    {
+     "title": "Choose the next engagement",
+     "description": "Explore EduPilot for course creation or discuss a scoped campus programme. Consider Fixed Price or Time & Materials for defined or evolving change, and managed delivery for sustained needs.",
+     "accent": "yellow",
+     "href": "/products-and-accelerators/edupilot",
+     "linkLabel": "Explore EduPilot",
+     "links": [
+      {
+       "label": "How we engage",
+       "href": "/company/our-approach"
+      }
+     ]
+    }
+   ],
+   "noteLabel": "Initial enquiry",
+   "note": "Describe the course or campus process without sending student records. We can agree an NDA before sharing confidential information.",
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "#get-in-touch"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Talk to us about education and campus priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

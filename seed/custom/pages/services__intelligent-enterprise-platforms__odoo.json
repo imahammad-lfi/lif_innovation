@@ -1,0 +1,260 @@
+{
+  "title": "Odoo implementation & integration",
+  "path": "/services/intelligent-enterprise-platforms/odoo",
+  "seo": {
+    "metaTitle": "Odoo Implementation & Integration | Linkfields",
+    "metaDescription": "Plan an Odoo implementation with Linkfields around agreed modules, standard configuration, integration, data migration, user adoption and managed support.",
+    "keywords": "Odoo implementation, Odoo integration, Odoo migration, Odoo support",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Odoo implementation & integration",
+      "subtitle": "Connect finance, inventory, sales and customer workflows in an Odoo solution shaped around your priorities.",
+      "backgroundImage": {
+        "__media": "custom/hero-intelligent-enterprise.jpg",
+        "alt": "Connected enterprise platforms and business operations"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "What We Deliver",
+          "targetId": "what-we-deliver"
+        },
+        {
+          "label": "Delivery Approach",
+          "targetId": "delivery-approach"
+        },
+        {
+          "label": "Connected Workflow",
+          "targetId": "connected-delivery"
+        },
+        {
+          "label": "Buyer Questions",
+          "targetId": "buyer-questions"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Odoo configured around your operating model",
+      "body": "When spreadsheets and disconnected applications slow everyday work, start with the processes that need to connect. Linkfields plans an Odoo implementation around agreed accounting, inventory, sales and CRM requirements rather than customising everything.\n\nThe intended outcome is fewer manual hand-offs and clearer process ownership, validated against your acceptance criteria.",
+      "secondaryEyebrow": "Decisions before delivery",
+      "secondaryHeading": "Set the platform boundaries early",
+      "secondaryBody": "Agree modules, edition, hosting and upgrade responsibilities before configuration. Confirm market-specific accounting, localisation and integration requirements with your business owners; no universal compliance or total business-coverage claim is made. [Explore Intelligent Enterprise Platforms](/services/intelligent-enterprise-platforms).",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "What we deliver with Odoo",
+      "description": "The module-to-process map is confirmed during discovery; scope does not assume every Odoo module or deployment option.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Fit-gap & module selection",
+          "description": "When processes are fragmented, decide which should move to Odoo and which should remain elsewhere.",
+          "accent": "blue",
+          "bullets": "Process-to-module map\nPhased scope and acceptance criteria"
+        },
+        {
+          "title": "Standard-first configuration",
+          "description": "When workflows need to change, use agreed configuration before introducing bespoke code.",
+          "accent": "blue",
+          "bullets": "Configuration and approval rules\nDocumented extension decisions"
+        },
+        {
+          "title": "System integration",
+          "description": "When Odoo shares work with another system, define the data and hand-off boundaries.",
+          "accent": "blue",
+          "bullets": "Interface contracts and system of record\nException handling and test cases",
+          "href": "/services/digital-transformation/integration-services",
+          "linkLabel": "Explore integration services"
+        },
+        {
+          "title": "Data migration",
+          "description": "When records move from existing tools, validate their quality and business meaning.",
+          "accent": "blue",
+          "bullets": "Source profiling and mappings\nTest loads and reconciled balances"
+        },
+        {
+          "title": "User adoption",
+          "description": "When daily tasks change, enable the users and process owners who run them.",
+          "accent": "blue",
+          "bullets": "Role-based training and guidance\nUser acceptance and adoption plan"
+        },
+        {
+          "title": "Support & controlled expansion",
+          "description": "When new needs emerge, prioritise changes against the agreed upgrade path.",
+          "accent": "blue",
+          "bullets": "Handover and support backlog\nRelease impact and regression scope",
+          "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+          "linkLabel": "Explore platform AMS"
+        }
+      ],
+      "logosLabel": "Platform we deliver",
+      "logos": [
+        {
+          "label": "Odoo",
+          "href": "/services/intelligent-enterprise-platforms/odoo",
+          "openInNewTab": false,
+          "logo": {
+            "__media": "custom/platforms/odoo.png",
+            "alt": "Odoo platform logo"
+          }
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery-approach",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "From fit-gap to adoption",
+      "description": "Example engagement pattern: each stage has a named owner and an agreed sign-off output.",
+      "variant": "compact",
+      "columns": 5,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Discover & plan",
+          "description": "Map current work, select the first modules and agree boundaries and success measures.",
+          "accent": "blue",
+          "footLabel": "Acceptance output",
+          "footText": "Approved fit-gap, scope, roadmap and acceptance criteria.",
+          "number": "01"
+        },
+        {
+          "title": "Configure & integrate",
+          "description": "Configure standard workflows and prepare only the extensions and interfaces that are needed.",
+          "accent": "blue",
+          "footLabel": "Acceptance output",
+          "footText": "Approved configuration, design and interface contracts.",
+          "number": "02"
+        },
+        {
+          "title": "Migrate & validate",
+          "description": "Rehearse data loads and test the full process with business users.",
+          "accent": "blue",
+          "footLabel": "Acceptance output",
+          "footText": "Accepted reconciliation, exception resolution and user tests.",
+          "number": "03"
+        },
+        {
+          "title": "Launch & enable",
+          "description": "Train users, rehearse cutover and agree hypercare ownership.",
+          "accent": "blue",
+          "footLabel": "Acceptance output",
+          "footText": "Accepted launch readiness and support handover.",
+          "number": "04"
+        },
+        {
+          "title": "Support & improve",
+          "description": "Review incidents, adoption and new requirements against the upgrade path.",
+          "accent": "blue",
+          "footLabel": "Acceptance output",
+          "footText": "Prioritised improvement backlog and release plan.",
+          "number": "05"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "connected-delivery",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Keep the workflow connected beyond Odoo",
+      "description": "Use reusable migration and regression packs where they fit the agreed estate. Integration and support ownership remain explicit.",
+      "variant": "compact",
+      "columns": 2,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Example order-to-invoice pattern",
+          "description": "Trace an accepted order through stock allocation, fulfilment and invoicing across the agreed modules and interfaces.",
+          "accent": "blue",
+          "bullets": "Shared customer and product identifiers\nStock and invoice exception ownership\nReconciled order and financial status",
+          "footLabel": "Illustrative evidence",
+          "footText": "A process map, sample exception log and end-to-end test pack; not a client result."
+        },
+        {
+          "title": "Linkworks where ERP/CRM does not fit",
+          "description": "Build a composable portal or complex business workflow outside the standard Odoo scope.",
+          "accent": "blue",
+          "bullets": "REST APIs and composable UI\nCloud-native applications and DevSecOps",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        }
+      ],
+      "noteLabel": "IEP accelerators",
+      "note": "Migration & Readiness · Regression & Release Assurance · Data Migration & Reconciliation · Intelligent Platform Operations",
+      "ctaLabel": "Modernisation & programme assurance",
+      "ctaUrl": "/solutions/modernisation-programme-assurance"
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "governance",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Make expansion secure and upgrade-aware",
+      "body": "Agree data owners, role permissions, approval controls and protected migration environments. Test changes against the chosen hosting and upgrade model, with business acceptance and a recovery plan before release.\n\n[Quality engineering](/services/digital-transformation/quality-engineering), [Cyber Security](/services/cyber-security) and [delivery accelerators](/products-and-accelerators/delivery-accelerators) support the agreed controls. Local accounting requirements need business and professional validation, not a blanket platform claim.",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Buyer questions",
+      "heading": "Questions before you begin",
+      "description": "Bring your priority workflows, current tools and local requirements to plan a bounded first release.",
+      "backgroundStyle": "dark",
+      "imageVariant": "compact",
+      "items": [
+        {
+          "title": "Which Odoo modules and hosting options are included?",
+          "description": "Scope is agreed against your processes, existing systems, edition, market and hosting requirements. Accounting, inventory, sales and CRM are process areas to assess, not a promise to implement every module or meet every local requirement."
+        },
+        {
+          "title": "Do we need bespoke development?",
+          "description": "Begin with standard configuration. An extension needs a clear fit-gap, owner, acceptance criteria and assessment of upgrade and support impact; a Linkworks application can be considered where the requirement sits outside the ERP/CRM core."
+        },
+        {
+          "title": "What happens to existing data and systems?",
+          "description": "Define what remains in place, what migrates and which system owns each record. Rehearse loads and agree mappings, cleansing, reconciliation and exception acceptance before cutover."
+        },
+        {
+          "title": "How do support and commercials work?",
+          "description": "Time & Materials fits discovery; Fixed Price fits agreed scope and milestones. Managed Service or a Dedicated Team can support continuing change, with service boundaries and levels agreed in the contract. Outcome-Based terms require evidenced measures; software is available separately."
+        }
+      ],
+      "logos": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your Odoo priorities",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

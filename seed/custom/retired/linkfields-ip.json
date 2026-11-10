@@ -1,0 +1,52 @@
+{
+ "title": "LINKFIELDS IP",
+ "path": "/linkfields-ip",
+ "seo": {
+  "metaTitle": "Linkfields IP | Linkfields Innovations",
+  "metaDescription": "Explore Linkfields' own software and reusable delivery IP: Linkworks, testoriumz, textIQ, Finsight, EduPilot, VajraX, VectorX and AI Governance.",
+  "keywords": "Linkfields IP, Linkworks, testoriumz, textIQ, Finsight, EduPilot, VajraX, VectorX, AI Governance",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "LINKFIELDS IP",
+   "subtitle": "Our own software and reusable delivery IP",
+   "backgroundImage": {"__media": "custom/hero-linkfields-ip.jpg", "alt": "Linkfields software and reusable delivery IP"},
+   "anchorLinks": [{"label": "OVERVIEW", "targetId": "overview"}, {"label": "OUR PRODUCTS", "targetId": "our-products"}, {"label": "GET IN TOUCH", "targetId": "get-in-touch"}]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Software alongside specialist services",
+   "body": "Linkfields combines specialist services with our own software and reusable delivery IP. Our products span enterprise applications, continuous testing, document intelligence, banking analytics, education AI and cyber security.\n\nLinkworks, testoriumz, VajraX and our AI SaaS solutions are available by licence, subscription or SaaS, with or without a Linkfields services engagement.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.how-can-we-help",
+   "anchorId": "our-products",
+   "eyebrow": "OUR PRODUCTS",
+   "heading": "Explore Linkfields IP",
+   "description": "Discover our software, explore the available live demos or talk to us about the right fit for your organisation.",
+   "linkedCards": false,
+   "cards": [
+    {"icon": {"__media": "custom/icons/linkfields-ip.svg", "alt": ""}, "title": "Linkworks", "description": "Composable enterprise application platform for complex business apps where packaged ERP or CRM does not fit.", "href": "/linkfields-ip/linkworks", "linkLabel": "Explore Linkworks"},
+    {"icon": {"__media": "s3/Frame 402 (35).png", "alt": ""}, "title": "testoriumz", "description": "Quality engineering platform for continuous testing: test management, low-code automation, root-cause analysis, dashboards and CI/CD integration.", "href": "https://testoriumz.com", "linkLabel": "Visit testoriumz"},
+    {"icon": {"__media": "s3/Frame 15880330 (1).png", "alt": ""}, "title": "textIQ", "description": "Intelligent search and document intelligence across unstructured enterprise content.", "href": "/linkfields-ip/textiq", "linkLabel": "Explore textIQ"},
+    {"icon": {"__media": "s3/Frame 402 (63).png", "alt": ""}, "title": "Finsight", "description": "Banking analytics with conversational analysis and reporting over financial data.", "href": "/linkfields-ip/finsight", "linkLabel": "Explore Finsight"},
+    {"icon": {"__media": "custom/icons/linkfields-ip.svg", "alt": ""}, "title": "EduPilot", "description": "Education AI for rapid course creation, education workflows and learner support.", "href": "/linkfields-ip/edupilot", "linkLabel": "Explore EduPilot"},
+    {"icon": {"__media": "custom/icons/cyber-security.svg", "alt": ""}, "title": "VajraX", "description": "AI-powered exposure validation of your external attack surface.", "href": "/linkfields-ip/vajrax", "linkLabel": "Explore VajraX"},
+    {"icon": {"__media": "s3/search-code.png", "alt": ""}, "title": "VectorX", "description": "Code scanning and supply-chain analysis, repo to release.", "href": "/linkfields-ip/vectorx", "linkLabel": "Explore VectorX"},
+    {"icon": {"__media": "custom/icons/linkfields-ip.svg", "alt": ""}, "title": "AI Governance", "description": "One gateway for every AI tool: guardrails, cost and tracing with Portkey + Opik.", "href": "/linkfields-ip/ai-governance", "linkLabel": "Explore AI Governance"}
+   ]
+  },
+  {"__component": "sections.message-banner", "anchorId": "", "title": "Find the right Linkfields IP for your organisation", "description": "", "ctaLabel": "Talk to us", "ctaUrl": "/contact-us"},
+  {"__component": "sections.contact-form", "anchorId": "get-in-touch", "heading": "", "subheading": "", "nextStepsTitle": "", "nextSteps": [], "layout": "section", "theme": "dark"},
+  {"__component": "sections.social-banner", "heading": "", "links": []}
+ ]
+}

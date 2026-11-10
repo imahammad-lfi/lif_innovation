@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_company_card_grid",
+  "info": {
+    "displayName": "Company card grid",
+    "icon": "grid",
+    "description": "Editable values or approach icon-card matrix."
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "text" },
+    "description": { "type": "text" },
+    "cards": { "type": "component", "repeatable": true, "component": "shared.icon-card" },
+    "backgroundImage": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
+    "variant": { "type": "enumeration", "enum": ["values", "work"], "default": "values" }
+  }
+}

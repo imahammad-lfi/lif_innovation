@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_elements_products_products",
+  "info": {
+    "displayName": "Product (portfolio)",
+    "icon": "cube",
+    "description": "A proprietary product inside a product category"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

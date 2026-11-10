@@ -1,0 +1,325 @@
+{
+  "title": "Talent Advisory & GCC",
+  "path": "/services/talent-advisory-gcc",
+  "seo": {
+    "metaTitle": "Talent Advisory & GCC Services | Linkfields Innovations",
+    "metaDescription": "Strategy, specialist talent and Global Capability Centres that scale with you. Explore advisory, managed teams, staff augmentation and GCC build-operate-transfer.",
+    "keywords": "technology advisory, specialist talent, managed teams, GCC, staff augmentation",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Talent Advisory & GCC",
+      "subtitle": "Advise · Staff · Scale",
+      "backgroundImage": {
+        "__media": "custom/hero-talent-gcc.jpg",
+        "alt": "Talent Advisory & GCC"
+      },
+      "anchorLinks": [
+        {
+          "label": "OVERVIEW",
+          "targetId": "overview"
+        },
+        {
+          "label": "WHAT WE OFFER",
+          "targetId": "what-we-offer"
+        },
+        {
+          "label": "ENGAGEMENT MODELS",
+          "targetId": "engagement-models"
+        },
+        {
+          "label": "WHY US",
+          "targetId": "why-us"
+        },
+        {
+          "label": "GET IN TOUCH",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "The strategy and skills to scale with confidence",
+      "body": "Strategy, specialist talent and Global Capability Centres (GCC) that scale with you. We bring technology roadmaps, architecture and assessments together with the people and delivery models to put them into practice.\n\nFrom specialists embedded in your organisation to managed delivery pods and GCC build-operate-transfer centres, choose an engagement that fits your priorities.",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "hubs.what-we-offer",
+      "anchorId": "what-we-offer",
+      "eyebrow": "WHAT WE OFFER",
+      "heading": "Advice, expertise and delivery capacity",
+      "body": "Build the right foundations, add specialist skills and scale capability through a model designed around your business.",
+      "cards": [
+        {
+          "title": "Technology advisory",
+          "description": "Roadmaps, architecture and assessments. Expert insights help align technology decisions with business goals.",
+          "image": {
+            "__media": "s3/technology-advisory.jpg",
+            "alt": "Technology advisory"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/services/talent-advisory-gcc/technology-advisory",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Specialist talent & managed teams",
+          "description": "On-demand experts across verticals and outcome-based delivery pods. Add the skills you need or bring in a team we run end to end.",
+          "image": {
+            "__media": "s3/iot-development-fake.png",
+            "alt": "Specialist talent & managed teams"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "GCC strategy & setup",
+          "description": "Operating model and set-up advisory for Global Capability Centres. Define the capability, governance and delivery foundations before you scale.",
+          "image": {
+            "__media": "custom/hero-gcc.jpg",
+            "alt": "GCC strategy & setup"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "GCC build-operate-transfer",
+          "description": "We build and run your GCC, then hand it over. Scale and govern with talent, tooling and embedded IP.",
+          "image": {
+            "__media": "custom/hero-talent-gcc.jpg",
+            "alt": "GCC build-operate-transfer"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+            "openInNewTab": false
+          }
+        }
+      ]
+    },
+    {
+      "__component": "solutions.how-can-we-help",
+      "anchorId": "engagement-models",
+      "eyebrow": "ENGAGEMENT MODELS",
+      "heading": "Choose how we work together",
+      "description": "Specialists, managed delivery pods or a centre you will ultimately own: match the engagement to the level of responsibility and control you need.",
+      "image": null,
+      "backgroundImage": {
+        "__media": "site/backgroud-images/how-can-we-help.jpg",
+        "alt": ""
+      },
+      "linkedCards": true,
+      "cards": [
+        {
+          "title": "Staff augmentation",
+          "description": "Specialists embedded in your teams, ready to start fast.",
+          "icon": {
+            "__media": "s3/people (1).png",
+            "alt": "Staff augmentation"
+          },
+          "href": "/services/talent-advisory-gcc/staff-augmentation",
+          "linkLabel": "Read more",
+          "color": ""
+        },
+        {
+          "title": "Managed teams",
+          "description": "Outcome-based delivery pods we run end to end.",
+          "icon": {
+            "__media": "s3/Frame 402 (67).png",
+            "alt": "Managed teams"
+          },
+          "href": "/services/talent-advisory-gcc/managed-teams",
+          "linkLabel": "Read more",
+          "color": ""
+        },
+        {
+          "title": "GCC build-operate-transfer",
+          "description": "We build and run your GCC, then hand it over.",
+          "icon": {
+            "__media": "s3/share (1).png",
+            "alt": "GCC build-operate-transfer"
+          },
+          "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+          "linkLabel": "Read more",
+          "color": ""
+        }
+      ]
+    },
+    {
+      "__component": "sections.stats-band",
+      "anchorId": "why-us",
+      "eyebrow": "WHY US",
+      "heading": "Specialist depth. Global delivery.",
+      "description": "Headquartered in South Africa, delivering globally through specialist teams and our own software and reusable delivery IP.",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/persistently_innovative.jpg",
+        "width": 1920,
+        "height": 784,
+        "mime": "image/jpeg",
+        "alt": "Persistently innovative background"
+      },
+      "stats": [
+        {
+          "value": "550",
+          "suffix": "+",
+          "label": "people"
+        },
+        {
+          "value": "150",
+          "suffix": "+",
+          "label": "consultants"
+        },
+        {
+          "value": "5",
+          "suffix": "+",
+          "label": "data & development centres"
+        },
+        {
+          "value": "18",
+          "suffix": "+",
+          "label": "years"
+        }
+      ]
+    },
+    {
+      "__component": "sections.industries-showcase",
+      "anchorId": "our-expertise",
+      "eyebrow": "OUR EXPERTISE",
+      "heading": "Constantly Innovating",
+      "description": "Our 16 years in business have acquainted us to a diverse list of industries with different requirements. We have consistently proven our adaptability to all kinds of business models, irrespective of their industry.",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/constantly-innovating.jpg",
+        "width": 2560,
+        "height": 1117,
+        "mime": "image/jpeg",
+        "alt": "Constantly innovating background"
+      },
+      "items": [
+        {
+          "title": "Telecom",
+          "image": {
+            "__media": "s3/telecom-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Telecom"
+          },
+          "href": "/industries/telecom"
+        },
+        {
+          "title": "Fintech",
+          "image": {
+            "__media": "s3/fintech-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Fintech"
+          },
+          "href": "/industries/fintech"
+        },
+        {
+          "title": "FMCG",
+          "image": {
+            "__media": "s3/FMCG (1).png",
+            "width": 1660,
+            "height": 632,
+            "mime": "image/png",
+            "alt": "FMCG"
+          },
+          "href": "/industries/fmcg"
+        },
+        {
+          "title": "Banking",
+          "image": {
+            "__media": "s3/banking-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Banking"
+          },
+          "href": "/industries/banking"
+        },
+        {
+          "title": "Insurance",
+          "image": {
+            "__media": "s3/insurance-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Insurance"
+          },
+          "href": "/industries/insurance"
+        },
+        {
+          "title": "Mining",
+          "image": {
+            "__media": "s3/mining-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Mining"
+          },
+          "href": "/industries/mining"
+        },
+        {
+          "title": "Oil and Gas",
+          "image": {
+            "__media": "s3/oil&gas-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Oil and Gas"
+          },
+          "href": "/industries/oil-gas"
+        },
+        {
+          "title": "Manufacturing",
+          "image": {
+            "__media": "s3/Manufacturing (1).png",
+            "width": 1660,
+            "height": 632,
+            "mime": "image/png",
+            "alt": "Manufacturing"
+          },
+          "href": "/industries/manufacturing"
+        }
+      ]
+    },
+    {
+      "__component": "sections.featured-insights",
+      "anchorId": "insights",
+      "heading": "",
+      "items": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "",
+      "subheading": "",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.social-banner",
+      "heading": "",
+      "links": []
+    }
+  ]
+}

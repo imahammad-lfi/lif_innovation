@@ -1,0 +1,12 @@
+.git
+.github
+**/node_modules
+**/.next
+**/build
+**/dist
+**/.tmp
+**/.strapi
+**/public/uploads
+**/.env
+**/.env.*
+*.log

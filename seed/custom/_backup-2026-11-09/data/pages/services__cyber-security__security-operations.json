@@ -1,0 +1,150 @@
+{
+ "title": "Security operations",
+ "path": "/services/cyber-security/security-operations",
+ "seo": {
+  "metaTitle": "Security Operations Services | Linkfields Innovations",
+  "metaDescription": "Connect Splunk SIEM and Qualys monitoring with incident response using Rapid7. Detect, triage and contain with clear operational responsibilities.",
+  "keywords": "security operations, Splunk SIEM, Qualys monitoring, Rapid7, incident response",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Security operations",
+   "subtitle": "Detect, triage and contain with a clear operational response.",
+   "backgroundImage": {
+    "__media": "custom/hero-security-operations.jpg",
+    "alt": "Enterprise security operations"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Turn security signals into informed action",
+   "body": "Monitoring matters when teams know what to do with the findings. Linkfields connects security operations — Splunk SIEM and Qualys monitoring — with incident response using Rapid7: detect, triage, contain.\n\nAlign the information your tools provide with operational responsibilities and escalation paths. Help security and technology teams investigate the right issues, coordinate containment and carry lessons back into day-to-day operations.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Monitoring and response, working together",
+   "description": "Security operations: Splunk SIEM, Qualys monitoring. Incident response: Rapid7: detect, triage, contain.",
+   "items": [],
+   "cardLayout": "two",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/search-code.png",
+      "alt": ""
+     },
+     "title": "Splunk SIEM",
+     "description": "Bring security events into the operational picture. Support investigation with the context teams need to assess suspicious activity."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (65).png",
+      "alt": ""
+     },
+     "title": "Qualys monitoring",
+     "description": "Use monitoring findings to inform security priorities. Connect the issues identified with responsible owners and follow-up actions."
+    },
+    {
+     "icon": {
+      "__media": "s3/key refresh (1).png",
+      "alt": ""
+     },
+     "title": "Incident response",
+     "description": "Rapid7: detect, triage, contain. Coordinate investigation and containment within agreed responsibilities and escalation procedures."
+    },
+    {
+     "icon": {
+      "__media": "s3/rotate-cw (1).png",
+      "alt": ""
+     },
+     "title": "Operational review",
+     "description": "Review what incidents and investigations reveal. Refine monitoring priorities, response procedures and the handover between teams."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "title": "Make the next security signal actionable",
+   "description": "Connect visibility with a response your teams understand.",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "A coordinated path from detection to containment",
+   "description": "Establish the scope of monitoring and response with your teams. Agree what is observed, how it is assessed and who makes each decision.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "items": [
+    {
+     "title": "Establish visibility",
+     "description": "Understand the systems in scope, the security information available and the responsibilities around Splunk SIEM and Qualys monitoring."
+    },
+    {
+     "title": "Detect and triage",
+     "description": "Review signals in context, investigate relevant activity and agree the priority of findings before escalating a response."
+    },
+    {
+     "title": "Coordinate containment",
+     "description": "Use agreed response procedures and Rapid7 to support containment. Keep system owners and relevant stakeholders involved in decisions."
+    },
+    {
+     "title": "Review and improve",
+     "description": "Document the response, review contributing conditions and agree follow-up actions. Feed the learning into monitoring and response procedures."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

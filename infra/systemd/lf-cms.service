@@ -1,0 +1,28 @@
+# Linkfields CMS – Strapi 5 in production mode on a single VM (preview / small installs).
+# AWS production uses ECS (infra/terraform); this unit is for one-box hosting such as the preview sandbox.
+# Install: sudo cp infra/systemd/*.service /etc/systemd/system/ && sudo systemctl daemon-reload \
+#          && sudo systemctl enable --now lf-cms lf-web
+[Unit]
+Description=Linkfields CMS (Strapi 5, production)
+After=network-online.target docker.service
+Wants=network-online.target docker.service
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/linkfields/apps/cms
+Environment=NODE_ENV=production
+Environment=STRAPI_TELEMETRY_DISABLED=true
+Environment=PATH=/opt/node26/bin:/usr/local/bin:/usr/bin:/bin
+# PostgreSQL 18 runs in the "pg18" container (restart policy unless-stopped); start it and wait until it accepts connections.
+ExecStartPre=+/usr/bin/docker start pg18
+ExecStartPre=+/bin/bash -c 'for i in $(seq 1 90); do docker exec pg18 pg_isready -q && exit 0; sleep 1; done; exit 1'
+ExecStart=/opt/node26/bin/node node_modules/@strapi/strapi/bin/strapi.js start
+Restart=always
+RestartSec=5
+TimeoutStartSec=180
+StandardOutput=append:/var/log/linkfields/cms.log
+StandardError=append:/var/log/linkfields/cms.log
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_layout_office",
+  "info": {
+    "displayName": "Office",
+    "icon": "pinMap",
+    "description": "One office address (no phone numbers). Shown in the footer and the Office locations section."
+  },
+  "options": {},
+  "attributes": {
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "isHeadquarters": {
+      "type": "boolean",
+      "default": false
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "mapQuery": {
+      "type": "string"
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": ["orange", "blue", "purple", "teal", "yellow"]
+    }
+  }
+}

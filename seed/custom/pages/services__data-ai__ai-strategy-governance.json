@@ -1,0 +1,116 @@
+{
+  "title": "AI strategy & governance",
+  "path": "/services/data-ai/ai-strategy-governance",
+  "seo": {
+    "metaTitle": "AI Strategy & Governance | Linkfields",
+    "metaDescription": "Prioritise enterprise AI use cases, assess readiness and define ownership, approval gates and production controls with Linkfields AI strategy and governance.",
+    "keywords": "AI strategy, AI governance, AI roadmap, use-case prioritisation",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "AI strategy & governance",
+      "subtitle": "A clear direction for AI, with governance from day one.",
+      "backgroundImage": {"__media": "custom/hero-ai-governance.jpg", "alt": "Connected enterprise AI systems and governance"},
+      "anchorLinks": [
+        {"label": "Overview", "targetId": "overview"},
+        {"label": "What We Deliver", "targetId": "what-we-deliver"},
+        {"label": "Delivery Approach", "targetId": "delivery-approach"},
+        {"label": "Software & Services", "targetId": "software-services"},
+        {"label": "Buyer Questions", "targetId": "buyer-questions"},
+        {"label": "Get in touch", "targetId": "get-in-touch"}
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Data & AI",
+      "heading": "Turn AI ambition into a practical roadmap",
+      "body": "Which AI use cases deserve investment, and what must be in place before they go live? We help business, technology and risk teams agree priorities, ownership and a governed route to delivery.\n\nCompeting pilots, unclear value and unclear accountability are reasons to pause and set direction. Agree who owns each use case, what the system may do and where people must oversee it.\n\n[Explore Data & AI](/services/data-ai).",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "What we deliver",
+      "heading": "Business value, with clear boundaries",
+      "description": "Shape an advisory engagement around the decisions you need to make. Agree the depth and format of these outputs during scoping.",
+      "variant": "default",
+      "columns": 4,
+      "tone": "navy",
+      "items": [
+        {"number": "01", "title": "Prioritised use-case portfolio", "description": "Compare opportunities by value assumptions, feasibility and risk.", "bullets": "Decision owner and intended users\nDependencies and measures of value\nDelivery sequence and approval gates", "accent": "purple"},
+        {"number": "02", "title": "Data & AI readiness assessment", "description": "Assess what each use case needs before delivery can begin.", "bullets": "Available data and access constraints\nArchitecture and integration needs\nSkills, ownership and readiness gaps", "accent": "purple"},
+        {"number": "03", "title": "Governance operating model", "description": "Define accountability across business, technology and risk teams.", "bullets": "Decision rights and review forums\nHuman oversight and escalation\nRisk ownership and change approval", "accent": "purple"},
+        {"number": "04", "title": "Production control plan", "description": "Specify controls to implement, rather than imply that tooling is included.", "bullets": "Cost budgets and usage review\nEvaluation and tracing requirements\nRelease criteria and operating owners", "accent": "purple"}
+      ]
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "delivery-approach",
+      "eyebrow": "Delivery approach",
+      "heading": "From opportunity to accountable delivery",
+      "description": "Bring the decision-makers together before choosing a model or platform. Each step ends with an output to review and an owner to agree.",
+      "backgroundStyle": "dark",
+      "items": [
+        {"title": "Understand the opportunity — decision brief", "description": "Clarify the business decision, current pilots, constraints and intended users. Agree what value means and which stakeholders must review the scope."},
+        {"title": "Prioritise the roadmap — sequenced use cases", "description": "Compare value assumptions, feasibility, dependencies and risk. Agree acceptance criteria and the conditions under which an opportunity should stop, proceed or change."},
+        {"title": "Set the guardrails — control responsibilities", "description": "Agree access boundaries, human oversight, approval gates and escalation. Specify cost, quality and tracing requirements for the delivery teams to implement."},
+        {"title": "Review and adapt — delivery hand-off", "description": "Route approved work to Agentic AI, Data platforms or Machine learning teams. Review delivery evidence and operating feedback before expanding the roadmap; assign responsibility for reassessing controls."}
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "software-services",
+      "eyebrow": "Advisory, implementation and IP",
+      "heading": "Choose the right delivery route",
+      "description": "Agree the operating model here; implement controls with the relevant delivery teams. Advisory, security validation and software are distinct buying decisions.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {"title": "From roadmap to implementation", "description": "Move an approved use case into the service that fits the decision and data needs.", "links": [{"label": "Agentic AI & GenAI", "href": "/services/data-ai/agentic-ai-genai"}, {"label": "Data platforms & analytics", "href": "/services/data-ai/data-platforms-analytics"}, {"label": "Machine learning", "href": "/services/data-ai/machine-learning"}], "accent": "purple"},
+        {"title": "AI security & GRC services", "description": "Scope specialist AI testing, security controls and risk work separately from the governance operating model.", "href": "/services/cyber-security/ai-security-grc", "linkLabel": "Explore AI security & GRC", "accent": "purple"},
+        {"title": "Linkfields software: AI gateway & guardrails", "logo": {"__media": "custom/logos/ai-governance.png", "alt": "AI Governance software"}, "description": "AI Governance brings guardrails, cost and tracing through a Linkfields layer built on Portkey and Opik. It does not replace organisational accountability.", "href": "/products-and-accelerators/ai-governance", "linkLabel": "Explore AI Governance", "accent": "purple"}
+      ],
+      "noteLabel": "Software is a separate choice",
+      "note": "Products are available by licence, subscription or SaaS, with or without services. Confirm fit and scope; software is not automatically included in an advisory engagement."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "accountable-decision",
+      "eyebrow": "Illustrative engagement pattern",
+      "heading": "An AI decision made accountable",
+      "description": "For an organisation with competing AI pilots, the next step may be a prioritisation decision rather than another build. This pattern illustrates outputs and controls to agree, not a client case or achieved result.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "ctaLabel": "Discuss your AI priorities",
+      "ctaUrl": "#get-in-touch",
+      "items": [
+        {"number": "01", "title": "Make the investment decision", "description": "Compare the pilots against a shared decision brief. Record the value assumptions, readiness gaps and reason to prioritise, defer or stop each one.", "accent": "purple"},
+        {"number": "02", "title": "Document ownership and controls", "description": "Agree a roadmap and risk/control record. Name business approval, data access, human-review and escalation owners; identify security validation that needs a specialist team.", "accent": "purple"},
+        {"number": "03", "title": "Hand over with acceptance gates", "description": "Give the relevant engineering team the approved scope and control requirements. Agree what evidence will support release and how operational feedback will inform the next investment review.", "accent": "purple"}
+      ],
+      "noteLabel": "Start the conversation",
+      "note": "Bring your business priorities, current pilots and governance questions. Discuss stakeholders, first-discussion scoping and the appropriate engagement model."
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Buyer questions",
+      "heading": "Agree the scope before you commit",
+      "description": "Start with the decision, current initiatives and main constraint. Select a commercial model around the uncertainty, deliverables and ownership involved.",
+      "backgroundStyle": "dark",
+      "items": [
+        {"title": "Do we need a strategy if pilots already exist?", "description": "A strategy discussion can compare existing pilots, surface dependencies and clarify which deserve further investment. It need not restart useful work; it should make the next decision and its acceptance criteria explicit."},
+        {"title": "How does advisory differ from AI Governance software?", "description": "Advisory defines priorities, roles and operating controls. AI Governance software provides a gateway for guardrails, cost and tracing. Security testing and control implementation require their own agreed scope; neither software nor a compliance outcome is an automatic inclusion."},
+        {"title": "Which engagement model fits this work?", "description": "Time & Materials suits discovery and evolving roadmaps. Fixed Price suits defined outputs with agreed milestones and acceptance criteria. Dedicated Team, Managed Service or Outcome-Based arrangements can be discussed where responsibilities and measurable outcomes can be agreed and evidenced."},
+        {"title": "What should we share in the first discussion?", "description": "Describe the business decision, current AI initiatives and main constraint, without sending sensitive documents through the enquiry form. Agree stakeholders and scoping next steps with the team. An NDA can be arranged where required."}
+      ]
+    },
+    {"__component": "sections.contact-form", "anchorId": "get-in-touch", "heading": "Get in touch", "subheading": "Discuss your AI strategy and governance priorities", "nextStepsTitle": "", "nextSteps": [], "layout": "section", "theme": "dark"}
+  ]
+}

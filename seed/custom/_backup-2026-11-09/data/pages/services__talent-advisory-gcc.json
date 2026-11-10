@@ -1,0 +1,390 @@
+{
+ "title": "Talent Advisory & GCC",
+ "path": "/services/talent-advisory-gcc",
+ "seo": {
+  "metaTitle": "Talent Advisory & GCC Services | Linkfields Innovations",
+  "metaDescription": "Strategy, specialist talent and Global Capability Centres that scale with you. Explore advisory, managed teams, staff augmentation and GCC build-operate-transfer.",
+  "keywords": "technology advisory, specialist talent, managed teams, GCC, staff augmentation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Talent Advisory & GCC",
+   "subtitle": "Advise · Staff · Scale",
+   "backgroundImage": {
+    "__media": "custom/hero-talent-gcc.jpg",
+    "alt": "Talent Advisory & GCC"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE DELIVER",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "SERVICES",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "ENGAGEMENT MODELS",
+     "targetId": "engagement-models"
+    },
+    {
+     "label": "VALUE PLAYS",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "WHO WE SERVE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "The strategy and skills to scale with confidence",
+   "body": "Strategy, specialist talent and Global Capability Centres (GCC) that scale with you. We bring technology roadmaps, architecture and assessments together with the people and delivery models to put them into practice.\n\nFrom specialists embedded in your organisation to managed delivery pods and GCC build-operate-transfer centres, choose an engagement that fits your priorities.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "heading": "Strategy, specialist talent and *GCCs that scale with you*",
+   "items": [
+    {
+     "title": "Technology advisory",
+     "number": "01",
+     "description": "Roadmaps, architecture & assessments",
+     "href": "/services/talent-advisory-gcc/technology-advisory",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Specialist talent",
+     "number": "02",
+     "description": "On-demand experts across portfolios",
+     "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Managed teams",
+     "number": "03",
+     "description": "Outcome-based delivery pods",
+     "href": "/services/talent-advisory-gcc/managed-teams",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "GCC strategy & setup",
+     "number": "04",
+     "description": "Operating model & set-up advisory",
+     "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "GCC build & operate",
+     "number": "05",
+     "description": "Build-Operate-Transfer (BOT) centres",
+     "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "GCC scale & govern",
+     "number": "06",
+     "description": "Talent, tooling & embedded IP",
+     "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+     "linkLabel": "Read more"
+    }
+   ],
+   "eyebrow": "What we deliver",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink"
+  },
+  {
+   "__component": "hubs.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "Specialist services",
+   "heading": "Advice, expertise and delivery capacity",
+   "body": "Build the right foundations, add specialist skills and scale capability through a model designed around your business.",
+   "cards": [
+    {
+     "title": "Technology advisory",
+     "description": "Roadmaps, architecture and assessments. Expert insights help align technology decisions with business goals.",
+     "image": {
+      "__media": "s3/technology-advisory.jpg",
+      "alt": "Technology advisory"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/talent-advisory-gcc/technology-advisory",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Specialist talent & managed teams",
+     "description": "On-demand experts across verticals and outcome-based delivery pods. Add the skills you need or bring in a team we run end to end.",
+     "image": {
+      "__media": "s3/iot-development-fake.png",
+      "alt": "Specialist talent & managed teams"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "GCC strategy & setup",
+     "description": "Operating model and set-up advisory for Global Capability Centres. Define the capability, governance and delivery foundations before you scale.",
+     "image": {
+      "__media": "custom/hero-gcc.jpg",
+      "alt": "GCC strategy & setup"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "GCC build-operate-transfer",
+     "description": "We build and run your GCC, then hand it over. Scale and govern with talent, tooling and embedded IP.",
+     "image": {
+      "__media": "custom/hero-talent-gcc.jpg",
+      "alt": "GCC build-operate-transfer"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "engagement-models",
+   "heading": "Three ways to *add capacity*",
+   "items": [
+    {
+     "title": "Staff augmentation",
+     "number": "01",
+     "accent": "yellow",
+     "description": "Specialists embedded in your teams, ready to start fast.",
+     "href": "/services/talent-advisory-gcc/staff-augmentation",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Managed teams",
+     "number": "02",
+     "accent": "orange",
+     "description": "Outcome-based delivery pods we run end to end.",
+     "href": "/services/talent-advisory-gcc/managed-teams",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "GCC Build-Operate-Transfer (BOT)",
+     "number": "03",
+     "accent": "blue",
+     "description": "We build and run your GCC, then hand it over.",
+     "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+     "linkLabel": "Read more"
+    }
+   ],
+   "eyebrow": "Engagement models",
+   "columns": 3,
+   "tone": "navy",
+   "description": "Scale delivery capacity with the model that fits your roadmap, from embedded specialists to a capability centre you own.",
+   "strip": "Scalable Talent & Delivery | Accelerated GCC Setup | Governed Delivery & Embedded IP | Sustainable Capability Transfer"
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "Where we lead with *outcomes*",
+   "description": "Every play starts from a customer problem. Our five portfolios and Linkfields software sit behind each one.",
+   "plays": [
+    {
+     "title": "Capability Centres with Embedded IP",
+     "accent": "yellow",
+     "trigger": "Organisations need scalable delivery capacity with stronger governance and automation.",
+     "outcome": "Build-operate-transfer GCCs with quality, security and engineering IP embedded.",
+     "ip": "Linkworks, Delivery Governance, Quality Engineering IP, Cyber-Safe Delivery"
+    }
+   ],
+   "ctaLabel": "Discuss your challenge",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "why-us",
+   "eyebrow": "WHY US",
+   "heading": "Specialist depth. Global delivery.",
+   "description": "Headquartered in South Africa, delivering globally through specialist teams and our own software and reusable delivery IP.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "550",
+     "suffix": "+",
+     "label": "people"
+    },
+    {
+     "value": "150",
+     "suffix": "+",
+     "label": "consultants"
+    },
+    {
+     "value": "5",
+     "suffix": "+",
+     "label": "data & development centres"
+    },
+    {
+     "value": "20",
+     "suffix": "+",
+     "label": "years of industry leadership experience"
+    }
+   ]
+  },
+  {
+   "__component": "sections.industries-grid",
+   "anchorId": "our-expertise",
+   "eyebrow": "WHO WE SERVE",
+   "heading": "Industries we know deeply",
+   "description": "Digital innovation, intelligent automation and Data & AI, with outcomes tailored to each industry we serve.",
+   "items": [
+    {
+     "title": "Telecom",
+     "description": "Transform telecom and customer experiences with digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-telecom.jpg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom",
+     "tags": "Digital services\nCustomer engagement\nIntelligent connectivity\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "BFSI",
+     "description": "Reimagine banking, insurance and customer services with secure digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-bfsi.jpg",
+      "alt": "BFSI"
+     },
+     "href": "/industries/bfsi",
+     "tags": "Security\nDigital financial services\nIntelligent automation\nCustomer Experience",
+     "accent": null
+    },
+    {
+     "title": "Healthcare & Pharma",
+     "description": "Transform healthcare with digital innovation, AI-driven insights and intelligent automation for better patient care.",
+     "image": {
+      "__media": "custom/industries/ind-healthcare.jpg",
+      "alt": "Healthcare & Pharma"
+     },
+     "href": "/industries/healthcare-pharma",
+     "tags": "Patient care\nDigital health\nAI-powered insights",
+     "accent": null
+    },
+    {
+     "title": "Retail, FMCG & CPG",
+     "description": "Reimagine retail and consumer experiences with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-retail.jpg",
+      "alt": "Retail, FMCG & CPG"
+     },
+     "href": "/industries/retail-fmcg-cpg",
+     "tags": "Customer experience\nForecasting\nPersonalisation\nGrowth",
+     "accent": null
+    },
+    {
+     "title": "Manufacturing",
+     "description": "Accelerate smart manufacturing with digital innovation, AI-powered automation and predictive intelligence.",
+     "image": {
+      "__media": "custom/industries/ind-manufacturing.jpg",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing",
+     "tags": "Smart factories\nOperational excellence\nPredictive intelligence",
+     "accent": null
+    },
+    {
+     "title": "Energy & Mining",
+     "description": "Transform energy and mining operations with digital innovation, intelligent automation and secure Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-energy-mining.jpg",
+      "alt": "Energy & Mining"
+     },
+     "href": "/industries/energy-mining",
+     "tags": "Asset optimisation\nAutomation\nSecurity\nOperational efficiency",
+     "accent": null
+    },
+    {
+     "title": "Public Sector",
+     "description": "Modernise public services with secure digital innovation, intelligent automation and Data & AI for citizens and agencies.",
+     "image": {
+      "__media": "custom/industries/ind-public-sector.jpg",
+      "alt": "Public Sector"
+     },
+     "href": "/industries/public-sector",
+     "tags": "Citizen services\nDigital government\nSecure data\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "Education",
+     "description": "Transform learning and campus operations with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-education.jpg",
+      "alt": "Education"
+     },
+     "href": "/industries/education",
+     "tags": "Digital learning\nStudent experience\nAI-powered insights\nAutomation",
+     "accent": null
+    }
+   ],
+   "cta": null
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

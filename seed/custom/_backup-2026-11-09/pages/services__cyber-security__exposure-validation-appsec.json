@@ -1,0 +1,74 @@
+{
+  "title": "Exposure validation & AppSec",
+  "path": "/services/cyber-security/exposure-validation-appsec",
+  "seo": {
+    "metaTitle": "Exposure Validation & AppSec | Linkfields Innovations",
+    "metaDescription": "Validate external attack-surface exposure with VajraX and review code and supply-chain risk with Vector X, supported by offensive testing.",
+    "keywords": "exposure validation, AppSec, VajraX, Vector X, code scanning, supply-chain analysis, offensive testing",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Exposure validation & AppSec",
+      "subtitle": "Validate exposure. Examine code. Test what matters.",
+      "backgroundImage": {"__media": "custom/hero-appsec.jpg", "alt": "Exposure validation and application security"},
+      "anchorLinks": [
+        {"label": "OVERVIEW", "targetId": "overview"},
+        {"label": "WHAT WE OFFER", "targetId": "what-we-offer"},
+        {"label": "OUR PROCESS", "targetId": "our-process"},
+        {"label": "GET IN TOUCH", "targetId": "get-in-touch"}
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "Security from the outside in, and repo to release",
+      "body": "End-to-end security, from code to AI: our own products plus specialist services. VajraX is Linkfields' AI-powered exposure validation of your external attack surface. Vector X provides code scanning and supply-chain analysis, repo to release.\n\nCombine these distinct perspectives with offensive testing of AI, LLMs and web applications. Build a clearer view of exposure and give engineering teams findings they can investigate, prioritise and address.",
+      "theme": "light"
+    },
+    {
+      "__component": "services.what-we-offer",
+      "anchorId": "what-we-offer",
+      "eyebrow": "WHAT WE OFFER",
+      "heading": "Connect exposure with application risk",
+      "description": "Our own security IP and specialist testing bring external exposure and software delivery into the same conversation.",
+      "items": [],
+      "cardLayout": "two",
+      "cards": [
+        {"icon": {"__media": "s3/Frame 402 (65).png", "alt": ""}, "title": "VajraX", "description": "LINKFIELDS IP: AI-powered exposure validation of your external attack surface."},
+        {"icon": {"__media": "s3/search-code.png", "alt": ""}, "title": "Vector X", "description": "LINKFIELDS IP: Code scanning and supply-chain analysis, repo to release."},
+        {"icon": {"__media": "s3/Frame 403 (12).png", "alt": ""}, "title": "Offensive testing", "description": "AI, LLM & web app testing. Assess agreed scenarios and turn findings into practical remediation work."},
+        {"icon": {"__media": "s3/Clip path group.png", "alt": ""}, "title": "AppSec in delivery", "description": "Connect findings with development and release decisions. Agree how issues are triaged, owned and checked after changes."}
+      ]
+    },
+    {
+      "__component": "sections.message-banner",
+      "title": "Bring exposure into focus before the next release",
+      "description": "Connect the external attack surface with the software you deliver.",
+      "ctaLabel": "Talk to us",
+      "ctaUrl": "/contact-us"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "our-process",
+      "eyebrow": "OUR PROCESS",
+      "heading": "Findings your delivery teams can act on",
+      "description": "Start with an agreed scope and a shared understanding of what is exposed, what is being released and who owns remediation.",
+      "backgroundImage": {"__media": "s3/OurprocessBackground.png", "alt": ""},
+      "backgroundStyle": "image",
+      "items": [
+        {"title": "Define the scope", "description": "Identify the external attack surface, application boundaries and relevant repositories. Agree authorisation and testing limits before work begins."},
+        {"title": "Validate and examine", "description": "Use exposure validation, code scanning, supply-chain analysis and agreed offensive testing to examine the scoped environment."},
+        {"title": "Prioritise the findings", "description": "Review findings with security and engineering stakeholders. Agree severity, ownership and the changes needed to address the risk."},
+        {"title": "Recheck the changes", "description": "Review remediation against the original findings. Carry lessons into the next release and revisit exposure as the environment changes."}
+      ],
+      "logos": []
+    },
+    {"__component": "sections.featured-insights", "anchorId": "insights", "heading": "", "items": []},
+    {"__component": "sections.contact-form", "anchorId": "get-in-touch", "heading": "", "subheading": "", "nextStepsTitle": "", "nextSteps": [], "layout": "section", "theme": "dark"},
+    {"__component": "sections.social-banner", "heading": "", "links": []}
+  ]
+}

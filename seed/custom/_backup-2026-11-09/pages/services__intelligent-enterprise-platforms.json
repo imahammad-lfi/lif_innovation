@@ -1,0 +1,365 @@
+{
+  "title": "Intelligent Enterprise Platforms",
+  "path": "/services/intelligent-enterprise-platforms",
+  "seo": {
+    "metaTitle": "Intelligent Enterprise Platforms Services | Linkfields Innovations",
+    "metaDescription": "Run connected ERP and CRM platforms with Linkfields: SAP S/4HANA, Dynamics 365, Odoo, Zoho, Salesforce, Linkworks and platform migration & AMS.",
+    "keywords": "ERP, CRM, SAP S/4HANA, Dynamics 365, Odoo, Zoho, Salesforce, platform AMS",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Intelligent Enterprise Platforms",
+      "subtitle": "Operate · Integrate · Engage",
+      "backgroundImage": {
+        "__media": "custom/hero-intelligent-enterprise.jpg",
+        "alt": "Intelligent Enterprise Platforms"
+      },
+      "anchorLinks": [
+        {
+          "label": "OVERVIEW",
+          "targetId": "overview"
+        },
+        {
+          "label": "WHAT WE OFFER",
+          "targetId": "what-we-offer"
+        },
+        {
+          "label": "WHY US",
+          "targetId": "why-us"
+        },
+        {
+          "label": "OUR EXPERTISE",
+          "targetId": "our-expertise"
+        },
+        {
+          "label": "GET IN TOUCH",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "Connected platforms at the core of your enterprise",
+      "body": "Run the core of the enterprise on connected ERP and CRM platforms, made smarter with AI.\n\nFrom implementation, upgrades and migration to managed support and optimisation, we connect finance, operations and customer engagement. Self-service and partner portals extend those journeys beyond the organisation.",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "hubs.what-we-offer",
+      "anchorId": "what-we-offer",
+      "eyebrow": "WHAT WE OFFER",
+      "heading": "Operate, integrate and engage with confidence",
+      "body": "Choose the platform that fits your business, then connect it to the people, processes and data that make it work.",
+      "cards": [
+        {
+          "title": "SAP S/4HANA",
+          "description": "ERP implementation, upgrades and migration. Navigate the move from legacy transactions to future-ready practices, with a roadmap for your SAP S/4HANA journey.",
+          "image": {
+            "__media": "s3/Frame 15880574.png",
+            "alt": "SAP S/4HANA"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/sap/sap-hana",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Microsoft Dynamics 365",
+          "description": "Microsoft finance, operations and customer engagement. Bring ERP, CRM and business intelligence together, with applications aligned to your organisation’s needs.",
+          "image": {
+            "__media": "s3/microsoftDynamic-crop.jpg",
+            "alt": "Microsoft Dynamics 365"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/microsoft-dynamics",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Odoo",
+          "description": "An agile platform for growing firms. Odoo’s modular structure supports customisable, cost-effective solutions across CRM, inventory, accounting and sales.",
+          "image": {
+            "__media": "s3/odobg-crop.png",
+            "alt": "Odoo"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/odoo",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Zoho",
+          "description": "Agile ERP and CRM for growing firms. Connect operational processes with Zoho customer journeys and a Customer 360 approach.",
+          "image": {
+            "__media": "custom/hero-intelligent-enterprise.jpg",
+            "alt": "Zoho"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/services/intelligent-enterprise-platforms/zoho",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Salesforce",
+          "description": "Elevate customer engagement and streamline operations. Align Salesforce CRM with your business goals through consulting, implementation, integration, migration and support.",
+          "image": {
+            "__media": "s3/Sales force (1).png",
+            "alt": "Salesforce"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/solutions/erp-solutions/salesforce",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Linkworks",
+          "description": "LINKFIELDS IP: a composable enterprise application platform for complex business apps where packaged ERP or CRM does not fit.",
+          "image": {
+            "__media": "s3/application-development-tab.png",
+            "alt": "Linkworks"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/products-and-accelerators/linkworks",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Platform migration & AMS",
+          "description": "Implementation, upgrades and migration, followed by managed support and optimisation. SAP migration accelerators, regression packs and intelligent ops support the journey.",
+          "image": {
+            "__media": "s3/Frame 15880576.png",
+            "alt": "Platform migration & AMS"
+          },
+          "cta": {
+            "label": "Read more",
+            "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+            "openInNewTab": false
+          }
+        }
+      ]
+    },
+    {
+      "__component": "services.logo-offering",
+      "anchorId": "platforms",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/our-process.jpg",
+        "alt": ""
+      },
+      "groups": [
+        {
+          "heading": "PLATFORMS WE DELIVER",
+          "logos": [
+            {
+              "icon": {
+                "__media": "s3/SAP_2011_logo (1).png",
+                "alt": "SAP"
+              },
+              "title": "",
+              "description": ""
+            },
+            {
+              "icon": {
+                "__media": "s3/Dynamics 365.png",
+                "alt": "Microsoft Dynamics 365"
+              },
+              "title": "",
+              "description": ""
+            },
+            {
+              "icon": {
+                "__media": "s3/Odoo_logo 1.png",
+                "alt": "Odoo"
+              },
+              "title": "",
+              "description": ""
+            },
+            {
+              "icon": {
+                "__media": "s3/Salesforce.com_logo (1).png",
+                "alt": "Salesforce"
+              },
+              "title": "",
+              "description": ""
+            }
+          ]
+        }
+      ],
+      "industriesHeading": "",
+      "industries": []
+    },
+    {
+      "__component": "sections.stats-band",
+      "anchorId": "why-us",
+      "eyebrow": "WHY US",
+      "heading": "Enterprise experience. Lasting value.",
+      "description": "Headquartered in South Africa, delivering globally through specialist teams and our own software and reusable delivery IP.",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/persistently_innovative.jpg",
+        "width": 1920,
+        "height": 784,
+        "mime": "image/jpeg",
+        "alt": "Persistently innovative background"
+      },
+      "stats": [
+        {
+          "value": "18",
+          "suffix": "+",
+          "label": "years"
+        },
+        {
+          "value": "80",
+          "suffix": "+",
+          "label": "clients"
+        },
+        {
+          "value": "550",
+          "suffix": "+",
+          "label": "people"
+        },
+        {
+          "value": "20",
+          "suffix": "+",
+          "label": "technology partners"
+        }
+      ]
+    },
+    {
+      "__component": "sections.industries-showcase",
+      "anchorId": "our-expertise",
+      "eyebrow": "OUR EXPERTISE",
+      "heading": "Constantly Innovating",
+      "description": "Our 16 years in business have acquainted us to a diverse list of industries with different requirements. We have consistently proven our adaptability to all kinds of business models, irrespective of their industry.",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/constantly-innovating.jpg",
+        "width": 2560,
+        "height": 1117,
+        "mime": "image/jpeg",
+        "alt": "Constantly innovating background"
+      },
+      "items": [
+        {
+          "title": "Telecom",
+          "image": {
+            "__media": "s3/telecom-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Telecom"
+          },
+          "href": "/industries/telecom"
+        },
+        {
+          "title": "Fintech",
+          "image": {
+            "__media": "s3/fintech-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Fintech"
+          },
+          "href": "/industries/fintech"
+        },
+        {
+          "title": "FMCG",
+          "image": {
+            "__media": "s3/FMCG (1).png",
+            "width": 1660,
+            "height": 632,
+            "mime": "image/png",
+            "alt": "FMCG"
+          },
+          "href": "/industries/fmcg"
+        },
+        {
+          "title": "Banking",
+          "image": {
+            "__media": "s3/banking-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Banking"
+          },
+          "href": "/industries/banking"
+        },
+        {
+          "title": "Insurance",
+          "image": {
+            "__media": "s3/insurance-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Insurance"
+          },
+          "href": "/industries/insurance"
+        },
+        {
+          "title": "Mining",
+          "image": {
+            "__media": "s3/mining-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Mining"
+          },
+          "href": "/industries/mining"
+        },
+        {
+          "title": "Oil and Gas",
+          "image": {
+            "__media": "s3/oil&gas-small.jpg",
+            "width": 415,
+            "height": 158,
+            "mime": "image/jpeg",
+            "alt": "Oil and Gas"
+          },
+          "href": "/industries/oil-gas"
+        },
+        {
+          "title": "Manufacturing",
+          "image": {
+            "__media": "s3/Manufacturing (1).png",
+            "width": 1660,
+            "height": 632,
+            "mime": "image/png",
+            "alt": "Manufacturing"
+          },
+          "href": "/industries/manufacturing"
+        }
+      ]
+    },
+    {
+      "__component": "sections.featured-insights",
+      "anchorId": "insights",
+      "heading": "",
+      "items": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "",
+      "subheading": "",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.social-banner",
+      "heading": "",
+      "links": []
+    }
+  ]
+}

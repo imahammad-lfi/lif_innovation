@@ -1,0 +1,20 @@
+Linkfields website — complete hand-over archive (2026-11-10)
+
+Folder                                Files       Size
+apps/web                                179       2.1M
+apps/cms/src                            146       916K
+apps/cms/public/uploads                1908       347M
+apps/cms/scripts                          4        36K
+apps/cms/config                           6        28K
+seed/assets                             707       248M
+seed/data                                75      1016K
+seed/custom                             254       3.0M
+seed/transform                           11       128K
+infra                                    15       100K
+docs                                     95       7.3M
+tools                                    37       264K
+database                                  2       444K
+
+Total files: 3464   Total size: 610M
+Database   : database/linkfields_cms.sql.gz (436K, PostgreSQL 18.6)
+Not included: .env files (secrets), node_modules, build output — see HANDOVER.md

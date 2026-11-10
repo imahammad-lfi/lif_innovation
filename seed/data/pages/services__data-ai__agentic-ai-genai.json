@@ -1,0 +1,273 @@
+{
+ "title": "Agentic AI & GenAI",
+ "path": "/services/data-ai/agentic-ai-genai",
+ "seo": {
+  "metaTitle": "Enterprise Agentic AI & GenAI Services | Linkfields",
+  "metaDescription": "Use agentic AI services to build enterprise assistants and task agents with authorised data, approved tools and human review for controlled workflows.",
+  "keywords": "agentic AI, GenAI, RAG, knowledge assistants, AI workflow integration, agentic AI services, enterprise generative AI services, RAG implementation services, enterprise AI assistants, AI agent development services, agentic AI services South Africa",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Agentic AI & GenAI",
+   "subtitle": "Knowledge that answers and agents that act.",
+   "backgroundImage": {
+    "__media": "custom/hero-agentic-ai.jpg",
+    "alt": "Enterprise AI assistants and connected task agents"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Example Workflows",
+     "targetId": "example-workflows"
+    },
+    {
+     "label": "Delivery Approach",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "Software & IP",
+     "targetId": "software-ip"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Data & AI",
+   "heading": "Enterprise *agentic AI services* and GenAI",
+   "body": "Build assistants that answer from authorised enterprise information, and task-focused agents that use approved tools to complete work. We connect retrieval, enterprise integrations, evaluation and human approval around a defined business process.\n\nAn assistant helps a person find or interpret information; an agent can take an approved action. Bounded autonomy means agreeing the tools, permissions, approval points and escalation conditions before that action is available.\n\nStill deciding which use case deserves investment? Explore [AI strategy & governance](/services/data-ai/ai-strategy-governance), or return to [Data & AI](/services/data-ai).",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "What we deliver",
+   "heading": "Answers and actions, grounded in your business",
+   "description": "Scope a production use case, not an open-ended autonomous system. Agree these outputs, limitations and acceptance gates before implementation.",
+   "variant": "default",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "number": "01",
+     "title": "Task agents & tool integration",
+     "description": "Connect a defined task to approved enterprise tools and APIs.",
+     "bullets": "Action and permission boundaries\nHuman approval for sensitive steps\nExceptions and completion records",
+     "accent": "purple"
+    },
+    {
+     "number": "02",
+     "title": "RAG & knowledge assistants",
+     "description": "Ground AI-generated answers in authorised enterprise sources using retrieval-augmented generation.",
+     "bullets": "Permission-aware retrieval\nSource citations and verification\nOut-of-scope response behaviour",
+     "accent": "purple"
+    },
+    {
+     "number": "03",
+     "title": "Document-to-workflow integration",
+     "description": "Connect extracted fields or summaries to a reviewed business step.",
+     "bullets": "Document and output boundaries\nValidation before downstream use\nApproval and exception handling",
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore textIQ software",
+     "accent": "purple"
+    },
+    {
+     "number": "04",
+     "title": "Evaluation & production controls",
+     "description": "Define what must be tested, observed and owned in operation.",
+     "bullets": "Representative evaluation tasks\nUnsafe-action and failure testing\nRelease and operational handover",
+     "accent": "purple"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "example-workflows",
+   "eyebrow": "Illustrative workflows",
+   "heading": "Keep the task and its limits visible",
+   "description": "These patterns show trigger, boundary and output. They are not client deployments; agree a success measure for the actual sources, users and systems.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "number": "01",
+     "title": "Knowledge assistant",
+     "description": "A user question retrieves authorised sources and returns a cited answer for verification.",
+     "bullets": "Boundary — user permissions and source scope\nReview — verify the answer against its citations\nMeasures to agree — grounded answer quality and time to find information",
+     "href": "/services/data-ai/ai-strategy-governance",
+     "linkLabel": "Scope policy and ownership",
+     "accent": "purple"
+    },
+    {
+     "number": "02",
+     "title": "Document review",
+     "description": "A document becomes extracted fields and a summary, then moves to human approval.",
+     "bullets": "Boundary — no unreviewed downstream decision\nReview — reconcile output with the document\nMeasures to agree — extraction accuracy and document review time",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Scope workflow integration",
+     "accent": "purple"
+    },
+    {
+     "number": "03",
+     "title": "Task agent",
+     "description": "A request becomes an approved API action, followed by logged completion or escalation.",
+     "bullets": "Boundary — approved tools and action limits\nReview — approval for sensitive actions\nMeasures to agree — correct task completion and task turnaround time",
+     "href": "/services/cyber-security/ai-security-grc",
+     "linkLabel": "Scope security validation",
+     "accent": "purple"
+    }
+   ]
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "delivery-approach",
+   "eyebrow": "Delivery approach",
+   "heading": "A practical route to production AI",
+   "description": "Select, ground, evaluate and operate a defined workflow. Agree permissions, release evidence and operating responsibilities at each gate.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "Select the use case — task and acceptance criteria",
+     "description": "Identify users, task, source systems and approved actions. Agree the success measure, human approval points and latency/cost budget; define what the system must not do."
+    },
+    {
+     "title": "Ground the experience — source and tool design",
+     "description": "Review permissions, source currency and retrieval scope. Agree tool/API contracts and exception handling with application and integration engineering teams."
+    },
+    {
+     "title": "Evaluate before release — reviewed test evidence",
+     "description": "Agree representative evaluation data and test answer quality, unsafe actions and failure scenarios. Scope specialist Cyber Security validation and assign the release approver before operational use."
+    },
+    {
+     "title": "Observe and improve — operating handover",
+     "description": "Agree tracing, cost review, support boundaries and change approval. Name rollback and escalation owners; use reviewed feedback to decide what to change, then evaluate it again."
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "software-ip",
+   "eyebrow": "Software and reusable IP",
+   "heading": "Build with us or explore Linkfields software",
+   "description": "Specialist services define and integrate the workflow. Proprietary software and reusable orchestration IP offer distinct routes where their scope fits.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "#get-in-touch",
+   "items": [
+    {
+     "title": "textIQ",
+     "logo": {
+      "__media": "custom/logos/textiq.png",
+      "alt": "textIQ document intelligence software"
+     },
+     "description": "Intelligent search and insight across unstructured enterprise content.",
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore textIQ",
+     "accent": "purple"
+    },
+    {
+     "title": "FinSight",
+     "logo": {
+      "__media": "custom/logos/finsight.png",
+      "alt": "FinSight financial analysis software"
+     },
+     "description": "Conversational analysis and reporting over financial data.",
+     "href": "/products-and-accelerators/finsight",
+     "linkLabel": "Explore FinSight",
+     "accent": "purple"
+    },
+    {
+     "title": "EduPilot",
+     "logo": {
+      "__media": "custom/logos/edupilot.png",
+      "alt": "EduPilot course creation software"
+     },
+     "description": "Rapid course creation for education and corporate learning.",
+     "href": "/products-and-accelerators/edupilot",
+     "linkLabel": "Explore EduPilot",
+     "accent": "purple"
+    },
+    {
+     "title": "Intelligent Workflow Automation",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": "Workflow automation accelerator"
+     },
+     "description": "Reusable delivery IP for workflow automation, AI orchestration and application integration.",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore reusable IP",
+     "links": [
+      {
+       "label": "Intelligent Operations",
+       "href": "/solutions/intelligent-operations"
+      },
+      {
+       "label": "AI Code Assurance",
+       "href": "/solutions/ai-code-assurance"
+      },
+      {
+       "label": "AI Governance software",
+       "href": "/products-and-accelerators/ai-governance"
+      }
+     ],
+     "accent": "purple"
+    }
+   ],
+   "noteLabel": "Agree fit and limits",
+   "note": "Products are available by licence, subscription or SaaS, with or without services. An accelerator is reusable delivery IP, not automatically SaaS or included in every engagement."
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "Buyer questions",
+   "heading": "Define a useful and bounded first scope",
+   "description": "Use the first discussion to clarify scope, approvals and ownership. Explore our [engagement models](/company/our-approach#engagement-models) before agreeing the delivery route.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "Should we start with an assistant or an agent?",
+     "description": "Start with an assistant when the need is to find, summarise or interpret information for a person. Consider an agent when the task has approved tools, clear permissions, exception paths and a reviewable completion condition."
+    },
+    {
+     "title": "What must be ready before operational use?",
+     "description": "Agree authorised sources, tool boundaries, a representative evaluation set, release criteria and an operating owner. Test quality and failure behaviour in the intended workflow; a convincing demo alone does not establish this readiness."
+    },
+    {
+     "title": "Do products or accelerators come with the service?",
+     "description": "No universal inclusion is assumed. Choose a software route or reusable accelerator only after reviewing the use case, deployment needs, integrations and limits. Implementation and ongoing operation require separately agreed responsibilities."
+    },
+    {
+     "title": "How can we engage and scope the next step?",
+     "description": "Time & Materials suits discovery and co-development; Fixed Price fits a defined build with acceptance criteria. Dedicated Team or Managed Service arrangements depend on agreed delivery or operational ownership. Outcome-Based commercials require measurable, evidenced outcomes. Bring the task, sources, systems and constraints; an NDA can be arranged where required."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your enterprise AI use case",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

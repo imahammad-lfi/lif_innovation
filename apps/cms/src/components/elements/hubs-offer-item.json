@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_hubs_offer_item",
+  "info": {
+    "displayName": "Hub offer item",
+    "icon": "picture",
+    "description": "One tab, its service details, image, and optional destination."
+  },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "description": { "type": "richtext" },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos"]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}

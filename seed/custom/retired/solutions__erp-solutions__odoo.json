@@ -1,0 +1,376 @@
+{
+ "title": "Odoo",
+ "path": "/solutions/erp-solutions/odoo",
+ "seo": {
+  "metaTitle": "Odoo ERP Implementation Company | Linkfields Innovations",
+  "metaDescription": "Linkfields Innovations provides customized end-to-end Odoo solutions and services to simplify your business process",
+  "keywords": "Linkfields Innovations, Odoo solutions, odoo services, Odoo business integration, Odoo implementation, odoo data migration",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Odoo",
+   "subtitle": "Get your business processes simplified",
+   "backgroundImage": {
+    "__media": "s3/odobg-crop.png",
+    "width": 2560,
+    "height": 1197,
+    "mime": "image/png",
+    "alt": "Odoo"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "BENEFITS",
+     "targetId": "benefits"
+    },
+    {
+     "label": "Implementation Areas",
+     "targetId": "implementation-areas"
+    },
+    {
+     "label": "Implementation Process",
+     "targetId": "implementation-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Customized Odoo Solutions for Every Business Need",
+   "body": "We specialize in customizing Odoo to suit your specific business requirements. From CRM and inventory management to accounting and sales, our team expertly configures and adapts Odoo modules, providing a holistic solution that covers every aspect of your enterprise.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "benefits",
+   "eyebrow": "BENEFITS",
+   "heading": "We revolutionize various business aspects, including:​",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (89).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Custom solutions"
+     },
+     "title": "Custom solutions",
+     "description": "We don't believe in one-size-fits-all; instead, we analyze your specific business requirements to deliver a solution that fits like a glove."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (90).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Simplifying Complexity"
+     },
+     "title": "Simplifying Complexity",
+     "description": "Our Odoo implementations are designed to streamline your business processes. By automating tasks and integrating various functions, we help you achieve higher efficiency and reduced manual errors."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (91).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Scalable and Future-Proof Solutions"
+     },
+     "title": "Scalable and Future-Proof Solutions",
+     "description": "As your business evolves, so do your needs. We ensure that the Odoo solutions provided are scalable and adaptable, capable of supporting your growth and future expansion."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (92).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Expert Team"
+     },
+     "title": "Expert Team",
+     "description": "Our experts brings a wealth of experience and knowledge, ensuring that your implementation is smooth, efficient, and tailored to meet your business objectives."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (93).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Seamless Integration"
+     },
+     "title": "Seamless Integration",
+     "description": "We specialize in integrating Odoo with your existing systems, ensuring a unified platform that improves data flow and business intelligence."
+    }
+   ]
+  },
+  {
+   "__component": "solutions.technology-details",
+   "anchorId": "implementation-areas",
+   "eyebrow": "",
+   "heading": "Implementation Areas",
+   "description": "",
+   "image": {
+    "__media": "s3/image 43.png",
+    "width": 808,
+    "height": 365,
+    "mime": "image/png",
+    "alt": "Implementation Areas"
+   },
+   "layout": "grid",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryDescription": "",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/services-svgrepo-com 2.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Business Process Re-engineering"
+     },
+     "title": "Business Process Re-engineering",
+     "description": "We begin by reimagining and revamping your business processes to align perfectly with Odoo’s robust capabilities",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/file-code-2.png",
+      "width": 193,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Custom Development"
+     },
+     "title": "Custom Development",
+     "description": "Our team excels in developing customisation for modules, ensuring that every aspect of your business is effectively managed within the ERP ecosystem .",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/blocks.png",
+      "width": 192,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "System Integration"
+     },
+     "title": "System Integration",
+     "description": "Integrate Odoo with your existing software systems, creating a cohesive and unified platform that drives business intelligence and decision-making.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/server-cog.png",
+      "width": 193,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Data Migration & Management"
+     },
+     "title": "Data Migration & Management",
+     "description": "We ensure a smooth and secure transition of your data into the Odoo system, prioritizing integrity and accessibility.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/whats-in-it-for-you.jpg",
+    "width": 1920,
+    "height": 770,
+    "mime": "image/jpeg",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "60% significant operational cost savings",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "solutions.process-grid",
+   "eyebrow": "IMPLEMENTATION PROCESS",
+   "heading": "",
+   "description": "",
+   "cards": [
+    {
+     "icon": {
+      "__media": "site/_next/static/media/Analysis.0cdd2844.png",
+      "width": 192,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Analysis"
+     },
+     "title": "Analysis",
+     "description": "We start with a thorough analysis to understand your unique business requirements and challenges.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/calendar-clock.751fb58a.png",
+      "width": 193,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Planning"
+     },
+     "title": "Planning",
+     "description": "Developing additional functionalities or modules required for your business.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/customization.c7004146.png",
+      "width": 193,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Customization"
+     },
+     "title": "Customization",
+     "description": "Adapting and customizing Odoo to fit your specific business needs and processes.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/app-window.b48cd409.png",
+      "width": 192,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Development"
+     },
+     "title": "Development",
+     "description": "Developing additional functionalities or modules required for your business.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/server-cog.6f06ecde.png",
+      "width": 193,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Data Migration"
+     },
+     "title": "Data Migration",
+     "description": "Safely migrating existing data to the new Odoo system, ensuring integrity and accessibility.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/shield-check.bb7692da.png",
+      "width": 192,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Testing"
+     },
+     "title": "Testing",
+     "description": "Rigorously testing the system to ensure it meets all requirements and operates flawlessly.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/release.d1d1be47.png",
+      "width": 192,
+      "height": 192,
+      "mime": "image/png",
+      "alt": "Deployment"
+     },
+     "title": "Deployment",
+     "description": "Deploying the new Odoo system in your business environment, ensuring a smooth transition.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "site/_next/static/media/clipboard-pen-line.953b663e.png",
+      "width": 144,
+      "height": 144,
+      "mime": "image/png",
+      "alt": "Training"
+     },
+     "title": "Training",
+     "description": "Providing comprehensive training to ensure your staff is fully equipped to use the Odoo system effectively.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/whats-in-it-for-you.jpg",
+    "width": 1920,
+    "height": 770,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "centerImage": {
+    "__media": "site/_next/static/media/odoo-img.995f4a89.png",
+    "width": 1128,
+    "height": 508,
+    "mime": "image/png",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

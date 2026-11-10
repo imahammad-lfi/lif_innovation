@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_company_office_card",
+  "info": { "displayName": "Office card", "icon": "pinMap", "description": "Country office icon, address, telephone details and directions link" },
+  "options": {},
+  "attributes": {
+    "icon": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
+    "country": { "type": "string" },
+    "address": { "type": "text" },
+    "phone": { "type": "text" },
+    "directionsLabel": { "type": "string" },
+    "directionsHref": { "type": "text" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_page_hero",
+  "info": {
+    "displayName": "Page hero",
+    "icon": "landscape",
+    "description": "Inner-page hero with background image and in-page anchor tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "anchorLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.anchor-link"
+    }
+  }
+}

@@ -1,0 +1,423 @@
+{
+ "title": "Automation & RPA",
+ "path": "/services/digital-transformation/automation-rpa",
+ "seo": {
+  "metaTitle": "Automation & RPA Services | Linkfields Innovations",
+  "metaDescription": "UiPath, Blue Prism and AI workflows backed by RPA consulting, automation design, development, managed services and a centre of excellence.",
+  "keywords": "automation, RPA, UiPath, Blue Prism, AI workflows, RPA consulting, managed RPA",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Automation & RPA",
+   "subtitle": "UiPath, Blue Prism & AI workflows",
+   "backgroundImage": {
+    "__media": "s3/RPA.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Robotic Process Automation (RPA)"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "BENEFITS",
+     "targetId": "benefits"
+    },
+    {
+     "label": "USE CASES",
+     "targetId": "use-cases"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Become a more efficient workplace",
+   "body": "RPA, aimed at automating business processes, uses tools, or a “robot,” to capture and interpret applications for processing a transaction, manipulating data, triggering responses and communicating with other digital systems.\n\nCombine UiPath, Blue Prism & AI workflows to connect task automation with wider business processes. AI Workflow Automation and AI orchestration extend the approach beyond individual repetitive tasks.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "how-can-we-help",
+   "eyebrow": "HOW CAN WE HELP",
+   "heading": "Access a range of automation services",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/rpaconsulting.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "RPA consulting"
+     },
+     "title": "RPA consulting",
+     "description": "By identifying blockers, opportunities, and calculating automation potential, we create a detailed roadmap to strategic RPA adoption."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (69).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Automation design"
+     },
+     "title": "Automation design",
+     "description": "We define intervention models to apply to your workflows and design an automation architecture to clarify your RPA solution, even with a PoC, to assure value."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (70).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "RPA development"
+     },
+     "title": "RPA development",
+     "description": "Using UIpath, Microsoft Power Automate and other RPA tools, we create intelligent applications based on the defined automation pipeline."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (75).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Infrastructure support"
+     },
+     "title": "Infrastructure support",
+     "description": "We ensure that your software bots are performing at the highest level of productivity and also help you find new automation opportunities."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (74).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Managed RPA services"
+     },
+     "title": "Managed RPA services",
+     "description": "We take over your RPA support and maintenance tasks so that your tech teams can focus on innovation and a strategic RPA scale-up."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (73).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Automation support"
+     },
+     "title": "Automation support",
+     "description": "Our experts offer all-round support throughout the process of automating your internal workflows."
+    },
+    {
+     "icon": {
+      "__media": "s3/rpaexcellence.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "RPA centre of excellence"
+     },
+     "title": "RPA centre of excellence",
+     "description": "Our CoE embeds and implements RPA deeply and effectively into the organisation."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "60% significant operational cost savings",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.media-process",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "Building smart robots to instil automation",
+   "description": "We recognise your business goals for the future and develop a sustainable automation plan which keeps your business objectives in focus to ensure that the automation doesn’t clash with the growth, but rather speeds it up.",
+   "points": [],
+   "image": {
+    "__media": "s3/Frame 15880133 (11).png",
+    "width": 2560,
+    "height": 1446,
+    "mime": "image/png",
+    "alt": "Building smart robots to instil automation"
+   },
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "partnersHeading": "PARTNER RPA TOOLS",
+   "partners": [
+    {
+     "label": "",
+     "image": {
+      "__media": "s3/logo-electroneek 1 (1).png",
+      "width": 991,
+      "height": 241,
+      "mime": "image/png",
+      "alt": "ElectroNeek"
+     },
+     "href": "https://electroneek.com/"
+    },
+    {
+     "label": "",
+     "image": {
+      "__media": "s3/Group (3).png",
+      "width": 200,
+      "height": 62,
+      "mime": "image/png",
+      "alt": "Coca-Cola"
+     },
+     "href": "https://www.blueprism.com/"
+    },
+    {
+     "label": "",
+     "image": {
+      "__media": "s3/Group (4).png",
+      "width": 200,
+      "height": 46,
+      "mime": "image/png",
+      "alt": "CipherWave"
+     },
+     "href": "https://www.automationanywhere.com/"
+    },
+    {
+     "label": "",
+     "image": {
+      "__media": "s3/Group (5).png",
+      "width": 562,
+      "height": 201,
+      "mime": "image/png",
+      "alt": "UiPath"
+     },
+     "href": "https://www.uipath.com/"
+    }
+   ],
+   "variant": "standard"
+  },
+  {
+   "__component": "services.superpowers",
+   "anchorId": "benefits",
+   "eyebrow": "BENEFITS",
+   "heading": "Smarter workflows for higher efficiency",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (85).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Cost saving"
+     },
+     "title": "Cost saving",
+     "description": "Automation in manual tasks enables notable cuts in costs and also significantly lowers employee FTEs."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (86).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "In-depth analysis"
+     },
+     "title": "In-depth analysis",
+     "description": "Intricately designed workflows are operated by automation bots with detailed logs available at every step of the operation."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (87).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Task automation"
+     },
+     "title": "Task automation",
+     "description": "A generalised and specialised automation of workplace tasks helps improve functionality, efficiency, and reduces error potential."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (88).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Assured accuracy"
+     },
+     "title": "Assured accuracy",
+     "description": "Once trained, robots function at their full operating potential while eliminating any human error and performing repetitive tasks with extreme accuracy."
+    }
+   ]
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "use-cases",
+   "eyebrow": "USE CASES",
+   "heading": "Breakthroughs across sectors",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (80).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Technology"
+     },
+     "title": "Technology",
+     "description": "• Software installations\n• No code RPA solutions\n• Updating records\n• Automated testing\n• Webscrapping"
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (81).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Finance"
+     },
+     "title": "Finance",
+     "description": "• Client onboarding\n• Settlements & account\n• Pension benefits\n• HR processes\n• Finance & accounting"
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (84).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Operations"
+     },
+     "title": "Operations",
+     "description": "• Updating records\n• Invoice processing\n• Workforces management\n• Accounts payable process\n• Issuing refunds"
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (83).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "HR"
+     },
+     "title": "HR",
+     "description": "• Employee onboarding\n• Attendance tracking\n• Resume screening\n• Recruitment\n• HR virtual assistants"
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (82).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Accounting"
+     },
+     "title": "Accounting",
+     "description": "• Controller function\n• Credit checks\n• Approvals\n• Tax\n• Statements & confirmations"
+    }
+   ]
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "digital-strategy",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Connect automation with your digital strategy",
+   "description": "",
+   "items": [],
+   "cards": [
+    {
+     "title": "Digital strategy",
+     "description": "This is the planning and strategy phase where we design a vision for the implementation of the digital transformation process.",
+     "icon": {
+      "__media": "s3/rpaconsulting.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "RPA consulting"
+     }
+    },
+    {
+     "title": "Business restructuring",
+     "description": "Increasing flexibility inside internal processes while reducing crucial hardware, maintenance strain, and high ownership costs.",
+     "icon": {
+      "__media": "s3/Frame 402 (69).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Automation design"
+     }
+    },
+    {
+     "title": "AI workflows",
+     "description": "AI-assisted digital transformation can help you increase productivity and make data-driven decisions. We employ artificial intelligence to discover new patterns in a variety of datasets, allowing us to make more exact forecasts.",
+     "icon": {
+      "__media": "s3/Frame 403 (7).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Artificial Intelligence"
+     }
+    }
+   ],
+   "cardLayout": "three"
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

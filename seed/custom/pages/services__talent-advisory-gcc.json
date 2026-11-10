@@ -1,0 +1,281 @@
+{
+  "title": "Talent Advisory & GCC",
+  "path": "/services/talent-advisory-gcc",
+  "seo": {
+    "metaTitle": "Talent Advisory & GCC | Linkfields",
+    "metaDescription": "Align technology strategy, specialist talent and managed teams with GCC setup and build-operate-transfer, supported by Linkfields delivery IP.",
+    "keywords": "technology advisory, specialist talent, managed teams, GCC, staff augmentation",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Talent Advisory & GCC",
+      "subtitle": "Establish scalable Global Capability Centres — from strategy and set-up to build-operate-transfer — with specialist talent and managed teams.",
+      "backgroundImage": {
+        "__media": "custom/hero-talent-gcc.jpg",
+        "alt": "Talent Advisory & GCC enterprise services"
+      },
+      "anchorLinks": [
+        {
+          "label": "Services",
+          "targetId": "services"
+        },
+        {
+          "label": "Value Plays",
+          "targetId": "value-plays"
+        },
+        {
+          "label": "Linkfields IP",
+          "targetId": "linkfields-ip"
+        },
+        {
+          "label": "How We Deliver",
+          "targetId": "delivery"
+        },
+        {
+          "label": "Use Cases",
+          "targetId": "where-this-applies"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Advise · Staff · Scale",
+      "heading": "The strategy and skills to scale with confidence",
+      "body": "Bring technology roadmaps, architecture and assessments together with the people and delivery models to put them into practice. A Global Capability Centre (GCC) is an organisational capability that combines teams, tooling and governance for sustained delivery.\n\nChoose specialists embedded in your team, a managed delivery pod or a GCC built and operated for transfer. [Discuss your required capability and location constraints](#get-in-touch).",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "services",
+      "eyebrow": "Specialist services",
+      "heading": "What we deliver",
+      "description": "Choose the specialist service that fits your next decision.",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Technology advisory",
+          "description": "Define roadmaps, architecture and assessments around business priorities. Establish the capability gaps and decisions that shape your delivery plan.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/technology-advisory",
+          "linkLabel": "Explore Technology advisory",
+          "number": "01"
+        },
+        {
+          "title": "Specialist talent & managed teams",
+          "description": "Add experts across the five portfolios or a delivery pod with defined accountability. Scope the skills, work ownership and governance your programme needs.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+          "linkLabel": "Explore Specialist talent & managed teams",
+          "number": "02"
+        },
+        {
+          "title": "GCC strategy & setup",
+          "description": "Design the operating model and setup foundations for a capability centre. Define governance, tooling, talent requirements and delivery interfaces before scaling.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+          "linkLabel": "Explore GCC strategy & setup",
+          "number": "03"
+        },
+        {
+          "title": "GCC build-operate-transfer",
+          "description": "Build and operate the centre, then transfer it against agreed criteria. Plan scale and governance with talent, tooling and embedded engineering IP.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+          "linkLabel": "Explore GCC build-operate-transfer",
+          "number": "04"
+        }
+      ]
+    },
+    {
+      "__component": "sections.value-plays",
+      "anchorId": "value-plays",
+      "eyebrow": "Strategic value plays",
+      "heading": "Build capability with *embedded IP*",
+      "description": "Talent Advisory & GCC connects the operating model, team accountability and capability transfer. Decide which artefacts transfer and which software remains licensed before the centre is built.",
+      "plays": [
+        {
+          "title": "Capability Centres with Embedded IP",
+          "trigger": "Organisations need delivery capacity with clear governance and automation.",
+          "outcome": "Start with a capability and ownership blueprint. Embed quality, security and engineering IP, with transfer acceptance and retained licences defined in the agreement.",
+          "ip": "Linkworks, Delivery Governance, Quality Engineering IP, Cyber-Safe Delivery",
+          "accent": "yellow"
+        }
+      ],
+      "ctaLabel": "Explore Capability Centres with Embedded IP",
+      "ctaUrl": "/solutions/capability-centres-embedded-ip"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "linkfields-ip",
+      "eyebrow": "Linkfields IP and accelerators",
+      "heading": "Engineering IP within the *operating model*",
+      "description": "Use Linkfields software on its own or alongside specialist services.",
+      "variant": "default",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Linkworks",
+          "description": "Composable applications can support a centre’s engineering work. Agree the software licence and the ownership of engagement-specific artefacts separately from team or centre transfer.",
+          "accent": "yellow",
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "links": [
+            {
+              "label": "Capability Centres with Embedded IP",
+              "href": "/solutions/capability-centres-embedded-ip",
+              "openInNewTab": false
+            }
+          ],
+          "groupLabel": "Related value play"
+        },
+        {
+          "title": "testoriumz",
+          "description": "Continuous quality engineering can support testing practices and release evidence within a delivery team. Define product use, governance and knowledge-transfer responsibilities in the engagement.",
+          "accent": "yellow",
+          "href": "/products-and-accelerators/testoriumz",
+          "linkLabel": "Explore testoriumz",
+          "logo": {
+            "__media": "custom/logos/testoriumz.png",
+            "alt": "testoriumz product logo"
+          },
+          "links": [
+            {
+              "label": "Quality engineering",
+              "href": "/services/digital-transformation/quality-engineering",
+              "openInNewTab": false
+            }
+          ],
+          "groupLabel": "Related service"
+        },
+        {
+          "title": "Governed delivery accelerators",
+          "description": "Delivery Governance, Quality Engineering IP and Cyber-Safe Delivery support consistent ways of working. Select reusable IP for the centre’s scope and agree licensing and transfer boundaries.",
+          "accent": "yellow",
+          "href": "/products-and-accelerators/delivery-accelerators",
+          "linkLabel": "Explore delivery accelerators",
+          "links": [
+            {
+              "label": "Cyber Security",
+              "href": "/services/cyber-security",
+              "openInNewTab": false
+            }
+          ],
+          "groupLabel": "Supporting portfolio"
+        }
+      ],
+      "noteLabel": "Software and services are separate choices",
+      "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Agree deployment, data handling and integration requirements for the selected offering."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery",
+      "eyebrow": "Delivery and engagement",
+      "heading": "Choose how you scale delivery",
+      "description": "These are delivery models, distinct from the five commercial models. Agree ownership, governance and transfer obligations for the model you choose.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Staff augmentation",
+          "description": "Your team manages the work; Linkfields specialists contribute within your delivery practices. Agree roles, onboarding, review responsibilities and access to tooling.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams#staff-augmentation",
+          "linkLabel": "Explore staff augmentation",
+          "number": "01",
+          "footLabel": "Ownership and governance",
+          "footText": "Client-led backlog and work management; defined specialist responsibilities."
+        },
+        {
+          "title": "Managed teams",
+          "description": "Linkfields runs the delivery pod against an agreed scope and outcome. Your business owner sets priorities and participates in governance and acceptance.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams#managed-teams",
+          "linkLabel": "Explore managed teams",
+          "number": "02",
+          "footLabel": "Ownership and governance",
+          "footText": "Linkfields delivery accountability; client priorities and acceptance criteria."
+        },
+        {
+          "title": "GCC build-operate-transfer",
+          "description": "Design and setup: agree the operating model. Build and operate: establish teams, tooling and governance. Transfer: hand over against agreed acceptance criteria.",
+          "accent": "yellow",
+          "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+          "linkLabel": "Explore GCC BOT",
+          "number": "03",
+          "footLabel": "Ownership and transfer",
+          "footText": "Agree phase owners, knowledge transfer, retained licences and the capability the client will own."
+        }
+      ],
+      "ctaLabel": "Compare commercial models",
+      "ctaUrl": "/services#engagement-models",
+      "noteLabel": "Governance and evidence",
+      "note": "Agree the operating model, role matrix, runbooks, knowledge transfer, handover criteria and retained software licences. South Africa HQ; India Offshore Delivery Centre; UAE, UK, USA and Australia market presence."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "where-this-applies",
+      "eyebrow": "Industry context",
+      "heading": "Where this portfolio applies",
+      "description": "Illustrative use cases, not claims of completed client engagements.",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Telecom",
+          "description": "Platform, data and security capability within delivery teams.",
+          "accent": "yellow",
+          "href": "/industries/telecom",
+          "linkLabel": "Explore sector"
+        },
+        {
+          "title": "BFSI",
+          "description": "Specialist skills with defined control and work ownership.",
+          "accent": "yellow",
+          "href": "/industries/bfsi",
+          "linkLabel": "Explore sector"
+        },
+        {
+          "title": "Public Sector",
+          "description": "Digital-service teams with clear governance.",
+          "accent": "yellow",
+          "href": "/industries/public-sector",
+          "linkLabel": "Explore sector"
+        },
+        {
+          "title": "Education",
+          "description": "Application and learning-workflow delivery teams.",
+          "accent": "yellow",
+          "href": "/industries/education",
+          "linkLabel": "Explore sector"
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your team or GCC plans",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

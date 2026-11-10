@@ -1,0 +1,443 @@
+{
+ "title": "Digital Transformation",
+ "path": "/services/digital-transformation",
+ "seo": {
+  "metaTitle": "Digital Transformation Services | Linkfields Innovations",
+  "metaDescription": "Modernise applications, automate operations and connect every channel your customers use with Linkfields Digital Transformation services.",
+  "keywords": "digital transformation, app modernisation, automation, RPA, enterprise integration, omnichannel, quality engineering, cloud services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Digital Transformation",
+   "subtitle": "Modernise · Automate · Transform",
+   "backgroundImage": {
+    "__media": "custom/hero-digital-transformation.jpg",
+    "alt": "Digital Transformation"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE DELIVER",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "SERVICES",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "LINKFIELDS IP",
+     "targetId": "linkfields-ip"
+    },
+    {
+     "label": "VALUE PLAYS",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "WHO WE SERVE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Modernise applications. Connect your enterprise.",
+   "body": "Modernise applications, automate operations and connect every channel your customers use.\n\nWe combine specialist engineering services with our own software – Linkworks and testoriumz – and reusable accelerators, so modernisation moves faster, every release is assured and change is delivered cyber-safe.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "heading": "Modernise, automate and *connect every channel*",
+   "items": [
+    {
+     "title": "App modernisation",
+     "number": "01",
+     "description": "Cloud, DevOps & microservices",
+     "href": "/services/digital-transformation/app-modernisation",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Automation & RPA",
+     "number": "02",
+     "description": "UiPath, Blue Prism & AI workflows",
+     "href": "/services/digital-transformation/automation-rpa",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Integration services",
+     "number": "03",
+     "description": "APIs, Boomi & enterprise integration",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "WhatsApp Business",
+     "number": "04",
+     "description": "Conversational service & commerce",
+     "href": "/services/digital-transformation/whatsapp-omnichannel",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Omnichannel",
+     "number": "05",
+     "description": "Connected journeys, every channel",
+     "href": "/services/digital-transformation/whatsapp-omnichannel",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Quality engineering",
+     "number": "06",
+     "description": "Test automation & AI code assurance",
+     "href": "/services/digital-transformation/quality-engineering",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Cloud services",
+     "number": "07",
+     "description": "Modernise, migrate and optimise enterprise cloud environments through engineering, DevOps and automation",
+     "href": "/services/digital-transformation/cloud-services",
+     "linkLabel": "Read more"
+    }
+   ],
+   "eyebrow": "What we deliver",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink"
+  },
+  {
+   "__component": "hubs.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "Specialist services",
+   "heading": "Six specialist services. *One transformation partner.*",
+   "body": "From applications and cloud foundations to automated operations and connected customer journeys, bring your next stage of change together.",
+   "cards": [
+    {
+     "title": "App moderni­sation",
+     "description": "Cloud, DevOps & microservices. Rethink legacy applications, strengthen delivery practices and design intuitive experiences for the people who use them.",
+     "image": {
+      "__media": "s3/application-development-tab.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Application Development"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/app-modernisation",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Automation & RPA",
+     "description": "UiPath, Blue Prism & AI workflows. Automate repetitive operations and connect people, software bots and business processes.",
+     "image": {
+      "__media": "s3/RPA.png",
+      "width": 1512,
+      "height": 560,
+      "mime": "image/png",
+      "alt": "Robotic Process Automation"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/automation-rpa",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Integration services",
+     "description": "APIs, Boomi & enterprise integration. Connect applications, data and workflows across cloud and on-premises environments.",
+     "image": {
+      "__media": "s3/ipaas.jpg",
+      "alt": "Enterprise integration"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/integration-services",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "WhatsApp Business & omnichannel",
+     "description": "WhatsApp Business: Conversational service & commerce. Omnichannel: Connected journeys, every channel. Bring customer conversations and business workflows together.",
+     "image": {
+      "__media": "custom/hero-whatsapp-omnichannel.jpg",
+      "alt": "Connected customer journeys"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/whatsapp-omnichannel",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Quality engineering",
+     "description": "Test automation & AI code assurance. Build quality into delivery with continuous testing and Linkfields’ own testoriumz quality engineering platform.",
+     "image": {
+      "__media": "s3/quality-control.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Quality control"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/quality-engineering",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Cloud services",
+     "description": "Consulting, migration, development, Kubernetes and infrastructure. Build and run the cloud foundations that support your digital transformation.",
+     "image": {
+      "__media": "s3/devOps.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Cloud Development"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/cloud-services",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "linkfields-ip",
+   "heading": "Software we own, *built into delivery*",
+   "items": [
+    {
+     "title": "Linkworks",
+     "logo": {
+      "__media": "custom/logos/linkworks.png",
+      "alt": "Linkworks"
+     },
+     "description": "Modernise legacy systems, transform applications and build scalable digital solutions with cyber-safe delivery to meet evolving enterprise needs.",
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "testoriumz",
+     "logo": {
+      "__media": "custom/logos/testoriumz.png",
+      "alt": "testoriumz"
+     },
+     "description": "Quality engineering platform for continuous testing: test management, low-code automation, root-cause analysis, dashboards and CI/CD integration. Replaces a fragmented tool estate with one platform.",
+     "href": "/products-and-accelerators/testoriumz",
+     "linkLabel": "Explore testoriumz"
+    }
+   ],
+   "eyebrow": "Linkfields IP",
+   "description": "Our own software and reusable accelerators sit behind every engagement, licensed on their own or delivered with our services.",
+   "columns": 2,
+   "tone": "navy",
+   "noteLabel": "Reusable accelerators",
+   "note": "Modernisation & Integration Toolkit · Intelligent Workflow Automation Framework · Automated Testing & Release Assurance Packs · Cyber-Safe Delivery"
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "Where we lead with *outcomes*",
+   "description": "Every play starts from a customer problem. Our five portfolios and Linkfields software sit behind each one.",
+   "plays": [
+    {
+     "title": "AI Code Assurance",
+     "accent": "orange",
+     "trigger": "AI-generated code increases delivery speed and assurance risk.",
+     "outcome": "Quality and security gates across CI/CD for AI-written change.",
+     "ip": "testoriumz, VectorX, Cyber-Safe Delivery"
+    },
+    {
+     "title": "Modernisation & Programme Assurance",
+     "accent": "blue",
+     "trigger": "Complex migration and customisation create regression and integration risk.",
+     "outcome": "Migration readiness, automated regression, integration rebuild and security validation.",
+     "ip": "Linkworks, Modernisation & Integration Toolkit, testoriumz, Release Assurance Packs"
+    },
+    {
+     "title": "Intelligent Operations",
+     "accent": "purple",
+     "trigger": "Cost-to-serve pressure creates demand for process intelligence and automation.",
+     "outcome": "Discover, redesign and automate work across process and customer channels.",
+     "ip": "Linkworks, Intelligent Workflow Automation Framework, testoriumz, Cyber-Safe Delivery"
+    }
+   ],
+   "ctaLabel": "Discuss your challenge",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "why-us",
+   "eyebrow": "WHY US",
+   "heading": "Persistently Innovative",
+   "description": "A technology partner that modernises, runs, analyses, secures and scales the enterprise, combining specialist services with our own software and reusable delivery IP. Headquartered in South Africa, delivering globally.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "20",
+     "suffix": "+",
+     "label": "years of industry leadership experience"
+    },
+    {
+     "value": "550",
+     "suffix": "+",
+     "label": "people"
+    },
+    {
+     "value": "80",
+     "suffix": "+",
+     "label": "clients"
+    },
+    {
+     "value": "20",
+     "suffix": "+",
+     "label": "technology partners"
+    }
+   ]
+  },
+  {
+   "__component": "sections.industries-grid",
+   "anchorId": "our-expertise",
+   "eyebrow": "WHO WE SERVE",
+   "heading": "Industries we know deeply",
+   "description": "Digital innovation, intelligent automation and Data & AI, with outcomes tailored to each industry we serve.",
+   "items": [
+    {
+     "title": "Telecom",
+     "description": "Transform telecom and customer experiences with digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-telecom.jpg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom",
+     "tags": "Digital services\nCustomer engagement\nIntelligent connectivity\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "BFSI",
+     "description": "Reimagine banking, insurance and customer services with secure digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-bfsi.jpg",
+      "alt": "BFSI"
+     },
+     "href": "/industries/bfsi",
+     "tags": "Security\nDigital financial services\nIntelligent automation\nCustomer Experience",
+     "accent": null
+    },
+    {
+     "title": "Healthcare & Pharma",
+     "description": "Transform healthcare with digital innovation, AI-driven insights and intelligent automation for better patient care.",
+     "image": {
+      "__media": "custom/industries/ind-healthcare.jpg",
+      "alt": "Healthcare & Pharma"
+     },
+     "href": "/industries/healthcare-pharma",
+     "tags": "Patient care\nDigital health\nAI-powered insights",
+     "accent": null
+    },
+    {
+     "title": "Retail, FMCG & CPG",
+     "description": "Reimagine retail and consumer experiences with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-retail.jpg",
+      "alt": "Retail, FMCG & CPG"
+     },
+     "href": "/industries/retail-fmcg-cpg",
+     "tags": "Customer experience\nForecasting\nPersonalisation\nGrowth",
+     "accent": null
+    },
+    {
+     "title": "Manufacturing",
+     "description": "Accelerate smart manufacturing with digital innovation, AI-powered automation and predictive intelligence.",
+     "image": {
+      "__media": "custom/industries/ind-manufacturing.jpg",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing",
+     "tags": "Smart factories\nOperational excellence\nPredictive intelligence",
+     "accent": null
+    },
+    {
+     "title": "Energy & Mining",
+     "description": "Transform energy and mining operations with digital innovation, intelligent automation and secure Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-energy-mining.jpg",
+      "alt": "Energy & Mining"
+     },
+     "href": "/industries/energy-mining",
+     "tags": "Asset optimisation\nAutomation\nSecurity\nOperational efficiency",
+     "accent": null
+    },
+    {
+     "title": "Public Sector",
+     "description": "Modernise public services with secure digital innovation, intelligent automation and Data & AI for citizens and agencies.",
+     "image": {
+      "__media": "custom/industries/ind-public-sector.jpg",
+      "alt": "Public Sector"
+     },
+     "href": "/industries/public-sector",
+     "tags": "Citizen services\nDigital government\nSecure data\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "Education",
+     "description": "Transform learning and campus operations with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-education.jpg",
+      "alt": "Education"
+     },
+     "href": "/industries/education",
+     "tags": "Digital learning\nStudent experience\nAI-powered insights\nAutomation",
+     "accent": null
+    }
+   ],
+   "cta": null
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

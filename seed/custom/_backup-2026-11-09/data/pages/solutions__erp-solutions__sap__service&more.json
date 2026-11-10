@@ -1,0 +1,294 @@
+{
+ "title": "Services and More",
+ "path": "/solutions/erp-solutions/sap/service&more",
+ "seo": {
+  "metaTitle": "Service & More",
+  "metaDescription": "Service & More | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Services and More",
+   "subtitle": "Empower your enterprise with SAP Solutions",
+   "backgroundImage": {
+    "__media": "s3/Frame 15880576.png",
+    "width": 2560,
+    "height": 837,
+    "mime": "image/png",
+    "alt": "Services and More"
+   },
+   "anchorLinks": [
+    {
+     "label": "SAP TECHNICAL COMPLEXITIES",
+     "targetId": "sap-technical-complexities"
+    },
+    {
+     "label": "MARKETING AND PROMOTIONS",
+     "targetId": "marketing-and-promotions"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "solutions.how-can-we-help",
+   "anchorId": "sap-technical-complexities",
+   "eyebrow": "SAP TECHNICAL COMPLEXITIES",
+   "heading": "Handle the technical intricacies of your SAP landscape with Linkfields specialized expertise.",
+   "description": "",
+   "image": null,
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/arrow-big-up-dash.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Upgrades"
+     },
+     "title": "Upgrades",
+     "description": "Ensure your SAP system is consistently up-to-date for stability.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/profile-2user.png",
+      "width": 257,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "ALM & Solution Manager"
+     },
+     "title": "ALM & Solution Manager",
+     "description": "Accelerate innovation and manage application life cycles effectively.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/4 Hana.png",
+      "width": 257,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "SAP HANA"
+     },
+     "title": "SAP HANA",
+     "description": "Leverage the revolutionary in-memory database management system at the core of modern SAP solutions.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/how-can-we-help.jpg",
+    "width": 1920,
+    "height": 816,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "linkedCards": false
+  },
+  {
+   "__component": "solutions.card-grid",
+   "anchorId": "marketing-and-promotions",
+   "eyebrow": "MARKETING AND PROMOTIONS",
+   "heading": "Revolutionizing Connections",
+   "description": "",
+   "image": null,
+   "cards": [
+    {
+     "icon": null,
+     "title": "Our Mission",
+     "description": "Your SAP solution needs to evolve in tandem with your business requirements, whether it involves new product lines, expanded service areas, or corporate transformations. Linkfields recognizes the challenges of making changes to an integrated ERP system and provides unparalleled expertise at the intersection of business and technology.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "variant": "intro",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-process.jpg",
+    "width": 1920,
+    "height": 980,
+    "mime": "image/jpeg",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "solutions.card-grid",
+   "anchorId": "differentiators",
+   "eyebrow": "",
+   "heading": "Differentiators:",
+   "description": "",
+   "image": null,
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (94).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Deep Consumer Insight:"
+     },
+     "title": "Deep Consumer Insight:",
+     "description": "Understanding consumer behavior for targeted and effective strategies.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (95).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Innovative Approach:"
+     },
+     "title": "Innovative Approach:",
+     "description": "Going beyond the ordinary to create captivating and unforgettable experiences.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (96).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Expert Team:"
+     },
+     "title": "Expert Team:",
+     "description": "A dedicated and highly skilled team ensuring flawless execution from ideation to completion.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "variant": "transparent",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/how-can-we-help.jpg",
+    "width": 1920,
+    "height": 816,
+    "mime": "image/jpeg",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "solutions.card-grid",
+   "anchorId": "core-services",
+   "eyebrow": "",
+   "heading": "Core Services:",
+   "description": "",
+   "image": null,
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (97).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Strategic Advertising Campaigns:"
+     },
+     "title": "Strategic Advertising Campaigns:",
+     "description": "Stand out in a crowded marketplace with compelling and persuasive campaigns.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (98).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Engaging Promotional Events:"
+     },
+     "title": "Engaging Promotional Events:",
+     "description": "Plan and execute captivating events that generate buzz around your brand.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (99).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Digital Marketing Expertise:"
+     },
+     "title": "Digital Marketing Expertise:",
+     "description": "Leverage digital platforms for wider audience reach and meaningful connections",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (100).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Brand Activation Initiatives:"
+     },
+     "title": "Brand Activation Initiatives:",
+     "description": "Transform consumers into enthusiastic brand advocates through experiential campaigns.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 - 2024-03-26T130827.414.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Data-Driven Insights:"
+     },
+     "title": "Data-Driven Insights:",
+     "description": "Utilize data analytics for informed decisions, optimizing promotions for maximum impact.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "variant": "transparent",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/how-can-we-help.jpg",
+    "width": 1920,
+    "height": 816,
+    "mime": "image/jpeg",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

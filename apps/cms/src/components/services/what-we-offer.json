@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_services_what_we_offer",
+  "info": { "displayName": "Services · What we offer", "icon": "grid", "description": "Dark icon-card grid used for HOW CAN WE HELP and WHAT WE OFFER." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "eyebrow": { "type": "string" },
+   "heading": { "type": "text" },
+   "description": { "type": "text" },
+   "items": { "type": "component", "repeatable": true, "component": "shared.text-item" },
+    "cards": { "type": "component", "repeatable": true, "component": "elements.services-icon-card" },
+    "cardLayout": { "type": "enumeration", "enum": ["two", "three"], "default": "three" }
+  }
+}

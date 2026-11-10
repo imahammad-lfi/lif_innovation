@@ -1,0 +1,236 @@
+{
+  "title": "Industries",
+  "path": "/industries",
+  "seo": {
+    "metaTitle": "Industries | Linkfields",
+    "metaDescription": "Explore telecom, financial services, healthcare, retail and other industry priorities with integrated technology services, Linkfields software and accelerators.",
+    "keywords": "industries, enterprise technology, industry workflows, software, accelerators",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Industries",
+      "subtitle": "Deep knowledge of eight sectors, delivered by one AI-driven technology, engineering and advisory partner.",
+      "backgroundImage": {
+        "__media": "custom/hero-industries.jpg",
+        "alt": "Industries service and operations context"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "Industries",
+          "targetId": "industries"
+        },
+        {
+          "label": "Business Problems",
+          "targetId": "business-problems"
+        },
+        {
+          "label": "Delivery Approach",
+          "targetId": "delivery-approach"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Industry overview",
+      "heading": "One strategic partner for industry-specific outcomes",
+      "body": "Industry context shapes the outcome; our integrated capabilities shape the delivery. Linkfields combines [Digital Transformation](/services/digital-transformation), [Intelligent Enterprise Platforms](/services/intelligent-enterprise-platforms), [Data & AI](/services/data-ai), [Cyber Security](/services/cyber-security) and [Talent Advisory & GCC](/services/talent-advisory-gcc) with proprietary software and reusable accelerators. We help enterprises modernise, operate, analyse, secure and scale through one strategic partner.\n\nEach engagement starts with the business workflow, existing systems and accountable owners. Security is embedded by design, with data boundaries, quality gates and acceptance measures agreed around your industry priorities.",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.industries-grid",
+      "anchorId": "industries",
+      "items": [
+        {
+          "title": "Telecom",
+          "description": "Connect service journeys, billing exceptions and customer data to support telecom operations.",
+          "image": {
+            "__media": "custom/industries/ind-telecom.jpg",
+            "alt": "Telecom"
+          },
+          "href": "/industries/telecom",
+          "tags": "Service journeys\nBilling workflows\nChurn insight",
+          "accent": "orange"
+        },
+        {
+          "title": "BFSI",
+          "description": "Banking, insurance and fintech: connect servicing, claims and payments with governed risk insight.",
+          "image": {
+            "__media": "custom/industries/ind-bfsi.jpg",
+            "alt": "Banking, insurance and fintech industry context"
+          },
+          "href": "/industries/bfsi",
+          "tags": "Banking\nInsurance\nFintech",
+          "accent": "blue"
+        },
+        {
+          "title": "Healthcare & Pharma",
+          "description": "Connect patient administration, controlled documents and pharmaceutical supply information.",
+          "image": {
+            "__media": "custom/industries/ind-healthcare.jpg",
+            "alt": "Healthcare & Pharma"
+          },
+          "href": "/industries/healthcare-pharma",
+          "tags": "Patient administration\nSupply visibility\nControlled approvals",
+          "accent": "teal"
+        },
+        {
+          "title": "Retail, FMCG & CPG",
+          "description": "Connect demand, inventory, partner orders and customer journeys across retail and consumer goods.",
+          "image": {
+            "__media": "custom/industries/ind-retail.jpg",
+            "alt": "Retail, FMCG & CPG"
+          },
+          "href": "/industries/retail-fmcg-cpg",
+          "tags": "Demand planning\nInventory\nPartner orders",
+          "accent": "purple"
+        },
+        {
+          "title": "Manufacturing",
+          "description": "Connect production, quality records and maintenance with enterprise applications and data.",
+          "image": {
+            "__media": "custom/industries/ind-manufacturing.jpg",
+            "alt": "Manufacturing"
+          },
+          "href": "/industries/manufacturing",
+          "tags": "Production planning\nQuality workflows\nMaintenance insight",
+          "accent": "orange"
+        },
+        {
+          "title": "Energy & Mining",
+          "description": "Connect asset, material and terminal workflows across mining and Oil & Gas operations.",
+          "image": {
+            "__media": "custom/industries/ind-energy-mining.jpg",
+            "alt": "Energy & Mining"
+          },
+          "href": "/industries/energy-mining",
+          "tags": "Asset information\nMaterial flows\nTerminal workflows",
+          "accent": "yellow"
+        },
+        {
+          "title": "Public Sector",
+          "description": "Connect citizen requests, agency cases and accountable information and approval workflows.",
+          "image": {
+            "__media": "custom/industries/ind-public-sector.jpg",
+            "alt": "Public Sector"
+          },
+          "href": "/industries/public-sector",
+          "tags": "Citizen cases\nAgency integration\nReviewable records",
+          "accent": "blue"
+        },
+        {
+          "title": "Education",
+          "description": "Support course creation and connect student services with everyday campus operations.",
+          "image": {
+            "__media": "custom/industries/ind-education.jpg",
+            "alt": "Education"
+          },
+          "href": "/industries/education",
+          "tags": "Course creation\nCampus services\nStudent administration",
+          "accent": "purple"
+        }
+      ],
+      "cta": null,
+      "eyebrow": "Who we serve",
+      "heading": "Industries we know deeply",
+      "description": "Explore the operational priorities, relevant portfolios and selected Linkfields IP for your industry."
+    },
+    {
+      "__component": "sections.value-plays",
+      "anchorId": "business-problems",
+      "eyebrow": "Strategic value plays",
+      "heading": "Start with the *business problem*",
+      "description": "Three cross-industry starting points connect a business trigger to an integrated delivery plan.",
+      "plays": [
+        {
+          "title": "Modernisation & Programme Assurance",
+          "trigger": "Application or platform migration creates integration and regression risk.",
+          "outcome": "Migration readiness, integration rebuild, automated regression and security validation.",
+          "ip": "Linkworks, Modernisation & Integration Toolkit, testoriumz, Release Assurance Packs",
+          "accent": "blue"
+        },
+        {
+          "title": "Intelligent Operations",
+          "trigger": "Manual hand-offs increase cost-to-serve across service, claims or order journeys.",
+          "outcome": "Discover, redesign and automate work across processes and customer channels.",
+          "ip": "Linkworks, Intelligent Workflow Automation, testoriumz, Cyber-Safe Delivery",
+          "accent": "purple"
+        },
+        {
+          "title": "Regulated Cyber Readiness",
+          "trigger": "Sensitive financial, health or public-service workflows need reviewable control evidence.",
+          "outcome": "Exposure validation, control mapping and remediation evidence within agreed scope.",
+          "ip": "VajraX, Regulatory Readiness & Control Mapping",
+          "accent": "teal"
+        }
+      ],
+      "ctaLabel": "Explore the value plays",
+      "ctaUrl": "/solutions"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery-approach",
+      "eyebrow": "How we deliver",
+      "heading": "From industry priority to *delivery scope*",
+      "description": "Example engagement patterns show how services, software and reusable IP can work together; they are not client case studies.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Modernise with assurance",
+          "description": "Map the systems, interfaces and regression risks before changing a service or operational application.",
+          "accent": "blue",
+          "bullets": "Delivery – engineering and platform services\nIP – Linkworks and testoriumz",
+          "footLabel": "Artefacts to agree",
+          "footText": "Migration plan, interface contracts and release evidence.",
+          "href": "/solutions/modernisation-programme-assurance",
+          "linkLabel": "Explore programme assurance"
+        },
+        {
+          "title": "Connect work and decisions",
+          "description": "Select a service, claims, supply or order journey and define where automation supports people.",
+          "accent": "purple",
+          "bullets": "Delivery – automation, integration and governed analytics\nIP – workflow automation and relevant data accelerators",
+          "footLabel": "Artefacts to agree",
+          "footText": "Workflow map, exception ownership and acceptance measures.",
+          "href": "/solutions/intelligent-operations",
+          "linkLabel": "Explore intelligent operations"
+        },
+        {
+          "title": "Build reviewable controls",
+          "description": "Agree access, exposure and remediation boundaries around the chosen industry workflow.",
+          "accent": "teal",
+          "bullets": "Delivery – Cyber Security with engineering teams\nIP – VajraX and control-mapping accelerators",
+          "footLabel": "Artefacts to agree",
+          "footText": "Control matrix, review checkpoints and remediation records.",
+          "href": "/solutions/regulated-cyber-readiness",
+          "linkLabel": "Explore cyber readiness"
+        }
+      ],
+      "noteLabel": "A scoped starting point",
+      "note": "Discuss goals and constraints, agree discovery and acceptance measures, then choose a suitable project, managed service or dedicated team. Software is also available separately."
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your industry priorities",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

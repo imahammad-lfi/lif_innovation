@@ -1,0 +1,417 @@
+{
+ "title": "Our Approach",
+ "path": "/company/our-approach",
+ "seo": {
+  "metaTitle": "Our Approach | Linkfields Innovations",
+  "metaDescription": "Our Approach | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Our Approach",
+   "subtitle": "Attention to detail, precision in outcomes",
+   "backgroundImage": {
+    "__media": "s3/business-people-teamwork 1.png",
+    "width": 2560,
+    "height": 683,
+    "mime": "image/png",
+    "alt": "Our Approach"
+   },
+   "anchorLinks": [
+    {
+     "label": "HOW WE WORK",
+     "targetId": "how-we-work"
+    },
+    {
+     "label": "VALUE FRAMEWORK",
+     "targetId": "value-framework"
+    },
+    {
+     "label": "OUR EXPLORATION",
+     "targetId": "our-exploration"
+    },
+    {
+     "label": "VALUE PLAYS",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "ENGAGEMENT MODELS",
+     "targetId": "engagement-models"
+    },
+    {
+     "label": "WHO WE SERVE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "company.card-grid",
+   "anchorId": "how-we-work",
+   "eyebrow": "HOW WE WORK",
+   "heading": "Experience directed by iteration",
+   "description": "Linkfields follows a systematic, step-by-step approach which is often derived through blueprints and strategy based on real insights. Our experienced professionals are agile in their work, but also very thorough. Through the best combination of objectivity and subjectivity, we deliver results.",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/goal.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Define the real challenge"
+     },
+     "title": "Define the real challenge",
+     "description": "",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/clock-3.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Move fast, and stay flexible"
+     },
+     "title": "Move fast, and stay flexible",
+     "description": "",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/crosshair.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Apply a human- centered lens"
+     },
+     "title": "Apply a human- centered lens",
+     "description": "",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/heart-handshake.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Put relationships first"
+     },
+     "title": "Put relationships first",
+     "description": "",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "backgroundImage": null,
+   "variant": "work"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "value-framework",
+   "heading": "From AI strategy to *measurable business value*",
+   "items": [
+    {
+     "title": "Strategise & govern",
+     "number": "1",
+     "accent": "orange",
+     "description": "Prioritise use cases, ROI and controls before build starts, so investment follows value and governance is designed in."
+    },
+    {
+     "title": "Accelerate & deliver",
+     "number": "2",
+     "accent": "blue",
+     "description": "Faster go-live and less development effort, using our own software, reusable accelerators and Cyber-Safe Delivery."
+    },
+    {
+     "title": "Measure & optimise",
+     "number": "3",
+     "accent": "yellow",
+     "description": "Validate impact, adoption and savings, then optimise continuously against the outcomes we agreed together."
+    }
+   ],
+   "eyebrow": "Our value framework",
+   "columns": 3,
+   "tone": "navy",
+   "description": "Strategy, delivery and measurement are one connected cycle, from enterprise AI strategy and responsible governance to intelligent execution."
+  },
+  {
+   "__component": "company.exploration-grid",
+   "anchorId": "our-exploration",
+   "eyebrow": "OUR EXPLORATION",
+   "heading": "A recipe for success",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/target-and-arrow-svgrepo-com 1.png",
+      "width": 608,
+      "height": 608,
+      "mime": "image/png",
+      "alt": ""
+     },
+     "description": "We explore the scope of challenges that are being faced by employees or customers. We also determine which assets, platforms or services will accelerate outcomes and establish the most commercially viable solution"
+    },
+    {
+     "icon": {
+      "__media": "s3/data-analysis-svgrepo-com 1.png",
+      "width": 608,
+      "height": 608,
+      "mime": "image/png",
+      "alt": ""
+     },
+     "description": "After discussion and deliberation, we agree on the hypothesis and determine what we need to prove first. Through our partners, we explore ways to maximise impact and boost change, finally drafting an initial project roadmap"
+    },
+    {
+     "icon": {
+      "__media": "s3/indexing-pages-icon 1.png",
+      "width": 548,
+      "height": 608,
+      "mime": "image/png",
+      "alt": ""
+     },
+     "description": "Evolution helps us determine if any additional proof points are generating expected returns and make adjustments if necessary. We also determine if any additional proof points are required and decide which services are needed to support scale."
+    },
+    {
+     "icon": {
+      "__media": "s3/core-values-icon 1.png",
+      "width": 533,
+      "height": 608,
+      "mime": "image/png",
+      "alt": ""
+     },
+     "description": "We explore ways to scale and drive a sustainable cultural change and identify what the delivery model requirements are. This helps us understand how to accelerate additional values."
+    }
+   ]
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "We lead with *outcomes*, not offerings",
+   "description": "Every play starts from a customer problem. Our five portfolios and Linkfields software sit behind each one.",
+   "plays": [
+    {
+     "title": "AI Code Assurance",
+     "accent": "orange",
+     "trigger": "AI-generated code increases delivery speed and assurance risk.",
+     "outcome": "Quality and security gates across CI/CD for AI-written change.",
+     "ip": "testoriumz, VectorX, Cyber-Safe Delivery"
+    },
+    {
+     "title": "Modernisation & Programme Assurance",
+     "accent": "blue",
+     "trigger": "Complex migration and customisation create regression and integration risk.",
+     "outcome": "Migration readiness, automated regression, integration rebuild and security validation.",
+     "ip": "Linkworks, Modernisation & Integration Toolkit, testoriumz, Release Assurance Packs"
+    },
+    {
+     "title": "Regulated Cyber Readiness",
+     "accent": "teal",
+     "trigger": "Regulated industries need continuous evidence, not point-in-time reports.",
+     "outcome": "Continuous exposure validation, control mapping and remediation evidence.",
+     "ip": "VajraX, Regulatory Readiness & Control Mapping"
+    },
+    {
+     "title": "Intelligent Operations",
+     "accent": "purple",
+     "trigger": "Cost-to-serve pressure creates demand for process intelligence and automation.",
+     "outcome": "Discover, redesign and automate work across process and customer channels.",
+     "ip": "Linkworks, Intelligent Workflow Automation Framework, testoriumz, Cyber-Safe Delivery"
+    },
+    {
+     "title": "Capability Centres with Embedded IP",
+     "accent": "yellow",
+     "trigger": "Organisations need scalable delivery capacity with stronger governance and automation.",
+     "outcome": "Build-operate-transfer GCCs with quality, security and engineering IP embedded.",
+     "ip": "Linkworks, Delivery Governance, Quality Engineering IP, Cyber-Safe Delivery"
+    }
+   ],
+   "ctaLabel": "Discuss your challenge",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "engagement-models",
+   "heading": "Flexible *commercial models*",
+   "items": [
+    {
+     "title": "Fixed Price",
+     "accent": "orange",
+     "number": "01",
+     "description": "Defined scope and outcome delivered against agreed milestones and acceptance criteria.",
+     "footLabel": "Best for",
+     "footText": "Well-defined projects, migrations, discrete builds."
+    },
+    {
+     "title": "Time & Materials",
+     "accent": "blue",
+     "number": "02",
+     "description": "Flexible delivery where scope evolves, with transparent rates and governance.",
+     "footLabel": "Best for",
+     "footText": "Discovery, evolving roadmaps, co-development."
+    },
+    {
+     "title": "Managed Service",
+     "accent": "teal",
+     "number": "03",
+     "description": "Ongoing service with SLAs, governance and continuous improvement built in.",
+     "footLabel": "Best for",
+     "footText": "Application management, managed quality, managed security."
+    },
+    {
+     "title": "Dedicated Team",
+     "accent": "purple",
+     "number": "04",
+     "description": "Persistent squads or specialist teams aligned to your priorities and ways of working.",
+     "footLabel": "Best for",
+     "footText": "Product engineering, sustained capacity, capability centres (GCC)."
+    },
+    {
+     "title": "Outcome-Based",
+     "accent": "yellow",
+     "number": "05",
+     "description": "Commercials linked to measurable business or operational outcomes, where these can be agreed and evidenced.",
+     "footLabel": "Best for",
+     "footText": "Assurance, exposure closure, resolution-rate engagements."
+    }
+   ],
+   "eyebrow": "How we engage",
+   "description": "One capability architecture, flexible commercial models. Buy a project, a managed outcome, a dedicated team, or our software on its own.",
+   "columns": 5,
+   "tone": "navy",
+   "noteLabel": "Proprietary software is sold separately",
+   "note": "Linkworks, testoriumz, VajraX and our AI SaaS solutions are available by licence, subscription or SaaS, with or without a Linkfields services engagement."
+  },
+  {
+   "__component": "sections.industries-grid",
+   "anchorId": "our-expertise",
+   "eyebrow": "WHO WE SERVE",
+   "heading": "Industries we know deeply",
+   "description": "Digital innovation, intelligent automation and Data & AI, with outcomes tailored to each industry we serve.",
+   "items": [
+    {
+     "title": "Telecom",
+     "description": "Transform telecom and customer experiences with digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-telecom.jpg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom",
+     "tags": "Digital services\nCustomer engagement\nIntelligent connectivity\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "BFSI",
+     "description": "Reimagine banking, insurance and customer services with secure digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-bfsi.jpg",
+      "alt": "BFSI"
+     },
+     "href": "/industries/bfsi",
+     "tags": "Security\nDigital financial services\nIntelligent automation\nCustomer Experience",
+     "accent": null
+    },
+    {
+     "title": "Healthcare & Pharma",
+     "description": "Transform healthcare with digital innovation, AI-driven insights and intelligent automation for better patient care.",
+     "image": {
+      "__media": "custom/industries/ind-healthcare.jpg",
+      "alt": "Healthcare & Pharma"
+     },
+     "href": "/industries/healthcare-pharma",
+     "tags": "Patient care\nDigital health\nAI-powered insights",
+     "accent": null
+    },
+    {
+     "title": "Retail, FMCG & CPG",
+     "description": "Reimagine retail and consumer experiences with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-retail.jpg",
+      "alt": "Retail, FMCG & CPG"
+     },
+     "href": "/industries/retail-fmcg-cpg",
+     "tags": "Customer experience\nForecasting\nPersonalisation\nGrowth",
+     "accent": null
+    },
+    {
+     "title": "Manufacturing",
+     "description": "Accelerate smart manufacturing with digital innovation, AI-powered automation and predictive intelligence.",
+     "image": {
+      "__media": "custom/industries/ind-manufacturing.jpg",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing",
+     "tags": "Smart factories\nOperational excellence\nPredictive intelligence",
+     "accent": null
+    },
+    {
+     "title": "Energy & Mining",
+     "description": "Transform energy and mining operations with digital innovation, intelligent automation and secure Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-energy-mining.jpg",
+      "alt": "Energy & Mining"
+     },
+     "href": "/industries/energy-mining",
+     "tags": "Asset optimisation\nAutomation\nSecurity\nOperational efficiency",
+     "accent": null
+    },
+    {
+     "title": "Public Sector",
+     "description": "Modernise public services with secure digital innovation, intelligent automation and Data & AI for citizens and agencies.",
+     "image": {
+      "__media": "custom/industries/ind-public-sector.jpg",
+      "alt": "Public Sector"
+     },
+     "href": "/industries/public-sector",
+     "tags": "Citizen services\nDigital government\nSecure data\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "Education",
+     "description": "Transform learning and campus operations with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-education.jpg",
+      "alt": "Education"
+     },
+     "href": "/industries/education",
+     "tags": "Digital learning\nStudent experience\nAI-powered insights\nAutomation",
+     "accent": null
+    }
+   ],
+   "cta": null
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

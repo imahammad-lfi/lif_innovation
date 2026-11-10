@@ -1,0 +1,247 @@
+{
+  "title": "Intelligent Workflow Automation",
+  "path": "/products-and-accelerators/intelligent-workflow-automation",
+  "seo": {
+    "metaTitle": "Intelligent Workflow Automation | Linkfields",
+    "metaDescription": "Adapt reusable workflow, AI orchestration and integration patterns to enterprise processes. Review approvals, readiness and controlled delivery with Linkfields.",
+    "keywords": "workflow automation, AI orchestration, integration, underwriting",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Intelligent Workflow Automation",
+      "subtitle": "Reusable workflow and integration patterns, adapted to your processes, rules and human approvals.",
+      "backgroundImage": {
+        "__media": "custom/hero-workflow-automation.jpg",
+        "alt": "Connected network illustrating people, applications and AI tasks"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "Reuse Scope",
+          "targetId": "reuse-scope"
+        },
+        {
+          "label": "Outputs",
+          "targetId": "outputs"
+        },
+        {
+          "label": "Readiness",
+          "targetId": "readiness"
+        },
+        {
+          "label": "Related Items",
+          "targetId": "related-items"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "REUSABLE ACCELERATOR · ENTERPRISE AI",
+      "heading": "Keep work moving across systems",
+      "body": "Intelligent Workflow Automation is reusable delivery IP, not another standalone automation platform. Its workflow, AI orchestration and integration patterns are adapted to your process; discovery, system access and business rules remain client-specific.\n\nIt supports the [Intelligent Operations value play](/solutions/intelligent-operations), alongside [Automation & RPA](/services/digital-transformation/automation-rpa) and [Integration services](/services/digital-transformation/integration-services). [Assess your workflow](#get-in-touch): share the process, involved systems and desired outcome, not sensitive case records.",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "reuse-scope",
+      "eyebrow": "PRE-BUILT AND TAILORED",
+      "heading": "Automation from task to decision",
+      "description": "",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Workflow automation",
+          "description": "Adapt repeatable workflow patterns to your process steps, roles and exception paths.",
+          "bullets": "Inputs – task data and process rules\nConfigure – hand-offs, approvals and exceptions\nOutput – controlled task flow",
+          "accent": "orange"
+        },
+        {
+          "title": "AI orchestration",
+          "description": "Place AI-supported tasks inside a workflow with defined context, permissions and human review.",
+          "bullets": "Inputs – permitted data and task context\nConfigure – AI boundaries and review points\nOutput – decision support for review",
+          "accent": "purple"
+        },
+        {
+          "title": "Application integration",
+          "description": "Adapt integration patterns to the applications and interfaces in scope; connectors are selected during assessment.",
+          "bullets": "Inputs – system APIs and data contracts\nConfigure – mappings, access and failure handling\nOutput – information passed between systems",
+          "accent": "orange"
+        }
+      ],
+      "noteLabel": "Reuse boundary",
+      "note": "Select the workflow, orchestration and integration assets for the process. The supported connectors, configurable rules and audit requirements are agreed for the engagement."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "outputs",
+      "eyebrow": "ARTEFACTS AND ACCEPTANCE",
+      "heading": "Build around the workflow that matters",
+      "description": "The framework contributes reusable patterns; the process design and acceptance evidence remain specific to your organisation.",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Scoped process",
+          "description": "Map the decision, process owner, baseline and exceptions.",
+          "bullets": "Reuse – relevant workflow patterns\nAccept – process scope and baseline",
+          "accent": "orange",
+          "number": "01"
+        },
+        {
+          "title": "Integration and approval design",
+          "description": "Define system contracts, permissions and approval responsibilities.",
+          "bullets": "Tailor – interfaces and human controls\nAccept – integration and approval design",
+          "accent": "orange",
+          "number": "02"
+        },
+        {
+          "title": "Tested workflow",
+          "description": "Test normal paths, incomplete inputs and failures before release.",
+          "bullets": "Tailor – rules and exception handling\nAccept – workflow and exception evidence",
+          "accent": "orange",
+          "number": "03"
+        },
+        {
+          "title": "Controlled release",
+          "description": "Agree a release boundary and an operating handover with accountable owners.",
+          "bullets": "Tailor – deployment and operating runbook\nAccept – release and handover criteria",
+          "accent": "orange",
+          "number": "04"
+        }
+      ],
+      "noteLabel": "Illustrative underwriting workflow",
+      "note": "Document and data intake → completeness and policy checks → AI-supported assessment → an authorised underwriter approves or refers the case → exceptions return to a review queue. Underwriting optimisation is an applied BFSI use case, not an autonomous approval promise or a client case study."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "readiness",
+      "eyebrow": "TIME TO VALUE AND FIT",
+      "heading": "What stays under human review?",
+      "description": "First value is a tested workflow in a controlled pilot. Integration access, process complexity and approval rules determine timing; reuse does not remove these dependencies.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Systems and process",
+          "description": "Start with an owned, repeatable process and accessible interfaces.",
+          "bullets": "Provide – system/API access and data contracts\nName – process and rule owners\nAgree – scope and baseline",
+          "accent": "orange"
+        },
+        {
+          "title": "Permissions and exceptions",
+          "description": "Define what each task may access, recommend or change.",
+          "bullets": "Agree – data permissions and AI task boundaries\nName – human approval and escalation points\nTest – failures, exceptions and audit trail",
+          "accent": "orange"
+        },
+        {
+          "title": "Operating ownership",
+          "description": "Plan a controlled release and the responsibilities after go-live.",
+          "bullets": "Agree – deployment and security boundaries\nName – support and exception owners\nMeasure – cycle time or manual touches against an agreed baseline",
+          "accent": "orange"
+        }
+      ],
+      "noteLabel": "Buying boundary",
+      "note": "Accelerator adoption is scoped separately from software licensing. Agree the engagement model, reuse and handover rights, licence dependencies and ongoing support before delivery."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "related-items",
+      "eyebrow": "CONNECTED DELIVERY",
+      "heading": "Deliver intelligent operations together",
+      "description": "Linkworks supplies composable applications within the Intelligent Operations value play. Its role and any product licence are scoped separately from framework adoption.",
+      "variant": "compact",
+      "columns": 2,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Predictive Analytics Suite",
+          "description": "Provide scores that a workflow can route for accountable human review.",
+          "bullets": "",
+          "accent": "purple",
+          "href": "/products-and-accelerators/predictive-analytics-suite",
+          "linkLabel": "Explore predictive models"
+        },
+        {
+          "title": "Delivery accelerators",
+          "description": "Bring quality, release and Cyber-Safe Delivery checks into workflow change.",
+          "bullets": "",
+          "accent": "orange",
+          "href": "/products-and-accelerators/delivery-accelerators#digital-transformation",
+          "linkLabel": "Explore delivery assurance"
+        }
+      ],
+      "logosLabel": "Delivery and sector routes",
+      "logos": [
+        {
+          "label": "Digital Transformation",
+          "href": "/services/digital-transformation",
+          "openInNewTab": false
+        },
+        {
+          "label": "Automation & RPA",
+          "href": "/services/digital-transformation/automation-rpa",
+          "openInNewTab": false
+        },
+        {
+          "label": "Integration services",
+          "href": "/services/digital-transformation/integration-services",
+          "openInNewTab": false
+        },
+        {
+          "label": "Data & AI",
+          "href": "/services/data-ai",
+          "openInNewTab": false
+        },
+        {
+          "label": "BFSI",
+          "href": "/industries/bfsi",
+          "openInNewTab": false
+        },
+        {
+          "label": "Insurance",
+          "href": "/industries/bfsi#insurance",
+          "openInNewTab": false
+        },
+        {
+          "label": "Linkworks",
+          "href": "/products-and-accelerators/linkworks",
+          "openInNewTab": false,
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          }
+        }
+      ],
+      "ctaLabel": "All products and accelerators",
+      "ctaUrl": "/products-and-accelerators"
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Assess your workflow",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

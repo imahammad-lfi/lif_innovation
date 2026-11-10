@@ -1,0 +1,363 @@
+{
+ "title": "Quality engineering",
+ "path": "/services/digital-transformation/quality-engineering",
+ "seo": {
+  "metaTitle": "Quality Engineering & Test Automation | Linkfields Innovations",
+  "metaDescription": "Test automation and AI code assurance, backed by quality engineering services and Linkfields’ own testoriumz continuous testing platform.",
+  "keywords": "quality engineering, test automation, AI code assurance, testoriumz, Testing CoE, continuous testing",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Quality engineering",
+   "subtitle": "Test automation & AI code assurance",
+   "backgroundImage": {
+    "__media": "s3/Quality control  BG.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Quality Control"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "BENEFITS",
+     "targetId": "benefits"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Never compromising on quality",
+   "body": "Quality control is a system or set of methods planned to guarantee that a made item or performed administration holds fast to a characterized set of value models or meets the prerequisites of the customer or client.\n\nTest automation & AI code assurance bring quality into the software delivery lifecycle. Linkfields’ own quality engineering platform, testoriumz, supports continuous testing with test management, low-code automation, root-cause analysis, dashboards and CI/CD integration.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Tests to ensure excellence",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (34).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Usability testing"
+     },
+     "title": "Usability testing",
+     "description": "In order to find usability flaws, our team will create a range of real-life interaction scenarios and thoroughly replay them."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (35).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Test automation"
+     },
+     "title": "Test automation",
+     "description": "We create a custom automated testing framework that fits your project’s scope and requirements."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (36).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application quality assurance"
+     },
+     "title": "Application quality assurance",
+     "description": "With an automated, AI-led, and analytics-driven approach to quality for systems and apps, we can boost speed, quality, and productivity."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (37).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Performance testing"
+     },
+     "title": "Performance testing",
+     "description": "Putting your system through a series of stress resilience and load endurance tests."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (38).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Specialised testing"
+     },
+     "title": "Specialised testing",
+     "description": "Using smart, networked technologies to enable human-centric, digital experiences."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (39).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Security testing"
+     },
+     "title": "Security testing",
+     "description": "Our penetrative testing identifies application flaws and guarantees that your application’s dangers are minimised."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (40).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Agile testing"
+     },
+     "title": "Agile testing",
+     "description": "We have continuous interaction between developers, testers, and managers."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (41).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "DevOps testing"
+     },
+     "title": "DevOps testing",
+     "description": "We have automated software testing and deployment processes placed in the system."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (42).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Testing CoE"
+     },
+     "title": "Testing CoE",
+     "description": "We create a centralised testing service which is shared across the organisation."
+    },
+    {
+     "title": "AI code assurance",
+     "description": "Bring assurance of AI-assisted code into your testing approach, with review, automated checks and regression coverage alongside existing quality controls.",
+     "icon": {
+      "__media": "s3/Frame 402 (36).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application quality assurance"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "10x faster operational growth",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.media-process",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "Maintaining high standard through rigorous testing",
+   "description": "The outstanding results we achieve are not credited to anything besides the extreme and rigorous testing standards which we put our products through.",
+   "points": [],
+   "image": {
+    "__media": "s3/Frame 15880133 (1).png",
+    "width": 1624,
+    "height": 1100,
+    "mime": "image/png",
+    "alt": "Maintaining high standard through rigorous testing"
+   },
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "partnersHeading": "",
+   "partners": [],
+   "variant": "standard"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "automation-framework",
+   "eyebrow": "",
+   "heading": "Automation Framework",
+   "description": "We help organisations achieve higher productivity and digital quality assurance through sets of tools that support each other in establishing a robust automation framework for your operations.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "backgroundStyle": "dark",
+   "image": {
+    "__media": "s3/tools quality control.png",
+    "width": 2560,
+    "height": 1116,
+    "mime": "image/png",
+    "alt": "Automation Framework"
+   },
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Certified expertise",
+     "description": "QA engineers that are accredited and have a thorough understanding of the latest technologies and tools help achieve perfectionism that stays at the core of our organisation."
+    },
+    {
+     "title": "Automated testing processes",
+     "description": "Automated QA testing aids in the technique of continuous integration, which entails developing, testing, and deploying software numerous times per day."
+    },
+    {
+     "title": "Continuous Integration (CI)",
+     "description": "Continuous integration lets us detect and fix defects faster, increase software quality, and shorten the time it takes to validate and deploy new software upgrades."
+    },
+    {
+     "title": "Metrics collection",
+     "description": "Throughout our testing process we collect data using various metrics to monitor the progress and maintain the product quality at different phases."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "services.superpowers",
+   "anchorId": "benefits",
+   "eyebrow": "BENEFITS",
+   "heading": "Every factor to help you grow",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (43).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Swifter marketing of new functions"
+     },
+     "title": "Swifter marketing of new functions",
+     "description": "To minimise error, establish what steps in the development process are prone to mistakes."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (44).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Reduced business cost"
+     },
+     "title": "Reduced business cost",
+     "description": "You can conserve time in future projects by resolving difficulties in your workflow."
+    }
+   ]
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "testoriumz",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "One platform for continuous testing",
+   "description": "testoriumz is Linkfields’ own quality engineering platform. It replaces a fragmented tool estate with one platform.",
+   "items": [],
+   "cards": [
+    {
+     "title": "Test management",
+     "description": "Plan and manage testing in one quality engineering platform.",
+     "icon": {
+      "__media": "s3/Frame 402 (34).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Usability testing"
+     }
+    },
+    {
+     "title": "Low-code automation",
+     "description": "Connect automated testing with your CI/CD delivery practices.",
+     "icon": {
+      "__media": "s3/Frame 402 (35).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Test automation"
+     }
+    },
+    {
+     "title": "Quality insight",
+     "description": "Use root-cause analysis and dashboards to understand quality across delivery.",
+     "icon": {
+      "__media": "s3/Frame 402 (36).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application quality assurance"
+     }
+    }
+   ],
+   "cardLayout": "three"
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Accelerate Quality. Automate Smart. Deliver Faster.",
+   "description": "Explore testoriumz, Linkfields’ own platform for continuous testing.",
+   "ctaLabel": "Explore testoriumz",
+   "ctaUrl": "/products-and-accelerators/testoriumz"
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

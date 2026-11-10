@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_articles",
+  "info": {
+    "singularName": "news-article",
+    "pluralName": "news-articles",
+    "displayName": "News article",
+    "description": "Press coverage shown on /company/news-and-articles"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "default": "News"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

@@ -1,0 +1,245 @@
+{
+ "title": "WhatsApp Business & omnichannel",
+ "path": "/services/digital-transformation/whatsapp-omnichannel",
+ "seo": {
+  "metaTitle": "WhatsApp Business & omnichannel | Linkfields",
+  "metaDescription": "WhatsApp Business integration connects conversations with CRM and fulfilment, helping teams preserve context across channels and improve customer handovers.",
+  "keywords": "WhatsApp Business, omnichannel, customer journeys, human handover, WhatsApp Business integration, WhatsApp Business integration South Africa, WhatsApp CRM integration, omnichannel customer service, WhatsApp workflow automation, WhatsApp human handover",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "WhatsApp Business & omnichannel",
+   "subtitle": "Connect WhatsApp conversations with enterprise systems and human service teams.",
+   "backgroundImage": {
+    "__media": "custom/hero-whatsapp-omnichannel.jpg",
+    "alt": "WhatsApp conversations connected to customer service journeys"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Use Cases",
+     "targetId": "use-cases"
+    },
+    {
+     "label": "Our Approach",
+     "targetId": "our-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Meet customers in the conversations that matter",
+   "body": "A connected customer journey gives service teams the conversation history and fulfilment context needed to support the next step. We connect priority WhatsApp interactions to enterprise workflows and human service teams, preserving relevant information across agreed channels.\n\nDuring discovery, we agree channel and provider scope and establish baselines for resolution time, handover quality and journey completion. [Discuss a customer journey](#get-in-touch).",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "WHAT WE DELIVER",
+   "heading": "What we deliver",
+   "description": "Design the whole journey, not just a single channel. Agree the provider, channels and commerce boundaries before implementation.",
+   "items": [
+    {
+     "title": "Conversation and intent design",
+     "description": "Approved flow, response content and routing for the priority request, including opt-out and unsupported-intent paths.",
+     "accent": "orange"
+    },
+    {
+     "title": "Service and human handover",
+     "description": "Routing rules, escalation points and a context summary for the receiving service team.",
+     "accent": "orange"
+    },
+    {
+     "title": "Commerce and fulfilment integration",
+     "description": "Data mappings and system interfaces for enquiries and fulfilment updates. Payment or checkout is not assumed within scope.",
+     "accent": "orange"
+    },
+    {
+     "title": "Context continuity",
+     "description": "Agreed customer identifiers, permitted context and channel-transition rules for the supported journey.",
+     "accent": "orange"
+    },
+    {
+     "title": "Governed workflow automation",
+     "description": "Task permissions, approval points and auditability for requests moving between conversations and applications.",
+     "accent": "orange"
+    },
+    {
+     "title": "End-to-end journey assurance",
+     "description": "Release test pack covering consent, authentication, integrations, failure routes and human handover.",
+     "accent": "orange",
+     "href": "/services/digital-transformation/quality-engineering",
+     "linkLabel": "Quality engineering"
+    }
+   ],
+   "tone": "navy",
+   "columns": 3,
+   "variant": "default"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "use-cases",
+   "eyebrow": "ILLUSTRATIVE USE CASES",
+   "heading": "From enquiry to resolved request",
+   "description": "Illustrative journey: WhatsApp enquiry → consent and authentication → CRM lookup → fulfilment update → human handover with context.",
+   "items": [
+    {
+     "title": "1. Understand and authorise",
+     "description": "Identify the request, confirm the required consent and authenticate before exposing account data. Offer an opt-out or supported alternative when the journey cannot continue.",
+     "accent": "orange"
+    },
+    {
+     "title": "2. Retrieve and complete",
+     "description": "Look up permitted CRM information and request the fulfilment update through agreed interfaces. Route integration failures to a named service owner.",
+     "accent": "orange",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Integration services"
+    },
+    {
+     "title": "3. Hand over with context",
+     "description": "Give the human team the request, permitted history and pending action. Confirm completion or follow-up rather than asking the customer to repeat the conversation.",
+     "accent": "orange"
+    }
+   ],
+   "tone": "ink",
+   "columns": 3,
+   "variant": "compact",
+   "ctaLabel": "Intelligent Operations",
+   "ctaUrl": "/solutions/intelligent-operations"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "ip-and-accelerators",
+   "eyebrow": "LINKFIELDS IP & ACCELERATORS",
+   "heading": "Delivery IP for connected journeys",
+   "description": "These Linkfields capabilities can support an agreed journey; they are not a WhatsApp provider platform or a claim of Meta certification.",
+   "items": [
+    {
+     "title": "Intelligent Workflow Automation",
+     "description": "Workflow automation, AI orchestration and application integration can route tasks with permissions, approvals and audit trails tailored to the service journey.",
+     "accent": "orange",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore workflow automation"
+    },
+    {
+     "title": "Linkworks",
+     "description": "REST APIs and composable applications can connect custom service workflows where existing ERP or CRM capabilities do not fit.",
+     "accent": "orange",
+     "logo": {
+      "__media": "custom/logos/linkworks.png",
+      "alt": "Linkworks product logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "testoriumz",
+     "description": "Continuous testing and CI/CD integration can support journey assurance. Select Automated Testing & Release Assurance Packs and Cyber-Safe Delivery to fit the release scope.",
+     "accent": "orange",
+     "logo": {
+      "__media": "custom/logos/testoriumz.png",
+      "alt": "testoriumz product logo"
+     },
+     "href": "/products-and-accelerators/testoriumz",
+     "linkLabel": "Explore testoriumz",
+     "links": [
+      {
+       "label": "Journey release accelerators",
+       "href": "/products-and-accelerators/delivery-accelerators",
+       "openInNewTab": false
+      }
+     ]
+    }
+   ],
+   "tone": "navy",
+   "columns": 3,
+   "variant": "default",
+   "noteLabel": "Fit and licensing",
+   "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Discovery agrees product fit, reusable accelerator content and client-specific engineering."
+  },
+  {
+   "__component": "services.numbered-help",
+   "anchorId": "our-approach",
+   "eyebrow": "SECURE BY DESIGN",
+   "heading": "From customer need to a connected journey",
+   "items": [
+    {
+     "description": "Discover — Prioritise the service journey and baseline outcomes. Client owners confirm the provider model, supported channels, systems and operational constraints."
+    },
+    {
+     "description": "Design — Agree conversations, consent, authentication and human handovers. The client approves content, templates where required, data access and retention responsibilities."
+    },
+    {
+     "description": "Connect — Implement approved interfaces and workflow permissions. System and service owners validate mappings, audit trails, failures and escalation paths."
+    },
+    {
+     "description": "Assure and improve — Test the complete journey, opt-out and handover before staged release. Agree release approval, operating ownership and feedback measures; improve the flow within the agreed scope."
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "acceptance-and-evidence",
+   "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
+   "heading": "Validate the complete customer journey",
+   "body": "Acceptance should trace a request from the approved conversation flow to system action and human handover. Include consent and authentication checks, failed-integration tests, opt-out behaviour and confirmation that the receiving team has the permitted context.\n\nMeasure completion, resolution time and handover quality over an agreed period. Service and data owners approve operating responsibility and retention; use redacted test data when sharing journey evidence.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "ENGAGEMENT & BUYER QUESTIONS",
+   "heading": "Plan the right engagement",
+   "description": "Use Time & Materials for journey discovery, or Fixed Price for an approved flow and defined integrations. A Dedicated Team supports an evolving journey backlog; Managed Service covers agreed operating responsibilities. Outcome-Based terms need measurable completion or resolution baselines and agreed attribution.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "Which provider, channels and onboarding model apply?",
+     "description": "Confirm the WhatsApp Business Platform/provider arrangement, account ownership, supported channels and onboarding requirements in discovery. Templates, approval steps and operating responsibilities belong in the agreed scope."
+    },
+    {
+     "title": "How are opt-in and customer data handled?",
+     "description": "Agree consent, authentication, permitted data, opt-out, retention and access with the client data owner. Validate those controls before connecting conversations to account or fulfilment information."
+    },
+    {
+     "title": "How does a human handover work?",
+     "description": "Define the trigger, receiving queue, context summary and next action. Test unavailable-team and failed-routing paths so the customer has a clear route to follow-up."
+    },
+    {
+     "title": "Does the service include payments or checkout?",
+     "description": "Not by default. Confirm commerce, fulfilment and any payment requirements separately, including provider support, integration responsibilities and applicable controls."
+    },
+    {
+     "title": "What should we bring to the conversation?",
+     "description": "Share the priority service journey, channels, CRM or contact-centre systems and handover constraints. We can agree scope and confidentiality before designing a practical service or commerce journey."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Design a connected customer journey",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

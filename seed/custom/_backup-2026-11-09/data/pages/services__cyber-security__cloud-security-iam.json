@@ -1,0 +1,150 @@
+{
+ "title": "Cloud security & IAM",
+ "path": "/services/cyber-security/cloud-security-iam",
+ "seo": {
+  "metaTitle": "Cloud Security & IAM Services | Linkfields Innovations",
+  "metaDescription": "Review cloud architecture, networks, firewalls and identity access. Linkfields aligns cloud security controls and IAM with governance and regulation.",
+  "keywords": "cloud security, IAM, architecture review, network security, cloud GRC",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cloud security & IAM",
+   "subtitle": "Clear architecture. Controlled access. Stronger cloud foundations.",
+   "backgroundImage": {
+    "__media": "custom/hero-cloud-security.jpg",
+    "alt": "Cloud security and identity access management"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Secure the connections that run your cloud",
+   "body": "Cloud security depends on how systems connect, how access is granted and how controls are maintained. We help you review architecture across networks, firewalls and identity and access management (IAM), with cloud security and GRC considered together.\n\nUnderstand the current environment, identify priorities and align security decisions with the way your organisation operates. Controls, IAM and regulation become part of the architecture conversation, not an afterthought.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Architecture and access, reviewed together",
+   "description": "Architecture review: Network, firewall & IAM. Cloud security & GRC: Controls, IAM & regulation.",
+   "items": [],
+   "cardLayout": "two",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (62).png",
+      "alt": ""
+     },
+     "title": "Cloud architecture",
+     "description": "Review how cloud services and workloads connect. Identify security boundaries and the dependencies that need closer attention."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (65).png",
+      "alt": ""
+     },
+     "title": "Network controls",
+     "description": "Assess network and firewall design against intended access paths, with clear ownership of configuration and change."
+    },
+    {
+     "icon": {
+      "__media": "s3/key refresh (1).png",
+      "alt": ""
+     },
+     "title": "Identity & access",
+     "description": "Review roles, permissions and access lifecycles. Align IAM decisions with the people and services that need access."
+    },
+    {
+     "icon": {
+      "__media": "s3/search-code.png",
+      "alt": ""
+     },
+     "title": "Cloud GRC",
+     "description": "Connect controls and IAM with governance, risk and regulatory requirements. Identify the evidence needed to support ongoing review."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "title": "Build security into your cloud architecture",
+   "description": "Start with the access and control decisions that matter.",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "A practical review, an actionable direction",
+   "description": "Make the current state visible before deciding which changes to make. Bring architecture, operations and risk owners into the same review.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "items": [
+    {
+     "title": "Map the environment",
+     "description": "Understand workloads, network paths, firewall policies and identity dependencies. Establish the scope and the purpose of each control."
+    },
+    {
+     "title": "Review architecture and IAM",
+     "description": "Compare the intended design with current configuration and permissions. Record gaps in access boundaries, responsibilities and control coverage."
+    },
+    {
+     "title": "Agree the priorities",
+     "description": "Work with stakeholders to prioritise changes by risk and delivery impact. Define owners and the evidence needed to verify remediation."
+    },
+    {
+     "title": "Keep controls current",
+     "description": "Review access and configuration as services change. Connect operational checks with the organisation's governance and compliance activities."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

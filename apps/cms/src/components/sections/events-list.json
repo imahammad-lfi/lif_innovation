@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_sections_events_lists",
+  "info": {
+    "displayName": "Events list",
+    "icon": "calendar",
+    "description": "Upcoming and past events from Strapi \u203a Event, split automatically by date. Upcoming events show booking, calendar and organiser links."
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string",
+      "default": "upcoming-events"
+    },
+    "pastAnchorId": {
+      "type": "string",
+      "default": "past-events"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pastEyebrow": {
+      "type": "string"
+    },
+    "pastHeading": {
+      "type": "text"
+    },
+    "pastDescription": {
+      "type": "text"
+    },
+    "emptyTitle": {
+      "type": "string"
+    },
+    "emptyText": {
+      "type": "text"
+    },
+    "showPast": {
+      "type": "boolean",
+      "default": true
+    },
+    "pastLimit": {
+      "type": "integer",
+      "default": 9
+    }
+  }
+}

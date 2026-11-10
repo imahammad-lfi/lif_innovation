@@ -1,0 +1,143 @@
+{
+ "title": "testoriumz",
+ "path": "/products-and-accelerators/testoriumz",
+ "seo": {
+  "metaTitle": "testoriumz | Linkfields Innovations",
+  "metaDescription": "Explore testoriumz, Linkfields’ quality engineering platform for low-code testing, AI root-cause analysis and CI/CD integration.",
+  "keywords": "testoriumz, quality engineering, low-code testing, AI root-cause analysis, continuous testing, CI/CD integration",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "testoriumz",
+   "subtitle": "Quality engineering — Low-code testing, AI root-cause analysis and CI/CD integration.",
+   "backgroundImage": {
+    "__media": "custom/hero-testoriumz.jpg",
+    "alt": "Quality engineering — Low-code testing, AI root-cause analysis and CI/CD integration."
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT'S INSIDE",
+     "targetId": "whats-inside"
+    },
+    {
+     "label": "DELIVERY",
+     "targetId": "delivery"
+    },
+    {
+     "label": "VISIT TESTORIUMZ",
+     "targetId": "visit-testoriumz"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "One platform for continuous quality",
+   "body": "testoriumz is Linkfields’ own quality engineering platform. It brings test management, low-code automation, root-cause analysis and dashboards together to support continuous testing.\n\nBuilt for web, mobile, API and enterprise systems such as SAP, the platform connects testing with CI/CD delivery. Explore our [quality engineering services](/services/digital-transformation/quality-engineering) for the testing approach and support around it.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.card-grid",
+   "anchorId": "whats-inside",
+   "eyebrow": "WHAT'S INSIDE",
+   "heading": "Quality engineering",
+   "description": "",
+   "variant": "dark",
+   "cards": [
+    {
+     "title": "Low-code testing",
+     "description": "Create and manage automated tests with low-code tools, making reusable testing part of everyday software delivery.",
+     "icon": {
+      "__media": "custom/icons/digital-transformation.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "AI root-cause analysis",
+     "description": "Use AI-led analysis and failure-pattern dashboards to investigate test failures and focus attention on quality issues.",
+     "icon": {
+      "__media": "custom/icons/data-ai.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "CI/CD integration",
+     "description": "Embed automated test execution into CI/CD and DevOps pipelines to check software as it changes.",
+     "icon": {
+      "__media": "custom/icons/acc-delivery.svg",
+      "alt": ""
+     }
+    }
+   ]
+  },
+  {
+   "__component": "products.product-portfolio",
+   "anchorId": "delivery",
+   "eyebrow": "DELIVERY",
+   "heading": "Continuous testing, built into delivery",
+   "description": "Start with an assessment and a focused proof of concept. Build reusable tests, then connect execution and reporting to your delivery pipeline.",
+   "categories": [
+    {
+     "anchorId": "quality-engineering",
+     "number": "01",
+     "title": "Quality engineering",
+     "href": "/services/digital-transformation/quality-engineering",
+     "accent": "orange",
+     "products": [
+      {
+       "name": "testoriumz",
+       "logo": {
+        "__media": "custom/logos/testoriumz.png",
+        "alt": "testoriumz"
+       },
+       "tagline": "From test planning to quality insight",
+       "description": "Bring test management, automation and reporting into one platform, supported by Linkfields’ quality engineering services.",
+       "tags": "Test management | Reusable automation | Continuous execution | Quality reporting",
+       "href": "https://testoriumz.com",
+       "linkLabel": "Visit testoriumz",
+       "openInNewTab": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Bring continuous quality into your delivery",
+   "description": "Talk to us about testoriumz and the quality engineering support your organisation needs.",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

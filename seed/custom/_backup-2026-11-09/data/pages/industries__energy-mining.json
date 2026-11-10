@@ -1,0 +1,245 @@
+{
+ "title": "Energy & Mining",
+ "path": "/industries/energy-mining",
+ "seo": {
+  "metaTitle": "Energy & Mining | Linkfields Innovations",
+  "metaDescription": "Transform energy and mining operations with asset optimisation, intelligent automation, secure Data & AI and connected enterprise platforms.",
+  "keywords": "energy, mining, oil and gas, asset optimisation, automation, security, operational efficiency, predictive maintenance",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Energy & Mining",
+   "subtitle": "Transform energy and mining operations with digital innovation, intelligent automation and secure Data & AI.",
+   "backgroundImage": {
+    "__media": "custom/hero-energy-mining.jpg",
+    "alt": "Energy and mining operations"
+   },
+   "anchorLinks": [
+    {
+     "label": "INDUSTRY OVERVIEW",
+     "targetId": "industry-overview"
+    },
+    {
+     "label": "SECTORS",
+     "targetId": "sectors"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR SPECIALIZATION",
+     "targetId": "our-specialization"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "industry-overview",
+   "eyebrow": "INDUSTRY OVERVIEW",
+   "heading": "Connect assets, data and operations",
+   "body": "Energy and mining organisations need a clear view of assets, materials and operational performance. Linkfields connects digital platforms, automation and analytics to support maintenance planning, supply chains and day-to-day decisions.\n\nAcross mining and Oil & Gas, we bring operational information into connected workflows while considering security from the start. From material management to terminal operations, we shape technology around the work your teams need to do.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.how-can-we-help",
+   "anchorId": "sectors",
+   "eyebrow": "SECTORS",
+   "heading": "Focused expertise across resource operations",
+   "description": "Explore digital capabilities tailored to each operating environment.",
+   "linkedCards": true,
+   "cards": [
+    {
+     "icon": {
+      "__media": "custom/icons/acc-digital-twin.svg",
+      "alt": "Mining asset operations"
+     },
+     "title": "Mining",
+     "description": "Connect performance monitoring, predictive maintenance and automated material management across mining operations.",
+     "href": "/industries/mining",
+     "linkLabel": "Explore Mining"
+    },
+    {
+     "icon": {
+      "__media": "custom/icons/intelligent-enterprise-platforms.svg",
+      "alt": "Oil and Gas enterprise operations"
+     },
+     "title": "Oil & Gas",
+     "description": "Support midstream and downstream operations with terminal automation, ERP, supply chain analytics and connected commerce.",
+     "href": "/industries/oil-gas",
+     "linkLabel": "Explore Oil & Gas"
+    }
+   ]
+  },
+  {
+   "__component": "industries.building-tools",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Build intelligence into resource operations",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/buildingsTools.jpg",
+    "width": 1920,
+    "height": 773,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "tools": [
+    {
+     "title": "Asset optimisation",
+     "description": "Bring asset and maintenance data into analytics to support performance monitoring, maintenance planning and informed operational decisions.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/data-ai/data-platforms-analytics"
+    },
+    {
+     "title": "Automation",
+     "description": "Connect material, terminal and back-office workflows with automation that reduces repetitive tasks and supports consistent execution.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/automation-rpa"
+    },
+    {
+     "title": "Security",
+     "description": "Review architecture and access controls, validate application exposure and connect security monitoring with incident response.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/cyber-security"
+    },
+    {
+     "title": "Operational efficiency",
+     "description": "Connect applications, operational data and supply chain processes so teams can work from a clearer view of activity and exceptions.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/integration-services"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Integrate finance, procurement, inventory and maintenance through ERP platforms, with migration and managed support aligned to your needs.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/intelligent-enterprise-platforms"
+    },
+    {
+     "title": "Technology advisory",
+     "description": "Define technology roadmaps and assess architecture to align digital investment with asset, operational and security priorities.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/talent-advisory-gcc/technology-advisory"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "We are listeners and leaders. Together, let’s take on tomorrow’s energy and mining challenges.",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "industries.specialization-list",
+   "anchorId": "our-specialization",
+   "heading": "Our Specialization",
+   "backgroundImage": {
+    "__media": "site/images/Industries S bg.png",
+    "width": 2560,
+    "height": 1385,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "items": [
+    {
+     "title": "Operational Performance Monitoring",
+     "description": "Bring operational data into dashboards that help teams track asset performance, identify exceptions and coordinate action.",
+     "image": {
+      "__media": "s3/real time performance monitoring.png",
+      "width": 2560,
+      "height": 1042,
+      "mime": "image/png",
+      "alt": "Operational performance monitoring"
+     }
+    },
+    {
+     "title": "Predictive Maintenance",
+     "description": "Use equipment data and predictive analytics to identify maintenance needs and support planned interventions.",
+     "image": {
+      "__media": "s3/AI-Driven Maintenance.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Predictive maintenance"
+     }
+    },
+    {
+     "title": "Material and Supply Chain Management",
+     "description": "Connect material tracking, inventory and logistics workflows to give teams visibility from extraction through delivery.",
+     "image": {
+      "__media": "s3/Automated Material management.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Material and supply chain management"
+     }
+    },
+    {
+     "title": "Terminal Automation",
+     "description": "Connect terminal processes and operational systems to support consistent workflows across midstream and downstream activity.",
+     "image": {
+      "__media": "s3/terminal automation.png",
+      "width": 2560,
+      "height": 1042,
+      "mime": "image/png",
+      "alt": "Terminal automation"
+     }
+    },
+    {
+     "title": "ERP and Operational Integration",
+     "description": "Integrate finance, procurement and asset processes with ERP and operational applications, supported by platform migration and maintenance.",
+     "image": {
+      "__media": "s3/ERP and IS-oil Consulting.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "ERP and operational integration"
+     }
+    },
+    {
+     "title": "Fuel Commerce and Retail",
+     "description": "Connect fuel retail and commercial journeys with the applications and data that support mobility, convenience and site operations.",
+     "image": {
+      "__media": "s3/Commerce and retail.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Fuel commerce and retail"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

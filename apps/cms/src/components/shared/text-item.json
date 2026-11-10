@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_text_item",
+  "info": {
+    "displayName": "Text item",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

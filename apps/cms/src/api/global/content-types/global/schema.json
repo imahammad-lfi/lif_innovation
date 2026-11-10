@@ -1,0 +1,109 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": "Header, footer, contact defaults and other site-wide content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "favicon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.nav-group"
+    },
+    "headerCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "footerColumns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.footer-column"
+    },
+    "legalLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "string"
+    },
+    "salesEmail": {
+      "type": "string"
+    },
+    "footerTagline": {
+      "type": "string"
+    },
+    "footerLocations": {
+      "type": "string"
+    },
+    "offices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.office"
+    },
+    "footerSocials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    },
+    "socialBannerHeading": {
+      "type": "string"
+    },
+    "socialBannerLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    },
+    "insightsHeading": {
+      "type": "string"
+    },
+    "insights": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insight-card"
+    },
+    "contactForm": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.contact-defaults"
+    },
+    "defaultSeo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

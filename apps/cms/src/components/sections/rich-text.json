@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_rich_text",
+  "info": {
+    "displayName": "Rich text",
+    "icon": "feather",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "legal",
+        "article",
+        "plain"
+      ],
+      "default": "legal"
+    }
+  }
+}

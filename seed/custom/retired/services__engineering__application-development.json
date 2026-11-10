@@ -1,0 +1,247 @@
+{
+ "title": "Application Development",
+ "path": "/services/engineering/application-development",
+ "seo": {
+  "metaTitle": "linkfields innovations, engineering, cloud engineering, software engineering, application development",
+  "metaDescription": "Application developement | Linkfields Innovations",
+  "keywords": "application development, custom application development, app maintainance, custom software development, application design, app design, app development, app support, app integration",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Application Development",
+   "subtitle": "An application for every task",
+   "backgroundImage": {
+    "__media": "s3/application-development.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Application Development"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "OUR SUPERPOWERS",
+     "targetId": "our-superpowers"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Finishing tasks faster with applications",
+   "body": "Creating software and apps that are easy-to-use, have a lot of capability, and are easy-to-navigate, ensuring high quality.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Design and developments infused for results",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (29).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Legacy and application modernization"
+     },
+     "title": "Legacy and application modernization",
+     "description": "To give them a new lease on life, we rethink obsolete systems, rework their code, move legacy apps to modern platforms, and review their architectures."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (30).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application Integration"
+     },
+     "title": "Application Integration",
+     "description": "Following this stage, a detailed solution development roadmap is created."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (31).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application design and development"
+     },
+     "title": "Application design and development",
+     "description": "The product’s usage scenarios, navigation, and interactive elements are all developed by us. In order to create an intuitive design, we define user personas to create routes."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (17).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application support and operations"
+     },
+     "title": "Application support and operations",
+     "description": "Our team creates wireframes and prototypes based on the outputs from the business research phase to assess software feasibility and obtain early feedback from customers."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (32).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Custom software development"
+     },
+     "title": "Custom software development",
+     "description": "We also create custom web & mobile apps by prioritizing ease-of-management, integration, and scalability."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (33).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Application maintenance"
+     },
+     "title": "Application maintenance",
+     "description": "We perform all tasks like application upgrades, functional improvements, performance monitoring & security assessment, and app migration."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "10x faster operational growth",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.media-process",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "Constructing applications that meet your needs",
+   "description": "With an application development infrastructure that is supported by global leaders and experts in development and design of mobile & web applications, Linkfields provides you with a promise on our capability to deliver products that are truly class-leading.",
+   "points": [],
+   "image": {
+    "__media": "s3/Frame 15880133 (10).png",
+    "width": 1624,
+    "height": 1100,
+    "mime": "image/png",
+    "alt": "Constructing applications that meet your needs"
+   },
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "partnersHeading": "",
+   "partners": [],
+   "variant": "standard"
+  },
+  {
+   "__component": "services.superpowers",
+   "anchorId": "our-superpowers",
+   "eyebrow": "OUR SUPERPOWERS",
+   "heading": "Exceptional outcomes through tested methodologies",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (9).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Minimizing Error Rate"
+     },
+     "title": "Minimizing Error Rate",
+     "description": "To minimize errors, establish what steps in the development process are prone to mistakes."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (10).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Unparalleled Quality"
+     },
+     "title": "Unparalleled Quality",
+     "description": "Refine your strategies till they satisfy industry requirements."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (11).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Swifter Timelines"
+     },
+     "title": "Swifter Timelines",
+     "description": "You can conserve time in future projects by resolving difficulties in your workflow."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (12).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Unlock Expert Insights"
+     },
+     "title": "Unlock Expert Insights",
+     "description": "On development frameworks, procedures, and container orchestration platforms, we are the experts!"
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_posts",
+  "info": {
+    "singularName": "blog-post",
+    "pluralName": "blog-posts",
+    "displayName": "Blog post",
+    "description": "Articles shown on /company/blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "default": "Blog"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "categoryGroup": {
+      "type": "enumeration",
+      "enum": [
+        "Industries",
+        "Technology"
+      ],
+      "default": "Industries"
+    },
+    "keyword": {
+      "type": "string"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorAvatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "publishedDate": {
+      "type": "date"
+    },
+    "order": {
+      "type": "integer",
+      "default": 0
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "sharePrompt": {
+      "type": "string"
+    },
+    "subscriptionEyebrow": {
+      "type": "string"
+    },
+    "subscriptionHeading": {
+      "type": "string"
+    },
+    "subscriptionPlaceholder": {
+      "type": "string"
+    },
+    "subscriptionBackground": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "relatedEyebrow": {
+      "type": "string"
+    },
+    "relatedMessage": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+ "title": "Data platforms & analytics",
+ "path": "/services/data-ai/data-platforms-analytics",
+ "seo": {
+  "metaTitle": "Data Platforms & Analytics Services | Linkfields Innovations",
+  "metaDescription": "Build data platforms, pipelines and Power BI analytics. Linkfields combines Big Data Engineering with Predictive Analytics Suite and Digital Twin Suite.",
+  "keywords": "data platforms, data pipelines, Power BI, big data engineering, analytics, data visualisation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Data platforms & analytics",
+   "subtitle": "Data processing systems that reduce workload",
+   "backgroundImage": {
+    "__media": "s3/Biig Data Enginnering BG.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Big Data Engineering"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Making data analysis easier",
+   "body": "Big Data Engineering is a field that finds ways to examine, efficiently separate data from data sets that are excessively huge or complex to be managed by customary information handling application programming.",
+   "secondaryEyebrow": "DATA & ANALYTICS",
+   "secondaryHeading": "Platforms, pipelines & Power BI",
+   "secondaryBody": "Turn data into decisions with connected platforms, dependable pipelines and Power BI analytics. Build on our Big Data Engineering services to bring useful information into the hands of your teams.\n\nAccelerators: Predictive Analytics Suite · Digital Twin Suite.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "how-can-we-help",
+   "eyebrow": "HOW CAN WE HELP",
+   "heading": "Innovating more secure ways to extract data",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (61).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Big data consulting"
+     },
+     "title": "Big data consulting",
+     "description": "With the help of a product strategy, we identify best-fit technologies that help you convert data into revenue opportunities."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (62).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Data infrastructure engineering"
+     },
+     "title": "Data infrastructure engineering",
+     "description": "We construct data warehouse & data lake solutions, as well as streamline ETL development, execution, and management tasks by building data pipelines."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (63).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "BI & data analytics"
+     },
+     "title": "BI & data analytics",
+     "description": "Helping you make better & faster decisions by speeding up your time to insights using breakthrough business intelligence tools."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (64).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Data visualization"
+     },
+     "title": "Data visualization",
+     "description": "Gain 360-degree visibility into your data through interactive reports and intuitive dashboards that simplify analytics."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (65).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Data security"
+     },
+     "title": "Data security",
+     "description": "By developing a tiered access system, we protect your data in adherence to security protocols and also ensure an efficient backup & recovery process."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (66).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Data monetization"
+     },
+     "title": "Data monetization",
+     "description": "Implementing strategies to maximize the value of your data assets while adhering to stringent security measures."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "10x faster operational growth",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.media-process",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "Smart analysis for quicker insights",
+   "description": "Through a very well-defined, step-by-step process, we help you define your business objectives, create a platform to smartly collect and organize data, which is then analyzed thoroughly to derive smart insights which you can infuse into your business strategy, achieving great results.",
+   "points": [],
+   "image": {
+    "__media": "s3/Frame 15880133 (5).png",
+    "width": 883,
+    "height": 550,
+    "mime": "image/png",
+    "alt": "Smart analysis for quicker insights"
+   },
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "partnersHeading": "",
+   "partners": [],
+   "variant": "standard"
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

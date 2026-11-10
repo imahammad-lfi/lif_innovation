@@ -1,0 +1,316 @@
+{
+ "title": "Cyber Security",
+ "path": "/services/cyber-security",
+ "seo": {
+  "metaTitle": "Cyber Security Services | Linkfields Innovations",
+  "metaDescription": "End-to-end security from code to AI: AI security and GRC, cloud IAM, exposure validation, AppSec, security operations and machine learning for risk.",
+  "keywords": "cyber security, AI security, GRC, IAM, AppSec, exposure validation, security operations, VajraX, VectorX",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cyber Security",
+   "subtitle": "Protect · Validate · Govern",
+   "backgroundImage": {
+    "__media": "custom/hero-cyber-security.jpg",
+    "alt": "Cyber Security"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "OUR EXPERTISE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "End-to-end security, from code to AI",
+   "body": "End-to-end security, from code to AI: our own products plus specialist services. Connect offensive testing, cloud security and GRC with architecture review, security operations and incident response.\n\nOur services bring together controls, IAM and regulation, staff education and phishing drills, and machine learning for security and risk. Linkfields IP adds AI-powered external exposure validation, code and supply-chain analysis, and a gateway for AI guardrails, cost and tracing.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "hubs.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Specialist services and LINKFIELDS IP",
+   "body": "Explore our services and the Linkfields products that bring reusable software IP into enterprise delivery.",
+   "cards": [
+    {
+     "title": "AI security & GRC",
+     "description": "Offensive testing: AI, LLM & web app testing. Cloud security & GRC: Controls, IAM & regulation. Security awareness: Staff education & phishing drills. Accelerators: Regulatory readiness accelerator · Continuous compliance evidence.",
+     "image": {
+      "__media": "custom/hero-ai-governance.jpg",
+      "alt": "AI security & GRC"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/ai-security-grc",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Cloud security & IAM",
+     "description": "Architecture review: Network, firewall & IAM. Connect cloud security and GRC with the controls, access decisions and regulatory requirements that shape your environment.",
+     "image": {
+      "__media": "custom/hero-cloud-security.jpg",
+      "alt": "Cloud security & IAM"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/cloud-security-iam",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Exposure validation & AppSec",
+     "description": "Bring external attack-surface validation together with code scanning, supply-chain analysis and offensive testing of AI, LLMs and web applications.",
+     "image": {
+      "__media": "custom/hero-appsec.jpg",
+      "alt": "Exposure validation & AppSec"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/exposure-validation-appsec",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Security operations",
+     "description": "Security operations: Splunk SIEM, Qualys monitoring. Incident response: Rapid7: detect, triage, contain. Connect security signals with investigation and a coordinated response.",
+     "image": {
+      "__media": "custom/hero-security-operations.jpg",
+      "alt": "Security operations"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/security-operations",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "VajraX",
+     "description": "**LINKFIELDS IP** — AI-powered exposure validation of your external attack surface.",
+     "image": {
+      "__media": "custom/hero-appsec.jpg",
+      "alt": "VajraX"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/products-and-accelerators/vajrax",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "VectorX",
+     "description": "**LINKFIELDS IP** — Vector X: Code scanning and supply-chain analysis, repo to release.",
+     "image": {
+      "__media": "s3/quality-control.png",
+      "alt": "VectorX"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/products-and-accelerators/vectorx",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "AI Governance",
+     "description": "**LINKFIELDS IP** — One gateway for every AI tool: guardrails, cost & tracing (Portkey + Opik).",
+     "image": {
+      "__media": "custom/hero-ai-governance.jpg",
+      "alt": "AI Governance"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/products-and-accelerators/ai-governance",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "why-us",
+   "eyebrow": "WHY US",
+   "heading": "Persistently Innovative",
+   "description": "Headquartered in South Africa, delivering globally. We combine specialist services with our own software and reusable delivery IP.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "18",
+     "suffix": "+",
+     "label": "years"
+    },
+    {
+     "value": "550",
+     "suffix": "+",
+     "label": "people"
+    },
+    {
+     "value": "80",
+     "suffix": "+",
+     "label": "clients"
+    },
+    {
+     "value": "20",
+     "suffix": "+",
+     "label": "technology partners"
+    }
+   ]
+  },
+  {
+   "__component": "sections.industries-showcase",
+   "anchorId": "our-expertise",
+   "eyebrow": "OUR EXPERTISE",
+   "heading": "Constantly Innovating",
+   "description": "Our 16 years in business have acquainted us to a diverse list of industries with different requirements. We have consistently proven our adaptability to all kinds of business models, irrespective of their industry.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/constantly-innovating.jpg",
+    "width": 2560,
+    "height": 1117,
+    "mime": "image/jpeg",
+    "alt": "Constantly innovating background"
+   },
+   "items": [
+    {
+     "title": "Telecom",
+     "image": {
+      "__media": "s3/telecom-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom"
+    },
+    {
+     "title": "Fintech",
+     "image": {
+      "__media": "s3/fintech-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Fintech"
+     },
+     "href": "/industries/fintech"
+    },
+    {
+     "title": "FMCG",
+     "image": {
+      "__media": "s3/FMCG (1).png",
+      "width": 1660,
+      "height": 632,
+      "mime": "image/png",
+      "alt": "FMCG"
+     },
+     "href": "/industries/fmcg"
+    },
+    {
+     "title": "Banking",
+     "image": {
+      "__media": "s3/banking-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Banking"
+     },
+     "href": "/industries/banking"
+    },
+    {
+     "title": "Insurance",
+     "image": {
+      "__media": "s3/insurance-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Insurance"
+     },
+     "href": "/industries/insurance"
+    },
+    {
+     "title": "Mining",
+     "image": {
+      "__media": "s3/mining-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Mining"
+     },
+     "href": "/industries/mining"
+    },
+    {
+     "title": "Oil and Gas",
+     "image": {
+      "__media": "s3/oil&gas-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Oil and Gas"
+     },
+     "href": "/industries/oil-gas"
+    },
+    {
+     "title": "Manufacturing",
+     "image": {
+      "__media": "s3/Manufacturing (1).png",
+      "width": 1660,
+      "height": 632,
+      "mime": "image/png",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing"
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

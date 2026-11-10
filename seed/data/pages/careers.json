@@ -1,0 +1,140 @@
+{
+ "title": "Careers",
+ "path": "/careers",
+ "seo": {
+  "metaTitle": "Careers in Enterprise Technology & AI | Linkfields",
+  "metaDescription": "Explore Linkfields careers in technology, engineering, data and security. Learn how we work and contact recruitment for open roles and application guidance.",
+  "keywords": "Linkfields careers, recruitment, enterprise technology, YES programme, Linkfields jobs, enterprise technology careers, software engineering careers, data and AI careers, cyber security careers",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Careers at Linkfields",
+   "subtitle": "Build your next chapter through enterprise work across technology, engineering, data, security and advisory.",
+   "backgroundImage": {
+    "__media": "custom/hero-talent-gcc.jpg",
+    "alt": "Careers at Linkfields"
+   },
+   "anchorLinks": [
+    {
+     "label": "Working Here",
+     "targetId": "working-here"
+    },
+    {
+     "label": "Ways Of Working",
+     "targetId": "ways-of-working"
+    },
+    {
+     "label": "Employer Story",
+     "targetId": "employer-story"
+    },
+    {
+     "label": "How To Apply",
+     "targetId": "how-to-apply"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "working-here",
+   "eyebrow": "",
+   "heading": "What working here looks like",
+   "body": "Our work spans Digital Transformation, Intelligent Enterprise Platforms, Data & AI, Cyber Security and Talent Advisory & GCC. It brings together enterprise services, proprietary software and reusable delivery IP, from application engineering to governed data and security.",
+   "theme": "dark",
+   "secondaryHeading": "A role shaped by the work",
+   "secondaryBody": "Explore teams, project types and responsibilities that match your experience. Recruitment can help you understand collaboration, development opportunities and the working arrangements for each role and location."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "ways-of-working",
+   "heading": "How we *work together*",
+   "variant": "default",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Ownership",
+     "description": "Make commitments clear, raise risks early and take responsibility for your work.",
+     "accent": "orange"
+    },
+    {
+     "title": "Respect",
+     "description": "Listen to different perspectives and challenge ideas constructively.",
+     "accent": "teal"
+    },
+    {
+     "title": "Craftsmanship",
+     "description": "Review the detail, test what you build and leave useful documentation for the next person.",
+     "accent": "blue"
+    },
+    {
+     "title": "Collaboration",
+     "description": "Share context, ask questions and learn through feedback from the people doing the work.",
+     "accent": "yellow"
+    }
+   ],
+   "description": "These behaviours connect with the company values on About Linkfields.",
+   "ctaLabel": "Read our company values",
+   "ctaUrl": "/company/about-us#our-values"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "employer-story",
+   "heading": "Work experience and *employer recognition*",
+   "variant": "default",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Great Place To Work® recognition (2023–24)",
+     "description": "Hiring and fostering talent from diverse backgrounds is part of our employer story. Our India team was Great Place To Work® Certified for September 2023 to September 2024.",
+     "accent": "blue",
+     "footLabel": "Historical recognition",
+     "footText": "Certification period September 2023 – September 2024 (India); not a current certification.",
+     "icon": {
+      "__media": "custom/icons/talent-advisory-gcc.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "YES programme participation",
+     "description": "The Youth Employment Service initiative focuses on meaningful work experience for unemployed young people. Our employer story includes participation in this initiative.",
+     "accent": "yellow",
+     "logo": {
+      "__media": "s3/0000.png",
+      "alt": "Youth Employment Service membership image from the Linkfields employer story"
+     },
+     "footLabel": "Programme enquiries",
+     "footText": "Ask the recruitment team about current programme opportunities and eligibility."
+    }
+   ],
+   "description": "Employer recognition and programme participation are separate from current vacancy availability."
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "how-to-apply",
+   "eyebrow": "",
+   "heading": "Current opportunities and how to apply",
+   "body": "To enquire about current roles, email [careers@linkfields.com](mailto:careers@linkfields.com). Recruitment can confirm the role description, hiring location, working arrangements and where to submit your application. This page does not publish a live vacancy list.",
+   "theme": "dark",
+   "secondaryHeading": "Prepare the right conversation",
+   "secondaryBody": "Introduce your area of expertise and the kind of role you are seeking. The recruitment team can explain screening, interviews, any role-specific assessment and next steps, along with candidate-data handling and accessibility arrangements. Do not send identity documents or sensitive personal information in an initial enquiry."
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Ask about careers at Linkfields",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

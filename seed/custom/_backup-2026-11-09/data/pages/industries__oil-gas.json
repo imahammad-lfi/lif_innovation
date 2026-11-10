@@ -1,0 +1,137 @@
+{
+ "title": "Oil & Gas",
+ "path": "/industries/oil-gas",
+ "seo": {
+  "metaTitle": "Oil & Gas | Linkfields Innovations",
+  "metaDescription": "Oil & Gas | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Oil & Gas",
+   "subtitle": "Delivering cutting-edge solutions to optimize the Oil & Gas industry's performance",
+   "backgroundImage": {
+    "__media": "s3/Oil_and_gas_new.png",
+    "width": 1920,
+    "height": 627,
+    "mime": "image/png",
+    "alt": "Oil & Gas"
+   },
+   "anchorLinks": [
+    {
+     "label": "INDUSTRY OVERVIEW",
+     "targetId": "industry-overview"
+    },
+    {
+     "label": "OUR SPECIALIZATION",
+     "targetId": "our-specialization"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "industry-overview",
+   "eyebrow": "INDUSTRY OVERVIEW",
+   "heading": "Optimise & Enhance your O&G Supply Chain",
+   "body": "The Oil & Gas industry constantly works to improve performance, safety, & sustainability while battling inefficiencies in supply chains and unplanned asset downtime, which increase risks and costs. Linkfields improves the efficiency and sustainability by optimizing supply chains and reducing asset downtime. Specializing in midstream and downstream operations, we offer technology solutions and partnership in managing supply chain and marketing, leading to lower costs, higher profits, and increased market share.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "industries.specialization-list",
+   "anchorId": "our-specialization",
+   "heading": "Our Specialization",
+   "backgroundImage": {
+    "__media": "site/images/Industries S bg.png",
+    "width": 2560,
+    "height": 1385,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "items": [
+    {
+     "title": "Terminal Automation",
+     "description": "We offer tailored solutions and services for the Oil & Gas industry, as a consolidation and culmination of many years of implementations and experiences with our Oil & Gas clients.",
+     "image": {
+      "__media": "s3/terminal automation.png",
+      "width": 2560,
+      "height": 1042,
+      "mime": "image/png",
+      "alt": "Terminal Automation"
+     }
+    },
+    {
+     "title": "ERP and IS-Oil Consulting",
+     "description": "Our expert Oil & Gas technology consultants deliver innovative solutions to complex problems. We design, build, implement and manage leading ERP solutions for Oil & Gas companies, providing high value, with lower costs, and catering for business flexibility and growth.",
+     "image": {
+      "__media": "s3/ERP and IS-oil Consulting.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "ERP and IS-Oil Consulting"
+     }
+    },
+    {
+     "title": "Commerce and Retail",
+     "description": "Our products and accelerators are tailored and oriented to drive high availability of trading ability for retail and commercial sites. We understand acutely the business of marketing fuel, mobility and convenience, as well as managing the infrastructure and data points that support this mission critical operation.",
+     "image": {
+      "__media": "s3/Commerce and retail.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Commerce and Retail"
+     }
+    },
+    {
+     "title": "Analytics",
+     "description": "Maximise Asset and Operations performance using fit-for-purpose advanced analytics. Decrease the decision making risks with enhanced data management and IOT strategies.",
+     "image": {
+      "__media": "s3/Analytics.png",
+      "width": 2560,
+      "height": 1042,
+      "mime": "image/png",
+      "alt": "Analytics"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

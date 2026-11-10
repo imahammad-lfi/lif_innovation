@@ -1,0 +1,191 @@
+{
+  "title": "Healthcare & Pharma",
+  "path": "/industries/healthcare-pharma",
+  "seo": {
+    "metaTitle": "Healthcare & Pharma | Linkfields Innovations",
+    "metaDescription": "Connect patient journeys, health data and pharmaceutical operations with digital innovation, AI-powered insights and secure automation.",
+    "keywords": "healthcare, pharma, patient care, digital health, AI-powered insights, healthcare automation, secure health data",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Healthcare & Pharma",
+      "subtitle": "Transform healthcare with digital innovation, AI-driven insights and intelligent automation for better patient care.",
+      "backgroundImage": {
+        "__media": "custom/hero-healthcare-pharma.jpg",
+        "width": 1920,
+        "height": 512,
+        "mime": "image/jpeg",
+        "alt": "Healthcare & Pharma"
+      },
+      "anchorLinks": [
+        { "label": "INDUSTRY OVERVIEW", "targetId": "industry-overview" },
+        { "label": "WHAT WE OFFER", "targetId": "what-we-offer" },
+        { "label": "OUR SPECIALIZATION", "targetId": "our-specialization" },
+        { "label": "GET IN TOUCH", "targetId": "get-in-touch" }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "industry-overview",
+      "eyebrow": "INDUSTRY OVERVIEW",
+      "heading": "Connected care. Smarter pharmaceutical operations.",
+      "body": "Healthcare providers need connected patient journeys and dependable access to information. Pharmaceutical teams need clear visibility across supply, quality and business operations. Digital foundations bring these needs together without losing sight of privacy or the people using them.\n\nLinkfields combines application modernisation, integration, automation and Data & AI to connect services and simplify administrative work. We help teams build secure platforms and actionable operational insights, with human oversight at the centre of AI adoption.",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "industries.building-tools",
+      "anchorId": "what-we-offer",
+      "eyebrow": "WHAT WE OFFER",
+      "heading": "Digital tools for care and operational clarity",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/buildingsTools.jpg",
+        "width": 1920,
+        "height": 773,
+        "mime": "image/jpeg",
+        "alt": ""
+      },
+      "tools": [
+        {
+          "title": "Patient care",
+          "description": "Connect appointment, enquiry and follow-up journeys so patients and care teams can navigate services with less administrative friction.",
+          "actionLabel": "Read more",
+          "actionUrl": "/services/digital-transformation/whatsapp-omnichannel"
+        },
+        {
+          "title": "Digital health",
+          "description": "Connect health applications, data and workflows through APIs and integration across cloud and on-premises environments.",
+          "actionLabel": "Read more",
+          "actionUrl": "/services/digital-transformation/integration-services"
+        },
+        {
+          "title": "AI-powered insights",
+          "description": "Bring operational data into governed analytics to understand service demand, resource use and pharmaceutical supply patterns.",
+          "actionLabel": "Read more",
+          "actionUrl": "/services/data-ai/data-platforms-analytics"
+        },
+        {
+          "title": "Intelligent automation",
+          "description": "Automate repetitive administration, document routing and approvals while keeping staff in control of exceptions.",
+          "actionLabel": "Read more",
+          "actionUrl": "/services/digital-transformation/automation-rpa"
+        },
+        {
+          "title": "Cyber Security",
+          "description": "Strengthen access controls, application security and monitoring around sensitive health data and connected services.",
+          "actionLabel": "Read more",
+          "actionUrl": "/services/cyber-security"
+        },
+        {
+          "title": "Intelligent Enterprise Platforms",
+          "description": "Connect finance, procurement and inventory workflows to support healthcare administration and pharmaceutical operations.",
+          "actionLabel": "Read more",
+          "actionUrl": "/services/intelligent-enterprise-platforms"
+        }
+      ]
+    },
+    {
+      "__component": "sections.message-banner",
+      "anchorId": "",
+      "title": "We are listeners and leaders. Working together to connect care and modernise pharmaceutical operations.",
+      "description": "",
+      "ctaLabel": "Talk to us",
+      "ctaUrl": "/contact-us"
+    },
+    {
+      "__component": "industries.specialization-list",
+      "anchorId": "our-specialization",
+      "heading": "Our specialisation",
+      "backgroundImage": {
+        "__media": "site/images/Industries S bg.png",
+        "width": 2560,
+        "height": 1385,
+        "mime": "image/png",
+        "alt": ""
+      },
+      "items": [
+        {
+          "title": "Connected patient journeys",
+          "description": "Bring appointment requests, service enquiries and follow-up communications into connected digital journeys for patients and care teams.",
+          "image": {
+            "__media": "custom/hero-healthcare-pharma.jpg",
+            "width": 1920,
+            "height": 512,
+            "mime": "image/jpeg",
+            "alt": "Connected digital healthcare"
+          }
+        },
+        {
+          "title": "Health data integration",
+          "description": "Connect applications and establish consistent data flows, with access controls and data quality considered from the start.",
+          "image": {
+            "__media": "s3/Software solutions for banking.png",
+            "width": 6880,
+            "height": 2800,
+            "mime": "image/png",
+            "alt": "Application integration and software engineering"
+          }
+        },
+        {
+          "title": "Service capacity analytics",
+          "description": "Use dashboards and forecasting to understand demand, capacity and administrative bottlenecks, supporting informed operational decisions.",
+          "image": {
+            "__media": "s3/Data-Driven Decision Making.png",
+            "width": 2560,
+            "height": 1042,
+            "mime": "image/png",
+            "alt": "Operational data analysis"
+          }
+        },
+        {
+          "title": "Pharma supply visibility",
+          "description": "Connect procurement, inventory and distribution data to make pharmaceutical supply workflows easier to monitor and manage.",
+          "image": {
+            "__media": "s3/Streamlined Supply Chain Logistics.png",
+            "width": 6880,
+            "height": 2800,
+            "mime": "image/png",
+            "alt": "Supply chain and logistics operations"
+          }
+        },
+        {
+          "title": "Governed digital operations",
+          "description": "Design controlled access, approval workflows and traceable records for sensitive information, with human oversight of AI-assisted work.",
+          "image": {
+            "__media": "s3/Compliance Automation.png",
+            "width": 6880,
+            "height": 2800,
+            "mime": "image/png",
+            "alt": "Governance and operational controls"
+          }
+        }
+      ]
+    },
+    {
+      "__component": "sections.featured-insights",
+      "anchorId": "insights",
+      "heading": "",
+      "items": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "",
+      "subheading": "",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.social-banner",
+      "heading": "",
+      "links": []
+    }
+  ]
+}

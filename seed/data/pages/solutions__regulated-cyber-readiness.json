@@ -1,0 +1,262 @@
+{
+ "title": "Regulated Cyber Readiness",
+ "path": "/solutions/regulated-cyber-readiness",
+ "seo": {
+  "metaTitle": "Regulated Cyber Readiness & Control Mapping | Linkfields",
+  "metaDescription": "Strengthen regulated cyber readiness with exposure validation, control mapping and maintained remediation evidence aligned to your regulatory requirements.",
+  "keywords": "regulated cyber readiness, control mapping, exposure validation, remediation evidence, cyber security regulatory readiness, security control mapping services, continuous compliance evidence, external attack surface validation, cyber security remediation tracking",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Regulated cyber readiness",
+   "subtitle": "Connect exposure validation, control mapping and remediation evidence to the requirements your organisation must meet.",
+   "backgroundImage": {
+    "__media": "custom/hero-regulated-cyber.jpg",
+    "alt": "Illustrative Regulated cyber readiness enterprise environment"
+   },
+   "anchorLinks": [
+    {
+     "label": "The Trigger",
+     "targetId": "the-trigger"
+    },
+    {
+     "label": "Delivery",
+     "targetId": "delivery"
+    },
+    {
+     "label": "Portfolios",
+     "targetId": "portfolios"
+    },
+    {
+     "label": "Linkfields IP",
+     "targetId": "linkfields-ip"
+    },
+    {
+     "label": "Buyer Questions",
+     "targetId": "buyer-questions"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "the-trigger",
+   "eyebrow": "Customer trigger",
+   "heading": "Need continuous evidence for regulatory readiness?",
+   "body": "A point-in-time assessment does not show how controls and exposures change after it is issued. Risk, technology and assurance teams need a shared view of requirements, control ownership and remediation status. The first task is to agree the regulatory scope and the evidence each owner needs.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "business-outcome",
+   "eyebrow": "Business outcome",
+   "heading": "Keep readiness evidence current and usable",
+   "body": "The intended outcome is a maintained view of validated exposures, mapped controls and remediation evidence. Connect findings to responsible owners and the requirements agreed for your organisation. Assess progress through closure evidence, control gaps and evidence freshness; regulatory decisions remain with your accountable risk and compliance owners.",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery",
+   "eyebrow": "How we deliver",
+   "heading": "From requirements to acceptance evidence",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Agree the requirements",
+     "description": "Define in-scope assets, obligations, control owners and the evidence review process.",
+     "accent": "teal",
+     "number": "01",
+     "footLabel": "Deliverables",
+     "footText": "Requirements register and control scope"
+    },
+    {
+     "title": "Validate the exposure",
+     "description": "Assess the external attack surface and prioritise validated findings in context.",
+     "accent": "teal",
+     "number": "02",
+     "footLabel": "Deliverables",
+     "footText": "Exposure baseline and prioritised findings"
+    },
+    {
+     "title": "Map and remediate",
+     "description": "Relate findings to controls, agree remediation owners and record verification steps.",
+     "accent": "teal",
+     "number": "03",
+     "footLabel": "Deliverables",
+     "footText": "Control map and remediation plan"
+    },
+    {
+     "title": "Maintain the evidence",
+     "description": "Set the review cadence, evidence sources and escalation responsibilities.",
+     "accent": "teal",
+     "number": "04",
+     "footLabel": "Deliverables",
+     "footText": "Evidence register and governance handover"
+    }
+   ],
+   "description": "Example engagement pattern. Scope, gates and responsibilities are agreed for your environment."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "portfolios",
+   "eyebrow": "Integrated delivery",
+   "heading": "The portfolios behind this play",
+   "variant": "compact",
+   "columns": 2,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Cyber Security",
+     "description": "Leads exposure validation, control governance and security evidence within the agreed scope.",
+     "accent": "teal",
+     "groupLabel": "Specialist services",
+     "links": [
+      {
+       "label": "AI security & GRC",
+       "href": "/services/cyber-security/ai-security-grc",
+       "openInNewTab": false
+      },
+      {
+       "label": "Exposure validation & AppSec",
+       "href": "/services/cyber-security/exposure-validation-appsec",
+       "openInNewTab": false
+      },
+      {
+       "label": "Cloud security & IAM",
+       "href": "/services/cyber-security/cloud-security-iam",
+       "openInNewTab": false
+      }
+     ],
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Digital Transformation",
+     "description": "Supports remediation in applications and integrates checks into engineering delivery.",
+     "accent": "orange",
+     "groupLabel": "Specialist services",
+     "links": [
+      {
+       "label": "App modernisation",
+       "href": "/services/digital-transformation/app-modernisation",
+       "openInNewTab": false
+      },
+      {
+       "label": "Quality engineering",
+       "href": "/services/digital-transformation/quality-engineering",
+       "openInNewTab": false
+      }
+     ],
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "linkfields-ip",
+   "eyebrow": "Software and reusable delivery IP",
+   "heading": "Linkfields IP and accelerators",
+   "variant": "compact",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "VajraX",
+     "description": "AI-powered exposure validation of the external attack surface, informing remediation priorities.",
+     "accent": "teal",
+     "logo": {
+      "__media": "custom/logos/vajrax.png",
+      "alt": "VajraX product logo"
+     },
+     "href": "/products-and-accelerators/vajrax",
+     "linkLabel": "Explore VajraX"
+    },
+    {
+     "title": "Regulatory readiness and control mapping",
+     "description": "Reusable control-mapping and evidence structures, tailored to your confirmed requirements.",
+     "accent": "teal",
+     "bullets": "Regulatory Readiness & Control Mapping\nContinuous Compliance & Audit Evidence\nCloud, AI & Identity Security Baselines",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    }
+   ],
+   "description": "Select the software and reusable delivery IP that fit your scope; not every component is needed in every engagement.",
+   "noteLabel": "Software can be bought separately",
+   "note": "Products are available by licence, subscription or SaaS, with or without Linkfields services. Delivery accelerators are reusable IP tailored within an engagement."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "engagement-models",
+   "eyebrow": "How we engage",
+   "heading": "Suitable commercial models",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Fixed Price",
+     "description": "A defined exposure or control-readiness assessment with agreed evidence outputs.",
+     "accent": "teal"
+    },
+    {
+     "title": "Managed Service",
+     "description": "Ongoing evidence and exposure-management scope, with service levels and responsibilities agreed.",
+     "accent": "teal"
+    },
+    {
+     "title": "Outcome-Based",
+     "description": "Where exposure closure or other operational measures can be agreed and evidenced.",
+     "accent": "teal"
+    }
+   ],
+   "description": "Choose the commercial basis for the scope and responsibilities you agree.",
+   "ctaLabel": "Compare all commercial models",
+   "ctaUrl": "/services#engagement-models"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "Before you engage",
+   "heading": "Buyer questions",
+   "description": "Clarify scope, evidence and accountability before agreeing an engagement.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "Which regulatory frameworks can you cover?",
+     "description": "We agree the applicable obligations, jurisdictions and control frameworks with your risk and compliance team before proposing scope. Share your required frameworks so we can discuss relevant mapping artefacts, evidence requirements and the boundaries of the engagement."
+    },
+    {
+     "title": "Is this an audit or a compliance sign-off?",
+     "description": "The play supports readiness and evidence preparation. Statutory audit, legal interpretation and final compliance decisions remain with your appointed authorities and accountable organisational owners."
+    },
+    {
+     "title": "How does evidence stay current?",
+     "description": "Agree a review cadence, asset scope, evidence sources and control owners. Exposure changes, remediation verification and accepted risks can then be recorded in the maintained evidence register."
+    },
+    {
+     "title": "Is this a channel for an active incident?",
+     "description": "The enquiry form below is for planned engagements, not active-incident reporting. Monitoring coverage, escalation routes and incident support must be agreed within a [security operations engagement](/services/cyber-security/security-operations)."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Talk to us about regulated cyber readiness",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

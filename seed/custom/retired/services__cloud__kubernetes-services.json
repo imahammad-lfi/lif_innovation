@@ -1,0 +1,204 @@
+{
+ "title": "Kubernetes Services",
+ "path": "/services/cloud/kubernetes-services",
+ "seo": {
+  "metaTitle": "Kubernetes Services | Linkfields Innovations",
+  "metaDescription": "Kubernetes Services | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Kubernetes Services",
+   "subtitle": "Balance that speeds up processing",
+   "backgroundImage": {
+    "__media": "s3/kubernetes-services.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Kubernetes Services"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Kubernetes saves time and resources",
+   "body": "Now you won’t have to make modifications to your cloud application with Kubernetes’ unfamiliar service discovery methodology.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "how-can-we-help",
+   "eyebrow": "HOW CAN WE HELP",
+   "heading": "Our Kubernetes' services ensure high adaptability",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/new version.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Roll out new versions with zero downtime"
+     },
+     "title": "Roll out new versions with zero downtime",
+     "description": "Kubernetes’ architectural design allows smoother changes without making any major alterations."
+    },
+    {
+     "icon": {
+      "__media": "s3/medical2.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Monitoring"
+     },
+     "title": "Monitoring",
+     "description": "Embracing a DevOps culture lets us increase agility and improve responsiveness to market demands."
+    },
+    {
+     "icon": {
+      "__media": "s3/resource.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Resource management"
+     },
+     "title": "Resource management",
+     "description": "We capture & analyze key performance metrics to verify that your cloud resources work as expected."
+    },
+    {
+     "icon": {
+      "__media": "s3/medical2.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Cloud and OS distribution portability"
+     },
+     "title": "Cloud and OS distribution portability",
+     "description": "Assess the maturity of your IT infrastructure and take specific steps to expedite cloud adoption."
+    },
+    {
+     "icon": {
+      "__media": "s3/repeat.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Continuous dev, integration and deployment"
+     },
+     "title": "Continuous dev, integration and deployment",
+     "description": "Strategizing to discover methods that can help reduce cloud spending, thereby getting you a better return on your investment."
+    },
+    {
+     "icon": {
+      "__media": "s3/smartphone.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Agile application creation and deployment"
+     },
+     "title": "Agile application creation and deployment",
+     "description": "Create an action plan that covers your objectives and outlines a path to cloud adoption."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "10x faster operational growth",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.media-process",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "A well-rounded, well-tested approach",
+   "description": "Through our experience handling Kubernetes services, we’ve noticed a few main problems that businesses often face when they move more workloads to fully production-grade containers:",
+   "points": [
+    {
+     "title": "",
+     "description": "Monitoring running containers"
+    },
+    {
+     "title": "",
+     "description": "Handling breakdown containers"
+    },
+    {
+     "title": "",
+     "description": "Ensuring zero downtime during resilience of containers"
+    }
+   ],
+   "image": {
+    "__media": "s3/well-rounded-cycle.png",
+    "width": 904,
+    "height": 550,
+    "mime": "image/png",
+    "alt": "A well-rounded, well-tested approach"
+   },
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "partnersHeading": "",
+   "partners": [],
+   "variant": "standard"
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

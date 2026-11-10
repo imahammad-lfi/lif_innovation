@@ -1,0 +1,218 @@
+{
+ "title": "Manufacturing",
+ "path": "/industries/manufacturing",
+ "seo": {
+  "metaTitle": "Manufacturing | Linkfields Innovations",
+  "metaDescription": "We are a leading manufacturing company with a proven track record in providing clients with a wide range of manufacturing products and services.",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Manufacturing",
+   "subtitle": "Seamless Manufacturing through custom and intelligent solutions.",
+   "backgroundImage": {
+    "__media": "s3/manufacturing hero image.jpg",
+    "width": 2560,
+    "height": 1707,
+    "mime": "image/jpeg",
+    "alt": "Manufacturing"
+   },
+   "anchorLinks": [
+    {
+     "label": "INDUSTRY OVERVIEW",
+     "targetId": "industry-overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR SPECIALIZATION",
+     "targetId": "our-specialization"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "industry-overview",
+   "eyebrow": "INDUSTRY OVERVIEW",
+   "heading": "Revolutionizing Manufacturing through smart solutions",
+   "body": "Developing manufacturing platforms with customized solutions with various modules to accommodate comprehensive application development.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "industries.building-tools",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Building tools that endure",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/buildingsTools.jpg",
+    "width": 1920,
+    "height": 773,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "tools": [
+    {
+     "title": "Automation",
+     "description": "We enable higher productivity through skillful development and deployment of automated software, freeing you from manual billing.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/automation-rpa"
+    },
+    {
+     "title": "Consulting",
+     "description": "Our expert consultants deliver innovative solutions to complex problems through the means of planning & research.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/talent-advisory-gcc/technology-advisory"
+    },
+    {
+     "title": "Engineering",
+     "description": "We engineer tools and blueprints for products that are tuned to precision. This is achieved through high attention to detail.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/app-modernisation"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "industries.specialization-list",
+   "anchorId": "our-specialization",
+   "heading": "Our Specialization",
+   "backgroundImage": {
+    "__media": "site/images/Industries S bg.png",
+    "width": 2560,
+    "height": 1385,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "items": [
+    {
+     "title": "Production Planning",
+     "description": "Efficiently schedule and allocate resources to keep production on track and minimize downtime. Our tools integrate with your systems to provide real-time insights and forecasting.",
+     "image": {
+      "__media": "s3/Production Planning.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Production Planning"
+     }
+    },
+    {
+     "title": "Production Execution",
+     "description": "Manage and monitor your production process in real time. Track progress, spot bottlenecks, and adjust schedules as needed to ensure timely delivery.",
+     "image": {
+      "__media": "s3/Production Execution.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Production Execution"
+     }
+    },
+    {
+     "title": "Quality Control",
+     "description": "Ensure product consistency and compliance with advanced quality control systems. Detect defects early to reduce waste and rework, maintaining high quality standards.",
+     "image": {
+      "__media": "s3/Quality Control.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Quality Control"
+     }
+    },
+    {
+     "title": "Plant Maintenance",
+     "description": "Optimize equipment performance with proactive maintenance solutions. Predict potential issues, schedule timely interventions, and minimize downtime to keep operations running smoothly.",
+     "image": {
+      "__media": "s3/Plant Maintenance.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Plant Maintenance"
+     }
+    },
+    {
+     "title": "Quality Management",
+     "description": "Systems to track and improve product quality throughout manufacturing.",
+     "image": {
+      "__media": "s3/Quality Management.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Quality Management"
+     }
+    },
+    {
+     "title": "Manufacturing Integration & Intelligence",
+     "description": "Integrate and analyze data from all your operations to make informed decisions. Gain actionable insights to boost productivity and efficiency.",
+     "image": {
+      "__media": "s3/Manufacturing Integration & Intelligence.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Manufacturing Integration & Intelligence"
+     }
+    },
+    {
+     "title": "Supply Chain Integration",
+     "description": "Integrated systems for seamless coordination and collaboration across the supply chain.",
+     "image": {
+      "__media": "s3/Supply Chain Integration.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Supply Chain Integration"
+     }
+    },
+    {
+     "title": "Integrated Business Planning",
+     "description": "Align production with business objectives and market demands using digitization. Connect strategic planning with operational execution for greater agility and responsiveness.",
+     "image": {
+      "__media": "s3/Integrated Business Planning.png",
+      "width": 1720,
+      "height": 700,
+      "mime": "image/png",
+      "alt": "Integrated Business Planning"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

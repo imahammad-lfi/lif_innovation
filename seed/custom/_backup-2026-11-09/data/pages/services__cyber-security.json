@@ -1,0 +1,404 @@
+{
+ "title": "Cyber Security",
+ "path": "/services/cyber-security",
+ "seo": {
+  "metaTitle": "Cyber Security Services | Linkfields Innovations",
+  "metaDescription": "End-to-end security from code to AI: AI security and GRC, cloud IAM, exposure validation, AppSec, security operations and machine learning for risk.",
+  "keywords": "cyber security, AI security, GRC, IAM, AppSec, exposure validation, security operations, VajraX, VectorX",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cyber Security",
+   "subtitle": "Protect · Validate · Govern",
+   "backgroundImage": {
+    "__media": "custom/hero-cyber-security.jpg",
+    "alt": "Cyber Security"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE DELIVER",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "SERVICES",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "LINKFIELDS IP",
+     "targetId": "linkfields-ip"
+    },
+    {
+     "label": "VALUE PLAYS",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "WHO WE SERVE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "End-to-end security, from code to AI",
+   "body": "End-to-end security, from code to AI: our own products plus specialist services. Connect offensive testing, cloud security and GRC with architecture review, security operations and incident response.\n\nOur services bring together controls, IAM and regulation, staff education and phishing drills, and machine learning for security and risk. Linkfields IP adds AI-powered external exposure validation, code and supply-chain analysis, and a gateway for AI guardrails, cost and tracing.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "heading": "End-to-end security, *from code to AI*",
+   "items": [
+    {
+     "title": "Offensive testing",
+     "number": "01",
+     "description": "AI, LLM & web app testing",
+     "href": "/services/cyber-security/exposure-validation-appsec",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Cloud security & GRC",
+     "number": "02",
+     "description": "Controls, IAM & regulation",
+     "href": "/services/cyber-security/cloud-security-iam",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Security operations",
+     "number": "03",
+     "description": "Splunk SIEM, Qualys monitoring",
+     "href": "/services/cyber-security/security-operations",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Architecture review",
+     "number": "04",
+     "description": "Network, firewall & IAM",
+     "href": "/services/cyber-security/cloud-security-iam",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Security awareness",
+     "number": "05",
+     "description": "Staff education & phishing drills",
+     "href": "/services/cyber-security/ai-security-grc",
+     "linkLabel": "Read more"
+    },
+    {
+     "title": "Incident response",
+     "number": "06",
+     "description": "Rapid7: detect, triage, contain",
+     "href": "/services/cyber-security/security-operations",
+     "linkLabel": "Read more"
+    }
+   ],
+   "eyebrow": "What we deliver",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink"
+  },
+  {
+   "__component": "hubs.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "Specialist services",
+   "heading": "Four specialist services, *from code to AI*",
+   "body": "Governance, cloud and identity, exposure validation and security operations, working with our own security products.",
+   "cards": [
+    {
+     "title": "AI security & GRC",
+     "description": "Offensive testing: AI, LLM & web app testing. Cloud security & GRC: Controls, IAM & regulation. Security awareness: Staff education & phishing drills. Accelerators: Regulatory readiness accelerator · Continuous compliance evidence.",
+     "image": {
+      "__media": "custom/hero-ai-governance.jpg",
+      "alt": "AI security & GRC"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/ai-security-grc",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Cloud security & IAM",
+     "description": "Architecture review: Network, firewall & IAM. Connect cloud security and GRC with the controls, access decisions and regulatory requirements that shape your environment.",
+     "image": {
+      "__media": "custom/hero-cloud-security.jpg",
+      "alt": "Cloud security & IAM"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/cloud-security-iam",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Exposure validation & AppSec",
+     "description": "Bring external attack-surface validation together with code scanning, supply-chain analysis and offensive testing of AI, LLMs and web applications.",
+     "image": {
+      "__media": "custom/hero-appsec.jpg",
+      "alt": "Exposure validation & AppSec"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/exposure-validation-appsec",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Security operations",
+     "description": "Security operations: Splunk SIEM, Qualys monitoring. Incident response: Rapid7: detect, triage, contain. Connect security signals with investigation and a coordinated response.",
+     "image": {
+      "__media": "custom/hero-security-operations.jpg",
+      "alt": "Security operations"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cyber-security/security-operations",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "linkfields-ip",
+   "heading": "Our own security products, *plus specialist services*",
+   "items": [
+    {
+     "title": "VajraX",
+     "logo": {
+      "__media": "custom/logos/vajrax.png",
+      "alt": "VajraX"
+     },
+     "description": "AI-powered exposure validation of your external attack surface.",
+     "href": "/products-and-accelerators/vajrax",
+     "linkLabel": "Explore VajraX"
+    },
+    {
+     "title": "VectorX",
+     "logo": {
+      "__media": "custom/logos/vectorx.png",
+      "alt": "VectorX"
+     },
+     "description": "Code scanning and supply-chain analysis, repo to release.",
+     "href": "/products-and-accelerators/vectorx",
+     "linkLabel": "Explore VectorX"
+    },
+    {
+     "title": "AI Governance",
+     "logo": {
+      "__media": "custom/logos/ai-governance.png",
+      "alt": "AI Governance"
+     },
+     "description": "One gateway for every AI tool: guardrails, cost & tracing (Portkey + Opik).",
+     "href": "/products-and-accelerators/ai-governance",
+     "linkLabel": "Explore AI Governance"
+    }
+   ],
+   "eyebrow": "Linkfields IP",
+   "description": "Our own software and reusable accelerators sit behind every engagement, licensed on their own or delivered with our services.",
+   "columns": 3,
+   "tone": "navy",
+   "noteLabel": "Reusable accelerators",
+   "note": "Regulatory Readiness & Control Mapping · Continuous Compliance & Audit Evidence · Cloud, AI & Identity Security Baselines"
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "Where we lead with *outcomes*",
+   "description": "Every play starts from a customer problem. Our five portfolios and Linkfields software sit behind each one.",
+   "plays": [
+    {
+     "title": "Regulated Cyber Readiness",
+     "accent": "teal",
+     "trigger": "Regulated industries need continuous evidence, not point-in-time reports.",
+     "outcome": "Continuous exposure validation, control mapping and remediation evidence.",
+     "ip": "VajraX, Regulatory Readiness & Control Mapping"
+    },
+    {
+     "title": "AI Code Assurance",
+     "accent": "orange",
+     "trigger": "AI-generated code increases delivery speed and assurance risk.",
+     "outcome": "Quality and security gates across CI/CD for AI-written change.",
+     "ip": "testoriumz, VectorX, Cyber-Safe Delivery"
+    }
+   ],
+   "ctaLabel": "Discuss your challenge",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "why-us",
+   "eyebrow": "WHY US",
+   "heading": "Persistently Innovative",
+   "description": "Headquartered in South Africa, delivering globally. We combine specialist services with our own software and reusable delivery IP.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "20",
+     "suffix": "+",
+     "label": "years of industry leadership experience"
+    },
+    {
+     "value": "550",
+     "suffix": "+",
+     "label": "people"
+    },
+    {
+     "value": "80",
+     "suffix": "+",
+     "label": "clients"
+    },
+    {
+     "value": "20",
+     "suffix": "+",
+     "label": "technology partners"
+    }
+   ]
+  },
+  {
+   "__component": "sections.industries-grid",
+   "anchorId": "our-expertise",
+   "eyebrow": "WHO WE SERVE",
+   "heading": "Industries we know deeply",
+   "description": "Digital innovation, intelligent automation and Data & AI, with outcomes tailored to each industry we serve.",
+   "items": [
+    {
+     "title": "Telecom",
+     "description": "Transform telecom and customer experiences with digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-telecom.jpg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom",
+     "tags": "Digital services\nCustomer engagement\nIntelligent connectivity\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "BFSI",
+     "description": "Reimagine banking, insurance and customer services with secure digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-bfsi.jpg",
+      "alt": "BFSI"
+     },
+     "href": "/industries/bfsi",
+     "tags": "Security\nDigital financial services\nIntelligent automation\nCustomer Experience",
+     "accent": null
+    },
+    {
+     "title": "Healthcare & Pharma",
+     "description": "Transform healthcare with digital innovation, AI-driven insights and intelligent automation for better patient care.",
+     "image": {
+      "__media": "custom/industries/ind-healthcare.jpg",
+      "alt": "Healthcare & Pharma"
+     },
+     "href": "/industries/healthcare-pharma",
+     "tags": "Patient care\nDigital health\nAI-powered insights",
+     "accent": null
+    },
+    {
+     "title": "Retail, FMCG & CPG",
+     "description": "Reimagine retail and consumer experiences with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-retail.jpg",
+      "alt": "Retail, FMCG & CPG"
+     },
+     "href": "/industries/retail-fmcg-cpg",
+     "tags": "Customer experience\nForecasting\nPersonalisation\nGrowth",
+     "accent": null
+    },
+    {
+     "title": "Manufacturing",
+     "description": "Accelerate smart manufacturing with digital innovation, AI-powered automation and predictive intelligence.",
+     "image": {
+      "__media": "custom/industries/ind-manufacturing.jpg",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing",
+     "tags": "Smart factories\nOperational excellence\nPredictive intelligence",
+     "accent": null
+    },
+    {
+     "title": "Energy & Mining",
+     "description": "Transform energy and mining operations with digital innovation, intelligent automation and secure Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-energy-mining.jpg",
+      "alt": "Energy & Mining"
+     },
+     "href": "/industries/energy-mining",
+     "tags": "Asset optimisation\nAutomation\nSecurity\nOperational efficiency",
+     "accent": null
+    },
+    {
+     "title": "Public Sector",
+     "description": "Modernise public services with secure digital innovation, intelligent automation and Data & AI for citizens and agencies.",
+     "image": {
+      "__media": "custom/industries/ind-public-sector.jpg",
+      "alt": "Public Sector"
+     },
+     "href": "/industries/public-sector",
+     "tags": "Citizen services\nDigital government\nSecure data\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "Education",
+     "description": "Transform learning and campus operations with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-education.jpg",
+      "alt": "Education"
+     },
+     "href": "/industries/education",
+     "tags": "Digital learning\nStudent experience\nAI-powered insights\nAutomation",
+     "accent": null
+    }
+   ],
+   "cta": null
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

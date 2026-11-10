@@ -1,0 +1,312 @@
+{
+ "title": "Delivery accelerators",
+ "path": "/products-and-accelerators/delivery-accelerators",
+ "seo": {
+  "metaTitle": "Enterprise Delivery Accelerators & IP | Linkfields",
+  "metaDescription": "Delivery accelerators help tailor modernisation, migration and release assurance to your enterprise programme, with agreed checks and evidence gates.",
+  "keywords": "delivery accelerators, modernisation, migration, release assurance, compliance readiness, application modernisation accelerators, migration readiness assessment, automated regression testing",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Delivery accelerators",
+   "subtitle": "Reuse delivery IP for modernisation, migration, quality, security and compliance readiness.",
+   "backgroundImage": {
+    "__media": "custom/hero-delivery-accelerators.jpg",
+    "alt": "Digital delivery network illustrating programme checks and connected systems"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Portfolio IP",
+     "targetId": "portfolio-ip"
+    },
+    {
+     "label": "Outputs",
+     "targetId": "outputs"
+    },
+    {
+     "label": "Readiness",
+     "targetId": "readiness"
+    },
+    {
+     "label": "Related Items",
+     "targetId": "related-items"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "REUSABLE ACCELERATOR · PORTFOLIO IP",
+   "heading": "Reuse the groundwork. Focus on the change.",
+   "body": "Delivery accelerators are reusable packs and playbooks for more consistent delivery checks and evidence. Select the relevant IP, tailor it to the systems and change in scope, and make readiness review part of the delivery plan.\n\nThe portfolio groups below cover modernisation and integration, migration and regression, automated testing and release assurance, Cyber-Safe Delivery, and regulatory and compliance readiness. [Assess your delivery risks](#get-in-touch): share the change type, platforms, assurance risks and release constraints.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "products.product-portfolio",
+   "anchorId": "portfolio-ip",
+   "eyebrow": "PRE-BUILT AND TAILORED",
+   "heading": "Delivery IP across five portfolios",
+   "description": "Explore reusable IP across our portfolios and how it supports Talent Advisory & GCC delivery. Select applicable assets and tailor evidence gates to your programme.",
+   "categories": [
+    {
+     "anchorId": "digital-transformation",
+     "number": "01",
+     "title": "Digital Transformation",
+     "href": "/services/digital-transformation",
+     "accent": "orange",
+     "products": [
+      {
+       "name": "Reusable IP",
+       "tagline": "Engineering, workflow and release checks",
+       "description": "Tailor architecture, interfaces, workflow rules and test coverage. Review integration checks, workflow exceptions, release results and security remediation at agreed gates. Digital Transformation owns engineering change; Cyber Security contributes validation.",
+       "tags": "Modernisation & Integration Toolkit|Intelligent Workflow Automation Framework|Automated Testing & Release Assurance Packs|Cyber-Safe Delivery"
+      }
+     ]
+    },
+    {
+     "anchorId": "intelligent-enterprise-platforms",
+     "number": "02",
+     "title": "Intelligent Enterprise Platforms",
+     "href": "/services/intelligent-enterprise-platforms",
+     "accent": "blue",
+     "products": [
+      {
+       "name": "Reusable IP",
+       "tagline": "Migration, regression and platform operations",
+       "description": "Tailor platforms, data mappings, business journeys and operating responsibilities. Migration and regression packs separate data reconciliation from behaviour checks and release gates. Review readiness findings, reconciliation results, regression evidence and operating handover.",
+       "tags": "Migration & Readiness|Regression & Release Assurance|Data Migration & Reconciliation|Intelligent Platform Operations"
+      }
+     ]
+    },
+    {
+     "anchorId": "data-ai",
+     "number": "03",
+     "title": "Data & AI",
+     "href": "/services/data-ai",
+     "accent": "purple",
+     "products": [
+      {
+       "name": "Reusable IP",
+       "tagline": "Data readiness, prediction and simulation",
+       "description": "Tailor use cases, data, calibration and model boundaries. Review readiness findings, model results and limitations, or calibrated scenarios. Applicability to each data platform is assessed, not assumed.",
+       "tags": "Data & AI Readiness|Predictive Analytics Suite|Digital Twin & Simulation Suite"
+      }
+     ]
+    },
+    {
+     "anchorId": "cyber-security",
+     "number": "04",
+     "title": "Cyber Security",
+     "href": "/services/cyber-security",
+     "accent": "teal",
+     "products": [
+      {
+       "name": "Reusable IP",
+       "tagline": "Security validation and control evidence",
+       "description": "Tailor obligations, control scope and security boundaries. Review control maps, audit evidence and baseline findings: security validation identifies exposure; Regulatory & Compliance Readiness maps evidence to obligations. Readiness support does not confer regulatory approval.",
+       "tags": "Regulatory Readiness & Control Mapping|Continuous Compliance & Audit Evidence|Cloud, AI & Identity Security Baselines"
+      }
+     ]
+    },
+    {
+     "anchorId": "talent-advisory-gcc",
+     "number": "05",
+     "title": "Talent Advisory & GCC",
+     "href": "/services/talent-advisory-gcc",
+     "accent": "yellow",
+     "products": [
+      {
+       "name": "Scale context",
+       "tagline": "Governed capacity and capability transfer",
+       "description": "Embed relevant delivery IP within staff augmentation, managed teams or GCC build-operate-transfer engagements, rather than buying a separate GCC pack. Agree skills, governance and transfer responsibilities; review capacity, delivery gates and capability handover.",
+       "tags": "Scalable Talent & Delivery|Accelerated GCC Setup|Governed Delivery & Embedded IP|Sustainable Capability Transfer"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "outputs",
+   "eyebrow": "ARTEFACTS AND ACCEPTANCE",
+   "heading": "Fit the packs to your delivery plan",
+   "description": "Select relevant assessment patterns and pack checks; tailor acceptance gates to the programme. Reuse does not make every pack applicable to every technology.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Risk and readiness map",
+     "description": "Review change, dependencies and assurance obligations.",
+     "bullets": "Reuse – relevant assessment patterns\nAccept – scope, risks and required gates",
+     "accent": "orange",
+     "number": "01"
+    },
+    {
+     "title": "Selected IP set",
+     "description": "Select applicable packs and adapt checks to the technology and requirements.",
+     "bullets": "Reuse – relevant pack set\nAccept – tailored checks and responsibilities",
+     "accent": "blue",
+     "number": "02"
+    },
+    {
+     "title": "Evidence at defined gates",
+     "description": "Run the automated and manual checks agreed for each stage.",
+     "bullets": "Reuse – selected checks and evidence structure\nAccept – results, gaps and remediation",
+     "accent": "teal",
+     "number": "03"
+    },
+    {
+     "title": "Release evidence",
+     "description": "Review findings with accountable owners and retain the decision evidence.",
+     "bullets": "Tailor – release decision and handover\nAccept – release gate and evidence record",
+     "accent": "yellow",
+     "number": "04"
+    }
+   ],
+   "noteLabel": "Illustrative release-evidence pattern",
+   "note": "Source/target scope → reconciliation and regression checks → results and exceptions → an accountable release decision with retained evidence. Tailor this illustrative pattern to the agreed migration scope and acceptance gates."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "readiness",
+   "eyebrow": "TIME TO VALUE AND FIT",
+   "heading": "Which packs fit your programme?",
+   "description": "First value is an accepted readiness map and selected pack set. Timing depends on access, scope, evidence quality and remediation; any acceleration is measured against an agreed like-for-like baseline.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Change and applicable IP",
+     "description": "Choose the pack set from the actual programme scope, not from a generic platform promise.",
+     "bullets": "Modernisation – architecture and interface scope\nMigration – data mappings and reconciliation rules\nRelease – changed journeys and gate criteria",
+     "accent": "blue"
+    },
+    {
+     "title": "Access and evidence",
+     "description": "Readiness depends on accessible systems and accountable review.",
+     "bullets": "Provide – approved system access and evidence\nName – delivery, security and control owners\nAgree – acceptance gates and release constraints",
+     "accent": "teal"
+    },
+    {
+     "title": "Adoption and ownership",
+     "description": "Separate reusable delivery IP from proprietary product licences.",
+     "bullets": "Confirm – pack applicability and reuse rights\nAgree – engagement and handover scope\nName – maintenance and support owners",
+     "accent": "yellow"
+    }
+   ],
+   "noteLabel": "Buying boundary",
+   "note": "Choose from our [commercial models](/company/our-approach#engagement-models) to fit scope and accountability: fixed price, time & materials, managed service, dedicated team or outcome-based where outcomes can be agreed and evidenced. Agree reuse rights, product licence dependencies, handover and maintenance separately."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "related-items",
+   "eyebrow": "CONNECTED DELIVERY",
+   "heading": "Delivery IP across your programme",
+   "description": "Combine delivery packs with relevant software and services for your programme. Explore workflow automation, Modernisation & Programme Assurance or Capability Centres with Embedded IP below; scope VectorX separately for repo-to-release analysis. Product licences are agreed separately.",
+   "variant": "compact",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Intelligent Workflow Automation",
+     "description": "Use reusable workflow patterns alongside quality, release and security checks.",
+     "bullets": "",
+     "accent": "orange",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore workflow automation"
+    },
+    {
+     "title": "Capability Centres with Embedded IP",
+     "description": "Connect governed engineering, quality and security IP to a GCC delivery model.",
+     "bullets": "",
+     "accent": "yellow",
+     "href": "/solutions/capability-centres-embedded-ip",
+     "linkLabel": "Explore the value play"
+    }
+   ],
+   "logosLabel": "Products and programme contexts",
+   "logos": [
+    {
+     "label": "Linkworks",
+     "href": "/products-and-accelerators/linkworks",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/linkworks.png",
+      "alt": "Linkworks product logo"
+     }
+    },
+    {
+     "label": "testoriumz",
+     "href": "/products-and-accelerators/testoriumz",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/testoriumz.png",
+      "alt": "testoriumz product logo"
+     }
+    },
+    {
+     "label": "VectorX",
+     "href": "/products-and-accelerators/vectorx",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/vectorx.png",
+      "alt": "VectorX product logo"
+     }
+    },
+    {
+     "label": "Modernisation assurance",
+     "href": "/solutions/modernisation-programme-assurance",
+     "openInNewTab": false
+    },
+    {
+     "label": "Regulated cyber readiness",
+     "href": "/solutions/regulated-cyber-readiness",
+     "openInNewTab": false
+    },
+    {
+     "label": "BFSI",
+     "href": "/industries/bfsi",
+     "openInNewTab": false
+    },
+    {
+     "label": "Public Sector",
+     "href": "/industries/public-sector",
+     "openInNewTab": false
+    },
+    {
+     "label": "Manufacturing",
+     "href": "/industries/manufacturing",
+     "openInNewTab": false
+    }
+   ],
+   "ctaLabel": "All products and accelerators",
+   "ctaUrl": "/products-and-accelerators"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Discuss your requirements",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

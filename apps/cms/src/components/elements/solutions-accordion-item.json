@@ -1,0 +1,6 @@
+{
+  "collectionName": "components_elements_solutions_accordion_item",
+  "info": { "displayName": "Solutions accordion item", "icon": "bulletList", "description": "Editable title and detail for a solutions accordion." },
+  "options": {},
+  "attributes": { "title": { "type": "text" }, "description": { "type": "richtext" } }
+}

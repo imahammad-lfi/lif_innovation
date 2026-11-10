@@ -1,0 +1,231 @@
+/company/blog/ai-code-assurance
+  T 'AI code assurance | Linkfields' -> AI Code Assurance: Quality & Security Gates | Linkfields
+  D NEW: Strengthen AI code assurance with risk-based review, independent testing and supply-chain checks, supported by traceable quality and security gates.
+/company/blog/continuous-cyber-evidence
+  T 'Continuous cyber evidence | Linkfields' -> Continuous Cyber Evidence in Regulated Sectors | Linkfields
+  D =
+/company/blog/conversational-ai-financial-services
+  T 'Conversational AI | Linkfields' -> Conversational AI in Financial Services | Linkfields
+  D NEW: Explore conversational AI in financial services with controlled data access, reporting accuracy and human oversight to support responsible adoption.
+/company/blog/digital-transformation-customer-experience
+  T 'Digital customer journeys | Linkfields' -> Digital Transformation & Customer Journeys | Linkfields
+  D NEW: Improve customer journeys through digital transformation: connect channels, ERP and CRM systems with clear integration, quality and security checks.
+/company/blog/rpa-intelligent-operations
+  T 'RPA and intelligent operations | Linkfields' -> =
+  D NEW: Plan RPA implementation with clear process ownership, integration, exception handling and release assurance to support reliable enterprise workflows.
+/company/blog/single-ai-gateway
+  T 'A single enterprise AI gateway | Linkfields' -> =
+  D NEW: Use an enterprise AI gateway to connect guardrails, cost ownership and tracing, with practical guidance on access controls, evaluation and safe rollout.
+/careers
+  T 'Careers | Linkfields' -> Careers in Enterprise Technology & AI | Linkfields
+  D NEW: Explore Linkfields careers in technology, engineering, data and security. Learn how we work and contact recruitment for open roles and application guidance.
+/company/about-us
+  T 'About us | Linkfields' -> About Us: Global Technology & Advisory | Linkfields
+  D NEW: Meet Linkfields, a technology consulting company headquartered in South Africa, combining global delivery, proprietary software and enterprise services.
+/company/blog
+  T 'Enterprise insights | Linkfields' -> Enterprise AI & Transformation Insights | Linkfields
+  D NEW: Explore enterprise AI insights on governance, code assurance and cyber readiness to assess controls, guide technology decisions and plan transformation.
+/company/news-and-articles
+  T 'News & recognition | Linkfields' -> Linkfields News & Growth-Ranking Recognition | Linkfields
+  D NEW: Explore Linkfields news and independent recognition, including #35 in Africa’s Fastest-Growing Companies 2026, with links to original publishers.
+/company/our-approach
+  T 'Our approach | Linkfields' -> Enterprise Delivery Approach & Governance | Linkfields
+  D NEW: Explore our enterprise delivery approach: align business outcomes, govern quality and security, and choose commercial models that fit your requirements.
+/contact-us
+  T 'Contact us | Linkfields' -> Contact Linkfields for Enterprise Enquiries | Linkfields
+  D =
+/cookies-policy
+  T 'Cookies policy | Linkfields' -> Website Cookies Policy and Your Choices | Linkfields
+  D =
+/events
+  T 'Events | Linkfields' -> Enterprise Technology Events & Meetings | Linkfields
+  D NEW: Explore Linkfields events and meet our enterprise technology specialists. View upcoming conferences, plan your visit and discuss your business requirements.
+/events/africa-tech-festival-2026
+  T 'Meet Linkfields at Africa Tech Festival 2026 | Stand I74' -> =
+  D =
+/
+  T 'Enterprise Technology, Software & AI | Linkfields' -> AI-Driven Technology, Engineering & Advisory | Linkfields
+  D NEW: Accelerate enterprise change with digital transformation services, proprietary software and governed AI from Linkfields, headquartered in South Africa.
+/industries
+  T 'Industries | Linkfields' -> Enterprise Technology Services by Industry | Linkfields
+  D NEW: Explore enterprise technology services for eight industries. Connect workflows, modernise systems and agree delivery scope with one integrated partner.
+/industries/bfsi
+  T 'BFSI | Linkfields' -> Banking, Insurance & Fintech IT Services | Linkfields
+  D NEW: Modernise banking, insurance and fintech with financial services IT services that connect workflows, automate document review and govern data and risk.
+/industries/education
+  T 'Education | Linkfields' -> Education Technology & Campus Services | Linkfields
+  D NEW: Explore education technology services for connected campus operations, rapid course creation and governed data, with educator and staff review.
+/industries/energy-mining
+  T 'Energy & Mining | Linkfields' -> Energy & Mining IT Integration Services | Linkfields
+  D NEW: Connect assets, inventory and enterprise systems with energy and mining IT integration, governed analytics and secure delivery from Linkfields.
+/industries/healthcare-pharma
+  T 'Healthcare & Pharma | Linkfields' -> Healthcare IT Services & Pharma Solutions | Linkfields
+  D NEW: Improve administrative and pharma supply workflows with healthcare IT services, secure integration, automation and governed data from Linkfields.
+/industries/manufacturing
+  T 'Manufacturing | Linkfields' -> Manufacturing Digital Transformation Services | Linkfields
+  D NEW: Connect production, quality and maintenance with manufacturing digital transformation services spanning ERP integration, automation and governed analytics.
+/industries/public-sector
+  T 'Public Sector | Linkfields' -> Public Sector IT Services South Africa | Linkfields
+  D NEW: Public sector IT services that connect citizen journeys, agency systems and document workflows, with governed data and secure, accountable delivery.
+/industries/retail-fmcg-cpg
+  T 'Retail, FMCG & CPG | Linkfields' -> Retail, FMCG & CPG Technology Services | Linkfields
+  D NEW: Connect demand, inventory and customer journeys with retail technology services, governed forecasting and integrated platforms from Linkfields.
+/industries/telecom
+  T 'Telecom | Linkfields' -> Telecom IT Services & Digital Transformation | Linkfields
+  D NEW: Telecom IT services to connect billing and CRM, modernise applications and improve service workflows with governed analytics and security by design.
+/privacy-policy
+  T 'Privacy policy | Linkfields' -> Privacy Policy: Personal Data & Rights | Linkfields
+  D NEW: Read the Linkfields privacy policy to understand how your personal data is collected, used and retained, and where to direct privacy questions.
+/products-and-accelerators
+  T 'Products & Accelerators | Linkfields' -> Enterprise Software & Delivery Accelerators | Linkfields
+  D NEW: Explore enterprise software and reusable delivery accelerators for applications, testing, data and security. Buy independently or add Linkfields services.
+/products-and-accelerators/ai-governance
+  T 'AI Governance Gateway | Linkfields' -> AI Governance Gateway, Guardrails & Cost | Linkfields
+  D NEW: Evaluate an AI governance gateway for guardrails, cost visibility and tracing. Scope integrations and operating responsibilities with Linkfields.
+/products-and-accelerators/delivery-accelerators
+  T 'Delivery accelerators | Linkfields' -> Enterprise Delivery Accelerators & IP | Linkfields
+  D NEW: Delivery accelerators help tailor modernisation, migration and release assurance to your enterprise programme, with agreed checks and evidence gates.
+/products-and-accelerators/digital-twin-suite
+  T 'Digital Twin Suite | Linkfields' -> Digital Twin Simulation & Modelling Suite | Linkfields
+  D NEW: Explore digital twin simulation for maintenance and inventory planning. Scope operational data, model calibration and a reviewed pilot with Linkfields.
+/products-and-accelerators/edupilot
+  T 'EduPilot Course Creation | Linkfields' -> EduPilot: Rapid Course Creation Software | Linkfields
+  D =
+/products-and-accelerators/finsight
+  T 'FinSight Financial Analysis | Linkfields' -> =
+  D NEW: Turn financial data into reviewed reports with FinSight financial analysis software. Explore conversational analysis and agree your requirements in a demo.
+/products-and-accelerators/intelligent-workflow-automation
+  T 'Intelligent Workflow Automation | Linkfields' -> =
+  D NEW: Intelligent workflow automation connects enterprise systems and AI tasks with human approvals. Reuse delivery patterns to support a controlled pilot.
+/products-and-accelerators/linkworks
+  T 'Linkworks Composable Applications | Linkfields' -> =
+  D =
+/products-and-accelerators/power-bi-ai-ml
+  T 'Power BI + AI/ML | Linkfields' -> Power BI Predictive Analytics Accelerator | Linkfields
+  D NEW: Bring Power BI predictive analytics into business reporting with reusable integration IP. Align model outputs, access and refresh with your decisions.
+/products-and-accelerators/predictive-analytics-suite
+  T 'Predictive Analytics Suite | Linkfields' -> Predictive Analytics Suite for Enterprises | Linkfields
+  D NEW: Adapt predictive analytics models for churn, demand forecasting and risk decisions, with data readiness checks, validation and controlled pilot delivery.
+/products-and-accelerators/testoriumz
+  T 'testoriumz Continuous Quality Engineering | Linkfields' -> =
+  D NEW: Bring test management, low-code automation and AI root-cause analysis together with testoriumz continuous testing software. Explore a product demo.
+/products-and-accelerators/textiq
+  T 'textIQ Document Intelligence | Linkfields' -> =
+  D NEW: Find and summarise enterprise content with textIQ document intelligence. Evaluate search, extraction and classification against your business requirements.
+/products-and-accelerators/vajrax
+  T 'VajraX Exposure Validation | Linkfields' -> VajraX External Attack Surface Validation | Linkfields
+  D NEW: Assess external attack surface validation with VajraX. Review AI-powered evidence, authorised evaluation scope and licensing to guide remediation decisions.
+/products-and-accelerators/vectorx
+  T 'VectorX Code & Supply-Chain Analysis | Linkfields' -> =
+  D NEW: Evaluate VectorX for code scanning and supply-chain analysis, helping engineering and security teams review software risk before release. Request a demo.
+/services
+  T 'Services | Linkfields' -> Enterprise Technology Services & Advisory | Linkfields
+  D NEW: Explore enterprise technology services that connect modernisation, ERP, data and AI, security and talent, with flexible delivery for your requirements.
+/services/cyber-security
+  T 'Cyber Security | Linkfields' -> Cyber Security Services in South Africa | Linkfields
+  D =
+/services/cyber-security/ai-security-grc
+  T 'AI security & GRC | Linkfields' -> AI Security & GRC Assessment Services | Linkfields
+  D NEW: AI security and GRC services connect AI risk testing, guardrails and control ownership with reviewable evidence. Scope your assessment with Linkfields.
+/services/cyber-security/cloud-security-iam
+  T 'Cloud security & IAM | Linkfields' -> Cloud Security & IAM Assessment Services | Linkfields
+  D =
+/services/cyber-security/exposure-validation-appsec
+  T 'Exposure validation & AppSec | Linkfields' -> =
+  D NEW: Exposure validation and AppSec services help prioritise external, code and supply-chain risks, with authorised testing and evidence for release decisions.
+/services/cyber-security/security-operations
+  T 'Security operations | Linkfields' -> Security Operations & Incident Response | Linkfields
+  D NEW: Security operations services to prioritise vulnerabilities, improve detection and coordinate authorised incident response with clear responsibilities.
+/services/data-ai
+  T 'Data & AI | Linkfields' -> Enterprise Data and AI Services South Africa | Linkfields
+  D NEW: Turn enterprise data into decisions with data and AI services, from governed AI strategy and agentic AI to analytics, prediction and production support.
+/services/data-ai/agentic-ai-genai
+  T 'Agentic AI & GenAI | Linkfields' -> Enterprise Agentic AI & GenAI Services | Linkfields
+  D NEW: Use agentic AI services to build enterprise assistants and task agents with authorised data, approved tools and human review for controlled workflows.
+/services/data-ai/ai-strategy-governance
+  T 'AI Strategy & Governance | Linkfields' -> Enterprise AI Strategy & Governance Services | Linkfields
+  D NEW: Align enterprise AI strategy with business priorities, assess readiness and define governance, ownership and controls for a practical delivery roadmap.
+/services/data-ai/data-platforms-analytics
+  T 'Data Platforms & Analytics | Linkfields' -> Data Platform & Power BI Analytics Services | Linkfields
+  D NEW: Data platform services to connect enterprise sources, govern pipelines and deliver Power BI reporting, with trusted foundations for analytics and AI.
+/services/data-ai/machine-learning
+  T 'Machine Learning | Linkfields' -> Machine Learning Development Services | Linkfields
+  D NEW: Machine learning development services for enterprise forecasting, churn and risk scoring. Evaluate models, integrate outputs and agree operating controls.
+/services/digital-transformation
+  T 'Digital Transformation | Linkfields' -> Enterprise Digital Transformation Services | Linkfields
+  D NEW: Digital transformation services to modernise applications, automate workflows and connect customer channels, with quality and security built in.
+/services/digital-transformation/app-modernisation
+  T 'App modernisation | Linkfields' -> Application Modernisation South Africa | Linkfields
+  D NEW: Application modernisation services to improve release confidence, integration and scalability, with phased engineering and secure-by-design delivery.
+/services/digital-transformation/automation-rpa
+  T 'Automation & RPA | Linkfields' -> Business Process Automation & RPA Services | Linkfields
+  D NEW: Improve business process automation with RPA, governed AI and API integration. Measure net benefits and retain human control across enterprise workflows.
+/services/digital-transformation/cloud-services
+  T 'Cloud services | Linkfields' -> Cloud Migration & Optimisation Services | Linkfields
+  D NEW: Align cloud migration services with your business requirements. Modernise workloads, clarify operating ownership and optimise cost with Linkfields.
+/services/digital-transformation/integration-services
+  T 'Integration services | Linkfields' -> Enterprise API & System Integration Services | Linkfields
+  D NEW: Connect ERP, CRM, cloud and legacy systems with system integration services that reduce manual work and support secure, traceable enterprise data flows.
+/services/digital-transformation/quality-engineering
+  T 'Quality engineering | Linkfields' -> Quality Engineering & Test Automation | Linkfields
+  D NEW: Quality engineering services for confident releases: automate regression, validate AI-generated code and connect quality evidence with CI/CD release gates.
+/services/digital-transformation/whatsapp-omnichannel
+  T 'WhatsApp Business & omnichannel | Linkfields' -> =
+  D NEW: WhatsApp Business integration connects conversations with CRM and fulfilment, helping teams preserve context across channels and improve customer handovers.
+/services/intelligent-enterprise-platforms
+  T 'Intelligent Enterprise Platforms | Linkfields' -> =
+  D NEW: Connect finance, operations and customer engagement with ERP and CRM implementation, integration and managed support aligned to your business requirements.
+/services/intelligent-enterprise-platforms/microsoft-dynamics-365
+  T 'Microsoft Dynamics 365 Services | Linkfields' -> =
+  D NEW: Connect finance, operations and customer engagement with Dynamics 365 implementation services, integration and managed support aligned to your priorities.
+/services/intelligent-enterprise-platforms/odoo
+  T 'Odoo Implementation & Integration | Linkfields' -> =
+  D =
+/services/intelligent-enterprise-platforms/platform-migration-ams
+  T 'Platform Migration & AMS | Linkfields' -> ERP & CRM Platform Migration Services | Linkfields
+  D =
+/services/intelligent-enterprise-platforms/salesforce
+  T 'Salesforce CRM Services | Linkfields' -> Salesforce Consulting & Implementation | Linkfields
+  D NEW: Salesforce consulting to connect sales, service and ERP. Plan implementation, integration and migration with clear scope, user adoption and managed support.
+/services/intelligent-enterprise-platforms/sap-s4hana
+  T 'SAP S/4HANA Services | Linkfields' -> SAP S/4HANA Implementation & Migration | Linkfields
+  D =
+/services/intelligent-enterprise-platforms/zoho
+  T 'Zoho Implementation & Integration | Linkfields' -> =
+  D NEW: Zoho implementation services to connect sales, service and operations. Plan application fit, integration, data migration and support with Linkfields.
+/services/talent-advisory-gcc
+  T 'Talent Advisory & GCC | Linkfields' -> Global Capability Centre (GCC) Services | Linkfields
+  D NEW: Build scalable teams with Global Capability Centre services, from GCC strategy and set-up to build-operate-transfer, with embedded delivery IP.
+/services/talent-advisory-gcc/gcc-build-operate-transfer
+  T 'GCC build-operate-transfer | Linkfields' -> GCC Build-Operate-Transfer (BOT) Services | Linkfields
+  D NEW: GCC build-operate-transfer services to establish delivery capability, embed governance and plan a clear handover of people, operations and agreed IP.
+/services/talent-advisory-gcc/gcc-strategy-setup
+  T 'GCC strategy & setup | Linkfields' -> Global Capability Centre Strategy & Setup | Linkfields
+  D NEW: Plan your Global Capability Centre with GCC strategy and setup advisory covering operating models, talent, governance and a phased launch roadmap.
+/services/talent-advisory-gcc/specialist-talent-managed-teams
+  T 'Specialist talent & managed teams | Linkfields' -> =
+  D NEW: Scale delivery with IT staff augmentation and managed teams. Agree specialist skills, onboarding, delivery ownership and governance with Linkfields.
+/services/talent-advisory-gcc/technology-advisory
+  T 'Technology advisory | Linkfields' -> Technology Advisory & Roadmap Consulting | Linkfields
+  D NEW: Align investment with business priorities through technology advisory, architecture assessments and practical roadmaps that guide your next delivery step.
+/solutions
+  T 'Solutions | Linkfields' -> Enterprise Technology Solutions Partner | Linkfields
+  D NEW: Explore enterprise technology solutions that combine specialist services, proprietary software and reusable IP to support measurable business outcomes.
+/solutions/ai-code-assurance
+  T 'AI Code Assurance | Linkfields' -> AI Code Assurance & CI/CD Release Gates | Linkfields
+  D NEW: Strengthen AI code assurance with quality and security gates across CI/CD. Use testoriumz, VectorX and release evidence to support accountable decisions.
+/solutions/capability-centres-embedded-ip
+  T 'Capability Centres with Embedded IP | Linkfields' -> =
+  D =
+/solutions/intelligent-operations
+  T 'Intelligent Operations | Linkfields' -> Intelligent Operations & Workflow Automation | Linkfields
+  D NEW: Improve enterprise workflow automation with connected processes, governed AI and quality-led delivery. Explore intelligent operations with Linkfields.
+/solutions/modernisation-programme-assurance
+  T 'Modernisation & Programme Assurance | Linkfields' -> =
+  D NEW: Strengthen programme assurance with migration readiness checks, integration rebuilds and regression evidence to support business-critical cutover decisions.
+/solutions/regulated-cyber-readiness
+  T 'Regulated Cyber Readiness | Linkfields' -> Regulated Cyber Readiness & Control Mapping | Linkfields
+  D NEW: Strengthen regulated cyber readiness with exposure validation, control mapping and maintained remediation evidence aligned to your regulatory requirements.
+/terms-of-use
+  T 'Terms of use | Linkfields' -> Website Terms of Use & Legal Information | Linkfields
+  D =

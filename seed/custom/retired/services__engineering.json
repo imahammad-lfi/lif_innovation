@@ -1,0 +1,284 @@
+{
+ "title": "Engineering",
+ "path": "/services/engineering",
+ "seo": {
+  "metaTitle": "Engineering and Development Services | Linkfields Innovations",
+  "metaDescription": "Engineering | Linkfields Innovations",
+  "keywords": "linkfields innovations, engineering, cloud engineering, software engineering, application development",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Engineering",
+   "subtitle": "Creating impact by harnessing technology",
+   "backgroundImage": {
+    "__media": "s3/engineering.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Engineering"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "OUR EXPERTISE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Building things that are precise",
+   "body": "Engineering relies on an expert’s ability to figure out a solution to a problem that seems impossible to achieve. By following the same philosophy we engineer software based on tough frameworks that shows flexibility of function.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "hubs.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Facilitating the expertise required for change",
+   "body": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future.",
+   "cards": [
+    {
+     "title": "Application Development",
+     "description": "Complete renovation of businesses to prepare them for the digital future by equipping organizations with digitally empowered tools.",
+     "image": {
+      "__media": "s3/application-development-tab.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Application Development"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/engineering/application-development",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Quality control",
+     "description": "Engineering workflows that ensure that every product or service that reaches to a customer matches the high standard of quality.",
+     "image": {
+      "__media": "s3/quality-control.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Quality control"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/engineering/quality-control",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "DevOps",
+     "description": "Implementing DevOps procedures to ensure higher efficiency during the development process itself.",
+     "image": {
+      "__media": "s3/firos-nv-Z2c6ounF-iE-unsplash 1.png",
+      "width": 2720,
+      "height": 1400,
+      "mime": "image/png",
+      "alt": "DevOps"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/engineering/devops",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "why-us",
+   "eyebrow": "WHY US",
+   "heading": "Persistently Innovative",
+   "description": "Apart from the excellent results we have delivered in the last decade, our business model focuses on constant innovation of each elemental and operational process, ensuring constant adaptation to the future.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "5",
+     "suffix": "mn",
+     "label": "daily digital journeys"
+    },
+    {
+     "value": "10",
+     "suffix": "x",
+     "label": "faster operational growth"
+    },
+    {
+     "value": "150",
+     "suffix": "+",
+     "label": "solutions delivered"
+    },
+    {
+     "value": "10",
+     "suffix": "yrs",
+     "label": "avg client tenure"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Ready to kick off your software development project?",
+   "description": "Let's talk about what you need",
+   "ctaLabel": "Contact Us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.industries-showcase",
+   "anchorId": "our-expertise",
+   "eyebrow": "OUR EXPERTISE",
+   "heading": "Constantly Innovating",
+   "description": "Our 16 years in business have acquainted us to a diverse list of industries with different requirements. We have consistently proven our adaptability to all kinds of business models, irrespective of their industry.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/constantly-innovating.jpg",
+    "width": 2560,
+    "height": 1117,
+    "mime": "image/jpeg",
+    "alt": "Constantly innovating background"
+   },
+   "items": [
+    {
+     "title": "Telecom",
+     "image": {
+      "__media": "s3/telecom-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom"
+    },
+    {
+     "title": "Fintech",
+     "image": {
+      "__media": "s3/fintech-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Fintech"
+     },
+     "href": "/industries/fintech"
+    },
+    {
+     "title": "FMCG",
+     "image": {
+      "__media": "s3/FMCG (1).png",
+      "width": 1660,
+      "height": 632,
+      "mime": "image/png",
+      "alt": "FMCG"
+     },
+     "href": "/industries/fmcg"
+    },
+    {
+     "title": "Banking",
+     "image": {
+      "__media": "s3/banking-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Banking"
+     },
+     "href": "/industries/banking"
+    },
+    {
+     "title": "Insurance",
+     "image": {
+      "__media": "s3/insurance-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Insurance"
+     },
+     "href": "/industries/insurance"
+    },
+    {
+     "title": "Mining",
+     "image": {
+      "__media": "s3/mining-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Mining"
+     },
+     "href": "/industries/mining"
+    },
+    {
+     "title": "Oil and Gas",
+     "image": {
+      "__media": "s3/oil&gas-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Oil and Gas"
+     },
+     "href": "/industries/oil-gas"
+    },
+    {
+     "title": "Manufacturing",
+     "image": {
+      "__media": "s3/Manufacturing (1).png",
+      "width": 1660,
+      "height": 632,
+      "mime": "image/png",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing"
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

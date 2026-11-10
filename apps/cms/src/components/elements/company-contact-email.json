@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_elements_company_contact_email",
+  "info": { "displayName": "Company contact email", "icon": "envelop", "description": "Email contact category and address" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "email": { "type": "string" }
+  }
+}

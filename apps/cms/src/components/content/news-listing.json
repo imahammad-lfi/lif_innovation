@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_content_news_listing",
+  "info": {
+    "displayName": "News listing",
+    "icon": "bulletList",
+    "description": "News and article card grid"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

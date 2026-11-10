@@ -1,0 +1,258 @@
+{
+ "title": "GCC strategy & setup",
+ "path": "/services/talent-advisory-gcc/gcc-strategy-setup",
+ "seo": {
+  "metaTitle": "Global Capability Centre Strategy & Setup | Linkfields",
+  "metaDescription": "Plan your Global Capability Centre with GCC strategy and setup advisory covering operating models, talent, governance and a phased launch roadmap.",
+  "keywords": "GCC strategy, GCC setup, Global Capability Centre, operating model, GCC blueprint, GCC strategy and setup, Global Capability Centre consulting, GCC setup advisory, GCC operating model design, GCC strategy South Africa, Global Capability Centre blueprint",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "GCC strategy & setup",
+   "subtitle": "Define the operating model and build the foundations for scale.",
+   "backgroundImage": {
+    "__media": "s3/technology-advisory.jpg",
+    "alt": "A planning workshop reviewing a technology blueprint"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Blueprint",
+     "targetId": "blueprint"
+    },
+    {
+     "label": "Launch Gates",
+     "targetId": "launch-gates"
+    },
+    {
+     "label": "Governance",
+     "targetId": "governance"
+    },
+    {
+     "label": "Example Blueprint",
+     "targetId": "example-blueprint"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Global Capability Centres",
+   "heading": "A clear blueprint for your Global Capability Centre",
+   "body": "A Global Capability Centre (GCC) brings dedicated capability into your organisation’s delivery model. This engagement defines the centre’s purpose, the work it will own and its relationship with retained teams, then turns those decisions into a launch roadmap.\n\nHeadquartered in South Africa, Linkfields combines international market presence with an offshore delivery centre in India. For building, running and planned transfer rather than advisory alone, explore [GCC build-operate-transfer](/services/talent-advisory-gcc/gcc-build-operate-transfer).\n\n[Plan your GCC](#get-in-touch) around its current stage, intended capability, location constraints and ownership preference.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "blueprint",
+   "eyebrow": "",
+   "heading": "Design the centre around the business",
+   "description": "Agree the blueprint scope before discovery. Location feasibility, cost modelling, entity or legal work and facilities require explicit scope decisions.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Business and capability case",
+     "description": "A statement of the business need, centre service scope and intended outcomes.",
+     "bullets": "Decision supported – which capability belongs in the centre",
+     "accent": "yellow"
+    },
+    {
+     "title": "Operating model and decision rights",
+     "description": "A retained-versus-centre responsibility map and reporting structure.",
+     "bullets": "Decision supported – who directs, delivers and accepts work",
+     "accent": "yellow"
+    },
+    {
+     "title": "Talent and leadership plan",
+     "description": "A phased capability and leadership plan aligned to the proposed service catalogue.",
+     "bullets": "Decision supported – which roles and skills are needed at each stage",
+     "accent": "yellow"
+    },
+    {
+     "title": "Delivery environment requirements",
+     "description": "A view of tools, environments, access and integration dependencies.",
+     "bullets": "Decision supported – what must be ready before work moves",
+     "accent": "yellow"
+    },
+    {
+     "title": "Governance and KPI design",
+     "description": "A proposed review cadence, performance measures, risk ownership and escalation map.",
+     "bullets": "Decision supported – how to oversee delivery and evidence progress",
+     "accent": "yellow"
+    },
+    {
+     "title": "Launch and readiness roadmap",
+     "description": "A phased setup plan with dependencies, accountable owners and launch gates.",
+     "bullets": "Decision supported – when and how to proceed to setup",
+     "accent": "yellow"
+    }
+   ],
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "#get-in-touch",
+   "noteLabel": "Start with the foundations",
+   "note": "Use the blueprint to agree service boundaries, accountable owners and launch dependencies. Confirm which setup activities are included before moving into delivery."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "launch-gates",
+   "eyebrow": "",
+   "heading": "Shape, validate and prepare for launch",
+   "description": "",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Agree the objectives",
+     "description": "Define the business need, capability scope and constraints with decision-makers.",
+     "bullets": "Gate – approved objectives and advisory scope",
+     "accent": "yellow",
+     "number": "01"
+    },
+    {
+     "title": "Validate the target model",
+     "description": "Test service boundaries, retained responsibilities and ownership options.",
+     "bullets": "Gate – agreed operating model and decision rights",
+     "accent": "yellow",
+     "number": "02"
+    },
+    {
+     "title": "Phase the launch plan",
+     "description": "Sequence talent, environments and dependencies; cost the plan where financial modelling is in scope.",
+     "bullets": "Gate – approved phased plan and assumptions",
+     "accent": "yellow",
+     "number": "03"
+    },
+    {
+     "title": "Decide launch ownership",
+     "description": "Review readiness and unresolved risks before choosing the setup route.",
+     "bullets": "Gate – client-owned setup or a separately scoped BOT hand-off",
+     "accent": "yellow",
+     "number": "04",
+     "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+     "linkLabel": "Explore the BOT route"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "governance",
+   "eyebrow": "",
+   "heading": "Plan quality, security and embedded IP from day one",
+   "description": "Assess where reusable IP supports quality, security and delivery governance. Distinguish recommendations from product inclusion, configuration or licensing committed within the agreed engagement scope.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Governance baseline",
+     "description": "Design the review cadence, risk register, acceptance evidence and escalation responsibilities.",
+     "bullets": "Blueprint output – proposed delivery-governance and control requirements\nQuality output – testing and release-assurance requirements",
+     "accent": "yellow",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    },
+    {
+     "title": "Linkworks",
+     "description": "Assess whether composable enterprise applications fit the centre’s service catalogue.",
+     "bullets": "Blueprint questions – what is configured, who operates it and which licence rights apply?",
+     "accent": "yellow",
+     "logo": {
+      "__media": "custom/logos/linkworks.png",
+      "alt": "Linkworks product logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "Cyber-Safe Delivery",
+     "description": "Identify security requirements for access, engineering workflows and release gates.",
+     "bullets": "Blueprint output – security responsibilities and review evidence\nIP decision – reusable quality and security packs relevant to the scoped work",
+     "accent": "yellow"
+    }
+   ],
+   "ctaLabel": "Capability centres with embedded IP",
+   "ctaUrl": "/solutions/capability-centres-embedded-ip",
+   "noteLabel": "Software and rights",
+   "note": "Products are available by licence, subscription or SaaS, with or without services. The blueprint should identify licence, operating and future ownership questions."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "example-blueprint",
+   "eyebrow": "",
+   "heading": "What a GCC blueprint can contain",
+   "description": "This example shows the decisions and artefacts to discuss. It is not evidence of a completed centre setup or a redacted client blueprint.",
+   "variant": "compact",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Service catalogue and ownership",
+     "description": "Illustrative blueprint outline, not client work: define an application engineering service with business priorities retained by the client.",
+     "bullets": "Centre scope – agreed engineering and quality activities\nRetained scope – product direction and acceptance\nDecision record – service boundaries and accountable owners",
+     "accent": "yellow"
+    },
+    {
+     "title": "People, governance and launch",
+     "description": "Sequence the capability and leadership plan against readiness rather than an assumed launch date.",
+     "bullets": "Talent plan – phased skills and leadership requirements\nGovernance – review cadence, risks and evidence\nLaunch gate – access, environment and responsibility readiness",
+     "accent": "yellow"
+    }
+   ]
+  },
+  {
+   "__component": "solutions.accordion-stack",
+   "anchorId": "buyer-questions",
+   "eyebrow": "Before we begin",
+   "heading": "Before we design your centre",
+   "variant": "full",
+   "items": [
+    {
+     "title": "Is this for a new centre or an existing GCC?",
+     "description": "The advisory brief can address a new centre or a change to an existing operating model. Share the current stage, capability scope and decision you need to make so the assessment boundaries can be agreed."
+    },
+    {
+     "title": "Are location, cost, legal and facilities work included?",
+     "description": "These activities require explicit scope agreement. Define the assumptions and outputs for location feasibility and financial modelling, and confirm responsibility for entity, legal and facilities work, including any specialist or third-party involvement."
+    },
+    {
+     "title": "How is strategy different from BOT?",
+     "description": "Strategy and setup advisory defines the blueprint and launch decision. BOT is a separate build, operate and planned transfer engagement. The advisory exit can be a client-owned setup plan or a hand-off into BOT."
+    },
+    {
+     "title": "Which commercial models are available?",
+     "description": "Fixed Price can fit a defined blueprint; Time & Materials supports evolving discovery. Explore our [commercial models](/company/our-approach#engagement-models), including Managed Service, Dedicated Team and Outcome-Based for delivery. Commercials are agreed separately from centre ownership; Outcome-Based fees require agreed outcomes and measurable evidence."
+    },
+    {
+     "title": "What should we share first?",
+     "description": "Share whether the centre is new or established, its intended capability, location constraints and ownership preference. We can agree an NDA before detailed discovery. Launch timings depend on the assessed scope and readiness."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your GCC blueprint",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

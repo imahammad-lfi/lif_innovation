@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_sections_metrics_grid",
+  "info": {
+    "displayName": "Metrics grid",
+    "icon": "chartBubble",
+    "description": "Client value: intro, outcome metrics, banner and steps"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bullets": {
+      "type": "text"
+    },
+    "metricsLabel": {
+      "type": "string"
+    },
+    "metricsHeading": {
+      "type": "string"
+    },
+    "metrics": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.metric"
+    },
+    "footnote": {
+      "type": "text"
+    },
+    "bannerLabel": {
+      "type": "string"
+    },
+    "bannerTitle": {
+      "type": "string"
+    },
+    "bannerText": {
+      "type": "text"
+    },
+    "stepsLabel": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-tile"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    }
+  }
+}

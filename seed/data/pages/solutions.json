@@ -1,0 +1,210 @@
+{
+ "title": "Solutions",
+ "path": "/solutions",
+ "seo": {
+  "metaTitle": "Enterprise Technology Solutions Partner | Linkfields",
+  "metaDescription": "Explore enterprise technology solutions that combine specialist services, proprietary software and reusable IP to support measurable business outcomes.",
+  "keywords": "strategic value plays, business outcomes, programme assurance, intelligent operations, enterprise technology solutions, AI code assurance, modernisation programme assurance, regulated cyber readiness, intelligent process automation, GCC build-operate-transfer",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Outcomes, not offerings",
+   "subtitle": "Five strategic value plays that combine our services, Linkfields software and reusable accelerators to deliver measurable business outcomes.",
+   "backgroundImage": {
+    "__media": "custom/hero-solutions.jpg",
+    "alt": "Illustrative connected enterprise delivery environment"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Value Plays",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "Delivery Architecture",
+     "targetId": "delivery-architecture"
+    },
+    {
+     "label": "Commercial Models",
+     "targetId": "engagement-models"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Start with your requirements",
+   "heading": "Start with your requirements",
+   "body": "Each play starts with a customer trigger and an intended business outcome. Combine the relevant service portfolios, Linkfields software and reusable delivery IP around your requirements. Explore a play to see how an engagement can run, what evidence it can produce and which commercial models may fit.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "value-plays",
+   "eyebrow": "Five strategic value plays",
+   "heading": "What would you like to achieve?",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "AI Code Assurance",
+     "description": "AI-generated code increases delivery speed and assurance risk.",
+     "accent": "orange",
+     "number": "01",
+     "eyebrow": "Customer trigger",
+     "footLabel": "Linkfields IP",
+     "footText": "testoriumz, VectorX, Cyber-Safe Delivery",
+     "bullets": "Intended outcome – Ship AI-written change with visible quality and security evidence.",
+     "href": "/solutions/ai-code-assurance",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Modernisation & Programme Assurance",
+     "description": "Complex migration and customisation create regression and integration risk.",
+     "accent": "blue",
+     "number": "02",
+     "eyebrow": "Customer trigger",
+     "footLabel": "Linkfields IP",
+     "footText": "Linkworks, Modernisation & Integration Toolkit, testoriumz, Release Assurance Packs",
+     "bullets": "Intended outcome – Validate migration readiness and release quality before critical cutovers.",
+     "href": "/solutions/modernisation-programme-assurance",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Regulated Cyber Readiness",
+     "description": "Regulated industries need continuous evidence, not point-in-time reports.",
+     "accent": "teal",
+     "number": "03",
+     "eyebrow": "Customer trigger",
+     "footLabel": "Linkfields IP",
+     "footText": "VajraX, Regulatory Readiness & Control Mapping",
+     "bullets": "Intended outcome – Maintain evidence of exposures, control gaps and remediation progress.",
+     "href": "/solutions/regulated-cyber-readiness",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Intelligent Operations",
+     "description": "Cost-to-serve pressure creates demand for process intelligence and automation.",
+     "accent": "purple",
+     "number": "04",
+     "eyebrow": "Customer trigger",
+     "footLabel": "Linkfields IP",
+     "footText": "Linkworks, Intelligent Workflow Automation Framework, testoriumz, Cyber-Safe Delivery",
+     "bullets": "Intended outcome – Reduce avoidable hand-offs and make process performance visible.",
+     "href": "/solutions/intelligent-operations",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Capability Centres with Embedded IP",
+     "description": "Organisations need scalable delivery capacity with stronger governance and automation.",
+     "accent": "yellow",
+     "number": "05",
+     "eyebrow": "Customer trigger",
+     "footLabel": "Linkfields IP",
+     "footText": "Linkworks, Delivery Governance, Quality Engineering IP, Cyber-Safe Delivery",
+     "bullets": "Intended outcome – Build governed delivery capacity with a clear path to capability transfer.",
+     "href": "/solutions/capability-centres-embedded-ip",
+     "linkLabel": "Explore this play"
+    }
+   ],
+   "description": "Choose the trigger closest to your priorities. Each play has its own delivery pattern, IP mapping and discussion route."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-architecture",
+   "eyebrow": "One integrated delivery architecture",
+   "heading": "What sits behind each play",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Specialist service portfolios",
+     "description": "The five portfolios provide engineering, platform, data, security and capability-centre expertise. Select the lead and supporting disciplines for the outcome.",
+     "accent": "blue",
+     "href": "/services",
+     "linkLabel": "Explore the five portfolios"
+    },
+    {
+     "title": "Linkfields software",
+     "description": "Proprietary products support specific parts of the solution: composable applications, continuous quality engineering and exposure validation.",
+     "accent": "orange",
+     "href": "/products-and-accelerators",
+     "linkLabel": "Explore products and accelerators"
+    },
+    {
+     "title": "Reusable delivery IP",
+     "description": "Modernisation, integration, regression, quality, security and governance accelerators are tailored to the scope and acceptance criteria.",
+     "accent": "teal",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    }
+   ],
+   "description": "Services deliver the change. Products provide software capabilities. Accelerators provide reusable delivery IP; the mix is agreed for the engagement.",
+   "noteLabel": "Example integrated delivery pattern",
+   "note": "For programme assurance, Digital Transformation leads custom application and integration work, Intelligent Enterprise Platforms connects the core migration, and Cyber Security validates release risks. Linkworks and testoriumz support the agreed engineering and assurance scope."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "engagement-models",
+   "eyebrow": "How we engage",
+   "heading": "Choose the commercial basis",
+   "variant": "compact",
+   "columns": 5,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Fixed Price",
+     "description": "Defined scope, milestones and acceptance criteria.",
+     "accent": "orange"
+    },
+    {
+     "title": "Time & Materials",
+     "description": "Evolving scope, transparent rates and delivery governance.",
+     "accent": "blue"
+    },
+    {
+     "title": "Managed Service",
+     "description": "Ongoing service, agreed SLAs and continuous improvement.",
+     "accent": "teal"
+    },
+    {
+     "title": "Dedicated Team",
+     "description": "Persistent squads aligned to your priorities and ways of working.",
+     "accent": "purple"
+    },
+    {
+     "title": "Outcome-Based",
+     "description": "Measurable outcomes, where the baseline and evidence can be agreed.",
+     "accent": "yellow"
+    }
+   ],
+   "description": "Buy a project, a managed outcome, a dedicated team or software on its own.",
+   "ctaLabel": "Compare commercial models",
+   "ctaUrl": "/services#engagement-models",
+   "noteLabel": "Independent software availability",
+   "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Product-specific terms and delivery scope are agreed separately."
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your business outcome",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

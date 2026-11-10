@@ -1,0 +1,88 @@
+{
+  "title": "Contact Linkfields",
+  "path": "/contact-us",
+  "seo": {
+    "metaTitle": "Contact us | Linkfields",
+    "metaDescription": "Contact Linkfields for enterprise technology projects, product demonstrations and licensing, or find the right route for general and careers enquiries.",
+    "keywords": "contact Linkfields, sales enquiries, product demos, general enquiries",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Contact Linkfields",
+      "subtitle": "One strategic partner across your transformation. Tell us about your business requirements and we will connect you with the relevant Linkfields team.",
+      "backgroundImage": {
+        "__media": "custom/hero-intelligent-enterprise.jpg",
+        "alt": "Contact Linkfields"
+      },
+      "anchorLinks": [
+        {
+          "label": "Enquiry Guidance",
+          "targetId": "enquiry-guidance"
+        },
+        {
+          "label": "Our offices",
+          "targetId": "our-offices"
+        },
+        {
+          "label": "Email Contacts",
+          "targetId": "contact-details"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "enquiry-guidance",
+      "eyebrow": "",
+      "heading": "Choose the right conversation",
+      "body": "For a services or project challenge, product demonstration or software licensing enquiry, contact our sales team. General enquiries go to info@linkfields.com; candidates should use the [Careers page](/careers) and recruitment email below.",
+      "theme": "dark",
+      "secondaryHeading": "Before sharing sensitive information",
+      "secondaryBody": "Describe your priorities, current environment and the outcome you need. If needed, we can agree an NDA before sharing sensitive information. Read our [Privacy policy](/privacy-policy) for information about personal data."
+    },
+    {
+      "__component": "sections.office-locations",
+      "anchorId": "our-offices",
+      "eyebrow": "Our offices",
+      "heading": "Six locations, *one accountable team*",
+      "description": "Headquartered in South Africa, with our Offshore Delivery Centre in India and offices serving the Middle East, Europe, North America and Asia Pacific. Select an office to see it on the map.",
+      "showMap": true
+    },
+    {
+      "__component": "company.contact-banner",
+      "anchorId": "contact-details",
+      "heading": "Prefer email? *Write to the right team.*",
+      "description": "Use the address that matches your enquiry so it reaches the right people first time.",
+      "contacts": [
+        {
+          "title": "Sales enquiries",
+          "email": "sales@linkfields.com"
+        },
+        {
+          "title": "General enquiries",
+          "email": "info@linkfields.com"
+        },
+        {
+          "title": "Careers",
+          "email": "careers@linkfields.com"
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your business challenge",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "page",
+      "theme": "dark"
+    }
+  ]
+}

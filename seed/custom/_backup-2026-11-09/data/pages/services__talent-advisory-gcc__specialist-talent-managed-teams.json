@@ -1,0 +1,209 @@
+{
+ "title": "Specialist talent & managed teams",
+ "path": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+ "seo": {
+  "metaTitle": "Specialist talent & managed teams Services | Linkfields Innovations",
+  "metaDescription": "On-demand experts across verticals and outcome-based delivery pods. Scale specialist capability through staff augmentation or managed teams.",
+  "keywords": "specialist talent, managed teams, delivery pods, staff augmentation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Specialist talent & managed teams",
+   "subtitle": "On-demand expertise. Outcome-based delivery pods.",
+   "backgroundImage": {
+    "__media": "s3/teams-banner.png",
+    "alt": "Specialist talent & managed teams"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Analysis and data-fuelled team building",
+   "body": "By studying and analysis team outputs, we identify the discrepancies and shortcomings, and their specific areas of emergence. This helps us figure out what skill-set needs to be added to the team.\n\nSpecialist talent brings on-demand experts across verticals into your organisation. Managed teams provide outcome-based delivery pods, with the skills and coordination needed to take work forward.",
+   "secondaryEyebrow": "THE RIGHT ENGAGEMENT",
+   "secondaryHeading": "Add expertise or delegate delivery",
+   "secondaryBody": "A flexible outsourcing process can bring specialists into your existing teams. For a defined delivery outcome, Linkfields can build and run a managed team aligned to your requirements.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Facilitating the expertise required for change",
+   "description": "",
+   "items": [],
+   "cards": [
+    {
+     "title": "Specialist talent",
+     "description": "On-demand experts across verticals, selected to complement the skills already in your organisation.",
+     "icon": {
+      "__media": "s3/people (1).png",
+      "alt": "Specialist talent"
+     }
+    },
+    {
+     "title": "Managed teams",
+     "description": "Outcome-based delivery pods we run end to end, with agreed responsibilities and reporting.",
+     "icon": {
+      "__media": "s3/Frame 402 (67).png",
+      "alt": "Managed teams"
+     }
+    },
+    {
+     "title": "Engineering expertise",
+     "description": "Supplement your in-house resources with engineering, testing and support experts.",
+     "icon": {
+      "__media": "s3/file-code-2.png",
+      "alt": "Engineering expertise"
+     }
+    },
+    {
+     "title": "Platform expertise",
+     "description": "Bring specialist support to enterprise applications and their surrounding systems.",
+     "icon": {
+      "__media": "s3/4 Hana.png",
+      "alt": "Platform expertise"
+     }
+    },
+    {
+     "title": "DevOps enablement",
+     "description": "Build, test, ship, run and monitor IT assets with the right delivery skills.",
+     "icon": {
+      "__media": "s3/Frame 403 (14).png",
+      "alt": "DevOps enablement"
+     }
+    },
+    {
+     "title": "Team alignment",
+     "description": "Balance skills, communication, objectives and performance to build productive teams.",
+     "icon": {
+      "__media": "s3/ranking (2).png",
+      "alt": "Team alignment"
+     }
+    }
+   ],
+   "cardLayout": "three"
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Bring the right expertise to your next challenge",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "From a capability gap to a productive team",
+   "description": "",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "image": null,
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Assess the requirement",
+     "description": "Study current team outputs, identify discrepancies and agree the skills and capacity needed to achieve business objectives."
+    },
+    {
+     "title": "Select the engagement",
+     "description": "Choose specialists embedded in your team or a managed delivery pod with ownership of agreed outcomes."
+    },
+    {
+     "title": "Build & onboard",
+     "description": "Select people whose skills match the requirement and establish access, working practices and communication."
+    },
+    {
+     "title": "Deliver & review",
+     "description": "Review progress, quality and performance together, adapting the team as priorities change."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "solutions.how-can-we-help",
+   "anchorId": "engagement-models",
+   "eyebrow": "ENGAGEMENT MODELS",
+   "heading": "Explore the engagement models",
+   "description": "Choose the balance of specialist support and delivery ownership that fits your organisation.",
+   "image": null,
+   "backgroundImage": {
+    "__media": "site/backgroud-images/how-can-we-help.jpg",
+    "alt": ""
+   },
+   "linkedCards": true,
+   "cards": [
+    {
+     "title": "Staff augmentation",
+     "description": "Specialists embedded in your teams, ready to start fast.",
+     "icon": {
+      "__media": "s3/people (1).png",
+      "alt": "Staff augmentation"
+     },
+     "href": "/services/talent-advisory-gcc/staff-augmentation",
+     "linkLabel": "Read more",
+     "color": ""
+    },
+    {
+     "title": "Managed teams",
+     "description": "Outcome-based delivery pods we run end to end.",
+     "icon": {
+      "__media": "s3/Frame 402 (67).png",
+      "alt": "Managed teams"
+     },
+     "href": "/services/talent-advisory-gcc/managed-teams",
+     "linkLabel": "Read more",
+     "color": ""
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

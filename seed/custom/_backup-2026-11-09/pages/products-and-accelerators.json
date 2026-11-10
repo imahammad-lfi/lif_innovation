@@ -1,0 +1,396 @@
+{
+ "title": "Products & Accelerators",
+ "path": "/products-and-accelerators",
+ "seo": {
+  "metaTitle": "Products & Accelerators | Linkfields Innovations",
+  "metaDescription": "Software we own and accelerators we reuse: Linkworks, testoriumz, textIQ, FinSight, EduPilot, VajraX, VectorX, AI Governance and five reusable delivery accelerators.",
+  "keywords": "Linkfields products, accelerators, Linkworks, testoriumz, textIQ, FinSight, EduPilot, VajraX, VectorX, AI Governance, predictive analytics, digital twin, workflow automation, Power BI",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Products & Accelerators",
+   "subtitle": "Software we own. Accelerators we reuse.",
+   "backgroundImage": {
+    "__media": "custom/hero-products-accelerators.jpg",
+    "alt": "Linkfields products and reusable accelerators"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "PROPRIETARY PRODUCTS",
+     "targetId": "proprietary-products"
+    },
+    {
+     "label": "REUSABLE ACCELERATORS",
+     "targetId": "reusable-accelerators"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Our own IP, built into every engagement",
+   "body": "Linkfields combines specialist services with software we own and delivery IP we reuse. Our proprietary products are licensed on their own or delivered with our services, across Digital Transformation, Intelligent Enterprise Platforms, Data & AI and Cyber Security.\n\nOur reusable accelerators are pre-built delivery IP: predictive models, digital twins, intelligent workflows, AI-enabled dashboards and delivery packs that shorten time to value on every project.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": ""
+  },
+  {
+   "__component": "products.product-portfolio",
+   "anchorId": "proprietary-products",
+   "eyebrow": "PROPRIETARY PRODUCTS",
+   "heading": "Software we own",
+   "description": "Licensed on their own or delivered with our services, by licence, subscription or SaaS.",
+   "categories": [
+    {
+     "anchorId": "digital-transformation",
+     "number": "01",
+     "title": "Digital Transformation",
+     "href": "/services/digital-transformation",
+     "accent": "orange",
+     "products": [
+      {
+       "name": "Linkworks",
+       "logo": {
+        "__media": "custom/logos/linkworks.png",
+        "alt": "Linkworks"
+       },
+       "tagline": "App modernisation",
+       "description": "Composable enterprise applications for complex business needs.",
+       "tags": "App Modernisation | Microservices | REST APIs | Composable UI | Cloud-Native Solutions | DevSecOps",
+       "href": "/products-and-accelerators/linkworks",
+       "linkLabel": "Explore Linkworks",
+       "openInNewTab": false
+      },
+      {
+       "name": "testoriumz",
+       "logo": {
+        "__media": "custom/logos/testoriumz.png",
+        "alt": "testoriumz"
+       },
+       "tagline": "Quality engineering",
+       "description": "Low-code testing, AI root-cause analysis and CI/CD integration.",
+       "tags": "",
+       "href": "/products-and-accelerators/testoriumz",
+       "linkLabel": "Explore testoriumz",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "anchorId": "intelligent-enterprise-platforms",
+     "number": "02",
+     "title": "Intelligent Enterprise Platforms",
+     "href": "/services/intelligent-enterprise-platforms",
+     "accent": "blue",
+     "products": [
+      {
+       "name": "Linkworks",
+       "logo": {
+        "__media": "custom/logos/linkworks.png",
+        "alt": "Linkworks"
+       },
+       "tagline": "Composable apps",
+       "description": "Microservices, REST APIs and widget UI where ERP/CRM does not fit.",
+       "tags": "",
+       "href": "/products-and-accelerators/linkworks",
+       "linkLabel": "Explore Linkworks",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "anchorId": "data-ai",
+     "number": "03",
+     "title": "Data & AI",
+     "href": "/services/data-ai",
+     "accent": "purple",
+     "products": [
+      {
+       "name": "textIQ",
+       "logo": {
+        "__media": "custom/logos/textiq.png",
+        "alt": "textIQ"
+       },
+       "tagline": "Document intelligence",
+       "description": "Intelligent search and document intelligence.",
+       "tags": "",
+       "href": "/products-and-accelerators/textiq",
+       "linkLabel": "Explore textIQ",
+       "openInNewTab": false
+      },
+      {
+       "name": "FinSight",
+       "logo": {
+        "__media": "custom/logos/finsight.png",
+        "alt": "FinSight"
+       },
+       "tagline": "Financial insights",
+       "description": "Financial insight and reporting analytics over banking data.",
+       "tags": "",
+       "href": "/products-and-accelerators/finsight",
+       "linkLabel": "Explore FinSight",
+       "openInNewTab": false
+      },
+      {
+       "name": "EduPilot",
+       "logo": {
+        "__media": "custom/logos/edupilot.png",
+        "alt": "EduPilot"
+       },
+       "tagline": "Instant course creation",
+       "description": "Education AI grounded in your institution's material.",
+       "tags": "",
+       "href": "/products-and-accelerators/edupilot",
+       "linkLabel": "Explore EduPilot",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "anchorId": "cyber-security",
+     "number": "04",
+     "title": "Cyber Security",
+     "href": "/services/cyber-security",
+     "accent": "teal",
+     "products": [
+      {
+       "name": "VajraX",
+       "logo": {
+        "__media": "custom/logos/vajrax.png",
+        "alt": "VajraX"
+       },
+       "tagline": "Exposure validation",
+       "description": "AI-powered exposure validation of your external attack surface.",
+       "tags": "",
+       "href": "/products-and-accelerators/vajrax",
+       "linkLabel": "Explore VajraX",
+       "openInNewTab": false
+      },
+      {
+       "name": "VectorX",
+       "logo": {
+        "__media": "custom/logos/vectorx.png",
+        "alt": "VectorX"
+       },
+       "tagline": "Supply-chain security",
+       "description": "Code scanning and supply-chain analysis, repo to release.",
+       "tags": "",
+       "href": "/products-and-accelerators/vectorx",
+       "linkLabel": "Explore VectorX",
+       "openInNewTab": false
+      },
+      {
+       "name": "AI Governance",
+       "logo": {
+        "__media": "custom/logos/ai-governance.png",
+        "alt": "AI Governance"
+       },
+       "tagline": "AI gateway & guardrails",
+       "description": "One gateway for every AI tool.",
+       "tags": "",
+       "href": "/products-and-accelerators/ai-governance",
+       "linkLabel": "Explore AI Governance",
+       "openInNewTab": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "__component": "products.accelerator-grid",
+   "anchorId": "reusable-accelerators",
+   "eyebrow": "REUSABLE ACCELERATORS",
+   "heading": "Accelerators we reuse",
+   "description": "Pre-built delivery IP that shortens time to value.",
+   "ctaLabel": "",
+   "ctaUrl": "",
+   "items": [
+    {
+     "label": "Data & AI",
+     "title": "Predictive Analytics Suite",
+     "description": "Ready-made models that turn customer and transaction data into decisions.",
+     "icon": {
+      "__media": "custom/icons/acc-predictive-analytics.svg",
+      "alt": ""
+     },
+     "accent": "purple",
+     "features": [
+      {
+       "title": "Churn & segmentation",
+       "description": ""
+      },
+      {
+       "title": "Demand forecasting",
+       "description": ""
+      },
+      {
+       "title": "Fraud & anomaly detection",
+       "description": ""
+      },
+      {
+       "title": "Loan default prediction",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Simulation",
+     "title": "Digital Twin Suite",
+     "description": "Virtual models of assets and operations to predict, simulate and optimise.",
+     "icon": {
+      "__media": "custom/icons/acc-digital-twin.svg",
+      "alt": ""
+     },
+     "accent": "teal",
+     "features": [
+      {
+       "title": "Equipment failure prediction",
+       "description": ""
+      },
+      {
+       "title": "Forecasting simulation",
+       "description": ""
+      },
+      {
+       "title": "Inventory optimisation",
+       "description": ""
+      },
+      {
+       "title": "Real-time monitoring",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Enterprise AI",
+     "title": "Intelligent Workflow Automation",
+     "description": "AI-orchestrated workflows that connect people, systems and decisions.",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": ""
+     },
+     "accent": "orange",
+     "features": [
+      {
+       "title": "Workflow automation",
+       "description": ""
+      },
+      {
+       "title": "AI orchestration",
+       "description": ""
+      },
+      {
+       "title": "Application integration",
+       "description": ""
+      },
+      {
+       "title": "Underwriting optimisation",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Analytics",
+     "title": "Power BI + AI/ML",
+     "description": "Machine learning brought into the Power BI reports your teams already use.",
+     "icon": {
+      "__media": "custom/icons/acc-powerbi-ai.svg",
+      "alt": ""
+     },
+     "accent": "blue",
+     "features": [
+      {
+       "title": "AI/ML in Power BI",
+       "description": ""
+      },
+      {
+       "title": "Predictive dashboards",
+       "description": ""
+      },
+      {
+       "title": "Risk scoring visuals",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/power-bi-ai-ml",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Portfolio IP",
+     "title": "Delivery accelerators",
+     "description": "Proven packs and playbooks that de-risk every stage of delivery.",
+     "icon": {
+      "__media": "custom/icons/acc-delivery.svg",
+      "alt": ""
+     },
+     "accent": "yellow",
+     "features": [
+      {
+       "title": "Modernisation & Integration",
+       "description": ""
+      },
+      {
+       "title": "Migration & regression packs",
+       "description": ""
+      },
+      {
+       "title": "Automated Testing & Release Assurance",
+       "description": ""
+      },
+      {
+       "title": "Cyber-Safe Delivery",
+       "description": ""
+      },
+      {
+       "title": "Regulatory & Compliance Readiness",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore accelerator"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Find the right product or accelerator for your organisation",
+   "description": "Licence, subscription or SaaS, with or without a Linkfields services engagement.",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

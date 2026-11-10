@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_company_office_presence",
+  "info": {
+    "displayName": "Office presence",
+    "icon": "pinMap",
+    "description": "Global map and editable office contact cards"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "text" },
+    "mapImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos"]
+    },
+    "offices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.company-office-card"
+    }
+  }
+}

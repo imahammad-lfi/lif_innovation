@@ -1,0 +1,223 @@
+{
+ "title": "Cloud Migration",
+ "path": "/services/cloud/cloud-migration",
+ "seo": {
+  "metaTitle": "Cloud Migration | Linkfields Innovations",
+  "metaDescription": "Cloud Migration | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cloud Migration",
+   "subtitle": "Migrate to the Cloud",
+   "backgroundImage": {
+    "__media": "s3/cloud-migration.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Cloud Migration"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Moving to a cloud-based infrastructure",
+   "body": "Providing expert insights and support to organizations in moving their data center capabilities to the cloud.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "how-can-we-help",
+   "eyebrow": "HOW CAN WE HELP",
+   "heading": "Providing direction to your cloud journey",
+   "description": "",
+   "items": [
+    {
+     "title": "",
+     "description": "Building roadmaps & strategies with operational support to ensure a smooth transition during cloud re-architecting, re-platforming for databases & applications."
+    },
+    {
+     "title": "",
+     "description": "24/7 guidance and tech support throughout the migration process"
+    },
+    {
+     "title": "",
+     "description": "Preparing and planning by addressing migration requirements and infrastructure needs to minimize error"
+    }
+   ],
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/scroll (1).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Technology strategy/ IT roadmap"
+     },
+     "title": "Technology strategy/ IT roadmap",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/ranking (2).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Enterprise and solutions architecture"
+     },
+     "title": "Enterprise and solutions architecture",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/cloud-add (1).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Cloud advisory"
+     },
+     "title": "Cloud advisory",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/flash (1).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Emerging and digital transformations"
+     },
+     "title": "Emerging and digital transformations",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/people (1).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Systems advisory"
+     },
+     "title": "Systems advisory",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/share (1).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "IT/OT integration"
+     },
+     "title": "IT/OT integration",
+     "description": ""
+    }
+   ],
+   "cardLayout": "two"
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Achieve 5mn+ daily digital journeys with us",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "Helping businesses become future-ready",
+   "description": "While the cloud is an extremely innovative business platform, it is always best to be educated on its advantages and features to judge how you can make use of the cloud’s features and advantages. This involves considering the aforementioned benefits and constructing a carefully-designed cloud migration strategy.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "image": {
+    "__media": "s3/Frame 393.png",
+    "width": 1787,
+    "height": 509,
+    "mime": "image/png",
+    "alt": "Helping businesses become future-ready"
+   },
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Define Strategy",
+     "description": "We spell out and establish customized cloud strategies for each business based on their specific business goals, workload priorities, and migration triggers."
+    },
+    {
+     "title": "Assess current infrastructure",
+     "description": "By assessing your non-cloud environments, we identify each element of your infrastructure to create a detailed inventory."
+    },
+    {
+     "title": "Plan Migration",
+     "description": "Once we get a clear view of your current infrastructure, we build a holistic migration plan based on your workload priorities, timelines, milestones, resources, and budget."
+    },
+    {
+     "title": "Ready your organization",
+     "description": "Considering the intricacy of the plan, we assist and inform your IT & App Development teams about cloud technologies, migration tools, and operational processes, to ensure effortless transitioning."
+    },
+    {
+     "title": "Implement migration",
+     "description": "Your workloads are migrated to the cloud environment in waves as per the chosen migration strategy."
+    },
+    {
+     "title": "Secure and manage",
+     "description": "Once the migration is complete, we help you secure and manage your workloads across all cloud environments."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

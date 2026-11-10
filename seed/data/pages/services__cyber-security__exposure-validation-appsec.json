@@ -1,0 +1,266 @@
+{
+ "title": "Exposure validation & AppSec",
+ "path": "/services/cyber-security/exposure-validation-appsec",
+ "seo": {
+  "metaTitle": "Exposure validation & AppSec | Linkfields",
+  "metaDescription": "Exposure validation and AppSec services help prioritise external, code and supply-chain risks, with authorised testing and evidence for release decisions.",
+  "keywords": "exposure validation, AppSec, VajraX, VectorX, code scanning, supply-chain analysis, exposure validation and AppSec services, application security testing services, web application penetration testing, API security testing, software supply chain security assessment, external attack surface validation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Exposure validation & AppSec",
+   "subtitle": "Use VajraX for external exposure, VectorX from repo to release and specialist testing to verify remediation.",
+   "backgroundImage": {
+    "__media": "custom/hero-appsec.jpg",
+    "alt": "Exposure validation & AppSec concept illustration"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Verified Closure",
+     "targetId": "verified-closure"
+    },
+    {
+     "label": "Release Assurance",
+     "targetId": "release-assurance"
+    },
+    {
+     "label": "Buyer Questions",
+     "targetId": "buyer-questions"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Exposure validation and application security assurance",
+   "body": "Use two distinct assessment lanes: authorised external assets for exposure validation, and scoped repositories and dependencies for code and supply-chain analysis. VajraX and VectorX support those lanes; specialist testing turns findings into prioritised remediation and retest evidence.\n\nThis service covers web applications, APIs, repositories and software supply chains. [AI security & GRC](/services/cyber-security/ai-security-grc) covers AI and LLM risk testing and controls. Connect security findings with [Quality engineering](/services/digital-transformation/quality-engineering) when release quality and security gates need one assurance scope.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "WHAT WE DELIVER",
+   "heading": "Products and specialist services, clearly separated",
+   "description": "Agree assets, repositories, test limits and supported checks before work. Product access does not automatically include specialist assessment or remediation.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "VajraX",
+     "description": "AI-powered exposure validation of the external attack surface within authorised scope.",
+     "accent": "teal",
+     "logo": {
+      "__media": "custom/logos/vajrax.png",
+      "alt": "VajraX product wordmark"
+     },
+     "eyebrow": "LINKFIELDS PRODUCT",
+     "bullets": "External asset and exposure findings\nValidation status and testing limits",
+     "href": "/products-and-accelerators/vajrax",
+     "linkLabel": "Explore VajraX"
+    },
+    {
+     "title": "VectorX",
+     "description": "Code scanning and supply-chain analysis, repo to release.",
+     "accent": "teal",
+     "logo": {
+      "__media": "custom/logos/vectorx.png",
+      "alt": "VectorX product wordmark"
+     },
+     "eyebrow": "LINKFIELDS PRODUCT",
+     "bullets": "Scoped repository/dependency findings\nCoverage and limitations recorded",
+     "href": "/products-and-accelerators/vectorx",
+     "linkLabel": "Explore VectorX"
+    },
+    {
+     "title": "Web & API offensive testing",
+     "description": "Test agreed application scenarios under signed rules of engagement.",
+     "accent": "teal",
+     "eyebrow": "SPECIALIST SERVICE",
+     "bullets": "Finding pack with supporting evidence\nSeverity, false-positive and exclusion record"
+    },
+    {
+     "title": "Release assurance & retesting",
+     "description": "Connect findings with risk owners and release decisions, then check approved changes.",
+     "accent": "teal",
+     "eyebrow": "SPECIALIST SERVICE",
+     "bullets": "Risk/owner/gate decisions\nRemediation verification and retest record",
+     "href": "/services/digital-transformation/quality-engineering",
+     "linkLabel": "Explore quality engineering"
+    }
+   ],
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "#get-in-touch"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "verified-closure",
+   "eyebrow": "DELIVERY APPROACH",
+   "heading": "From discovery to verified closure",
+   "description": "Example engagement pattern: external assets feed the VajraX assessment lane; repositories and dependencies feed the VectorX lane. Specialist review brings findings together to prioritise remediation and agree retest criteria.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Authorise agreed scope",
+     "description": "Agree asset and repository coverage, test limits, safe testing rules and exclusions.",
+     "accent": "teal",
+     "number": "01",
+     "bullets": "Signed rules of engagement\nAuthorised asset/repository scope"
+    },
+    {
+     "title": "Validate findings",
+     "description": "Review exposure and code findings in context; distinguish scan results from authorised validation.",
+     "accent": "teal",
+     "number": "02",
+     "bullets": "Finding evidence and validation status\nFalse-positive handling and limitations"
+    },
+    {
+     "title": "Approve remediation",
+     "description": "Agree severity, accountable owners and release-gate decisions before changes.",
+     "accent": "teal",
+     "number": "03",
+     "bullets": "Risk-ranked owner/action plan\nApproved change and acceptance criteria"
+    },
+    {
+     "title": "Retest for closure",
+     "description": "Check the approved change against the original finding and record any residual risk.",
+     "accent": "teal",
+     "number": "04",
+     "bullets": "Dated retest and closure evidence\nResidual exceptions and release decision"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "release-assurance",
+   "eyebrow": "ASSURANCE ROUTES",
+   "heading": "Connect security to delivery assurance",
+   "description": "Choose the reusable delivery IP that fits your release or regulatory requirements, connecting assessment findings with agreed gates and evidence.",
+   "variant": "compact",
+   "columns": 2,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Cyber-Safe Delivery",
+     "description": "Connect security checks and remediation evidence with engineering and release acceptance.",
+     "accent": "teal",
+     "eyebrow": "DELIVERY ACCELERATOR",
+     "bullets": "Agreed quality and security gates\nFinding ownership and retest criteria",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    },
+    {
+     "title": "Regulatory Readiness & Control Mapping",
+     "description": "Map agreed control requirements to exposure findings, owners and remediation evidence.",
+     "accent": "teal",
+     "eyebrow": "DELIVERY ACCELERATOR",
+     "bullets": "Requirement-control-finding links\nEvidence and review responsibilities",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    }
+   ],
+   "ctaLabel": "Explore AI Code Assurance",
+   "ctaUrl": "/solutions/ai-code-assurance",
+   "noteLabel": "Related value play",
+   "note": "AI Code Assurance combines quality and security gates across CI/CD for AI-written change. Regulated Cyber Readiness connects exposure validation, control mapping and remediation evidence.",
+   "logosLabel": "Relevant value plays",
+   "logos": [
+    {
+     "label": "AI Code Assurance",
+     "href": "/solutions/ai-code-assurance",
+     "openInNewTab": false
+    },
+    {
+     "label": "Regulated Cyber Readiness",
+     "href": "/solutions/regulated-cyber-readiness",
+     "openInNewTab": false
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "testing-governance",
+   "eyebrow": "SECURE BY DESIGN",
+   "heading": "Authorised testing and reviewable release evidence",
+   "description": "Do not assume every finding is exploitable or every language, pipeline or integration is supported. Agree coverage and validation depth at the start.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Method and testing limits",
+     "description": "Confirm applicable OWASP web/API or ASVS checks, supply-chain and SBOM scope before assessment.",
+     "accent": "teal",
+     "bullets": "Safe test rules and exclusions\nAgreed severity and validation method"
+    },
+    {
+     "title": "Source and finding safeguards",
+     "description": "Agree repository access, handling of source code and vulnerability evidence, secure transfer and retention.",
+     "accent": "teal",
+     "bullets": "Authorised access and processing locations\nPersonal-data handling and legal scope"
+    },
+    {
+     "title": "Finding-to-retest record",
+     "description": "Record test date, scope, finding evidence, validation status, owner, approved fix and retest result.",
+     "accent": "teal",
+     "bullets": "Traceable acceptance and release decision\nResidual risk and remediation exclusions"
+    }
+   ]
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "BUYER QUESTIONS",
+   "heading": "Choose an assessment or product walkthrough",
+   "description": "Before your next release, discuss an assessment, product walkthrough or ongoing validation. Do not include credentials, source code or vulnerability details in an enquiry.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "How does product access differ from services?",
+     "description": "VajraX and VectorX are available by licence, subscription or SaaS, with or without Linkfields services. A specialist engagement separately agrees testing, validation, remediation and retest responsibilities; software access alone does not establish verified closure."
+    },
+    {
+     "title": "Which repositories and integrations are supported?",
+     "description": "Confirm languages, repositories, dependency checks, CI/CD and ticketing integrations in the product walkthrough and assessment scope. The two-lane workflow describes an engagement pattern, not automatic interoperability between products."
+    },
+    {
+     "title": "What evidence supports a release decision?",
+     "description": "The authorised scope and test date, finding and validation status, severity method, owner decisions, approved remediation, retest outcome and residual exceptions. Agree quality and security acceptance with engineering and risk owners."
+    },
+    {
+     "title": "How do we engage securely?",
+     "description": "Fixed Price suits a defined assessment; Time & Materials suits evolving discovery. Ongoing validation can use an agreed Managed Service scope; Outcome-Based commercials require measurable, evidenced acceptance. We can agree an NDA and secure exchange before confidential review; read our [privacy policy](/privacy-policy) before enquiring."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Scope your exposure and AppSec assessment",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

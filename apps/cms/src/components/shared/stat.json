@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_stat",
+  "info": {
+    "displayName": "Statistic",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "suffix": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

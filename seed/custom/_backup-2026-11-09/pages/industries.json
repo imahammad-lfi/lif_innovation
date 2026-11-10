@@ -1,0 +1,71 @@
+{
+  "title": "Industries",
+  "path": "/industries",
+  "seo": {
+    "metaTitle": "Industries | Linkfields Innovations",
+    "metaDescription": "Telecom, BFSI, healthcare & pharma, retail, FMCG & CPG, manufacturing, energy & mining, public sector and education: outcomes tailored to each industry.",
+    "keywords": "industries, telecom, BFSI, healthcare, pharma, retail, FMCG, CPG, manufacturing, energy, mining, public sector, education, digital transformation",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Industries",
+      "subtitle": "Digital innovation, intelligent automation and Data & AI, with outcomes tailored to each industry we serve.",
+      "backgroundImage": {
+        "__media": "custom/hero-industries.jpg",
+        "alt": "Industries we serve"
+      },
+      "anchorLinks": [
+        {
+          "label": "WHO WE SERVE",
+          "targetId": "industries"
+        },
+        {
+          "label": "INSIGHTS",
+          "targetId": "insights"
+        },
+        {
+          "label": "GET IN TOUCH",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.industries-grid",
+      "anchorId": "industries",
+      "items": [],
+      "cta": null
+    },
+    {
+      "__component": "sections.message-banner",
+      "anchorId": "",
+      "title": "We are listeners and leaders. Working together to take tomorrow’s challenges",
+      "description": "",
+      "ctaLabel": "Talk to us",
+      "ctaUrl": "/contact-us"
+    },
+    {
+      "__component": "sections.featured-insights",
+      "anchorId": "insights",
+      "heading": "",
+      "items": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "",
+      "subheading": "",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.social-banner",
+      "heading": "",
+      "links": []
+    }
+  ]
+}

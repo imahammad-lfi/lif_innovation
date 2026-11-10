@@ -1,0 +1,263 @@
+{
+ "title": "Retail, FMCG & CPG",
+ "path": "/industries/retail-fmcg-cpg",
+ "seo": {
+  "metaTitle": "Retail, FMCG & CPG Technology Services | Linkfields",
+  "metaDescription": "Connect demand, inventory and customer journeys with retail technology services, governed forecasting and integrated platforms from Linkfields.",
+  "keywords": "retail, FMCG, CPG, demand forecasting, inventory, distributor connectivity, retail technology services, FMCG technology services, CPG digital transformation, retail demand forecasting, retail inventory optimisation, ERP CRM integration for retail",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Retail, FMCG & CPG",
+   "subtitle": "Connect demand, inventory and customer journeys across retail and consumer goods.",
+   "backgroundImage": {
+    "__media": "s3/FMCG BG.jpg",
+    "alt": "Retail, FMCG & CPG service and operations context"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Software & Accelerators",
+     "targetId": "software-accelerators"
+    },
+    {
+     "label": "Delivery Approach",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Industry overview",
+   "heading": "Retail technology services for connected operations",
+   "body": "Retailers and fast-moving consumer goods (FMCG) and consumer packaged goods (CPG) businesses need to connect demand with stock, fulfilment and customer engagement. Retailers focus on connected shopping and service channels; brands and distributors also need coordinated partner orders, inventory and supply information.\n\nLinkfields combines application and platform integration, governed forecasting and workflow automation with proprietary software and reusable accelerators. Planning and service owners remain accountable for decisions, with consent and customer-data controls built into engagement workflows.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "portfolio-map",
+   "eyebrow": "Integrated capabilities",
+   "heading": "Five portfolios, *one delivery plan*",
+   "description": "Select the capabilities your workflow needs, with security embedded across engineering and delivery.",
+   "variant": "compact",
+   "columns": 5,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Digital Transformation",
+     "description": "Connect commerce applications, service channels and order workflows.",
+     "accent": "orange",
+     "number": "01",
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Integrate ERP, CRM, inventory and retailer/distributor portals.",
+     "accent": "blue",
+     "number": "02",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Data & AI",
+     "description": "Govern demand forecasting, planning data and operational analytics.",
+     "accent": "purple",
+     "number": "03",
+     "href": "/services/data-ai",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Cyber Security",
+     "description": "Define customer-data access, identity and application security controls.",
+     "accent": "teal",
+     "number": "04",
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Talent Advisory & GCC",
+     "description": "Scope change priorities and add specialist or managed engineering capacity.",
+     "accent": "yellow",
+     "number": "05",
+     "href": "/services/talent-advisory-gcc",
+     "linkLabel": "Explore portfolio"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "",
+   "heading": "What we deliver",
+   "description": "Agree input systems, accountable decision owners and acceptance measures. Evaluate forecasting and customer engagement against agreed operational baselines.",
+   "variant": "default",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Demand and replenishment planning",
+     "description": "Sales history, stock and promotional signals need a consistent basis for planning.",
+     "accent": "purple",
+     "bullets": "Workflow – Prepare demand data and evaluate forecasting models for replenishment review.\nControl – Planners approve actions; agree evaluation periods and model/data-quality checks.",
+     "footLabel": "Measure to agree",
+     "footText": "Forecast error, planning rework and replenishment decisions.",
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "Explore predictive analytics"
+    },
+    {
+     "title": "Inventory and fulfilment exceptions",
+     "description": "Inventory, warehouse and order records can diverge across fulfilment channels.",
+     "accent": "blue",
+     "bullets": "Workflow – Connect stock movement and order status; model inventory scenarios where data supports them.\nControl – Supply teams own exceptions and validate simulation assumptions.",
+     "footLabel": "Measure to agree",
+     "footText": "Stock reconciliation, fulfilment exceptions and resolution time.",
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "linkLabel": "Explore Digital Twin Suite"
+    },
+    {
+     "title": "Retailer and distributor order connectivity",
+     "description": "Partner orders and invoices often cross applications with different owners and formats.",
+     "accent": "orange",
+     "bullets": "Workflow – Connect portals, ERP and order/invoice workflows, with shared status and exception queues.\nControl – Sales and operations owners approve adjustments; agree partner access boundaries.",
+     "footLabel": "Measure to agree",
+     "footText": "Order completeness, invoice rework and exception age.",
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "CRM-led commerce and service journeys",
+     "description": "Shopping, marketing and assisted service need consistent customer and order context.",
+     "accent": "teal",
+     "bullets": "Workflow – Connect commerce, CRM and service hand-offs using approved engagement rules.\nControl – Commercial owners approve campaigns; respect consent, data rights and escalation.",
+     "footLabel": "Measure to agree",
+     "footText": "Hand-off completion, repeat contacts and journey completion.",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore enterprise platforms"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "software-accelerators",
+   "eyebrow": "",
+   "heading": "Software and accelerators for demand and fulfilment",
+   "description": "Match software and accelerators to your workflow and data requirements. Linkworks is available by licence, subscription or SaaS, with or without services.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Linkworks",
+     "description": "Composable commerce and partner applications, with APIs and UI components where ERP or CRM does not fit.",
+     "accent": "orange",
+     "eyebrow": "Product",
+     "logo": {
+      "__media": "custom/logos/linkworks.png",
+      "alt": "Linkworks logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "Predictive Analytics Suite",
+     "description": "Reusable demand-forecasting capability tailored to available sales, stock and demand data.",
+     "accent": "purple",
+     "eyebrow": "Accelerator",
+     "icon": {
+      "__media": "custom/icons/acc-predictive-analytics.svg",
+      "alt": "Predictive Analytics Suite icon"
+     },
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "title": "Digital Twin Suite",
+     "description": "Inventory optimisation and forecasting simulation capability, subject to data readiness and validated assumptions.",
+     "accent": "blue",
+     "eyebrow": "Accelerator",
+     "icon": {
+      "__media": "custom/icons/acc-digital-twin.svg",
+      "alt": "Digital Twin Suite icon"
+     },
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "title": "Intelligent Workflow Automation",
+     "description": "Reusable order and invoice routing, approvals and application integration, tailored to partner and operations controls.",
+     "accent": "orange",
+     "eyebrow": "Accelerator",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": "Intelligent Workflow Automation icon"
+     },
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore accelerator"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-approach",
+   "eyebrow": "Delivery approach",
+   "heading": "Where do demand, stock and journeys disconnect?",
+   "description": "Use this example engagement pattern to scope a workflow, agree delivery controls and define acceptance measures before implementation.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Frame the workflow",
+     "description": "Start with one planning, fulfilment, partner-order or customer-service constraint and its owner.",
+     "accent": "orange",
+     "bullets": "Inputs – channel/SKU scope, systems and permitted sales/stock history\nOutput – workflow, data dependencies and decision map",
+     "number": "01"
+    },
+    {
+     "title": "Design controlled change",
+     "description": "Agree customer-data consent, partner access, forecast evaluation and exception ownership before deployment.",
+     "accent": "teal",
+     "bullets": "Artefacts – interface map, access matrix and review checkpoints\nQuality gate – agreed tests and exception handling",
+     "number": "02"
+    },
+    {
+     "title": "Agree acceptance and operation",
+     "description": "Define baseline, evaluation period and operational measures. Separate technology contribution from promotions and pricing when assessing commercial change.",
+     "accent": "blue",
+     "bullets": "Artefacts – acceptance measures, release evidence and ownership plan\nCommercial model – project, managed service or dedicated team",
+     "number": "03",
+     "href": "/company/our-approach",
+     "linkLabel": "Explore our approach"
+    }
+   ],
+   "noteLabel": "Before we begin",
+   "note": "We can agree an NDA before sharing confidential information. Share the process and systems involved, not customer records or confidential trading data."
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Talk to us about retail and consumer-goods priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

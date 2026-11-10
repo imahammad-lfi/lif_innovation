@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_elements_location",
+  "info": {
+    "displayName": "Location",
+    "icon": "pinMap",
+    "description": "Office / market location on the world map"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "decimal"
+    },
+    "lng": {
+      "type": "decimal"
+    },
+    "hq": {
+      "type": "boolean",
+      "default": false
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": [
+        "orange",
+        "blue",
+        "purple",
+        "teal",
+        "yellow"
+      ]
+    }
+  }
+}

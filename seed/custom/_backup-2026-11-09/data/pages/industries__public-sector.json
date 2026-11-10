@@ -1,0 +1,203 @@
+{
+ "title": "Public Sector",
+ "path": "/industries/public-sector",
+ "seo": {
+  "metaTitle": "Public Sector | Linkfields Innovations",
+  "metaDescription": "Modernise citizen services and agency operations with secure digital government platforms, intelligent automation and governed Data & AI.",
+  "keywords": "public sector, citizen services, digital government, secure data, automation, public service modernisation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Public Sector",
+   "subtitle": "Modernise public services with secure digital innovation, intelligent automation and Data & AI for citizens and agencies.",
+   "backgroundImage": {
+    "__media": "custom/hero-public-sector.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Public Sector"
+   },
+   "anchorLinks": [
+    {
+     "label": "INDUSTRY OVERVIEW",
+     "targetId": "industry-overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR SPECIALIZATION",
+     "targetId": "our-specialization"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "industry-overview",
+   "eyebrow": "INDUSTRY OVERVIEW",
+   "heading": "Public services designed around people",
+   "body": "Citizens need clear, accessible routes to public services. Agencies need connected systems, reliable information and accountable workflows to respond. Modernisation should simplify both sides of that journey while protecting sensitive data.\n\nLinkfields brings application modernisation, integration, automation and Data & AI into public service delivery. We help connect citizen channels with agency operations, strengthen digital foundations and make service information easier to use for planning and oversight.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "industries.building-tools",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Connected services. Accountable operations.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/buildingsTools.jpg",
+    "width": 1920,
+    "height": 773,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "tools": [
+    {
+     "title": "Citizen services",
+     "description": "Connect enquiries, applications and status updates across digital channels, with clear hand-offs to agency teams.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/whatsapp-omnichannel"
+    },
+    {
+     "title": "Digital government",
+     "description": "Modernise legacy applications and design accessible digital workflows that connect public services with agency operations.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/app-modernisation"
+    },
+    {
+     "title": "Secure data",
+     "description": "Design identity and access controls around citizen information, connected applications and cloud environments.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/cyber-security/cloud-security-iam"
+    },
+    {
+     "title": "Automation",
+     "description": "Automate document routing, routine checks and approvals, with staff oversight and clear handling of exceptions.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/digital-transformation/automation-rpa"
+    },
+    {
+     "title": "Data & AI",
+     "description": "Build governed data platforms and analytics to understand service demand, case progress and resource needs.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/data-ai"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Connect finance, procurement and operational workflows with enterprise platforms aligned to agency needs.",
+     "actionLabel": "Read more",
+     "actionUrl": "/services/intelligent-enterprise-platforms"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "We are listeners and leaders. Working together to make public services clearer, connected and secure.",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "industries.specialization-list",
+   "anchorId": "our-specialization",
+   "heading": "Our specialisation",
+   "backgroundImage": {
+    "__media": "site/images/Industries S bg.png",
+    "width": 2560,
+    "height": 1385,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "items": [
+    {
+     "title": "Citizen service portals",
+     "description": "Design accessible self-service journeys for enquiries, applications and progress updates, connected to the teams handling each request.",
+     "image": {
+      "__media": "custom/hero-public-sector.jpg",
+      "width": 1920,
+      "height": 512,
+      "mime": "image/jpeg",
+      "alt": "Digital public services"
+     }
+    },
+    {
+     "title": "Case and document workflows",
+     "description": "Connect records, document routing and approvals so agencies can manage cases with clear ownership and traceable progress.",
+     "image": {
+      "__media": "s3/Digital Document Management.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Digital document and records management"
+     }
+    },
+    {
+     "title": "Agency system integration",
+     "description": "Use APIs and integration to connect legacy and modern applications, with defined access and data-sharing controls.",
+     "image": {
+      "__media": "s3/Software solutions for banking.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Software and application integration"
+     }
+    },
+    {
+     "title": "Service planning analytics",
+     "description": "Bring service demand, case volumes and operational data into dashboards that support resource planning and public service oversight.",
+     "image": {
+      "__media": "s3/Data-Driven Decision Making.png",
+      "width": 2560,
+      "height": 1042,
+      "mime": "image/png",
+      "alt": "Data-led service planning"
+     }
+    },
+    {
+     "title": "Identity and access governance",
+     "description": "Align identity, access reviews and security monitoring with the sensitivity of citizen data and the roles of agency staff.",
+     "image": {
+      "__media": "s3/Compliance Automation.png",
+      "width": 6880,
+      "height": 2800,
+      "mime": "image/png",
+      "alt": "Information governance and access controls"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

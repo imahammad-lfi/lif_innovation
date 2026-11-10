@@ -1,0 +1,76 @@
+{
+  "collectionName": "components_elements_feature_tile",
+  "info": {
+    "displayName": "Feature tile",
+    "icon": "apps",
+    "description": "Unified tile: number/icon/logo, eyebrow, title, tagline, text, bullets (one per line, 'Title \u2013 detail'), logo links, footnote, link"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tagline": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bullets": {
+      "type": "text"
+    },
+    "groupLabel": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "footLabel": {
+      "type": "string"
+    },
+    "footText": {
+      "type": "text"
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": [
+        "orange",
+        "blue",
+        "purple",
+        "teal",
+        "yellow"
+      ]
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+ "title": "Careers",
+ "path": "/careers",
+ "seo": {
+  "metaTitle": "Careers",
+  "metaDescription": "Careers | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "company.career-slider",
+   "anchorId": "careers",
+   "heading": "Be part of a world-leading innovative team",
+   "ctaLabel": "Find Jobs",
+   "ctaHref": "https://www.ditto.jobs/company-profile?id=987835090",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/careerspagebg.png",
+    "width": 1920,
+    "height": 1271,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "images": [
+    {
+     "__media": "s3/UTS-143.png",
+     "width": 2316,
+     "height": 1644,
+     "mime": "image/png",
+     "alt": ""
+    },
+    {
+     "__media": "s3/image (3).jpeg",
+     "width": 2560,
+     "height": 1440,
+     "mime": "image/jpeg",
+     "alt": ""
+    },
+    {
+     "__media": "s3/image (4).jpeg",
+     "width": 2560,
+     "height": 1593,
+     "mime": "image/jpeg",
+     "alt": ""
+    },
+    {
+     "__media": "s3/image (5).jpeg",
+     "width": 2560,
+     "height": 1469,
+     "mime": "image/jpeg",
+     "alt": ""
+    },
+    {
+     "__media": "s3/image (2).jpeg",
+     "width": 2560,
+     "height": 1641,
+     "mime": "image/jpeg",
+     "alt": ""
+    },
+    {
+     "__media": "s3/image (6).jpeg",
+     "width": 2560,
+     "height": 1707,
+     "mime": "image/jpeg",
+     "alt": ""
+    }
+   ]
+  },
+  {
+   "__component": "company.media-story",
+   "anchorId": "career",
+   "eyebrow": "CAREER",
+   "heading": "A place for great minds",
+   "description": "If you consider yourself a thinker and an innovator, Linkfields will provide you the ideal workplace that enables a free flow of creativity.",
+   "image": {
+    "__media": "s3/careers-media-2.png",
+    "width": 2560,
+    "height": 1595,
+    "mime": "image/png",
+    "alt": "A place for great minds"
+   },
+   "reverse": false,
+   "roundedImage": true
+  },
+  {
+   "__component": "company.location-carousel",
+   "anchorId": "life-at-linkfields",
+   "eyebrow": "Life at Linkfields",
+   "heading": "Not just a workplace, it's a \"thinking-space\"",
+   "description": "We offer you an environment where every employee is encouraged to express, invent, and do what they love. The employees boost the business’ growth, the business boosts theirs.",
+   "slides": [
+    {
+     "image": {
+      "__media": "s3/thinking space.png",
+      "width": 2560,
+      "height": 1595,
+      "mime": "image/png",
+      "alt": "New York, US"
+     },
+     "label": "New York, US"
+    },
+    {
+     "image": {
+      "__media": "s3/UTS-139 (2).png",
+      "width": 2560,
+      "height": 1595,
+      "mime": "image/png",
+      "alt": "Hyderabad, India"
+     },
+     "label": "Hyderabad, India"
+    }
+   ]
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "we-nurture",
+   "eyebrow": "WE NURTURE",
+   "heading": "Qualities that make us human",
+   "description": "",
+   "items": [],
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/sun.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Honesty & integrity"
+     },
+     "title": "Honesty & integrity",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/lightening.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Agility"
+     },
+     "title": "Agility",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/peoples.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Team spirit"
+     },
+     "title": "Team spirit",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/heart.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Emotional intelligence"
+     },
+     "title": "Emotional intelligence",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/home.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Work-life wellbeing"
+     },
+     "title": "Work-life wellbeing",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/star2.png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Craftmenship"
+     },
+     "title": "Craftmenship",
+     "description": ""
+    }
+   ],
+   "cardLayout": "three"
+  },
+  {
+   "__component": "company.career-cta",
+   "anchorId": "jobs",
+   "eyebrow": "careers",
+   "heading": "Interested in taking your career to next level?",
+   "description": "At Linkfields, we ensure to empower our employees.",
+   "cta": {
+    "label": "Explore jobs",
+    "href": "https://www.linkedin.com/company/40661516/admin/feed/posts/",
+    "openInNewTab": true
+   },
+   "ctaIcon": {
+    "__media": "site/images/linkedin.svg",
+    "width": null,
+    "height": null,
+    "mime": "image/svg+xml",
+    "alt": "LinkedIn"
+   },
+   "backgroundImage": {
+    "__media": "site/backgroud-images/careers.jpg",
+    "width": 1918,
+    "height": 570,
+    "mime": "image/jpeg",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "company.office-presence",
+   "anchorId": "our-presence",
+   "eyebrow": "Our Presence",
+   "heading": "We present ourselves globally",
+   "mapImage": {
+    "__media": "site/backgroud-images/location-world-map.jpg",
+    "width": 2560,
+    "height": 1206,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "offices": [
+    {
+     "icon": {
+      "__media": "s3/southafrica.png",
+      "width": 288,
+      "height": 288,
+      "mime": "image/png",
+      "alt": "South Africa"
+     },
+     "country": "South Africa",
+     "address": "Block H, Midridge Office Estate International Business Gateway, Cnr 6th Street,Midrand\n1684\n+27 11 022 6666",
+     "phone": "+27 11 023 6666",
+     "directionsLabel": "Get directions",
+     "directionsHref": "https://www.google.com/maps/dir//Linkfields+Innovations+(Pty)+Ltd,+Block+H,+Midridge+Office+Estate+International+Business+Gateway,+Cnr+6th+Street+%26,+New+Rd,+Carlswald,+Midrand,+1684,+South+Africa/@-25.9773519,28.1198535,18z/data=!4m8!4m7!1m0!1m5!1m1!1s0x1e956fbeafbef887:0x70ddc33f5ea30690!2m2!1d28.1210252!2d-25.9762899?entry=ttu"
+    },
+    {
+     "icon": {
+      "__media": "s3/India.png",
+      "width": 288,
+      "height": 288,
+      "mime": "image/png",
+      "alt": "India"
+     },
+     "country": "India",
+     "address": "809, 8th Floor, Gowra Fountain Head, Raheja Mindspace IT Park,\nHitech City, Hyderabad\n500081",
+     "phone": "+91 40 4547 4849",
+     "directionsLabel": "Get directions",
+     "directionsHref": "https://www.google.com/maps/place/Gowra+Fountain+Head/@17.4439218,78.3807443,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb93e01511d911:0x104e7368bcfb0af1!8m2!3d17.4439218!4d78.382933"
+    },
+    {
+     "icon": {
+      "__media": "s3/usa_map.png",
+      "width": 288,
+      "height": 288,
+      "mime": "image/png",
+      "alt": "USA"
+     },
+     "country": "USA",
+     "address": "1604, 447 Broadway,\n2nd Floor, New York,\n10013",
+     "phone": "+1 347 871 0999",
+     "directionsLabel": "Get directions",
+     "directionsHref": "https://goo.gl/maps/4CenTJee6XXRZou1A?coh=178572&entry=tt"
+    },
+    {
+     "icon": {
+      "__media": "s3/uae_map.png",
+      "width": 288,
+      "height": 288,
+      "mime": "image/png",
+      "alt": "UAE"
+     },
+     "country": "UAE",
+     "address": "409, Churchill Towers,\nBusiness Bay, Dubai, United Arab Emirates\n1686",
+     "phone": "+971 50 688 5758",
+     "directionsLabel": "Get directions",
+     "directionsHref": "https://goo.gl/maps/bm3bunttL7epY7bC7?coh=178572&entry=tt"
+    },
+    {
+     "icon": {
+      "__media": "s3/australia_map.png",
+      "width": 288,
+      "height": 288,
+      "mime": "image/png",
+      "alt": "Australia"
+     },
+     "country": "Australia",
+     "address": "Level 40, 140 William\nStreet, Melbourne, 3000, VIC Australia\n3000",
+     "phone": "+61 45 124 6666",
+     "directionsLabel": "Get directions",
+     "directionsHref": "https://goo.gl/maps/VFXWxdQEhMruwG6f8?coh=178572&entry=tt"
+    },
+    {
+     "icon": {
+      "__media": "s3/botswana.png",
+      "width": 310,
+      "height": 310,
+      "mime": "image/png",
+      "alt": "Botswana"
+     },
+     "country": "Botswana",
+     "address": "AGA House\nPlot 28576 Gaborone Industrial\nGaborone",
+     "phone": "+267 311 9073",
+     "directionsLabel": "Get direction",
+     "directionsHref": "https://maps.app.goo.gl/XCroxEzCeCV8ogYTA?g_st=iw"
+    }
+   ]
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

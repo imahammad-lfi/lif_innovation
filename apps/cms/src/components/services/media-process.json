@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_services_media_process",
+  "info": {
+    "displayName": "Services \u00b7 Process media",
+    "icon": "picture",
+    "description": "Dark two-column process story with a supporting illustration."
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text-item"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "partnersHeading": {
+      "type": "string"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.services-partner-logo"
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "standard",
+        "compact"
+      ],
+      "default": "standard"
+    }
+  }
+}

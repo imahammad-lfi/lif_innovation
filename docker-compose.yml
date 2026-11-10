@@ -43,7 +43,8 @@ services:
       UPLOAD_PROVIDER: local
       UPLOAD_SIZE_LIMIT: "52428800"
       CORS_ORIGINS: http://localhost:3000,http://localhost:1337
-      WEBSITE_REVALIDATE_URL: http://web:3000/api/revalidate
+      # Default targets a Next.js server run on the host (VS Code). Set to http://web:3000/api/revalidate when using the docker web service.
+      WEBSITE_REVALIDATE_URL: ${WEBSITE_REVALIDATE_URL:-http://host.docker.internal:3000/api/revalidate}
       WEBSITE_REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET in .env}
       WEBSITE_URL: ${WEBSITE_URL:-http://localhost:3000}
       # Enquiry emails (thank-you + sales alert). Off until SMTP is configured; see docs/CMS-BRANDING-AND-EMAIL.md.
@@ -59,6 +60,8 @@ services:
       EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-sales@linkfields.com}
     volumes:
       - cms_uploads:/opt/app/public/uploads
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     ports:
       - "1337:1337"
     depends_on:
@@ -67,6 +70,8 @@ services:
     restart: unless-stopped
 
   web:
+    # Off by default; the website is run from the host. Start it with: docker compose --profile web up -d web
+    profiles: ["web"]
     build:
       context: ./apps/web
       args:

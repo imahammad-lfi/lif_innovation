@@ -136,7 +136,9 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
     .filter(Boolean);
   const cycle = data.variant === "portfolio";
   const logosAfter = data.variant === "portfolio";
-  const chips = (data.note ?? "").includes(" · ") ? (data.note ?? "").split(" · ").map((c) => c.trim()).filter(Boolean) : null;
+  // A note written as a list ("a · b · c", or "a | b | c") renders as chips; editors may use either separator.
+  const CHIP_SEPARATOR = / [·|] /;
+  const chips = CHIP_SEPARATOR.test(data.note ?? "") ? (data.note ?? "").split(CHIP_SEPARATOR).map((c) => c.trim()).filter(Boolean) : null;
   return (
     <DeckStage id={data.anchorId} tone={data.tone}>
       <DeckHeader

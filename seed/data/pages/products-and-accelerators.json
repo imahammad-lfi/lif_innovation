@@ -45,10 +45,10 @@
    "anchorId": "overview",
    "eyebrow": "Find your fit",
    "heading": "Proprietary software and reusable IP, matched to your needs",
-   "body": "Products are software you can buy independently or combine with Linkfields services. Choose the application, quality, data or security task you need to address.\n\n[Business applications](#digital-transformation) · [ERP and CRM fit](#intelligent-enterprise-platforms) · [Data and insight](#data-ai) · [Security and AI controls](#cyber-security)",
+   "body": "Products are software you can buy independently or combine with Linkfields services. Choose the application, quality, data or security task you need to address.\n\n[Business applications](#digital-transformation) | [ERP and CRM fit](#intelligent-enterprise-platforms) | [Data and insight](#data-ai) | [Security and AI controls](#cyber-security)",
    "secondaryEyebrow": "",
    "secondaryHeading": "A reusable starting point for delivery",
-   "secondaryBody": "Accelerators are reusable delivery IP selected and adapted to your requirements, rather than standalone SaaS products. Their use depends on your data, systems, readiness and agreed scope.\n\n[Prediction and risk](/products-and-accelerators/predictive-analytics-suite) · [Simulation](/products-and-accelerators/digital-twin-suite) · [Workflows](/products-and-accelerators/intelligent-workflow-automation) · [Power BI reporting](/products-and-accelerators/power-bi-ai-ml) · [Delivery assurance](/products-and-accelerators/delivery-accelerators)",
+   "secondaryBody": "Accelerators are reusable delivery IP selected and adapted to your requirements, rather than standalone SaaS products. Their use depends on your data, systems, readiness and agreed scope.\n\n[Prediction and risk](/products-and-accelerators/predictive-analytics-suite) | [Simulation](/products-and-accelerators/digital-twin-suite) | [Workflows](/products-and-accelerators/intelligent-workflow-automation) | [Power BI reporting](/products-and-accelerators/power-bi-ai-ml) | [Delivery assurance](/products-and-accelerators/delivery-accelerators)",
    "theme": "light"
   },
   {

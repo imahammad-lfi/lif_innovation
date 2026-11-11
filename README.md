@@ -81,6 +81,19 @@ docker compose up -d --build                          # postgres + cms (:1337) +
 docker compose --profile seed run --rm seed           # import all pages, posts and images into Strapi
 ```
 
+**Environments: `.env`, `.env.test`, `.env.prod`** (all git-ignored; template: `.env.example`)
+
+| File | Command | Compose project | Website / CMS |
+| --- | --- | --- | --- |
+| `.env` | `docker compose up -d` | from `COMPOSE_PROJECT_NAME` | `WEB_PORT` / `CMS_PORT` |
+| `.env.test` | `docker compose --env-file .env.test up -d --build` | `linkfields-test` | :3010 / :1340 |
+| `.env.prod` | `docker compose --env-file .env.prod up -d --build` | `linkfields-prod` | :3000 / :1337 behind HTTPS |
+
+Each file has its own secrets, compose project, database and media volumes, so the stacks never share data. Ports,
+`SITE_URL`, `CMS_PUBLIC_URL`, `CORS_ORIGINS` and `IS_PROXIED` come from the file. `SITE_URL` is baked into the website build
+and `CMS_PUBLIC_URL` into the admin bundle, so rebuild after changing them. Every new database needs its own
+`STRAPI_LEAD_TOKEN` (CMS › Settings › API Tokens › website-leads › Regenerate).
+
 **Without Docker**
 
 ```bash

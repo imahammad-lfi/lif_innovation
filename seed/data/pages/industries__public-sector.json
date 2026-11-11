@@ -1,0 +1,263 @@
+{
+ "title": "Public Sector",
+ "path": "/industries/public-sector",
+ "seo": {
+  "metaTitle": "Public Sector IT Services in South Africa | Linkfields",
+  "metaDescription": "Public sector IT services that connect citizen journeys, agency systems and document workflows, with governed data and secure, accountable delivery.",
+  "keywords": "public sector, citizen services, agency workflows, document intelligence, governed AI, public sector IT services, public sector digital transformation South Africa, government application modernisation, public sector systems integration, citizen service portals, public sector document workflow automation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Public Sector",
+   "subtitle": "Connect citizen requests with agency workflows - accessible, traceable and secure by design.",
+   "backgroundImage": {
+    "__media": "custom/hero-public-sector.jpg",
+    "alt": "Public service building and citizen services"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Portfolios",
+     "targetId": "portfolio-map"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Software & IP",
+     "targetId": "software-accelerators"
+    },
+    {
+     "label": "Delivery",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Industry overview",
+   "heading": "Public sector IT services centred on people",
+   "body": "Citizens need clear routes to services; agency teams need connected systems, accountable case ownership and protected information. Linkfields combines application modernisation, enterprise platforms, automation and governed Data & AI around that shared journey.\n\nAccessibility, language support, assisted channels and traceable records are requirements to agree during discovery. We define access, human-review and data-sharing boundaries before designing change, rather than treating technology as proof of compliance.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "portfolio-map",
+   "eyebrow": "Integrated delivery",
+   "heading": "Five portfolios, shaped around your work",
+   "description": "",
+   "columns": 5,
+   "tone": "navy",
+   "variant": "compact",
+   "items": [
+    {
+     "title": "Digital Transformation",
+     "description": "Modernise citizen channels and connect applications with assisted-service hand-offs.",
+     "accent": "orange",
+     "number": "01",
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Connect agency finance, procurement and operational applications.",
+     "accent": "blue",
+     "number": "02",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Data & AI",
+     "description": "Build governed case-demand analytics and controlled document insight.",
+     "accent": "purple",
+     "number": "03",
+     "href": "/services/data-ai",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Cyber Security",
+     "description": "Design identity, application and cloud controls around citizen-data sensitivity.",
+     "accent": "teal",
+     "number": "04",
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Talent Advisory & GCC",
+     "description": "Align roadmaps, specialist capacity and managed delivery with agency needs.",
+     "accent": "yellow",
+     "number": "05",
+     "href": "/services/talent-advisory-gcc",
+     "linkLabel": "Explore portfolio"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "Accountable workflows",
+   "heading": "What we deliver",
+   "description": "Define the citizen journey, staff responsibilities and evidence needed at each hand-off.",
+   "columns": 2,
+   "tone": "ink",
+   "variant": "default",
+   "items": [
+    {
+     "title": "Citizen application and status journeys",
+     "description": "When citizens repeat information across channels, connect enquiries, applications and status updates with the team responsible for the request.",
+     "accent": "orange",
+     "bullets": "Discovery - agree language, accessibility and assisted-channel hand-offs.\nControl - verify identity and route exceptions to authorised staff.",
+     "footLabel": "Measure to agree",
+     "footText": "Journey completion, hand-off effort and status-update clarity.",
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore citizen/case applications"
+    },
+    {
+     "title": "Case and document ownership",
+     "description": "When records and approvals are fragmented, connect document intake, validation and routing with named case owners.",
+     "accent": "blue",
+     "bullets": "Control - staff review evidence and approve public-service decisions.\nOutput - ownership trail, approval record and agreed retention controls.",
+     "footLabel": "Measure to agree",
+     "footText": "Case rework, approval time and evidence completeness.",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore workflow IP"
+    },
+    {
+     "title": "Controlled agency data integration",
+     "description": "When agency systems cannot exchange necessary information, define APIs and data contracts for the approved sharing purpose.",
+     "accent": "teal",
+     "bullets": "Control - agree role-based access, record scope and exception review.\nOutput - interface specifications and a traceable data-sharing flow.",
+     "footLabel": "Measure to agree",
+     "footText": "Data completeness, failed exchanges and reconciliation effort.",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Explore integration services"
+    },
+    {
+     "title": "Service-demand and resource planning",
+     "description": "When planning relies on disconnected counts, combine case volumes, service demand and operational records into governed reporting.",
+     "accent": "purple",
+     "bullets": "Control - planners review definitions, data quality and access.\nOutput - metric catalogue and planning dashboards; no autonomous public decisions.",
+     "footLabel": "Measure to agree",
+     "footText": "Reporting freshness and consistency of planning inputs.",
+     "href": "/services/data-ai/data-platforms-analytics",
+     "linkLabel": "Explore governed analytics"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "software-accelerators",
+   "eyebrow": "",
+   "heading": "Software for accountable public services",
+   "description": "Select capabilities against approved workflows, data boundaries and agency procurement requirements.",
+   "columns": 2,
+   "tone": "navy",
+   "variant": "compact",
+   "items": [
+    {
+     "title": "Linkworks",
+     "description": "Composable citizen and case applications where ERP or CRM does not fit. Tailor journeys, roles and application integrations to agency scope.",
+     "accent": "orange",
+     "eyebrow": "Product",
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks",
+     "logo": {
+      "__media": "custom/logos/plate/linkworks-plate.png",
+      "alt": "Linkworks logo"
+     }
+    },
+    {
+     "title": "textIQ",
+     "description": "Search and insight across unstructured operational documents. Define authorised sources, access boundaries and staff review of findings.",
+     "accent": "purple",
+     "eyebrow": "Product",
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore textIQ",
+     "logo": {
+      "__media": "custom/logos/plate/textiq-plate.png",
+      "alt": "textIQ logo"
+     }
+    },
+    {
+     "title": "AI Governance",
+     "description": "The Linkfields AI gateway and guardrail layer, built on Portkey and Opik, brings controls, cost visibility and tracing to approved AI tools.",
+     "accent": "teal",
+     "eyebrow": "Product",
+     "href": "/products-and-accelerators/ai-governance",
+     "linkLabel": "Explore AI Governance",
+     "logo": {
+      "__media": "custom/logos/plate/ai-governance-plate.png",
+      "alt": "AI Governance logo"
+     }
+    },
+    {
+     "title": "Intelligent Workflow Automation",
+     "description": "Reusable routing, approval, AI orchestration and application-integration IP. Agency staff remain accountable for case decisions and exceptions.",
+     "accent": "blue",
+     "eyebrow": "Accelerator",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore Intelligent Workflow Automation"
+    }
+   ],
+   "noteLabel": "Commercial fit",
+   "note": "Products are available by licence, subscription or SaaS, with or without services. Workflow accelerators are configured and tailored during delivery."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-approach",
+   "eyebrow": "Delivery and procurement",
+   "heading": "Start with a citizen journey or agency workflow",
+   "description": "Which citizen journey or agency workflow needs to work better? Discuss delivery requirements or procurement scope without sharing citizen records.",
+   "columns": 3,
+   "tone": "ink",
+   "variant": "compact",
+   "items": [
+    {
+     "title": "Define the service and controls",
+     "description": "Map citizen and assisted channels, case ownership and records. Agree accessibility and language requirements, data permissions and human-review points.",
+     "accent": "orange",
+     "bullets": "Artefacts - service blueprint and responsibility matrix\nAcceptance - agreed journey, access and accessibility checks"
+    },
+    {
+     "title": "Prepare delivery and procurement scope",
+     "description": "Linkfields is headquartered in South Africa, with an Offshore Delivery Centre in India and international market presence. Agree delivery accountability, data boundaries and procurement requirements.",
+     "accent": "blue",
+     "bullets": "Discussion - contracting scope, delivery roles and evidence requirements\nArtefacts - proposed architecture, control matrix and acceptance plan"
+    },
+    {
+     "title": "Agree a measurable next step",
+     "description": "Choose discovery scope and acceptance measures first. Consider Fixed Price, Time & Materials, Managed Service or a Dedicated Team according to the requirement and procurement process.",
+     "accent": "yellow",
+     "href": "/company/our-approach",
+     "linkLabel": "Explore how we engage"
+    }
+   ],
+   "noteLabel": "Initial enquiry",
+   "note": "Describe your service requirements, agency systems and constraints. We can agree an NDA before sharing confidential information.",
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "#get-in-touch"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Talk to us about public-service priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

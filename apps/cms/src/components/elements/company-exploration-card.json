@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_elements_company_exploration_card",
+  "info": { "displayName": "Exploration card", "icon": "grid", "description": "Icon with an exploration step description" },
+  "options": {},
+  "attributes": {
+    "icon": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
+    "description": { "type": "text" }
+  }
+}

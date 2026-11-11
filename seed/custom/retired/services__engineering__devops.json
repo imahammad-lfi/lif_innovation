@@ -1,0 +1,349 @@
+{
+ "title": "DevOps",
+ "path": "/services/engineering/devops",
+ "seo": {
+  "metaTitle": "DevOps Consulting Services and Solutions | Linkfields Innovations",
+  "metaDescription": "DevOps | Linkfields Innovations",
+  "keywords": "devops services, devops integration, devops development, cloud migration , devsecops, linkfields innovations",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "DevOps",
+   "subtitle": "Streamlined App Delivery & Effortless Operations",
+   "backgroundImage": {
+    "__media": "s3/DevOps  BG.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "DevOps"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "BENEFITS",
+     "targetId": "benefits"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "A future-oriented practice that boosts swiftness",
+   "body": "Its goal is to minimize the systems development life cycle and provide high-quality software delivery on a continual basis. By analyzing both the technical and social aspects of IT sector, we are able to get the best out of both.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "how-can-we-help",
+   "eyebrow": "HOW CAN WE HELP",
+   "heading": "Feedback and testing for the best experience",
+   "description": "",
+   "items": [],
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/key refresh (1).png",
+      "width": 248,
+      "height": 248,
+      "mime": "image/png",
+      "alt": "Continuous feedback"
+     },
+     "title": "Continuous feedback",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/horizontal.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Continuous integration"
+     },
+     "title": "Continuous integration",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Icon.png",
+      "width": 229,
+      "height": 229,
+      "mime": "image/png",
+      "alt": "Continuous deployment"
+     },
+     "title": "Continuous deployment",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/rotate-cw (1).png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Configuration management"
+     },
+     "title": "Configuration management",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/Clip path group.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Release management"
+     },
+     "title": "Release management",
+     "description": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/search-code.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Continuous monitoring"
+     },
+     "title": "Continuous monitoring",
+     "description": ""
+    }
+   ],
+   "cardLayout": "three"
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "85% improvement in code quality and production time",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "A full-set of DevOps services",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (45).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "DevOps Assessment"
+     },
+     "title": "DevOps Assessment",
+     "description": "Our DevOps experts analyze your existing infrastructure, identify your core business propositions, and assess your current DevOps practices to propose solutions tailor made for you."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (46).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "DevOps Automation"
+     },
+     "title": "DevOps Automation",
+     "description": "With automating processes that normally need human intervention at the core, we identify eligible processes and develop script for implementation."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (47).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "DevOps Implementation"
+     },
+     "title": "DevOps Implementation",
+     "description": "We develop an implementation roadmap factoring business operations, available resources, budgetary allocation, risks, and quality control at each step."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (48).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Continuous integration"
+     },
+     "title": "Continuous integration",
+     "description": "We implement continuous integration and delivery practices to reduce rollbacks, improve delivery time, and cut costs."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (49).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Cloud migration"
+     },
+     "title": "Cloud migration",
+     "description": "We apply the best DevOps practices to migrate workflows and applications to the cloud for unobstructed availability."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (50).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "DevSecOps"
+     },
+     "title": "DevSecOps",
+     "description": "We also make security an integral part of your DevOps efforts by automating compliances and regulations into your workflows."
+    }
+   ]
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "DevOps tuned to precision",
+   "description": "DevOps is the blend of social ways of thinking, practices, and apparatuses that expands an association’s capacity to convey applications and administrations at high speed, advancing and further developing items at a quicker speed than associations utilizing conventional programming improvement and foundation the board measures.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "image": {
+    "__media": "s3/devops-detail.png",
+    "width": 1720,
+    "height": 624,
+    "mime": "image/png",
+    "alt": "DevOps tuned to precision"
+   },
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Continuous integration",
+     "description": "CI is a widely used industry standard for detecting problems early on. For high-level cross-team collaboration, our CI professionals employ continuous integration tools in DevOps such as Jenkins, Docker, and Kubernetes."
+    },
+    {
+     "title": "Continuous delivery",
+     "description": "CD is an engineering method for releasing software updates in a secure and reliable manner. Our CD experts can help you reduce your deployment risks by providing an instant deployment process for any accurate changes."
+    },
+    {
+     "title": "Infrastructure management",
+     "description": "Our DevOps solution aids in the development and deployment of high-quality software and services. Better resource management and DevOps management plans with reusability and cheap installation costs."
+    },
+    {
+     "title": "Configuration management",
+     "description": "Our DevOps solution configuration system includes code management and platform automation, resulting in a ready-to-use server for your customers."
+    },
+    {
+     "title": "Continuous monitoring",
+     "description": "Our continuous monitoring solution, which we provide as a DevOps services firm, smoothly streamlines any mission important application."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "services.superpowers",
+   "anchorId": "benefits",
+   "eyebrow": "BENEFITS",
+   "heading": "Streamlined and structured ops",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (13).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "High delivery ratio"
+     },
+     "title": "High delivery ratio",
+     "description": "It helps save time on management tasks to get more out of your existing teams."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (14).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Less delivery time"
+     },
+     "title": "Less delivery time",
+     "description": "The shorter the delivery time, the faster revenue generation for your business operations."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (15).png",
+      "width": 344,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "Lower risk potential"
+     },
+     "title": "Lower risk potential",
+     "description": "Early detection results in lower repair costs."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 401 (16).png",
+      "width": 345,
+      "height": 344,
+      "mime": "image/png",
+      "alt": "More resiliency"
+     },
+     "title": "More resiliency",
+     "description": "A decrease in potential sale loss, leading to overall greater productivity."
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

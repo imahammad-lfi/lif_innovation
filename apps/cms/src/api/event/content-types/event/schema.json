@@ -1,0 +1,126 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "Event",
+    "description": "Events on /events. Upcoming and past are split automatically by date. Add a Pop-up to promote an event site-wide; it hides itself the day after the event ends."
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "default": "Conference"
+    },
+    "format": {
+      "type": "enumeration",
+      "enum": [
+        "in-person",
+        "online",
+        "hybrid"
+      ],
+      "default": "in-person"
+    },
+    "startDate": {
+      "type": "date",
+      "required": true
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "startTime": {
+      "type": "string",
+      "regex": "^([01][0-9]|2[0-3]):[0-5][0-9]$",
+      "maxLength": 5,
+      "pluginOptions": {}
+    },
+    "endTime": {
+      "type": "string",
+      "regex": "^([01][0-9]|2[0-3]):[0-5][0-9]$",
+      "maxLength": 5,
+      "pluginOptions": {}
+    },
+    "lastDayEndTime": {
+      "type": "string",
+      "regex": "^([01][0-9]|2[0-3]):[0-5][0-9]$",
+      "maxLength": 5,
+      "pluginOptions": {}
+    },
+    "dateLabel": {
+      "type": "string"
+    },
+    "timeLabel": {
+      "type": "string"
+    },
+    "venue": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "stand": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "recap": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "detailLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "meetingCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "organiserUrl": {
+      "type": "string"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "popup": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.event-promo"
+    }
+  }
+}

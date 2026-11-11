@@ -1,0 +1,190 @@
+{
+ "title": "Data Services",
+ "path": "/solutions/erp-solutions/sap/data-services",
+ "seo": {
+  "metaTitle": "Data Services",
+  "metaDescription": "Data Services | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Data Services",
+   "subtitle": "Where your data potential takes center stage",
+   "backgroundImage": {
+    "__media": "s3/Frame 15880577.png",
+    "width": 2560,
+    "height": 837,
+    "mime": "image/png",
+    "alt": "Data Services"
+   },
+   "anchorLinks": [
+    {
+     "label": "DATA SERVICES",
+     "targetId": "data-services"
+    },
+    {
+     "label": "Key components",
+     "targetId": "key-components"
+    },
+    {
+     "label": "Key capabilities",
+     "targetId": "key-capabilities"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "data-services",
+   "eyebrow": "DATA SERVICES",
+   "heading": "Seamlessly connect data sources, maintain data quality, transform raw data into actionable insights, and enhance your data security.",
+   "body": "",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.how-can-we-help",
+   "anchorId": "key-components",
+   "eyebrow": "",
+   "heading": "Key components",
+   "description": "",
+   "image": null,
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/data-integration-hub-svgrepo-com 1.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Data Integration"
+     },
+     "title": "Data Integration",
+     "description": "Consolidate data from multiple sources with ease.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/database-zap.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Data Quality"
+     },
+     "title": "Data Quality",
+     "description": "Ensure compliance and data integrity effortlessly.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/rotate-3d.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Data Transformation"
+     },
+     "title": "Data Transformation",
+     "description": "Turn raw data into valuable insights.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/shield-check.png",
+      "width": 257,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Data Security"
+     },
+     "title": "Data Security",
+     "description": "Protect your data with advanced security protocols.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/4 Hana.png",
+      "width": 257,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Data Auditing"
+     },
+     "title": "Data Auditing",
+     "description": "Gain full transparency and control over your data.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/how-can-we-help.jpg",
+    "width": 1920,
+    "height": 816,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "linkedCards": false
+  },
+  {
+   "__component": "solutions.numbered-list",
+   "anchorId": "key-capabilities",
+   "heading": "Key capabilities",
+   "items": [
+    {
+     "title": "Seamlessly integrate data from any source.",
+     "description": ""
+    },
+    {
+     "title": "Standardize, correct, and match data for better decision-making.",
+     "description": ""
+    },
+    {
+     "title": "Handle large volumes of data efficiently.",
+     "description": ""
+    },
+    {
+     "title": "Transfer and transform data in the cloud effortlessly.",
+     "description": ""
+    },
+    {
+     "title": "Manage your data with ease using our intuitive interface.",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

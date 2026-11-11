@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_solutions_why_choose_us",
+  "info": { "displayName": "Why choose us", "icon": "chartPie", "description": "Salesforce statistics showcase." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" }, "eyebrow": { "type": "string" }, "heading": { "type": "text" },
+    "stats": { "type": "component", "repeatable": true, "component": "shared.stat" },
+    "backgroundImage": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] }
+  }
+}

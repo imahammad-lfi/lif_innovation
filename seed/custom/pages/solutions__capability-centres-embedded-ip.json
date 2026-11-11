@@ -1,0 +1,284 @@
+{
+  "title": "Capability Centres with Embedded IP",
+  "path": "/solutions/capability-centres-embedded-ip",
+  "seo": {
+    "metaTitle": "Capability Centres with Embedded IP | Linkfields",
+    "metaDescription": "Design and build Global Capability Centres with delivery governance, engineering IP and quality controls, with clear operating and transfer boundaries.",
+    "keywords": "Global Capability Centres, GCC, embedded IP, build-operate-transfer, delivery governance",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Capability centres with embedded IP",
+      "subtitle": "Build scalable delivery capacity with quality, security and engineering IP embedded in a governed capability-centre operating model.",
+      "backgroundImage": {
+        "__media": "custom/hero-capability-centres.jpg",
+        "alt": "Illustrative Capability centres with embedded IP enterprise environment"
+      },
+      "anchorLinks": [
+        {
+          "label": "The Trigger",
+          "targetId": "the-trigger"
+        },
+        {
+          "label": "Delivery",
+          "targetId": "delivery"
+        },
+        {
+          "label": "Portfolios",
+          "targetId": "portfolios"
+        },
+        {
+          "label": "Linkfields IP",
+          "targetId": "linkfields-ip"
+        },
+        {
+          "label": "Buyer Questions",
+          "targetId": "buyer-questions"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "the-trigger",
+      "eyebrow": "Customer trigger",
+      "heading": "Need scalable capacity with stronger governance?",
+      "body": "Adding people alone does not establish a delivery capability. Organisations need defined ownership, engineering standards, quality controls and a sustainable way to retain knowledge. A Global Capability Centre (GCC) brings those elements into an operating model aligned to your business priorities.",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "business-outcome",
+      "eyebrow": "Business outcome",
+      "heading": "Build capability you can govern and retain",
+      "body": "The intended outcome is a GCC with quality, security and engineering IP embedded, including a build-operate-transfer option. Define which capability, knowledge and operating responsibilities move to your organisation, and which software remains licensed. Measure readiness against agreed delivery standards, governance adoption and transfer acceptance criteria.",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery",
+      "eyebrow": "How we deliver",
+      "heading": "From challenge to acceptance evidence",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Design the centre",
+          "description": "Agree capabilities, locations, ownership, decision rights and the governance model.",
+          "accent": "yellow",
+          "number": "01",
+          "footLabel": "Deliverables",
+          "footText": "GCC blueprint and responsibility matrix"
+        },
+        {
+          "title": "Embed delivery IP",
+          "description": "Define engineering standards, tool access, testing, security gates and licence boundaries.",
+          "accent": "yellow",
+          "number": "02",
+          "footLabel": "Deliverables",
+          "footText": "Delivery playbook and IP register"
+        },
+        {
+          "title": "Build and operate",
+          "description": "Form the delivery teams, establish review routines and develop operational knowledge.",
+          "accent": "yellow",
+          "number": "03",
+          "footLabel": "Deliverables",
+          "footText": "Operating model and knowledge repository"
+        },
+        {
+          "title": "Prepare the transfer",
+          "description": "Assess readiness, confirm handover obligations and separate transferable assets from licensed software.",
+          "accent": "yellow",
+          "number": "04",
+          "footLabel": "Deliverables",
+          "footText": "Transfer plan and acceptance evidence"
+        }
+      ],
+      "description": "Example engagement pattern. Scope, gates and responsibilities are agreed for your environment."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "portfolios",
+      "eyebrow": "Integrated delivery",
+      "heading": "The portfolios behind this play",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Talent Advisory & GCC",
+          "description": "Leads the capability-centre strategy, setup, operating model and transfer planning.",
+          "accent": "yellow",
+          "groupLabel": "Specialist services",
+          "links": [
+            {
+              "label": "GCC strategy & setup",
+              "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+              "openInNewTab": false
+            },
+            {
+              "label": "GCC build-operate-transfer",
+              "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+              "openInNewTab": false
+            },
+            {
+              "label": "Specialist talent & teams",
+              "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+              "openInNewTab": false
+            }
+          ],
+          "href": "/services/talent-advisory-gcc",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Digital Transformation",
+          "description": "Embeds application engineering and continuous quality practices into the delivery capability.",
+          "accent": "orange",
+          "groupLabel": "Specialist services",
+          "links": [
+            {
+              "label": "App modernisation",
+              "href": "/services/digital-transformation/app-modernisation",
+              "openInNewTab": false
+            },
+            {
+              "label": "Quality engineering",
+              "href": "/services/digital-transformation/quality-engineering",
+              "openInNewTab": false
+            }
+          ],
+          "href": "/services/digital-transformation",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Cyber Security",
+          "description": "Defines security responsibilities and assurance practices for the centre’s delivery scope.",
+          "accent": "teal",
+          "groupLabel": "Specialist services",
+          "links": [
+            {
+              "label": "Exposure validation & AppSec",
+              "href": "/services/cyber-security/exposure-validation-appsec",
+              "openInNewTab": false
+            },
+            {
+              "label": "Cloud security & IAM",
+              "href": "/services/cyber-security/cloud-security-iam",
+              "openInNewTab": false
+            }
+          ],
+          "href": "/services/cyber-security",
+          "linkLabel": "Explore portfolio"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "linkfields-ip",
+      "eyebrow": "Software and reusable delivery IP",
+      "heading": "Linkfields IP and accelerators",
+      "variant": "compact",
+      "columns": 2,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Linkworks",
+          "description": "Composable applications and engineering capabilities that can support the centre’s delivery scope.",
+          "accent": "yellow",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        },
+        {
+          "title": "Governance, quality and security IP",
+          "description": "Reusable practices and delivery packs embedded in the agreed operating model.",
+          "accent": "yellow",
+          "bullets": "Delivery Governance\nQuality Engineering IP\nCyber-Safe Delivery",
+          "href": "/products-and-accelerators/delivery-accelerators",
+          "linkLabel": "Explore delivery accelerators"
+        }
+      ],
+      "description": "Select the software and reusable delivery IP that fit your scope; not every component is needed in every engagement.",
+      "noteLabel": "Software can be bought separately",
+      "note": "Products are available by licence, subscription or SaaS, with or without Linkfields services. Delivery accelerators are reusable IP tailored within an engagement."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "engagement-models",
+      "eyebrow": "How we engage",
+      "heading": "Suitable commercial models",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Dedicated Team",
+          "description": "Persistent squads aligned to your priorities and operating model; suited to sustained GCC capacity.",
+          "accent": "yellow"
+        },
+        {
+          "title": "Time & Materials",
+          "description": "Advisory and setup work where capability needs and the operating roadmap are evolving.",
+          "accent": "yellow"
+        },
+        {
+          "title": "Fixed Price",
+          "description": "Defined setup or transfer work packages with agreed deliverables and acceptance criteria.",
+          "accent": "yellow"
+        }
+      ],
+      "description": "Choose the commercial basis for the scope and responsibilities you agree.",
+      "ctaLabel": "Compare all commercial models",
+      "ctaUrl": "/services#engagement-models",
+      "noteLabel": "Delivery model and commercial terms",
+      "note": "Build-operate-transfer is a GCC delivery model, not a sixth commercial model. Phase ownership, transfer obligations and software rights are agreed separately."
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Before you engage",
+      "heading": "Buyer questions",
+      "description": "Clarify scope, evidence and accountability before agreeing an engagement.",
+      "backgroundStyle": "dark",
+      "items": [
+        {
+          "title": "How is a GCC different from adding specialists?",
+          "description": "Staff augmentation adds specialists within your management structure. A GCC engagement also addresses the operating model, governance, tooling and knowledge retention; the build-operate-transfer option includes agreed handover obligations."
+        },
+        {
+          "title": "What transfers, and what remains licensed?",
+          "description": "Define this in the IP register and contract. Knowledge, playbooks and agreed operating assets can be in the transfer scope; Linkfields proprietary software is not automatically transferred and may remain licensed, subscribed or SaaS-based."
+        },
+        {
+          "title": "Who manages work during build and operation?",
+          "description": "The responsibility matrix defines the client sponsor, operational owners and Linkfields delivery responsibilities for each phase. Governance and decision rights change only through agreed phase acceptance."
+        },
+        {
+          "title": "How do you decide whether the centre is ready to transfer?",
+          "description": "Agree acceptance criteria before the operating phase: knowledge handover, governance adoption, tooling access and delivery-control evidence. Transfer timing follows those criteria and contractual obligations, not an assumed setup duration."
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss capability centres with embedded IP",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

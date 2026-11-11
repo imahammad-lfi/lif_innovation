@@ -1,0 +1,243 @@
+{
+  "title": "Automation & RPA",
+  "path": "/services/digital-transformation/automation-rpa",
+  "seo": {
+    "metaTitle": "Automation & RPA | Linkfields",
+    "metaDescription": "Redesign enterprise work with API-first integration, RPA and governed AI workflows, using measurable baselines, human controls and delivery assurance.",
+    "keywords": "automation, RPA, UiPath, Blue Prism, intelligent workflows",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Automation & RPA",
+      "subtitle": "Redesign and automate work across systems, with measurable outcomes and human control.",
+      "backgroundImage": {
+        "__media": "custom/hero-workflow-automation.jpg",
+        "alt": "Connected workflow automation across enterprise systems"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "What We Deliver",
+          "targetId": "what-we-deliver"
+        },
+        {
+          "label": "Use Cases",
+          "targetId": "use-cases"
+        },
+        {
+          "label": "Our Approach",
+          "targetId": "our-approach"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "Automate the work that drives cost-to-serve",
+      "body": "Repetitive handovers and exception queues are a process problem, not just a bot opportunity. We discover and redesign the work, use API-first integration where suitable, and apply RPA where interfaces require it; governed AI-assisted workflows remain within defined permissions.\n\nBaseline cycle time, exception rate and manual effort to assess traceability and capacity released for higher-value work. [Discuss an automation opportunity](#get-in-touch).",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "WHAT WE DELIVER",
+      "heading": "What we deliver",
+      "description": "Define the process boundary, control points and operating owner before scaling automation.",
+      "items": [
+        {
+          "title": "Process discovery and business case",
+          "description": "Process maps, an evidenced baseline and a prioritised backlog with licence and operating costs considered.",
+          "accent": "orange"
+        },
+        {
+          "title": "Workflow and exception design",
+          "description": "Routing rules, approval points and human exception paths, including when automation must stop.",
+          "accent": "orange"
+        },
+        {
+          "title": "RPA and AI implementation",
+          "description": "Task automation and governed AI orchestration against agreed permissions. Select UiPath or Blue Prism according to the process and platform scope.",
+          "accent": "orange"
+        },
+        {
+          "title": "Integration and testing",
+          "description": "System mappings, API or interface integration and test packs covering successful, failed and duplicate transactions.",
+          "accent": "orange",
+          "href": "/services/digital-transformation/integration-services",
+          "linkLabel": "Integration services"
+        },
+        {
+          "title": "Managed automation",
+          "description": "Monitoring, incident triage, change ownership and operating runbooks within an agreed support scope.",
+          "accent": "orange"
+        },
+        {
+          "title": "Centre of excellence and governance",
+          "description": "Backlog ownership, automation standards, access controls and benefit-review responsibilities for the client team.",
+          "accent": "orange"
+        }
+      ],
+      "tone": "navy",
+      "columns": 3,
+      "variant": "default"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "use-cases",
+      "eyebrow": "ILLUSTRATIVE USE CASES",
+      "heading": "Three workflows with human control",
+      "description": "Illustrative workflows, not delivered client cases: each has an exception route and accountable process owner.",
+      "items": [
+        {
+          "title": "Invoice intake to ERP posting",
+          "description": "Receive and validate an invoice, route approval, then post to ERP. Hold mismatches and possible duplicates for finance review.",
+          "accent": "orange"
+        },
+        {
+          "title": "Customer onboarding to review",
+          "description": "Validate a request, retrieve permitted information and route exceptions to a person. Consequential screening or credit decisions require agreed human approval.",
+          "accent": "orange"
+        },
+        {
+          "title": "Employee onboarding to audit",
+          "description": "Route an approved joiner request, provision agreed access and record completion. HR and access owners handle missing approvals and failed tasks.",
+          "accent": "orange"
+        }
+      ],
+      "tone": "ink",
+      "columns": 3,
+      "variant": "compact",
+      "ctaLabel": "Intelligent Operations",
+      "ctaUrl": "/solutions/intelligent-operations"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "ip-and-accelerators",
+      "eyebrow": "LINKFIELDS IP & ACCELERATORS",
+      "heading": "Reusable IP for intelligent operations",
+      "description": "Separate Linkfields delivery IP from third-party RPA tools; confirm the fit and reuse boundaries for each workflow.",
+      "items": [
+        {
+          "title": "Intelligent Workflow Automation",
+          "description": "Workflow automation, AI orchestration and application integration support cross-system work. Tailor process rules, permissions and exception paths to the client.",
+          "accent": "orange",
+          "href": "/products-and-accelerators/intelligent-workflow-automation",
+          "linkLabel": "Explore workflow automation"
+        },
+        {
+          "title": "Linkworks",
+          "description": "Composable enterprise applications and REST APIs can support workflows where existing ERP or CRM capabilities do not fit.",
+          "accent": "orange",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        },
+        {
+          "title": "testoriumz",
+          "description": "Low-code testing and CI/CD integration support workflow release assurance, with Cyber-Safe Delivery controls selected for the engagement.",
+          "accent": "orange",
+          "logo": {
+            "__media": "custom/logos/testoriumz.png",
+            "alt": "testoriumz product logo"
+          },
+          "href": "/products-and-accelerators/testoriumz",
+          "linkLabel": "Explore testoriumz",
+          "links": [
+            {
+              "label": "Cyber-Safe Delivery",
+              "href": "/products-and-accelerators/delivery-accelerators",
+              "openInNewTab": false
+            }
+          ]
+        }
+      ],
+      "tone": "navy",
+      "columns": 3,
+      "variant": "default",
+      "noteLabel": "Fit and licensing",
+      "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Discovery agrees product fit, reusable accelerator content and client-specific engineering."
+    },
+    {
+      "__component": "services.numbered-help",
+      "anchorId": "our-approach",
+      "eyebrow": "SECURE BY DESIGN",
+      "heading": "Discover, redesign, assure and operate",
+      "items": [
+        {
+          "description": "Discover and baseline — Map work, volumes, manual effort and exceptions. Process owners validate the scope, costs and measures before agreeing the automation backlog."
+        },
+        {
+          "description": "Redesign and control — Choose APIs, RPA and AI roles. Agree human approvals, least-privilege credentials, audit trails and data-handling requirements with process and security owners."
+        },
+        {
+          "description": "Build and assure — Implement tasks and integration; test failure, duplicate and exception paths. Client owners accept the workflow and release gates before controlled deployment."
+        },
+        {
+          "description": "Operate and optimise — Transfer runbooks, monitoring and change ownership. Review exceptions and net benefits against the baseline; agree support coverage and escalation rather than assume universal availability."
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "acceptance-and-evidence",
+      "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
+      "heading": "Measure the process, not the bot",
+      "body": "Acceptance covers completed workflow tests, approval records, credential controls, audit trails and an operating runbook. The process owner confirms that manual fallback and exception queues work before release.\n\nTrack cycle time, manual effort and exception rate over an agreed period. Distinguish gross effort saved from net benefit after licences, support and exception handling; agree attribution before linking commercials to outcomes.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+      "theme": "light"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "ENGAGEMENT & BUYER QUESTIONS",
+      "heading": "Plan the right engagement",
+      "description": "Use Time & Materials for process discovery, or Fixed Price for a defined workflow with agreed acceptance. A Dedicated Team supports a sustained automation backlog; Managed Service covers agreed workflow operations. Outcome-Based terms require net-benefit measures, baselines and attribution to be agreed.",
+      "backgroundStyle": "dark",
+      "items": [
+        {
+          "title": "When should we use an API rather than a bot?",
+          "description": "Prefer stable APIs when they support the required task and access controls. Use RPA where necessary for application interfaces, recognising the maintenance implications of screen or process changes."
+        },
+        {
+          "title": "What happens when automation cannot complete a task?",
+          "description": "Route it to a named owner with the reason, transaction context and next action. Test retries, duplicate prevention, manual fallback and escalation before launch."
+        },
+        {
+          "title": "How are credentials and AI approvals controlled?",
+          "description": "Agree least-privilege identities, credential handling, audit trails and permitted data. Define human approval points for consequential decisions and a way to stop or change automation."
+        },
+        {
+          "title": "How do we assess the net benefit?",
+          "description": "Baseline the process and include transaction mix, manual effort, exceptions, licences and operating costs. Compare like-for-like periods and agree which benefits can be attributed to the change."
+        },
+        {
+          "title": "What should we bring to the conversation?",
+          "description": "Share the process, systems, transaction volumes if known and current exception handling. We can agree a discovery scope and confidentiality requirements before proposing an approach."
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Identify your next automation opportunity",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

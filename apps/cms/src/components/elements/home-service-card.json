@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_elements_home_service_card",
+  "info": { "displayName": "Home service card", "icon": "grid", "description": "One linked service image tile in the home showcase." },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images", "files"] },
+    "href": { "type": "string" }
+  }
+}

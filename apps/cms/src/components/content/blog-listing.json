@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_blog_listing",
+  "info": {
+    "displayName": "Blog listing",
+    "icon": "bulletList",
+    "description": "Blog category navigation and listing headings"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "categoryGroups": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.content-filter-group"
+    },
+    "discoverHeading": {
+      "type": "string"
+    }
+  }
+}

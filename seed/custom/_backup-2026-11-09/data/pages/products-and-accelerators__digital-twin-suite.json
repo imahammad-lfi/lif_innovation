@@ -1,0 +1,305 @@
+{
+ "title": "Digital Twin Suite",
+ "path": "/products-and-accelerators/digital-twin-suite",
+ "seo": {
+  "metaTitle": "Digital Twin Suite | Linkfields Innovations",
+  "metaDescription": "Explore Linkfields’ Digital Twin Suite for equipment failure prediction, forecasting simulation, inventory optimisation and real-time monitoring.",
+  "keywords": "Digital Twin Suite, digital twin, equipment failure prediction, forecasting simulation, inventory optimisation, real-time monitoring",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Digital Twin Suite",
+   "subtitle": "Virtual models of assets and operations to predict, simulate and optimise.",
+   "backgroundImage": {
+    "__media": "custom/hero-digital-twin.jpg",
+    "alt": "Virtual models of assets and operations to predict, simulate and optimise."
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT'S INSIDE",
+     "targetId": "whats-inside"
+    },
+    {
+     "label": "DELIVERY",
+     "targetId": "delivery"
+    },
+    {
+     "label": "MORE ACCELERATORS",
+     "targetId": "more-accelerators"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Understand operations before changing them",
+   "body": "The Digital Twin Suite brings reusable virtual models to assets and operations. A digital twin connects a model of an asset or process with operational data, helping teams understand current conditions and explore possible changes.\n\nUse the suite to assess equipment failure risk, simulate forecasts, optimise inventory and monitor operations in real time. Keep the model grounded in the data and constraints of your environment so its outputs support practical decisions.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.card-grid",
+   "anchorId": "whats-inside",
+   "eyebrow": "WHAT'S INSIDE",
+   "heading": "Simulation and insight for everyday operations",
+   "description": "",
+   "variant": "dark",
+   "cards": [
+    {
+     "title": "Equipment failure prediction",
+     "description": "Use equipment condition and operating patterns to assess failure risk and inform maintenance priorities.",
+     "icon": {
+      "__media": "custom/icons/acc-digital-twin.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Forecasting simulation",
+     "description": "Explore different operating assumptions in a virtual model to understand possible outcomes before changing live operations.",
+     "icon": {
+      "__media": "custom/icons/acc-predictive-analytics.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Inventory optimisation",
+     "description": "Model demand, stock and replenishment constraints to inform inventory decisions and balance availability with stock levels.",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Real-time monitoring",
+     "description": "Connect live operational data to the twin so teams can review current conditions and identify changes that need attention.",
+     "icon": {
+      "__media": "custom/icons/acc-powerbi-ai.svg",
+      "alt": ""
+     }
+    }
+   ]
+  },
+  {
+   "__component": "services.numbered-help",
+   "anchorId": "delivery",
+   "eyebrow": "DELIVERY",
+   "heading": "Build a twin around the decisions that matter",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/blue-gradient.jpg",
+    "alt": ""
+   },
+   "items": [
+    {
+     "description": "Choose the asset or process to model and define the operational question the twin should help answer."
+    },
+    {
+     "description": "Connect relevant condition, inventory or process data and reflect the constraints of the real environment."
+    },
+    {
+     "description": "Check the model against observed behaviour, then explore scenarios and review their operational implications."
+    },
+    {
+     "description": "Use monitoring and model outputs to support decisions, updating the twin as assets and operating conditions change."
+    }
+   ]
+  },
+  {
+   "__component": "products.accelerator-grid",
+   "anchorId": "more-accelerators",
+   "eyebrow": "MORE ACCELERATORS",
+   "heading": "Explore our other accelerators",
+   "description": "Pre-built delivery IP that shortens time to value.",
+   "ctaLabel": "",
+   "ctaUrl": "",
+   "items": [
+    {
+     "label": "Data & AI",
+     "title": "Predictive Analytics Suite",
+     "description": "Ready-made models that turn customer and transaction data into decisions.",
+     "icon": {
+      "__media": "custom/icons/acc-predictive-analytics.svg",
+      "alt": ""
+     },
+     "accent": "purple",
+     "features": [
+      {
+       "title": "Churn & segmentation",
+       "description": ""
+      },
+      {
+       "title": "Demand forecasting",
+       "description": ""
+      },
+      {
+       "title": "Fraud & anomaly detection",
+       "description": ""
+      },
+      {
+       "title": "Loan default prediction",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Simulation",
+     "title": "Digital Twin Suite",
+     "description": "Virtual models of assets and operations to predict, simulate and optimise.",
+     "icon": {
+      "__media": "custom/icons/acc-digital-twin.svg",
+      "alt": ""
+     },
+     "accent": "teal",
+     "features": [
+      {
+       "title": "Equipment failure prediction",
+       "description": ""
+      },
+      {
+       "title": "Forecasting simulation",
+       "description": ""
+      },
+      {
+       "title": "Inventory optimisation",
+       "description": ""
+      },
+      {
+       "title": "Real-time monitoring",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Enterprise AI",
+     "title": "Intelligent Workflow Automation",
+     "description": "AI-orchestrated workflows that connect people, systems and decisions.",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": ""
+     },
+     "accent": "orange",
+     "features": [
+      {
+       "title": "Workflow automation",
+       "description": ""
+      },
+      {
+       "title": "AI orchestration",
+       "description": ""
+      },
+      {
+       "title": "Application integration",
+       "description": ""
+      },
+      {
+       "title": "Underwriting optimisation",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Analytics",
+     "title": "Power BI + AI/ML",
+     "description": "Machine learning brought into the Power BI reports your teams already use.",
+     "icon": {
+      "__media": "custom/icons/acc-powerbi-ai.svg",
+      "alt": ""
+     },
+     "accent": "blue",
+     "features": [
+      {
+       "title": "AI/ML in Power BI",
+       "description": ""
+      },
+      {
+       "title": "Predictive dashboards",
+       "description": ""
+      },
+      {
+       "title": "Risk scoring visuals",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/power-bi-ai-ml",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Portfolio IP",
+     "title": "Delivery accelerators",
+     "description": "Proven packs and playbooks that de-risk every stage of delivery.",
+     "icon": {
+      "__media": "custom/icons/acc-delivery.svg",
+      "alt": ""
+     },
+     "accent": "yellow",
+     "features": [
+      {
+       "title": "Modernisation & Integration",
+       "description": ""
+      },
+      {
+       "title": "Migration & regression packs",
+       "description": ""
+      },
+      {
+       "title": "Automated Testing & Release Assurance",
+       "description": ""
+      },
+      {
+       "title": "Cyber-Safe Delivery",
+       "description": ""
+      },
+      {
+       "title": "Regulatory & Compliance Readiness",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore accelerator"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Explore the next step for your operations",
+   "description": "Talk to us about the assets, processes and operational decisions a digital twin could support.",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

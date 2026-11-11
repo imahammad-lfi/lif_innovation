@@ -1,0 +1,308 @@
+{
+ "title": "Cloud",
+ "path": "/services/cloud",
+ "seo": {
+  "metaTitle": "Cloud Development, Migration & Integration | Linkfields Innovations",
+  "metaDescription": "Cloud Development, Migration & Integration | Linkfields Innovations",
+  "keywords": "cloud development, cloud migration, cloud integration, cloud services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cloud",
+   "subtitle": "The future is on the cloud",
+   "backgroundImage": {
+    "__media": "s3/cloud-banner.png",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/png",
+    "alt": "Cloud"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "OUR EXPERTISE",
+     "targetId": "our-expertise"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Access your data, no matter where you are",
+   "body": "Bringing the transformation in the manner in which businesses deal with data storage & computing power, without requiring active management through managed cloud services.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "hubs.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Facilitating the expertise required for change",
+   "body": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future.",
+   "cards": [
+    {
+     "title": "Kubernetes Services",
+     "description": "Employing open-source automation software that speed up the development process and also can be cost-effective.",
+     "image": {
+      "__media": "s3/iot-development-fake.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Kubernetes Services"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cloud/kubernetes-services",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Cloud Development",
+     "description": "Focusing on creating and enhancing cloud-based applications and solutions.",
+     "image": {
+      "__media": "s3/devOps.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Cloud Development"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cloud/cloud-development",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Cloud Migration",
+     "description": "Developing the cloud architecture through planning and design, allowing for a more efficient cloud delivery process.",
+     "image": {
+      "__media": "s3/devops-development-fake.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Cloud Migration"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cloud/cloud-migration",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Cloud Consulting",
+     "description": "Helping you maintain cloud applications and computing systems through customized software and hardware configuration.",
+     "image": {
+      "__media": "s3/application-development-tab.png",
+      "width": 680,
+      "height": 350,
+      "mime": "image/png",
+      "alt": "Cloud Consulting"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/services/cloud/cloud-consulting",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "10x faster operational growth",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "why-us",
+   "eyebrow": "WHY US",
+   "heading": "Persistently Innovative",
+   "description": "Apart from the excellent results we have delivered in the last decade, our business model focuses on constant innovation of each elemental and operational process, ensuring constant adaptation to the future.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "5",
+     "suffix": "mn",
+     "label": "daily digital journeys"
+    },
+    {
+     "value": "10",
+     "suffix": "x",
+     "label": "faster operational growth"
+    },
+    {
+     "value": "150",
+     "suffix": "+",
+     "label": "solutions delivered"
+    },
+    {
+     "value": "10",
+     "suffix": "yrs",
+     "label": "avg client tenure"
+    }
+   ]
+  },
+  {
+   "__component": "sections.industries-showcase",
+   "anchorId": "our-expertise",
+   "eyebrow": "OUR EXPERTISE",
+   "heading": "Constantly Innovating",
+   "description": "Our 16 years in business have acquainted us to a diverse list of industries with different requirements. We have consistently proven our adaptability to all kinds of business models, irrespective of their industry.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/constantly-innovating.jpg",
+    "width": 2560,
+    "height": 1117,
+    "mime": "image/jpeg",
+    "alt": "Constantly innovating background"
+   },
+   "items": [
+    {
+     "title": "Telecom",
+     "image": {
+      "__media": "s3/telecom-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom"
+    },
+    {
+     "title": "Fintech",
+     "image": {
+      "__media": "s3/fintech-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Fintech"
+     },
+     "href": "/industries/fintech"
+    },
+    {
+     "title": "FMCG",
+     "image": {
+      "__media": "s3/FMCG (1).png",
+      "width": 1660,
+      "height": 632,
+      "mime": "image/png",
+      "alt": "FMCG"
+     },
+     "href": "/industries/fmcg"
+    },
+    {
+     "title": "Banking",
+     "image": {
+      "__media": "s3/banking-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Banking"
+     },
+     "href": "/industries/banking"
+    },
+    {
+     "title": "Insurance",
+     "image": {
+      "__media": "s3/insurance-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Insurance"
+     },
+     "href": "/industries/insurance"
+    },
+    {
+     "title": "Mining",
+     "image": {
+      "__media": "s3/mining-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Mining"
+     },
+     "href": "/industries/mining"
+    },
+    {
+     "title": "Oil and Gas",
+     "image": {
+      "__media": "s3/oil&gas-small.jpg",
+      "width": 415,
+      "height": 158,
+      "mime": "image/jpeg",
+      "alt": "Oil and Gas"
+     },
+     "href": "/industries/oil-gas"
+    },
+    {
+     "title": "Manufacturing",
+     "image": {
+      "__media": "s3/Manufacturing (1).png",
+      "width": 1660,
+      "height": 632,
+      "mime": "image/png",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Want a new work experience?",
+   "description": "Become a part of our work community that is responsible for fuelling innovation across the globe",
+   "ctaLabel": "Join Us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

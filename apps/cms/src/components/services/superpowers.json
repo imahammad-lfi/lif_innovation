@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_services_superpowers",
+  "info": { "displayName": "Services · Superpowers", "icon": "star", "description": "BENEFITS / OUR SUPERPOWERS icon and copy grid." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "text" },
+    "cards": { "type": "component", "repeatable": true, "component": "elements.services-icon-card" }
+  }
+}

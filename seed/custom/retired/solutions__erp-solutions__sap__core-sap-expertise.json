@@ -1,0 +1,168 @@
+{
+ "title": "Core SAP Expertise",
+ "path": "/solutions/erp-solutions/sap/core-sap-expertise",
+ "seo": {
+  "metaTitle": "Core SAP Expertise",
+  "metaDescription": "Core SAP Expertise | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Core SAP Expertise",
+   "subtitle": "Empower your enterprise with SAP Solutions",
+   "backgroundImage": {
+    "__media": "s3/Frame 15880575.png",
+    "width": 2560,
+    "height": 837,
+    "mime": "image/png",
+    "alt": "Core SAP Expertise"
+   },
+   "anchorLinks": [
+    {
+     "label": "ENHANCEMENTS AND OPTIMIZATIONS",
+     "targetId": "enhancements-and-optimizations"
+    },
+    {
+     "label": "MERGES, ACQUISITIONS AND DIVERSITIES",
+     "targetId": "merges-acquisitions-and-diversities"
+    },
+    {
+     "label": "TEMPLATE-BASES GLOBAL / LOCAL ROLLOUTS",
+     "targetId": "template-bases-global-local-rollouts"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "enhancements-and-optimizations",
+   "eyebrow": "ENHANCEMENTS AND OPTIMIZATIONS",
+   "heading": "Streamlined SAP Enhancements and Optimization with Linkfields",
+   "description": "We specialize in simplifying the process of enhancing and optimizing your SAP systems, ensuring a seamless and efficient journey.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "image": null,
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Why Core SAP Expertise Matters",
+     "description": "Your SAP solution needs to evolve in tandem with your business requirements, whether it involves new product lines, expanded service areas, or corporate transformations. Linkfields recognizes the challenges of making changes to an integrated ERP system and provides unparalleled expertise at the intersection of business and technology."
+    },
+    {
+     "title": "Understanding the compexities",
+     "description": "Making adjustments to configuration is one thing; comprehending the diverse impacts on business processes is another. Linkfields stands out by not only grasping the intricacies of software but also understanding the broader implications of changes. Our unique approach ensures that modifications are implemented efficiently, preventing friction between IT and the business."
+    },
+    {
+     "title": "The Linkfields Advantage",
+     "description": "Linkfields operates with a team of business process experts, each boasting a minimum of 10 years of experience and a profound understanding of business processes. This wealth of knowledge positions us to guide your organization through successful SAP optimization, minimizing rework and delivering results faster."
+    },
+    {
+     "title": "Proven Success",
+     "description": "Linkfields has a proven track record, having successfully completed numerous projects. Our team, comprising senior project resources and Application Support Team members, can execute projects onsite, remotely, or part-time based on your unique requirements."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "solutions.accordion-stack",
+   "anchorId": "merges-acquisitions-and-diversities",
+   "eyebrow": "Merges, Acquisitions and Diversities",
+   "heading": "Strategic IT Realignment with Experts in Mergers, Acquisitions, and Divestitures",
+   "variant": "grid",
+   "items": [
+    {
+     "title": "Transformative Realignment",
+     "description": "Business landscapes undergo continuous evolution through mergers, acquisitions, and divestitures. Linkfields recognizes the intricacies of these dynamic changes and stands ready to assist at every juncture, blending business acumen with technical prowess."
+    },
+    {
+     "title": "Crafting the Right Playbook",
+     "description": "Linkfields thrives on the ability to map the most efficient transformation strategy for diverse scenarios, providing steadfast support from initiation to completion. Our library of methodologies, tailored to specific transformation scenarios, combines business process expertise with SAP and proprietary technical transformation tools."
+    },
+    {
+     "title": "Adapting to Internal Changes",
+     "description": "Internal organizational shifts, such as consolidating business units or establishing global shared services, trigger corresponding realignments in underlying systems and infrastructure components. Linkfields excels in addressing these challenges, leveraging its wealth of experience in business and IT transformation initiatives."
+    },
+    {
+     "title": "Early Engagement for Optimal Results",
+     "description": "In the face of sudden mergers, acquisitions, or restructuring, early engagement with Linkfields is crucial. Leveraging our experience ensures access to proven methods, solutions, and a spectrum of options tailored to your unique situation. Don't miss out on the opportunity to tap into Linkfields expertise for a strategic and effective IT realignment."
+    },
+    {
+     "title": "Navigating M&A Impact",
+     "description": "Mergers and acquisitions necessitate a holistic reevaluation of ERP and other IT systems, demanding consolidation, harmonization, or replacement to align with the strategic goals of the new organization. Conversely, divestitures involve the intricate process of carving out specific elements from the system landscape, determining data sets for the divested business, and realigning the remaining components."
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/S1.png",
+    "width": 1920,
+    "height": 1000,
+    "mime": "image/png",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "solutions.accordion-stack",
+   "anchorId": "template-bases-global-local-rollouts",
+   "eyebrow": "Template-bases Global / Local Rollouts",
+   "heading": " ",
+   "variant": "static-grid",
+   "items": [
+    {
+     "title": "Seamless Global/Local Rollouts with Linkfields Templates",
+     "description": "Embark on roll-out programs with confidence, leveraging Linkfields expertise to navigate the intricate landscape of global and local requirements. Our seasoned SAP consultants, boasting decades of combined experience, are ready to accelerate the initiation of your roll-out program."
+    },
+    {
+     "title": "Why Core SAP Expertise is Crucial",
+     "description": "Launching SAP programs that align with both global and local standards requires a strategic partner to guide you through potential challenges. Linkfields steps in to help your business comply with diverse requirements, ensuring a smooth and efficient rollout process."
+    },
+    {
+     "title": "Avoid Pitfalls with Linkfields",
+     "description": "Rolling out SAP programs that meet global and local prerequisites is a nuanced endeavor, susceptible to numerous pitfalls. Linkfields proven methodology, templates, and accelerators have evolved into Linkfields, offering years of expertise to shield your roll-out program from common challenges."
+    },
+    {
+     "title": "Mitigating Risks",
+     "description": "Implementing changes that disrupt operational workflows or allowing excessive local variations can hinder the harmonization and globalization of processes. Linkfields mitigates these risks with a robust toolkit, ready-to-use templates for governance structures, process flows, and master data. This ensures that all standards are met, reducing project duration significantly. For instance, a manufacturing business, armed with Linkfields toolkit, streamlined its SAP integration for a newly acquired company in just five months, a process that typically takes 9-12 months."
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/S1.png",
+    "width": 1920,
+    "height": 1000,
+    "mime": "image/png",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

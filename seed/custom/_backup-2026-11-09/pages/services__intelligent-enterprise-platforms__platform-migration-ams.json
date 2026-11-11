@@ -1,0 +1,217 @@
+{
+ "title": "Platform migration & AMS",
+ "path": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+ "seo": {
+  "metaTitle": "Platform migration & AMS Services | Linkfields Innovations",
+  "metaDescription": "Plan ERP and SAP S/4HANA implementation, upgrades and migration, then sustain performance with managed platform support and optimisation.",
+  "keywords": "platform migration, AMS, application management services, SAP S/4HANA migration, ERP upgrades",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Platform migration & AMS",
+   "subtitle": "Implementation, upgrades and migration. Managed support and optimisation.",
+   "backgroundImage": {
+    "__media": "s3/Frame 15880576.png",
+    "alt": "Platform migration & AMS"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Modernise the platform. Keep the business moving.",
+   "body": "ERP implementation, upgrades and migration are only part of the journey. Platform application management services (AMS) bring managed support and optimisation to the core systems your organisation runs every day.\n\nLinkfields helps you make the critical business and IT decisions before migration, plan the transition and continue improving the platform after implementation.",
+   "secondaryEyebrow": "SAP S/4HANA ROADMAPS",
+   "secondaryHeading": "Make the right migration decisions",
+   "secondaryBody": "Our seasoned consultants understand the complexity of this three-dimensional shift, providing your organisation with a clear understanding of the S/4 journey, available options, and the crucial steps for optimising returns. Distinguishing itself from mere recommendations, Linkfields guides your business and IT organisations through critical decisions.\n\nGreenfield or brownfield? Customised ECC system or third-party solutions? We don’t just propose solutions; we delve into assessments and analyses, ensuring your decisions align with sustainable growth. Linkfields experts bridge the gap between legacy transactions and future-ready practices, creating a roadmap that empowers your business users with real-time analytics across diverse networks.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.what-we-offer",
+   "anchorId": "what-we-offer",
+   "eyebrow": "WHAT WE OFFER",
+   "heading": "Support for the full platform lifecycle",
+   "description": "",
+   "items": [],
+   "cards": [
+    {
+     "title": "Migration roadmaps",
+     "description": "Assess the current platform, compare migration options and align the target landscape with business priorities.",
+     "icon": {
+      "__media": "s3/scroll (1).png",
+      "alt": "Migration roadmaps"
+     }
+    },
+    {
+     "title": "ERP implementation",
+     "description": "Plan and implement the platform changes that support your business processes.",
+     "icon": {
+      "__media": "s3/4 Hana.png",
+      "alt": "ERP implementation"
+     }
+    },
+    {
+     "title": "Platform upgrades",
+     "description": "Ensure your SAP system is consistently up-to-date for stability.",
+     "icon": {
+      "__media": "s3/arrow-big-up-dash.png",
+      "alt": "Platform upgrades"
+     }
+    },
+    {
+     "title": "Lifecycle management",
+     "description": "Accelerate innovation and manage application life cycles effectively.",
+     "icon": {
+      "__media": "s3/profile-2user.png",
+      "alt": "Lifecycle management"
+     }
+    },
+    {
+     "title": "Application support",
+     "description": "Managed support and optimisation for the enterprise platforms your teams rely on.",
+     "icon": {
+      "__media": "s3/services-svgrepo-com 2.png",
+      "alt": "Application support"
+     }
+    },
+    {
+     "title": "Continuous improvement",
+     "description": "Prioritise enhancements, regression testing and operational improvements after go-live.",
+     "icon": {
+      "__media": "s3/search-code.png",
+      "alt": "Continuous improvement"
+     }
+    }
+   ],
+   "cardLayout": "three"
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "A clear path from legacy platforms to lasting value",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "From migration planning to managed operations",
+   "description": "Our seasoned SAP experts have successfully migrated various systems, making the transition to SAP HANA a smooth experience.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "image": null,
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Why SAP HANA?",
+     "description": "Linkfields excels in SAP S/4HANA migration, ensuring a seamless shift for various clients. If you’re currently using a legacy system, moving to SAP HANA is your key to future-proofing. While your current system works, SAP HANA takes your business to the next level, offering innovation and a competitive edge."
+    },
+    {
+     "title": "What Sets SAP HANA Apart?",
+     "description": "SAP HANA brings cutting-edge features like advanced in-memory databases and powerful analytics tools. Transitioning unlocks immediate performance boosts, setting the stage for future technologies like HANA Live and Embedded Analytics."
+    },
+    {
+     "title": "Linkfields Expertise",
+     "description": "Our skilled consultants provide specialised expertise tailored to your enterprise’s unique needs. Whether you’re a large corporation or a small business, we make HANA migration straightforward. From planning to execution, we optimise downtime, ensure code integrity, and guide your digital transformation."
+    },
+    {
+     "title": "Post-implementation & AMS",
+     "description": "Beyond implementation, Linkfields supports your SAP HANA journey with comprehensive post-implementation services. Our experts guide you through administration, troubleshooting, backup, recovery, upgrades, and security to master the ongoing management of your SAP HANA system."
+    },
+    {
+     "title": "An evolving ERP landscape",
+     "description": "Your SAP solution needs to evolve in tandem with your business requirements, whether it involves new product lines, expanded service areas, or corporate transformations. Linkfields recognises the challenges of making changes to an integrated ERP system and provides unparalleled expertise at the intersection of business and technology."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "accelerators",
+   "eyebrow": "ACCELERATORS",
+   "heading": "Reusable IP for a controlled transition",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "title": "SAP migration accelerators",
+     "description": "Reusable delivery approaches support the assessment, planning and execution of SAP migration programmes.",
+     "icon": {
+      "__media": "s3/4 Hana.png",
+      "alt": "SAP migration accelerators"
+     }
+    },
+    {
+     "title": "Regression packs",
+     "description": "Repeatable regression checks help validate critical business processes as platforms change.",
+     "icon": {
+      "__media": "s3/shield-check.png",
+      "alt": "Regression packs"
+     }
+    },
+    {
+     "title": "Intelligent ops",
+     "description": "Bring operational insight into ongoing support to identify issues and guide optimisation.",
+     "icon": {
+      "__media": "s3/search-code.png",
+      "alt": "Intelligent ops"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_elements_home_solution_card",
+  "info": { "displayName": "Home solution card", "icon": "apps", "description": "Logo, description and CTA in the home solutions grid." },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images", "files"] },
+    "description": { "type": "text" },
+    "cta": { "type": "component", "repeatable": false, "component": "shared.link" }
+  }
+}

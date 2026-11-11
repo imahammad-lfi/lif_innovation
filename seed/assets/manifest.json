@@ -1,0 +1,3726 @@
+{
+ "https://assets.goodfirms.co/badges/icon/white-goodfirms-icon.svg": {
+  "path": "ext/assets.goodfirms.co/badges/icon/white-goodfirms-icon.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 1785
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/0000.png": {
+  "path": "s3/0000.png",
+  "width": 2560,
+  "height": 1141,
+  "mime": "image/png",
+  "bytes": 932518
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/1.png": {
+  "path": "s3/1.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5601
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/1643312603cpp 1 (1).png": {
+  "path": "s3/1643312603cpp 1 (1).png",
+  "width": 312,
+  "height": 312,
+  "mime": "image/png",
+  "bytes": 5470
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/2.png": {
+  "path": "s3/2.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6294
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/4 Hana.png": {
+  "path": "s3/4 Hana.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5266
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/6.png": {
+  "path": "s3/6.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 8175
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI and Machine learning BG.jpg": {
+  "path": "s3/AI and Machine learning BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 383774
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI-Powered Claims Processing.png": {
+  "path": "s3/AI-Powered Claims Processing.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 1426056
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI.png": {
+  "path": "s3/AI.png",
+  "width": 479,
+  "height": 480,
+  "mime": "image/png",
+  "bytes": 310275
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/About us.png": {
+  "path": "s3/About us.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 3348
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Advancend management system.png": {
+  "path": "s3/Advancend management system.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 2815506
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Analytics.png": {
+  "path": "s3/Analytics.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 1898610
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automation-anywhere.png": {
+  "path": "s3/Automation-anywhere.png",
+  "width": 650,
+  "height": 238,
+  "mime": "image/png",
+  "bytes": 18364
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Azure.png": {
+  "path": "s3/Azure.png",
+  "width": 581,
+  "height": 181,
+  "mime": "image/png",
+  "bytes": 9248
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Banking BG.jpg": {
+  "path": "s3/Banking BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 472189
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Banking.png": {
+  "path": "s3/Banking.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1147
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Biig Data Enginnering BG.jpg": {
+  "path": "s3/Biig Data Enginnering BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 480884
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Blog.png": {
+  "path": "s3/Blog.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2025
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Bulb.png": {
+  "path": "s3/Bulb.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5407
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Clip path group.png": {
+  "path": "s3/Clip path group.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7019
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Customer support automation.png": {
+  "path": "s3/Customer support automation.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 1319064
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/DT.png": {
+  "path": "s3/DT.png",
+  "width": 480,
+  "height": 480,
+  "mime": "image/png",
+  "bytes": 449982
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/DUNS logo.png": {
+  "path": "s3/DUNS logo.png",
+  "width": 2560,
+  "height": 2214,
+  "mime": "image/png",
+  "bytes": 1691385
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Data-Driven Decision Making.png": {
+  "path": "s3/Data-Driven Decision Making.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 1609802
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/DevOps  BG.jpg": {
+  "path": "s3/DevOps  BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 606073
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Digital transfromation.png": {
+  "path": "s3/Digital transfromation.png",
+  "width": 2168,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 7425954
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Dynamics 365.png": {
+  "path": "s3/Dynamics 365.png",
+  "width": 249,
+  "height": 70,
+  "mime": "image/png",
+  "bytes": 5803
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/End user computing.png": {
+  "path": "s3/End user computing.png",
+  "width": 2560,
+  "height": 1318,
+  "mime": "image/png",
+  "bytes": 5368821
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Engineering (2).png": {
+  "path": "s3/Engineering (2).png",
+  "width": 1400,
+  "height": 1920,
+  "mime": "image/png",
+  "bytes": 2925958
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMCG (1).png": {
+  "path": "s3/FMCG (1).png",
+  "width": 1660,
+  "height": 632,
+  "mime": "image/png",
+  "bytes": 1063241
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMCG BG.jpg": {
+  "path": "s3/FMCG BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 588153
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMCG.png": {
+  "path": "s3/FMCG.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2541
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/FMGC (1).png": {
+  "path": "s3/FMGC (1).png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 528669
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Finance AI.png": {
+  "path": "s3/Finance AI.png",
+  "width": 2168,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 5395405
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Fintech.jpg": {
+  "path": "s3/Fintech.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 371353
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Fintech.png": {
+  "path": "s3/Fintech.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1676
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (1).png": {
+  "path": "s3/Frame 15880133 (1).png",
+  "width": 1624,
+  "height": 1100,
+  "mime": "image/png",
+  "bytes": 71225
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (10).png": {
+  "path": "s3/Frame 15880133 (10).png",
+  "width": 1624,
+  "height": 1100,
+  "mime": "image/png",
+  "bytes": 82445
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (11).png": {
+  "path": "s3/Frame 15880133 (11).png",
+  "width": 2560,
+  "height": 1446,
+  "mime": "image/png",
+  "bytes": 518340
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880133 (5).png": {
+  "path": "s3/Frame 15880133 (5).png",
+  "width": 883,
+  "height": 550,
+  "mime": "image/png",
+  "bytes": 39839
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880259.png": {
+  "path": "s3/Frame 15880259.png",
+  "width": 883,
+  "height": 635,
+  "mime": "image/png",
+  "bytes": 36611
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880272 (1).png": {
+  "path": "s3/Frame 15880272 (1).png",
+  "width": 484,
+  "height": 288,
+  "mime": "image/png",
+  "bytes": 12953
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880319 (1).png": {
+  "path": "s3/Frame 15880319 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 8049
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880320 (1).png": {
+  "path": "s3/Frame 15880320 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5483
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880322 (1).png": {
+  "path": "s3/Frame 15880322 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5493
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880323 (1).png": {
+  "path": "s3/Frame 15880323 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 3882
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880324 (1).png": {
+  "path": "s3/Frame 15880324 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6358
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880330 (1).png": {
+  "path": "s3/Frame 15880330 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4844
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880331 (1).png": {
+  "path": "s3/Frame 15880331 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7828
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880332 (1).png": {
+  "path": "s3/Frame 15880332 (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5687
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880573.png": {
+  "path": "s3/Frame 15880573.png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 1276518
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880574.png": {
+  "path": "s3/Frame 15880574.png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 1815283
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880575.png": {
+  "path": "s3/Frame 15880575.png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 1206086
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880576.png": {
+  "path": "s3/Frame 15880576.png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 1689376
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 15880577.png": {
+  "path": "s3/Frame 15880577.png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 3079352
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 16.png": {
+  "path": "s3/Frame 16.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8753
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 2021.png": {
+  "path": "s3/Frame 2021.png",
+  "width": 2560,
+  "height": 683,
+  "mime": "image/png",
+  "bytes": 2278639
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 393.png": {
+  "path": "s3/Frame 393.png",
+  "width": 1787,
+  "height": 509,
+  "mime": "image/png",
+  "bytes": 46729
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 395.png": {
+  "path": "s3/Frame 395.png",
+  "width": 2560,
+  "height": 1873,
+  "mime": "image/png",
+  "bytes": 502532
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (10).png": {
+  "path": "s3/Frame 401 (10).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7628
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (11).png": {
+  "path": "s3/Frame 401 (11).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7546
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (12).png": {
+  "path": "s3/Frame 401 (12).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 10663
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (13).png": {
+  "path": "s3/Frame 401 (13).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7780
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (14).png": {
+  "path": "s3/Frame 401 (14).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 8729
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (15).png": {
+  "path": "s3/Frame 401 (15).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 6876
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (16).png": {
+  "path": "s3/Frame 401 (16).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 5271
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 401 (9).png": {
+  "path": "s3/Frame 401 (9).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7362
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (100).png": {
+  "path": "s3/Frame 402 (100).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 8060
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (17).png": {
+  "path": "s3/Frame 402 (17).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5716
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (29).png": {
+  "path": "s3/Frame 402 (29).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4104
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (30).png": {
+  "path": "s3/Frame 402 (30).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 3542
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (31).png": {
+  "path": "s3/Frame 402 (31).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5424
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (32).png": {
+  "path": "s3/Frame 402 (32).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5393
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (33).png": {
+  "path": "s3/Frame 402 (33).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6176
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (34).png": {
+  "path": "s3/Frame 402 (34).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5691
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (35).png": {
+  "path": "s3/Frame 402 (35).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4765
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (36).png": {
+  "path": "s3/Frame 402 (36).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6355
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (37).png": {
+  "path": "s3/Frame 402 (37).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5146
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (38).png": {
+  "path": "s3/Frame 402 (38).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5416
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (39).png": {
+  "path": "s3/Frame 402 (39).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5341
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (40).png": {
+  "path": "s3/Frame 402 (40).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7922
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (41).png": {
+  "path": "s3/Frame 402 (41).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7651
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (42).png": {
+  "path": "s3/Frame 402 (42).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5944
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (43).png": {
+  "path": "s3/Frame 402 (43).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 8946
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (44).png": {
+  "path": "s3/Frame 402 (44).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 9999
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (45).png": {
+  "path": "s3/Frame 402 (45).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5089
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (46).png": {
+  "path": "s3/Frame 402 (46).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6413
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (47).png": {
+  "path": "s3/Frame 402 (47).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5906
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (48).png": {
+  "path": "s3/Frame 402 (48).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5195
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (49).png": {
+  "path": "s3/Frame 402 (49).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6225
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (50).png": {
+  "path": "s3/Frame 402 (50).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5084
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (57).png": {
+  "path": "s3/Frame 402 (57).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5753
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (58).png": {
+  "path": "s3/Frame 402 (58).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4595
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (59).png": {
+  "path": "s3/Frame 402 (59).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4254
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (60).png": {
+  "path": "s3/Frame 402 (60).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5281
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (61).png": {
+  "path": "s3/Frame 402 (61).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4525
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (62).png": {
+  "path": "s3/Frame 402 (62).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4855
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (63).png": {
+  "path": "s3/Frame 402 (63).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4794
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (64).png": {
+  "path": "s3/Frame 402 (64).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5362
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (65).png": {
+  "path": "s3/Frame 402 (65).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6025
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (66).png": {
+  "path": "s3/Frame 402 (66).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5320
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (67).png": {
+  "path": "s3/Frame 402 (67).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7443
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (69).png": {
+  "path": "s3/Frame 402 (69).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7406
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (70).png": {
+  "path": "s3/Frame 402 (70).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4934
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (71).png": {
+  "path": "s3/Frame 402 (71).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6566
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (72).png": {
+  "path": "s3/Frame 402 (72).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5853
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (73).png": {
+  "path": "s3/Frame 402 (73).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6429
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (74).png": {
+  "path": "s3/Frame 402 (74).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7623
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (75).png": {
+  "path": "s3/Frame 402 (75).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7397
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (80).png": {
+  "path": "s3/Frame 402 (80).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6046
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (81).png": {
+  "path": "s3/Frame 402 (81).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6908
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (82).png": {
+  "path": "s3/Frame 402 (82).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5999
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (83).png": {
+  "path": "s3/Frame 402 (83).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7449
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (84).png": {
+  "path": "s3/Frame 402 (84).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6987
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (85).png": {
+  "path": "s3/Frame 402 (85).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 6309
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (86).png": {
+  "path": "s3/Frame 402 (86).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7582
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (87).png": {
+  "path": "s3/Frame 402 (87).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 4156
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (88).png": {
+  "path": "s3/Frame 402 (88).png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 6314
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (89).png": {
+  "path": "s3/Frame 402 (89).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5286
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (90).png": {
+  "path": "s3/Frame 402 (90).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6434
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (91).png": {
+  "path": "s3/Frame 402 (91).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6071
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (92).png": {
+  "path": "s3/Frame 402 (92).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7060
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (93).png": {
+  "path": "s3/Frame 402 (93).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6192
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (94).png": {
+  "path": "s3/Frame 402 (94).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 4165
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (95).png": {
+  "path": "s3/Frame 402 (95).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 5718
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (96).png": {
+  "path": "s3/Frame 402 (96).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7798
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (97).png": {
+  "path": "s3/Frame 402 (97).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 4681
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (98).png": {
+  "path": "s3/Frame 402 (98).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 8228
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 (99).png": {
+  "path": "s3/Frame 402 (99).png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 5603
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402 - 2024-03-26T130827.414.png": {
+  "path": "s3/Frame 402 - 2024-03-26T130827.414.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 5525
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 402.png": {
+  "path": "s3/Frame 402.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4484
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (10).png": {
+  "path": "s3/Frame 403 (10).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5772
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (11).png": {
+  "path": "s3/Frame 403 (11).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4838
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (12).png": {
+  "path": "s3/Frame 403 (12).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7358
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (13).png": {
+  "path": "s3/Frame 403 (13).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7188
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (14).png": {
+  "path": "s3/Frame 403 (14).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5872
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (15).png": {
+  "path": "s3/Frame 403 (15).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7818
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (7).png": {
+  "path": "s3/Frame 403 (7).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4495
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 403 (8).png": {
+  "path": "s3/Frame 403 (8).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4951
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group (3).png": {
+  "path": "s3/Group (3).png",
+  "width": 200,
+  "height": 62,
+  "mime": "image/png",
+  "bytes": 5874
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group (4).png": {
+  "path": "s3/Group (4).png",
+  "width": 200,
+  "height": 46,
+  "mime": "image/png",
+  "bytes": 3923
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group (5).png": {
+  "path": "s3/Group (5).png",
+  "width": 562,
+  "height": 201,
+  "mime": "image/png",
+  "bytes": 8294
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group 15880093 (1).png": {
+  "path": "s3/Group 15880093 (1).png",
+  "width": 585,
+  "height": 354,
+  "mime": "image/png",
+  "bytes": 20328
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Group 15880156.png": {
+  "path": "s3/Group 15880156.png",
+  "width": 2144,
+  "height": 2145,
+  "mime": "image/png",
+  "bytes": 2746500
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ISO 270012022.png": {
+  "path": "s3/ISO 270012022.png",
+  "width": 352,
+  "height": 326,
+  "mime": "image/png",
+  "bytes": 65972
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/IT infrastructure banner image.png": {
+  "path": "s3/IT infrastructure banner image.png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 1279194
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Icon.png": {
+  "path": "s3/Icon.png",
+  "width": 229,
+  "height": 229,
+  "mime": "image/png",
+  "bytes": 5302
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/India.png": {
+  "path": "s3/India.png",
+  "width": 288,
+  "height": 288,
+  "mime": "image/png",
+  "bytes": 5918
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Industries.png": {
+  "path": "s3/Industries.png",
+  "width": 1240,
+  "height": 1120,
+  "mime": "image/png",
+  "bytes": 2159998
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Innovation.png": {
+  "path": "s3/Innovation.png",
+  "width": 1920,
+  "height": 627,
+  "mime": "image/png",
+  "bytes": 1347250
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Insurance BG.jpg": {
+  "path": "s3/Insurance BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 327087
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Insurance.png": {
+  "path": "s3/Insurance.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2557
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Iso Logo (1) (1).png": {
+  "path": "s3/Iso Logo (1) (1).png",
+  "width": 868,
+  "height": 868,
+  "mime": "image/png",
+  "bytes": 615317
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Java_Logo (1).png": {
+  "path": "s3/Java_Logo (1).png",
+  "width": 252,
+  "height": 472,
+  "mime": "image/png",
+  "bytes": 15087
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Logo_Microsoft_Office_365_(2013-2019) (1).png": {
+  "path": "s3/Logo_Microsoft_Office_365_(2013-2019) (1).png",
+  "width": 780,
+  "height": 173,
+  "mime": "image/png",
+  "bytes": 13379
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Manufacturing (1).png": {
+  "path": "s3/Manufacturing (1).png",
+  "width": 1660,
+  "height": 632,
+  "mime": "image/png",
+  "bytes": 908888
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft dynamics.png": {
+  "path": "s3/Microsoft dynamics.png",
+  "width": 1432,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 33079
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft.png": {
+  "path": "s3/Microsoft.png",
+  "width": 137,
+  "height": 30,
+  "mime": "image/png",
+  "bytes": 1380
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/MicrosoftTeams-img.png": {
+  "path": "s3/MicrosoftTeams-img.png",
+  "width": 1176,
+  "height": 312,
+  "mime": "image/png",
+  "bytes": 66318
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft_.NET_logo (1).png": {
+  "path": "s3/Microsoft_.NET_logo (1).png",
+  "width": 233,
+  "height": 232,
+  "mime": "image/png",
+  "bytes": 1930
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Mining.jpg": {
+  "path": "s3/Mining.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 458720
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Mining.png": {
+  "path": "s3/Mining.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2795
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Nascom logo.png": {
+  "path": "s3/Nascom logo.png",
+  "width": 712,
+  "height": 224,
+  "mime": "image/png",
+  "bytes": 13425
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Networking.png": {
+  "path": "s3/Networking.png",
+  "width": 2560,
+  "height": 1318,
+  "mime": "image/png",
+  "bytes": 2565595
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News 1.png": {
+  "path": "s3/News 1.png",
+  "width": 2169,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 719747
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News 2.png": {
+  "path": "s3/News 2.png",
+  "width": 2169,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 570343
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News 3.png": {
+  "path": "s3/News 3.png",
+  "width": 2169,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 494495
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News 4.png": {
+  "path": "s3/News 4.png",
+  "width": 2169,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 619744
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News 5.png": {
+  "path": "s3/News 5.png",
+  "width": 2169,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 135198
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Oil_and_gas_new.png": {
+  "path": "s3/Oil_and_gas_new.png",
+  "width": 1920,
+  "height": 627,
+  "mime": "image/png",
+  "bytes": 1767956
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/OurprocessBackground.png": {
+  "path": "s3/OurprocessBackground.png",
+  "width": 1920,
+  "height": 1090,
+  "mime": "image/png",
+  "bytes": 864092
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/P1.png": {
+  "path": "s3/P1.png",
+  "width": 1488,
+  "height": 1400,
+  "mime": "image/png",
+  "bytes": 1587900
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/PHP-logo (1).png": {
+  "path": "s3/PHP-logo (1).png",
+  "width": 385,
+  "height": 209,
+  "mime": "image/png",
+  "bytes": 19217
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Predictive Analytics for Future Demand.png": {
+  "path": "s3/Predictive Analytics for Future Demand.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 1737155
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Production Planning.png": {
+  "path": "s3/Production Planning.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1445774
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Quality control  BG.jpg": {
+  "path": "s3/Quality control  BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 249216
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA-new.png": {
+  "path": "s3/RPA-new.png",
+  "width": 1512,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 20715
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA.jpg": {
+  "path": "s3/RPA.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 406144
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/RPA.png": {
+  "path": "s3/RPA.png",
+  "width": 1512,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 20715
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Robotic process automation.png": {
+  "path": "s3/Robotic process automation.png",
+  "width": 2168,
+  "height": 2336,
+  "mime": "image/png",
+  "bytes": 5827473
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/SAP.png": {
+  "path": "s3/SAP.png",
+  "width": 1576,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 60125
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/SAP_2011_logo (1).png": {
+  "path": "s3/SAP_2011_logo (1).png",
+  "width": 464,
+  "height": 229,
+  "mime": "image/png",
+  "bytes": 46758
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Sales force (1).png": {
+  "path": "s3/Sales force (1).png",
+  "width": 2560,
+  "height": 837,
+  "mime": "image/png",
+  "bytes": 3442592
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Salesforce.com_logo (1).png": {
+  "path": "s3/Salesforce.com_logo (1).png",
+  "width": 450,
+  "height": 320,
+  "mime": "image/png",
+  "bytes": 10471
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Staff augmentation BG.jpg": {
+  "path": "s3/Staff augmentation BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 353479
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Teams.png": {
+  "path": "s3/Teams.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 3299
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Technology (2).png": {
+  "path": "s3/Technology (2).png",
+  "width": 1400,
+  "height": 1920,
+  "mime": "image/png",
+  "bytes": 1409346
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Telecom.png": {
+  "path": "s3/Telecom.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 3714
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UI design icon (1).png": {
+  "path": "s3/UI design icon (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 4657
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UTS-139 (2).png": {
+  "path": "s3/UTS-139 (2).png",
+  "width": 2560,
+  "height": 1595,
+  "mime": "image/png",
+  "bytes": 4354772
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UTS-143.png": {
+  "path": "s3/UTS-143.png",
+  "width": 2316,
+  "height": 1644,
+  "mime": "image/png",
+  "bytes": 6722635
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UX research (1).png": {
+  "path": "s3/UX research (1).png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5734
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/UiPath.png": {
+  "path": "s3/UiPath.png",
+  "width": 122,
+  "height": 44,
+  "mime": "image/png",
+  "bytes": 1373
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Workplace.png": {
+  "path": "s3/Workplace.png",
+  "width": 2560,
+  "height": 1318,
+  "mime": "image/png",
+  "bytes": 1888762
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ai-in-fin.png": {
+  "path": "s3/ai-in-fin.png",
+  "width": 1980,
+  "height": 1484,
+  "mime": "image/png",
+  "bytes": 231485
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/application-development-tab.png": {
+  "path": "s3/application-development-tab.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 436660
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/application-development.jpg": {
+  "path": "s3/application-development.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 417439
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/area chart.png": {
+  "path": "s3/area chart.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5254
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/arrow-big-up-dash.png": {
+  "path": "s3/arrow-big-up-dash.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 1550
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/audio-waveform.png": {
+  "path": "s3/audio-waveform.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 4637
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/australia_map.png": {
+  "path": "s3/australia_map.png",
+  "width": 288,
+  "height": 288,
+  "mime": "image/png",
+  "bytes": 7025
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/automated-packaging-line-efficiency-production 1.png": {
+  "path": "s3/automated-packaging-line-efficiency-production 1.png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 617075
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/automation (2).png": {
+  "path": "s3/automation (2).png",
+  "width": 1400,
+  "height": 1920,
+  "mime": "image/png",
+  "bytes": 857121
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/automation-banner.png": {
+  "path": "s3/automation-banner.png",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/png",
+  "bytes": 735884
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/banking-small.jpg": {
+  "path": "s3/banking-small.jpg",
+  "width": 415,
+  "height": 158,
+  "mime": "image/jpeg",
+  "bytes": 65434
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/banking.png": {
+  "path": "s3/banking.png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 601068
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/bar-chart-4.png": {
+  "path": "s3/bar-chart-4.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 2829
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/bezie-cureve.png": {
+  "path": "s3/bezie-cureve.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6817
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/big-data.png": {
+  "path": "s3/big-data.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 239532
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/binoculars-5-svgrepo-com 1.png": {
+  "path": "s3/binoculars-5-svgrepo-com 1.png",
+  "width": 384,
+  "height": 384,
+  "mime": "image/png",
+  "bytes": 17687
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/blocks.png": {
+  "path": "s3/blocks.png",
+  "width": 192,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 2053
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/blueprism.png": {
+  "path": "s3/blueprism.png",
+  "width": 676,
+  "height": 120,
+  "mime": "image/png",
+  "bytes": 10394
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/botswana.png": {
+  "path": "s3/botswana.png",
+  "width": 310,
+  "height": 310,
+  "mime": "image/png",
+  "bytes": 3700
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/brain-cog.png": {
+  "path": "s3/brain-cog.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8604
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/business-people-teamwork 1.png": {
+  "path": "s3/business-people-teamwork 1.png",
+  "width": 2560,
+  "height": 683,
+  "mime": "image/png",
+  "bytes": 2468427
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/business.jpg": {
+  "path": "s3/business.jpg",
+  "width": 2560,
+  "height": 1752,
+  "mime": "image/jpeg",
+  "bytes": 990234
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/calendarcheck.png": {
+  "path": "s3/calendarcheck.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5401
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/careers-media-2.png": {
+  "path": "s3/careers-media-2.png",
+  "width": 2560,
+  "height": 1595,
+  "mime": "image/png",
+  "bytes": 2861059
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/certificate-star-svgrepo-com 1.png": {
+  "path": "s3/certificate-star-svgrepo-com 1.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7044
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/certification_badge2.png": {
+  "path": "s3/certification_badge2.png",
+  "width": 634,
+  "height": 169,
+  "mime": "image/png",
+  "bytes": 30923
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/circle-bar.png": {
+  "path": "s3/circle-bar.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7402
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/clock-3.png": {
+  "path": "s3/clock-3.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8008
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/closeup-diverse-people-joining-their-hands 1.png": {
+  "path": "s3/closeup-diverse-people-joining-their-hands 1.png",
+  "width": 2560,
+  "height": 2164,
+  "mime": "image/png",
+  "bytes": 6813590
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud (2).png": {
+  "path": "s3/cloud (2).png",
+  "width": 1400,
+  "height": 1920,
+  "mime": "image/png",
+  "bytes": 3999900
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud arch code.png": {
+  "path": "s3/cloud arch code.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6453
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud architecture.png": {
+  "path": "s3/cloud architecture.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5860
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud tick.png": {
+  "path": "s3/cloud tick.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5987
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud upload.png": {
+  "path": "s3/cloud upload.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6169
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-add (1).png": {
+  "path": "s3/cloud-add (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8676
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-banner.png": {
+  "path": "s3/cloud-banner.png",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/png",
+  "bytes": 658474
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-consulting.jpg": {
+  "path": "s3/cloud-consulting.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 561611
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-dev.png": {
+  "path": "s3/cloud-dev.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6926
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-development.jpg": {
+  "path": "s3/cloud-development.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 613833
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud-migration.jpg": {
+  "path": "s3/cloud-migration.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 215133
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/computer-svgrepo-com 1.png": {
+  "path": "s3/computer-svgrepo-com 1.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 1604
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/constant-research-cycle.png": {
+  "path": "s3/constant-research-cycle.png",
+  "width": 883,
+  "height": 550,
+  "mime": "image/png",
+  "bytes": 45012
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/consulting (2).png": {
+  "path": "s3/consulting (2).png",
+  "width": 1400,
+  "height": 1920,
+  "mime": "image/png",
+  "bytes": 3232610
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/contact-us-1.png": {
+  "path": "s3/contact-us-1.png",
+  "width": 2560,
+  "height": 731,
+  "mime": "image/png",
+  "bytes": 822648
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/core-values-icon 1.png": {
+  "path": "s3/core-values-icon 1.png",
+  "width": 533,
+  "height": 608,
+  "mime": "image/png",
+  "bytes": 23701
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cpu (2).png": {
+  "path": "s3/cpu (2).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7111
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/crosshair.png": {
+  "path": "s3/crosshair.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8745
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/crown.png": {
+  "path": "s3/crown.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7469
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-analysis-svgrepo-com 1.png": {
+  "path": "s3/data-analysis-svgrepo-com 1.png",
+  "width": 608,
+  "height": 608,
+  "mime": "image/png",
+  "bytes": 8749
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/data-integration-hub-svgrepo-com 1.png": {
+  "path": "s3/data-integration-hub-svgrepo-com 1.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7687
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/database (1).png": {
+  "path": "s3/database (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6634
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/database-zap.png": {
+  "path": "s3/database-zap.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5452
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devOps.png": {
+  "path": "s3/devOps.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 386584
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devops-detail.png": {
+  "path": "s3/devops-detail.png",
+  "width": 1720,
+  "height": 624,
+  "mime": "image/png",
+  "bytes": 108639
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/devops-development-fake.png": {
+  "path": "s3/devops-development-fake.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 163885
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/digital-evolution.png": {
+  "path": "s3/digital-evolution.png",
+  "width": 883,
+  "height": 342,
+  "mime": "image/png",
+  "bytes": 33458
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/digital-transformation.jpg": {
+  "path": "s3/digital-transformation.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 540346
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/digitalbusiness.png": {
+  "path": "s3/digitalbusiness.png",
+  "width": 499,
+  "height": 472,
+  "mime": "image/png",
+  "bytes": 9285
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/dollar-square.png": {
+  "path": "s3/dollar-square.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7373
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/engineering.jpg": {
+  "path": "s3/engineering.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 510225
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/featurefocus.png": {
+  "path": "s3/featurefocus.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6021
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/file-code-2.png": {
+  "path": "s3/file-code-2.png",
+  "width": 193,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 2187
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/fintech-small.jpg": {
+  "path": "s3/fintech-small.jpg",
+  "width": 415,
+  "height": 158,
+  "mime": "image/jpeg",
+  "bytes": 46815
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/fintech.png": {
+  "path": "s3/fintech.png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 462042
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/flash (1).png": {
+  "path": "s3/flash (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 4754
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/flowImage.png": {
+  "path": "s3/flowImage.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7398
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/framesimg.png": {
+  "path": "s3/framesimg.png",
+  "width": 1149,
+  "height": 689,
+  "mime": "image/png",
+  "bytes": 5559
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/goal.png": {
+  "path": "s3/goal.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7357
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/great_work_certification_badge.png": {
+  "path": "s3/great_work_certification_badge.png",
+  "width": 220,
+  "height": 373,
+  "mime": "image/png",
+  "bytes": 20562
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/hand-heart.png": {
+  "path": "s3/hand-heart.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6749
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/hand-helping.png": {
+  "path": "s3/hand-helping.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5761
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/handshake.png": {
+  "path": "s3/handshake.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5809
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/headphone.png": {
+  "path": "s3/headphone.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5852
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/heart-handshake.png": {
+  "path": "s3/heart-handshake.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6658
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/heart-next.png": {
+  "path": "s3/heart-next.png",
+  "width": 345,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7935
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/heart.png": {
+  "path": "s3/heart.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 6648
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/helping-bussiness-cycle.png": {
+  "path": "s3/helping-bussiness-cycle.png",
+  "width": 883,
+  "height": 550,
+  "mime": "image/png",
+  "bytes": 32675
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/home.png": {
+  "path": "s3/home.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 6142
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/horizontal.png": {
+  "path": "s3/horizontal.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6874
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/house (2).png": {
+  "path": "s3/house (2).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5231
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iPaas.png": {
+  "path": "s3/iPaas.png",
+  "width": 1512,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 162656
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (2).jpeg": {
+  "path": "s3/image (2).jpeg",
+  "width": 2560,
+  "height": 1641,
+  "mime": "image/jpeg",
+  "bytes": 661586
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (3).jpeg": {
+  "path": "s3/image (3).jpeg",
+  "width": 2560,
+  "height": 1440,
+  "mime": "image/jpeg",
+  "bytes": 427828
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (4).jpeg": {
+  "path": "s3/image (4).jpeg",
+  "width": 2560,
+  "height": 1593,
+  "mime": "image/jpeg",
+  "bytes": 503432
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (5).jpeg": {
+  "path": "s3/image (5).jpeg",
+  "width": 2560,
+  "height": 1469,
+  "mime": "image/jpeg",
+  "bytes": 468882
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image (6).jpeg": {
+  "path": "s3/image (6).jpeg",
+  "width": 2560,
+  "height": 1707,
+  "mime": "image/jpeg",
+  "bytes": 571987
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image 43.png": {
+  "path": "s3/image 43.png",
+  "width": 808,
+  "height": 365,
+  "mime": "image/png",
+  "bytes": 81233
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/image-square.png": {
+  "path": "s3/image-square.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 6171
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/implementation (1).png": {
+  "path": "s3/implementation (1).png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6441
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/indexing-pages-icon 1.png": {
+  "path": "s3/indexing-pages-icon 1.png",
+  "width": 548,
+  "height": 608,
+  "mime": "image/png",
+  "bytes": 9759
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/initialassesment.png": {
+  "path": "s3/initialassesment.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6282
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/insurance-small.jpg": {
+  "path": "s3/insurance-small.jpg",
+  "width": 415,
+  "height": 158,
+  "mime": "image/jpeg",
+  "bytes": 93907
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/insurance.png": {
+  "path": "s3/insurance.png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 320236
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/internet-svgrepo-com 1.png": {
+  "path": "s3/internet-svgrepo-com 1.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7738
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/internet-svgrepo-com 2.png": {
+  "path": "s3/internet-svgrepo-com 2.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6887
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/inventory-logistics-warehouse-svgrepo-com 1.png": {
+  "path": "s3/inventory-logistics-warehouse-svgrepo-com 1.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 3467
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iot-development-fake.png": {
+  "path": "s3/iot-development-fake.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 405919
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ipaas.jpg": {
+  "path": "s3/ipaas.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 569612
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/key refresh (1).png": {
+  "path": "s3/key refresh (1).png",
+  "width": 248,
+  "height": 248,
+  "mime": "image/png",
+  "bytes": 6899
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/kubernetes-services.jpg": {
+  "path": "s3/kubernetes-services.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 239006
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/laptop-minimal.png": {
+  "path": "s3/laptop-minimal.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 4326
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/last.png": {
+  "path": "s3/last.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5449
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/lightening.png": {
+  "path": "s3/lightening.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 5866
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkedin-rounded-svgrepo-com.png": {
+  "path": "s3/linkedin-rounded-svgrepo-com.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1514
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkfields_logo_1.png": {
+  "path": "s3/linkfields_logo_1.png",
+  "width": 543,
+  "height": 138,
+  "mime": "image/png",
+  "bytes": 10165
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/logo-electroneek 1 (1).png": {
+  "path": "s3/logo-electroneek 1 (1).png",
+  "width": 991,
+  "height": 241,
+  "mime": "image/png",
+  "bytes": 18877
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/managed-team.jpg": {
+  "path": "s3/managed-team.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 295296
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/manufacturing hero image.jpg": {
+  "path": "s3/manufacturing hero image.jpg",
+  "width": 2560,
+  "height": 1707,
+  "mime": "image/jpeg",
+  "bytes": 587493
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/manufacturing.png": {
+  "path": "s3/manufacturing.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1817
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/media-section.jpg": {
+  "path": "s3/media-section.jpg",
+  "width": 1920,
+  "height": 980,
+  "mime": "image/jpeg",
+  "bytes": 522762
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/medical2.png": {
+  "path": "s3/medical2.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5081
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoft-office-svgrepo-com 1.png": {
+  "path": "s3/microsoft-office-svgrepo-com 1.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 2810
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoft.png": {
+  "path": "s3/microsoft.png",
+  "width": 561,
+  "height": 121,
+  "mime": "image/png",
+  "bytes": 7064
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/microsoftDynamic-crop.jpg": {
+  "path": "s3/microsoftDynamic-crop.jpg",
+  "width": 955,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 15435
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/mining-small.jpg": {
+  "path": "s3/mining-small.jpg",
+  "width": 415,
+  "height": 158,
+  "mime": "image/jpeg",
+  "bytes": 64210
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/mining.png": {
+  "path": "s3/mining.png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 610909
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/new version.png": {
+  "path": "s3/new version.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6572
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/odobg-crop.png": {
+  "path": "s3/odobg-crop.png",
+  "width": 2560,
+  "height": 1197,
+  "mime": "image/png",
+  "bytes": 478535
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/odoo.png": {
+  "path": "s3/odoo.png",
+  "width": 1432,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 18082
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/oil&gas-small.jpg": {
+  "path": "s3/oil&gas-small.jpg",
+  "width": 415,
+  "height": 158,
+  "mime": "image/jpeg",
+  "bytes": 57231
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/oil&gas.png": {
+  "path": "s3/oil&gas.png",
+  "width": 480,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 688583
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/people (1).png": {
+  "path": "s3/people (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 9221
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/peoples.png": {
+  "path": "s3/peoples.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 8453
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/person-looking-finance-graphs 1-copy.png": {
+  "path": "s3/person-looking-finance-graphs 1-copy.png",
+  "width": 2560,
+  "height": 688,
+  "mime": "image/png",
+  "bytes": 2244924
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/pie-chart.png": {
+  "path": "s3/pie-chart.png",
+  "width": 883,
+  "height": 550,
+  "mime": "image/png",
+  "bytes": 19993
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/product-discovery.jpg": {
+  "path": "s3/product-discovery.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 428635
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/product-discovery.png": {
+  "path": "s3/product-discovery.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 417418
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/profile-2user.png": {
+  "path": "s3/profile-2user.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 7385
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/programming-arrows (1).png": {
+  "path": "s3/programming-arrows (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6783
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/prrofofconcept.png": {
+  "path": "s3/prrofofconcept.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6932
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/quality-control.png": {
+  "path": "s3/quality-control.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 350306
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ranking (2).png": {
+  "path": "s3/ranking (2).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 4545
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/real time performance monitoring.png": {
+  "path": "s3/real time performance monitoring.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 1570006
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/repeat.png": {
+  "path": "s3/repeat.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6591
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/resource.png": {
+  "path": "s3/resource.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5835
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rotate-3d.png": {
+  "path": "s3/rotate-3d.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6648
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rotate-cw (1).png": {
+  "path": "s3/rotate-cw (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 9741
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rpaconsulting.png": {
+  "path": "s3/rpaconsulting.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5959
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/rpaexcellence.png": {
+  "path": "s3/rpaexcellence.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 8612
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/salesforce-newone.png": {
+  "path": "s3/salesforce-newone.png",
+  "width": 1432,
+  "height": 560,
+  "mime": "image/png",
+  "bytes": 14796
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/scroll (1).png": {
+  "path": "s3/scroll (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5904
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/search-code.png": {
+  "path": "s3/search-code.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 5689
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/server-cog.png": {
+  "path": "s3/server-cog.png",
+  "width": 193,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 3608
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/services-svgrepo-com 2.png": {
+  "path": "s3/services-svgrepo-com 2.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8671
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/share (1).png": {
+  "path": "s3/share (1).png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 8021
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/shield-check.png": {
+  "path": "s3/shield-check.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 4623
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/shield-tick.png": {
+  "path": "s3/shield-tick.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 4957
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/smartphone.png": {
+  "path": "s3/smartphone.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5581
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/solution_discovery.png": {
+  "path": "s3/solution_discovery.png",
+  "width": 680,
+  "height": 350,
+  "mime": "image/png",
+  "bytes": 355225
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/solutions-discovery.jpg": {
+  "path": "s3/solutions-discovery.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 314999
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/solutions.png": {
+  "path": "s3/solutions.png",
+  "width": 1240,
+  "height": 1120,
+  "mime": "image/png",
+  "bytes": 1675280
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/southafrica.png": {
+  "path": "s3/southafrica.png",
+  "width": 288,
+  "height": 288,
+  "mime": "image/png",
+  "bytes": 5550
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/star2.png": {
+  "path": "s3/star2.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7095
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/strategy-and-analysis-cycle.png": {
+  "path": "s3/strategy-and-analysis-cycle.png",
+  "width": 883,
+  "height": 552,
+  "mime": "image/png",
+  "bytes": 75124
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/sucessmetric.png": {
+  "path": "s3/sucessmetric.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 5723
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/sun.png": {
+  "path": "s3/sun.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7118
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/target-and-arrow-svgrepo-com 1 (1).png": {
+  "path": "s3/target-and-arrow-svgrepo-com 1 (1).png",
+  "width": 384,
+  "height": 384,
+  "mime": "image/png",
+  "bytes": 12325
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/target-and-arrow-svgrepo-com 1.png": {
+  "path": "s3/target-and-arrow-svgrepo-com 1.png",
+  "width": 608,
+  "height": 608,
+  "mime": "image/png",
+  "bytes": 20304
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/task-square.png": {
+  "path": "s3/task-square.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6078
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/teams (2).png": {
+  "path": "s3/teams (2).png",
+  "width": 1400,
+  "height": 1920,
+  "mime": "image/png",
+  "bytes": 3428540
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/teams-banner.png": {
+  "path": "s3/teams-banner.png",
+  "width": 1920,
+  "height": 1096,
+  "mime": "image/png",
+  "bytes": 1438563
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/technology-advisory.jpg": {
+  "path": "s3/technology-advisory.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 543014
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/technology.jpg": {
+  "path": "s3/technology.jpg",
+  "width": 1920,
+  "height": 1100,
+  "mime": "image/jpeg",
+  "bytes": 1343619
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/telecom  BG.jpg": {
+  "path": "s3/telecom  BG.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 497141
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/telecom-small.jpg": {
+  "path": "s3/telecom-small.jpg",
+  "width": 415,
+  "height": 158,
+  "mime": "image/jpeg",
+  "bytes": 62487
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/telkom.png": {
+  "path": "s3/telkom.png",
+  "width": 479,
+  "height": 800,
+  "mime": "image/png",
+  "bytes": 644645
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/terminal automation.png": {
+  "path": "s3/terminal automation.png",
+  "width": 2560,
+  "height": 1042,
+  "mime": "image/png",
+  "bytes": 2372921
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/testablez.png": {
+  "path": "s3/testablez.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 6222
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/testoriumZ.png": {
+  "path": "s3/testoriumZ.png",
+  "width": 152,
+  "height": 152,
+  "mime": "image/png",
+  "bytes": 4257
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/thinking space.png": {
+  "path": "s3/thinking space.png",
+  "width": 2560,
+  "height": 1595,
+  "mime": "image/png",
+  "bytes": 3902976
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/tools quality control.png": {
+  "path": "s3/tools quality control.png",
+  "width": 2560,
+  "height": 1116,
+  "mime": "image/png",
+  "bytes": 431435
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/triangle.png": {
+  "path": "s3/triangle.png",
+  "width": 344,
+  "height": 344,
+  "mime": "image/png",
+  "bytes": 7645
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/uae_map.png": {
+  "path": "s3/uae_map.png",
+  "width": 288,
+  "height": 288,
+  "mime": "image/png",
+  "bytes": 5988
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ui-path.png": {
+  "path": "s3/ui-path.png",
+  "width": 496,
+  "height": 177,
+  "mime": "image/png",
+  "bytes": 7049
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/usa_map.png": {
+  "path": "s3/usa_map.png",
+  "width": 288,
+  "height": 288,
+  "mime": "image/png",
+  "bytes": 6058
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/users-2.png": {
+  "path": "s3/users-2.png",
+  "width": 256,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6278
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/validationheart.png": {
+  "path": "s3/validationheart.png",
+  "width": 296,
+  "height": 296,
+  "mime": "image/png",
+  "bytes": 7050
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/vector.png": {
+  "path": "s3/vector.png",
+  "width": 91,
+  "height": 91,
+  "mime": "image/png",
+  "bytes": 1218
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/vr-ar-svgrepo-com 1.png": {
+  "path": "s3/vr-ar-svgrepo-com 1.png",
+  "width": 257,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 3341
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/well-rounded-cycle.png": {
+  "path": "s3/well-rounded-cycle.png",
+  "width": 904,
+  "height": 550,
+  "mime": "image/png",
+  "bytes": 53686
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/x-twitter.png": {
+  "path": "s3/x-twitter.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2790
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/youtube-168-svgrepo-com.png": {
+  "path": "s3/youtube-168-svgrepo-com.png",
+  "width": 145,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1847
+ },
+ "https://www.linkfields.com/_next/static/media/Analysis.0cdd2844.png": {
+  "path": "site/_next/static/media/Analysis.0cdd2844.png",
+  "width": 192,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 3317
+ },
+ "https://www.linkfields.com/_next/static/media/FiraSans-Medium.9320fcdb.woff2": {
+  "path": "site/_next/static/media/FiraSans-Medium.9320fcdb.woff2",
+  "width": null,
+  "height": null,
+  "mime": "font/woff2",
+  "bytes": 24056
+ },
+ "https://www.linkfields.com/_next/static/media/FiraSans-Regular.763137b0.woff2": {
+  "path": "site/_next/static/media/FiraSans-Regular.763137b0.woff2",
+  "width": null,
+  "height": null,
+  "mime": "font/woff2",
+  "bytes": 23872
+ },
+ "https://www.linkfields.com/_next/static/media/Inter-Variable.6c596dfc.woff2": {
+  "path": "site/_next/static/media/Inter-Variable.6c596dfc.woff2",
+  "width": null,
+  "height": null,
+  "mime": "font/woff2",
+  "bytes": 48256
+ },
+ "https://www.linkfields.com/_next/static/media/LibreFranklin-Italic-Variable.59bebc4a.woff2": {
+  "path": "site/_next/static/media/LibreFranklin-Italic-Variable.59bebc4a.woff2",
+  "width": null,
+  "height": null,
+  "mime": "font/woff2",
+  "bytes": 32856
+ },
+ "https://www.linkfields.com/_next/static/media/LibreFranklin-Variable.757abdf0.woff2": {
+  "path": "site/_next/static/media/LibreFranklin-Variable.757abdf0.woff2",
+  "width": null,
+  "height": null,
+  "mime": "font/woff2",
+  "bytes": 29292
+ },
+ "https://www.linkfields.com/_next/static/media/app-window.b48cd409.png": {
+  "path": "site/_next/static/media/app-window.b48cd409.png",
+  "width": 192,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 2008
+ },
+ "https://www.linkfields.com/_next/static/media/arrow-orange.73037a85.png": {
+  "path": "site/_next/static/media/arrow-orange.73037a85.png",
+  "width": 13,
+  "height": 16,
+  "mime": "image/png",
+  "bytes": 238
+ },
+ "https://www.linkfields.com/_next/static/media/arrow.8ba402e4.png": {
+  "path": "site/_next/static/media/arrow.8ba402e4.png",
+  "width": 26,
+  "height": 30,
+  "mime": "image/png",
+  "bytes": 281
+ },
+ "https://www.linkfields.com/_next/static/media/arrow_down.08a14ef1.png": {
+  "path": "site/_next/static/media/arrow_down.08a14ef1.png",
+  "width": 22,
+  "height": 13,
+  "mime": "image/png",
+  "bytes": 338
+ },
+ "https://www.linkfields.com/_next/static/media/calendar-clock.751fb58a.png": {
+  "path": "site/_next/static/media/calendar-clock.751fb58a.png",
+  "width": 193,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 3749
+ },
+ "https://www.linkfields.com/_next/static/media/clipboard-pen-line.953b663e.png": {
+  "path": "site/_next/static/media/clipboard-pen-line.953b663e.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2220
+ },
+ "https://www.linkfields.com/_next/static/media/customization.c7004146.png": {
+  "path": "site/_next/static/media/customization.c7004146.png",
+  "width": 193,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 1394
+ },
+ "https://www.linkfields.com/_next/static/media/noNameArrow_1.8bf2b571.png": {
+  "path": "site/_next/static/media/noNameArrow_1.8bf2b571.png",
+  "width": 38,
+  "height": 22,
+  "mime": "image/png",
+  "bytes": 321
+ },
+ "https://www.linkfields.com/_next/static/media/odoo-img.995f4a89.png": {
+  "path": "site/_next/static/media/odoo-img.995f4a89.png",
+  "width": 1128,
+  "height": 508,
+  "mime": "image/png",
+  "bytes": 107422
+ },
+ "https://www.linkfields.com/_next/static/media/release.d1d1be47.png": {
+  "path": "site/_next/static/media/release.d1d1be47.png",
+  "width": 192,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 4596
+ },
+ "https://www.linkfields.com/_next/static/media/server-cog.6f06ecde.png": {
+  "path": "site/_next/static/media/server-cog.6f06ecde.png",
+  "width": 193,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 3608
+ },
+ "https://www.linkfields.com/_next/static/media/shield-check.bb7692da.png": {
+  "path": "site/_next/static/media/shield-check.bb7692da.png",
+  "width": 192,
+  "height": 192,
+  "mime": "image/png",
+  "bytes": 3598
+ },
+ "https://www.linkfields.com/backgroud-images/S1.png": {
+  "path": "site/backgroud-images/S1.png",
+  "width": 1920,
+  "height": 1000,
+  "mime": "image/png",
+  "bytes": 416373
+ },
+ "https://www.linkfields.com/backgroud-images/awards.jpg": {
+  "path": "site/backgroud-images/awards.jpg",
+  "width": 1920,
+  "height": 778,
+  "mime": "image/jpeg",
+  "bytes": 539115
+ },
+ "https://www.linkfields.com/backgroud-images/blue-gradient.jpg": {
+  "path": "site/backgroud-images/blue-gradient.jpg",
+  "width": 1920,
+  "height": 1186,
+  "mime": "image/jpeg",
+  "bytes": 192926
+ },
+ "https://www.linkfields.com/backgroud-images/buildingsTools.jpg": {
+  "path": "site/backgroud-images/buildingsTools.jpg",
+  "width": 1920,
+  "height": 773,
+  "mime": "image/jpeg",
+  "bytes": 280527
+ },
+ "https://www.linkfields.com/backgroud-images/careers.jpg": {
+  "path": "site/backgroud-images/careers.jpg",
+  "width": 1918,
+  "height": 570,
+  "mime": "image/jpeg",
+  "bytes": 472418
+ },
+ "https://www.linkfields.com/backgroud-images/careerspagebg.png": {
+  "path": "site/backgroud-images/careerspagebg.png",
+  "width": 1920,
+  "height": 1271,
+  "mime": "image/png",
+  "bytes": 622676
+ },
+ "https://www.linkfields.com/backgroud-images/constantly-innovating.jpg": {
+  "path": "site/backgroud-images/constantly-innovating.jpg",
+  "width": 2560,
+  "height": 1117,
+  "mime": "image/jpeg",
+  "bytes": 28488
+ },
+ "https://www.linkfields.com/backgroud-images/contact-us-dark.jpg": {
+  "path": "site/backgroud-images/contact-us-dark.jpg",
+  "width": 1920,
+  "height": 1044,
+  "mime": "image/jpeg",
+  "bytes": 137977
+ },
+ "https://www.linkfields.com/backgroud-images/contact-us-mobile-dark.jpg": {
+  "path": "site/backgroud-images/contact-us-mobile-dark.jpg",
+  "width": 390,
+  "height": 770,
+  "mime": "image/jpeg",
+  "bytes": 38656
+ },
+ "https://www.linkfields.com/backgroud-images/contact-us-mobile.jpg": {
+  "path": "site/backgroud-images/contact-us-mobile.jpg",
+  "width": 390,
+  "height": 770,
+  "mime": "image/jpeg",
+  "bytes": 28547
+ },
+ "https://www.linkfields.com/backgroud-images/contact-us.png": {
+  "path": "site/backgroud-images/contact-us.png",
+  "width": 1920,
+  "height": 940,
+  "mime": "image/png",
+  "bytes": 295404
+ },
+ "https://www.linkfields.com/backgroud-images/how-can-we-help.jpg": {
+  "path": "site/backgroud-images/how-can-we-help.jpg",
+  "width": 1920,
+  "height": 816,
+  "mime": "image/jpeg",
+  "bytes": 1374026
+ },
+ "https://www.linkfields.com/backgroud-images/location-world-map.jpg": {
+  "path": "site/backgroud-images/location-world-map.jpg",
+  "width": 2560,
+  "height": 1206,
+  "mime": "image/jpeg",
+  "bytes": 272098
+ },
+ "https://www.linkfields.com/backgroud-images/our-journey.jpg": {
+  "path": "site/backgroud-images/our-journey.jpg",
+  "width": 1920,
+  "height": 784,
+  "mime": "image/jpeg",
+  "bytes": 235692
+ },
+ "https://www.linkfields.com/backgroud-images/our-process.jpg": {
+  "path": "site/backgroud-images/our-process.jpg",
+  "width": 1920,
+  "height": 980,
+  "mime": "image/jpeg",
+  "bytes": 522762
+ },
+ "https://www.linkfields.com/backgroud-images/our-service.jpg": {
+  "path": "site/backgroud-images/our-service.jpg",
+  "width": 2560,
+  "height": 1581,
+  "mime": "image/jpeg",
+  "bytes": 39706
+ },
+ "https://www.linkfields.com/backgroud-images/our-solutions.jpg": {
+  "path": "site/backgroud-images/our-solutions.jpg",
+  "width": 1920,
+  "height": 778,
+  "mime": "image/jpeg",
+  "bytes": 288607
+ },
+ "https://www.linkfields.com/backgroud-images/our_solutions_bg.svg": {
+  "path": "site/backgroud-images/our_solutions_bg.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 873979
+ },
+ "https://www.linkfields.com/backgroud-images/persistently_innovative.jpg": {
+  "path": "site/backgroud-images/persistently_innovative.jpg",
+  "width": 1920,
+  "height": 784,
+  "mime": "image/jpeg",
+  "bytes": 203985
+ },
+ "https://www.linkfields.com/backgroud-images/salesforce-services-BG.png": {
+  "path": "site/backgroud-images/salesforce-services-BG.png",
+  "width": 2560,
+  "height": 1763,
+  "mime": "image/png",
+  "bytes": 691405
+ },
+ "https://www.linkfields.com/backgroud-images/uiux-design.jpg": {
+  "path": "site/backgroud-images/uiux-design.jpg",
+  "width": 1920,
+  "height": 512,
+  "mime": "image/jpeg",
+  "bytes": 473860
+ },
+ "https://www.linkfields.com/backgroud-images/whats-in-it-for-you.jpg": {
+  "path": "site/backgroud-images/whats-in-it-for-you.jpg",
+  "width": 1920,
+  "height": 770,
+  "mime": "image/jpeg",
+  "bytes": 655600
+ },
+ "https://www.linkfields.com/favicon.ico": {
+  "path": "site/favicon.ico",
+  "width": 48,
+  "height": 48,
+  "mime": "image/vnd.microsoft.icon",
+  "bytes": 15086
+ },
+ "https://www.linkfields.com/icons/dataCloud.svg": {
+  "path": "site/icons/dataCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 8239
+ },
+ "https://www.linkfields.com/icons/dropdown-arrow.svg": {
+  "path": "site/icons/dropdown-arrow.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 228
+ },
+ "https://www.linkfields.com/icons/educationCloud.svg": {
+  "path": "site/icons/educationCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2337
+ },
+ "https://www.linkfields.com/icons/exeperienceCloud.svg": {
+  "path": "site/icons/exeperienceCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 1821
+ },
+ "https://www.linkfields.com/icons/financialServiceCloud.svg": {
+  "path": "site/icons/financialServiceCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 3620
+ },
+ "https://www.linkfields.com/icons/healthCould.svg": {
+  "path": "site/icons/healthCould.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2352
+ },
+ "https://www.linkfields.com/icons/marketingCloud.svg": {
+  "path": "site/icons/marketingCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 3816
+ },
+ "https://www.linkfields.com/icons/nonProfitCloud.svg": {
+  "path": "site/icons/nonProfitCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 5115
+ },
+ "https://www.linkfields.com/icons/salesCloud.svg": {
+  "path": "site/icons/salesCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 3058
+ },
+ "https://www.linkfields.com/icons/serviceCloud.svg": {
+  "path": "site/icons/serviceCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2885
+ },
+ "https://www.linkfields.com/images/AWS_P_Logo.svg": {
+  "path": "site/images/AWS_P_Logo.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 5494
+ },
+ "https://www.linkfields.com/images/Industries%20S%20bg.png": {
+  "path": "site/images/Industries S bg.png",
+  "width": 2560,
+  "height": 1385,
+  "mime": "image/png",
+  "bytes": 479337
+ },
+ "https://www.linkfields.com/images/S1.png": {
+  "path": "site/images/S1.png",
+  "width": 1920,
+  "height": 1000,
+  "mime": "image/png",
+  "bytes": 416373
+ },
+ "https://www.linkfields.com/images/Soterion%20logo.svg": {
+  "path": "site/images/Soterion logo.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 17186
+ },
+ "https://www.linkfields.com/images/Teambackground.png": {
+  "path": "site/images/Teambackground.png",
+  "width": 1920,
+  "height": 1251,
+  "mime": "image/png",
+  "bytes": 445517
+ },
+ "https://www.linkfields.com/images/automation-anywhere-vector.svg": {
+  "path": "site/images/automation-anywhere-vector.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 14952
+ },
+ "https://www.linkfields.com/images/axure-2.png": {
+  "path": "site/images/axure-2.png",
+  "width": 772,
+  "height": 221,
+  "mime": "image/png",
+  "bytes": 18413
+ },
+ "https://www.linkfields.com/images/azure-svgrepo-com%201.svg": {
+  "path": "site/images/azure-svgrepo-com 1.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 4730
+ },
+ "https://www.linkfields.com/images/bannerMessage/right-arrow-banner.svg": {
+  "path": "site/images/bannerMessage/right-arrow-banner.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 518
+ },
+ "https://www.linkfields.com/images/blueprism.svg": {
+  "path": "site/images/blueprism.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 15513
+ },
+ "https://www.linkfields.com/images/carousal-left.svg": {
+  "path": "site/images/carousal-left.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 508
+ },
+ "https://www.linkfields.com/images/carousal-right.svg": {
+  "path": "site/images/carousal-right.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 499
+ },
+ "https://www.linkfields.com/images/image 84.png": {
+  "path": "site/images/image 84.png",
+  "width": 325,
+  "height": 320,
+  "mime": "image/png",
+  "bytes": 9662
+ },
+ "https://www.linkfields.com/images/image 85.png": {
+  "path": "site/images/image 85.png",
+  "width": 292,
+  "height": 264,
+  "mime": "image/png",
+  "bytes": 9954
+ },
+ "https://www.linkfields.com/images/image 86.png": {
+  "path": "site/images/image 86.png",
+  "width": 173,
+  "height": 256,
+  "mime": "image/png",
+  "bytes": 6311
+ },
+ "https://www.linkfields.com/images/image 87.png": {
+  "path": "site/images/image 87.png",
+  "width": 304,
+  "height": 304,
+  "mime": "image/png",
+  "bytes": 9032
+ },
+ "https://www.linkfields.com/images/image 89.png": {
+  "path": "site/images/image 89.png",
+  "width": 324,
+  "height": 320,
+  "mime": "image/png",
+  "bytes": 8193
+ },
+ "https://www.linkfields.com/images/image 90.png": {
+  "path": "site/images/image 90.png",
+  "width": 325,
+  "height": 320,
+  "mime": "image/png",
+  "bytes": 10139
+ },
+ "https://www.linkfields.com/images/link-45deg.png": {
+  "path": "site/images/link-45deg.png",
+  "width": 129,
+  "height": 128,
+  "mime": "image/png",
+  "bytes": 1706
+ },
+ "https://www.linkfields.com/images/linkedin.svg": {
+  "path": "site/images/linkedin.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 1615
+ },
+ "https://www.linkfields.com/images/linkfields_logo%201.svg": {
+  "path": "site/images/linkfields_logo 1.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 15302
+ },
+ "https://www.linkfields.com/images/microsoft-svgrepo-com%201.svg": {
+  "path": "site/images/microsoft-svgrepo-com 1.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 6120
+ },
+ "https://www.linkfields.com/images/mobile_btn.png": {
+  "path": "site/images/mobile_btn.png",
+  "width": 78,
+  "height": 24,
+  "mime": "image/png",
+  "bytes": 209
+ },
+ "https://www.linkfields.com/images/oddo-svgrepo-.svg": {
+  "path": "site/images/oddo-svgrepo-.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2493
+ },
+ "https://www.linkfields.com/images/plus.svg": {
+  "path": "site/images/plus.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 293
+ },
+ "https://www.linkfields.com/images/salesforce.svg": {
+  "path": "site/images/salesforce.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 11876
+ },
+ "https://www.linkfields.com/images/twitter-new-X.png": {
+  "path": "site/images/twitter-new-X.png",
+  "width": 543,
+  "height": 460,
+  "mime": "image/png",
+  "bytes": 77789
+ },
+ "https://www.linkfields.com/images/uipath-vector-logo%201.svg": {
+  "path": "site/images/uipath-vector-logo 1.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2190
+ },
+ "https://www.linkfields.com/images/youtube.svg": {
+  "path": "site/images/youtube.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 1095
+ },
+ "https://www.linkfields.com/videos/heroVideo.webm": {
+  "path": "site/videos/heroVideo.webm",
+  "width": null,
+  "height": null,
+  "mime": "video/webm",
+  "bytes": 3520933
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/SAP (1).png": {
+  "path": "s3/SAP (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2174
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/odoo (1).png": {
+  "path": "s3/odoo (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2638
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Microsoft dynamics (1).png": {
+  "path": "s3/Microsoft dynamics (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2295
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Sales force.png": {
+  "path": "s3/Sales force.png",
+  "width": 36,
+  "height": 36,
+  "mime": "image/png",
+  "bytes": 750
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/iPaas (1).png": {
+  "path": "s3/iPaas (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 3273
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/bot-svgrepo-com 1.png": {
+  "path": "s3/bot-svgrepo-com 1.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2231
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Frame 381.png": {
+  "path": "s3/Frame 381.png",
+  "width": 310,
+  "height": 280,
+  "mime": "image/png",
+  "bytes": 109121
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/engineering (1).png": {
+  "path": "s3/engineering (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 3235
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/consulting (1).png": {
+  "path": "s3/consulting (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2707
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/cloud (1).png": {
+  "path": "s3/cloud (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 3218
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/technology (1).png": {
+  "path": "s3/technology (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1811
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automation (1).png": {
+  "path": "s3/Automation (1).png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1471
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/IT infrastructure.png": {
+  "path": "s3/IT infrastructure.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1278
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Oil and gas.png": {
+  "path": "s3/Oil and gas.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1659
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Our approach.png": {
+  "path": "s3/Our approach.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 2788
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/News and articles.png": {
+  "path": "s3/News and articles.png",
+  "width": 144,
+  "height": 144,
+  "mime": "image/png",
+  "bytes": 1700
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/creative-people-working-office 1.png": {
+  "path": "s3/creative-people-working-office 1.png",
+  "width": 310,
+  "height": 280,
+  "mime": "image/png",
+  "bytes": 160585
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/linkfields_logo 1.png": {
+  "path": "s3/linkfields_logo 1.png",
+  "width": 724,
+  "height": 184,
+  "mime": "image/png",
+  "bytes": 13362
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Software solutions for banking.png": {
+  "path": "s3/Software solutions for banking.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1298282
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Real time fraud prevention.png": {
+  "path": "s3/Real time fraud prevention.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1615130
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Compliance Automation.png": {
+  "path": "s3/Compliance Automation.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1617214
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Customized financial services.png": {
+  "path": "s3/Customized financial services.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1550309
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Block chain security solutions.png": {
+  "path": "s3/Block chain security solutions.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1227430
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Custom AI for financial modeling.png": {
+  "path": "s3/Custom AI for financial modeling.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 2265791
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Streamlined digital payments.png": {
+  "path": "s3/Streamlined digital payments.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1312794
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automated compliance managenment.png": {
+  "path": "s3/Automated compliance managenment.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1251554
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/P2P platfrom integration.png": {
+  "path": "s3/P2P platfrom integration.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1794511
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Advanced fraud detection.png": {
+  "path": "s3/Advanced fraud detection.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1753297
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Streamlined Supply Chain Logistics.png": {
+  "path": "s3/Streamlined Supply Chain Logistics.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1844138
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Precision Marketing Automation.png": {
+  "path": "s3/Precision Marketing Automation.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1964155
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Enhanced Retailer and Distributor Connectivity.png": {
+  "path": "s3/Enhanced Retailer and Distributor Connectivity.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 2052741
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Customized E-Commerce Platforms.png": {
+  "path": "s3/Customized E-Commerce Platforms.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1868822
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automated Billing Solutions.png": {
+  "path": "s3/Automated Billing Solutions.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1907578
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Intelligent Customer Service.png": {
+  "path": "s3/Intelligent Customer Service.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1633397
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Predictive Analytics for Risk Assessment.png": {
+  "path": "s3/Predictive Analytics for Risk Assessment.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1671571
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Digital Document Management.png": {
+  "path": "s3/Digital Document Management.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1706221
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Production Execution.png": {
+  "path": "s3/Production Execution.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1500938
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Quality Control.png": {
+  "path": "s3/Quality Control.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1389099
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Plant Maintenance.png": {
+  "path": "s3/Plant Maintenance.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 2025292
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Quality Management.png": {
+  "path": "s3/Quality Management.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1810293
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Manufacturing Integration & Intelligence.png": {
+  "path": "s3/Manufacturing Integration & Intelligence.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1727612
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Supply Chain Integration.png": {
+  "path": "s3/Supply Chain Integration.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1285046
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Integrated Business Planning.png": {
+  "path": "s3/Integrated Business Planning.png",
+  "width": 1720,
+  "height": 700,
+  "mime": "image/png",
+  "bytes": 1703720
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/AI-Driven Maintenance.png": {
+  "path": "s3/AI-Driven Maintenance.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1234272
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Automated Material management.png": {
+  "path": "s3/Automated Material management.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1968445
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/ERP and IS-oil Consulting.png": {
+  "path": "s3/ERP and IS-oil Consulting.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 2278178
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Commerce and retail.png": {
+  "path": "s3/Commerce and retail.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1613898
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Enhanced Management Systems.png": {
+  "path": "s3/Enhanced Management Systems.png",
+  "width": 6880,
+  "height": 2800,
+  "mime": "image/png",
+  "bytes": 1441986
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Future Ready Technologies.png": {
+  "path": "s3/Future Ready Technologies.png",
+  "width": 6928,
+  "height": 2820,
+  "mime": "image/png",
+  "bytes": 1851044
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/salesforce-logo 1 1 (Traced) (1).png": {
+  "path": "s3/salesforce-logo 1 1 (Traced) (1).png",
+  "width": 436,
+  "height": 305,
+  "mime": "image/png",
+  "bytes": 12099
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/soterion 1.png": {
+  "path": "s3/soterion 1.png",
+  "width": 821,
+  "height": 153,
+  "mime": "image/png",
+  "bytes": 15093
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Odoo_logo 1.png": {
+  "path": "s3/Odoo_logo 1.png",
+  "width": 517,
+  "height": 169,
+  "mime": "image/png",
+  "bytes": 9501
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Our process BG.png": {
+  "path": "s3/Our process BG.png",
+  "width": 7680,
+  "height": 4360,
+  "mime": "image/png",
+  "bytes": 9587005
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/firos-nv-Z2c6ounF-iE-unsplash 1.png": {
+  "path": "s3/firos-nv-Z2c6ounF-iE-unsplash 1.png",
+  "width": 2720,
+  "height": 1400,
+  "mime": "image/png",
+  "bytes": 1316904
+ },
+ "https://images-linkfields-poc.s3.eu-west-2.amazonaws.com/Digital transformation.png": {
+  "path": "s3/Digital transformation.png",
+  "width": 2720,
+  "height": 1400,
+  "mime": "image/png",
+  "bytes": 5856472
+ },
+ "https://www.linkfields.com/icons/tableauIntegration.svg": {
+  "path": "site/icons/tableauIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2222
+ },
+ "https://www.linkfields.com/icons/sharepointIntegration.svg": {
+  "path": "site/icons/sharepointIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 4339
+ },
+ "https://www.linkfields.com/icons/erPintegration.svg": {
+  "path": "site/icons/erPintegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 4867
+ },
+ "https://www.linkfields.com/icons/docsignIntegration.svg": {
+  "path": "site/icons/docsignIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 9856
+ },
+ "https://www.linkfields.com/icons/stripeIntegration.svg": {
+  "path": "site/icons/stripeIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 3137
+ },
+ "https://www.linkfields.com/icons/outlookIntegration.svg": {
+  "path": "site/icons/outlookIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 4312
+ },
+ "https://www.linkfields.com/icons/mailchimpIntegration.svg": {
+  "path": "site/icons/mailchimpIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 7342
+ },
+ "https://www.linkfields.com/icons/sapIntegration.svg": {
+  "path": "site/icons/sapIntegration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2735
+ },
+ "https://www.linkfields.com/icons/soapApi.svg": {
+  "path": "site/icons/soapApi.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2759
+ },
+ "https://www.linkfields.com/icons/customApp.svg": {
+  "path": "site/icons/customApp.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 4392
+ },
+ "https://www.linkfields.com/icons/appExchangeProduct.svg": {
+  "path": "site/icons/appExchangeProduct.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 3451
+ },
+ "https://www.linkfields.com/icons/mobileFirst.svg": {
+  "path": "site/icons/mobileFirst.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 4392
+ },
+ "https://www.linkfields.com/icons/salesforceCloud.svg": {
+  "path": "site/icons/salesforceCloud.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 13960
+ },
+ "https://www.linkfields.com/icons/salesforceClassic.svg": {
+  "path": "site/icons/salesforceClassic.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2234
+ },
+ "https://www.linkfields.com/icons/salesforceMigration.svg": {
+  "path": "site/icons/salesforceMigration.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 12751
+ },
+ "https://www.linkfields.com/icons/managedServices.svg": {
+  "path": "site/icons/managedServices.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 5306
+ },
+ "https://www.linkfields.com/icons/remoteAdmin.svg": {
+  "path": "site/icons/remoteAdmin.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 7426
+ },
+ "https://www.linkfields.com/icons/productionsupport.svg": {
+  "path": "site/icons/productionsupport.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 2749
+ },
+ "https://www.linkfields.com/icons/useradmin.svg": {
+  "path": "site/icons/useradmin.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "bytes": 7142
+ }
+}

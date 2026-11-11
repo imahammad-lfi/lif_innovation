@@ -1,0 +1,27 @@
+# Copy to terraform.tfvars. Never commit real tokens or passwords.
+aws_region  = "eu-west-2"
+project_name = "linkfields"
+environment  = "production"
+domain_name  = "linkfields.com"
+
+# Required operator inputs. Prefer TF_VAR_cloudflare_api_token instead of placing it here.
+cloudflare_zone_id    = "REPLACE_WITH_CLOUDFLARE_ZONE_ID"
+cloudflare_account_id = "REPLACE_WITH_CLOUDFLARE_ACCOUNT_ID"
+
+# Cost/availability choices.
+single_nat_gateway      = true
+rds_instance_class      = "db.t4g.medium"
+rds_multi_az            = true
+deletion_protection     = true
+web_min_capacity        = 2
+web_max_capacity        = 10
+
+# Set false for the first apply only if ECR does not yet contain the image tags below.
+# After pushing the images, set true and apply again.
+web_task_count_enabled = true
+web_image_tag          = "latest"
+cms_image_tag          = "latest"
+
+# Rulesets differ by Cloudflare plan. Disable only the unavailable group, not DNS or TLS settings.
+enable_cloudflare_rules = true
+enable_turnstile        = false

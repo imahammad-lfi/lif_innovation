@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_home_careers_banner",
+  "info": { "displayName": "Home careers banner", "icon": "briefcase", "description": "Image-backed home careers CTA banner." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "backgroundImage": { "type": "media", "multiple": false, "allowedTypes": ["images", "files"] },
+    "heading": { "type": "text" },
+    "cta": { "type": "component", "repeatable": false, "component": "shared.link" }
+  }
+}

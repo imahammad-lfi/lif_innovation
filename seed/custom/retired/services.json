@@ -1,0 +1,16 @@
+{
+ "title": "Services",
+ "path": "/services",
+ "seo": {
+  "metaTitle": "Services",
+  "metaDescription": "",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "content.empty-hub"
+  }
+ ]
+}

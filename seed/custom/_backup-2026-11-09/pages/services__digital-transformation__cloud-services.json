@@ -1,0 +1,794 @@
+{
+  "title": "Cloud services",
+  "path": "/services/digital-transformation/cloud-services",
+  "seo": {
+    "metaTitle": "Cloud Services | Linkfields Innovations",
+    "metaDescription": "Cloud consulting, migration, development, Kubernetes and IT infrastructure services: plan, build and operate the foundations of digital transformation.",
+    "keywords": "cloud services, cloud consulting, cloud migration, cloud development, Kubernetes, IT infrastructure, Azure, AWS, Google Cloud",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Cloud services",
+      "subtitle": "Consulting, migration, development & infrastructure",
+      "backgroundImage": {
+        "__media": "s3/cloud-banner.png",
+        "width": 1920,
+        "height": 512,
+        "mime": "image/png",
+        "alt": "Cloud"
+      },
+      "anchorLinks": [
+        {
+          "label": "OVERVIEW",
+          "targetId": "overview"
+        },
+        {
+          "label": "WHAT WE OFFER",
+          "targetId": "what-we-offer"
+        },
+        {
+          "label": "OUR PROCESS",
+          "targetId": "our-process"
+        },
+        {
+          "label": "INFRASTRUCTURE",
+          "targetId": "infrastructure"
+        },
+        {
+          "label": "GET IN TOUCH",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "Access your data, no matter where you are",
+      "body": "Bringing the transformation in the manner in which businesses deal with data storage & computing power, without requiring active management through managed cloud services.\n\nBring cloud consulting, migration, development, Kubernetes and infrastructure into one delivery approach. Your business relies heavily on robust IT infrastructure to deliver exceptional user experiences and drive growth. At Linkfields, we specialise in transforming traditional IT environments into modern, software-defined, and intelligent infrastructures",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "services.what-we-offer",
+      "anchorId": "what-we-offer",
+      "eyebrow": "WHAT WE OFFER",
+      "heading": "Cloud expertise from strategy to operations",
+      "description": "Consulting, migration, development, Kubernetes and infrastructure, delivered as connected offerings on one page.",
+      "items": [],
+      "cards": [
+        {
+          "title": "Cloud consulting",
+          "description": "Through years of experience with cloud technologies, our experts help you make the right decision when it comes to cloud migration and other cloud-related services.",
+          "icon": {
+            "__media": "s3/task-square.png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud strategy roadmap"
+          }
+        },
+        {
+          "title": "Cloud migration",
+          "description": "Providing expert insights and support to organisations in moving their data centre capabilities to the cloud.",
+          "icon": {
+            "__media": "s3/cloud-add (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud advisory"
+          }
+        },
+        {
+          "title": "Cloud development",
+          "description": "Cloud development is a service where our cloud technicians and experts develop, design, and engineer the cloud environment itself.",
+          "icon": {
+            "__media": "s3/last.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "SaaS Development"
+          }
+        },
+        {
+          "title": "Kubernetes services",
+          "description": "Now you won’t have to make modifications to your cloud application with Kubernetes’ unfamiliar service discovery methodology.",
+          "icon": {
+            "__media": "s3/new version.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Roll out new versions with zero downtime"
+          }
+        },
+        {
+          "title": "IT infra­structure",
+          "description": "IT infrastructure needs to advance. We help shift from a big-budget, hardware-centric setup to a smart, software-driven infrastructure that is prepared to meet any challenge.",
+          "icon": {
+            "__media": "s3/ranking (2).png",
+            "alt": "IT infrastructure"
+          }
+        }
+      ],
+      "cardLayout": "three"
+    },
+    {
+      "__component": "sections.message-banner",
+      "anchorId": "",
+      "title": "Build the cloud foundations for your next stage",
+      "description": "Plan, modernise and operate your cloud environment with Linkfields.",
+      "ctaLabel": "Talk to us",
+      "ctaUrl": "/contact-us"
+    },
+    {
+      "__component": "hubs.what-we-offer",
+      "anchorId": "cloud-capabilities",
+      "eyebrow": "CLOUD CAPABILITIES",
+      "heading": "Facilitating the expertise required for change",
+      "body": "Renovation, reinvention, and resilience are the thought process that we put into our products. Transformations are evolutions of businesses into better, more efficient systems, that will endure the digital change of the future.",
+      "cards": [
+        {
+          "title": "Kubernetes Services",
+          "description": "Employing open-source automation software that speed up the development process and also can be cost-effective.",
+          "image": {
+            "__media": "s3/iot-development-fake.png",
+            "width": 680,
+            "height": 350,
+            "mime": "image/png",
+            "alt": "Kubernetes Services"
+          },
+          "cta": {
+            "label": "Explore this offering",
+            "href": "#kubernetes",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Cloud Development",
+          "description": "Focusing on creating and enhancing cloud-based applications and solutions.",
+          "image": {
+            "__media": "s3/devOps.png",
+            "width": 680,
+            "height": 350,
+            "mime": "image/png",
+            "alt": "Cloud Development"
+          },
+          "cta": {
+            "label": "Explore this offering",
+            "href": "#cloud-development",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Cloud Migration",
+          "description": "Developing the cloud architecture through planning and design, allowing for a more efficient cloud delivery process.",
+          "image": {
+            "__media": "s3/devops-development-fake.png",
+            "width": 680,
+            "height": 350,
+            "mime": "image/png",
+            "alt": "Cloud Migration"
+          },
+          "cta": {
+            "label": "Explore this offering",
+            "href": "#cloud-migration",
+            "openInNewTab": false
+          }
+        },
+        {
+          "title": "Cloud Consulting",
+          "description": "Helping you maintain cloud applications and computing systems through customised software and hardware configuration.",
+          "image": {
+            "__media": "s3/application-development-tab.png",
+            "width": 680,
+            "height": 350,
+            "mime": "image/png",
+            "alt": "Cloud Consulting"
+          },
+          "cta": {
+            "label": "Explore this offering",
+            "href": "#cloud-consulting",
+            "openInNewTab": false
+          }
+        }
+      ]
+    },
+    {
+      "__component": "services.what-we-offer",
+      "anchorId": "cloud-consulting",
+      "eyebrow": "CLOUD CONSULTING",
+      "heading": "Tried & tested practices for efficient migrations",
+      "description": "Providing expert insights to help you make the right cloud-related decisions. Through years of experience with cloud technologies, our experts help you make the right decision when it comes to cloud migration and other cloud-related services.",
+      "items": [],
+      "cards": [
+        {
+          "icon": {
+            "__media": "s3/task-square.png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud strategy roadmap"
+          },
+          "title": "Cloud strategy roadmap",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/dollar-square.png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud cost optimisation"
+          },
+          "title": "Cloud cost optimisation",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/people (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud migration preparation"
+          },
+          "title": "Cloud migration preparation",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud-add (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud performance monitoring"
+          },
+          "title": "Cloud performance monitoring",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/ranking (2).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud operational excellence"
+          },
+          "title": "Cloud operational excellence",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/shield-tick.png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud security assurance"
+          },
+          "title": "Cloud security assurance",
+          "description": ""
+        }
+      ],
+      "cardLayout": "three"
+    },
+    {
+      "__component": "services.media-process",
+      "anchorId": "our-process",
+      "eyebrow": "OUR PROCESS",
+      "heading": "Strategy & analysis for better results",
+      "description": "Our Cloud Consulting practice provides deep expertise of Cloud technologies including Azure, AWS, and Google Cloud in order to enable right-sized and cost-effective solutions for your organisation. We are well positioned to help you achieve your Cloud initiatives.",
+      "points": [],
+      "image": {
+        "__media": "s3/strategy-and-analysis-cycle.png",
+        "width": 883,
+        "height": 552,
+        "mime": "image/png",
+        "alt": "Strategy & analysis for better results"
+      },
+      "backgroundImage": {
+        "__media": "s3/OurprocessBackground.png",
+        "width": 1920,
+        "height": 1090,
+        "mime": "image/png",
+        "alt": ""
+      },
+      "partnersHeading": "",
+      "partners": [],
+      "variant": "standard"
+    },
+    {
+      "__component": "services.what-we-offer",
+      "anchorId": "cloud-migration",
+      "eyebrow": "CLOUD MIGRATION",
+      "heading": "Providing direction to your cloud journey",
+      "description": "Moving to a cloud-based infrastructure. Providing expert insights and support to organisations in moving their data centre capabilities to the cloud.",
+      "items": [
+        {
+          "title": "",
+          "description": "Building roadmaps & strategies with operational support to ensure a smooth transition during cloud re-architecting, re-platforming for databases & applications."
+        },
+        {
+          "title": "",
+          "description": "24/7 guidance and tech support throughout the migration process"
+        },
+        {
+          "title": "",
+          "description": "Preparing and planning by addressing migration requirements and infrastructure needs to minimise error"
+        }
+      ],
+      "cards": [
+        {
+          "icon": {
+            "__media": "s3/scroll (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Technology strategy/ IT roadmap"
+          },
+          "title": "Technology strategy/ IT roadmap",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/ranking (2).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Enterprise and solutions architecture"
+          },
+          "title": "Enterprise and solutions architecture",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud-add (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Cloud advisory"
+          },
+          "title": "Cloud advisory",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/flash (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Emerging and digital transformations"
+          },
+          "title": "Emerging and digital trans­formations",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/people (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "Systems advisory"
+          },
+          "title": "Systems advisory",
+          "description": ""
+        },
+        {
+          "icon": {
+            "__media": "s3/share (1).png",
+            "width": 256,
+            "height": 256,
+            "mime": "image/png",
+            "alt": "IT/OT integration"
+          },
+          "title": "IT/OT integration",
+          "description": ""
+        }
+      ],
+      "cardLayout": "two"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "cloud-migration-process",
+      "eyebrow": "OUR PROCESS",
+      "heading": "Helping businesses become future-ready",
+      "description": "While the cloud is an extremely innovative business platform, it is always best to be educated on its advantages and features to judge how you can make use of the cloud’s features and advantages. This involves considering the aforementioned benefits and constructing a carefully-designed cloud migration strategy.",
+      "backgroundImage": {
+        "__media": "s3/OurprocessBackground.png",
+        "width": 1920,
+        "height": 1090,
+        "mime": "image/png",
+        "alt": ""
+      },
+      "backgroundStyle": "image",
+      "image": {
+        "__media": "s3/Frame 393.png",
+        "width": 1787,
+        "height": 509,
+        "mime": "image/png",
+        "alt": "Helping businesses become future-ready"
+      },
+      "imageVariant": "standard",
+      "items": [
+        {
+          "title": "Define Strategy",
+          "description": "We spell out and establish customised cloud strategies for each business based on their specific business goals, workload priorities, and migration triggers."
+        },
+        {
+          "title": "Assess current infrastructure",
+          "description": "By assessing your non-cloud environments, we identify each element of your infrastructure to create a detailed inventory."
+        },
+        {
+          "title": "Plan Migration",
+          "description": "Once we get a clear view of your current infrastructure, we build a holistic migration plan based on your workload priorities, timelines, milestones, resources, and budget."
+        },
+        {
+          "title": "Ready your organisation",
+          "description": "Considering the intricacy of the plan, we assist and inform your IT & App Development teams about cloud technologies, migration tools, and operational processes, to ensure effortless transitioning."
+        },
+        {
+          "title": "Implement migration",
+          "description": "Your workloads are migrated to the cloud environment in waves as per the chosen migration strategy."
+        },
+        {
+          "title": "Secure and manage",
+          "description": "Once the migration is complete, we help you secure and manage your workloads across all cloud environments."
+        }
+      ],
+      "logos": []
+    },
+    {
+      "__component": "services.flow-cards",
+      "anchorId": "cloud-development",
+      "eyebrow": "CLOUD DEVELOPMENT",
+      "heading": "Achievement through innovation",
+      "description": "Building the cloud infrastructure. Cloud development is a service where our cloud technicians and experts develop, design, and engineer the cloud environment itself.",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/our-service.jpg",
+        "width": 2560,
+        "height": 1581,
+        "mime": "image/jpeg",
+        "alt": ""
+      },
+      "backgroundStyle": "image",
+      "cards": [
+        {
+          "icon": {
+            "__media": "s3/last.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "SaaS Development"
+          },
+          "title": "SaaS Development",
+          "description": "Benefit from the dynamic nature of SaaS to access customisable and scalable software solutions that grow with your business demands."
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud-dev.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "PaaS Development"
+          },
+          "title": "PaaS Development",
+          "description": "PaaS development guarantees maximum mobility in cloud, enabling us to maintain the development environment through continuous integration."
+        },
+        {
+          "icon": {
+            "__media": "s3/Frame 402 (57).png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "IaaS Development"
+          },
+          "title": "IaaS Development",
+          "description": "With vast experience in deploying private, public, and hybrid cloud infrastructures, we provide pay-as-you-go access to storage, networking, servers, etc."
+        }
+      ]
+    },
+    {
+      "__component": "services.flow-cards",
+      "anchorId": "cloud-development-process",
+      "eyebrow": "OUR PROCESS",
+      "heading": "Building things that will last",
+      "description": "",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/our-service.jpg",
+        "width": 2560,
+        "height": 1581,
+        "mime": "image/jpeg",
+        "alt": ""
+      },
+      "backgroundStyle": "image",
+      "cards": [
+        {
+          "icon": {
+            "__media": "s3/Bulb.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Ideation"
+          },
+          "title": "Ideation",
+          "description": "Innovating solutions and ideas based on the analysis of your specific software needs."
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud upload.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud App Planning"
+          },
+          "title": "Cloud App Planning",
+          "description": "Consulting high-level, functional and technical requirements to software."
+        },
+        {
+          "icon": {
+            "__media": "s3/area chart.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Business case"
+          },
+          "title": "Business case",
+          "description": "Creating TCO estimates of your cloud application to explore ways it can be optimised."
+        },
+        {
+          "icon": {
+            "__media": "s3/calendarcheck.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud App Dev Project Planning"
+          },
+          "title": "Cloud App Dev Project Planning",
+          "description": "A product development & management roadmap with a release plan and a prioritised features list."
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud architecture.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud app Architecture Design"
+          },
+          "title": "Cloud app Architecture Design",
+          "description": "Embracing a DevOps culture to enable agility and higher responsiveness to market demands."
+        },
+        {
+          "icon": {
+            "__media": "s3/bezie-cureve.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud App UX/UI Design"
+          },
+          "title": "Cloud App UX/UI Design",
+          "description": "UX and UI design is done with a view to ensure higher user conversion & retention."
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud arch code.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud App Dev"
+          },
+          "title": "Cloud App Dev",
+          "description": "Designing a CI/CD pipeline for cloud deployment and integrations with other software."
+        },
+        {
+          "icon": {
+            "__media": "s3/cloud tick.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud App QA and Testing"
+          },
+          "title": "Cloud App QA and Testing",
+          "description": "Conducting tests to examine functionality, integration, regression, performance, usability, compatibility, and security."
+        },
+        {
+          "icon": {
+            "__media": "s3/headphone.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud App Support and Evolution"
+          },
+          "title": "Cloud App Support and Evolution",
+          "description": "Experimenting with features to find the best fit (using A/B testing and other fact-based processes)."
+        }
+      ]
+    },
+    {
+      "__component": "services.flow-cards",
+      "anchorId": "kubernetes",
+      "eyebrow": "KUBERNETES",
+      "heading": "Our Kubernetes' services ensure high adaptability",
+      "description": "Kubernetes saves time and resources. Now you won’t have to make modifications to your cloud application with Kubernetes’ unfamiliar service discovery methodology.",
+      "backgroundImage": {
+        "__media": "site/backgroud-images/our-service.jpg",
+        "width": 2560,
+        "height": 1581,
+        "mime": "image/jpeg",
+        "alt": ""
+      },
+      "backgroundStyle": "image",
+      "cards": [
+        {
+          "icon": {
+            "__media": "s3/new version.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Roll out new versions with zero downtime"
+          },
+          "title": "Roll out new versions with zero downtime",
+          "description": "Kubernetes’ architectural design allows smoother changes without making any major alterations."
+        },
+        {
+          "icon": {
+            "__media": "s3/medical2.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Monitoring"
+          },
+          "title": "Monitoring",
+          "description": "Embracing a DevOps culture lets us increase agility and improve responsiveness to market demands."
+        },
+        {
+          "icon": {
+            "__media": "s3/resource.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Resource management"
+          },
+          "title": "Resource management",
+          "description": "We capture & analyse key performance metrics to verify that your cloud resources work as expected."
+        },
+        {
+          "icon": {
+            "__media": "s3/medical2.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Cloud and OS distribution portability"
+          },
+          "title": "Cloud and OS distribution portability",
+          "description": "Assess the maturity of your IT infrastructure and take specific steps to expedite cloud adoption."
+        },
+        {
+          "icon": {
+            "__media": "s3/repeat.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Continuous dev, integration and deployment"
+          },
+          "title": "Continuous dev, integration and deployment",
+          "description": "Strategizing to discover methods that can help reduce cloud spending, thereby getting you a better return on your investment."
+        },
+        {
+          "icon": {
+            "__media": "s3/smartphone.png",
+            "width": 296,
+            "height": 296,
+            "mime": "image/png",
+            "alt": "Agile application creation and deployment"
+          },
+          "title": "Agile application creation and deployment",
+          "description": "Create an action plan that covers your objectives and outlines a path to cloud adoption."
+        }
+      ]
+    },
+    {
+      "__component": "services.media-process",
+      "anchorId": "kubernetes-process",
+      "eyebrow": "OUR PROCESS",
+      "heading": "A well-rounded, well-tested approach",
+      "description": "Through our experience handling Kubernetes services, we’ve noticed a few main problems that businesses often face when they move more workloads to fully production-grade containers:",
+      "points": [
+        {
+          "title": "",
+          "description": "Monitoring running containers"
+        },
+        {
+          "title": "",
+          "description": "Handling breakdown containers"
+        },
+        {
+          "title": "",
+          "description": "Ensuring zero downtime during resilience of containers"
+        }
+      ],
+      "image": {
+        "__media": "s3/well-rounded-cycle.png",
+        "width": 904,
+        "height": 550,
+        "mime": "image/png",
+        "alt": "A well-rounded, well-tested approach"
+      },
+      "backgroundImage": {
+        "__media": "s3/OurprocessBackground.png",
+        "width": 1920,
+        "height": 1090,
+        "mime": "image/png",
+        "alt": ""
+      },
+      "partnersHeading": "",
+      "partners": [],
+      "variant": "standard"
+    },
+    {
+      "__component": "hubs.what-we-offer",
+      "anchorId": "infrastructure",
+      "eyebrow": "INFRASTRUCTURE",
+      "heading": "Facilitating the expertise required for change",
+      "body": "IT infrastructure needs to advance. We help shift from a big-budget, hardware-centric setup to a smart, software-driven infrastructure that is prepared to meet any challenge.",
+      "cards": [
+        {
+          "title": "End User Computing",
+          "description": "Device Management: Keep user devices secure, up-to-date, and performing at their best with our comprehensive management services.\n\nDesktop Virtualization: Enable flexible and remote working with secure virtual desktop solutions accessible from any device.\n\nApplication Delivery: Streamline application deployment and updates to enhance productivity, ensuring users have the tools they need.\n\nSupport Services: Get 24/7 IT support to resolve issues quickly, minimising downtime and maximising efficiency.",
+          "image": {
+            "__media": "s3/End user computing.png",
+            "width": 2560,
+            "height": 1318,
+            "mime": "image/png",
+            "alt": "End User Computing"
+          }
+        },
+        {
+          "title": "Networking",
+          "description": "Network Design and Implementation: Create custom network architecture tailored to your business needs for optimal performance and reliability.\n\nSecurity Solutions: Implement state-of-the-art security measures, including firewalls, intrusion detection, and secure access controls.\n\nWireless Networking: Provide seamless and secure wireless connectivity to enhance mobility and collaboration within your workplace.\n\nNetwork Monitoring and Management: Maintain peak network performance with proactive monitoring and management, identifying and resolving issues promptly.",
+          "image": {
+            "__media": "s3/Networking.png",
+            "width": 2560,
+            "height": 1318,
+            "mime": "image/png",
+            "alt": "Networking"
+          }
+        },
+        {
+          "title": "Digital Workplace",
+          "description": "Collaboration Tools: Enhance teamwork and communication with integrated collaboration platforms.\n\nUser Experience Management: Ensure a smooth and efficient user experience with tools that monitor and optimise performance.\n\nRemote Work Solutions: Enable secure and productive remote work environments with advanced digital tools and platforms.\n\nEmployee Engagement: Foster a positive and engaging work culture with digital tools designed to improve employee satisfaction and productivity.",
+          "image": {
+            "__media": "s3/Workplace.png",
+            "width": 2560,
+            "height": 1318,
+            "mime": "image/png",
+            "alt": "Digital Workplace"
+          }
+        }
+      ]
+    },
+    {
+      "__component": "sections.featured-insights",
+      "anchorId": "insights",
+      "heading": "",
+      "items": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "",
+      "subheading": "",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.social-banner",
+      "heading": "",
+      "links": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+ "title": "News and Articles",
+ "path": "/company/news-and-articles",
+ "seo": {
+  "metaTitle": "News & Articles",
+  "metaDescription": "News & Articles | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "content.news-listing",
+   "heading": "News and Articles"
+  }
+ ]
+}

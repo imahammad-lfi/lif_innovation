@@ -1,0 +1,254 @@
+[
+  {
+    "title": "AI code assurance: quality and security gates for AI-written change",
+    "slug": "ai-code-assurance",
+    "excerpt": "A practical guide to risk-based review, independent testing, code and supply-chain checks, and inspectable release evidence.",
+    "cover": {
+      "__media": "custom/hero-testoriumz.jpg",
+      "alt": "AI code assurance: quality and security gates for AI-written change",
+      "width": 1920,
+      "height": 512,
+      "mime": "image/jpeg"
+    },
+    "label": "Insight",
+    "tag": "Digital Transformation",
+    "categoryGroup": "Technology",
+    "keyword": "Digital Transformation",
+    "authorName": "Linkfields Insights",
+    "authorAvatar": null,
+    "publishedDate": "2026-11-09",
+    "content": "AI-assisted development changes how code arrives in a repository. It does not change who is accountable when that code reaches production. A plausible implementation can still misunderstand a business rule, introduce an unsafe dependency or pass tests that repeat the same mistaken assumption.\n\nThe enterprise question is therefore not whether developers may use AI. It is whether every change can move through a delivery process that makes its intent, quality and security inspectable. AI code assurance should be designed around that process, rather than added as a final review of the generated text.\n\n## Start with the risk of the change\n\nTreat AI-written code as untrusted input until it has passed the controls appropriate to its use. That does not mean banning it or applying the heaviest review to every edit. It means classifying a change by what it can affect: customer data, authentication, financial calculations, privileged operations or service availability.\n\nA formatting change and a new payment authorisation path should not share an identical approval route. Establish a risk-based policy that identifies required reviewers, automated checks and evidence for each class of change. Include ordinary human-written changes in the same policy so that teams cannot bypass assurance by changing an attribution label.\n\nRecord the requirement, repository and accountable owner in the change request. Where AI assistance is relevant to review, capture the approved tool and the parts of the change it influenced. Avoid collecting sensitive prompts by default; provenance should help assurance without creating an unnecessary store of confidential information.\n\n## Gate one: make the intended behaviour testable\n\nBefore generating an implementation, define acceptance criteria that a reviewer can challenge. Describe expected behaviour, excluded behaviour and the failure paths that matter. A request to improve validation is too vague; a request specifying permitted values, rejection behaviour and logging expectations gives the team something meaningful to test.\n\nKeep test design independent of the implementation wherever practical. If the same AI interaction produces both code and tests, both may encode the same incorrect interpretation. Ask someone with domain knowledge to review the examples and edge cases before treating a passing test suite as release evidence.\n\nAn illustrative acceptance set might cover a normal transaction, missing input, an unauthorised user and an interrupted downstream service. The important point is not the number of tests. It is whether their assertions represent the business and security conditions the change must satisfy.\n\n## Gate two: inspect code and dependencies together\n\nA repository check should examine more than syntax. Review data handling, access checks, error paths and any new packages introduced by the change. A generated dependency reference can be wrong, unnecessary or inappropriate for the organisation’s licensing and security requirements.\n\nCode scanning and supply-chain analysis provide signals, not a complete judgement. Assign owners to findings, distinguish genuinely exploitable issues from irrelevant matches, and require a reason for suppressing a result. Link a finding to the relevant commit so that a subsequent change does not silently inherit an old approval.\n\nVectorX supports code scanning and supply-chain analysis from repository to release. In the Linkfields AI Code Assurance value play, it sits alongside quality engineering rather than replacing it. A clean scan does not show that an application calculates a customer balance correctly, just as a correct calculation does not establish that its dependencies are safe.\n\n## Gate three: test the connected system\n\nGenerated code often appears correct in isolation. Enterprise failure can emerge when it meets an existing interface, role model, data shape or deployment configuration. Include integration and regression tests for the journeys that the change touches, with realistic boundary conditions and controlled test data.\n\nSeparate unit, integration and end-to-end evidence so reviewers can see what each check establishes. Make environment differences explicit. A test against a local stub cannot be presented as proof that a production integration will behave identically.\n\nThe testoriumz platform combines test management, low-code automation, AI root-cause analysis and CI/CD integration. These capabilities support continuous quality engineering and the organisation of release evidence. AI-assisted root-cause analysis should inform investigation; an accountable engineer still needs to verify the diagnosis and agree the corrective action.\n\n## Gate four: decide what can be released\n\nContinuous integration and continuous delivery, or CI/CD, should connect checks to a release decision. Specify which failures block promotion, who may approve an exception and how that exception expires. A dashboard that shows a failed check while allowing an unrecorded release is observability without effective control.\n\nPrepare a release record that links the requirement, reviewed commit, test results, security findings and approval. Include deployment and rollback considerations appropriate to the application. Where a release changes data, identify the reconciliation checks that will show whether the change behaved as intended.\n\nCyber-Safe Delivery and Automated Testing & Release Assurance Packs are reusable Linkfields delivery IP that can be scoped around these requirements. The organisation’s policies, platform constraints and acceptance criteria still need to be agreed. Reuse should make evidence more consistent, not conceal decisions inside a generic checklist.\n\n## Keep an exception route that people can use\n\nA delivery process also needs a controlled path for urgent change. Without one, teams may work around controls during an incident. Define the minimum evidence, authorised decision-maker and follow-up review for an emergency release before an emergency occurs.\n\nThe exception record should state the risk accepted, the reason ordinary checks could not be completed and the action needed to close the exception. Revisit recurring exceptions as a process problem. A temporary bypass that becomes routine is a sign that the gate or the delivery model needs adjustment.\n\nApply similar discipline to model-generated suggestions during remediation. Re-running generation until a check passes can remove a visible symptom while leaving the underlying defect. Review the actual change and its behaviour, not just the final status colour.\n\n## Measure assurance alongside delivery flow\n\nDo not judge adoption solely by generated lines of code or the volume of completed tickets. Those measures can reward unnecessary change. Instead, agree a baseline for the application and review lead time alongside escaped defects, reopened findings, exception use and time spent assembling release evidence.\n\nUse those measures to ask practical questions. Are reviews identifying problems earlier? Are repeated failures addressed at their source? Can an application owner explain why the latest release was accepted? Improvements should be assessed against the agreed baseline rather than attributed automatically to AI tooling.\n\n## A practical starting engagement\n\nStart with one repository and a clearly bounded delivery path. Map existing checks, select representative changes and agree a risk classification with engineering, quality and security owners. Then test the proposed gates against a normal release and an exception scenario before expanding their use.\n\nThe useful outputs are a gate policy, ownership map, prioritised remediation backlog and sample release evidence pack. They give the buyer something concrete to inspect and the team a process it can operate. Linkfields combines quality engineering, VectorX, testoriumz and Cyber-Safe Delivery around the [AI Code Assurance value play](/solutions/ai-code-assurance).\n\nExplore [quality engineering](/services/digital-transformation/quality-engineering), [VectorX](/products-and-accelerators/vectorx) and [testoriumz](/products-and-accelerators/testoriumz), or [discuss the assurance gap in your delivery pipeline](/contact-us).\n",
+    "featured": true,
+    "sharePrompt": "Share this perspective",
+    "subscriptionEyebrow": "",
+    "subscriptionHeading": "",
+    "subscriptionPlaceholder": "",
+    "relatedEyebrow": "",
+    "relatedMessage": "",
+    "subscriptionBackground": {
+      "__media": "site/backgroud-images/careers.jpg",
+      "width": 1918,
+      "height": 570,
+      "mime": "image/jpeg",
+      "alt": "Newsletter background"
+    },
+    "seo": {
+      "metaTitle": "AI code assurance | Linkfields",
+      "metaDescription": "Design quality and security gates for AI-written code, with risk-based review, independent testing, supply-chain checks and traceable release evidence.",
+      "keywords": "Digital Transformation, enterprise insights",
+      "canonicalUrl": "",
+      "noIndex": false
+    },
+    "order": 0
+  },
+  {
+    "title": "Governing enterprise AI with a single gateway",
+    "slug": "single-ai-gateway",
+    "excerpt": "Connect application policy, guardrails, cost ownership and tracing without confusing observability with approval to operate.",
+    "cover": {
+      "__media": "custom/hero-ai-governance.jpg",
+      "alt": "Governing enterprise AI with a single gateway",
+      "width": 1920,
+      "height": 512,
+      "mime": "image/jpeg"
+    },
+    "label": "Insight",
+    "tag": "Data & AI",
+    "categoryGroup": "Technology",
+    "keyword": "Data & AI",
+    "authorName": "Linkfields Insights",
+    "authorAvatar": null,
+    "publishedDate": "2026-11-09",
+    "content": "Enterprise AI rarely stays inside one application. A knowledge assistant, a finance reporting tool and a developer workflow may use different models, credentials and monitoring conventions. Each can look manageable on its own while the organisation loses a consistent view of what data is sent, what decisions are made and what usage costs.\n\nA single AI gateway offers a common control point for approved AI requests. Its value is not simply routing traffic to a model. It is making policy enforceable and operational evidence comparable across tools. That requires an operating model as well as a technical component.\n\n## Establish what the gateway should control\n\nBegin with an inventory of AI-enabled applications and the people accountable for them. Include experiments, vendor features and internal agents, not just projects labelled as AI programmes. Identify the business purpose, data sensitivity, model provider and whether the application can take an action beyond producing text.\n\nTranslate the inventory into explicit policy decisions. Which providers and models are approved for each use case? Which data may leave a particular environment? When must a person approve an action? These questions should be answered before a team treats a gateway connection as permission to operate.\n\nA common gateway cannot govern requests that bypass it. Map every integration path, establish how credentials are managed and define how approved applications are connected. Where a vendor-controlled feature cannot use the gateway, document that boundary and its alternative controls rather than describing universal coverage.\n\n## Make guardrails specific to the use case\n\nA guardrail is useful when it responds to a defined risk. An internal policy assistant may need controls on retrieved documents and confidentiality. A customer-facing tool may need restrictions on advice and a clear escalation route. An agent that changes records needs authorisation checks on its actions, not just filters on its language.\n\nSeparate the controls applied before a request from those applied after a response. Before processing, validate the application identity and permitted destination. Afterwards, check the output against the relevant policy and decide whether to return, redact, reject or escalate it.\n\nAvoid presenting a blocked prompt as evidence that the whole application is safe. Test the surrounding workflow, including retrieval, user permissions and tool access. An apparently harmless answer can still reveal information that the user should not have been allowed to retrieve.\n\n## Treat identity as an application concern\n\nA model provider’s API key does not explain which employee or business process initiated a request. The application should pass an appropriate identity and use-case context to its control layer. Decide which attributes are genuinely necessary for policy and monitoring, and avoid copying personal data into every trace.\n\nFor agents, separate permission to ask a question from permission to execute a tool. Constrain the available actions and require explicit approval where the business impact warrants it. A prompt instruction asking an agent to behave responsibly is not a substitute for enforceable access control.\n\nDocument how service identities are issued, rotated and revoked. Include the route for suspending an application that behaves unexpectedly. The operating team should not need to search through individual developers’ accounts to stop a problematic integration.\n\n## Connect cost visibility to ownership\n\nAn organisation-wide bill is too coarse to support a decision about a specific AI use case. Attribute usage to the application and accountable cost owner, with enough detail to investigate changes in demand. Record the model and request characteristics that influence the cost without retaining unnecessary content.\n\nAgree budget policies, alerts and the response to a breached threshold. Some workloads can pause; others need a controlled fallback or escalation. The policy should reflect the importance of the business process rather than applying the same response to every application.\n\nCost control is also a design question. Repeated retrieval, unnecessary context and unbounded agent loops can waste resources even when a provider’s rate appears acceptable. Review expensive traces with the application team and test changes against quality criteria before reducing context or moving to another model.\n\n## Use tracing to explain behaviour\n\nA useful trace connects a request to the application version, model, retrieval steps, tool actions and relevant policy decisions. It should help an operator reconstruct what happened when a user challenges a result. Agree identifiers that connect the AI trace to the application’s own logs and incident record.\n\nObservability is not an instruction to store everything. Prompts, retrieved documents and outputs can contain confidential or personal information. Set redaction, access and retention rules before collecting them, then test whether the retained evidence is sufficient for investigation.\n\nSeparate operational tracing from evaluation. Traces show what an application did; evaluation asks whether that behaviour met an agreed standard. Both are needed, but a complete trace does not establish the correctness of an answer or the appropriateness of an action.\n\n## Evaluate changes before expanding use\n\nCreate an evaluation set based on the intended workflow, including ordinary requests and known failure conditions. Ask domain owners to define what acceptable results look like. Include refusal, escalation and permission-boundary behaviour, not just fluent answers to straightforward questions.\n\nRepeat relevant evaluations when a model, prompt, retrieval source or tool configuration changes. A gateway makes a provider switch technically convenient, but the business behaviour may change. Treat that switch as a controlled application change with acceptance evidence.\n\nFor a pilot, keep the scope narrow enough that reviewers can inspect results meaningfully. The decision to scale should consider risk, operating effort, user adoption and quality, as well as usage cost. Do not confuse growing request volumes with realised business value.\n\n## Be clear about the Linkfields layer\n\nLinkfields AI Governance is described in the corporate portfolio as one gateway for every AI tool, covering guardrails, cost and tracing, built on Portkey and Opik. Those underlying technologies should be named honestly. The Linkfields proposition is the integrated governance layer and services around it, not a claim that every underlying gateway or observability component was created by Linkfields.\n\nAn enterprise discussion should establish the integration scope, policies, deployment constraints and responsibilities for operation. Buyers should ask which capabilities come from the underlying platforms, which are configured for their environment and which Linkfields deliverables are included. Product availability by licence, subscription or SaaS does not remove the need to agree those particulars.\n\n## Start with a policy-to-evidence pilot\n\nSelect a bounded application with an accountable business owner. Document its request path and data handling, then connect it to an agreed gateway policy. Test permitted requests, rejected requests, cost escalation and an investigation scenario before treating the implementation as ready for broader use.\n\nThe useful outputs are an application inventory, policy matrix, integration design, evaluation set and operating runbook. A sample trace and cost report should show how the business owner will inspect the application in practice. This is an engagement pattern, not a claim about a named customer deployment.\n\nExplore [AI Governance](/products-and-accelerators/ai-governance), [AI strategy and governance](/services/data-ai/ai-strategy-governance) and [AI security and GRC](/services/cyber-security/ai-security-grc), or [discuss a governed enterprise AI rollout](/contact-us).\n",
+    "featured": false,
+    "sharePrompt": "Share this perspective",
+    "subscriptionEyebrow": "",
+    "subscriptionHeading": "",
+    "subscriptionPlaceholder": "",
+    "relatedEyebrow": "",
+    "relatedMessage": "",
+    "subscriptionBackground": {
+      "__media": "site/backgroud-images/careers.jpg",
+      "width": 1918,
+      "height": 570,
+      "mime": "image/jpeg",
+      "alt": "Newsletter background"
+    },
+    "seo": {
+      "metaTitle": "A single enterprise AI gateway | Linkfields",
+      "metaDescription": "Govern enterprise AI through a common gateway for guardrails, cost and tracing, with clear application ownership, evaluation and operating boundaries.",
+      "keywords": "Data & AI, enterprise insights",
+      "canonicalUrl": "",
+      "noIndex": false
+    },
+    "order": 1
+  },
+  {
+    "title": "Continuous cyber evidence for regulated industries",
+    "slug": "continuous-cyber-evidence",
+    "excerpt": "Connect control requirements, exposure validation, remediation and retesting into an evidence chain that remains useful as systems change.",
+    "cover": {
+      "__media": "custom/hero-cyber-security.jpg",
+      "alt": "Continuous cyber evidence for regulated industries",
+      "width": 1920,
+      "height": 512,
+      "mime": "image/jpeg"
+    },
+    "label": "Insight",
+    "tag": "Cyber Security",
+    "categoryGroup": "Technology",
+    "keyword": "Cyber Security",
+    "authorName": "Linkfields Insights",
+    "authorAvatar": null,
+    "publishedDate": "2026-11-09",
+    "content": "A security report describes conditions at a particular time. A regulated organisation must also understand what happened afterwards: which exposure was remediated, whether the control still operates and who accepted any remaining risk. The gap between assessment and ongoing evidence is where a credible readiness programme can become a collection of outdated documents.\n\nContinuous cyber evidence is not an assertion of automatic compliance. It is a disciplined way to connect control requirements, technical observations, remediation and accountable decisions as systems change. The aim is to make readiness inspectable without waiting for the next audit to assemble the story.\n\n## Begin with the obligation and the system\n\nStart by identifying the applicable obligations with the organisation’s legal, compliance and risk owners. A generic control framework may be a useful organising reference, but it does not determine which laws, contracts or supervisory expectations apply. Record the scope and rationale for each selected requirement.\n\nConnect those requirements to the systems, identities, data and processes they affect. An access-control requirement means little if nobody can identify the relevant applications or the person accountable for their permissions. The asset and service inventory gives the evidence programme somewhere concrete to begin.\n\nKeep the scope explicit. A review of internet-facing infrastructure is not a review of every internal system. A successful assessment of one application cannot be presented as a conclusion about an entire enterprise or legal entity.\n\n## Define what will count as evidence\n\nFor each control, agree the evidence source, owner and review expectation. Some evidence can come from technical telemetry; other evidence may require an approval, training record or documented decision. Distinguish the existence of a policy from evidence that the policy is being followed.\n\nDescribe what a reviewer needs to establish. For an identity control, that may include the authorised role, the approval for a permission change and a later check that the permission remains appropriate. A screenshot of an administrative console may omit the decision and its context.\n\nSpecify timestamps and the period the evidence covers. A recently generated report can contain old observations. Reviewers need to know when a control was tested, when a condition changed and whether the evidence still applies to the current system.\n\n## Connect exposure validation to control mapping\n\nExposure management starts with understanding what is reachable and how it can be misused. Findings should be connected to the affected service and the business consequence, not left as an isolated technical list. Prioritisation should reflect both the observation and the organisation’s context.\n\nVajraX provides AI-powered exposure validation of the external attack surface. In the Linkfields Regulated Cyber Readiness value play, it is combined with Regulatory Readiness & Control Mapping. That relationship matters: a validated exposure becomes more useful when an owner can see which requirement and remediation decision it affects.\n\nDo not equate the absence of an external finding with full control effectiveness. Identity configuration, internal data handling and operational processes may require other tests. Document those boundaries so that the evidence pack does not imply more coverage than the assessment actually provides.\n\n## Make remediation a closed loop\n\nA remediation ticket is not proof that a risk has been removed. Record the initial observation, its scope and the proposed treatment. Assign an accountable owner, an agreed priority and a route for escalating work that cannot be completed under the current plan.\n\nAfter the change, retest the relevant condition and attach the result to the original finding. Include the affected version or asset and the test date. If the result is inconclusive, preserve that status rather than turning the ticket green because someone completed an implementation task.\n\nSome risks will be accepted or mitigated instead of removed. The evidence should identify the authorised decision-maker, the reason, any compensating control and the review condition. Risk acceptance is a governance decision, not a technical tool’s default outcome.\n\n## Build evidence into everyday change\n\nEvidence becomes stale when the systems it describes change without a corresponding review. Identify the changes that should trigger reassessment: a new external service, altered access, a significant application release or a change to an AI integration. Tie those triggers to the organisation’s existing delivery and operating processes.\n\nFor software changes, preserve a connection between code review, security checks and release acceptance. For cloud and identity changes, record the approved configuration and the validation performed afterwards. Evidence should travel with the change rather than be reconstructed from disconnected inboxes.\n\nLinkfields delivery accelerators include Continuous Compliance & Audit Evidence and Cloud, AI & Identity Security Baselines. These reusable artefacts can support a scoped readiness engagement. Their use does not constitute a certification, legal opinion or assurance that every regulatory requirement has been met.\n\n## Protect the evidence itself\n\nEvidence repositories can contain architecture, privileged account details and exploitable weaknesses. Apply access control and retention rules that match this sensitivity. A programme that creates a widely accessible archive of security findings can introduce a new exposure while trying to document existing ones.\n\nKeep an auditable link between original observations and summaries prepared for a committee or regulator. Avoid editing away material qualifications to make a dashboard appear simpler. If the evidence is incomplete, the summary should show the gap and the plan to address it.\n\nSeparate production data from illustrative samples. Where an evidence pack needs to show a process, use an approved sanitised example and label it clearly. Do not circulate customer or employee information merely because it appears in a convenient log extract.\n\n## Give governance owners a useful view\n\nA committee does not need every raw finding, but it does need enough context to challenge the programme. Show the scoped requirements, open gaps, changes in exposure and decisions requiring approval. Make the freshness of evidence visible alongside the status of the control.\n\nAgree measures that support action, such as overdue remediation, findings reopened after retest, accepted risks awaiting review and controls with missing evidence. Establish definitions before reporting trends. A larger evidence archive is not automatically a stronger control environment.\n\nFor banking, insurance, healthcare or public-sector environments, the review may involve different obligations and decision-makers. Adapt the control map to that context rather than publishing one universal checklist. The operating model should identify who decides when specialist legal or regulatory advice is needed.\n\n## Begin with one inspectable evidence chain\n\nChoose a critical service and a small, agreed set of controls. Trace one exposure from discovery through prioritisation, remediation and retest, then ask a reviewer to reconstruct the decision from the resulting evidence. This exercise often reveals missing ownership or timestamps more clearly than a broad status dashboard.\n\nA practical engagement can produce a control-to-asset map, evidence register, remediation workflow and sample assurance pack. Agree how these will be maintained and which events will trigger review. The deliverables establish a repeatable operating pattern; they are not a claim of compliance for a named organisation.\n\nExplore [Regulated Cyber Readiness](/solutions/regulated-cyber-readiness), [VajraX](/products-and-accelerators/vajrax) and [AI security and GRC](/services/cyber-security/ai-security-grc), or [discuss the evidence gaps in your readiness programme](/contact-us).\n",
+    "featured": false,
+    "sharePrompt": "Share this perspective",
+    "subscriptionEyebrow": "",
+    "subscriptionHeading": "",
+    "subscriptionPlaceholder": "",
+    "relatedEyebrow": "",
+    "relatedMessage": "",
+    "subscriptionBackground": {
+      "__media": "site/backgroud-images/careers.jpg",
+      "width": 1918,
+      "height": 570,
+      "mime": "image/jpeg",
+      "alt": "Newsletter background"
+    },
+    "seo": {
+      "metaTitle": "Continuous cyber evidence | Linkfields",
+      "metaDescription": "Build a continuous cyber evidence programme that connects control mapping, exposure validation, remediation and accountable decisions in regulated sectors.",
+      "keywords": "Cyber Security, enterprise insights",
+      "canonicalUrl": "",
+      "noIndex": false
+    },
+    "order": 2
+  },
+  {
+    "title": "Conversational AI in financial services: governance before scale",
+    "slug": "conversational-ai-financial-services",
+    "excerpt": "Governed reporting, controlled data access and human oversight are the starting points for conversational AI in financial services.",
+    "cover": {
+      "__media": "s3/Finance AI.png",
+      "width": 2168,
+      "height": 2336,
+      "mime": "image/png",
+      "alt": "Conversational AI in financial services: governance before scale"
+    },
+    "label": "Insight",
+    "tag": "BFSI",
+    "categoryGroup": "Technology",
+    "keyword": "Data & AI",
+    "authorName": "Linkfields Insights",
+    "authorAvatar": null,
+    "publishedDate": "2024-02-08",
+    "content": "*Originally published on 8 February 2024. Substantively updated by Linkfields Insights on 9 November 2026.*\n\nConversational AI can make financial information easier to find and interrogate. An employee can ask a question about a report instead of navigating several dashboards, while a customer can ask for help in ordinary language. Neither interaction removes the need to control data access or verify the answer.\n\nFor financial services organisations, the starting point should be the permitted task, not the apparent fluency of the model. Decide whether an assistant is retrieving information, explaining an existing result or proposing an action. Each requires different evidence and oversight.\n\n## Separate information from financial decisions\n\nA reporting assistant can help an analyst locate a variance or explore a financial dataset. It should identify the source, reporting period and assumptions behind its response. An answer that combines incompatible periods or currencies can sound convincing while being materially misleading.\n\nInvestment advice, credit decisions and other consequential activities need controls appropriate to the obligation and use case. Do not present a general chatbot as a qualified adviser or allow an unverified model response to become an automated decision. Agree when the interaction must move to a suitably authorised person.\n\nLinkfields FinSight supports conversational analysis and reporting over financial data. Its role should be scoped around the organisation’s data, access model and reporting requirements. The product description is not a claim that every generated response is correct or suitable for regulated advice.\n\n## Govern the information the assistant can see\n\nThe retrieval path matters as much as the final response. A user should only receive information they are authorised to access, including when documents or datasets are combined. Test permission boundaries using representative user roles rather than assuming that the source system’s permissions automatically extend to a new assistant.\n\nAgree which personal and confidential information may enter the workflow. Establish redaction, retention and provider requirements before recording prompts and outputs for debugging. More logging can improve investigation but can also create a new sensitive dataset.\n\nAn AI gateway can provide a common route for guardrails, cost and tracing. Linkfields AI Governance is built on Portkey and Opik, with an integrated Linkfields layer and related services. The implementation needs to define which applications pass through it and how any exceptions are controlled.\n\n## Evaluate accuracy and refusal together\n\nUse questions drawn from the intended reporting workflow, reviewed by people who understand the data. Include ambiguous requests, missing source information, conflicting figures and attempts to retrieve restricted content. A useful assistant should ask for clarification or refuse an unsupported task rather than invent a precise answer.\n\nReview numerical reasoning independently. Where a calculation is material, use a controlled calculation path and check the inputs and units. An attractive narrative does not establish that a total reconciles with the underlying report.\n\nRepeat relevant evaluations when the model, prompt, dataset or retrieval configuration changes. Record what was tested and who accepted the result. A pilot approval should not quietly become permission for a broader scope.\n\n## Design an accountable service journey\n\nCustomers should know when they are interacting with an automated assistant and how to reach a person. Preserve enough context for the receiving team to help without making the customer repeat sensitive details unnecessarily. Agree which requests can be answered and which must be routed to existing service channels.\n\nMonitor unresolved requests, challenged answers and escalations alongside adoption. These observations help identify whether the assistant is useful and where its boundaries need adjustment. Do not infer financial benefits or customer trust from the number of conversations alone.\n\n## Start with a bounded reporting use case\n\nSelect a permitted internal workflow, an accountable business owner and a controlled dataset. Agree an evaluation set and a route for investigating incorrect responses before expanding access. The practical outputs are a data-access map, evaluation record, escalation rules and an operating runbook.\n\nExplore [FinSight](/products-and-accelerators/finsight), [AI Governance](/products-and-accelerators/ai-governance) and [AI strategy and governance](/services/data-ai/ai-strategy-governance). For a broader discussion, [tell us what your financial reporting workflow needs to do](/contact-us).\n",
+    "featured": false,
+    "sharePrompt": "Share this perspective",
+    "subscriptionEyebrow": "",
+    "subscriptionHeading": "",
+    "subscriptionPlaceholder": "",
+    "relatedEyebrow": "",
+    "relatedMessage": "",
+    "subscriptionBackground": {
+      "__media": "site/backgroud-images/careers.jpg",
+      "width": 1918,
+      "height": 570,
+      "mime": "image/jpeg",
+      "alt": "Newsletter background"
+    },
+    "seo": {
+      "metaTitle": "Conversational AI | Linkfields",
+      "metaDescription": "Explore conversational AI for financial services, with governed data access, reporting evaluation and clear human oversight before wider adoption.",
+      "keywords": "Data & AI, enterprise insights",
+      "canonicalUrl": "",
+      "noIndex": false
+    },
+    "order": 3
+  },
+  {
+    "title": "RPA and intelligent operations: redesign before automation",
+    "slug": "rpa-intelligent-operations",
+    "excerpt": "Choose the right automation approach, define exceptions and build quality and security into the operating workflow.",
+    "cover": {
+      "__media": "s3/Robotic process automation.png",
+      "width": 2168,
+      "height": 2336,
+      "mime": "image/png",
+      "alt": "RPA and intelligent operations: redesign before automation"
+    },
+    "label": "Insight",
+    "tag": "Digital Transformation",
+    "categoryGroup": "Technology",
+    "keyword": "Digital Transformation",
+    "authorName": "Linkfields Insights",
+    "authorAvatar": null,
+    "publishedDate": "2024-03-21",
+    "content": "*Originally published on 21 March 2024. Substantively updated by Linkfields Insights on 9 November 2026.*\n\nRobotic process automation, or RPA, uses software to carry out repeatable tasks through existing application interfaces. It can help where a process depends on structured inputs and predictable rules, especially when a supported integration is not available. It does not make an inconsistent process reliable simply by running it more quickly.\n\nFor an enterprise buyer, the useful question is which work should be redesigned, integrated or automated. RPA is one option in that decision, not a substitute for process ownership or a promise of error-free operation.\n\n## Understand the work before selecting the tool\n\nMap the trigger, inputs, decisions and outputs of the process. Include exceptions and the hand-offs between teams, not just the straightforward path shown in a demonstration. Establish who owns the business rule and who can approve a change to it.\n\nLook for unnecessary steps before automating them. If employees repeatedly move the same information between applications, ask whether an API or a workflow redesign would be more appropriate. Screen-based automation may depend on interface behaviour that changes during a platform upgrade.\n\nLinkfields Digital Transformation combines Automation & RPA with integration services and application modernisation. That combination allows the engagement to consider the process and its systems together rather than treating every manual task as a bot candidate.\n\n## Choose a bounded first workflow\n\nAn illustrative starting point is a reconciliation workflow with known inputs, explicit rules and a person responsible for exceptions. Agree the permitted data and the acceptance criteria before building. If the input quality or business rule is uncertain, resolve that uncertainty rather than transferring it into automation.\n\nInclude incomplete records, duplicate inputs, an unavailable application and a partially completed transaction in testing. Define what the automation should do when it cannot safely continue. A controlled stop and a clear queue for human review can be more useful than an attempt to recover without supervision.\n\n## Build security and quality into operation\n\nAutomation identities should have only the access needed for their task. Agree how credentials are issued, stored, rotated and revoked. Avoid using an employee’s personal account as the permanent identity for an unattended business process.\n\nRecord the action taken, relevant transaction reference and exception status without collecting unnecessary sensitive information. Give an operational owner a way to identify failure, pause the workflow and resume it under controlled conditions. Do not assume that a successful pilot establishes ongoing service availability.\n\nTest regression when source applications, interfaces or business rules change. Linkfields testoriumz supports continuous quality engineering through test management, low-code automation, AI root-cause analysis and CI/CD integration. These capabilities can support assurance around automated workflows; accountable reviewers still decide whether the evidence meets the agreed criteria.\n\n## Add AI only where its role is clear\n\nSome workflows involve unstructured documents or decisions that are not suited to a fixed rule. AI may help interpret information or propose a next step, but its output requires controls appropriate to the business consequence. Separate an AI suggestion from permission to execute an action.\n\nThe Linkfields Intelligent Workflow Automation accelerator family includes workflow automation, AI orchestration, application integration and underwriting optimisation. Its relevance depends on the process and data in scope. Reusable IP should be tailored to the organisation’s requirements rather than presented as a pre-approved decision-maker.\n\n## Measure the whole process\n\nAgree a baseline that includes manual effort, exception handling, rework and completion time. After deployment, review whether the process has improved against that baseline and whether work has shifted into an unseen support queue. Bot activity is not the same as business value.\n\nThe [Intelligent Operations value play](/solutions/intelligent-operations) connects process discovery, redesign and automation across systems and customer channels. Explore [Automation & RPA](/services/digital-transformation/automation-rpa), [integration services](/services/digital-transformation/integration-services) and [Intelligent Workflow Automation](/products-and-accelerators/intelligent-workflow-automation), or [discuss the workflow you want to improve](/contact-us).\n",
+    "featured": false,
+    "sharePrompt": "Share this perspective",
+    "subscriptionEyebrow": "",
+    "subscriptionHeading": "",
+    "subscriptionPlaceholder": "",
+    "relatedEyebrow": "",
+    "relatedMessage": "",
+    "subscriptionBackground": {
+      "__media": "site/backgroud-images/careers.jpg",
+      "width": 1918,
+      "height": 570,
+      "mime": "image/jpeg",
+      "alt": "Newsletter background"
+    },
+    "seo": {
+      "metaTitle": "RPA and intelligent operations | Linkfields",
+      "metaDescription": "Plan RPA around process ownership, integration choices, exception handling and release assurance rather than automating an unreliable workflow.",
+      "keywords": "Digital Transformation, enterprise insights",
+      "canonicalUrl": "",
+      "noIndex": false
+    },
+    "order": 4
+  },
+  {
+    "title": "Digital transformation starts with the customer journey",
+    "slug": "digital-transformation-customer-experience",
+    "excerpt": "Connect customer channels, enterprise systems and operational hand-offs around a journey with clear acceptance criteria.",
+    "cover": {
+      "__media": "s3/Digital transfromation.png",
+      "width": 2168,
+      "height": 2336,
+      "mime": "image/png",
+      "alt": "Digital transformation starts with the customer journey"
+    },
+    "label": "Insight",
+    "tag": "Digital Transformation",
+    "categoryGroup": "Technology",
+    "keyword": "Digital Transformation",
+    "authorName": "Linkfields Insights",
+    "authorAvatar": null,
+    "publishedDate": "2024-03-13",
+    "content": "*Originally published on 13 March 2024. Substantively updated by Linkfields Insights on 9 November 2026.*\n\nA new digital channel does not automatically create a better customer experience. A customer may start a request online and still encounter repeated questions, inconsistent information or a manual hand-off. The problem is often the connection between the visible interface and the systems and processes behind it.\n\nDigital transformation should therefore start with a specific journey and the outcome it needs to support. That makes application modernisation, integration and automation choices easier to evaluate than a broad ambition to become more digital.\n\n## Define the journey that needs to change\n\nChoose a bounded journey such as onboarding, a service request or order-status enquiry. Map what the customer is trying to achieve, the information required and the teams and applications involved. Identify where the journey stops, repeats work or loses context.\n\nAsk users and operational teams to challenge the proposed flow. A shorter screen sequence may still create more work in the back office. Include accessibility, error handling and assisted service in acceptance criteria instead of treating them as later enhancements.\n\nEstablish an agreed baseline for the journey. Useful measures may include completion, repeated contacts, exception handling and the time needed to resolve a request. Define the measurement before attributing an improvement to a new channel.\n\n## Connect the channel to a reliable core\n\nThe customer interface needs accurate information from enterprise systems. Agree ownership for data and business rules, then define supported interfaces and the handling of failed or delayed transactions. An attractive front end cannot compensate for contradictory status information.\n\nLinkfields integration services cover APIs and enterprise integration. The Intelligent Enterprise Platforms portfolio supports connected ERP and CRM delivery, while Linkworks provides composable enterprise applications where standard ERP or CRM does not fit. These capabilities can be combined around the journey rather than introduced as separate platform projects.\n\nAvoid customising a core platform simply to reproduce an old manual process. Decide what should remain standard, what belongs in a composable application and what can be removed. The architecture should make those choices visible to the operational owner.\n\n## Preserve context across customer channels\n\nCustomers may move between a portal, messaging and a service team. Decide which information should follow the request and who may access it. Give each channel a clear role rather than promising identical functionality everywhere.\n\nLinkfields WhatsApp Business and omnichannel services support conversational service and connected journeys. Their use still requires agreed consent, data handling, escalation and integration requirements. Channel convenience should not come at the expense of a safe process for sensitive enquiries.\n\nTest what happens when a customer cannot complete the digital route. A clear assisted-service path is part of the experience, not evidence that transformation failed. Carry forward permitted context so that a receiving team can help without unnecessary repetition.\n\n## Assure the workflow, not only the screen\n\nRelease testing should cover the connected journey, including permissions, interfaces and operational exceptions. Use representative test data and make differences between test and production environments explicit. A successful interface demonstration cannot establish that every downstream transaction completed correctly.\n\nLinkfields quality engineering and testoriumz support continuous testing and release assurance. The Modernisation & Programme Assurance value play also brings migration readiness, regression testing, integration rebuild and security validation into a joined-up engagement. These are delivery capabilities, not a claim of disruption-free change.\n\nAgree release acceptance and the conditions for pausing or reversing a deployment. When data changes, include reconciliation checks. The team operating the journey should understand how to recognise and escalate a problem after release.\n\n## Improve the journey after go-live\n\nReview adoption and operational evidence against the original baseline. Investigate repeated failures and customer workarounds with the people who operate the service. Do not assume that increased traffic means the journey is working better.\n\nThe useful starting deliverables are a journey map, prioritised change backlog, integration design and acceptance checklist. Explore [Digital Transformation](/services/digital-transformation), [Linkworks](/products-and-accelerators/linkworks) and [Modernisation & Programme Assurance](/solutions/modernisation-programme-assurance), or [discuss the customer journey you need to improve](/contact-us).\n",
+    "featured": false,
+    "sharePrompt": "Share this perspective",
+    "subscriptionEyebrow": "",
+    "subscriptionHeading": "",
+    "subscriptionPlaceholder": "",
+    "relatedEyebrow": "",
+    "relatedMessage": "",
+    "subscriptionBackground": {
+      "__media": "site/backgroud-images/careers.jpg",
+      "width": 1918,
+      "height": 570,
+      "mime": "image/jpeg",
+      "alt": "Newsletter background"
+    },
+    "seo": {
+      "metaTitle": "Digital customer journeys | Linkfields",
+      "metaDescription": "Improve digital customer journeys by connecting channels, enterprise systems and operational hand-offs with clear quality and security checks.",
+      "keywords": "Digital Transformation, enterprise insights",
+      "canonicalUrl": "",
+      "noIndex": false
+    },
+    "order": 5
+  }
+]

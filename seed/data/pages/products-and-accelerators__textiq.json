@@ -1,0 +1,192 @@
+{
+ "title": "textIQ",
+ "path": "/products-and-accelerators/textiq",
+ "seo": {
+  "metaTitle": "textIQ Document Intelligence | Linkfields",
+  "metaDescription": "Find and summarise enterprise content with textIQ document intelligence. Evaluate search, extraction and classification against your business requirements.",
+  "keywords": "textIQ, document intelligence, enterprise search, summarisation, enterprise document search, document information extraction, document classification software, enterprise document summarisation, textIQ document intelligence",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "textIQ",
+   "subtitle": "Search, extract and summarise enterprise documents.",
+   "backgroundImage": {
+    "__media": "custom/hero-data-ai.jpg",
+    "alt": "Linkfields textIQ branded product artwork"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Capabilities",
+     "targetId": "capabilities"
+    },
+    {
+     "label": "Workflow",
+     "targetId": "workflow"
+    },
+    {
+     "label": "Enterprise Fit",
+     "targetId": "enterprise-fit"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ],
+   "logo": {
+    "__media": "custom/logos/svg/textiq-on-dark.svg",
+    "alt": "textIQ logo"
+   }
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Requirements and fit",
+   "heading": "Make unstructured enterprise content searchable and useful",
+   "body": "Enterprise teams need to find relevant information across documents, not only store more files. textIQ brings intelligent search and insight to unstructured content, with extraction, classification and summarisation.\n\nIt fits document-heavy work where business reviewers need to locate, organise and understand information. Start with a defined collection and a task that reviewers can assess.\n\n[Request a textIQ demo](#get-in-touch) · [View all products](/products-and-accelerators)",
+   "secondaryEyebrow": "Delivery context",
+   "secondaryHeading": "Connect the product to your data programme",
+   "secondaryBody": "textIQ is part of [Data & AI](/services/data-ai). [Agentic AI & GenAI](/services/data-ai/agentic-ai-genai) supports wider knowledge-assistant delivery, while [Data platforms & analytics](/services/data-ai/data-platforms-analytics) addresses the surrounding data estate.\n\nAn enterprise evaluation should separate product functionality from optional repository integration, workflow design and implementation services.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "capabilities",
+   "eyebrow": "Capabilities",
+   "heading": "Enterprise *document intelligence* capabilities",
+   "description": "Use an agreed sample collection to assess search results, document fields and summaries against your business requirements.",
+   "variant": "default",
+   "columns": 3,
+   "tone": "navy",
+   "logosLabel": "Product",
+   "logos": [
+    {
+     "label": "textIQ",
+     "logo": {
+      "__media": "custom/logos/plate/textiq-plate.png",
+      "alt": "textIQ product logo"
+     }
+    }
+   ],
+   "items": [
+    {
+     "title": "Intelligent search",
+     "description": "Ask a business question across a document collection and inspect the returned information. For example, assess how a reviewer would locate material relevant to a particular policy.",
+     "bullets": "Input - a question and document collection\nEvaluation output - relevant results checked against source material",
+     "accent": "purple"
+    },
+    {
+     "title": "Extraction and classification",
+     "description": "Turn selected document information into an organised output. Agree the fields and categories for a sample, then compare the result with the reviewer’s expected values.",
+     "bullets": "Input - sample documents and a field/category list\nEvaluation output - extracted and classified information for review",
+     "accent": "purple"
+    },
+    {
+     "title": "Summarisation",
+     "description": "Produce a shorter account of document content for a reviewer to assess. Test which points are retained or omitted before using a summary in a business workflow.",
+     "bullets": "Input - document content and summary requirements\nEvaluation output - a summary reviewed for omissions and errors",
+     "accent": "purple"
+    }
+   ],
+   "ctaLabel": "Request a textIQ demo",
+   "ctaUrl": "#get-in-touch"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "workflow",
+   "eyebrow": "How it works",
+   "heading": "From document sample to reviewed output",
+   "description": "Evaluation workflow: select safe material, test the document tasks, review the result and agree the route into your enterprise workflow.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "number": "01",
+     "title": "Select a sample",
+     "description": "Choose approved, non-confidential documents and representative questions. Agree permissions and the expected reviewer outcome.",
+     "footLabel": "Deliverable",
+     "footText": "Sample collection and task brief",
+     "accent": "purple"
+    },
+    {
+     "number": "02",
+     "title": "Process the content",
+     "description": "Demonstrate search, extraction, classification or summarisation against the sample. Check file, language and scan support.",
+     "footLabel": "Deliverable",
+     "footText": "Task outputs and supported-format scope",
+     "accent": "purple"
+    },
+    {
+     "number": "03",
+     "title": "Review the result",
+     "description": "Compare results with source material and expected fields. Assess source references and confidence handling where demonstrated.",
+     "footLabel": "Deliverable",
+     "footText": "Review rubric and exception log",
+     "accent": "purple"
+    },
+    {
+     "number": "04",
+     "title": "Plan enterprise use",
+     "description": "Agree output formats, repositories and any export or integration work. Identify the human approval point before downstream use.",
+     "footLabel": "Deliverable",
+     "footText": "Integration and acceptance plan",
+     "accent": "purple"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "use-case",
+   "eyebrow": "Example engagement pattern",
+   "heading": "Example: reviewing a document collection",
+   "body": "**Example engagement pattern, not a client case study.** An operations team needs to locate information and summarise material from a policy-document collection. Use an agreed sample set, representative questions and a reviewer-created reference answer.\n\nThe evaluation produces sample search results, a field/category output, a reviewed summary and an exception log. Agree a quality rubric and human-review requirements before connecting the product to operational work.\n\nFor wider process redesign and automation, explore [Intelligent Operations](/solutions/intelligent-operations).",
+   "theme": "light",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": ""
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "enterprise-fit",
+   "eyebrow": "Enterprise fit",
+   "heading": "Agree your document and data boundaries",
+   "description": "Available by licence, subscription or SaaS, with or without Linkfields services. Request a guided demo using approved sample material before discussing enterprise data access.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "Which documents and repositories fit?",
+     "description": "Define file types, languages, scanned-document needs and collection size for the evaluation. Establish the supported repositories, APIs, extracted fields and output formats. Connector availability and export behaviour must be demonstrated, not inferred from the document-intelligence category."
+    },
+    {
+     "title": "How are documents and model data handled?",
+     "description": "Review document storage, retention and deletion, model-provider data use, permission inheritance, access controls and tenant isolation. Do not upload confidential or personal information during an initial demonstration. Private processing or exclusion from model training must be confirmed in the agreed terms."
+    },
+    {
+     "title": "Who checks the output?",
+     "description": "Name the business reviewer and agree reference answers, extraction checks and summary-quality criteria. Confirm any source-reference and confidence features in the demo. Define exception handling and approval before information enters a downstream business process."
+    },
+    {
+     "title": "What are the deployment and buying options?",
+     "description": "Confirm the product’s available hosting options, regions and residency together with licence or subscription terms. Agree SaaS subscription terms alongside hosting, residency and service responsibilities. Specify implementation, integrations, onboarding, release and support scope separately."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Request a textIQ demo",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

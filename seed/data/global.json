@@ -1,0 +1,1851 @@
+{
+ "siteName": "Linkfields",
+ "logo": {
+  "__media": "site/images/linkfields_logo 1.svg",
+  "width": null,
+  "height": null,
+  "mime": "image/svg+xml",
+  "alt": "Linkfields – exploring innovation"
+ },
+ "favicon": {
+  "__media": "site/favicon.ico",
+  "width": 48,
+  "height": 48,
+  "mime": "image/vnd.microsoft.icon",
+  "alt": "Linkfields"
+ },
+ "navigation": [
+  {
+   "label": "Services",
+   "href": "/services",
+   "description": "Five integrated portfolios to modernise, operate, analyse, secure and scale your enterprise.",
+   "coverImage": {
+    "__media": "s3/solutions.png",
+    "width": 1240,
+    "height": 1120,
+    "mime": "image/png",
+    "alt": "Services"
+   },
+   "items": [
+    {
+     "label": "Digital Transformation",
+     "href": "/services/digital-transformation",
+     "description": null,
+     "icon": {
+      "__media": "custom/icons/digital-transformation.svg",
+      "alt": "Digital Transformation"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "App modernisation",
+       "href": "/services/digital-transformation/app-modernisation",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/app-modernisation.svg"
+       }
+      },
+      {
+       "label": "Automation & RPA",
+       "href": "/services/digital-transformation/automation-rpa",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/automation-rpa.svg"
+       }
+      },
+      {
+       "label": "Integration services",
+       "href": "/services/digital-transformation/integration-services",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/integration-services.svg"
+       }
+      },
+      {
+       "label": "WhatsApp Business & omnichannel",
+       "href": "/services/digital-transformation/whatsapp-omnichannel",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/whatsapp-omnichannel.svg"
+       }
+      },
+      {
+       "label": "Quality engineering",
+       "href": "/services/digital-transformation/quality-engineering",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/quality-engineering.svg"
+       }
+      },
+      {
+       "label": "Cloud services",
+       "href": "/services/digital-transformation/cloud-services",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/cloud-services.svg"
+       }
+      }
+     ],
+     "groupLabel": "LINKFIELDS IP",
+     "groupLinks": [
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/linkworks-plate.png",
+        "alt": "Linkworks"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/linkworks.svg"
+       }
+      },
+      {
+       "label": "testoriumz",
+       "href": "/products-and-accelerators/testoriumz",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/testoriumz-plate.png",
+        "alt": "testoriumz"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/testoriumz.svg"
+       }
+      }
+     ],
+     "accent": "orange"
+    },
+    {
+     "label": "Intelligent Enterprise Platforms",
+     "href": "/services/intelligent-enterprise-platforms",
+     "description": null,
+     "icon": {
+      "__media": "custom/icons/intelligent-enterprise-platforms.svg",
+      "alt": "Intelligent Enterprise Platforms"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "SAP S/4HANA",
+       "href": "/services/intelligent-enterprise-platforms/sap-s4hana",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/sap-s4hana.svg"
+       }
+      },
+      {
+       "label": "Microsoft Dynamics 365",
+       "href": "/services/intelligent-enterprise-platforms/microsoft-dynamics-365",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/microsoft-dynamics-365.svg"
+       }
+      },
+      {
+       "label": "Odoo",
+       "href": "/services/intelligent-enterprise-platforms/odoo",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/odoo.svg"
+       }
+      },
+      {
+       "label": "Zoho",
+       "href": "/services/intelligent-enterprise-platforms/zoho",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/zoho.svg"
+       }
+      },
+      {
+       "label": "Salesforce",
+       "href": "/services/intelligent-enterprise-platforms/salesforce",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/salesforce.svg"
+       }
+      },
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/linkworks.svg"
+       }
+      },
+      {
+       "label": "Platform migration & AMS",
+       "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/platform-migration-ams.svg"
+       }
+      }
+     ],
+     "groupLabel": "LINKFIELDS IP",
+     "groupLinks": [
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/linkworks-plate.png",
+        "alt": "Linkworks"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/linkworks.svg"
+       }
+      }
+     ],
+     "accent": "blue"
+    },
+    {
+     "label": "Data & AI",
+     "href": "/services/data-ai",
+     "description": null,
+     "icon": {
+      "__media": "custom/icons/data-ai.svg",
+      "alt": "Data & AI"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "AI strategy & governance",
+       "href": "/services/data-ai/ai-strategy-governance",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/ai-strategy-governance.svg"
+       }
+      },
+      {
+       "label": "Agentic AI & GenAI",
+       "href": "/services/data-ai/agentic-ai-genai",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/agentic-ai-genai.svg"
+       }
+      },
+      {
+       "label": "Data platforms & analytics",
+       "href": "/services/data-ai/data-platforms-analytics",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/data-platforms-analytics.svg"
+       }
+      },
+      {
+       "label": "Machine learning",
+       "href": "/services/data-ai/machine-learning",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/machine-learning.svg"
+       }
+      }
+     ],
+     "groupLabel": "LINKFIELDS IP",
+     "groupLinks": [
+      {
+       "label": "textIQ",
+       "href": "/products-and-accelerators/textiq",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/textiq-plate.png",
+        "alt": "textIQ"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/textiq.svg"
+       }
+      },
+      {
+       "label": "FinSight",
+       "href": "/products-and-accelerators/finsight",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/finsight-plate.png",
+        "alt": "FinSight"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/finsight.svg"
+       }
+      },
+      {
+       "label": "EduPilot",
+       "href": "/products-and-accelerators/edupilot",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/edupilot-plate.png",
+        "alt": "EduPilot"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/edupilot.svg"
+       }
+      }
+     ],
+     "accent": "purple"
+    },
+    {
+     "label": "Cyber Security",
+     "href": "/services/cyber-security",
+     "description": null,
+     "icon": {
+      "__media": "custom/icons/cyber-security.svg",
+      "alt": "Cyber Security"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "AI security & GRC",
+       "href": "/services/cyber-security/ai-security-grc",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/ai-security-grc.svg"
+       }
+      },
+      {
+       "label": "Cloud security & IAM",
+       "href": "/services/cyber-security/cloud-security-iam",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/cloud-security-iam.svg"
+       }
+      },
+      {
+       "label": "Exposure validation & AppSec",
+       "href": "/services/cyber-security/exposure-validation-appsec",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/exposure-validation-appsec.svg"
+       }
+      },
+      {
+       "label": "Security operations",
+       "href": "/services/cyber-security/security-operations",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/security-operations.svg"
+       }
+      }
+     ],
+     "groupLabel": "LINKFIELDS IP",
+     "groupLinks": [
+      {
+       "label": "VajraX",
+       "href": "/products-and-accelerators/vajrax",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/vajrax-plate.png",
+        "alt": "VajraX"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/vajrax.svg"
+       }
+      },
+      {
+       "label": "VectorX",
+       "href": "/products-and-accelerators/vectorx",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/vectorx-plate.png",
+        "alt": "VectorX"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/vectorx.svg"
+       }
+      },
+      {
+       "label": "AI Governance",
+       "href": "/products-and-accelerators/ai-governance",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/ai-governance-plate.png",
+        "alt": "AI Governance"
+       },
+       "icon": {
+        "__media": "custom/icons/sub/ai-governance.svg"
+       }
+      }
+     ],
+     "accent": "teal"
+    },
+    {
+     "label": "Talent Advisory & GCC",
+     "href": "/services/talent-advisory-gcc",
+     "description": null,
+     "icon": {
+      "__media": "custom/icons/talent-advisory-gcc.svg",
+      "alt": "Talent Advisory & GCC"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "Technology advisory",
+       "href": "/services/talent-advisory-gcc/technology-advisory",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/technology-advisory.svg"
+       }
+      },
+      {
+       "label": "Specialist talent & managed teams",
+       "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/specialist-talent-managed-teams.svg"
+       }
+      },
+      {
+       "label": "GCC strategy & setup",
+       "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/gcc-strategy-setup.svg"
+       }
+      },
+      {
+       "label": "GCC build-operate-transfer",
+       "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/gcc-build-operate-transfer.svg"
+       }
+      }
+     ],
+     "groupLabel": "ENGAGEMENT MODELS",
+     "groupLinks": [
+      {
+       "label": "Staff augmentation",
+       "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams#staff-augmentation",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/staff-augmentation.svg"
+       }
+      },
+      {
+       "label": "Managed teams",
+       "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams#managed-teams",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/managed-teams.svg"
+       }
+      },
+      {
+       "label": "GCC build-operate-transfer",
+       "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+       "openInNewTab": false,
+       "icon": {
+        "__media": "custom/icons/sub/gcc-build-operate-transfer.svg"
+       }
+      }
+     ],
+     "accent": "yellow"
+    }
+   ]
+  },
+  {
+   "label": "Solutions",
+   "href": "/solutions",
+   "description": "We lead with outcomes, not offerings. Five strategic value plays, each starting from a customer problem.",
+   "coverImage": {
+    "__media": "s3/Frame 381.png",
+    "width": 310,
+    "height": 280,
+    "mime": "image/png",
+    "alt": "Solutions"
+   },
+   "items": [
+    {
+     "label": "AI Code Assurance",
+     "href": "/solutions/ai-code-assurance",
+     "description": "Ship AI-generated code without losing quality or security assurance.",
+     "icon": {
+      "__media": "custom/icons/sol-ai-code-assurance.svg",
+      "alt": "AI Code Assurance"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "orange"
+    },
+    {
+     "label": "Modernisation & Programme Assurance",
+     "href": "/solutions/modernisation-programme-assurance",
+     "description": "Validate migration readiness and release quality before critical cutovers.",
+     "icon": {
+      "__media": "custom/icons/sol-modernisation-assurance.svg",
+      "alt": "Modernisation & Programme Assurance"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "blue"
+    },
+    {
+     "label": "Regulated Cyber Readiness",
+     "href": "/solutions/regulated-cyber-readiness",
+     "description": "Continuous exposure validation and control evidence, not point-in-time reports.",
+     "icon": {
+      "__media": "custom/icons/sol-regulated-cyber-readiness.svg",
+      "alt": "Regulated Cyber Readiness"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "teal"
+    },
+    {
+     "label": "Intelligent Operations",
+     "href": "/solutions/intelligent-operations",
+     "description": "Discover, redesign and automate work to reduce cost to serve.",
+     "icon": {
+      "__media": "custom/icons/sol-intelligent-operations.svg",
+      "alt": "Intelligent Operations"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "purple"
+    },
+    {
+     "label": "Capability Centres with Embedded IP",
+     "href": "/solutions/capability-centres-embedded-ip",
+     "description": "Scale delivery capacity through governed capability centres with IP built in.",
+     "icon": {
+      "__media": "custom/icons/sol-capability-centres.svg",
+      "alt": "Capability Centres with Embedded IP"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "yellow"
+    }
+   ]
+  },
+  {
+   "label": "Products & Accelerators",
+   "href": "/products-and-accelerators",
+   "description": "Software we own. Accelerators we reuse. Licensed on their own or delivered with our services.",
+   "coverImage": {
+    "__media": "custom/nav-products-accelerators.jpg",
+    "alt": "Products & Accelerators"
+   },
+   "items": [
+    {
+     "label": "Digital Transformation",
+     "href": "/products-and-accelerators#digital-transformation",
+     "description": null,
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "description": "App modernisation & composable UI",
+       "logo": {
+        "__media": "custom/logos/plate/linkworks-plate.png",
+        "alt": "Linkworks"
+       }
+      },
+      {
+       "label": "testoriumz",
+       "href": "/products-and-accelerators/testoriumz",
+       "openInNewTab": false,
+       "description": "Quality engineering",
+       "logo": {
+        "__media": "custom/logos/plate/testoriumz-plate.png",
+        "alt": "testoriumz"
+       }
+      }
+     ],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": null,
+     "section": "Proprietary products",
+     "sectionDescription": "Licensed on their own or delivered with our services",
+     "accent": "orange"
+    },
+    {
+     "label": "Intelligent Enterprise Platforms",
+     "href": "/products-and-accelerators#intelligent-enterprise-platforms",
+     "description": null,
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "description": "Composable apps",
+       "logo": {
+        "__media": "custom/logos/plate/linkworks-plate.png",
+        "alt": "Linkworks"
+       }
+      }
+     ],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": null,
+     "section": "Proprietary products",
+     "sectionDescription": "Licensed on their own or delivered with our services",
+     "accent": "blue"
+    },
+    {
+     "label": "Data & AI",
+     "href": "/products-and-accelerators#data-ai",
+     "description": null,
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "textIQ",
+       "href": "/products-and-accelerators/textiq",
+       "openInNewTab": false,
+       "description": "Document intelligence",
+       "logo": {
+        "__media": "custom/logos/plate/textiq-plate.png",
+        "alt": "textIQ"
+       }
+      },
+      {
+       "label": "FinSight",
+       "href": "/products-and-accelerators/finsight",
+       "openInNewTab": false,
+       "description": "Financial insights",
+       "logo": {
+        "__media": "custom/logos/plate/finsight-plate.png",
+        "alt": "FinSight"
+       }
+      },
+      {
+       "label": "EduPilot",
+       "href": "/products-and-accelerators/edupilot",
+       "openInNewTab": false,
+       "description": "Instant course creation",
+       "logo": {
+        "__media": "custom/logos/plate/edupilot-plate.png",
+        "alt": "EduPilot"
+       }
+      }
+     ],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": null,
+     "section": "Proprietary products",
+     "sectionDescription": "Licensed on their own or delivered with our services",
+     "accent": "purple"
+    },
+    {
+     "label": "Cyber Security",
+     "href": "/products-and-accelerators#cyber-security",
+     "description": null,
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "VajraX",
+       "href": "/products-and-accelerators/vajrax",
+       "openInNewTab": false,
+       "description": "Exposure validation",
+       "logo": {
+        "__media": "custom/logos/plate/vajrax-plate.png",
+        "alt": "VajraX"
+       }
+      },
+      {
+       "label": "VectorX",
+       "href": "/products-and-accelerators/vectorx",
+       "openInNewTab": false,
+       "description": "Supply-chain security",
+       "logo": {
+        "__media": "custom/logos/plate/vectorx-plate.png",
+        "alt": "VectorX"
+       }
+      },
+      {
+       "label": "AI Governance",
+       "href": "/products-and-accelerators/ai-governance",
+       "openInNewTab": false,
+       "description": "AI gateway & guardrails",
+       "logo": {
+        "__media": "custom/logos/plate/ai-governance-plate.png",
+        "alt": "AI Governance"
+       }
+      }
+     ],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": null,
+     "section": "Proprietary products",
+     "sectionDescription": "Licensed on their own or delivered with our services",
+     "accent": "teal"
+    },
+    {
+     "label": "Predictive Analytics Suite",
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "description": "Churn, demand forecasting, fraud and loan-default models",
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": "Data & AI",
+     "section": "Reusable accelerators",
+     "sectionDescription": "Pre-built delivery IP that shortens time to value",
+     "accent": "purple"
+    },
+    {
+     "label": "Digital Twin Suite",
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "description": "Failure prediction, simulation, inventory and live monitoring",
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": "Simulation",
+     "section": "Reusable accelerators",
+     "sectionDescription": "Pre-built delivery IP that shortens time to value",
+     "accent": "teal"
+    },
+    {
+     "label": "Intelligent Workflow Automation",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "description": "Workflow automation, AI orchestration and integration",
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": "Enterprise AI",
+     "section": "Reusable accelerators",
+     "sectionDescription": "Pre-built delivery IP that shortens time to value",
+     "accent": "orange"
+    },
+    {
+     "label": "Power BI + AI/ML",
+     "href": "/products-and-accelerators/power-bi-ai-ml",
+     "description": "Predictive dashboards and risk scoring in Power BI",
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": "Analytics",
+     "section": "Reusable accelerators",
+     "sectionDescription": "Pre-built delivery IP that shortens time to value",
+     "accent": "blue"
+    },
+    {
+     "label": "Delivery accelerators",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "description": "Packs for modernisation, migration, testing and compliance",
+     "icon": null,
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "eyebrow": "Portfolio IP",
+     "section": "Reusable accelerators",
+     "sectionDescription": "Pre-built delivery IP that shortens time to value",
+     "accent": "yellow"
+    }
+   ]
+  },
+  {
+   "label": "Industries",
+   "href": "/industries",
+   "description": "Eight industries we know deeply, with use cases tailored to each sector.",
+   "coverImage": {
+    "__media": "s3/Industries.png",
+    "width": 1240,
+    "height": 1120,
+    "mime": "image/png",
+    "alt": "Industries"
+   },
+   "items": [
+    {
+     "label": "Telecom",
+     "href": "/industries/telecom",
+     "description": "Digital services, customer engagement and intelligent connectivity",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-telecom.jpg",
+      "alt": "Telecom"
+     },
+     "accent": "blue",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "BFSI",
+     "href": "/industries/bfsi",
+     "description": "Banking, insurance and fintech",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-bfsi.jpg",
+      "alt": "BFSI"
+     },
+     "accent": "yellow",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "Banking",
+       "href": "/industries/bfsi#banking",
+       "openInNewTab": false
+      },
+      {
+       "label": "Insurance",
+       "href": "/industries/bfsi#insurance",
+       "openInNewTab": false
+      },
+      {
+       "label": "Fintech",
+       "href": "/industries/bfsi#fintech",
+       "openInNewTab": false
+      }
+     ],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "Healthcare & Pharma",
+     "href": "/industries/healthcare-pharma",
+     "description": "Patient care, digital health and AI-powered insights",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-healthcare.jpg",
+      "alt": "Healthcare & Pharma"
+     },
+     "accent": "orange",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "Retail, FMCG & CPG",
+     "href": "/industries/retail-fmcg-cpg",
+     "description": "Customer experience, forecasting and personalisation",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-retail.jpg",
+      "alt": "Retail, FMCG & CPG"
+     },
+     "accent": "blue",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "Manufacturing",
+     "href": "/industries/manufacturing",
+     "description": "Smart factories, operational excellence and predictive intelligence",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-manufacturing.jpg",
+      "alt": "Manufacturing"
+     },
+     "accent": "yellow",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "Energy & Mining",
+     "href": "/industries/energy-mining",
+     "description": "Mining, oil and gas, and energy operations",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-energy-mining.jpg",
+      "alt": "Energy & Mining"
+     },
+     "accent": "orange",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [
+      {
+       "label": "Mining",
+       "href": "/industries/energy-mining#mining",
+       "openInNewTab": false
+      },
+      {
+       "label": "Oil & Gas",
+       "href": "/industries/energy-mining#oil-gas",
+       "openInNewTab": false
+      }
+     ],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "Public Sector",
+     "href": "/industries/public-sector",
+     "description": "Citizen services, digital government and secure data",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-public-sector.jpg",
+      "alt": "Public Sector"
+     },
+     "accent": "blue",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": []
+    },
+    {
+     "label": "Education",
+     "href": "/industries/education",
+     "description": "Digital learning, student experience and AI-powered insights",
+     "icon": null,
+     "image": {
+      "__media": "custom/industries/ind-education.jpg",
+      "alt": "Education"
+     },
+     "accent": "yellow",
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": []
+    }
+   ]
+  },
+  {
+   "label": "Company",
+   "href": "/company/about-us",
+   "description": "Who we are, how we deliver and what we are thinking about.",
+   "coverImage": {
+    "__media": "s3/creative-people-working-office 1.png",
+    "width": 310,
+    "height": 280,
+    "mime": "image/png",
+    "alt": "Company"
+   },
+   "items": [
+    {
+     "label": "About Linkfields",
+     "href": "/company/about-us",
+     "description": "South Africa HQ. Global delivery. One integrated partner.",
+     "icon": {
+      "__media": "custom/icons/co-about.svg",
+      "alt": "About Linkfields"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "orange"
+    },
+    {
+     "label": "Our approach",
+     "href": "/company/our-approach",
+     "description": "Outcome-led, secure-by-design delivery.",
+     "icon": {
+      "__media": "custom/icons/co-approach.svg",
+      "alt": "Our approach"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "blue"
+    },
+    {
+     "label": "Insights",
+     "href": "/company/blog",
+     "description": "Practical perspectives from our specialists.",
+     "icon": {
+      "__media": "custom/icons/co-insights.svg",
+      "alt": "Insights"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "purple"
+    },
+    {
+     "label": "News & recognition",
+     "href": "/company/news-and-articles",
+     "description": "Company updates and independent recognition.",
+     "icon": {
+      "__media": "custom/icons/co-news.svg",
+      "alt": "News & recognition"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "teal"
+    },
+    {
+     "label": "Events",
+     "href": "/events",
+     "description": "Where to meet us next, and where we have been.",
+     "icon": {
+      "__media": "custom/icons/co-events.svg",
+      "alt": "Events"
+     },
+     "openInNewTab": false,
+     "ctaLabel": null,
+     "ctaHref": null,
+     "links": [],
+     "groupLabel": null,
+     "groupLinks": [],
+     "accent": "yellow"
+    }
+   ]
+  },
+  {
+   "label": "Careers",
+   "href": "/careers",
+   "description": "",
+   "coverImage": null,
+   "items": []
+  }
+ ],
+ "headerCta": {
+  "label": "Let’s connect",
+  "href": "/contact-us",
+  "openInNewTab": false
+ },
+ "footerColumns": [
+  {
+   "title": "ISO certifications",
+   "mobileVisible": true,
+   "links": [],
+   "badges": [
+    {
+     "image": {
+      "__media": "s3/ISO 270012022.png",
+      "width": 352,
+      "height": 326,
+      "mime": "image/png",
+      "alt": "ISO/IEC 27001:2022 certification badge"
+     },
+     "alt": "ISO/IEC 27001:2022 certification badge",
+     "href": "",
+     "width": 120,
+     "height": 111,
+     "caption": "ISO/IEC 27001:2022"
+    },
+    {
+     "image": {
+      "__media": "custom/badges/iso-9001.png",
+      "alt": "ISO 9001:2015 certified"
+     },
+     "alt": "ISO 9001:2015 certification badge",
+     "href": "",
+     "width": 111,
+     "height": 103,
+     "caption": "ISO 9001:2015"
+    }
+   ]
+  },
+  {
+   "title": "Recognitions",
+   "mobileVisible": true,
+   "links": [],
+   "badges": [
+    {
+     "image": {
+      "__media": "custom/badges/growth-ranking-2026.png",
+      "alt": "Ranked #35 in Africa’s Fastest-Growing Companies 2026, a Financial Times and Statista ranking"
+     },
+     "alt": "Ranked #35 in Africa’s Fastest-Growing Companies 2026, a Financial Times and Statista ranking",
+     "href": "/company/news-and-articles",
+     "width": 242,
+     "height": 99,
+     "caption": "#35 · Africa’s Fastest-Growing 2026"
+    },
+    {
+     "image": {
+      "__media": "custom/badges/bbbee-level-1.png",
+      "alt": "B-BBEE Level 1 contributor, Proudly South African"
+     },
+     "alt": "B-BBEE Level 1 contributor, Proudly South African",
+     "href": "",
+     "width": 174,
+     "height": 191,
+     "caption": "B-BBEE Level 1"
+    },
+    {
+     "image": {
+      "__media": "custom/badges/yes-member.png",
+      "alt": "A proudly YES (Youth Employment Service) member"
+     },
+     "alt": "A proudly YES (Youth Employment Service) member",
+     "href": "",
+     "width": 168,
+     "height": 167,
+     "caption": "Proud YES member"
+    }
+   ]
+  },
+  {
+   "title": "Memberships & registrations",
+   "mobileVisible": true,
+   "links": [],
+   "badges": [
+    {
+     "image": {
+      "__media": "s3/Nascom logo.png",
+      "width": 712,
+      "height": 224,
+      "mime": "image/png",
+      "alt": "NASSCOM member badge"
+     },
+     "alt": "NASSCOM member badge",
+     "href": "",
+     "width": 178,
+     "height": 111,
+     "caption": "NASSCOM member"
+    },
+    {
+     "image": {
+      "__media": "s3/DUNS logo.png",
+      "width": 2560,
+      "height": 2214,
+      "mime": "image/png",
+      "alt": "D-U-N-S Registered badge"
+     },
+     "alt": "D-U-N-S Registered badge",
+     "href": "",
+     "width": 123,
+     "height": 111,
+     "caption": "D-U-N-S registered"
+    }
+   ]
+  },
+  {
+   "title": "Services",
+   "links": [
+    {
+     "label": "Digital Transformation",
+     "href": "/services/digital-transformation",
+     "openInNewTab": false
+    },
+    {
+     "label": "Intelligent Enterprise Platforms",
+     "href": "/services/intelligent-enterprise-platforms",
+     "openInNewTab": false
+    },
+    {
+     "label": "Data & AI",
+     "href": "/services/data-ai",
+     "openInNewTab": false
+    },
+    {
+     "label": "Cyber Security",
+     "href": "/services/cyber-security",
+     "openInNewTab": false
+    },
+    {
+     "label": "Talent Advisory & GCC",
+     "href": "/services/talent-advisory-gcc",
+     "openInNewTab": false
+    },
+    {
+     "label": "All services",
+     "href": "/services",
+     "openInNewTab": false
+    }
+   ],
+   "mobileVisible": false,
+   "badges": []
+  },
+  {
+   "title": "Solutions",
+   "links": [
+    {
+     "label": "AI Code Assurance",
+     "href": "/solutions/ai-code-assurance",
+     "openInNewTab": false
+    },
+    {
+     "label": "Modernisation & Programme Assurance",
+     "href": "/solutions/modernisation-programme-assurance",
+     "openInNewTab": false
+    },
+    {
+     "label": "Regulated Cyber Readiness",
+     "href": "/solutions/regulated-cyber-readiness",
+     "openInNewTab": false
+    },
+    {
+     "label": "Intelligent Operations",
+     "href": "/solutions/intelligent-operations",
+     "openInNewTab": false
+    },
+    {
+     "label": "Capability Centres with Embedded IP",
+     "href": "/solutions/capability-centres-embedded-ip",
+     "openInNewTab": false
+    },
+    {
+     "label": "All solutions",
+     "href": "/solutions",
+     "openInNewTab": false
+    }
+   ],
+   "mobileVisible": false,
+   "badges": []
+  },
+  {
+   "title": "Products & Accelerators",
+   "links": [
+    {
+     "label": "Linkworks",
+     "href": "/products-and-accelerators/linkworks",
+     "openInNewTab": false
+    },
+    {
+     "label": "testoriumz",
+     "href": "/products-and-accelerators/testoriumz",
+     "openInNewTab": false
+    },
+    {
+     "label": "VajraX",
+     "href": "/products-and-accelerators/vajrax",
+     "openInNewTab": false
+    },
+    {
+     "label": "VectorX",
+     "href": "/products-and-accelerators/vectorx",
+     "openInNewTab": false
+    },
+    {
+     "label": "AI Governance",
+     "href": "/products-and-accelerators/ai-governance",
+     "openInNewTab": false
+    },
+    {
+     "label": "textIQ",
+     "href": "/products-and-accelerators/textiq",
+     "openInNewTab": false
+    },
+    {
+     "label": "FinSight",
+     "href": "/products-and-accelerators/finsight",
+     "openInNewTab": false
+    },
+    {
+     "label": "EduPilot",
+     "href": "/products-and-accelerators/edupilot",
+     "openInNewTab": false
+    },
+    {
+     "label": "All products & accelerators",
+     "href": "/products-and-accelerators",
+     "openInNewTab": false
+    }
+   ],
+   "badges": []
+  },
+  {
+   "title": "Industries",
+   "links": [
+    {
+     "label": "Telecom",
+     "href": "/industries/telecom",
+     "openInNewTab": false
+    },
+    {
+     "label": "BFSI",
+     "href": "/industries/bfsi",
+     "openInNewTab": false
+    },
+    {
+     "label": "Healthcare & Pharma",
+     "href": "/industries/healthcare-pharma",
+     "openInNewTab": false
+    },
+    {
+     "label": "Retail, FMCG & CPG",
+     "href": "/industries/retail-fmcg-cpg",
+     "openInNewTab": false
+    },
+    {
+     "label": "Manufacturing",
+     "href": "/industries/manufacturing",
+     "openInNewTab": false
+    },
+    {
+     "label": "Energy & Mining",
+     "href": "/industries/energy-mining",
+     "openInNewTab": false
+    },
+    {
+     "label": "Public Sector",
+     "href": "/industries/public-sector",
+     "openInNewTab": false
+    },
+    {
+     "label": "Education",
+     "href": "/industries/education",
+     "openInNewTab": false
+    },
+    {
+     "label": "All industries",
+     "href": "/industries",
+     "openInNewTab": false
+    }
+   ],
+   "mobileVisible": false,
+   "badges": []
+  },
+  {
+   "title": "Company",
+   "links": [
+    {
+     "label": "About Linkfields",
+     "href": "/company/about-us",
+     "openInNewTab": false
+    },
+    {
+     "label": "Our approach",
+     "href": "/company/our-approach",
+     "openInNewTab": false
+    },
+    {
+     "label": "Insights",
+     "href": "/company/blog",
+     "openInNewTab": false
+    },
+    {
+     "label": "News & recognition",
+     "href": "/company/news-and-articles",
+     "openInNewTab": false
+    },
+    {
+     "label": "Events",
+     "href": "/events",
+     "openInNewTab": false
+    },
+    {
+     "label": "Careers",
+     "href": "/careers",
+     "openInNewTab": false
+    },
+    {
+     "label": "Contact us",
+     "href": "/contact-us",
+     "openInNewTab": false
+    }
+   ],
+   "badges": []
+  }
+ ],
+ "legalLinks": [
+  {
+   "label": "Privacy Policy",
+   "href": "/privacy-policy",
+   "openInNewTab": false
+  },
+  {
+   "label": "Terms of Use",
+   "href": "/terms-of-use",
+   "openInNewTab": false
+  },
+  {
+   "label": "Cookies Policy",
+   "href": "/cookies-policy",
+   "openInNewTab": false
+  }
+ ],
+ "copyright": "Linkfields. All Rights Reserved",
+ "contactEmail": "info@linkfields.com",
+ "footerSocials": [
+  {
+   "platform": "linkedin",
+   "label": "LinkedIn",
+   "handle": "",
+   "href": "https://www.linkedin.com/company/linkfieldsinnovations",
+   "icon": {
+    "__media": "site/images/linkedin.svg",
+    "width": null,
+    "height": null,
+    "mime": "image/svg+xml",
+    "alt": "LinkedIn"
+   }
+  },
+  {
+   "platform": "twitter",
+   "label": "X",
+   "handle": "",
+   "href": "https://x.com/LinkfieldsI",
+   "icon": {
+    "__media": "site/images/twitter-new-X.png",
+    "width": 543,
+    "height": 460,
+    "mime": "image/png",
+    "alt": "X (formerly Twitter)"
+   }
+  },
+  {
+   "platform": "youtube",
+   "label": "YouTube",
+   "handle": "",
+   "href": "https://www.youtube.com/channel/UCiSaCEnC7Gtu7YkanoA6mpg",
+   "icon": {
+    "__media": "site/images/youtube.svg",
+    "width": null,
+    "height": null,
+    "mime": "image/svg+xml",
+    "alt": "YouTube"
+   }
+  },
+  {
+   "platform": "goodfirms",
+   "label": "GoodFirms",
+   "handle": "",
+   "href": "https://www.goodfirms.co/company/linkfields-innovations",
+   "icon": {
+    "__media": "ext/assets.goodfirms.co/badges/icon/white-goodfirms-icon.svg",
+    "width": null,
+    "height": null,
+    "mime": "image/svg+xml",
+    "alt": "GoodFirms"
+   }
+  }
+ ],
+ "socialBannerHeading": "Follow Linkfields",
+ "socialBannerLinks": [
+  {
+   "platform": "twitter",
+   "label": "X",
+   "handle": "",
+   "href": "https://x.com/LinkfieldsI",
+   "icon": {
+    "__media": "s3/x-twitter.png",
+    "width": 144,
+    "height": 144,
+    "mime": "image/png",
+    "alt": "X (formerly Twitter)"
+   }
+  },
+  {
+   "platform": "youtube",
+   "label": "YouTube",
+   "handle": "",
+   "href": "https://www.youtube.com/channel/UCiSaCEnC7Gtu7YkanoA6mpg",
+   "icon": {
+    "__media": "s3/youtube-168-svgrepo-com.png",
+    "width": 145,
+    "height": 144,
+    "mime": "image/png",
+    "alt": "YOUTUBE"
+   }
+  },
+  {
+   "platform": "linkedin",
+   "label": "LinkedIn",
+   "handle": "",
+   "href": "https://www.linkedin.com/company/linkfieldsinnovations",
+   "icon": {
+    "__media": "s3/linkedin-rounded-svgrepo-com.png",
+    "width": 144,
+    "height": 144,
+    "mime": "image/png",
+    "alt": "LINKEDIN"
+   }
+  }
+ ],
+ "insightsHeading": "Practical guidance for *enterprise leaders*",
+ "insights": [
+  {
+   "label": "Insight",
+   "title": "AI code assurance: quality and security gates for AI-written change",
+   "href": "/company/blog/ai-code-assurance",
+   "image": {
+    "__media": "custom/hero-testoriumz.jpg",
+    "alt": "AI code assurance: quality and security gates for AI-written change",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg"
+   },
+   "openInNewTab": false
+  },
+  {
+   "label": "Insight",
+   "title": "Governing enterprise AI with a single gateway",
+   "href": "/company/blog/single-ai-gateway",
+   "image": {
+    "__media": "custom/hero-ai-governance.jpg",
+    "alt": "Governing enterprise AI with a single gateway",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg"
+   },
+   "openInNewTab": false
+  },
+  {
+   "label": "Insight",
+   "title": "Continuous cyber evidence for regulated industries",
+   "href": "/company/blog/continuous-cyber-evidence",
+   "image": {
+    "__media": "custom/hero-cyber-security.jpg",
+    "alt": "Continuous cyber evidence for regulated industries",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg"
+   },
+   "openInNewTab": false
+  }
+ ],
+ "contactForm": {
+  "heading": "Let’s connect",
+  "subheading": "Tell us about your business requirements",
+  "nextStepsTitle": "What happens next",
+  "nextSteps": [
+   {
+    "title": "We route your enquiry to the relevant portfolio specialist.",
+    "description": ""
+   },
+   {
+    "title": "Where needed, we agree an NDA before you share confidential information.",
+    "description": ""
+   },
+   {
+    "title": "We clarify your priorities and agree the right next step with you.",
+    "description": ""
+   }
+  ],
+  "serviceOptions": [
+   {
+    "label": "Not sure - help me choose",
+    "value": "Not sure",
+    "group": null
+   },
+   {
+    "label": "App modernisation",
+    "value": "Digital Transformation: App modernisation",
+    "group": "Digital Transformation"
+   },
+   {
+    "label": "Automation & RPA",
+    "value": "Digital Transformation: Automation & RPA",
+    "group": "Digital Transformation"
+   },
+   {
+    "label": "Integration services",
+    "value": "Digital Transformation: Integration services",
+    "group": "Digital Transformation"
+   },
+   {
+    "label": "WhatsApp Business & omnichannel",
+    "value": "Digital Transformation: WhatsApp Business & omnichannel",
+    "group": "Digital Transformation"
+   },
+   {
+    "label": "Quality engineering",
+    "value": "Digital Transformation: Quality engineering",
+    "group": "Digital Transformation"
+   },
+   {
+    "label": "Cloud services",
+    "value": "Digital Transformation: Cloud services",
+    "group": "Digital Transformation"
+   },
+   {
+    "label": "SAP S/4HANA",
+    "value": "Intelligent Enterprise Platforms: SAP S/4HANA",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "Microsoft Dynamics 365",
+    "value": "Intelligent Enterprise Platforms: Microsoft Dynamics 365",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "Odoo",
+    "value": "Intelligent Enterprise Platforms: Odoo",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "Zoho",
+    "value": "Intelligent Enterprise Platforms: Zoho",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "Salesforce",
+    "value": "Intelligent Enterprise Platforms: Salesforce",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "Linkworks",
+    "value": "Intelligent Enterprise Platforms: Linkworks",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "Platform migration & AMS",
+    "value": "Intelligent Enterprise Platforms: Platform migration & AMS",
+    "group": "Intelligent Enterprise Platforms"
+   },
+   {
+    "label": "AI strategy & governance",
+    "value": "Data & AI: AI strategy & governance",
+    "group": "Data & AI"
+   },
+   {
+    "label": "Agentic AI & GenAI",
+    "value": "Data & AI: Agentic AI & GenAI",
+    "group": "Data & AI"
+   },
+   {
+    "label": "Data platforms & analytics",
+    "value": "Data & AI: Data platforms & analytics",
+    "group": "Data & AI"
+   },
+   {
+    "label": "Machine learning",
+    "value": "Data & AI: Machine learning",
+    "group": "Data & AI"
+   },
+   {
+    "label": "AI security & GRC",
+    "value": "Cyber Security: AI security & GRC",
+    "group": "Cyber Security"
+   },
+   {
+    "label": "Cloud security & IAM",
+    "value": "Cyber Security: Cloud security & IAM",
+    "group": "Cyber Security"
+   },
+   {
+    "label": "Exposure validation & AppSec",
+    "value": "Cyber Security: Exposure validation & AppSec",
+    "group": "Cyber Security"
+   },
+   {
+    "label": "Security operations",
+    "value": "Cyber Security: Security operations",
+    "group": "Cyber Security"
+   },
+   {
+    "label": "Technology advisory",
+    "value": "Talent Advisory & GCC: Technology advisory",
+    "group": "Talent Advisory & GCC"
+   },
+   {
+    "label": "Specialist talent & managed teams",
+    "value": "Talent Advisory & GCC: Specialist talent & managed teams",
+    "group": "Talent Advisory & GCC"
+   },
+   {
+    "label": "GCC strategy & setup",
+    "value": "Talent Advisory & GCC: GCC strategy & setup",
+    "group": "Talent Advisory & GCC"
+   },
+   {
+    "label": "GCC build-operate-transfer",
+    "value": "Talent Advisory & GCC: GCC build-operate-transfer",
+    "group": "Talent Advisory & GCC"
+   },
+   {
+    "label": "AI Code Assurance",
+    "value": "Solution: AI Code Assurance",
+    "group": "Solutions (value plays)"
+   },
+   {
+    "label": "Modernisation & Programme Assurance",
+    "value": "Solution: Modernisation & Programme Assurance",
+    "group": "Solutions (value plays)"
+   },
+   {
+    "label": "Regulated Cyber Readiness",
+    "value": "Solution: Regulated Cyber Readiness",
+    "group": "Solutions (value plays)"
+   },
+   {
+    "label": "Intelligent Operations",
+    "value": "Solution: Intelligent Operations",
+    "group": "Solutions (value plays)"
+   },
+   {
+    "label": "Capability Centres with Embedded IP",
+    "value": "Solution: Capability Centres with Embedded IP",
+    "group": "Solutions (value plays)"
+   },
+   {
+    "label": "Licence, subscription or SaaS",
+    "value": "Products & Accelerators: licence or SaaS",
+    "group": "Products & accelerators"
+   },
+   {
+    "label": "Product demonstration",
+    "value": "Products & Accelerators: demo",
+    "group": "Products & accelerators"
+   },
+   {
+    "label": "Accelerator delivery",
+    "value": "Products & Accelerators: accelerator delivery",
+    "group": "Products & accelerators"
+   },
+   {
+    "label": "Partnership or general enquiry",
+    "value": "General enquiry",
+    "group": "Other"
+   }
+  ],
+  "submitLabel": "Send enquiry",
+  "successMessage": "Thank you for submitting your enquiry. Our expert consultants will be in touch.",
+  "backgroundLight": {
+   "__media": "site/backgroud-images/contact-us.png",
+   "width": 1920,
+   "height": 940,
+   "mime": "image/png",
+   "alt": ""
+  },
+  "backgroundLightMobile": {
+   "__media": "site/backgroud-images/contact-us-mobile.jpg",
+   "width": 390,
+   "height": 770,
+   "mime": "image/jpeg",
+   "alt": ""
+  },
+  "backgroundDark": {
+   "__media": "site/backgroud-images/contact-us-dark.jpg",
+   "width": 1920,
+   "height": 1044,
+   "mime": "image/jpeg",
+   "alt": ""
+  },
+  "backgroundDarkMobile": {
+   "__media": "site/backgroud-images/contact-us-mobile-dark.jpg",
+   "width": 390,
+   "height": 770,
+   "mime": "image/jpeg",
+   "alt": ""
+  }
+ },
+ "defaultSeo": {
+  "metaTitle": "Linkfields | Services, Software & Accelerators",
+  "metaDescription": "South Africa-headquartered technology, engineering and advisory partner combining five service portfolios, proprietary software and reusable accelerators.",
+  "keywords": "Linkfields, digital transformation, enterprise platforms, data and AI, cyber security, GCC, proprietary software, accelerators",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "salesEmail": "sales@linkfields.com",
+ "footerTagline": "An AI-driven technology, engineering and advisory company helping enterprises accelerate digital transformation and build scalable Global Capability Centres.",
+ "footerLocations": "South Africa (HQ) · India · UAE · United Kingdom · USA · Australia",
+ "offices": [
+  {
+   "country": "South Africa",
+   "role": "Headquarters",
+   "isHeadquarters": true,
+   "accent": "orange",
+   "address": "Block H, Midridge Office Estate\nInternational Business Gateway, Cnr 6th Street\nMidrand 1684, South Africa",
+   "mapQuery": "Linkfields Innovations (Pty) Ltd, Block H, Midridge Office Estate, International Business Gateway, Midrand 1684, South Africa"
+  },
+  {
+   "country": "India",
+   "role": "Offshore Delivery Centre",
+   "isHeadquarters": false,
+   "accent": "blue",
+   "address": "809, 8th Floor, Gowra Fountain Head\nRaheja Mindspace IT Park, Hitech City\nHyderabad 500081, India",
+   "mapQuery": "Gowra Fountain Head, Raheja Mindspace IT Park, Hitech City, Hyderabad 500081, India"
+  },
+  {
+   "country": "UAE",
+   "role": "Middle East",
+   "isHeadquarters": false,
+   "accent": "teal",
+   "address": "409, Churchill Towers, Business Bay\nDubai, United Arab Emirates 1686",
+   "mapQuery": "Churchill Towers, Business Bay, Dubai, United Arab Emirates"
+  },
+  {
+   "country": "United Kingdom",
+   "role": "Europe",
+   "isHeadquarters": false,
+   "accent": "purple",
+   "address": "71-75 Shelton Street, Covent Garden\nLondon WC2H 9JQ, United Kingdom",
+   "mapQuery": "71-75 Shelton Street, Covent Garden, London WC2H 9JQ, United Kingdom"
+  },
+  {
+   "country": "USA",
+   "role": "North America",
+   "isHeadquarters": false,
+   "accent": "yellow",
+   "address": "1604, 447 Broadway, 2nd Floor\nNew York, NY 10013, USA",
+   "mapQuery": "447 Broadway, New York, NY 10013, USA"
+  },
+  {
+   "country": "Australia",
+   "role": "Asia Pacific",
+   "isHeadquarters": false,
+   "accent": "blue",
+   "address": "Level 40, 140 William Street\nMelbourne VIC 3000, Australia",
+   "mapQuery": "140 William Street, Melbourne VIC 3000, Australia"
+  }
+ ]
+}

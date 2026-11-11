@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_solutions_card_grid",
+  "info": { "displayName": "Solutions card grid", "icon": "grid", "description": "Dark, transparent, intro, or source-style offer-row cards with editable imagery." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" }, "eyebrow": { "type": "string" }, "heading": { "type": "text" }, "description": { "type": "richtext" },
+    "image": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
+    "cards": { "type": "component", "repeatable": true, "component": "shared.icon-card" },
+    "variant": { "type": "enumeration", "enum": ["dark", "transparent", "intro", "offer-rows"], "default": "dark" },
+    "backgroundImage": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] }
+  }
+}

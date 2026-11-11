@@ -1,0 +1,263 @@
+{
+ "title": "Healthcare & Pharma",
+ "path": "/industries/healthcare-pharma",
+ "seo": {
+  "metaTitle": "Healthcare IT Services & Pharma Solutions | Linkfields",
+  "metaDescription": "Improve administrative and pharma supply workflows with healthcare IT services, secure integration, automation and governed data from Linkfields.",
+  "keywords": "healthcare, pharma, patient administration, supply visibility, document workflows, healthcare IT services, healthcare IT services South Africa, healthcare system integration, healthcare workflow automation, pharmaceutical supply chain integration, pharmaceutical document management",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Healthcare & Pharma",
+   "subtitle": "Connect patient administration and pharmaceutical operations through secure integration, automation and governed data.",
+   "backgroundImage": {
+    "__media": "custom/hero-healthcare-pharma.jpg",
+    "alt": "Healthcare & Pharma service and operations context"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Software & Accelerators",
+     "targetId": "software-accelerators"
+    },
+    {
+     "label": "Delivery Approach",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Industry overview",
+   "heading": "Healthcare IT services. Connected pharma operations.",
+   "body": "Healthcare providers need connected patient administration and dependable service information; pharmaceutical teams need visibility across procurement, inventory and distribution. Linkfields combines integration, enterprise platforms and governed Data & AI with proprietary software and reusable workflow IP, keeping privacy and human oversight central.\n\nThe focus is administrative and business operations. Clinical decisions, medical devices, validated GxP systems and named health interoperability standards require separately confirmed scope and evidence.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "portfolio-map",
+   "eyebrow": "Integrated capabilities",
+   "heading": "Five portfolios, *one delivery plan*",
+   "description": "Select the capabilities your workflow needs, with security embedded across engineering and delivery.",
+   "variant": "compact",
+   "columns": 5,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Digital Transformation",
+     "description": "Connect patient service administration, operational applications and APIs.",
+     "accent": "orange",
+     "number": "01",
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Integrate finance, procurement, inventory and administrative ERP workflows.",
+     "accent": "blue",
+     "number": "02",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Data & AI",
+     "description": "Govern operational analytics, data quality and document intelligence.",
+     "accent": "purple",
+     "number": "03",
+     "href": "/services/data-ai",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Cyber Security",
+     "description": "Design controlled identities, application access and sensitive-data boundaries.",
+     "accent": "teal",
+     "number": "04",
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Talent Advisory & GCC",
+     "description": "Add architecture advisory and specialist or managed delivery teams where needed.",
+     "accent": "yellow",
+     "number": "05",
+     "href": "/services/talent-advisory-gcc",
+     "linkLabel": "Explore portfolio"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "",
+   "heading": "What we deliver",
+   "description": "Agree workflow inputs, staff responsibilities and access boundaries; administrative efficiency is not a claim about clinical outcomes.",
+   "variant": "default",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Patient enquiries and appointments",
+     "description": "Disconnected enquiry and appointment channels can leave administrative teams without a shared case view.",
+     "accent": "orange",
+     "bullets": "Workflow - Connect service requests, appointment status and staff hand-offs.\nControl - Staff own scheduling and escalation; agree permitted data and role-based access.",
+     "footLabel": "Measure to agree",
+     "footText": "Hand-off completion, repeat enquiries and administrative cycle time.",
+     "href": "/services/digital-transformation/whatsapp-omnichannel",
+     "linkLabel": "Explore connected channels"
+    },
+    {
+     "title": "Health application and data integration",
+     "description": "Administrative applications need consistent data flows without broadening access to sensitive records.",
+     "accent": "teal",
+     "bullets": "Workflow - Map interfaces, transform permitted data and route quality exceptions to system owners.\nControl - Agree consent/access requirements, data boundaries and accountable source ownership.",
+     "footLabel": "Measure to agree",
+     "footText": "Interface reliability, data quality and exception resolution.",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Explore integration services"
+    },
+    {
+     "title": "Pharma supply visibility",
+     "description": "Procurement, inventory and distribution records can leave supply teams with different views of stock.",
+     "accent": "blue",
+     "bullets": "Workflow - Connect purchase orders, stock movements and distribution status for exception review.\nControl - Supply owners validate records and actions; agree access and data freshness.",
+     "footLabel": "Measure to agree",
+     "footText": "Inventory reconciliation, exception age and fulfilment visibility.",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore enterprise platforms"
+    },
+    {
+     "title": "Controlled documents and approvals",
+     "description": "Operational documents and approval queues need clear versions, access and reviewer accountability.",
+     "accent": "purple",
+     "bullets": "Workflow - Use document intelligence to find source content and workflow automation to route operational approvals.\nControl - Named reviewers approve changes; retain source references and decision records.",
+     "footLabel": "Measure to agree",
+     "footText": "Approval turnaround, rework and record completeness.",
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore textIQ"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "software-accelerators",
+   "eyebrow": "",
+   "heading": "Software and accelerators for connected operations",
+   "description": "Match software and reusable accelerators to your administrative and supply workflows. Products are available by licence, subscription or SaaS, with or without services.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Linkworks",
+     "description": "Composable applications and APIs for administrative or supply workflows where the ERP or CRM does not fit.",
+     "accent": "orange",
+     "eyebrow": "Product",
+     "logo": {
+      "__media": "custom/logos/plate/linkworks-plate.png",
+      "alt": "Linkworks logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "textIQ",
+     "description": "Search and insight across operational documents, with permitted sources and access boundaries agreed.",
+     "accent": "purple",
+     "eyebrow": "Product",
+     "logo": {
+      "__media": "custom/logos/plate/textiq-plate.png",
+      "alt": "textIQ logo"
+     },
+     "href": "/products-and-accelerators/textiq",
+     "linkLabel": "Explore textIQ"
+    },
+    {
+     "title": "Intelligent Workflow Automation",
+     "description": "Reusable routing, approvals and application integration tailored to operational review checkpoints.",
+     "accent": "orange",
+     "eyebrow": "Accelerator",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": "Intelligent Workflow Automation icon"
+     },
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "title": "testoriumz",
+     "description": "Continuous software release assurance with low-code testing and CI/CD integration; not clinical or pharmaceutical product validation.",
+     "accent": "orange",
+     "eyebrow": "Product",
+     "logo": {
+      "__media": "custom/logos/plate/testoriumz-plate.png",
+      "alt": "testoriumz logo"
+     },
+     "href": "/products-and-accelerators/testoriumz",
+     "linkLabel": "Explore testoriumz"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-approach",
+   "eyebrow": "Delivery approach",
+   "heading": "Which patient or supply workflow needs to connect?",
+   "description": "Example engagement pattern: scope a priority workflow, agree controls and define acceptance measures before selecting a delivery model.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Frame the workflow",
+     "description": "Select an administrative or pharmaceutical supply workflow and the staff responsible for it.",
+     "accent": "orange",
+     "bullets": "Inputs - application map, permitted data flows and redacted process samples\nOutput - prioritised workflow and integration scope",
+     "number": "01"
+    },
+    {
+     "title": "Design controlled change",
+     "description": "Agree consent and access requirements, human approval points and evidence needs with the responsible teams.",
+     "accent": "teal",
+     "bullets": "Artefacts - interface map, access matrix and review checkpoints\nQuality gate - agreed tests and exception handling",
+     "number": "02"
+    },
+    {
+     "title": "Agree acceptance and operation",
+     "description": "Define an administrative or supply baseline, data-quality checks and acceptance measures. Any clinical, interoperability or pharma validation scope needs separate assessment.",
+     "accent": "blue",
+     "bullets": "Artefacts - acceptance measures, release evidence and ownership plan\nCommercial model - project, managed service or dedicated team",
+     "number": "03",
+     "href": "/company/our-approach",
+     "linkLabel": "Explore our approach"
+    }
+   ],
+   "noteLabel": "Before we begin",
+   "note": "We can agree an NDA before sharing confidential information. Describe the process and existing systems, not patient records or confidential pharmaceutical documents."
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Talk to us about healthcare and pharma priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

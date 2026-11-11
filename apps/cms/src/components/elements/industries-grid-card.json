@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_elements_industries_grid_card",
+  "info": {
+    "displayName": "Industry card",
+    "icon": "briefcase",
+    "description": "Industry card: photo, title, description, tags (one per line)"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "text"
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": [
+        "orange",
+        "blue",
+        "purple",
+        "teal",
+        "yellow"
+      ]
+    }
+  }
+}

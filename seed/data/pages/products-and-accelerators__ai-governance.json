@@ -1,0 +1,192 @@
+{
+ "title": "AI Governance",
+ "path": "/products-and-accelerators/ai-governance",
+ "seo": {
+  "metaTitle": "AI Governance Gateway, Guardrails & Cost | Linkfields",
+  "metaDescription": "Evaluate an AI governance gateway for guardrails, cost visibility and tracing. Scope integrations and operating responsibilities with Linkfields.",
+  "keywords": "AI Governance, AI gateway, guardrails, Portkey, Opik, AI governance gateway, enterprise AI governance, AI gateway guardrails, LLM cost monitoring, LLM tracing, Portkey Opik integration",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "AI Governance",
+   "subtitle": "An AI gateway for guardrails, cost visibility and tracing.",
+   "backgroundImage": {
+    "__media": "custom/hero-ai-governance.jpg",
+    "alt": "Linkfields AI Governance branded product artwork"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Capabilities",
+     "targetId": "capabilities"
+    },
+    {
+     "label": "Workflow",
+     "targetId": "workflow"
+    },
+    {
+     "label": "Enterprise Fit",
+     "targetId": "enterprise-fit"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ],
+   "logo": {
+    "__media": "custom/logos/svg/ai-governance-on-dark.svg",
+    "alt": "AI Governance logo"
+   }
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Requirements and fit",
+   "heading": "AI governance: guardrails, cost and tracing",
+   "body": "When AI applications use different tools and providers, security and engineering teams need a defined control point and a way to inspect usage. Linkfields AI Governance packages an AI gateway and governance layer built on **Portkey + Opik**.\n\nPortkey and Opik are third-party components, not platforms owned by Linkfields. The Linkfields packaging, integration and governance configuration must be scoped alongside the underlying platform licences and operating responsibilities.\n\n[Request an AI Governance walkthrough](#get-in-touch) · [View all products](/products-and-accelerators)",
+   "secondaryEyebrow": "Delivery context",
+   "secondaryHeading": "Technical controls are not the whole governance programme",
+   "secondaryBody": "This product sits in [Cyber Security](/services/cyber-security). It is distinct from [AI strategy & governance](/services/data-ai/ai-strategy-governance), which addresses use-case priorities, ownership and organisational governance.\n\nFor security control design and GRC support, explore [AI security & GRC](/services/cyber-security/ai-security-grc). A gateway alone does not establish legal or regulatory compliance.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "capabilities",
+   "eyebrow": "Capabilities",
+   "heading": "Three governance priorities",
+   "description": "The product offer covers guardrails, cost and tracing. Start with the controls and evidence your AI workload needs, then establish the supported configuration.",
+   "variant": "default",
+   "columns": 3,
+   "tone": "navy",
+   "logosLabel": "Product",
+   "logos": [
+    {
+     "label": "AI Governance",
+     "logo": {
+      "__media": "custom/logos/plate/ai-governance-plate.png",
+      "alt": "AI Governance product logo"
+     }
+    }
+   ],
+   "items": [
+    {
+     "title": "Guardrails",
+     "description": "Translate AI-use rules into a control checklist: what should be permitted, restricted or reviewed. Demonstrate the relevant gateway behaviour before approving the configuration.",
+     "bullets": "Input - agreed AI-use policies\nEvaluation output - policy tests and supported-control scope",
+     "accent": "teal"
+    },
+    {
+     "title": "Cost visibility",
+     "description": "Use cost visibility to assess the spend associated with the agreed AI workload. Confirm the available usage views and attribution detail rather than assume universal budget enforcement.",
+     "bullets": "Input - workload and cost-review needs\nEvaluation output - usage views and review responsibilities",
+     "accent": "teal"
+    },
+    {
+     "title": "Tracing",
+     "description": "Inspect the path of an AI interaction to understand how the workload behaves. Agree which trace evidence is needed and who may inspect prompt and response content.",
+     "bullets": "Input - sample interactions and evidence needs\nEvaluation output - trace coverage and data-handling rules",
+     "accent": "teal"
+    }
+   ],
+   "ctaLabel": "Request a walkthrough",
+   "ctaUrl": "#get-in-touch"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "workflow",
+   "eyebrow": "How it works",
+   "heading": "Evaluate the gateway in your AI estate",
+   "description": "Evaluation workflow, not a production architecture: agree the application, gateway, model/provider and tracing paths for one workload before expanding coverage.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "number": "01",
+     "title": "Map the workload",
+     "description": "Identify the application, AI tools, model providers and data types. Record trust boundaries and the current operating owners.",
+     "footLabel": "Deliverable",
+     "footText": "AI estate and responsibility map",
+     "accent": "teal"
+    },
+    {
+     "number": "02",
+     "title": "Scope the stack",
+     "description": "Confirm what Portkey + Opik provide and what Linkfields configures or integrates. Check provider coverage and third-party terms.",
+     "footLabel": "Deliverable",
+     "footText": "Component and licence boundary",
+     "accent": "teal"
+    },
+    {
+     "number": "03",
+     "title": "Test the controls",
+     "description": "Use agreed sample interactions to inspect guardrail behaviour, usage visibility and trace evidence. Include failure-handling questions.",
+     "footLabel": "Deliverable",
+     "footText": "Policy-test and evidence record",
+     "accent": "teal"
+    },
+    {
+     "number": "04",
+     "title": "Agree operation",
+     "description": "Set access, secrets, retention and incident responsibilities. Accept the design only against the controls actually demonstrated.",
+     "footLabel": "Deliverable",
+     "footText": "Operating and acceptance checklist",
+     "accent": "teal"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "use-case",
+   "eyebrow": "Example engagement pattern",
+   "heading": "Example: a governed knowledge assistant",
+   "body": "**Example engagement pattern, not a client case study.** An enterprise team wants to introduce a knowledge assistant but first needs visibility of its AI interactions. Start with one workload, agreed sample prompts and a named control owner.\n\nThe evaluation produces an application-to-gateway map, a supported-control checklist, sample usage and trace evidence, and a responsibility matrix. Organisational policy and security review remain separate from the technical gateway configuration.\n\nFor the wider evidence and remediation programme, explore [Regulated Cyber Readiness](/solutions/regulated-cyber-readiness).",
+   "theme": "light",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": ""
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "enterprise-fit",
+   "eyebrow": "Enterprise fit",
+   "heading": "Agree the technical and commercial boundary",
+   "description": "Available by licence, subscription or SaaS, with or without Linkfields services. A walkthrough should establish the Linkfields scope, third-party terms and supported estate before procurement.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "What is included, and who owns it?",
+     "description": "AI Governance is the Linkfields-packaged offer built on Portkey + Opik. Agree and document in the proposal the Linkfields layer, underlying platform editions and licences, configuration artefacts, optional services and each party’s support responsibility. Do not treat third-party technology as Linkfields-owned IP."
+    },
+    {
+     "title": "Which tools and integrations fit?",
+     "description": "Bring your application and provider inventory. Establish supported models, tools, connection paths and trace coverage in the evaluation. Specify integration effort, request behaviour and failure or failover handling; coverage is not assumed for every AI tool."
+    },
+    {
+     "title": "Where does it run, and what is logged?",
+     "description": "Agree the available hosting model, region and data residency before selecting deployment. Review prompt and response retention, redaction, access controls, secrets handling and model-provider data use. Record the trust boundaries and approval owners."
+    },
+    {
+     "title": "How do we buy and operate it?",
+     "description": "Separate Linkfields licence or subscription terms from SaaS hosting, third-party fees and optional implementation or managed support. Confirm availability, version, onboarding, release responsibilities, support scope and any agreed service levels explicitly in the proposal. This page does not imply a service-level commitment."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Request an AI Governance demo",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_company_career_cta",
+  "info": {
+    "displayName": "Career call to action",
+    "icon": "rocket",
+    "description": "Careers background panel and explore-jobs link"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "text" },
+    "description": { "type": "text" },
+    "cta": { "type": "component", "repeatable": false, "component": "shared.link" },
+    "ctaIcon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos"]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos"]
+    }
+  }
+}

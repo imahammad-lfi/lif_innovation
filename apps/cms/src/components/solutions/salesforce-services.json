@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_solutions_salesforce_services",
+  "info": { "displayName": "Salesforce services", "icon": "apps", "description": "Desktop side-tab service catalogue." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" }, "heading": { "type": "text" },
+    "backgroundImage": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
+    "tabs": { "type": "component", "repeatable": true, "component": "elements.solutions-salesforce-tab" }
+  }
+}

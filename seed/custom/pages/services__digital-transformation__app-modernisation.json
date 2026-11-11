@@ -1,0 +1,242 @@
+{
+  "title": "App modernisation",
+  "path": "/services/digital-transformation/app-modernisation",
+  "seo": {
+    "metaTitle": "App modernisation | Linkfields",
+    "metaDescription": "Modernise critical applications through phased engineering, integration and release assurance, with Linkworks and secure-by-design delivery.",
+    "keywords": "app modernisation, Linkworks, legacy applications, DevSecOps",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "App modernisation",
+      "subtitle": "Modernise legacy applications for safer releases, easier integration and scalable operations.",
+      "backgroundImage": {
+        "__media": "s3/application-development.jpg",
+        "alt": "Application engineering and modernisation"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "What We Deliver",
+          "targetId": "what-we-deliver"
+        },
+        {
+          "label": "Use Cases",
+          "targetId": "use-cases"
+        },
+        {
+          "label": "Our Approach",
+          "targetId": "our-approach"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "Modernise critical applications without losing business continuity",
+      "body": "When ageing applications constrain change, start with their business role, dependencies and operating risks. We assess what to retain, rehost, replatform, refactor or rebuild, then agree a staged roadmap rather than assume microservices are always the answer.\n\nBaseline release lead time, incident rate and cost-to-change; use those measures to evaluate each wave. [Discuss your modernisation priorities](#get-in-touch).",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "WHAT WE DELIVER",
+      "heading": "What we deliver",
+      "description": "A roadmap, engineered change and an agreed operating scope—not a forced rebuild of every application.",
+      "items": [
+        {
+          "title": "Application assessment and roadmap",
+          "description": "Dependency inventory, workload decisions and a prioritised change backlog tied to business constraints.",
+          "accent": "orange"
+        },
+        {
+          "title": "Legacy refactoring and microservices",
+          "description": "Target architecture and refactored components, with service boundaries only where they support the application.",
+          "accent": "orange"
+        },
+        {
+          "title": "APIs and integration",
+          "description": "Versioned API contracts, data mappings and failure-handling rules for dependent systems.",
+          "accent": "orange",
+          "href": "/services/digital-transformation/integration-services",
+          "linkLabel": "Integration services"
+        },
+        {
+          "title": "Cloud-native engineering",
+          "description": "Application changes and deployment configuration suited to the agreed cloud environment.",
+          "accent": "orange",
+          "href": "/services/digital-transformation/cloud-services",
+          "linkLabel": "Cloud services"
+        },
+        {
+          "title": "DevSecOps and release assurance",
+          "description": "Build, test and deployment pipelines with agreed quality, security and rollback gates.",
+          "accent": "orange",
+          "href": "/services/digital-transformation/quality-engineering",
+          "linkLabel": "Quality engineering"
+        },
+        {
+          "title": "Experience redesign and support",
+          "description": "Validated priority journeys and interfaces. Operate, monitor and improve applications against an agreed service scope.",
+          "accent": "orange"
+        }
+      ],
+      "tone": "navy",
+      "columns": 3,
+      "variant": "default"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "use-cases",
+      "eyebrow": "ILLUSTRATIVE USE CASES",
+      "heading": "A staged modernisation journey",
+      "description": "Illustrative engagement pattern: coexistence protects dependent processes while change moves through agreed release gates.",
+      "items": [
+        {
+          "title": "1. Preserve the core process",
+          "description": "Keep the legacy application serving agreed functions while Integration services establishes API contracts and a coexistence plan.",
+          "accent": "orange"
+        },
+        {
+          "title": "2. Modernise selected capabilities",
+          "description": "Use an API layer and, where appropriate, Linkworks composable applications or cloud-native services. Agree data ownership and rollback triggers.",
+          "accent": "orange"
+        },
+        {
+          "title": "3. Assure each release",
+          "description": "Quality Engineering validates critical journeys and regression; Cyber Security reviews access and application risks before operating handover.",
+          "accent": "orange",
+          "href": "/services/cyber-security/exposure-validation-appsec",
+          "linkLabel": "AppSec collaboration"
+        }
+      ],
+      "tone": "ink",
+      "columns": 3,
+      "variant": "compact",
+      "ctaLabel": "Modernisation & Programme Assurance",
+      "ctaUrl": "/solutions/modernisation-programme-assurance"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "ip-and-accelerators",
+      "eyebrow": "LINKFIELDS IP & ACCELERATORS",
+      "heading": "Linkworks and modernisation delivery IP",
+      "description": "Select IP against the application architecture, integration needs and release risks during discovery.",
+      "items": [
+        {
+          "title": "Linkworks",
+          "description": "Microservices, REST APIs, composable UI, cloud-native solutions and DevSecOps for capabilities where ERP or CRM does not fit. It need not replace a suitable core platform.",
+          "accent": "orange",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        },
+        {
+          "title": "testoriumz",
+          "description": "Test management, low-code automation, AI root-cause analysis, dashboards and CI/CD integration support continuous release assurance.",
+          "accent": "orange",
+          "logo": {
+            "__media": "custom/logos/testoriumz.png",
+            "alt": "testoriumz product logo"
+          },
+          "href": "/products-and-accelerators/testoriumz",
+          "linkLabel": "Explore testoriumz"
+        },
+        {
+          "title": "Modernisation and assurance accelerators",
+          "description": "The Modernisation & Integration Toolkit, Automated Testing & Release Assurance Packs and Cyber-Safe Delivery support the agreed scope.",
+          "accent": "orange",
+          "href": "/products-and-accelerators/delivery-accelerators",
+          "linkLabel": "Explore delivery accelerators"
+        }
+      ],
+      "tone": "navy",
+      "columns": 3,
+      "variant": "default",
+      "noteLabel": "Fit and licensing",
+      "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Discovery agrees product fit, reusable accelerator content and client-specific engineering."
+    },
+    {
+      "__component": "services.numbered-help",
+      "anchorId": "our-approach",
+      "eyebrow": "SECURE BY DESIGN",
+      "heading": "From application estate to assured releases",
+      "items": [
+        {
+          "description": "Assess — Map dependencies, user journeys and operating risks. Client application owners confirm business priorities, access and baseline measures; agree the assessment and roadmap."
+        },
+        {
+          "description": "Design — Agree target architecture, migration waves, data controls and coexistence. The client approves acceptance criteria, rollback triggers and security requirements before build."
+        },
+        {
+          "description": "Build — Engineer UX, APIs and automated pipelines. Prototype priority screens and test them with representative users; review code, configuration and access changes."
+        },
+        {
+          "description": "Validate and hand over — Test migration, security and regression against the agreed gates. Record the release decision, rehearse rollback and transfer runbooks, monitoring and ownership to operations."
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "acceptance-and-evidence",
+      "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
+      "heading": "Evidence for each migration wave",
+      "body": "A release decision should include dependency updates, regression results, security findings and rollback evidence—not just a completed build. Business owners accept priority journeys; technical owners record unresolved risks and operating readiness.\n\nCompare release lead time, incidents and cost-to-change with the agreed baseline after each wave. Agree measurement periods and responsibility for the service after handover.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+      "theme": "light"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "ENGAGEMENT & BUYER QUESTIONS",
+      "heading": "Plan the right engagement",
+      "description": "Use Fixed Price for an agreed migration wave, or Time & Materials for estate discovery and evolving scope. A Dedicated Team supports sustained product engineering; Managed Service covers an agreed application operating scope. Outcome-Based work requires an evidenced baseline and agreed attribution.",
+      "backgroundStyle": "dark",
+      "items": [
+        {
+          "title": "What is needed for an estate assessment?",
+          "description": "Application and dependency inventories, business-critical journeys, current architecture, incident history and change constraints. We agree access and confidentiality before reviewing sensitive material."
+        },
+        {
+          "title": "Can old and new applications coexist?",
+          "description": "Yes, where the architecture supports it. Define interface and data ownership, reconciliation, migration waves and rollback triggers; validate the coexistence plan before cutover."
+        },
+        {
+          "title": "How do we choose refactoring or rebuilding?",
+          "description": "Compare business fit, supportability, dependency risk and cost-to-change. Retaining or replatforming a suitable application can be preferable to rebuilding it."
+        },
+        {
+          "title": "Who owns the application after delivery?",
+          "description": "Agree application, platform and support responsibilities before build. Handover includes configuration, release procedures, runbooks, monitoring and an accepted risk record."
+        },
+        {
+          "title": "What should we bring to the conversation?",
+          "description": "Share the application estate, current constraints and target outcomes. We can then agree discovery scope, confidentiality requirements and a suitable delivery approach."
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your application modernisation priorities",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

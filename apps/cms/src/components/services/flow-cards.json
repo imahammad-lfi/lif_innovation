@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_services_flow_cards",
+  "info": { "displayName": "Services · Flow cards", "icon": "apps", "description": "WHAT WE OFFER service cards on an image or black ground." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "eyebrow": { "type": "string" },
+    "heading": { "type": "text" },
+    "description": { "type": "text" },
+    "backgroundImage": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
+    "backgroundStyle": { "type": "enumeration", "enum": ["image", "dark"], "default": "image" },
+    "cards": { "type": "component", "repeatable": true, "component": "elements.services-icon-card" }
+  }
+}

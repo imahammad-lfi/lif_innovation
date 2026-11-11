@@ -1,0 +1,234 @@
+{
+ "title": "Our approach",
+ "path": "/company/our-approach",
+ "seo": {
+  "metaTitle": "Enterprise Delivery Approach & Governance | Linkfields",
+  "metaDescription": "Explore our enterprise delivery approach: align business outcomes, govern quality and security, and choose commercial models that fit your requirements.",
+  "keywords": "delivery approach, governance, Cyber-Safe Delivery, commercial models, enterprise delivery approach, technology delivery governance, IT project delivery approach, software delivery assurance, managed services engagement models, outcome-based IT services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Our delivery approach",
+   "subtitle": "Agree the value, govern delivery and measure the result across technology, data, security and talent.",
+   "backgroundImage": {
+    "__media": "custom/hero-delivery-accelerators.jpg",
+    "alt": "Our delivery approach"
+   },
+   "anchorLinks": [
+    {
+     "label": "Value Framework",
+     "targetId": "value-framework"
+    },
+    {
+     "label": "Delivery Cycle",
+     "targetId": "delivery-cycle"
+    },
+    {
+     "label": "Delivery Gates",
+     "targetId": "delivery-gates"
+    },
+    {
+     "label": "Governance",
+     "targetId": "governance"
+    },
+    {
+     "label": "Commercial Models",
+     "targetId": "engagement-models"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "value-framework",
+   "eyebrow": "",
+   "heading": "Start with the outcome you need",
+   "body": "We begin with your business requirements, the people affected and the result that would make the investment worthwhile. The same value framework applies across all five portfolios: strategise and govern, accelerate and deliver, then measure and optimise.",
+   "theme": "dark",
+   "secondaryHeading": "Outcomes guide the capability mix",
+   "secondaryBody": "Our [strategic solutions](/solutions) connect customer triggers with relevant portfolios, Linkfields software and reusable IP. Delivery is adapted to your [industry context](/industries), constraints and operating model."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-cycle",
+   "heading": "From strategy to *measurable business value*",
+   "variant": "default",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Strategise & govern",
+     "description": "Agree the real requirements, business baseline and constraints before prioritising work.",
+     "accent": "orange",
+     "number": "01",
+     "bullets": "Client decisions - priorities, success measures and risk appetite\nLinkfields outputs - assessment, prioritised backlog and roadmap\nAccountability - agree business sponsor and delivery lead",
+     "footLabel": "Acceptance gate",
+     "footText": "Confirm scope, baseline, dependencies and decision owners before build."
+    },
+    {
+     "title": "Accelerate & deliver",
+     "description": "Build and validate iteratively, using the software and accelerators that fit the requirement.",
+     "accent": "blue",
+     "number": "02",
+     "bullets": "Client decisions - review increments and approve changes\nLinkfields outputs - working increments, test evidence and release plan\nAccountability - agree technical, quality and security owners",
+     "footLabel": "Acceptance gate",
+     "footText": "Review quality, security and business acceptance evidence before release."
+    },
+    {
+     "title": "Measure & optimise",
+     "description": "Compare adoption and operational results with the baseline, then prioritise the next improvement.",
+     "accent": "yellow",
+     "number": "03",
+     "bullets": "Client decisions - accept handover and improvement priorities\nLinkfields outputs - benefit review and operating-model handover\nAccountability - agree service owner and benefit owner",
+     "footLabel": "Acceptance gate",
+     "footText": "Confirm operational readiness, ownership and the measures used for benefit review."
+    }
+   ],
+   "description": "Roles, review cadence and acceptance criteria are agreed for each engagement; they are not assumed from a standard template."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-gates",
+   "heading": "Quality and *Cyber-Safe Delivery*",
+   "variant": "default",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Design and change readiness",
+     "description": "Identify dependencies, data handling and security requirements before approving the design.",
+     "accent": "blue",
+     "bullets": "Architecture and integration review\nRisk assessment and control mapping\nAgreed acceptance and test criteria"
+    },
+    {
+     "title": "Build and release assurance",
+     "description": "Connect test automation and security validation with the change and release process.",
+     "accent": "teal",
+     "bullets": "Regression and integration evidence\nCode and supply-chain analysis\nRemediation and release decision record",
+     "links": [
+      {
+       "label": "testoriumz",
+       "href": "/products-and-accelerators/testoriumz",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/testoriumz-plate.png",
+        "alt": "testoriumz quality engineering platform"
+       }
+      },
+      {
+       "label": "VectorX",
+       "href": "/products-and-accelerators/vectorx",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/vectorx-plate.png",
+        "alt": "VectorX code and supply-chain analysis"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Operational readiness",
+     "description": "Make the handover decision visible: what is accepted, what remains open and who owns it.",
+     "accent": "purple",
+     "bullets": "Runbooks and support responsibilities\nOutstanding risks and agreed actions\nMonitoring, adoption and benefit measures"
+    }
+   ],
+   "description": "Cyber-Safe Delivery embeds security across engineering and delivery. The checks and evidence are selected for the scope and risk of the engagement.",
+   "ctaLabel": "Explore delivery accelerators",
+   "ctaUrl": "/products-and-accelerators/delivery-accelerators"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "governance",
+   "heading": "Secure by design, *accountable throughout*",
+   "variant": "default",
+   "columns": 2,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Decisions and escalation",
+     "description": "Agree decision owners, review cadence, risk escalation and change control. Keep the delivery backlog, risk register and KPI reporting aligned.",
+     "accent": "yellow"
+    },
+    {
+     "title": "Example acceptance evidence",
+     "description": "An engagement can bring together a decision log, test results, security findings, remediation actions and sign-off records.",
+     "accent": "teal",
+     "bullets": "Does the increment meet agreed acceptance criteria?\nHave quality and security findings been addressed or accepted?\nAre operating responsibilities and residual risks recorded?"
+    }
+   ],
+   "description": "We agree the evidence and approval route with your team, tailoring this example engagement pattern to your scope, risk and contractual requirements."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "engagement-models",
+   "heading": "Flexible *commercial models*",
+   "items": [
+    {
+     "title": "Fixed price",
+     "accent": "orange",
+     "number": "01",
+     "description": "Defined scope and outcome delivered against agreed milestones and acceptance criteria.",
+     "footLabel": "Best for",
+     "footText": "Well-defined projects, migrations, discrete builds."
+    },
+    {
+     "title": "Time & materials",
+     "accent": "blue",
+     "number": "02",
+     "description": "Flexible delivery where scope evolves, with transparent rates and governance.",
+     "footLabel": "Best for",
+     "footText": "Discovery, evolving roadmaps, co-development."
+    },
+    {
+     "title": "Managed service",
+     "accent": "teal",
+     "number": "03",
+     "description": "Ongoing service with agreed SLAs, governance and continuous improvement.",
+     "footLabel": "Best for",
+     "footText": "Application management, managed quality, managed security."
+    },
+    {
+     "title": "Dedicated team",
+     "accent": "purple",
+     "number": "04",
+     "description": "Persistent squads or specialist teams aligned to your priorities and ways of working.",
+     "footLabel": "Best for",
+     "footText": "Product engineering, sustained capacity, capability centres (GCC)."
+    },
+    {
+     "title": "Outcome-based",
+     "accent": "yellow",
+     "number": "05",
+     "description": "Commercials linked to measurable business or operational outcomes, where these can be agreed and evidenced.",
+     "footLabel": "Best for",
+     "footText": "Assurance, exposure closure, resolution-rate engagements."
+    }
+   ],
+   "eyebrow": "How we engage",
+   "description": "What we agree together: scope, acceptance criteria, governance and measurement. Choose the commercial model that fits the work and the evidence available.",
+   "columns": 5,
+   "tone": "ink",
+   "noteLabel": "Proprietary software is sold separately",
+   "note": "[Linkfields products](/products-and-accelerators#how-to-buy) are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Software scope and commercial terms are agreed separately.",
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Talk to us about the outcome you need",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

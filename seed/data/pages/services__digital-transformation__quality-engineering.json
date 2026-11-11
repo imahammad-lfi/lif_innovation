@@ -1,0 +1,230 @@
+{
+ "title": "Quality engineering",
+ "path": "/services/digital-transformation/quality-engineering",
+ "seo": {
+  "metaTitle": "Quality Engineering & Test Automation | Linkfields",
+  "metaDescription": "Quality engineering services for confident releases: automate regression, validate AI-generated code and connect quality evidence with CI/CD release gates.",
+  "keywords": "quality engineering, testoriumz, AI code assurance, automated regression, quality engineering services, test automation services, automated regression testing, software testing services South Africa, AI-generated code testing, CI/CD testing services, API and integration testing",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Quality engineering",
+   "subtitle": "Release software with confidence, including AI-generated change.",
+   "backgroundImage": {
+    "__media": "custom/hero-testoriumz.jpg",
+    "alt": "Continuous software testing and release assurance"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Use Cases",
+     "targetId": "use-cases"
+    },
+    {
+     "label": "Our Approach",
+     "targetId": "our-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Assure every release—from application change to AI-generated code",
+   "body": "Frequent releases and AI-generated change need risk-based coverage, automated regression and accountable release decisions. We bring quality and security gates into CI/CD; [testoriumz](/products-and-accelerators/testoriumz) supports test management, low-code automation, AI root-cause analysis and dashboards.\n\nAgree baseline measures for validation lead time, critical-journey coverage and escaped defects, then track improvement. [Discuss release assurance](#get-in-touch).",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "WHAT WE DELIVER",
+   "heading": "What we deliver",
+   "description": "Five deliverables connect risk coverage, application testing and release evidence.",
+   "items": [
+    {
+     "title": "Test strategy and risk coverage",
+     "description": "Risk assessment, critical-journey inventory and coverage priorities with accountable business and release owners.",
+     "accent": "orange"
+    },
+    {
+     "title": "Automation and regression",
+     "description": "Maintainable test packs and execution results, with ownership of test data and suite updates.",
+     "accent": "orange"
+    },
+    {
+     "title": "API and integration assurance",
+     "description": "Contract and end-to-end tests covering mappings, reconciliation, failures and dependent-system changes.",
+     "accent": "orange"
+    },
+    {
+     "title": "Performance and user experience",
+     "description": "Load and recovery scenarios plus usability validation for agreed journeys and service objectives.",
+     "accent": "orange"
+    },
+    {
+     "title": "AI code assurance and release gates",
+     "description": "Review and test AI-written change; combine quality evidence with code and supply-chain checks. AppSec scope is agreed with Cyber Security.",
+     "accent": "orange",
+     "href": "/services/cyber-security/exposure-validation-appsec",
+     "linkLabel": "AppSec collaboration"
+    }
+   ],
+   "tone": "navy",
+   "columns": 3,
+   "variant": "default"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "use-cases",
+   "eyebrow": "ILLUSTRATIVE USE CASES",
+   "heading": "Two release-assurance patterns",
+   "description": "Illustrative engagement patterns for AI-generated change and complex migration, with quality and security checks before release.",
+   "items": [
+    {
+     "title": "AI-written change to release evidence",
+     "description": "Review AI-generated code, execute testoriumz regression and use VectorX code and supply-chain analysis where appropriate. Cyber-Safe Delivery aligns agreed checks with release approval.",
+     "accent": "orange",
+     "href": "/solutions/ai-code-assurance",
+     "linkLabel": "AI Code Assurance"
+    },
+    {
+     "title": "Migration to programme assurance",
+     "description": "Assess migration and customisation risk, validate integration rebuilds and execute regression and security checks. Automated Testing & Release Assurance Packs support the agreed validation scope.",
+     "accent": "orange",
+     "href": "/solutions/modernisation-programme-assurance",
+     "linkLabel": "Modernisation & Programme Assurance"
+    }
+   ],
+   "tone": "ink",
+   "columns": 2,
+   "variant": "compact",
+   "ctaLabel": "AI Code Assurance",
+   "ctaUrl": "/solutions/ai-code-assurance"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "ip-and-accelerators",
+   "eyebrow": "LINKFIELDS IP & ACCELERATORS",
+   "heading": "Quality engineering tools and accelerators",
+   "description": "Select software and reusable delivery IP around your existing toolchain, required coverage and agreed quality and security gates.",
+   "items": [
+    {
+     "title": "testoriumz",
+     "description": "Linkfields’ continuous quality engineering platform: test management, low-code automation, AI root-cause analysis, dashboards and CI/CD integration.",
+     "accent": "orange",
+     "logo": {
+      "__media": "custom/logos/plate/testoriumz-plate.png",
+      "alt": "testoriumz product logo"
+     },
+     "href": "/products-and-accelerators/testoriumz",
+     "linkLabel": "Explore testoriumz"
+    },
+    {
+     "title": "VectorX",
+     "description": "Code scanning and supply-chain analysis from repository to release complement testing where AI-written change and software dependencies require security review.",
+     "accent": "orange",
+     "logo": {
+      "__media": "custom/logos/plate/vectorx-plate.png",
+      "alt": "VectorX product logo"
+     },
+     "href": "/products-and-accelerators/vectorx",
+     "linkLabel": "Explore VectorX"
+    },
+    {
+     "title": "Release assurance and Cyber-Safe Delivery",
+     "description": "Automated Testing & Release Assurance Packs and Cyber-Safe Delivery support agreed quality and security gates. Tailor coverage, thresholds and release accountability to the programme.",
+     "accent": "orange",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    }
+   ],
+   "tone": "navy",
+   "columns": 3,
+   "variant": "default",
+   "noteLabel": "Fit and licensing",
+   "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Discovery agrees product fit, reusable accelerator content and client-specific engineering."
+  },
+  {
+   "__component": "services.numbered-help",
+   "anchorId": "our-approach",
+   "eyebrow": "SECURE BY DESIGN",
+   "heading": "Quality and security gates across CI/CD",
+   "items": [
+    {
+     "description": "Baseline risk - Identify critical journeys, AI-code scope and failure impact. Client release owners agree coverage, test environments, permitted data and acceptance thresholds."
+    },
+    {
+     "description": "Design maintainable packs - Plan regression, API, performance and user validation. Define traceability, suite ownership and quality/security gates before execution."
+    },
+    {
+     "description": "Execute and triage - Trace results to changes and investigate causes with testoriumz where appropriate. Combine relevant VectorX findings and Cyber-Safe Delivery controls; assign remediation owners."
+    },
+    {
+     "description": "Review and improve - Present release evidence, residual risks and exceptions to the accountable approver. Maintain test packs and measure escaped defects and validation cycle time after handover."
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "acceptance-and-evidence",
+   "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
+   "heading": "Evidence for the release decision",
+   "body": "A release review should receive coverage against critical journeys, traced execution results, defect status, security findings and accepted exceptions. The accountable release owner decides whether agreed gates have been met; testing does not remove every risk.\n\nCompare regression coverage, defect escape and validation lead time with the agreed baseline. Record toolchain, release scope and measurement period, and retain a redacted evidence pack for delivery governance.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "ENGAGEMENT & BUYER QUESTIONS",
+   "heading": "Plan the right engagement",
+   "description": "Use Fixed Price for a defined release-assurance scope, or Time & Materials for discovery and evolving coverage. A Dedicated Team supports sustained quality engineering; Managed Service can cover managed quality or a testing centre of excellence. Outcome-Based terms require measurable assurance baselines and attribution.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "Can you work with our pipeline and testing tools?",
+     "description": "Assess the existing CI/CD toolchain, environments, test data and coverage before agreeing integration. Preserve useful tooling where it fits; select testoriumz based on the required workflow and product fit."
+    },
+    {
+     "title": "How is AI-generated code assured?",
+     "description": "Make AI-written change visible in scope, review its behaviour and dependencies, and test critical journeys. Combine quality gates with code and supply-chain analysis where appropriate; assign remediation and release approval."
+    },
+    {
+     "title": "Who sets and approves release gates?",
+     "description": "Business, engineering, quality and security owners agree thresholds and exception handling. An accountable release owner reviews evidence and residual risks before approving deployment."
+    },
+    {
+     "title": "Can we buy testoriumz without a services project?",
+     "description": "Yes. Linkfields software is available by licence, subscription or SaaS, with or without a services engagement. Confirm the product, deployment and commercial fit for your environment."
+    },
+    {
+     "title": "What should we bring to the conversation?",
+     "description": "Share application and release scope, the current toolchain, regression risks and use of AI-generated code. We can agree assessment access, confidentiality and the assurance approach."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your release-assurance priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

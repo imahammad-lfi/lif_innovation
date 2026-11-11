@@ -1,0 +1,67 @@
+{
+  "collectionName": "components_home_hero_slider",
+  "info": {
+    "displayName": "Home hero slider",
+    "icon": "play",
+    "description": "Full-screen video-backed home hero with slides and partner logos."
+  },
+  "options": {},
+  "attributes": {
+    "eyebrow": {
+      "type": "string"
+    },
+    "primaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "backgroundVideo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "videos",
+        "files"
+      ]
+    },
+    "videoPoster": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoStyle": {
+      "type": "enumeration",
+      "enum": [
+        "globe",
+        "background"
+      ],
+      "default": "background"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-hero-slide"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.home-partner"
+    },
+    "partnersLabel": {
+      "type": "string",
+      "default": "OEM & technology partners"
+    },
+    "proofPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.hero-proof"
+    },
+    "autoplaySeconds": {
+      "type": "integer",
+      "default": 4,
+      "min": 4,
+      "max": 15
+    }
+  }
+}

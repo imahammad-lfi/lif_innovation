@@ -1,0 +1,117 @@
+{
+  "title": "Data platforms & analytics",
+  "path": "/services/data-ai/data-platforms-analytics",
+  "seo": {
+    "metaTitle": "Data Platforms & Analytics | Linkfields",
+    "metaDescription": "Connect enterprise data with dependable pipelines, governed data platforms and Power BI reporting. Build a foundation for analytics and AI with Linkfields.",
+    "keywords": "data platforms, data pipelines, Power BI, data quality, analytics",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Data platforms & analytics",
+      "subtitle": "Trusted data foundations and analytics your teams can act on.",
+      "backgroundImage": {"__media": "custom/hero-data-ai.jpg", "alt": "Connected enterprise data foundations for analytics and AI"},
+      "anchorLinks": [
+        {"label": "Overview", "targetId": "overview"},
+        {"label": "What We Deliver", "targetId": "what-we-deliver"},
+        {"label": "Delivery Approach", "targetId": "delivery-approach"},
+        {"label": "Software & IP", "targetId": "software-ip"},
+        {"label": "Buyer Questions", "targetId": "buyer-questions"},
+        {"label": "Get in touch", "targetId": "get-in-touch"}
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Data & AI",
+      "heading": "Build the data foundation behind better decisions",
+      "body": "When reports disagree, pipelines fail or information sits in separate systems, analytics and AI cannot deliver dependable value. We help connect enterprise sources, build governed data platforms and pipelines, and shape Power BI reporting around the decisions your teams need to make.\n\nStart with the reporting decision and the sources behind it. Agree common definitions, data ownership and the controls needed to move from a source record to a usable report.\n\n[Explore Data & AI](/services/data-ai).",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "What we deliver",
+      "heading": "From source systems to useful reporting",
+      "description": "Agree the platform, pipeline and reporting scope around your decisions. Specify outputs, quality criteria and operating responsibilities before delivery.",
+      "variant": "default",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {"number": "01", "title": "Platform architecture & readiness", "description": "Assess sources, workloads and the platform design needed to support analytics and AI.", "bullets": "Source and target architecture\nAccess, capacity and integration needs\nReadiness gaps and delivery sequence", "accent": "purple"},
+        {"number": "02", "title": "Data pipelines & integration", "description": "Connect enterprise sources through defined ingestion and transformation steps.", "bullets": "Source-to-target mappings and contracts\nTransformation and validation rules\nRefresh, exception and recovery design", "accent": "purple"},
+        {"number": "03", "title": "Data quality & governance", "description": "Make definitions and responsibilities explicit before reports are trusted.", "bullets": "Ownership and access boundaries\nQuality checks and reconciliation\nLineage and change control scope", "accent": "purple"},
+        {"number": "04", "title": "Power BI & semantic models", "description": "Shape common measures and reports around the decisions your teams make.", "bullets": "Agreed metric definitions\nSemantic models and reporting views\nReconciled measures and user acceptance", "accent": "purple"},
+        {"number": "05", "title": "Data operations & optimisation", "description": "Plan what it takes to keep the agreed data and reporting service useful.", "bullets": "Monitoring and refresh ownership\nFailure handling and recovery testing\nPerformance and cost review", "accent": "purple"}
+      ]
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "delivery-approach",
+      "eyebrow": "Delivery approach",
+      "heading": "Validate the data before release",
+      "description": "Agree decisions and measures, design the flow, validate the build, then release with operating ownership. Acceptance comes before operational use.",
+      "backgroundStyle": "dark",
+      "items": [
+        {"title": "Agree decisions & measures — acceptance scope", "description": "Identify report users, decision priorities and the measures they need. Agree metric definitions, scope, source owners and acceptance criteria before selecting the delivery design."},
+        {"title": "Assess sources & design — architecture and contracts", "description": "Review source quality, access and integration constraints. Agree source-to-target mappings, data contracts, platform architecture and specialist security responsibilities."},
+        {"title": "Build & validate — reconciled reporting", "description": "Implement the scoped pipelines, quality checks, semantic models and reports. Reconcile source and report measures, test failure paths and obtain user acceptance before release."},
+        {"title": "Release & operate — monitoring and recovery owners", "description": "Agree permissions, refresh schedules, monitoring and exception handling. Define recovery tests, support boundaries and operating/change owners before handing over the platform and reports."}
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "software-ip",
+      "eyebrow": "Analytics delivery, software and IP",
+      "heading": "Choose what sits beyond the data foundation",
+      "description": "Platform and Power BI delivery establish the foundation. Add model development, reusable prediction/simulation IP or financial analysis software only where the decision calls for it.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {"title": "Power BI + AI/ML", "icon": {"__media": "custom/icons/acc-powerbi-ai.svg", "alt": "Power BI and AI/ML accelerator"}, "description": "Reusable IP for AI/ML in Power BI, predictive dashboards and risk-scoring visuals. Use when evaluated model outputs need to appear in reporting.", "href": "/products-and-accelerators/power-bi-ai-ml", "linkLabel": "Explore Power BI + AI/ML", "accent": "purple"},
+        {"title": "Prediction or simulation needs", "description": "Use Machine learning for custom model development. Explore Predictive Analytics for customer, demand or risk patterns, and Digital Twin for asset monitoring and simulation.", "links": [{"label": "Machine learning services", "href": "/services/data-ai/machine-learning"}, {"label": "Predictive Analytics Suite", "href": "/products-and-accelerators/predictive-analytics-suite"}, {"label": "Digital Twin Suite", "href": "/products-and-accelerators/digital-twin-suite"}], "accent": "purple"},
+        {"title": "FinSight", "logo": {"__media": "custom/logos/finsight.png", "alt": "FinSight conversational financial analysis software"}, "description": "Separately available software for conversational analysis and reporting over financial data. It is not another name for Power BI consulting.", "href": "/products-and-accelerators/finsight", "linkLabel": "Explore FinSight", "accent": "purple"}
+      ],
+      "noteLabel": "Separate routes, agreed scope",
+      "note": "Products are available by licence, subscription or SaaS, with or without services. Accelerators are reusable delivery IP; assess fit, adaptation and implementation responsibilities rather than assume inclusion."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "trusted-reporting",
+      "eyebrow": "Illustrative engagement pattern",
+      "heading": "From fragmented sources to trusted reporting",
+      "description": "For reports that disagree across systems, agree a source-to-report design and reconciliation evidence. This pattern shows outputs and controls to scope, not a client before/after result.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "ctaLabel": "Discuss your data platform",
+      "ctaUrl": "#get-in-touch",
+      "items": [
+        {"number": "01", "title": "Map the source-to-report flow", "description": "Identify conflicting definitions and source ownership. Agree the pipeline, platform and semantic-model design, with a data-flow or lineage view to review.", "href": "/services/digital-transformation/integration-services", "linkLabel": "Explore integration services", "accent": "purple"},
+        {"number": "02", "title": "Reconcile and control access", "description": "Compare source and report totals, review quality exceptions and agree who can access each view. Scope specialist identity and cloud-security work where required.", "href": "/services/cyber-security/cloud-security-iam", "linkLabel": "Explore cloud security & IAM", "accent": "purple"},
+        {"number": "03", "title": "Release with operating ownership", "description": "Assign refresh, monitoring and recovery owners. Agree report acceptance and adoption measures; assess reporting quality separately from any wider business outcome.", "href": "/solutions/intelligent-operations", "linkLabel": "Explore Intelligent Operations", "accent": "purple"}
+      ],
+      "noteLabel": "Start with the data decision that matters",
+      "note": "Discuss your source systems, reporting gaps and analytics priorities. Describe the current platform and main constraint; do not upload sensitive data."
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Buyer questions",
+      "heading": "Agree foundations, ownership and the next step",
+      "description": "Scope the reporting problem before expanding into AI. Choose a delivery model around the known requirements and ongoing ownership needed.",
+      "backgroundStyle": "dark",
+      "items": [
+        {"title": "Do we need a new platform or better reporting?", "description": "Review the reporting decisions, source quality and current platform first. The scope may centre on definitions, pipelines or semantic models rather than a platform replacement. Architecture and platform selection depend on the requirements and constraints agreed."},
+        {"title": "Where does data delivery stop and machine learning begin?", "description": "Data platform work connects, governs and prepares the information behind reports and AI. Model development adds baseline comparison, prediction evaluation and deployment decisions. Power BI + AI/ML can present evaluated outputs, but a dashboard is not model validation."},
+        {"title": "Who owns data security and operation?", "description": "Agree access, source ownership, quality checks, refresh and recovery responsibilities during scoping. Bring in specialist Cyber Security services for security requirements and validation. Ongoing operation is a separate scope, not an implied service commitment."},
+        {"title": "How can we engage and prepare for discovery?", "description": "Time & Materials suits source assessment and evolving reporting needs; Fixed Price suits defined builds and acceptance criteria. Dedicated Team or Managed Service arrangements depend on agreed capacity and operating ownership. Outcome-Based work requires measurable, evidenced outcomes. Bring the problem, main sources, current platform and constraint; an NDA can be arranged where required."}
+      ]
+    },
+    {"__component": "sections.contact-form", "anchorId": "get-in-touch", "heading": "Get in touch", "subheading": "Discuss your data platform and reporting priorities", "nextStepsTitle": "", "nextSteps": [], "layout": "section", "theme": "dark"}
+  ]
+}

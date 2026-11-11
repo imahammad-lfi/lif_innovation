@@ -1,0 +1,1020 @@
+{
+ "title": "Linkfields Innovations",
+ "path": "/",
+ "seo": {
+  "metaTitle": "Global IT Services & Solutions | Linkfields Innovations",
+  "metaDescription": "Linkfields Innovations is a leading provider of IT services driving digital transformation and optimizing business operations. Explore our innovative solutions!",
+  "keywords": "Linkfields innovation, digital transformation, odoo solutions, IT services, SAP solutions, salesforce integration, ERP solutions",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "home.hero-slider",
+   "backgroundVideo": {
+    "__media": "custom/videos/linkfields-globe.mp4",
+    "width": 800,
+    "height": 800,
+    "mime": "video/mp4",
+    "alt": "Rotating Linkfields globe"
+   },
+   "slides": [
+    {
+     "title": "Integrating *your business* for a better future",
+     "description": "Services + proprietary software + accelerators. One strategic partner to modernise, innovate, operate, analyse, secure and scale.",
+     "cta": {
+      "label": "Explore our portfolios",
+      "href": "/services",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Run the core of the enterprise on *connected platforms*",
+     "description": "SAP S/4HANA, Microsoft Dynamics 365, Odoo, Zoho and Salesforce, made smarter with AI.",
+     "cta": {
+      "label": "Intelligent Enterprise Platforms",
+      "href": "/services/intelligent-enterprise-platforms",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "From AI strategy to *agentic AI in production*",
+     "description": "Turn data into decisions, governed from day one.",
+     "cta": {
+      "label": "Explore Data & AI",
+      "href": "/services/data-ai",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "End-to-end security, *from code to AI*",
+     "description": "Our own products – VajraX, VectorX and AI Governance – plus specialist services.",
+     "cta": {
+      "label": "Explore Cyber Security",
+      "href": "/services/cyber-security",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Software we own. *Accelerators we reuse.*",
+     "description": "Proprietary products and pre-built delivery IP that shorten time to value.",
+     "cta": {
+      "label": "Products & accelerators",
+      "href": "/products-and-accelerators",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Talent and capability centres that *scale with you*",
+     "description": "Specialist talent, managed teams and Build-Operate-Transfer Global Capability Centres.",
+     "cta": {
+      "label": "Talent Advisory & GCC",
+      "href": "/services/talent-advisory-gcc",
+      "openInNewTab": false
+     }
+    }
+   ],
+   "partners": [
+    {
+     "label": "Azure",
+     "image": {
+      "__media": "site/images/azure-svgrepo-com 1.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Azure"
+     },
+     "href": "https://portal.azure.com"
+    },
+    {
+     "label": "Microsoft",
+     "image": {
+      "__media": "site/images/microsoft-svgrepo-com 1.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Microsoft"
+     },
+     "href": "https://www.microsoft.com/en-in/"
+    },
+    {
+     "label": "Blueprism",
+     "image": {
+      "__media": "site/images/blueprism.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Blueprism"
+     },
+     "href": "https://www.blueprism.com/"
+    },
+    {
+     "label": "Automation anywhere",
+     "image": {
+      "__media": "site/images/automation-anywhere-vector.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Automation anywhere"
+     },
+     "href": "https://www.automationanywhere.com/"
+    },
+    {
+     "label": "UiPath",
+     "image": {
+      "__media": "site/images/uipath-vector-logo 1.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "UiPath"
+     },
+     "href": "https://www.uipath.com/"
+    },
+    {
+     "label": "Salesforce",
+     "image": {
+      "__media": "site/images/salesforce.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Salesforce"
+     },
+     "href": "https://www.salesforce.com/in/"
+    },
+    {
+     "label": "Soterion",
+     "image": {
+      "__media": "site/images/Soterion logo.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Soterion"
+     },
+     "href": "https://soterion.com/"
+    },
+    {
+     "label": "Odoo",
+     "image": {
+      "__media": "site/images/oddo-svgrepo-.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "Odoo"
+     },
+     "href": "https://www.odoo.com/"
+    },
+    {
+     "label": "AWS",
+     "image": {
+      "__media": "site/images/AWS_P_Logo.svg",
+      "width": null,
+      "height": null,
+      "mime": "image/svg+xml",
+      "alt": "AWS"
+     },
+     "href": "https://aws.amazon.com/free/?trk=16847e0c-46fb-467d-91ee-6e259e339665&sc_channel=ps&ef_id=:G:s&s_kwcid=AL!4422!10!72086958325164!72087482393523&msclkid=4c2d8a7749341cdcd932ece03a147043&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all"
+    }
+   ],
+   "videoPoster": {
+    "__media": "custom/videos/linkfields-globe-poster.jpg",
+    "alt": "Linkfields globe"
+   },
+   "videoStyle": "globe"
+  },
+  {
+   "__component": "sections.who-we-are",
+   "anchorId": "who-we-are",
+   "eyebrow": "Who we are",
+   "heading": "One strategic partner across *your transformation*",
+   "body": "Linkfields is an AI-driven technology, engineering and advisory company, headquartered in South Africa with a global delivery footprint. Through our integrated service portfolios, we empower enterprises to accelerate digital transformation and modernise, run, analyse, secure and scale their operations. Combining deep industry expertise, proprietary software and reusable delivery IP, we accelerate time-to-market, optimise costs and deliver measurable business outcomes.\n\nWe also help organisations design, build, operate and scale Global Capability Centres (GCCs) through flexible engagement models, including Build–Operate–Transfer (BOT), enabling innovation, operational excellence and sustainable growth.",
+   "missionLabel": "Our mission",
+   "mission": "We help global organisations grow, adapt, scale, reinvent and transform: modernising their technology, running their core platforms, unlocking data and AI, securing what matters and scaling their teams.",
+   "visionLabel": "Our vision",
+   "vision": "To become the preferred partner for creative, customised, integrated and sustainable 360-degree solutions across technology, data, security and talent that enable businesses to thrive and expand.",
+   "stats": [
+    {
+     "value": "20+",
+     "title": "Years of industry leadership experience",
+     "accent": "yellow"
+    },
+    {
+     "value": "#35",
+     "title": "FT & Statista Africa Growth Ranking 2026",
+     "accent": "orange"
+    },
+    {
+     "value": "Level 1",
+     "title": "B-BBEE Contributor",
+     "accent": "blue"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "portfolios",
+   "heading": "Five portfolios. *One integrated partner.*",
+   "items": [
+    {
+     "title": "Digital Transformation",
+     "number": "01",
+     "tagline": "Modernise · Automate · Transform",
+     "accent": "orange",
+     "description": "Modernise applications, automate operations and connect every channel your customers use.",
+     "bullets": "App modernisation\nAutomation & RPA\nIntegration services\nWhatsApp Business & omnichannel\nQuality engineering\nCloud services",
+     "groupLabel": "Linkfields IP",
+     "links": [
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/linkworks.png",
+        "alt": "Linkworks"
+       }
+      },
+      {
+       "label": "testoriumz",
+       "href": "/products-and-accelerators/testoriumz",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/testoriumz.png",
+        "alt": "testoriumz"
+       }
+      }
+     ],
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "number": "02",
+     "tagline": "Operate · Integrate · Engage",
+     "accent": "blue",
+     "description": "Run the core of the enterprise on connected ERP and CRM platforms, made smarter with AI.",
+     "bullets": "SAP S/4HANA\nMicrosoft Dynamics 365\nOdoo\nZoho\nSalesforce\nPlatform migration & AMS",
+     "groupLabel": "Linkfields IP",
+     "links": [
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/linkworks.png",
+        "alt": "Linkworks"
+       }
+      }
+     ],
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Data & AI",
+     "number": "03",
+     "tagline": "Understand · Predict · Govern",
+     "accent": "purple",
+     "description": "From AI strategy to agentic AI in production: turn data into decisions, governed from day one.",
+     "bullets": "AI strategy & governance\nAgentic AI & GenAI\nData platforms & analytics\nMachine learning",
+     "groupLabel": "Linkfields IP",
+     "links": [
+      {
+       "label": "textIQ",
+       "href": "/products-and-accelerators/textiq",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/textiq.png",
+        "alt": "textIQ"
+       }
+      },
+      {
+       "label": "FinSight",
+       "href": "/products-and-accelerators/finsight",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/finsight.png",
+        "alt": "FinSight"
+       }
+      },
+      {
+       "label": "EduPilot",
+       "href": "/products-and-accelerators/edupilot",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/edupilot.png",
+        "alt": "EduPilot"
+       }
+      }
+     ],
+     "href": "/services/data-ai",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Cyber Security",
+     "number": "04",
+     "tagline": "Protect · Validate · Govern",
+     "accent": "teal",
+     "description": "End-to-end security, from code to AI: our own products plus specialist services.",
+     "bullets": "AI security & GRC\nCloud security & IAM\nExposure validation & AppSec\nSecurity operations",
+     "groupLabel": "Linkfields IP",
+     "links": [
+      {
+       "label": "VajraX",
+       "href": "/products-and-accelerators/vajrax",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/vajrax.png",
+        "alt": "VajraX"
+       }
+      },
+      {
+       "label": "VectorX",
+       "href": "/products-and-accelerators/vectorx",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/vectorx.png",
+        "alt": "VectorX"
+       }
+      },
+      {
+       "label": "AI Governance",
+       "href": "/products-and-accelerators/ai-governance",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/ai-governance.png",
+        "alt": "AI Governance"
+       }
+      }
+     ],
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio"
+    },
+    {
+     "title": "Talent Advisory & GCC",
+     "number": "05",
+     "tagline": "Advise · Staff · Scale",
+     "accent": "yellow",
+     "description": "Strategy, specialist talent and Global Capability Centres (GCC) that scale with you.",
+     "bullets": "Technology advisory\nSpecialist talent & managed teams\nGCC strategy & setup\nGCC build-operate-transfer",
+     "groupLabel": "Engagement models",
+     "links": [
+      {
+       "label": "Staff augmentation",
+       "href": "/services/talent-advisory-gcc/staff-augmentation",
+       "openInNewTab": false
+      },
+      {
+       "label": "Managed teams",
+       "href": "/services/talent-advisory-gcc/managed-teams",
+       "openInNewTab": false
+      },
+      {
+       "label": "GCC build-operate-transfer",
+       "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+       "openInNewTab": false
+      }
+     ],
+     "href": "/services/talent-advisory-gcc",
+     "linkLabel": "Explore portfolio"
+    }
+   ],
+   "eyebrow": "Service portfolios",
+   "description": "Services, proprietary software and accelerators in one capability architecture. Every portfolio is backed by Linkfields IP, so you modernise, innovate, operate, analyse, secure and scale with one strategic partner.",
+   "variant": "portfolio",
+   "columns": 5,
+   "tone": "navy"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "products",
+   "heading": "Software we own. *Accelerators we reuse.*",
+   "items": [
+    {
+     "title": "Predictive Analytics Suite",
+     "eyebrow": "Data & AI",
+     "accent": "purple",
+     "bullets": "Churn & segmentation\nDemand forecasting\nFraud & anomaly detection\nLoan default prediction",
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "View accelerator"
+    },
+    {
+     "title": "Digital Twin Suite",
+     "eyebrow": "Simulation",
+     "accent": "teal",
+     "bullets": "Equipment failure prediction\nForecasting simulation\nInventory optimisation\nReal-time monitoring",
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "linkLabel": "View accelerator"
+    },
+    {
+     "title": "Intelligent Workflow Automation",
+     "eyebrow": "Enterprise AI",
+     "accent": "orange",
+     "bullets": "Workflow automation\nAI orchestration\nApplication integration\nUnderwriting optimisation",
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "View accelerator"
+    },
+    {
+     "title": "Power BI + AI/ML",
+     "eyebrow": "Analytics",
+     "accent": "blue",
+     "bullets": "AI/ML in Power BI\nPredictive dashboards\nRisk scoring visuals",
+     "href": "/products-and-accelerators/power-bi-ai-ml",
+     "linkLabel": "View accelerator"
+    },
+    {
+     "title": "Delivery accelerators",
+     "eyebrow": "Portfolio IP",
+     "accent": "yellow",
+     "bullets": "Modernisation & integration\nMigration & regression packs\nAutomated testing & release assurance\nCyber-Safe Delivery\nRegulatory & compliance readiness",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "View accelerator"
+    }
+   ],
+   "eyebrow": "Products & accelerators",
+   "description": "Proprietary products, licensed on their own or delivered with our services, and pre-built delivery IP that shortens time to value.",
+   "logosLabel": "Proprietary products",
+   "logos": [
+    {
+     "label": "Linkworks",
+     "href": "/products-and-accelerators/linkworks",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/linkworks.png",
+      "alt": "Linkworks"
+     }
+    },
+    {
+     "label": "testoriumz",
+     "href": "/products-and-accelerators/testoriumz",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/testoriumz.png",
+      "alt": "testoriumz"
+     }
+    },
+    {
+     "label": "VajraX",
+     "href": "/products-and-accelerators/vajrax",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/vajrax.png",
+      "alt": "VajraX"
+     }
+    },
+    {
+     "label": "VectorX",
+     "href": "/products-and-accelerators/vectorx",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/vectorx.png",
+      "alt": "VectorX"
+     }
+    },
+    {
+     "label": "AI Governance",
+     "href": "/products-and-accelerators/ai-governance",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/ai-governance.png",
+      "alt": "AI Governance"
+     }
+    },
+    {
+     "label": "textIQ",
+     "href": "/products-and-accelerators/textiq",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/textiq.png",
+      "alt": "textIQ"
+     }
+    },
+    {
+     "label": "FinSight",
+     "href": "/products-and-accelerators/finsight",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/finsight.png",
+      "alt": "FinSight"
+     }
+    },
+    {
+     "label": "EduPilot",
+     "href": "/products-and-accelerators/edupilot",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/logos/edupilot.png",
+      "alt": "EduPilot"
+     }
+    }
+   ],
+   "variant": "compact",
+   "columns": 5,
+   "tone": "ink",
+   "ctaLabel": "Explore products & accelerators",
+   "ctaUrl": "/products-and-accelerators"
+  },
+  {
+   "__component": "sections.metrics-grid",
+   "anchorId": "client-value",
+   "eyebrow": "Client value",
+   "heading": "Scale that _delivers._\nIntelligence that *creates value.*",
+   "description": "From enterprise AI strategy and responsible governance to intelligent execution, we connect technology investment with measurable ROI and sustainable growth.",
+   "bullets": "Global OEM ecosystem\nOutcome-led accountability",
+   "metricsLabel": "Performance at scale",
+   "metricsHeading": "Business outcomes, by design",
+   "metrics": [
+    {
+     "label": "01 / Proven expertise",
+     "value": "20+",
+     "title": "Years of industry experience",
+     "description": "Enterprise AI, digital and cloud leadership",
+     "accent": "yellow"
+    },
+    {
+     "label": "02 / Delivery confidence",
+     "value": "95%+",
+     "title": "Reported project success rate",
+     "description": "Quality-led execution and accountability",
+     "accent": "orange"
+    },
+    {
+     "label": "03 / Delivery speed",
+     "prefix": "Up to",
+     "value": "6×",
+     "title": "Faster technology delivery",
+     "description": "AI-enabled engineering and accelerators",
+     "accent": "blue"
+    },
+    {
+     "label": "04 / Development efficiency",
+     "prefix": "Up to",
+     "value": "40%",
+     "title": "Development cost savings",
+     "description": "Through faster, automated delivery",
+     "accent": "purple"
+    },
+    {
+     "label": "05 / Cloud optimisation",
+     "prefix": "Up to",
+     "value": "50%",
+     "title": "Infrastructure cost savings",
+     "description": "Through cloud modernisation",
+     "accent": "teal"
+    },
+    {
+     "label": "06 / Market agility",
+     "value": "Sooner",
+     "title": "Faster time-to-market",
+     "description": "Shorter release cycles, earlier value",
+     "accent": "yellow"
+    }
+   ],
+   "bannerLabel": "07 / Cyber-safe delivery",
+   "bannerTitle": "Secure by design:",
+   "bannerText": "security embedded across engineering and delivery.",
+   "stepsLabel": "From AI strategy to measurable business value",
+   "steps": [
+    {
+     "title": "Strategise & govern",
+     "description": "Prioritise use cases, ROI and controls",
+     "accent": "orange"
+    },
+    {
+     "title": "Accelerate & deliver",
+     "description": "Faster go-live, less development effort",
+     "accent": "blue"
+    },
+    {
+     "title": "Measure & optimise",
+     "description": "Validate impact, adoption and savings",
+     "accent": "yellow"
+    }
+   ],
+   "image": {
+    "__media": "custom/videos/linkfields-globe-poster.jpg",
+    "alt": "Linkfields globe"
+   }
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "We lead with *outcomes*, not offerings",
+   "description": "Every play starts from a customer problem. Our five portfolios and Linkfields software sit behind each one.",
+   "plays": [
+    {
+     "title": "AI Code Assurance",
+     "accent": "orange",
+     "trigger": "AI-generated code increases delivery speed and assurance risk.",
+     "outcome": "Quality and security gates across CI/CD for AI-written change.",
+     "ip": "testoriumz, VectorX, Cyber-Safe Delivery"
+    },
+    {
+     "title": "Modernisation & Programme Assurance",
+     "accent": "blue",
+     "trigger": "Complex migration and customisation create regression and integration risk.",
+     "outcome": "Migration readiness, automated regression, integration rebuild and security validation.",
+     "ip": "Linkworks, Modernisation & Integration Toolkit, testoriumz, Release Assurance Packs"
+    },
+    {
+     "title": "Regulated Cyber Readiness",
+     "accent": "teal",
+     "trigger": "Regulated industries need continuous evidence, not point-in-time reports.",
+     "outcome": "Continuous exposure validation, control mapping and remediation evidence.",
+     "ip": "VajraX, Regulatory Readiness & Control Mapping"
+    },
+    {
+     "title": "Intelligent Operations",
+     "accent": "purple",
+     "trigger": "Cost-to-serve pressure creates demand for process intelligence and automation.",
+     "outcome": "Discover, redesign and automate work across process and customer channels.",
+     "ip": "Linkworks, Intelligent Workflow Automation Framework, testoriumz, Cyber-Safe Delivery"
+    },
+    {
+     "title": "Capability Centres with Embedded IP",
+     "accent": "yellow",
+     "trigger": "Organisations need scalable delivery capacity with stronger governance and automation.",
+     "outcome": "Build-operate-transfer GCCs with quality, security and engineering IP embedded.",
+     "ip": "Linkworks, Delivery Governance, Quality Engineering IP, Cyber-Safe Delivery"
+    }
+   ],
+   "ctaLabel": "Discuss your challenge",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.industries-grid",
+   "anchorId": "industries",
+   "eyebrow": "WHO WE SERVE",
+   "heading": "Industries we know deeply",
+   "description": "Digital innovation, intelligent automation and Data & AI, with outcomes tailored to each industry we serve.",
+   "items": [
+    {
+     "title": "Telecom",
+     "description": "Transform telecom and customer experiences with digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-telecom.jpg",
+      "alt": "Telecom"
+     },
+     "href": "/industries/telecom",
+     "tags": "Digital services\nCustomer engagement\nIntelligent connectivity\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "BFSI",
+     "description": "Reimagine banking, insurance and customer services with secure digital innovation, intelligent automation and Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-bfsi.jpg",
+      "alt": "BFSI"
+     },
+     "href": "/industries/bfsi",
+     "tags": "Security\nDigital financial services\nIntelligent automation\nCustomer Experience",
+     "accent": null
+    },
+    {
+     "title": "Healthcare & Pharma",
+     "description": "Transform healthcare with digital innovation, AI-driven insights and intelligent automation for better patient care.",
+     "image": {
+      "__media": "custom/industries/ind-healthcare.jpg",
+      "alt": "Healthcare & Pharma"
+     },
+     "href": "/industries/healthcare-pharma",
+     "tags": "Patient care\nDigital health\nAI-powered insights",
+     "accent": null
+    },
+    {
+     "title": "Retail, FMCG & CPG",
+     "description": "Reimagine retail and consumer experiences with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-retail.jpg",
+      "alt": "Retail, FMCG & CPG"
+     },
+     "href": "/industries/retail-fmcg-cpg",
+     "tags": "Customer experience\nForecasting\nPersonalisation\nGrowth",
+     "accent": null
+    },
+    {
+     "title": "Manufacturing",
+     "description": "Accelerate smart manufacturing with digital innovation, AI-powered automation and predictive intelligence.",
+     "image": {
+      "__media": "custom/industries/ind-manufacturing.jpg",
+      "alt": "Manufacturing"
+     },
+     "href": "/industries/manufacturing",
+     "tags": "Smart factories\nOperational excellence\nPredictive intelligence",
+     "accent": null
+    },
+    {
+     "title": "Energy & Mining",
+     "description": "Transform energy and mining operations with digital innovation, intelligent automation and secure Data & AI.",
+     "image": {
+      "__media": "custom/industries/ind-energy-mining.jpg",
+      "alt": "Energy & Mining"
+     },
+     "href": "/industries/energy-mining",
+     "tags": "Asset optimisation\nAutomation\nSecurity\nOperational efficiency",
+     "accent": null
+    },
+    {
+     "title": "Public Sector",
+     "description": "Modernise public services with secure digital innovation, intelligent automation and Data & AI for citizens and agencies.",
+     "image": {
+      "__media": "custom/industries/ind-public-sector.jpg",
+      "alt": "Public Sector"
+     },
+     "href": "/industries/public-sector",
+     "tags": "Citizen services\nDigital government\nSecure data\nAutomation",
+     "accent": null
+    },
+    {
+     "title": "Education",
+     "description": "Transform learning and campus operations with digital innovation, AI-driven insights and intelligent automation.",
+     "image": {
+      "__media": "custom/industries/ind-education.jpg",
+      "alt": "Education"
+     },
+     "href": "/industries/education",
+     "tags": "Digital learning\nStudent experience\nAI-powered insights\nAutomation",
+     "accent": null
+    }
+   ],
+   "cta": null
+  },
+  {
+   "__component": "home.solutions-grid",
+   "anchorId": "solutions",
+   "heading": "Enterprise platforms, *delivered end to end*",
+   "description": "Implementation, integration and managed support across the platforms that run your business – SAP, Odoo, Microsoft Dynamics 365 and Salesforce – with integration (iPaaS) and automation (RPA) to connect them.",
+   "cards": [
+    {
+     "title": "SAP",
+     "image": {
+      "__media": "custom/platforms/sap.png",
+      "alt": "SAP"
+     },
+     "description": "We specialise in harnessing the power of SAP’s latest release, S/4HANA, for your business’s unique needs.",
+     "cta": {
+      "label": "Read more",
+      "href": "/solutions/erp-solutions/sap",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Odoo",
+     "image": {
+      "__media": "custom/platforms/odoo.png",
+      "alt": "Odoo"
+     },
+     "description": "From business process reengineering to seamless integration, we redefine efficiency for your enterprise.",
+     "cta": {
+      "label": "Read more",
+      "href": "/solutions/erp-solutions/odoo",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Microsoft Dynamics 365",
+     "image": {
+      "__media": "custom/platforms/dynamics-365.png",
+      "alt": "Microsoft Dynamics 365"
+     },
+     "description": "Embrace intelligent business applications that integrate your operations with predictive insights.",
+     "cta": {
+      "label": "Read more",
+      "href": "/solutions/erp-solutions/microsoft-dynamics",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Salesforce",
+     "image": {
+      "__media": "custom/platforms/salesforce.png",
+      "alt": "Salesforce"
+     },
+     "description": "Streamlined CRM for efficient sales, marketing automation, and driving growth in today's competitive market.",
+     "cta": {
+      "label": "Read more",
+      "href": "/solutions/erp-solutions/salesforce",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "iPaaS",
+     "image": {
+      "__media": "custom/platforms/ipaas.png",
+      "alt": "iPaaS"
+     },
+     "description": "With our extensive range of iPaaS products, we ensure a comprehensive approach to each implementation.",
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/integration-services",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "RPA",
+     "image": {
+      "__media": "custom/platforms/rpa.png",
+      "alt": "RPA"
+     },
+     "description": "Easy building, deployment, and management of software robots that finish up redundant tasks for you.",
+     "cta": {
+      "label": "Read more",
+      "href": "/services/digital-transformation/automation-rpa",
+      "openInNewTab": false
+     }
+    }
+   ],
+   "eyebrow": "Platforms we deliver"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "why-linkfields",
+   "heading": "Why enterprises choose *Linkfields*",
+   "items": [
+    {
+     "title": "Services depth",
+     "number": "01",
+     "accent": "yellow",
+     "description": "Five integrated portfolios spanning Digital Transformation, Intelligent Enterprise Platforms, Data & AI, Cyber Security, and Talent Advisory & GCC."
+    },
+    {
+     "title": "Proprietary software",
+     "number": "02",
+     "accent": "orange",
+     "description": "Linkworks, testoriumz, VajraX, VectorX and our AI SaaS products: proof beyond consultant capability."
+    },
+    {
+     "title": "Reusable accelerators",
+     "number": "03",
+     "accent": "blue",
+     "description": "Reusable engineering, automation and Cyber-Safe Delivery IP that accelerates time-to-value while strengthening quality, security and delivery consistency."
+    },
+    {
+     "title": "Integrated delivery",
+     "number": "04",
+     "accent": "teal",
+     "description": "One partner for services, software, managed delivery, dedicated teams and capability centres."
+    }
+   ],
+   "eyebrow": "Why Linkfields",
+   "columns": 4,
+   "tone": "navy",
+   "strip": "Five portfolios | Proprietary IP | Reusable accelerators | One integrated partner"
+  },
+  {
+   "__component": "sections.global-presence",
+   "anchorId": "global-presence",
+   "eyebrow": "Where we are",
+   "heading": "Global reach, *local accountability*",
+   "description": "Headquartered in South Africa, Linkfields combines international market presence with scalable engineering, delivery and managed services capabilities to support enterprise clients across regions and time zones.",
+   "locations": [
+    {
+     "name": "South Africa",
+     "role": "Headquarters",
+     "lat": -26.2041,
+     "lng": 28.0473,
+     "hq": true,
+     "accent": "orange"
+    },
+    {
+     "name": "India",
+     "role": "Offshore Delivery Centre",
+     "lat": 19.076,
+     "lng": 72.8777,
+     "hq": false,
+     "accent": "blue"
+    },
+    {
+     "name": "UAE",
+     "role": "Middle East",
+     "lat": 25.2048,
+     "lng": 55.2708,
+     "hq": false,
+     "accent": "yellow"
+    },
+    {
+     "name": "United Kingdom",
+     "role": "Europe",
+     "lat": 51.5074,
+     "lng": -0.1278,
+     "hq": false,
+     "accent": "teal"
+    },
+    {
+     "name": "USA",
+     "role": "North America",
+     "lat": 40.7128,
+     "lng": -74.006,
+     "hq": false,
+     "accent": "purple"
+    },
+    {
+     "name": "Australia",
+     "role": "Asia Pacific",
+     "lat": -33.8688,
+     "lng": 151.2093,
+     "hq": false,
+     "accent": "blue"
+    }
+   ],
+   "strip": "South Africa HQ | Global Engineering & Delivery | International Market Presence"
+  },
+  {
+   "__component": "home.awards-carousel",
+   "anchorId": "awards",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/awards.jpg",
+    "width": 1920,
+    "height": 778,
+    "mime": "image/jpeg",
+    "alt": "Awards background"
+   },
+   "cards": [
+    {
+     "title": "One of Africa’s fastest-growing companies",
+     "description": "Linkfields Innovations ranked 38th in the Financial Times and Statista list of Africa’s top 100 fastest-growing companies 2023, and #35 in the FT & Statista Africa Growth Ranking 2026.",
+     "image": {
+      "__media": "s3/certification_badge2.png",
+      "width": 634,
+      "height": 169,
+      "mime": "image/png",
+      "alt": "FT and Statista Africa’s Fastest Growing Companies"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/company/news-and-articles",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "We are a Great Place to Work Certified",
+     "description": "We make a significant change by hiring and fostering top talents from diverse backgrounds.",
+     "image": {
+      "__media": "s3/great_work_certification_badge.png",
+      "width": 220,
+      "height": 373,
+      "mime": "image/png",
+      "alt": "We are a Great Place to Work Certified"
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/company/news-and-articles",
+      "openInNewTab": false
+     }
+    },
+    {
+     "title": "Proud to be a partner of the Youth Employment Service initiative.",
+     "description": "As a proud YES partner, we are deeply committed to empowering businesses to create meaningful work experiences for unemployed young people, equipping them with the skills and opportunities to become future leaders and entrepreneurs.",
+     "image": {
+      "__media": "s3/0000.png",
+      "width": 2560,
+      "height": 1141,
+      "mime": "image/png",
+      "alt": "Proud to be a partner of the Youth Employment Service initiative."
+     },
+     "cta": {
+      "label": "Read more",
+      "href": "/company/news-and-articles",
+      "openInNewTab": false
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "home.careers-banner",
+   "anchorId": "careers",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/careers.jpg",
+    "width": 1918,
+    "height": 570,
+    "mime": "image/jpeg",
+    "alt": "Careers background"
+   },
+   "heading": "Ready for an extraordinary work experience?",
+   "cta": {
+    "label": "Join Us",
+    "href": "/careers",
+    "openInNewTab": false
+   }
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

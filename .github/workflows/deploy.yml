@@ -1,0 +1,83 @@
+name: Deploy production
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  AWS_REGION: ${{ vars.AWS_REGION || 'eu-west-2' }}
+  ECS_CLUSTER: ${{ vars.ECS_CLUSTER || 'linkfields-production' }}
+  WEB_SERVICE: ${{ vars.WEB_ECS_SERVICE || 'web' }}
+  CMS_SERVICE: ${{ vars.CMS_ECS_SERVICE || 'cms' }}
+  WEB_REPOSITORY: ${{ vars.WEB_ECR_REPOSITORY || 'linkfields-production/web' }}
+  CMS_REPOSITORY: ${{ vars.CMS_ECR_REPOSITORY || 'linkfields-production/cms' }}
+  CMS_PUBLIC_URL: ${{ vars.CMS_PUBLIC_URL || 'https://cms.linkfields.com' }}
+  SITE_URL: ${{ vars.SITE_URL || 'https://www.linkfields.com' }}
+  MEDIA_HOSTS: ${{ vars.MEDIA_HOSTS || 'media.linkfields.com' }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: ${{ env.AWS_REGION }}
+      - uses: aws-actions/amazon-ecr-login@v2
+        id: ecr
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Build and push web
+        uses: docker/build-push-action@v6
+        with:
+          context: apps/web
+          push: true
+          tags: ${{ steps.ecr.outputs.registry }}/${{ env.WEB_REPOSITORY }}:${{ github.sha }},${{ steps.ecr.outputs.registry }}/${{ env.WEB_REPOSITORY }}:latest
+          build-args: |
+            CONTENT_SOURCE=strapi
+            STRAPI_URL=${{ env.CMS_PUBLIC_URL }}
+            NEXT_PUBLIC_SITE_URL=${{ env.SITE_URL }}
+            NEXT_PUBLIC_TURNSTILE_SITE_KEY=${{ vars.TURNSTILE_SITE_KEY }}
+            MEDIA_HOSTS=${{ env.MEDIA_HOSTS }}
+          cache-from: type=gha,scope=web
+          cache-to: type=gha,mode=max,scope=web
+
+      - name: Build and push CMS
+        uses: docker/build-push-action@v6
+        with:
+          context: apps/cms
+          push: true
+          tags: ${{ steps.ecr.outputs.registry }}/${{ env.CMS_REPOSITORY }}:${{ github.sha }},${{ steps.ecr.outputs.registry }}/${{ env.CMS_REPOSITORY }}:latest
+          cache-from: type=gha,scope=cms
+          cache-to: type=gha,mode=max,scope=cms
+
+      - name: Register revised task definitions and deploy
+        shell: bash
+        env:
+          WEB_IMAGE: ${{ steps.ecr.outputs.registry }}/${{ env.WEB_REPOSITORY }}:${{ github.sha }}
+          CMS_IMAGE: ${{ steps.ecr.outputs.registry }}/${{ env.CMS_REPOSITORY }}:${{ github.sha }}
+        run: |
+          set -euo pipefail
+          revise_task_definition() {
+            local family="$1"
+            local container="$2"
+            local image="$3"
+            aws ecs describe-task-definition --task-definition "$family" --query taskDefinition --output json > current.json
+            jq --arg name "$container" --arg image "$image" '
+              del(.taskDefinitionArn, .revision, .status, .requiresAttributes, .compatibilities, .registeredAt, .registeredBy, .deregisteredAt)
+              | .containerDefinitions |= map(if .name == $name then .image = $image else . end)
+            ' current.json > next.json
+            aws ecs register-task-definition --cli-input-json file://next.json --query 'taskDefinition.taskDefinitionArn' --output text
+          }
+          web_task="$(revise_task_definition "${ECS_CLUSTER}-web" web "$WEB_IMAGE")"
+          cms_task="$(revise_task_definition "${ECS_CLUSTER}-cms" cms "$CMS_IMAGE")"
+          aws ecs update-service --cluster "$ECS_CLUSTER" --service "$WEB_SERVICE" --task-definition "$web_task" --force-new-deployment >/dev/null
+          aws ecs update-service --cluster "$ECS_CLUSTER" --service "$CMS_SERVICE" --task-definition "$cms_task" --force-new-deployment >/dev/null
+          aws ecs wait services-stable --cluster "$ECS_CLUSTER" --services "$WEB_SERVICE" "$CMS_SERVICE"

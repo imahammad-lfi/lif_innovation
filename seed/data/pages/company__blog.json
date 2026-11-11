@@ -1,0 +1,142 @@
+{
+ "title": "Enterprise insights",
+ "path": "/company/blog",
+ "seo": {
+  "metaTitle": "Enterprise AI & Transformation Insights | Linkfields",
+  "metaDescription": "Explore enterprise AI insights on governance, code assurance and cyber readiness to assess controls, guide technology decisions and plan transformation.",
+  "keywords": "enterprise insights, AI assurance, AI governance, cyber readiness, enterprise AI insights, AI governance best practices, AI code assurance, enterprise digital transformation insights, cyber security compliance, RPA and intelligent automation",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Enterprise insights",
+   "subtitle": "Practical decision guides on enterprise AI, delivery assurance and the systems and processes behind transformation.",
+   "backgroundImage": {
+    "__media": "custom/hero-data-ai.jpg",
+    "alt": "Enterprise insights"
+   },
+   "anchorLinks": [
+    {
+     "label": "Editorial",
+     "targetId": "editorial"
+    },
+    {
+     "label": "Latest Guides",
+     "targetId": "latest-guides"
+    },
+    {
+     "label": "Revisited",
+     "targetId": "revisited"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "editorial",
+   "eyebrow": "Editorial",
+   "heading": "Insights for decisions, not predictions",
+   "body": "Linkfields Insights publishes practical perspectives on engineering, AI governance and enterprise delivery. These guides help enterprise teams assess controls, weigh trade-offs and define the evidence needed to make informed technology decisions.\n\nRead the November 2026 guides below, or explore our [company news and recognition](/company/news-and-articles). Revisited perspectives retain their original publication dates and clearly identify substantive updates.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "latest-guides",
+   "eyebrow": "Insights",
+   "heading": "Latest decision guides",
+   "description": "Three November 2026 perspectives aligned to AI Code Assurance, governed enterprise AI and Regulated Cyber Readiness.",
+   "variant": "default",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "eyebrow": "Digital Transformation",
+     "title": "AI code assurance: quality and security gates for AI-written change",
+     "description": "A practical guide to risk-based review, independent testing, code and supply-chain checks, and inspectable release evidence.",
+     "accent": "orange",
+     "footLabel": "Published",
+     "footText": "9 November 2026 · Linkfields Insights",
+     "href": "/company/blog/ai-code-assurance",
+     "linkLabel": "Read the guide"
+    },
+    {
+     "eyebrow": "Data & AI",
+     "title": "Governing enterprise AI with a single gateway",
+     "description": "Connect application policy, guardrails, cost ownership and tracing without confusing observability with approval to operate.",
+     "accent": "purple",
+     "footLabel": "Published",
+     "footText": "9 November 2026 · Linkfields Insights",
+     "href": "/company/blog/single-ai-gateway",
+     "linkLabel": "Read the guide"
+    },
+    {
+     "eyebrow": "Cyber Security",
+     "title": "Continuous cyber evidence for regulated industries",
+     "description": "Connect control requirements, exposure validation, remediation and retesting into an evidence chain that remains useful as systems change.",
+     "accent": "teal",
+     "footLabel": "Published",
+     "footText": "9 November 2026 · Linkfields Insights",
+     "href": "/company/blog/continuous-cyber-evidence",
+     "linkLabel": "Read the guide"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "revisited",
+   "eyebrow": "Updated perspectives",
+   "heading": "Revisited perspectives",
+   "description": "Earlier topics, substantively rewritten for today’s enterprise decisions. Original publication dates are preserved.",
+   "variant": "default",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "eyebrow": "BFSI",
+     "title": "Conversational AI in financial services: governance before scale",
+     "description": "Governed reporting, controlled data access and human oversight are the starting points for conversational AI in financial services.",
+     "accent": "purple",
+     "footLabel": "Original publication · substantive update",
+     "footText": "8 February 2024 · Updated 9 November 2026 by Linkfields Insights",
+     "href": "/company/blog/conversational-ai-financial-services",
+     "linkLabel": "Read the updated article"
+    },
+    {
+     "eyebrow": "Digital Transformation",
+     "title": "RPA and intelligent operations: redesign before automation",
+     "description": "Choose the right automation approach, define exceptions and build quality and security into the operating workflow.",
+     "accent": "orange",
+     "footLabel": "Original publication · substantive update",
+     "footText": "21 March 2024 · Updated 9 November 2026 by Linkfields Insights",
+     "href": "/company/blog/rpa-intelligent-operations",
+     "linkLabel": "Read the updated article"
+    },
+    {
+     "eyebrow": "Digital Transformation",
+     "title": "Digital transformation starts with the customer journey",
+     "description": "Connect customer channels, enterprise systems and operational hand-offs around a journey with clear acceptance criteria.",
+     "accent": "orange",
+     "footLabel": "Original publication · substantive update",
+     "footText": "13 March 2024 · Updated 9 November 2026 by Linkfields Insights",
+     "href": "/company/blog/digital-transformation-customer-experience",
+     "linkLabel": "Read the updated article"
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your enterprise priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

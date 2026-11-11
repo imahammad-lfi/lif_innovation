@@ -1,0 +1,293 @@
+{
+  "title": "Modernisation & Programme Assurance",
+  "path": "/solutions/modernisation-programme-assurance",
+  "seo": {
+    "metaTitle": "Modernisation & Programme Assurance | Linkfields",
+    "metaDescription": "Plan complex migrations with readiness checks, integration rebuilds and regression evidence, backed by Linkworks, testoriumz and delivery accelerators.",
+    "keywords": "programme assurance, migration readiness, regression testing, application modernisation",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Modernisation & programme assurance",
+      "subtitle": "Validate migration readiness, integration behaviour and release quality before business-critical cutovers.",
+      "backgroundImage": {
+        "__media": "custom/hero-modernisation-assurance.jpg",
+        "alt": "Illustrative Modernisation & programme assurance enterprise environment"
+      },
+      "anchorLinks": [
+        {
+          "label": "The Trigger",
+          "targetId": "the-trigger"
+        },
+        {
+          "label": "Delivery",
+          "targetId": "delivery"
+        },
+        {
+          "label": "Portfolios",
+          "targetId": "portfolios"
+        },
+        {
+          "label": "Linkfields IP",
+          "targetId": "linkfields-ip"
+        },
+        {
+          "label": "Buyer Questions",
+          "targetId": "buyer-questions"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "the-trigger",
+      "eyebrow": "Customer trigger",
+      "heading": "Planning a complex migration?",
+      "body": "Core-platform migrations affect custom applications, connected services and business-critical data. When teams work in separate streams, dependencies and regression risks can become visible only near cutover. Programme assurance connects those streams before release decisions are made.",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "business-outcome",
+      "eyebrow": "Business outcome",
+      "heading": "Know what is ready for cutover",
+      "body": "The intended outcome is an evidenced view of migration readiness across applications, integrations and security. Combine automated regression, integration rebuilds and security validation around agreed acceptance gates. Track reconciliation exceptions, critical-journey test results and unresolved dependencies against your programme baseline.",
+      "theme": "dark"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery",
+      "eyebrow": "How we deliver",
+      "heading": "From challenge to acceptance evidence",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Map the programme",
+          "description": "Identify platform changes, custom applications, interfaces, data flows and critical business journeys.",
+          "accent": "blue",
+          "number": "01",
+          "footLabel": "Deliverables",
+          "footText": "Dependency map and readiness baseline"
+        },
+        {
+          "title": "Rebuild and reconcile",
+          "description": "Modernise custom components, redesign interfaces and define migration reconciliation checks.",
+          "accent": "blue",
+          "number": "02",
+          "footLabel": "Deliverables",
+          "footText": "Integration contracts and reconciliation plan"
+        },
+        {
+          "title": "Rehearse the change",
+          "description": "Automate regression and validate representative migration and security scenarios.",
+          "accent": "blue",
+          "number": "03",
+          "footLabel": "Deliverables",
+          "footText": "Regression results and rehearsal findings"
+        },
+        {
+          "title": "Govern the cutover",
+          "description": "Review open risks, acceptance evidence, recovery arrangements and operational handover.",
+          "accent": "blue",
+          "number": "04",
+          "footLabel": "Deliverables",
+          "footText": "Cutover decision pack and handover plan"
+        }
+      ],
+      "description": "Example engagement pattern. Scope, gates and responsibilities are agreed for your environment."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "portfolios",
+      "eyebrow": "Integrated delivery",
+      "heading": "The portfolios behind this play",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Digital Transformation",
+          "description": "Modernises custom applications, rebuilds integrations and provides quality engineering.",
+          "accent": "orange",
+          "groupLabel": "Specialist services",
+          "links": [
+            {
+              "label": "App modernisation",
+              "href": "/services/digital-transformation/app-modernisation",
+              "openInNewTab": false
+            },
+            {
+              "label": "Integration services",
+              "href": "/services/digital-transformation/integration-services",
+              "openInNewTab": false
+            },
+            {
+              "label": "Quality engineering",
+              "href": "/services/digital-transformation/quality-engineering",
+              "openInNewTab": false
+            }
+          ],
+          "href": "/services/digital-transformation",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Intelligent Enterprise Platforms",
+          "description": "Connects ERP/CRM migration, reconciliation and support readiness to the programme.",
+          "accent": "blue",
+          "groupLabel": "Specialist services",
+          "links": [
+            {
+              "label": "Platform migration & AMS",
+              "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+              "openInNewTab": false
+            },
+            {
+              "label": "SAP S/4HANA",
+              "href": "/services/intelligent-enterprise-platforms/sap-s4hana",
+              "openInNewTab": false
+            }
+          ],
+          "href": "/services/intelligent-enterprise-platforms",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Cyber Security",
+          "description": "Adds application, cloud and identity validation to migration acceptance.",
+          "accent": "teal",
+          "groupLabel": "Specialist services",
+          "links": [
+            {
+              "label": "Cloud security & IAM",
+              "href": "/services/cyber-security/cloud-security-iam",
+              "openInNewTab": false
+            },
+            {
+              "label": "Exposure validation & AppSec",
+              "href": "/services/cyber-security/exposure-validation-appsec",
+              "openInNewTab": false
+            }
+          ],
+          "href": "/services/cyber-security",
+          "linkLabel": "Explore portfolio"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "linkfields-ip",
+      "eyebrow": "Software and reusable delivery IP",
+      "heading": "Linkfields IP and accelerators",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Linkworks",
+          "description": "Composable enterprise applications, microservices and REST APIs where ERP or CRM does not fit.",
+          "accent": "blue",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        },
+        {
+          "title": "testoriumz",
+          "description": "Continuous testing, low-code automation and CI/CD integration for regression and release decisions.",
+          "accent": "orange",
+          "logo": {
+            "__media": "custom/logos/testoriumz.png",
+            "alt": "testoriumz product logo"
+          },
+          "href": "/products-and-accelerators/testoriumz",
+          "linkLabel": "Explore testoriumz"
+        },
+        {
+          "title": "Modernisation and release IP",
+          "description": "Reusable engineering and assurance packs, tailored to your programme dependencies.",
+          "accent": "blue",
+          "bullets": "Modernisation & Integration Toolkit\nMigration & regression packs\nAutomated Testing & Release Assurance Packs",
+          "href": "/products-and-accelerators/delivery-accelerators",
+          "linkLabel": "Explore delivery accelerators"
+        }
+      ],
+      "description": "Select the software and reusable delivery IP that fit your scope; not every component is needed in every engagement.",
+      "noteLabel": "Software can be bought separately",
+      "note": "Products are available by licence, subscription or SaaS, with or without Linkfields services. Delivery accelerators are reusable IP tailored within an engagement."
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "engagement-models",
+      "eyebrow": "How we engage",
+      "heading": "Suitable commercial models",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Fixed Price",
+          "description": "Defined migration or assurance workstreams with scoped milestones and acceptance gates.",
+          "accent": "blue"
+        },
+        {
+          "title": "Time & Materials",
+          "description": "Discovery and integration work where legacy dependencies or scope are still emerging.",
+          "accent": "blue"
+        },
+        {
+          "title": "Dedicated Team",
+          "description": "A persistent engineering and assurance squad aligned to the programme roadmap.",
+          "accent": "blue"
+        }
+      ],
+      "description": "Choose the commercial basis for the scope and responsibilities you agree.",
+      "ctaLabel": "Compare all commercial models",
+      "ctaUrl": "/services#engagement-models"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Before you engage",
+      "heading": "Buyer questions",
+      "description": "Clarify scope, evidence and accountability before agreeing an engagement.",
+      "backgroundStyle": "dark",
+      "items": [
+        {
+          "title": "Can you assure a programme with multiple suppliers?",
+          "description": "An assurance workstream can sit across delivery teams. Agree access to plans and evidence, decision rights, escalation routes and the boundaries between independent review and work we deliver."
+        },
+        {
+          "title": "What makes a migration ready?",
+          "description": "Readiness is defined for your business: critical journeys, data reconciliation, integrations, security and operational support. We help turn these into acceptance criteria and track evidence against them."
+        },
+        {
+          "title": "How is Linkworks used alongside ERP or CRM?",
+          "description": "Linkworks supports composable custom applications and extensions where standard ERP or CRM does not fit. Platform selection, application ownership and integration boundaries are agreed before a build."
+        },
+        {
+          "title": "What should we bring to an initial discussion?",
+          "description": "Bring the programme scope, target platform, integration inventory and current test or cutover plan. We can identify missing evidence and propose a scoped readiness assessment."
+        }
+      ]
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss modernisation and programme assurance",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

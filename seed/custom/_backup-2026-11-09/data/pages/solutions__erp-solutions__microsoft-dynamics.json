@@ -1,0 +1,252 @@
+{
+ "title": "Microsoft Dynamics",
+ "path": "/solutions/erp-solutions/microsoft-dynamics",
+ "seo": {
+  "metaTitle": "Microsoft Dynamics 365 CRM Services | Linkfields Innovations",
+  "metaDescription": "Linkfields Innovations: Expert in Microsoft Dynamics 365 implementation, integration, and solutions, including Office 365 integrations and consulting.",
+  "keywords": "Linkfields innovations, microsoft dynamics 365, MS D365, dynamics 365 development, office 365 integrations, dynamic 365 consulting",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Microsoft Dynamics",
+   "subtitle": "ERP, CRM, and BI, brought together on a single platform.",
+   "backgroundImage": {
+    "__media": "s3/microsoftDynamic-crop.jpg",
+    "width": 955,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Microsoft Dynamics"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "WHAT WE OFFER",
+     "targetId": "what-we-offer"
+    },
+    {
+     "label": "WHY US",
+     "targetId": "why-us"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "The Dynamics 365 Advantage",
+   "body": "Microsoft Dynamics offers a wide range of applications to meet the unique needs of your organization. Whether you're looking to enhance sales, marketing, finance, operations, supply chain, service, commerce, or human resources, we have the right solution for you.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.how-can-we-help",
+   "anchorId": "how-we-can-help",
+   "eyebrow": "HOW WE CAN HELP",
+   "heading": "We are a trusted Dynamics 365 development company with a wealth of experience in delivering CRM projects across various industry verticals.",
+   "description": "",
+   "image": null,
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/internet-svgrepo-com 1.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Rich Domain Expertise:"
+     },
+     "title": "Rich Domain Expertise:",
+     "description": "Our Dynamics 365 professionals possess deep domain expertise in crafting custom business solutions with built-in intelligence to gain a competitive edge.",
+     "href": "",
+     "linkLabel": "",
+     "color": "#27272766"
+    },
+    {
+     "icon": {
+      "__media": "s3/handshake.png",
+      "width": 257,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Microsoft Partner:"
+     },
+     "title": "Microsoft Partner:",
+     "description": "As a Microsoft Partner, we offer tailored Dynamics 365 implementation services that break through barriers and align with your unique requirements.",
+     "href": "",
+     "linkLabel": "",
+     "color": "#27272766"
+    },
+    {
+     "icon": {
+      "__media": "s3/certificate-star-svgrepo-com 1.png",
+      "width": 257,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Certified Resources:"
+     },
+     "title": "Certified Resources:",
+     "description": "Our team comprises certified professionals with extensive experience in delivering Microsoft Dynamics 365 services across diverse industries.",
+     "href": "",
+     "linkLabel": "",
+     "color": "#27272766"
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/how-can-we-help.jpg",
+    "width": 1920,
+    "height": 816,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "linkedCards": false
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "60% significant operational cost savings",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "solutions.technology-details",
+   "anchorId": "dynamics-365",
+   "eyebrow": "",
+   "heading": "What’s in it for you ?",
+   "description": "",
+   "image": {
+    "__media": "s3/Dynamics 365.png",
+    "width": 249,
+    "height": 70,
+    "mime": "image/png",
+    "alt": "What’s in it for you ?"
+   },
+   "layout": "stack",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryDescription": "",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/audio-waveform.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "End-to-End Business Applications"
+     },
+     "title": "End-to-End Business Applications",
+     "description": "The comprehensive platform combines ERP, CRM, and BI on a single cloud-based platform. This means you can manage every facet of your business in one place, making data visualization and decision-making easier than ever.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/data-integration-hub-svgrepo-com 1.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Power Platform Integration"
+     },
+     "title": "Power Platform Integration",
+     "description": "Microsoft Power Platform seamlessly integrates with Dynamics 365. This integration empowers you to harness the full potential of your data and automate tasks, driving efficiency and productivity.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    },
+    {
+     "icon": {
+      "__media": "s3/microsoft-office-svgrepo-com 1.png",
+      "width": 256,
+      "height": 256,
+      "mime": "image/png",
+      "alt": "Office 365 Integration"
+     },
+     "title": "Office 365 Integration",
+     "description": "With Office 365 integration, collaboration and productivity reach new heights. Share information and insights with ease using tools like Microsoft Teams and Microsoft 365, further enhancing your organization's capabilities.",
+     "href": "",
+     "linkLabel": "",
+     "color": ""
+    }
+   ],
+   "backgroundImage": {
+    "__media": "site/backgroud-images/whats-in-it-for-you.jpg",
+    "width": 1920,
+    "height": 770,
+    "mime": "image/jpeg",
+    "alt": ""
+   }
+  },
+  {
+   "__component": "sections.stats-band",
+   "anchorId": "",
+   "eyebrow": "WHY US",
+   "heading": "Persistently Innovative",
+   "description": "Apart from the excellent results we have delivered in the last decade, our business model focuses on constant innovation of each elemental and operational process, ensuring constant adaptation to the future.",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/persistently_innovative.jpg",
+    "width": 1920,
+    "height": 784,
+    "mime": "image/jpeg",
+    "alt": "Persistently innovative background"
+   },
+   "stats": [
+    {
+     "value": "5",
+     "suffix": "mn",
+     "label": "daily digital journeys"
+    },
+    {
+     "value": "10",
+     "suffix": "x",
+     "label": "faster operational growth"
+    },
+    {
+     "value": "150",
+     "suffix": "+",
+     "label": "solutions delivered"
+    },
+    {
+     "value": "10",
+     "suffix": "yrs",
+     "label": "avg client tenure"
+    }
+   ]
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

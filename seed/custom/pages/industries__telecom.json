@@ -1,0 +1,275 @@
+{
+  "title": "Telecom",
+  "path": "/industries/telecom",
+  "seo": {
+    "metaTitle": "Telecom | Linkfields",
+    "metaDescription": "Linkfields connects telecom service journeys, billing workflows and operational data through engineering, automation, governed analytics and security.",
+    "keywords": "telecom, service journeys, billing integration, churn analytics, release assurance",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Telecom",
+      "subtitle": "Connect customer journeys, modernise telecom applications and automate service operations—secure by design.",
+      "backgroundImage": {
+        "__media": "custom/hero-whatsapp-omnichannel.jpg",
+        "alt": "Telecom service and operations context"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "What We Deliver",
+          "targetId": "what-we-deliver"
+        },
+        {
+          "label": "Software & Accelerators",
+          "targetId": "software-accelerators"
+        },
+        {
+          "label": "Delivery Approach",
+          "targetId": "delivery-approach"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Industry overview",
+      "heading": "Connect service journeys with telecom operations",
+      "body": "Billing exceptions, disconnected support channels and legacy applications make service operations harder to coordinate. Linkfields combines enterprise application integration, automation and governed operational insight with owned software and reusable accelerators.\n\nWe connect customer channels, CRM and billing workflows so teams can review exceptions, track hand-offs and plan change. The focus is enterprise software and data integration, not network-equipment engineering; system interfaces, security boundaries and telecom-specific requirements are agreed during discovery.",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "portfolio-map",
+      "eyebrow": "Integrated capabilities",
+      "heading": "Five portfolios, *one delivery plan*",
+      "description": "Select the capabilities your workflow needs, with security embedded across engineering and delivery.",
+      "variant": "compact",
+      "columns": 5,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Digital Transformation",
+          "description": "Modernise service applications, connect channels and automate hand-offs.",
+          "accent": "orange",
+          "number": "01",
+          "href": "/services/digital-transformation",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Intelligent Enterprise Platforms",
+          "description": "Connect CRM, service platforms and enterprise finance workflows.",
+          "accent": "blue",
+          "number": "02",
+          "href": "/services/intelligent-enterprise-platforms",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Data & AI",
+          "description": "Build governed service analytics and evaluate churn and segmentation models.",
+          "accent": "purple",
+          "number": "03",
+          "href": "/services/data-ai",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Cyber Security",
+          "description": "Validate application exposure, identity controls and code dependencies.",
+          "accent": "teal",
+          "number": "04",
+          "href": "/services/cyber-security",
+          "linkLabel": "Explore portfolio"
+        },
+        {
+          "title": "Talent Advisory & GCC",
+          "description": "Scope architecture priorities and add specialist or managed engineering teams.",
+          "accent": "yellow",
+          "number": "05",
+          "href": "/services/talent-advisory-gcc",
+          "linkLabel": "Explore portfolio"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "",
+      "heading": "What we deliver",
+      "description": "Each workflow is scoped with your systems, responsible teams and acceptance measures; none implies a proven operator deployment.",
+      "variant": "default",
+      "columns": 2,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Billing and reconciliation exceptions",
+          "description": "When billing records and payment status diverge, teams need a reviewable exception queue.",
+          "accent": "blue",
+          "bullets": "Workflow – Connect billing and finance inputs; route mismatches with supporting records.\nControl – Finance owners approve corrections; access and change history remain traceable.",
+          "footLabel": "Measure to agree",
+          "footText": "Exception age, manual rework and reconciliation completeness.",
+          "href": "/services/digital-transformation/integration-services",
+          "linkLabel": "Explore integration services"
+        },
+        {
+          "title": "Customer-service hand-offs",
+          "description": "When enquiries move between channels, context and ownership can be lost.",
+          "accent": "orange",
+          "bullets": "Workflow – Connect CRM and service channels with case status and escalation paths.\nControl – Service teams own escalations; approved knowledge and access rules guide responses.",
+          "footLabel": "Measure to agree",
+          "footText": "Handoff completion, repeat contacts and resolution time.",
+          "href": "/services/digital-transformation/whatsapp-omnichannel",
+          "linkLabel": "Explore connected channels"
+        },
+        {
+          "title": "Legacy application modernisation",
+          "description": "When older applications constrain change, begin with dependencies rather than a wholesale rebuild.",
+          "accent": "teal",
+          "bullets": "Workflow – Map APIs, rebuild selected components and integrate regression checks into releases.\nControl – Engineering owners approve quality and security gates before deployment.",
+          "footLabel": "Measure to agree",
+          "footText": "Regression coverage, release defects and interface reliability.",
+          "href": "/services/digital-transformation/app-modernisation",
+          "linkLabel": "Explore app modernisation"
+        },
+        {
+          "title": "Churn and segmentation insight",
+          "description": "When customer and usage data is fragmented, prediction needs a governed foundation.",
+          "accent": "purple",
+          "bullets": "Workflow – Prepare permitted data and evaluate churn or segmentation models for analyst review.\nControl – Agree data rights, model validation and limits on automated action.",
+          "footLabel": "Measure to agree",
+          "footText": "Model performance, data quality and analyst adoption.",
+          "href": "/products-and-accelerators/predictive-analytics-suite",
+          "linkLabel": "Explore predictive analytics"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "software-accelerators",
+      "eyebrow": "",
+      "heading": "Telecom software and accelerators",
+      "description": "Selected capability fit, not evidence of telecom deployments. Products are available by licence, subscription or SaaS, with or without services.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Linkworks",
+          "description": "Composable applications, REST APIs and UI components for service workflows where ERP or CRM does not fit.",
+          "accent": "orange",
+          "eyebrow": "Product",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        },
+        {
+          "title": "testoriumz",
+          "description": "Continuous quality engineering: low-code testing, AI root-cause analysis and CI/CD integration.",
+          "accent": "orange",
+          "eyebrow": "Product",
+          "logo": {
+            "__media": "custom/logos/testoriumz.png",
+            "alt": "testoriumz logo"
+          },
+          "href": "/products-and-accelerators/testoriumz",
+          "linkLabel": "Explore testoriumz"
+        },
+        {
+          "title": "VectorX",
+          "description": "Code scanning and supply-chain analysis from repository to release, supporting engineering security gates.",
+          "accent": "teal",
+          "eyebrow": "Product",
+          "logo": {
+            "__media": "custom/logos/vectorx.png",
+            "alt": "VectorX logo"
+          },
+          "href": "/products-and-accelerators/vectorx",
+          "linkLabel": "Explore VectorX"
+        },
+        {
+          "title": "Predictive Analytics Suite",
+          "description": "Pre-built churn and segmentation capability to evaluate against permitted customer data and agreed measures.",
+          "accent": "purple",
+          "eyebrow": "Accelerator",
+          "icon": {
+            "__media": "custom/icons/acc-predictive-analytics.svg",
+            "alt": "Predictive Analytics Suite icon"
+          },
+          "href": "/products-and-accelerators/predictive-analytics-suite",
+          "linkLabel": "Explore accelerator"
+        },
+        {
+          "title": "VajraX",
+          "description": "External attack-surface exposure validation where assets, ownership and remediation scope can be agreed.",
+          "accent": "teal",
+          "eyebrow": "Product",
+          "logo": {
+            "__media": "custom/logos/vajrax.png",
+            "alt": "VajraX logo"
+          },
+          "href": "/products-and-accelerators/vajrax",
+          "linkLabel": "Explore VajraX"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery-approach",
+      "eyebrow": "Delivery approach",
+      "heading": "Which service journey needs to work better?",
+      "description": "Example engagement pattern: a starting point for scoping, not a claim about a completed client deployment.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Frame the workflow",
+          "description": "Start with one billing, support or application-change constraint and its accountable owner.",
+          "accent": "orange",
+          "bullets": "Inputs – current applications, interface inventory and process samples\nOutput – prioritised workflow and dependency map",
+          "number": "01"
+        },
+        {
+          "title": "Design controlled change",
+          "description": "Agree customer-data access, escalation ownership and quality/security gates. Churn work depends on usable history and model validation.",
+          "accent": "teal",
+          "bullets": "Artefacts – interface map, access matrix and review checkpoints\nQuality gate – agreed tests and exception handling",
+          "number": "02"
+        },
+        {
+          "title": "Agree acceptance and operation",
+          "description": "Define a baseline for the selected service or release measure, acceptance criteria and operating ownership.",
+          "accent": "blue",
+          "bullets": "Artefacts – acceptance measures, release evidence and ownership plan\nCommercial model – project, managed service or dedicated team",
+          "number": "03",
+          "href": "/company/our-approach",
+          "linkLabel": "Explore our approach"
+        }
+      ],
+      "noteLabel": "Before we begin",
+      "note": "We can agree an NDA before sharing confidential information. Do not send customer records, credentials or sensitive network details in the initial enquiry."
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your telecom priorities",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

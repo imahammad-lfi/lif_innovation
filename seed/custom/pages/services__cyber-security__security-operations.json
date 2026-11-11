@@ -1,0 +1,274 @@
+{
+  "title": "Security operations",
+  "path": "/services/cyber-security/security-operations",
+  "seo": {
+    "metaTitle": "Security operations | Linkfields",
+    "metaDescription": "Define security monitoring, vulnerability priorities, escalation and authorised response. Agree tooling, responsibilities and service scope with Linkfields.",
+    "keywords": "security operations, Splunk SIEM, Qualys, Rapid7, incident response, managed security",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "Security operations",
+      "subtitle": "Detect, triage and contain with a clear operational response.",
+      "backgroundImage": {
+        "__media": "custom/hero-security-operations.jpg",
+        "alt": "Security operations concept illustration"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "Operating Model",
+          "targetId": "operating-model"
+        },
+        {
+          "label": "What We Deliver",
+          "targetId": "what-we-deliver"
+        },
+        {
+          "label": "Delivery Approach",
+          "targetId": "delivery-approach"
+        },
+        {
+          "label": "Incident Boundaries",
+          "targetId": "incident-boundaries"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "OVERVIEW",
+      "heading": "Turn security signals into informed action",
+      "body": "Define how security signals are investigated, escalated and acted on across your teams and tools. Linkfields provides specialist security services and offers Managed Service engagements; the monitoring scope, operational ownership and service terms are agreed for each engagement.\n\nWe work with Splunk SIEM, Qualys and Rapid7. Agree the exact product modules, telemetry and supported integrations during scoping; these tools are not evidence of a pre-integrated stack or vendor partnership. Client system owners retain approval for operational changes, legal decisions and recovery responsibilities unless explicitly agreed otherwise.",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "operating-model",
+      "eyebrow": "OPERATING MODEL",
+      "heading": "Agree who operates and who authorises",
+      "description": "Define the operating model before onboarding tools. Coverage, responsibilities and service measures belong in an approved scope, not an implied promise.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Project and integration scope",
+          "description": "Agree an assessment or integration project with defined outputs and handover.",
+          "accent": "teal",
+          "bullets": "Telemetry and use-case inventory\nTool/module and access scope\nClient handover and exclusions"
+        },
+        {
+          "title": "Shared operational responsibilities",
+          "description": "Record which actions sit with Linkfields, client teams and tool vendors.",
+          "accent": "teal",
+          "bullets": "Analyst and escalation roles\nClient approval and containment authority\nLog access, retention and delivery locations"
+        },
+        {
+          "title": "Managed Service terms",
+          "description": "Where a Managed Service is agreed, define coverage and governance. Continuous coverage is not assumed.",
+          "accent": "teal",
+          "bullets": "Hours, time zones and handover\nReporting cadence and exclusions\nDefined service measures and improvement"
+        }
+      ],
+      "ctaLabel": "Discuss your monitoring and response model",
+      "ctaUrl": "#get-in-touch"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "WHAT WE DELIVER",
+      "heading": "Operational outputs, not a vendor list",
+      "description": "Select the outcomes and tools for the agreed scope. Confirm exact Qualys and Rapid7 product roles rather than treating the vendor name as a response service.",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Detection engineering & SIEM",
+          "description": "Use Splunk SIEM where agreed to organise security events and investigation context.",
+          "accent": "teal",
+          "bullets": "Log-source and use-case catalogue\nDetection-validation record"
+        },
+        {
+          "title": "Vulnerability prioritisation",
+          "description": "Use agreed Qualys monitoring or vulnerability findings to build an owned remediation workflow.",
+          "accent": "teal",
+          "bullets": "Prioritised vulnerability queue\nOwners, exceptions and follow-up status"
+        },
+        {
+          "title": "Investigation & containment",
+          "description": "Scope the Rapid7 role and authorised response actions with system owners.",
+          "accent": "teal",
+          "bullets": "Investigation and escalation playbooks\nContainment approvals and recovery handoff"
+        },
+        {
+          "title": "Service governance & improvement",
+          "description": "Review operational evidence, service measures and risk with accountable owners.",
+          "accent": "teal",
+          "bullets": "Service/risk review report\nDetection and remediation improvement backlog"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery-approach",
+      "eyebrow": "DELIVERY APPROACH",
+      "heading": "From onboarding to service review",
+      "description": "Example engagement pattern: review a signal against an agreed use case, escalate it to the accountable owner and act only under the approved response playbook.",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Baseline the scope",
+          "description": "Agree telemetry, responsibilities, access and operating boundaries.",
+          "accent": "teal",
+          "number": "01",
+          "bullets": "Telemetry/responsibility baseline\nRetention and processing-location decisions"
+        },
+        {
+          "title": "Onboard and validate",
+          "description": "Check log sources and test agreed detection use cases before operational handover.",
+          "accent": "teal",
+          "number": "02",
+          "bullets": "Tested detection/use-case pack\nOnboarding exceptions and acceptance"
+        },
+        {
+          "title": "Triage and authorise response",
+          "description": "Investigate context, preserve evidence and obtain the required containment approval.",
+          "accent": "teal",
+          "number": "03",
+          "bullets": "Escalation/containment playbooks\nClient decision and recovery handoff"
+        },
+        {
+          "title": "Review and improve",
+          "description": "Document the response and agree improvements to detections, controls and follow-up.",
+          "accent": "teal",
+          "number": "04",
+          "bullets": "Incident/service report\nOwned improvement backlog"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "incident-boundaries",
+      "eyebrow": "SECURE BY DESIGN",
+      "heading": "Incident boundaries and evidence handling",
+      "description": "This form is for service enquiries, not active-incident reporting. Use your organisation’s incident-response procedure. Related products are optional engagements, not automatic monitoring inclusions or verified integrations.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Authorised operational actions",
+          "description": "Agree containment authority, approval paths and escalation before the service starts.",
+          "accent": "teal",
+          "bullets": "No assumed change authority\nClient recovery and notification ownership",
+          "groupLabel": "Specialist remediation routes",
+          "links": [
+            {
+              "label": "Cloud security & IAM",
+              "href": "/services/cyber-security/cloud-security-iam",
+              "openInNewTab": false
+            },
+            {
+              "label": "Exposure validation & AppSec",
+              "href": "/services/cyber-security/exposure-validation-appsec",
+              "openInNewTab": false
+            }
+          ]
+        },
+        {
+          "title": "Preserve and transfer evidence",
+          "description": "Agree evidence preservation, secure transfer, access permissions and retention.",
+          "accent": "teal",
+          "bullets": "Logs and incident material handled securely\nProcessing and access locations recorded"
+        },
+        {
+          "title": "Legal and data responsibilities",
+          "description": "Agree POPIA-related personal-data handling and cross-border log processing with your legal owners.",
+          "accent": "teal",
+          "bullets": "Operator and client responsibilities\nLegal/notification decisions stay accountable"
+        }
+      ],
+      "logosLabel": "Optional related products: exposure validation, code and supply-chain analysis, AI oversight",
+      "logos": [
+        {
+          "label": "VajraX",
+          "href": "/products-and-accelerators/vajrax",
+          "openInNewTab": false,
+          "logo": {
+            "__media": "custom/logos/vajrax.png",
+            "alt": "VajraX product wordmark"
+          }
+        },
+        {
+          "label": "VectorX",
+          "href": "/products-and-accelerators/vectorx",
+          "openInNewTab": false,
+          "logo": {
+            "__media": "custom/logos/vectorx.png",
+            "alt": "VectorX product wordmark"
+          }
+        },
+        {
+          "label": "AI Governance",
+          "href": "/products-and-accelerators/ai-governance",
+          "openInNewTab": false,
+          "logo": {
+            "__media": "custom/logos/ai-governance.png",
+            "alt": "AI Governance product wordmark"
+          }
+        }
+      ]
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "BUYER QUESTIONS",
+      "heading": "Scope the service, not an incident report",
+      "description": "Discuss your operating model, tools and objectives, not an active incident. Do not send logs, personal information, credentials or incident evidence.",
+      "backgroundStyle": "dark",
+      "items": [
+        {
+          "title": "What coverage and response can we expect?",
+          "description": "Hours, time zones, analyst/escalation roles, exclusions, handover and response measures are defined in the agreed service scope. A general enquiry does not create an incident retainer or a response commitment."
+        },
+        {
+          "title": "Which tools and integrations are included?",
+          "description": "We work with Splunk SIEM, Qualys and Rapid7. Confirm product modules, log sources, vulnerability scope and supported integrations before onboarding. Vendor software, specialist delivery and managed operations are separate commercial decisions. Confirm applicable NIST CSF 2.0, MITRE ATT&CK detection mapping and incident-handling methods during scoping."
+        },
+        {
+          "title": "Who approves containment and owns evidence?",
+          "description": "Record containment approval, evidence custody, access, retention and recovery handoff in the responsibility matrix. Client legal and notification ownership must be clear, including personal-data handling and cross-border processing. Agree an NDA and secure transfer process before reviewing confidential material."
+        },
+        {
+          "title": "How can we buy security operations work?",
+          "description": "Fixed Price suits defined integration or readiness work; Time & Materials suits evolving discovery. Managed Service terms cover an agreed ongoing scope with service measures and governance; Dedicated Team or Outcome-Based models require clear responsibilities and measurable acceptance. Read our privacy policy before enquiring. Vendor software is priced separately. Cloud, AI & Identity Security Baselines and Continuous Compliance & Audit Evidence can support separately agreed control and evidence work."
+        }
+      ],
+      "logos": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your security operations model",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

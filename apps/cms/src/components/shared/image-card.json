@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_image_card",
+  "info": {
+    "displayName": "Image card",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

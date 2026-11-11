@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_featured_insights",
+  "info": {
+    "displayName": "Featured insights",
+    "icon": "feather",
+    "description": "Insights & Updates cards (falls back to the global list when empty)"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": {
+      "type": "string"
+    },
+    "eyebrow": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaLabel": {
+      "type": "string"
+    },
+    "ctaUrl": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.insight-card"
+    }
+  }
+}

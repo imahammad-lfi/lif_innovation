@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_content_filter_option",
+  "info": {
+    "displayName": "Content filter option",
+    "icon": "filter",
+    "description": "A selectable blog keyword"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

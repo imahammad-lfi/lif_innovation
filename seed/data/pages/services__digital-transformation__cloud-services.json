@@ -1,0 +1,242 @@
+{
+ "title": "Cloud services",
+ "path": "/services/digital-transformation/cloud-services",
+ "seo": {
+  "metaTitle": "Cloud Migration & Optimisation Services | Linkfields",
+  "metaDescription": "Align cloud migration services with your business requirements. Modernise workloads, clarify operating ownership and optimise cost with Linkfields.",
+  "keywords": "cloud services, cloud migration, platform engineering, cloud optimisation, cloud migration services, cloud modernisation services, cloud cost optimisation services, cloud platform engineering, enterprise cloud migration, cloud migration services South Africa",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cloud services",
+   "subtitle": "Modernise, migrate and optimise enterprise cloud environments.",
+   "backgroundImage": {
+    "__media": "s3/cloud-banner.png",
+    "alt": "Enterprise cloud infrastructure and migration"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Use Cases",
+     "targetId": "use-cases"
+    },
+    {
+     "label": "Our Approach",
+     "targetId": "our-approach"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Build a cloud environment that is fit for your business",
+   "body": "Align cloud adoption with your workload requirements, cost priorities and operating model. We assess readiness, plan staged migration and agree resilience, security and operating responsibilities before changing the estate.\n\nTogether, we establish baseline costs per workload or transaction, service objectives and recovery requirements, and clarify your team’s responsibilities alongside any managed service scope. [Discuss your cloud priorities](#get-in-touch).",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "WHAT WE DELIVER",
+   "heading": "What we deliver",
+   "description": "Workload readiness, engineering and operations with clear responsibilities.",
+   "items": [
+    {
+     "title": "Readiness and roadmap",
+     "description": "Workload and dependency inventory, disposition decisions and prioritised migration waves with business constraints.",
+     "accent": "orange"
+    },
+    {
+     "title": "Landing zones and platform engineering",
+     "description": "Target environment design, identity and access baselines, network controls and deployment configuration.",
+     "accent": "orange"
+    },
+    {
+     "title": "Migration and modernisation",
+     "description": "Migration plans, data validation and cutover procedures. Link application refactoring to the modernisation scope.",
+     "accent": "orange",
+     "href": "/services/digital-transformation/app-modernisation",
+     "linkLabel": "App modernisation"
+    },
+    {
+     "title": "Containers and DevOps",
+     "description": "Cluster and deployment baselines where appropriate, automated pipelines, rollout checks and validated rollback procedures.",
+     "accent": "orange"
+    },
+    {
+     "title": "Cloud operations and observability",
+     "description": "Monitoring, alerting, failure investigation and runbooks, with named client, provider and service responsibilities.",
+     "accent": "orange"
+    },
+    {
+     "title": "Cost and performance optimisation",
+     "description": "Workload cost attribution, usage and performance review, and prioritised changes measured against agreed service objectives.",
+     "accent": "orange"
+    }
+   ],
+   "tone": "navy",
+   "columns": 3,
+   "variant": "default"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "use-cases",
+   "eyebrow": "ILLUSTRATIVE USE CASES",
+   "heading": "A secure migration and operating model",
+   "description": "Illustrative on-premises workload → assessed target and landing zone → migration waves → release gates → operations and optimisation loop.",
+   "items": [
+    {
+     "title": "1. Assess and establish foundations",
+     "description": "Map workload dependencies and select a target environment. Agree IAM, network controls, recovery needs and cloud-cost ownership before migration.",
+     "accent": "orange",
+     "href": "/services/cyber-security/cloud-security-iam",
+     "linkLabel": "Cloud security & IAM"
+    },
+    {
+     "title": "2. Migrate with controlled releases",
+     "description": "Modernise selected application capabilities and migrate in waves. Validate data and dependent integrations, cutover, service continuity and rollback.",
+     "accent": "orange",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Integration services"
+    },
+    {
+     "title": "3. Operate and optimise",
+     "description": "Monitor workloads, investigate failures and test recovery. Review scaling, performance and spend with accountable operating owners, then prioritise the next change.",
+     "accent": "orange",
+     "href": "/services/digital-transformation/app-modernisation",
+     "linkLabel": "App modernisation"
+    }
+   ],
+   "tone": "ink",
+   "columns": 3,
+   "variant": "compact",
+   "ctaLabel": "Modernisation & Programme Assurance",
+   "ctaUrl": "/solutions/modernisation-programme-assurance"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "ip-and-accelerators",
+   "eyebrow": "LINKFIELDS IP & ACCELERATORS",
+   "heading": "Accelerators for cyber-safe cloud delivery",
+   "description": "Select delivery IP for migration, application engineering and assurance. Agree product fit and reusable versus tailored work during discovery.",
+   "items": [
+    {
+     "title": "Modernisation and release accelerators",
+     "description": "The Modernisation & Integration Toolkit, Automated Testing & Release Assurance Packs and Cyber-Safe Delivery support the agreed migration and validation scope.",
+     "accent": "orange",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    },
+    {
+     "title": "Linkworks",
+     "description": "Cloud-native solutions, composable UI and REST APIs can support application modernisation within a cloud migration; these application capabilities do not replace cloud infrastructure.",
+     "accent": "orange",
+     "logo": {
+      "__media": "custom/logos/plate/linkworks-plate.png",
+      "alt": "Linkworks product logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "testoriumz",
+     "description": "Continuous testing, low-code automation and CI/CD integration can support release assurance for application and integration changes during migration.",
+     "accent": "orange",
+     "logo": {
+      "__media": "custom/logos/plate/testoriumz-plate.png",
+      "alt": "testoriumz product logo"
+     },
+     "href": "/products-and-accelerators/testoriumz",
+     "linkLabel": "Explore testoriumz"
+    }
+   ],
+   "tone": "navy",
+   "columns": 3,
+   "variant": "default",
+   "noteLabel": "Fit and licensing",
+   "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Discovery agrees product fit, reusable accelerator content and client-specific engineering."
+  },
+  {
+   "__component": "services.numbered-help",
+   "anchorId": "our-approach",
+   "eyebrow": "SECURE BY DESIGN",
+   "heading": "From workload assessment to optimised operations",
+   "items": [
+    {
+     "description": "Assess - Baseline business needs, workloads, dependencies and spend. Client owners confirm the platform scope, service objectives, recovery requirements and migration priorities."
+    },
+    {
+     "description": "Design - Agree landing zones, IAM, network controls, recovery and cost attribution. Define client, provider and Linkfields responsibilities; security and quality requirements gate the design."
+    },
+    {
+     "description": "Migrate and validate - Move or modernise workloads in waves. Test data, integrations, cutover, rollback and recovery against agreed acceptance criteria before the client release decision."
+    },
+    {
+     "description": "Operate and optimise - Transfer monitoring, runbooks and escalation ownership. Measure cost, performance and recovery evidence; agree coverage, exclusions and response/restoration terms for any managed scope."
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "acceptance-and-evidence",
+   "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
+   "heading": "Acceptance for cutover and operations",
+   "body": "Cutover acceptance includes data and integration validation, access-control checks, release evidence and tested rollback and recovery procedures. The client approves remaining risks; operating owners accept monitoring, runbooks and escalation boundaries.\n\nTrack workload cost and performance over an agreed period, separating rate discounts and right-sizing from architectural changes. Compare recovery evidence and service performance with agreed objectives - not an unconditional availability or savings promise.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+   "theme": "light"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "ENGAGEMENT & BUYER QUESTIONS",
+   "heading": "Plan the right engagement",
+   "description": "Use Time & Materials for readiness and architecture discovery, or Fixed Price for agreed migration waves. A Dedicated Team supports platform engineering; Managed Service covers explicitly agreed cloud operations. Outcome-Based optimisation needs a comparable cost/performance baseline, exclusions and attribution.",
+   "backgroundStyle": "dark",
+   "items": [
+    {
+     "title": "How do we assess workload readiness?",
+     "description": "Review dependencies, data, platform support, usage, spend, security and recovery needs. Agree which workloads to retain, migrate or modernise, and confirm the delivery-platform scope before selecting a target."
+    },
+    {
+     "title": "What belongs in a landing zone?",
+     "description": "Agree identity, network, access, logging, deployment and recovery controls for the selected environment. Name ownership and acceptance criteria before workloads are moved."
+    },
+    {
+     "title": "Who owns cloud costs and infrastructure?",
+     "description": "Separate cloud-provider accounts and platform charges from Linkfields engineering or managed services. Agree account ownership, cost allocation and approval of changes that affect spend."
+    },
+    {
+     "title": "How are recovery and shared responsibility handled?",
+     "description": "Define client, provider and service responsibilities, data recovery requirements and service objectives. Test recovery and rollback; any support coverage, response/restoration terms and exclusions must be agreed."
+    },
+    {
+     "title": "What should we bring to the conversation?",
+     "description": "Share the workload estate, current platforms, migration goals, cost and resilience constraints, and support needs. We can agree discovery access, confidentiality and delivery scope."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your cloud modernisation priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

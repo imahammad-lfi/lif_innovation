@@ -1,0 +1,234 @@
+{
+ "title": "Digital Twin Suite",
+ "path": "/products-and-accelerators/digital-twin-suite",
+ "seo": {
+  "metaTitle": "Digital Twin Simulation & Modelling Suite | Linkfields",
+  "metaDescription": "Explore digital twin simulation for maintenance and inventory planning. Scope operational data, model calibration and a reviewed pilot with Linkfields.",
+  "keywords": "digital twin, simulation, maintenance, inventory optimisation, digital twin simulation, digital twin modelling, digital twin predictive maintenance, digital twin inventory optimisation, industrial digital twin solutions, digital twin implementation services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Digital Twin Suite",
+   "subtitle": "Reusable asset and process models, adapted to your operational data and decisions.",
+   "backgroundImage": {
+    "__media": "custom/hero-digital-twin.jpg",
+    "alt": "Turbine equipment and digital model illustrating an operational twin"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "Reuse Scope",
+     "targetId": "reuse-scope"
+    },
+    {
+     "label": "Outputs",
+     "targetId": "outputs"
+    },
+    {
+     "label": "Readiness",
+     "targetId": "readiness"
+    },
+    {
+     "label": "Related Items",
+     "targetId": "related-items"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "REUSABLE ACCELERATOR · SIMULATION",
+   "heading": "Explore *digital twin simulation* for operations",
+   "body": "A digital twin connects a model of an asset or process with operational data, helping teams understand current conditions and explore possible changes. The Digital Twin Suite brings reusable model starting points; the asset boundary, fidelity, calibration and integrations must reflect your environment.\n\n[Assess a twin use case](#get-in-touch). Describe the asset or process, available data and decision to test.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "reuse-scope",
+   "eyebrow": "PRE-BUILT AND TAILORED",
+   "heading": "Simulation and insight for everyday operations",
+   "description": "",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Equipment failure prediction",
+     "description": "Adapt an applicable model to equipment condition and operating behaviour, with model availability and fit confirmed during assessment.",
+     "bullets": "Inputs - condition and maintenance history\nOutput - failure-risk assessment\nDecision - prioritise maintenance",
+     "accent": "purple"
+    },
+    {
+     "title": "Forecasting simulation",
+     "description": "Test changed operating assumptions within an asset or process model, rather than only extending a historical forecast.",
+     "bullets": "Inputs - process data and scenario assumptions\nOutput - compared scenario results\nDecision - review a proposed operational change",
+     "accent": "purple"
+    },
+    {
+     "title": "Inventory optimisation",
+     "description": "Adapt inventory models to demand, replenishment rules and the constraints of the operating network.",
+     "bullets": "Inputs - stock, demand and replenishment data\nOutput - inventory scenario comparison\nDecision - balance availability and stock",
+     "accent": "purple"
+    },
+    {
+     "title": "Real-time monitoring",
+     "description": "Agree monitoring frequency around source refresh, connectivity and ingestion design so operational teams know how current each view will be.",
+     "bullets": "Inputs - operational readings and asset mapping\nOutput - current-state view at agreed refresh\nDecision - review changes needing attention",
+     "accent": "purple"
+    }
+   ],
+   "noteLabel": "Scope at assessment",
+   "note": "Select supported asset or process models and agree data formats, model fidelity and refresh conditions before committing to a pilot."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "outputs",
+   "eyebrow": "ARTEFACTS AND ACCEPTANCE",
+   "heading": "Build a twin around the decisions that matter",
+   "description": "Reuse provides a model starting point; operational modelling and calibration remain specific to the asset or process.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Scoped twin",
+     "description": "Define the operational question, asset or process boundary and advisory scope.",
+     "bullets": "Reuse - applicable model starting point\nAccept - decision brief and boundary",
+     "accent": "purple",
+     "number": "01"
+    },
+    {
+     "title": "Data and model map",
+     "description": "Map available sources to the model and record operational constraints.",
+     "bullets": "Tailor - source and asset mappings\nAccept - data and fidelity assumptions",
+     "accent": "purple",
+     "number": "02"
+    },
+    {
+     "title": "Calibrated scenarios",
+     "description": "Check model behaviour against observed operations before comparing alternative scenarios.",
+     "bullets": "Tailor - calibration and assumptions\nAccept - validation and scenario evidence",
+     "accent": "purple",
+     "number": "03"
+    },
+    {
+     "title": "Monitored pilot",
+     "description": "Let operational owners review outputs within a controlled decision pilot.",
+     "bullets": "Tailor - monitoring and review workflow\nAccept - pilot and model-update plan",
+     "accent": "purple",
+     "number": "04"
+    }
+   ],
+   "noteLabel": "Illustrative maintenance scenario",
+   "note": "Condition readings and maintenance history → a calibrated asset model → a changed operating or maintenance scenario → an engineer reviews the implications before a live change. This is a conceptual engagement example, not deployed client evidence."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "readiness",
+   "eyebrow": "TIME TO VALUE AND FIT",
+   "heading": "What your first twin needs",
+   "description": "First value is a calibrated scenario that an operational owner can review. Data gaps, fidelity requirements and source integration determine the delivery plan.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Operational data",
+     "description": "Establish whether the data can represent the asset or process at the fidelity needed.",
+     "bullets": "Provide - accessible operational history\nAgree - asset boundary and source mapping\nCheck - refresh and connectivity dependencies",
+     "accent": "purple"
+    },
+    {
+     "title": "Calibration and control",
+     "description": "Keep advisory decision support separate from any control or write-back capability.",
+     "bullets": "Name - calibration and operational owners\nAgree - scenario validation criteria\nDefine - human review and write-back boundary",
+     "accent": "purple"
+    },
+    {
+     "title": "Environment and handover",
+     "description": "Set hosting, access and monitoring responsibilities before introducing the twin into operations.",
+     "bullets": "Agree - hosting and integration scope\nDefine - model changes and access controls\nName - support and handover owners",
+     "accent": "purple"
+    }
+   ],
+   "noteLabel": "Buying boundary",
+   "note": "Accelerator adoption is scoped separately from software licensing. Agree the engagement model, reuse and handover rights, licence dependencies and ongoing support before delivery."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "related-items",
+   "eyebrow": "CONNECTED DELIVERY",
+   "heading": "Put simulation in your operating context",
+   "description": "Potential uses include maintenance and operating scenarios in Manufacturing and Energy & Mining, with inventory planning in Retail, FMCG & CPG.",
+   "variant": "compact",
+   "columns": 2,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Predictive Analytics Suite",
+     "description": "Use prediction and scoring to complement asset and process scenario modelling.",
+     "bullets": "",
+     "accent": "purple",
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "Explore predictive models"
+    },
+    {
+     "title": "Power BI + AI/ML",
+     "description": "Make model outputs available in reporting views for operational review.",
+     "bullets": "",
+     "accent": "purple",
+     "href": "/products-and-accelerators/power-bi-ai-ml",
+     "linkLabel": "Explore predictive reporting"
+    }
+   ],
+   "logosLabel": "Delivery and sector routes",
+   "logos": [
+    {
+     "label": "Data & AI",
+     "href": "/services/data-ai",
+     "openInNewTab": false
+    },
+    {
+     "label": "Manufacturing",
+     "href": "/industries/manufacturing",
+     "openInNewTab": false
+    },
+    {
+     "label": "Energy & Mining",
+     "href": "/industries/energy-mining",
+     "openInNewTab": false
+    },
+    {
+     "label": "Retail, FMCG & CPG",
+     "href": "/industries/retail-fmcg-cpg",
+     "openInNewTab": false
+    }
+   ],
+   "ctaLabel": "All products and accelerators",
+   "ctaUrl": "/products-and-accelerators"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Assess a digital twin use case",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

@@ -1,0 +1,272 @@
+{
+  "title": "SAP S/4HANA services",
+  "path": "/services/intelligent-enterprise-platforms/sap-s4hana",
+  "seo": {
+    "metaTitle": "SAP S/4HANA Services | Linkfields",
+    "metaDescription": "Plan SAP S/4HANA implementation, migration and upgrades with Linkfields, connecting processes, data and integrations with release assurance and support.",
+    "keywords": "SAP S/4HANA, SAP migration, SAP implementation, SAP AMS",
+    "canonicalUrl": "",
+    "noIndex": false
+  },
+  "sections": [
+    {
+      "__component": "sections.page-hero",
+      "title": "SAP S/4HANA services",
+      "subtitle": "Implement, migrate and improve your enterprise core with integration, data and release assurance.",
+      "backgroundImage": {
+        "__media": "custom/hero-intelligent-enterprise.jpg",
+        "alt": "Connected enterprise platforms and business operations"
+      },
+      "anchorLinks": [
+        {
+          "label": "Overview",
+          "targetId": "overview"
+        },
+        {
+          "label": "What We Deliver",
+          "targetId": "what-we-deliver"
+        },
+        {
+          "label": "Enterprise Change",
+          "targetId": "enterprise-change"
+        },
+        {
+          "label": "Assurance",
+          "targetId": "connected-delivery"
+        },
+        {
+          "label": "Buyer Questions",
+          "targetId": "buyer-questions"
+        },
+        {
+          "label": "Get in touch",
+          "targetId": "get-in-touch"
+        }
+      ]
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "overview",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Plan, implement and improve your enterprise core",
+      "body": "A SAP S/4HANA programme changes processes, integrations and data, not just software. Linkfields combines implementation, upgrades and migration with a controlled route into support.\n\nAssess conversion versus a new implementation, custom code, interfaces and data ownership. Agree the edition, deployment, functional scope, local requirements and acceptance criteria before delivery. [Explore Intelligent Enterprise Platforms](/services/intelligent-enterprise-platforms).",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "what-we-deliver",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "What we deliver with SAP S/4HANA",
+      "description": "The agreed statement of work defines SAP application, functional and deployment coverage.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Implementation & migration",
+          "description": "When the core no longer fits the business, establish the target processes and a sequenced transition.",
+          "accent": "blue",
+          "bullets": "Fit-gap and programme backlog\nMigration options and readiness plan",
+          "logo": {
+            "__media": "custom/platforms/sap.png",
+            "alt": "SAP platform logo"
+          }
+        },
+        {
+          "title": "Integration & extensions",
+          "description": "When SAP must connect to other applications, define interfaces and keep bespoke logic controlled.",
+          "accent": "blue",
+          "bullets": "Interface contracts and ownership\nExtension decisions and test scenarios",
+          "href": "/services/digital-transformation/integration-services",
+          "linkLabel": "Explore integration services"
+        },
+        {
+          "title": "Data migration & reconciliation",
+          "description": "When data moves, make its quality and acceptance visible to business owners.",
+          "accent": "blue",
+          "bullets": "Source profiling and mapping rules\nTest loads and exception reports",
+          "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+          "linkLabel": "Explore the migration workstream"
+        },
+        {
+          "title": "Enterprise change & rollouts",
+          "description": "When business structures change, align processes, master data and release governance.",
+          "accent": "blue",
+          "bullets": "Template and localisation decisions\nSeparation or consolidation plan"
+        },
+        {
+          "title": "User adoption & SAP Fiori",
+          "description": "When roles and daily tasks change, design the user journey with the people who will use it.",
+          "accent": "blue",
+          "bullets": "Role-to-task mapping\nUser acceptance and training plan"
+        },
+        {
+          "title": "Managed support",
+          "description": "When the programme enters service, make ownership, release risk and improvements explicit.",
+          "accent": "blue",
+          "bullets": "Support transition and service backlog\nSAP technical-operation boundaries",
+          "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+          "linkLabel": "Discuss platform AMS"
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "enterprise-change",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Enterprise change, carve-outs and rollouts",
+      "description": "Example programme patterns, including shared-service realignment where it affects scope.",
+      "variant": "compact",
+      "columns": 3,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Acquisition integration",
+          "description": "Decide which processes and systems to harmonise, retain or consolidate.",
+          "accent": "blue",
+          "bullets": "Input – acquired estate and operating model\nOutput – integration and master-data plan\nControl – Process and data owners approve changes before release."
+        },
+        {
+          "title": "Divestiture & carve-out",
+          "description": "Define the business and data to separate, including shared-service dependencies.",
+          "accent": "blue",
+          "bullets": "Input – separation perimeter and obligations\nOutput – selective data and interface plan\nControl – Approve access, retention, reconciliation and transition ownership."
+        },
+        {
+          "title": "Template-led rollouts",
+          "description": "Balance a global process template with local operational and reporting requirements.",
+          "accent": "blue",
+          "bullets": "Input – template, sites and local needs\nOutput – rollout waves and exception register\nControl – Template owners govern local variations and master data."
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "delivery-approach",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "A controlled SAP delivery sequence",
+      "description": "Example engagement pattern: delivery method and platform tooling are agreed with the SAP lead, not assumed.",
+      "variant": "compact",
+      "columns": 4,
+      "tone": "navy",
+      "items": [
+        {
+          "title": "Assess & scope",
+          "description": "Baseline processes, custom code, interfaces and data. Agree the target and migration approach.",
+          "accent": "blue",
+          "number": "01",
+          "bullets": "Gate – Approved fit-gap, dependency register and readiness actions."
+        },
+        {
+          "title": "Design & prepare",
+          "description": "Configure agreed processes, define extensions and prepare rehearsal environments and data rules.",
+          "accent": "blue",
+          "number": "02",
+          "bullets": "Gate – Approved design, role model and migration mappings."
+        },
+        {
+          "title": "Validate & cut over",
+          "description": "Rehearse loads, reconcile data and test critical processes with business users.",
+          "accent": "blue",
+          "number": "03",
+          "bullets": "Gate – Accepted regression evidence, cutover and recovery runbook."
+        },
+        {
+          "title": "Enable & operate",
+          "description": "Train users, transfer knowledge and prioritise post-launch changes with the service owner.",
+          "accent": "blue",
+          "number": "04",
+          "bullets": "Gate – Accepted adoption plan, handover and improvement backlog."
+        }
+      ]
+    },
+    {
+      "__component": "sections.feature-tiles",
+      "anchorId": "connected-delivery",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Reusable IP with visible assurance outputs",
+      "description": "Illustrative artefact set: a readiness register, reconciliation report and release evidence pack. These are engagement outputs, not client case studies.",
+      "variant": "compact",
+      "columns": 2,
+      "tone": "ink",
+      "items": [
+        {
+          "title": "Linkworks where ERP/CRM does not fit",
+          "description": "Use composable applications for a portal or complex workflow that sits outside the agreed SAP core.",
+          "accent": "blue",
+          "bullets": "Microservices, REST APIs and composable UI\nCloud-native delivery with DevSecOps",
+          "logo": {
+            "__media": "custom/logos/linkworks.png",
+            "alt": "Linkworks product logo"
+          },
+          "href": "/products-and-accelerators/linkworks",
+          "linkLabel": "Explore Linkworks"
+        },
+        {
+          "title": "Migration and release assurance",
+          "description": "Select reusable packs for the estate and release risks identified during discovery.",
+          "accent": "blue",
+          "bullets": "Readiness – dependencies and decision log\nReconciliation – totals, exceptions and owners\nRegression – scenarios, results and sign-off",
+          "href": "/products-and-accelerators/delivery-accelerators",
+          "linkLabel": "Explore delivery accelerators"
+        }
+      ],
+      "noteLabel": "IEP accelerators",
+      "note": "Migration & Readiness · Regression & Release Assurance · Data Migration & Reconciliation · Intelligent Platform Operations",
+      "ctaLabel": "Modernisation & programme assurance",
+      "ctaUrl": "/solutions/modernisation-programme-assurance"
+    },
+    {
+      "__component": "sections.overview",
+      "anchorId": "governance",
+      "eyebrow": "Intelligent Enterprise Platforms",
+      "heading": "Secure delivery and clear technical boundaries",
+      "body": "Review roles and privileged access, protect migration data and validate critical journeys. Record regression results, unresolved risks, rollback decisions and business acceptance with [Quality engineering](/services/digital-transformation/quality-engineering) and [Cyber Security](/services/cyber-security).\n\nSAP S/4HANA application change is distinct from SAP HANA/Basis operations. Agree database administration, sizing, availability, backup/recovery and security for the selected deployment; appliance, virtualisation and data-centre requirements are not defaults. Explore [Cloud services](/services/digital-transformation/cloud-services) and [Platform migration & AMS](/services/intelligent-enterprise-platforms/platform-migration-ams).",
+      "secondaryEyebrow": "",
+      "secondaryHeading": "",
+      "secondaryBody": "",
+      "theme": "light"
+    },
+    {
+      "__component": "services.process-accordion",
+      "anchorId": "buyer-questions",
+      "eyebrow": "Buyer questions",
+      "heading": "Questions before you begin",
+      "description": "Bring your current estate, target processes and main delivery risks. We will agree scope, governance and the commercial route.",
+      "backgroundStyle": "dark",
+      "imageVariant": "compact",
+      "items": [
+        {
+          "title": "What should we assess before migration?",
+          "description": "Bring the current application and deployment inventory, custom-code list, interface catalogue, data owners and business priorities. The first output is an agreed readiness baseline and target scope, not a promise of a disruption-free migration."
+        },
+        {
+          "title": "Can you cover specialist SAP processes?",
+          "description": "SAP Fiori adoption is assessed against user roles and tasks. Environment, health and safety, commerce-to-ERP integration and supply-chain planning require a separately confirmed application scope, specialist delivery responsibility and acceptance criteria. We do not assume coverage of every SAP product."
+        },
+        {
+          "title": "Which SAP methodology and tools apply?",
+          "description": "Agree the delivery method, integration technology and lifecycle tooling with the SAP lead. SAP Activate/Best Practices, SAP Cloud ALM and incumbent Solution Manager requirements are evaluated for the programme; no blanket tool, deployment or lifecycle claim is made."
+        },
+        {
+          "title": "How can we engage?",
+          "description": "Use Time & Materials for discovery and evolving scope, or Fixed Price where milestones and acceptance are defined. Managed Service or a Dedicated Team can support ongoing operations. Outcome-Based terms apply only where outcomes can be agreed and evidenced; software can be purchased separately."
+        }
+      ],
+      "logos": []
+    },
+    {
+      "__component": "sections.contact-form",
+      "anchorId": "get-in-touch",
+      "heading": "Get in touch",
+      "subheading": "Discuss your SAP S/4HANA priorities",
+      "nextStepsTitle": "",
+      "nextSteps": [],
+      "layout": "section",
+      "theme": "dark"
+    }
+  ]
+}

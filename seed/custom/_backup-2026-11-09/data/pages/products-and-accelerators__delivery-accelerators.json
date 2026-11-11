@@ -1,0 +1,313 @@
+{
+ "title": "Delivery accelerators",
+ "path": "/products-and-accelerators/delivery-accelerators",
+ "seo": {
+  "metaTitle": "Delivery accelerators | Linkfields Innovations",
+  "metaDescription": "Explore reusable delivery IP for modernisation, integration, migration, testing, release assurance, cyber-safe delivery and compliance readiness.",
+  "keywords": "Delivery accelerators, Modernisation & Integration, migration, regression packs, automated testing, release assurance, cyber-safe delivery, compliance readiness",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Delivery accelerators",
+   "subtitle": "Reusable packs and playbooks for dependable delivery",
+   "backgroundImage": {
+    "__media": "custom/hero-delivery-accelerators.jpg",
+    "alt": "Delivery accelerators accelerator"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "WHAT'S INSIDE",
+     "targetId": "whats-inside"
+    },
+    {
+     "label": "DELIVERY APPROACH",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "MORE ACCELERATORS",
+     "targetId": "more-accelerators"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Reuse the groundwork. Focus on the change.",
+   "body": "Delivery accelerators are reusable packs and playbooks that support software change from modernisation and integration through testing and release. They provide a starting point that teams can adapt to the systems and delivery needs of each engagement.\n\nBring migration checks, regression coverage, security controls and compliance preparation into the delivery plan. Select the relevant packs, tailor them to the scope and use them to make readiness easier to review.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "solutions.card-grid",
+   "anchorId": "whats-inside",
+   "eyebrow": "WHAT'S INSIDE",
+   "heading": "Reusable IP across delivery",
+   "description": "Five packs and playbooks for a more controlled path to release.",
+   "variant": "dark",
+   "cards": [
+    {
+     "title": "Modernisation & Integration",
+     "description": "Reuse patterns for updating applications and connecting systems, with checks shaped around the interfaces and dependencies involved.",
+     "icon": {
+      "__media": "custom/icons/digital-transformation.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Migration & regression packs",
+     "description": "Apply repeatable migration checks and regression coverage to verify data movement and preserve expected application behaviour.",
+     "icon": {
+      "__media": "custom/icons/acc-delivery.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Automated Testing & Release Assurance",
+     "description": "Build automated checks into delivery and review test evidence before release to identify regressions and readiness gaps.",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Cyber-Safe Delivery",
+     "description": "Include security checks and controlled delivery practices throughout change, rather than leaving them to the final release stage.",
+     "icon": {
+      "__media": "custom/icons/cyber-security.svg",
+      "alt": ""
+     }
+    },
+    {
+     "title": "Regulatory & Compliance Readiness",
+     "description": "Organise requirements, control checks and delivery evidence to support compliance reviews without implying automatic regulatory approval.",
+     "icon": {
+      "__media": "custom/icons/linkfields-ip.svg",
+      "alt": ""
+     }
+    }
+   ]
+  },
+  {
+   "__component": "services.numbered-help",
+   "anchorId": "delivery-approach",
+   "eyebrow": "DELIVERY APPROACH",
+   "heading": "Fit the packs to your delivery plan",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/blue-gradient.jpg",
+    "alt": ""
+   },
+   "items": [
+    {
+     "description": "Review the change scope, system dependencies and delivery risks. Identify the controls and evidence the project will need."
+    },
+    {
+     "description": "Select the relevant packs and playbooks. Adapt their checks and patterns to the technology, data and requirements in scope."
+    },
+    {
+     "description": "Build the packs into the delivery workflow. Run migration, regression and security checks at the appropriate stages."
+    },
+    {
+     "description": "Review the results before release. Resolve gaps, retain the delivery evidence and update the reusable checks as the system evolves."
+    }
+   ]
+  },
+  {
+   "__component": "products.accelerator-grid",
+   "anchorId": "more-accelerators",
+   "eyebrow": "MORE ACCELERATORS",
+   "heading": "Explore our other accelerators",
+   "description": "Pre-built delivery IP that shortens time to value.",
+   "ctaLabel": "",
+   "ctaUrl": "",
+   "items": [
+    {
+     "label": "Data & AI",
+     "title": "Predictive Analytics Suite",
+     "description": "Ready-made models that turn customer and transaction data into decisions.",
+     "icon": {
+      "__media": "custom/icons/acc-predictive-analytics.svg",
+      "alt": ""
+     },
+     "accent": "purple",
+     "features": [
+      {
+       "title": "Churn & segmentation",
+       "description": ""
+      },
+      {
+       "title": "Demand forecasting",
+       "description": ""
+      },
+      {
+       "title": "Fraud & anomaly detection",
+       "description": ""
+      },
+      {
+       "title": "Loan default prediction",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/predictive-analytics-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Simulation",
+     "title": "Digital Twin Suite",
+     "description": "Virtual models of assets and operations to predict, simulate and optimise.",
+     "icon": {
+      "__media": "custom/icons/acc-digital-twin.svg",
+      "alt": ""
+     },
+     "accent": "teal",
+     "features": [
+      {
+       "title": "Equipment failure prediction",
+       "description": ""
+      },
+      {
+       "title": "Forecasting simulation",
+       "description": ""
+      },
+      {
+       "title": "Inventory optimisation",
+       "description": ""
+      },
+      {
+       "title": "Real-time monitoring",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/digital-twin-suite",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Enterprise AI",
+     "title": "Intelligent Workflow Automation",
+     "description": "AI-orchestrated workflows that connect people, systems and decisions.",
+     "icon": {
+      "__media": "custom/icons/acc-workflow-automation.svg",
+      "alt": ""
+     },
+     "accent": "orange",
+     "features": [
+      {
+       "title": "Workflow automation",
+       "description": ""
+      },
+      {
+       "title": "AI orchestration",
+       "description": ""
+      },
+      {
+       "title": "Application integration",
+       "description": ""
+      },
+      {
+       "title": "Underwriting optimisation",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/intelligent-workflow-automation",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Analytics",
+     "title": "Power BI + AI/ML",
+     "description": "Machine learning brought into the Power BI reports your teams already use.",
+     "icon": {
+      "__media": "custom/icons/acc-powerbi-ai.svg",
+      "alt": ""
+     },
+     "accent": "blue",
+     "features": [
+      {
+       "title": "AI/ML in Power BI",
+       "description": ""
+      },
+      {
+       "title": "Predictive dashboards",
+       "description": ""
+      },
+      {
+       "title": "Risk scoring visuals",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/power-bi-ai-ml",
+     "linkLabel": "Explore accelerator"
+    },
+    {
+     "label": "Portfolio IP",
+     "title": "Delivery accelerators",
+     "description": "Proven packs and playbooks that de-risk every stage of delivery.",
+     "icon": {
+      "__media": "custom/icons/acc-delivery.svg",
+      "alt": ""
+     },
+     "accent": "yellow",
+     "features": [
+      {
+       "title": "Modernisation & Integration",
+       "description": ""
+      },
+      {
+       "title": "Migration & regression packs",
+       "description": ""
+      },
+      {
+       "title": "Automated Testing & Release Assurance",
+       "description": ""
+      },
+      {
+       "title": "Cyber-Safe Delivery",
+       "description": ""
+      },
+      {
+       "title": "Regulatory & Compliance Readiness",
+       "description": ""
+      }
+     ],
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore accelerator"
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "Make reusable IP part of your next delivery",
+   "description": "Discuss which packs and playbooks fit your project and its delivery risks.",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

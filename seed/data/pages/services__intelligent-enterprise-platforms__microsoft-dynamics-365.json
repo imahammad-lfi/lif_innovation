@@ -1,0 +1,272 @@
+{
+ "title": "Microsoft Dynamics 365 services",
+ "path": "/services/intelligent-enterprise-platforms/microsoft-dynamics-365",
+ "seo": {
+  "metaTitle": "Microsoft Dynamics 365 Services | Linkfields",
+  "metaDescription": "Connect finance, operations and customer engagement with Dynamics 365 implementation services, integration and managed support aligned to your priorities.",
+  "keywords": "Dynamics 365, Microsoft ERP, customer engagement, Dynamics integration, Dynamics 365 implementation services, Microsoft Dynamics 365 services South Africa, Dynamics 365 integration services, Dynamics 365 data migration, Dynamics 365 managed support, Dynamics 365 consulting services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Microsoft Dynamics 365 services",
+   "subtitle": "Connect finance, operations and customer engagement across the Microsoft ecosystem.",
+   "backgroundImage": {
+    "__media": "custom/hero-intelligent-enterprise.jpg",
+    "alt": "Connected enterprise platforms and business operations"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "what-we-deliver"
+    },
+    {
+     "label": "Delivery Approach",
+     "targetId": "delivery-approach"
+    },
+    {
+     "label": "Connected Estate",
+     "targetId": "connected-delivery"
+    },
+    {
+     "label": "Buyer Questions",
+     "targetId": "buyer-questions"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Intelligent Enterprise Platforms",
+   "heading": "Dynamics 365 aligned to your operating priorities",
+   "body": "Linkfields shapes Dynamics 365 delivery around your business requirements, connecting the processes, applications and interfaces that support finance, operations and customer engagement.\n\nWe define the scope, users and data responsibilities for each ERP and customer-engagement application, so business and technical owners can agree priorities before implementation.",
+   "secondaryEyebrow": "Decisions before delivery",
+   "secondaryHeading": "Agree the application boundaries",
+   "secondaryBody": "Map finance, supply-chain and customer-engagement needs to the required Dynamics 365 applications. Confirm exact application names, deployment, licences, markets and localisation before design; Business Central or additional applications need a separate scope decision. [Explore Intelligent Enterprise Platforms](/services/intelligent-enterprise-platforms).",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "what-we-deliver",
+   "eyebrow": "Intelligent Enterprise Platforms",
+   "heading": "Dynamics 365 implementation and support",
+   "description": "Finance, operations and customer engagement are scoped independently; delivery is limited to the applications agreed for your engagement.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Advisory & fit-gap",
+     "description": "Turn operating priorities into an application and process scope.",
+     "accent": "blue",
+     "bullets": "Application-to-process map\nRoadmap and acceptance criteria"
+    },
+    {
+     "title": "Implementation & configuration",
+     "description": "Configure the agreed finance, operations or customer-engagement workflows.",
+     "accent": "blue",
+     "bullets": "Process design and configuration record\nRole and approval model"
+    },
+    {
+     "title": "Data migration",
+     "description": "Move records with business ownership and visible quality checks.",
+     "accent": "blue",
+     "bullets": "Mapping and cleansing rules\nRehearsals and reconciliation report"
+    },
+    {
+     "title": "Integration",
+     "description": "Connect ERP, CRM and reporting without unclear system-of-record boundaries.",
+     "accent": "blue",
+     "bullets": "Interface contracts and error handling\nEnd-to-end integration tests",
+     "href": "/services/digital-transformation/integration-services",
+     "linkLabel": "Explore integration services"
+    },
+    {
+     "title": "Extensions",
+     "description": "Address an agreed process gap without making customisation the default.",
+     "accent": "blue",
+     "bullets": "Configuration-versus-extension decision\nVersioned design and regression scope"
+    },
+    {
+     "title": "Adoption & support",
+     "description": "Prepare users and the service team for the new operating model.",
+     "accent": "blue",
+     "bullets": "Training and user acceptance\nHandover and enhancement backlog",
+     "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+     "linkLabel": "Explore platform AMS"
+    }
+   ],
+   "logosLabel": "Platform we deliver",
+   "logos": [
+    {
+     "label": "Microsoft Dynamics 365",
+     "href": "/services/intelligent-enterprise-platforms/microsoft-dynamics-365",
+     "openInNewTab": false,
+     "logo": {
+      "__media": "custom/platforms/dynamics-365.png",
+      "alt": "Microsoft Dynamics 365 platform logo"
+     }
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-approach",
+   "eyebrow": "Intelligent Enterprise Platforms",
+   "heading": "From assessment to managed operations",
+   "description": "Example engagement pattern: the scope, owners and sign-off gates are agreed for your programme.",
+   "variant": "compact",
+   "columns": 5,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Assess & plan",
+     "description": "Baseline processes, users, applications and interfaces. Agree the first release and delivery responsibilities.",
+     "accent": "blue",
+     "footLabel": "Acceptance output",
+     "footText": "Process owner approves the fit-gap, roadmap and acceptance criteria.",
+     "number": "01"
+    },
+    {
+     "title": "Configure & integrate",
+     "description": "Configure agreed workflows and build interfaces. Record extensions, roles and data ownership.",
+     "accent": "blue",
+     "footLabel": "Acceptance output",
+     "footText": "Business and technical leads approve the design and interface contracts.",
+     "number": "02"
+    },
+    {
+     "title": "Migrate & validate",
+     "description": "Rehearse data loads and test critical journeys, exception paths and access controls.",
+     "accent": "blue",
+     "footLabel": "Acceptance output",
+     "footText": "Data owners approve reconciliation; users approve end-to-end tests.",
+     "number": "03"
+    },
+    {
+     "title": "Launch & enable",
+     "description": "Train users and rehearse cutover, recovery and support handover before releasing change.",
+     "accent": "blue",
+     "footLabel": "Acceptance output",
+     "footText": "Named owners accept readiness, unresolved risks and the cutover plan.",
+     "number": "04"
+    },
+    {
+     "title": "Operate & improve",
+     "description": "Resolve transition issues and review adoption, incidents and the enhancement backlog.",
+     "accent": "blue",
+     "footLabel": "Acceptance output",
+     "footText": "Service owner accepts the handover and prioritised improvement plan.",
+     "number": "05"
+    }
+   ],
+   "ctaLabel": "Explore migration & AMS",
+   "ctaUrl": "/services/intelligent-enterprise-platforms/platform-migration-ams"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "connected-delivery",
+   "eyebrow": "Intelligent Enterprise Platforms",
+   "heading": "Connect Dynamics 365 to your Microsoft estate",
+   "description": "Explore illustrative integration patterns - not completed deployments. Discovery confirms the platform capabilities, interfaces and delivery ownership relevant to your business requirements.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Workflow & collaboration",
+     "description": "Example pattern: an approved business event initiates a workflow or a Microsoft 365/Teams task.",
+     "accent": "blue",
+     "bullets": "Power Platform scope and licences agreed\nIdentity, approval and exception controls",
+     "footLabel": "Artefact",
+     "footText": "Event-to-action map with owner, permission and failure path."
+    },
+    {
+     "title": "ERP, CRM & reporting",
+     "description": "Example pattern: customer and order status move between the agreed applications and reporting layer.",
+     "accent": "blue",
+     "bullets": "Source-of-record and refresh rules\nReconciliation and interface tests",
+     "footLabel": "Artefact",
+     "footText": "Data-flow and release evidence pack; analytics scope is separately agreed.",
+     "href": "/services/data-ai",
+     "linkLabel": "Explore Data & AI"
+    },
+    {
+     "title": "Linkworks extensions",
+     "description": "Use a composable portal or business application where ERP/CRM does not fit.",
+     "accent": "blue",
+     "bullets": "REST APIs, microservices and composable UI\nAgreed integration and support ownership",
+     "logo": {
+      "__media": "custom/logos/plate/linkworks-plate.png",
+      "alt": "Linkworks product logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    }
+   ],
+   "noteLabel": "IEP accelerators",
+   "note": "Migration & Readiness · Regression & Release Assurance · Data Migration & Reconciliation · Intelligent Platform Operations",
+   "ctaLabel": "Modernisation & programme assurance",
+   "ctaUrl": "/solutions/modernisation-programme-assurance"
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "governance",
+   "eyebrow": "Intelligent Enterprise Platforms",
+   "heading": "Govern data, access and release decisions",
+   "body": "Agree identity and roles across applications, protect migration data and test approvals and exception paths. Data owners accept reconciliation; business users accept the end-to-end process before cutover.\n\nCombine [Quality engineering](/services/digital-transformation/quality-engineering), [Cyber Security](/services/cyber-security) and [delivery accelerators](/products-and-accelerators/delivery-accelerators) where the programme requires them. Training, hypercare and service ownership are part of the release decision.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "buyer-questions",
+   "eyebrow": "Buyer questions",
+   "heading": "Questions before you begin",
+   "description": "An application inventory, process priorities and interface list help establish a practical starting point.",
+   "backgroundStyle": "dark",
+   "imageVariant": "compact",
+   "items": [
+    {
+     "title": "Which Dynamics 365 applications fit our needs?",
+     "description": "Start with processes and the existing estate, not a complete product catalogue. We agree the exact finance, operations and customer-engagement application scope, licences, integration limits and local requirements before implementation."
+    },
+    {
+     "title": "When should we configure or extend?",
+     "description": "Prefer standard configuration where it meets the need. Record the business reason, integration contract, security controls and future release impact of each extension. Linkworks is an option for an application or portal outside the ERP/CRM core."
+    },
+    {
+     "title": "Who owns interfaces and migrated data?",
+     "description": "Agree a responsibility matrix across Linkfields, your application owners and any other providers. Assign a system of record, error-handling owner, reconciliation approver and test owner for each interface and data set."
+    },
+    {
+     "title": "Which commercial model suits the programme?",
+     "description": "Time & Materials fits discovery; Fixed Price fits defined milestones and acceptance. Managed Service or a Dedicated Team fits ongoing operations. Outcome-Based terms need agreed, measurable evidence. Software can be licensed separately. [Explore commercial models](/company/our-approach#engagement-models)."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your Dynamics 365 priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

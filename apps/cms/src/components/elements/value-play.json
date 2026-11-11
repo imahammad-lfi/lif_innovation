@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_value_play",
+  "info": {
+    "displayName": "Value play",
+    "icon": "lightbulb",
+    "description": "Value play row: trigger, outcome and Linkfields IP"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "trigger": {
+      "type": "text"
+    },
+    "outcome": {
+      "type": "text"
+    },
+    "ip": {
+      "type": "text"
+    },
+    "accent": {
+      "type": "enumeration",
+      "enum": [
+        "orange",
+        "blue",
+        "purple",
+        "teal",
+        "yellow"
+      ]
+    },
+    "href": {
+      "type": "string"
+    },
+    "linkLabel": {
+      "type": "string"
+    }
+  }
+}

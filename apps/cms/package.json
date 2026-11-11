@@ -1,0 +1,52 @@
+{
+  "name": "linkfields-cms",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Linkfields website CMS (Strapi 5 + PostgreSQL)",
+  "scripts": {
+    "build": "node scripts/sync-sections.mjs && strapi build",
+    "console": "strapi console",
+    "dev": "node scripts/sync-sections.mjs && strapi develop",
+    "develop": "node scripts/sync-sections.mjs && strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "upgrade": "npx @strapi/upgrade latest",
+    "upgrade:dry": "npx @strapi/upgrade latest --dry",
+    "sections:sync": "node scripts/sync-sections.mjs",
+    "seed": "node scripts/sync-sections.mjs && node scripts/seed.mjs",
+    "seed:validate": "node scripts/validate-seed.mjs",
+    "db:smoke": "node scripts/db-smoke.mjs"
+  },
+  "dependencies": {
+    "@strapi/database": "5.60.0",
+    "@strapi/plugin-users-permissions": "5.60.0",
+    "@strapi/provider-email-nodemailer": "5.60.0",
+    "@strapi/provider-upload-aws-s3": "^5.60.0",
+    "@strapi/strapi": "5.60.0",
+    "pg": "8.20.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.30.3",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=24.0.0 <=26.x.x",
+    "npm": ">=10.0.0"
+  },
+  "strapi": {
+    "uuid": "d1eb1b90-a03f-40fd-a37b-ca4cd252851d",
+    "installId": "1a2bde3348c920bb21e254aabe17a633e427fba9142cc2051d54afe7b5672bac"
+  },
+  "allowScripts": {
+    "@swc/core@1.16.21": true,
+    "esbuild@0.28.2": true,
+    "esbuild@0.25.12": true,
+    "core-js-pure": false
+  }
+}

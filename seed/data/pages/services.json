@@ -1,0 +1,514 @@
+{
+ "title": "Services",
+ "path": "/services",
+ "seo": {
+  "metaTitle": "Enterprise Technology Services & Advisory | Linkfields",
+  "metaDescription": "Explore enterprise technology services that connect modernisation, ERP, data and AI, security and talent, with flexible delivery for your requirements.",
+  "keywords": "enterprise services, digital transformation, ERP, data and AI, cyber security, GCC, enterprise technology services, enterprise IT services South Africa, digital transformation services, ERP implementation services, data and AI consulting services, enterprise cyber security services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Services",
+   "subtitle": "AI-driven technology, engineering and advisory across five integrated portfolios - backed by our own software, reusable accelerators and leadership with 20+ years of industry experience.",
+   "backgroundImage": {
+    "__media": "custom/hero-digital-transformation.jpg",
+    "alt": "Connected enterprise technology services"
+   },
+   "anchorLinks": [
+    {
+     "label": "Find Your Portfolio",
+     "targetId": "our-services"
+    },
+    {
+     "label": "Value Plays",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "Commercial Models",
+     "targetId": "engagement-models"
+    },
+    {
+     "label": "Integrated Delivery",
+     "targetId": "integrated-delivery"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Overview",
+   "heading": "One strategic partner across your transformation",
+   "body": "Headquartered in [South Africa](/company/about-us), Linkfields combines services, software and accelerators around your business requirements. [Find your portfolio](#our-services) or [talk to us about your requirements](#get-in-touch) to agree scope.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "our-services",
+   "eyebrow": "Service portfolios",
+   "heading": "Five integrated portfolios. *One strategic partner.*",
+   "description": "Use this directory to choose a portfolio or go directly to a specialist service.",
+   "variant": "portfolio",
+   "columns": 5,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Digital Transformation",
+     "description": "Modernise applications, automate operations and connect every channel your customers use.",
+     "accent": "orange",
+     "href": "/services/digital-transformation",
+     "linkLabel": "Explore portfolio",
+     "number": "01",
+     "tagline": "Modernise · Automate · Transform",
+     "groupLabel": "Specialist services and IP",
+     "links": [
+      {
+       "label": "App modernisation",
+       "href": "/services/digital-transformation/app-modernisation",
+       "openInNewTab": false
+      },
+      {
+       "label": "Automation & RPA",
+       "href": "/services/digital-transformation/automation-rpa",
+       "openInNewTab": false
+      },
+      {
+       "label": "Integration services",
+       "href": "/services/digital-transformation/integration-services",
+       "openInNewTab": false
+      },
+      {
+       "label": "WhatsApp Business & omnichannel",
+       "href": "/services/digital-transformation/whatsapp-omnichannel",
+       "openInNewTab": false
+      },
+      {
+       "label": "Quality engineering",
+       "href": "/services/digital-transformation/quality-engineering",
+       "openInNewTab": false
+      },
+      {
+       "label": "Cloud services",
+       "href": "/services/digital-transformation/cloud-services",
+       "openInNewTab": false
+      },
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/linkworks-plate.png",
+        "alt": "Linkworks"
+       }
+      },
+      {
+       "label": "testoriumz",
+       "href": "/products-and-accelerators/testoriumz",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/testoriumz-plate.png",
+        "alt": "testoriumz"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Intelligent Enterprise Platforms",
+     "description": "Run the core of the enterprise on connected ERP and CRM platforms, made smarter with AI.",
+     "accent": "blue",
+     "href": "/services/intelligent-enterprise-platforms",
+     "linkLabel": "Explore portfolio",
+     "number": "02",
+     "tagline": "Operate · Integrate · Engage",
+     "groupLabel": "Specialist services and IP",
+     "links": [
+      {
+       "label": "SAP S/4HANA",
+       "href": "/services/intelligent-enterprise-platforms/sap-s4hana",
+       "openInNewTab": false
+      },
+      {
+       "label": "Microsoft Dynamics 365",
+       "href": "/services/intelligent-enterprise-platforms/microsoft-dynamics-365",
+       "openInNewTab": false
+      },
+      {
+       "label": "Odoo",
+       "href": "/services/intelligent-enterprise-platforms/odoo",
+       "openInNewTab": false
+      },
+      {
+       "label": "Zoho",
+       "href": "/services/intelligent-enterprise-platforms/zoho",
+       "openInNewTab": false
+      },
+      {
+       "label": "Salesforce",
+       "href": "/services/intelligent-enterprise-platforms/salesforce",
+       "openInNewTab": false
+      },
+      {
+       "label": "Platform migration & AMS",
+       "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
+       "openInNewTab": false
+      },
+      {
+       "label": "Linkworks",
+       "href": "/products-and-accelerators/linkworks",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/linkworks-plate.png",
+        "alt": "Linkworks"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Data & AI",
+     "description": "From AI strategy to agentic AI in production: turn data into decisions, governed from day one.",
+     "accent": "purple",
+     "href": "/services/data-ai",
+     "linkLabel": "Explore portfolio",
+     "number": "03",
+     "tagline": "Understand · Predict · Govern",
+     "groupLabel": "Specialist services and IP",
+     "links": [
+      {
+       "label": "AI strategy & governance",
+       "href": "/services/data-ai/ai-strategy-governance",
+       "openInNewTab": false
+      },
+      {
+       "label": "Agentic AI & GenAI",
+       "href": "/services/data-ai/agentic-ai-genai",
+       "openInNewTab": false
+      },
+      {
+       "label": "Data platforms & analytics",
+       "href": "/services/data-ai/data-platforms-analytics",
+       "openInNewTab": false
+      },
+      {
+       "label": "Machine learning",
+       "href": "/services/data-ai/machine-learning",
+       "openInNewTab": false
+      },
+      {
+       "label": "textIQ",
+       "href": "/products-and-accelerators/textiq",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/textiq-plate.png",
+        "alt": "textIQ"
+       }
+      },
+      {
+       "label": "FinSight",
+       "href": "/products-and-accelerators/finsight",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/finsight-plate.png",
+        "alt": "FinSight"
+       }
+      },
+      {
+       "label": "EduPilot",
+       "href": "/products-and-accelerators/edupilot",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/edupilot-plate.png",
+        "alt": "EduPilot"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Cyber Security",
+     "description": "End-to-end security, from code to AI, with Linkfields products and specialist services.",
+     "accent": "teal",
+     "href": "/services/cyber-security",
+     "linkLabel": "Explore portfolio",
+     "number": "04",
+     "tagline": "Protect · Validate · Govern",
+     "groupLabel": "Specialist services and IP",
+     "links": [
+      {
+       "label": "AI security & GRC",
+       "href": "/services/cyber-security/ai-security-grc",
+       "openInNewTab": false
+      },
+      {
+       "label": "Cloud security & IAM",
+       "href": "/services/cyber-security/cloud-security-iam",
+       "openInNewTab": false
+      },
+      {
+       "label": "Exposure validation & AppSec",
+       "href": "/services/cyber-security/exposure-validation-appsec",
+       "openInNewTab": false
+      },
+      {
+       "label": "Security operations",
+       "href": "/services/cyber-security/security-operations",
+       "openInNewTab": false
+      },
+      {
+       "label": "VajraX",
+       "href": "/products-and-accelerators/vajrax",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/vajrax-plate.png",
+        "alt": "VajraX"
+       }
+      },
+      {
+       "label": "VectorX",
+       "href": "/products-and-accelerators/vectorx",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/vectorx-plate.png",
+        "alt": "VectorX"
+       }
+      },
+      {
+       "label": "AI Governance",
+       "href": "/products-and-accelerators/ai-governance",
+       "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/ai-governance-plate.png",
+        "alt": "AI Governance"
+       }
+      }
+     ]
+    },
+    {
+     "title": "Talent Advisory & GCC",
+     "description": "Strategy, specialist talent and Global Capability Centres that scale with you.",
+     "accent": "yellow",
+     "href": "/services/talent-advisory-gcc",
+     "linkLabel": "Explore portfolio",
+     "number": "05",
+     "tagline": "Advise · Staff · Scale",
+     "groupLabel": "Specialist services and IP",
+     "links": [
+      {
+       "label": "Technology advisory",
+       "href": "/services/talent-advisory-gcc/technology-advisory",
+       "openInNewTab": false
+      },
+      {
+       "label": "Specialist talent & managed teams",
+       "href": "/services/talent-advisory-gcc/specialist-talent-managed-teams",
+       "openInNewTab": false
+      },
+      {
+       "label": "GCC strategy & setup",
+       "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
+       "openInNewTab": false
+      },
+      {
+       "label": "GCC build-operate-transfer",
+       "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
+       "openInNewTab": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "We lead with *outcomes*, not offerings",
+   "description": "Start with your business requirements. Each play below suggests a starting deliverable; scope and acceptance criteria are agreed for your engagement.",
+   "plays": [
+    {
+     "title": "AI Code Assurance",
+     "accent": "orange",
+     "trigger": "AI-generated code increases delivery speed and assurance risk.",
+     "outcome": "Quality and security gates across CI/CD for AI-written change. Start with a CI/CD assurance-gate map.",
+     "ip": "testoriumz, VectorX, Cyber-Safe Delivery",
+     "href": "/solutions/ai-code-assurance",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Modernisation & Programme Assurance",
+     "accent": "blue",
+     "trigger": "Complex migration and customisation create regression and integration risk.",
+     "outcome": "Migration readiness, automated regression, integration rebuild and security validation. Start with a migration readiness and dependency map.",
+     "ip": "Linkworks, Modernisation & Integration Toolkit, testoriumz, Release Assurance Packs",
+     "href": "/solutions/modernisation-programme-assurance",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Regulated Cyber Readiness",
+     "accent": "teal",
+     "trigger": "Regulated industries need continuous evidence, not point-in-time reports.",
+     "outcome": "Continuous exposure validation, control mapping and remediation evidence. Start with an exposure and control-evidence baseline.",
+     "ip": "VajraX, Regulatory Readiness & Control Mapping",
+     "href": "/solutions/regulated-cyber-readiness",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Intelligent Operations",
+     "accent": "purple",
+     "trigger": "Cost-to-serve pressure creates demand for process intelligence and automation.",
+     "outcome": "Discover, redesign and automate work across process and customer channels. Start with a workflow and exception map.",
+     "ip": "Linkworks, Intelligent Workflow Automation Framework, testoriumz, Cyber-Safe Delivery",
+     "href": "/solutions/intelligent-operations",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "Capability Centres with Embedded IP",
+     "accent": "yellow",
+     "trigger": "Organisations need scalable delivery capacity with stronger governance and automation.",
+     "outcome": "Build-operate-transfer GCCs with quality, security and engineering IP embedded. Start with a capability and ownership blueprint.",
+     "ip": "Linkworks, Delivery Governance, Quality Engineering IP, Cyber-Safe Delivery",
+     "href": "/solutions/capability-centres-embedded-ip",
+     "linkLabel": "Explore this play"
+    }
+   ],
+   "ctaLabel": "Explore the value plays",
+   "ctaUrl": "/solutions"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "engagement-models",
+   "heading": "Flexible *commercial models*",
+   "items": [
+    {
+     "title": "Fixed Price",
+     "accent": "orange",
+     "description": "Defined scope and outcome delivered against agreed milestones and acceptance criteria.",
+     "bullets": "Best for - Well-defined projects, migrations, discrete builds."
+    },
+    {
+     "title": "Time & Materials",
+     "accent": "blue",
+     "description": "Flexible delivery where scope evolves, with transparent rates and governance.",
+     "bullets": "Best for - Discovery, evolving roadmaps, co-development."
+    },
+    {
+     "title": "Managed Service",
+     "accent": "teal",
+     "description": "Ongoing service with agreed service levels, governance and continuous improvement.",
+     "bullets": "Best for - Application management, managed quality, managed security."
+    },
+    {
+     "title": "Dedicated Team",
+     "accent": "purple",
+     "description": "Persistent squads or specialist teams aligned to your priorities and ways of working.",
+     "bullets": "Best for - Product engineering, sustained capacity, capability centres (GCC)."
+    },
+    {
+     "title": "Outcome-Based",
+     "accent": "yellow",
+     "description": "Commercials linked to measurable business or operational outcomes, where these can be agreed and evidenced.",
+     "bullets": "Best for - Assurance, exposure closure, resolution-rate engagements."
+    }
+   ],
+   "eyebrow": "How we engage",
+   "description": "Choose commercials to fit the scope, ownership and acceptance criteria. Delivery and software licensing are separate decisions.",
+   "columns": 5,
+   "tone": "navy",
+   "noteLabel": "Proprietary software is sold separately",
+   "note": "Linkfields products are available by licence, subscription or SaaS, with or without a Linkfields services engagement.",
+   "variant": "compact",
+   "ctaLabel": "Let’s connect",
+   "ctaUrl": "#get-in-touch"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "integrated-delivery",
+   "eyebrow": "Integrated delivery",
+   "heading": "How the portfolios work *together*",
+   "description": "Illustrative journey: modernise an application with release assurance and security validation, connect data and AI, and scale teams. The capabilities below support the work; this is not a client case.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Services depth",
+     "accent": "yellow",
+     "description": "Digital Transformation leads application change. Enterprise Platforms and Data & AI connect processes and data; Cyber Security contributes validation. Agree the lead portfolio and delivery owner.",
+     "href": "/solutions/modernisation-programme-assurance",
+     "linkLabel": "Explore modernisation assurance",
+     "groupLabel": "Delivery approach",
+     "links": [
+      {
+       "label": "Our approach",
+       "href": "/company/our-approach",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "title": "Proprietary software",
+     "accent": "orange",
+     "description": "Linkworks supports application change, testoriumz supplies test evidence, and VectorX and VajraX contribute security validation. Select software for the scope rather than assuming every product is required.",
+     "href": "/products-and-accelerators",
+     "linkLabel": "Explore products and accelerators",
+     "groupLabel": "Related value play",
+     "links": [
+      {
+       "label": "AI Code Assurance",
+       "href": "/solutions/ai-code-assurance",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "title": "Reusable accelerators",
+     "accent": "blue",
+     "description": "Modernisation, workflow automation and Cyber-Safe Delivery IP support implementation. Agree which artefacts are reused or tailored for the programme.",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators",
+     "groupLabel": "Related value plays",
+     "links": [
+      {
+       "label": "Intelligent Operations",
+       "href": "/solutions/intelligent-operations",
+       "openInNewTab": false
+      },
+      {
+       "label": "Regulated Cyber Readiness",
+       "href": "/solutions/regulated-cyber-readiness",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "title": "Integrated delivery",
+     "accent": "teal",
+     "description": "Talent Advisory & GCC adds specialists, managed teams or a capability centre with embedded IP. Agree work ownership, governance and acceptance across services, software and teams.",
+     "href": "/solutions/capability-centres-embedded-ip",
+     "linkLabel": "Explore embedded-IP centres",
+     "groupLabel": "Operating model",
+     "links": [
+      {
+       "label": "Talent Advisory & GCC",
+       "href": "/services/talent-advisory-gcc",
+       "openInNewTab": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your business requirements",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

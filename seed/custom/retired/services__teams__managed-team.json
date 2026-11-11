@@ -1,0 +1,202 @@
+{
+ "title": "Managed Team",
+ "path": "/services/teams/managed-team",
+ "seo": {
+  "metaTitle": "Manage Teams | Linkfields Innovations",
+  "metaDescription": "Managed Team | Linkfields Innovations",
+  "keywords": "",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Managed Team",
+   "subtitle": "Group efforts produce better results",
+   "backgroundImage": {
+    "__media": "s3/managed-team.jpg",
+    "width": 1920,
+    "height": 512,
+    "mime": "image/jpeg",
+    "alt": "Managed Team"
+   },
+   "anchorLinks": [
+    {
+     "label": "OVERVIEW",
+     "targetId": "overview"
+    },
+    {
+     "label": "HOW CAN WE HELP",
+     "targetId": "how-can-we-help"
+    },
+    {
+     "label": "OUR PROCESS",
+     "targetId": "our-process"
+    },
+    {
+     "label": "GET IN TOUCH",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "OVERVIEW",
+   "heading": "Balancing skills and expertise to make better teams",
+   "body": "Combining features like teamwork, communication, objective setting and performance appraisals to form teams that function well, get along, and are highly productive.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "services.flow-cards",
+   "anchorId": "how-can-we-help",
+   "eyebrow": "HOW CAN WE HELP",
+   "heading": "Bringing out the best in all employees",
+   "description": "",
+   "backgroundImage": {
+    "__media": "site/backgroud-images/our-service.jpg",
+    "width": 2560,
+    "height": 1581,
+    "mime": "image/jpeg",
+    "alt": ""
+   },
+   "backgroundStyle": "image",
+   "cards": [
+    {
+     "icon": {
+      "__media": "s3/2.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Evaluation"
+     },
+     "title": "Evaluation",
+     "description": "We begin with assessments and evaluations of the software/infrastructure that needs to be managed."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (71).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Scope"
+     },
+     "title": "Scope",
+     "description": "The scope, duration, and the budget of the engagement is decided upon with the client."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (67).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Team selection"
+     },
+     "title": "Team selection",
+     "description": "A team is built with professionals whose skills sets match with the project requirements."
+    },
+    {
+     "icon": {
+      "__media": "s3/Frame 402 (72).png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "SLA"
+     },
+     "title": "SLA",
+     "description": "An SLA that summarizes the conditions of the transition and the cooperation is signed with the client."
+    },
+    {
+     "icon": {
+      "__media": "s3/6.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Process"
+     },
+     "title": "Process",
+     "description": "On-demand or ongoing services are provided to the client in line with the SLA."
+    },
+    {
+     "icon": {
+      "__media": "s3/1.png",
+      "width": 296,
+      "height": 296,
+      "mime": "image/png",
+      "alt": "Support"
+     },
+     "title": "Support",
+     "description": "Clients receive constant support from our experts during and after the service has been delivered."
+    }
+   ]
+  },
+  {
+   "__component": "sections.message-banner",
+   "anchorId": "",
+   "title": "10x faster operational growth",
+   "description": "",
+   "ctaLabel": "Talk to us",
+   "ctaUrl": "/contact-us"
+  },
+  {
+   "__component": "services.process-accordion",
+   "anchorId": "our-process",
+   "eyebrow": "OUR PROCESS",
+   "heading": "Making administration future-ready",
+   "description": "Our combined offerings which are provided under team management provide an eclectic grouping of management systems that assist businesses and their employees by making the redundant tasks automated, and ensuring better pairings among teams.",
+   "backgroundImage": {
+    "__media": "s3/OurprocessBackground.png",
+    "width": 1920,
+    "height": 1090,
+    "mime": "image/png",
+    "alt": ""
+   },
+   "backgroundStyle": "dark",
+   "image": null,
+   "imageVariant": "standard",
+   "items": [
+    {
+     "title": "Network management",
+     "description": "We manage networks to guarantee that their architectures are correct and that resources are allocated as efficiently as possible."
+    },
+    {
+     "title": "Storage management",
+     "description": "We manage data centers and stand-alone data storages to ensure that they are well-balanced and that stored data is protected."
+    },
+    {
+     "title": "System administration",
+     "description": "We ensure that enterprise IT assets are available and secure (databases, physical and virtual servers, active directories, etc.)."
+    },
+    {
+     "title": "Device management",
+     "description": "We set up systems and technologies to ensure that corporate devices are constantly monitored, and security checked."
+    }
+   ],
+   "logos": []
+  },
+  {
+   "__component": "sections.featured-insights",
+   "anchorId": "insights",
+   "heading": "",
+   "items": []
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "",
+   "subheading": "",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  },
+  {
+   "__component": "sections.social-banner",
+   "heading": "",
+   "links": []
+  }
+ ]
+}

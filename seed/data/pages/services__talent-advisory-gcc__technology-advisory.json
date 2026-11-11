@@ -1,0 +1,290 @@
+{
+ "title": "Technology advisory",
+ "path": "/services/talent-advisory-gcc/technology-advisory",
+ "seo": {
+  "metaTitle": "Technology Advisory & Roadmap Consulting | Linkfields",
+  "metaDescription": "Align investment with business priorities through technology advisory, architecture assessments and practical roadmaps that guide your next delivery step.",
+  "keywords": "technology advisory, technology roadmap, architecture assessment, product discovery, technology advisory services South Africa, technology roadmap consulting, enterprise architecture assessment, application portfolio rationalisation, technology investment planning",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Technology advisory",
+   "subtitle": "Turn business priorities into a practical technology roadmap.",
+   "backgroundImage": {
+    "__media": "s3/technology-advisory.jpg",
+    "alt": "Stakeholders reviewing a technology plan together"
+   },
+   "anchorLinks": [
+    {
+     "label": "Overview",
+     "targetId": "overview"
+    },
+    {
+     "label": "What We Deliver",
+     "targetId": "deliverables"
+    },
+    {
+     "label": "Discovery Process",
+     "targetId": "discovery"
+    },
+    {
+     "label": "Evidence",
+     "targetId": "evidence"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Overview",
+   "heading": "Make the right technology decisions before delivery begins",
+   "body": "Linkfields connects business priorities with technology roadmaps, architecture assessments and product discovery, so you can prioritise investment and define the next delivery step.\n\nUse advisory when competing priorities, application dependencies or an unclear product brief are holding up a programme. [Discuss your roadmap](#get-in-touch) with the business decision, current landscape and programme stage.",
+   "secondaryEyebrow": "",
+   "secondaryHeading": "",
+   "secondaryBody": "",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "deliverables",
+   "eyebrow": "",
+   "heading": "What your advisory engagement produces",
+   "description": "The scope is agreed around the decisions you need to make, with clear outputs to support investment approval and delivery planning.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Prioritised technology roadmap",
+     "description": "A sequenced investment plan with dependencies, decision owners and approval gates.",
+     "bullets": "Decision supported - what to fund first and what must happen before delivery",
+     "accent": "yellow"
+    },
+    {
+     "title": "Architecture assessment",
+     "description": "A current-state view, integration dependencies and target options with trade-offs.",
+     "bullets": "Decision supported - which architecture fits the business and its constraints",
+     "accent": "yellow"
+    },
+    {
+     "title": "Application portfolio rationalisation",
+     "description": "A retain, modernise, replace or retire assessment linked to business capability.",
+     "bullets": "Decision supported - where to reduce duplication and focus change",
+     "accent": "yellow"
+    },
+    {
+     "title": "Cloud and data readiness",
+     "description": "A readiness view covering workloads, data quality, access and governance dependencies.",
+     "bullets": "Decision supported - which prerequisites need resolving before implementation",
+     "accent": "yellow",
+     "links": [
+      {
+       "label": "Cloud services",
+       "href": "/services/digital-transformation/cloud-services",
+       "openInNewTab": false
+      },
+      {
+       "label": "Data & AI",
+       "href": "/services/data-ai",
+       "openInNewTab": false
+      }
+     ]
+    },
+    {
+     "title": "Product and solution discovery",
+     "description": "A validated business brief, prioritised requirements and prototype findings where appropriate.",
+     "bullets": "Decision supported - whether to proceed, revise or stop an idea",
+     "accent": "yellow"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "discovery",
+   "eyebrow": "",
+   "heading": "Agree the route from priorities to delivery",
+   "description": "",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Align priorities",
+     "description": "Bring business and technology stakeholders together around objectives, constraints and investment choices.",
+     "bullets": "Output - agreed decision brief and success measures",
+     "accent": "yellow",
+     "number": "01"
+    },
+    {
+     "title": "Assess the landscape",
+     "description": "Review architecture, applications, data and integration dependencies.",
+     "bullets": "Output - current-state assessment and option constraints",
+     "accent": "yellow",
+     "number": "02"
+    },
+    {
+     "title": "Validate the options",
+     "description": "Validate stakeholder assumptions with user research, technical assessment and prototype testing where appropriate.",
+     "bullets": "Output - findings, trade-offs and a recommendation",
+     "accent": "yellow",
+     "number": "03"
+    },
+    {
+     "title": "Agree the roadmap",
+     "description": "Sequence work and assign decision owners, dependencies and approval gates.",
+     "bullets": "Output - prioritised roadmap and the next delivery decision",
+     "accent": "yellow",
+     "number": "04"
+    }
+   ]
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery-and-ip",
+   "eyebrow": "",
+   "heading": "Turn the roadmap into delivery",
+   "description": "The agreed roadmap determines the delivery path. Software and accelerators are considered where relevant, not included in every assessment.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Linkworks",
+     "description": "Consider composable enterprise applications where ERP or CRM does not fit.",
+     "bullets": "Assessment question - can microservices, REST APIs and composable UI address the gap?",
+     "accent": "yellow",
+     "logo": {
+      "__media": "custom/logos/plate/linkworks-plate.png",
+      "alt": "Linkworks product logo"
+     },
+     "href": "/products-and-accelerators/linkworks",
+     "linkLabel": "Explore Linkworks"
+    },
+    {
+     "title": "testoriumz",
+     "description": "Consider continuous quality engineering when the roadmap includes application change.",
+     "bullets": "Assessment question - what test automation and CI/CD assurance does the programme need?",
+     "accent": "yellow",
+     "logo": {
+      "__media": "custom/logos/plate/testoriumz-plate.png",
+      "alt": "testoriumz product logo"
+     },
+     "href": "/products-and-accelerators/testoriumz",
+     "linkLabel": "Explore testoriumz"
+    },
+    {
+     "title": "Delivery accelerators",
+     "description": "Consider reusable modernisation, integration, migration and release-assurance IP.",
+     "bullets": "Assessment question - which reusable artefacts fit the agreed delivery scope?",
+     "accent": "yellow",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    }
+   ],
+   "logosLabel": "Delivery paths across five portfolios",
+   "logos": [
+    {
+     "label": "Digital Transformation",
+     "href": "/services/digital-transformation",
+     "openInNewTab": false
+    },
+    {
+     "label": "Intelligent Enterprise Platforms",
+     "href": "/services/intelligent-enterprise-platforms",
+     "openInNewTab": false
+    },
+    {
+     "label": "Data & AI",
+     "href": "/services/data-ai",
+     "openInNewTab": false
+    },
+    {
+     "label": "Cyber Security",
+     "href": "/services/cyber-security",
+     "openInNewTab": false
+    },
+    {
+     "label": "Talent Advisory & GCC",
+     "href": "/services/talent-advisory-gcc",
+     "openInNewTab": false
+    }
+   ],
+   "noteLabel": "Commercials",
+   "note": "Products are available by licence, subscription or SaaS, with or without services. Product selection and licensing are agreed separately."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "evidence",
+   "eyebrow": "",
+   "heading": "Make decisions with evidence and controls",
+   "description": "",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Security and data boundaries",
+     "description": "Identify sensitive information, access constraints and security-review requirements before assessment or prototype work.",
+     "bullets": "Artefact - agreed access and information-handling requirements",
+     "accent": "yellow"
+    },
+    {
+     "title": "Decision and approval record",
+     "description": "Capture assumptions, option trade-offs, risk owners and the evidence needed at each investment gate.",
+     "bullets": "Artefact - decision log and sign-off criteria",
+     "accent": "yellow"
+    },
+    {
+     "title": "From decision to delivery",
+     "description": "Example engagement pattern, not a completed client case: a fragmented application estate prompts a dependency assessment.",
+     "bullets": "Assessment - map duplicated capability and interfaces\nDecision - prioritise a bounded modernisation tranche\nDelivery change - resolve integration and regression prerequisites before the build",
+     "accent": "yellow"
+    }
+   ],
+   "noteLabel": "Illustrative roadmap entry",
+   "note": "Business capability: customer servicing. Proposed step: validate the integration boundary. Dependency: data ownership. Decision gate: architecture and security review. This is an example format, not client evidence."
+  },
+  {
+   "__component": "solutions.accordion-stack",
+   "anchorId": "buyer-questions",
+   "eyebrow": "Before we begin",
+   "heading": "Before we shape your roadmap",
+   "variant": "full",
+   "items": [
+    {
+     "title": "What should we bring to discovery?",
+     "description": "Share the business decision, programme stage, current applications and known constraints. Existing architecture diagrams, requirements and investment priorities help define the assessment scope."
+    },
+    {
+     "title": "Does advisory include implementation?",
+     "description": "Advisory defines recommendations and the next delivery decision. Implementation is scoped separately across the relevant Linkfields portfolios; the roadmap can also support a client-led delivery programme."
+    },
+    {
+     "title": "How are prototypes and sensitive information handled?",
+     "description": "Agree prototype scope, data access, information handling and review gates before work begins. We can agree an NDA before detailed discovery. Use only the data and environments authorised for the assessment."
+    },
+    {
+     "title": "Which commercial model fits?",
+     "description": "Fixed Price suits defined assessments with agreed outputs; Time & Materials supports evolving discovery. Agree scope, acceptance criteria and decision gates before work begins. Review our [commercial models](/company/our-approach#engagement-models) to choose the engagement structure."
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your technology roadmap",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

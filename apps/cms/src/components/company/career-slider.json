@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_career_slider",
+  "info": {
+    "displayName": "Career slider",
+    "icon": "landscape",
+    "description": "Careers hero with animated image strip and jobs call-to-action"
+  },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "heading": { "type": "text" },
+    "ctaLabel": { "type": "string" },
+    "ctaHref": { "type": "string" },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files", "videos"]
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": ["images", "files", "videos"]
+    }
+  }
+}

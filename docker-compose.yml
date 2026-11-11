@@ -1,0 +1,135 @@
+name: linkfields
+
+services:
+  db:
+    image: postgres:18-trixie
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-linkfields_cms}
+      POSTGRES_USER: ${POSTGRES_USER:-linkfields}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    restart: unless-stopped
+
+  cms:
+    build:
+      context: ./apps/cms
+    environment:
+      HOST: 0.0.0.0
+      PORT: "1337"
+      PUBLIC_URL: ${CMS_PUBLIC_URL:-http://localhost:1337}
+      IS_PROXIED: ${IS_PROXIED:-false}
+      PROXY_MAX_IPS_COUNT: "1"
+      APP_KEYS: ${APP_KEYS:?Set APP_KEYS in .env}
+      API_TOKEN_SALT: ${API_TOKEN_SALT:?Set API_TOKEN_SALT in .env}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:?Set ADMIN_JWT_SECRET in .env}
+      TRANSFER_TOKEN_SALT: ${TRANSFER_TOKEN_SALT:?Set TRANSFER_TOKEN_SALT in .env}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:?Set ENCRYPTION_KEY in .env}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env}
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: "5432"
+      DATABASE_NAME: ${POSTGRES_DB:-linkfields_cms}
+      DATABASE_USERNAME: ${POSTGRES_USER:-linkfields}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      DATABASE_SSL: "false"
+      DATABASE_POOL_MIN: "2"
+      DATABASE_POOL_MAX: "10"
+      UPLOAD_PROVIDER: local
+      UPLOAD_SIZE_LIMIT: "52428800"
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000,http://localhost:1337}
+      WEBSITE_REVALIDATE_URL: http://web:3000/api/revalidate
+      WEBSITE_REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET in .env}
+      WEBSITE_URL: ${WEBSITE_URL:-http://localhost:3000}
+      # Enquiry emails (thank-you + sales alert) via Microsoft 365 / Microsoft Graph. Off until MS_GRAPH_* is
+      # configured; see docs/CMS-BRANDING-AND-EMAIL.md. EMAIL_PROVIDER=nodemailer uses SMTP_* (local Mailpit testing).
+      ENQUIRY_EMAILS_ENABLED: ${ENQUIRY_EMAILS_ENABLED:-false}
+      ENQUIRY_NOTIFY_TO: ${ENQUIRY_NOTIFY_TO:-sales@linkfields.com}
+      EMAIL_PROVIDER: ${EMAIL_PROVIDER:-graph}
+      MS_GRAPH_TENANT_ID: ${MS_GRAPH_TENANT_ID:-}
+      MS_GRAPH_CLIENT_ID: ${MS_GRAPH_CLIENT_ID:-}
+      MS_GRAPH_CLIENT_SECRET: ${MS_GRAPH_CLIENT_SECRET:-}
+      MS_GRAPH_SENDER: ${MS_GRAPH_SENDER:-}
+      MS_GRAPH_SAVE_TO_SENT_ITEMS: ${MS_GRAPH_SAVE_TO_SENT_ITEMS:-true}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_SECURE: ${SMTP_SECURE:-false}
+      SMTP_REQUIRE_TLS: ${SMTP_REQUIRE_TLS:-true}
+      SMTP_USERNAME: ${SMTP_USERNAME:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      EMAIL_FROM: ${EMAIL_FROM:-Linkfields Sales <sales@linkfields.com>}
+      EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-sales@linkfields.com}
+    volumes:
+      - cms_uploads:/opt/app/public/uploads
+    ports:
+      - "${CMS_PORT:-1337}:1337"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./apps/web
+      args:
+        CONTENT_SOURCE: strapi
+        STRAPI_URL: http://cms:1337
+        NEXT_PUBLIC_SITE_URL: ${SITE_URL:-http://localhost:3000}
+        NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${NEXT_PUBLIC_TURNSTILE_SITE_KEY:-}
+        MEDIA_HOSTS: ${MEDIA_HOSTS:-}
+    environment:
+      CONTENT_SOURCE: strapi
+      STRAPI_URL: http://cms:1337
+      STRAPI_READ_TOKEN: ${STRAPI_READ_TOKEN:-}
+      STRAPI_LEAD_TOKEN: ${STRAPI_LEAD_TOKEN:-}
+      REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET in .env}
+      TURNSTILE_SECRET_KEY: ${TURNSTILE_SECRET_KEY:-}
+      NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${NEXT_PUBLIC_TURNSTILE_SITE_KEY:-}
+      NEXT_PUBLIC_SITE_URL: ${SITE_URL:-http://localhost:3000}
+      MEDIA_HOSTS: ${MEDIA_HOSTS:-}
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    depends_on:
+      cms:
+        condition: service_healthy
+    restart: unless-stopped
+
+  seed:
+    profiles: ["seed"]
+    build:
+      context: ./apps/cms
+    command: ["npm", "run", "seed"]
+    environment:
+      HOST: 0.0.0.0
+      PORT: "1337"
+      APP_KEYS: ${APP_KEYS:?Set APP_KEYS in .env}
+      API_TOKEN_SALT: ${API_TOKEN_SALT:?Set API_TOKEN_SALT in .env}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET:?Set ADMIN_JWT_SECRET in .env}
+      TRANSFER_TOKEN_SALT: ${TRANSFER_TOKEN_SALT:?Set TRANSFER_TOKEN_SALT in .env}
+      ENCRYPTION_KEY: ${ENCRYPTION_KEY:?Set ENCRYPTION_KEY in .env}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in .env}
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: "5432"
+      DATABASE_NAME: ${POSTGRES_DB:-linkfields_cms}
+      DATABASE_USERNAME: ${POSTGRES_USER:-linkfields}
+      DATABASE_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      DATABASE_SSL: "false"
+      UPLOAD_PROVIDER: local
+      SEED_DIR: /seed
+      SEED_LEAD_TOKEN: "1"
+    volumes:
+      - ./seed:/seed:ro
+      - cms_uploads:/opt/app/public/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  cms_uploads:

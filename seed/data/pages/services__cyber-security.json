@@ -1,0 +1,295 @@
+{
+ "title": "Cyber Security",
+ "path": "/services/cyber-security",
+ "seo": {
+  "metaTitle": "Cyber Security Services in South Africa | Linkfields",
+  "metaDescription": "AI security and GRC, cloud security and IAM, exposure validation, AppSec and security operations, backed by VajraX, VectorX and AI Governance.",
+  "keywords": "cyber security, AI security, GRC, IAM, AppSec, exposure validation, security operations, VajraX, VectorX, cyber security services South Africa, enterprise cyber security services, AI security and GRC services",
+  "canonicalUrl": "",
+  "noIndex": false
+ },
+ "sections": [
+  {
+   "__component": "sections.page-hero",
+   "title": "Cyber Security",
+   "subtitle": "End-to-end security, from code to AI, with Linkfields products and specialist services.",
+   "backgroundImage": {
+    "__media": "custom/hero-cyber-security.jpg",
+    "alt": "Cyber Security enterprise services"
+   },
+   "anchorLinks": [
+    {
+     "label": "Services",
+     "targetId": "services"
+    },
+    {
+     "label": "Value Plays",
+     "targetId": "value-plays"
+    },
+    {
+     "label": "Linkfields IP",
+     "targetId": "linkfields-ip"
+    },
+    {
+     "label": "How We Deliver",
+     "targetId": "delivery"
+    },
+    {
+     "label": "Use Cases",
+     "targetId": "where-this-applies"
+    },
+    {
+     "label": "Let’s connect",
+     "targetId": "get-in-touch"
+    }
+   ]
+  },
+  {
+   "__component": "sections.overview",
+   "anchorId": "overview",
+   "eyebrow": "Protect · Validate · Govern",
+   "heading": "Connect security controls with delivery evidence",
+   "body": "Bring offensive testing, cloud and identity reviews, control governance and security operations into a defined security scope. Linkfields software adds external exposure validation, code and supply-chain analysis, and AI gateway controls.\n\nBegin with the assets, risks and evidence your organisation needs to address. [Discuss an assessment, controls or operations engagement](#get-in-touch). This form is for business enquiries, not active-incident reporting.",
+   "theme": "light"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "services",
+   "eyebrow": "Specialist services",
+   "heading": "What we deliver",
+   "description": "Choose the specialist service that fits your next decision.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "AI security & GRC",
+     "description": "Define AI and control governance, regulatory requirements and evidence needs. Connect control mapping with security awareness, staff education and phishing drills.",
+     "accent": "teal",
+     "href": "/services/cyber-security/ai-security-grc",
+     "linkLabel": "Explore AI security & GRC",
+     "number": "01"
+    },
+    {
+     "title": "Cloud security & IAM",
+     "description": "Review cloud and identity architecture, network controls and firewalls. Establish access and security baselines against the requirements agreed for your environment.",
+     "accent": "teal",
+     "href": "/services/cyber-security/cloud-security-iam",
+     "linkLabel": "Explore Cloud security & IAM",
+     "number": "02"
+    },
+    {
+     "title": "Exposure validation & AppSec",
+     "description": "Validate the external attack surface and examine code and software supply chains. Scope offensive testing for AI, LLMs and web applications.",
+     "accent": "teal",
+     "href": "/services/cyber-security/exposure-validation-appsec",
+     "linkLabel": "Explore Exposure validation & AppSec",
+     "number": "03"
+    },
+    {
+     "title": "Security operations",
+     "description": "Connect monitoring, investigation and response using tools such as Splunk SIEM, Qualys and Rapid7. Agree detection, triage and containment responsibilities, coverage and escalation scope.",
+     "accent": "teal",
+     "href": "/services/cyber-security/security-operations",
+     "linkLabel": "Explore Security operations",
+     "number": "04"
+    }
+   ]
+  },
+  {
+   "__component": "sections.value-plays",
+   "anchorId": "value-plays",
+   "eyebrow": "Strategic value plays",
+   "heading": "Validate exposure. Strengthen *assurance evidence*.",
+   "description": "Cyber Security contributes exposure validation, control mapping, remediation evidence and code assurance. Regulatory scope and success criteria are agreed with your control owners.",
+   "plays": [
+    {
+     "title": "Regulated Cyber Readiness",
+     "trigger": "Control owners need repeatable evidence for the requirements in scope.",
+     "outcome": "Start with an exposure and control-evidence baseline. Map findings to controls and record remediation and revalidation evidence.",
+     "ip": "VajraX, Regulatory Readiness & Control Mapping",
+     "accent": "teal",
+     "href": "/solutions/regulated-cyber-readiness",
+     "linkLabel": "Explore this play"
+    },
+    {
+     "title": "AI Code Assurance",
+     "trigger": "AI-written changes introduce code and software supply-chain risk.",
+     "outcome": "Start with a repo-to-release assurance-gate map. Combine VectorX findings with functional release evidence and agreed security acceptance criteria.",
+     "ip": "VectorX, testoriumz, Cyber-Safe Delivery",
+     "accent": "orange",
+     "href": "/solutions/ai-code-assurance",
+     "linkLabel": "Explore this play"
+    }
+   ],
+   "ctaLabel": "Explore Regulated Cyber Readiness",
+   "ctaUrl": "/solutions/regulated-cyber-readiness"
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "linkfields-ip",
+   "eyebrow": "Linkfields IP and accelerators",
+   "heading": "Security software and *specialist services*",
+   "description": "Use Linkfields software on its own or alongside specialist services.",
+   "variant": "default",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "VajraX",
+     "description": "AI-powered exposure validation of the external attack surface. Connect findings and validation with remediation priorities agreed for the assets in scope.",
+     "accent": "teal",
+     "href": "/products-and-accelerators/vajrax",
+     "linkLabel": "Explore VajraX",
+     "logo": {
+      "__media": "custom/logos/plate/vajrax-plate.png",
+      "alt": "VajraX product logo"
+     },
+     "links": [
+      {
+       "label": "Regulated Cyber Readiness",
+       "href": "/solutions/regulated-cyber-readiness",
+       "openInNewTab": false
+      }
+     ],
+     "groupLabel": "Related value play"
+    },
+    {
+     "title": "VectorX",
+     "description": "Code scanning and supply-chain analysis, repo to release. Use findings as part of security review and CI/CD assurance decisions.",
+     "accent": "teal",
+     "href": "/products-and-accelerators/vectorx",
+     "linkLabel": "Explore VectorX",
+     "logo": {
+      "__media": "custom/logos/plate/vectorx-plate.png",
+      "alt": "VectorX product logo"
+     },
+     "links": [
+      {
+       "label": "AI Code Assurance",
+       "href": "/solutions/ai-code-assurance",
+       "openInNewTab": false
+      },
+      {
+       "label": "Quality engineering",
+       "href": "/services/digital-transformation/quality-engineering",
+       "openInNewTab": false
+      }
+     ],
+     "groupLabel": "Related solution and service"
+    },
+    {
+     "title": "AI Governance",
+     "description": "An AI gateway for guardrails, cost monitoring and tracing. The Linkfields offering is built on Portkey and Opik; scope the configuration, deployment and support responsibilities for your environment.",
+     "accent": "teal",
+     "href": "/products-and-accelerators/ai-governance",
+     "linkLabel": "Explore AI Governance",
+     "logo": {
+      "__media": "custom/logos/plate/ai-governance-plate.png",
+      "alt": "AI Governance product logo"
+     },
+     "links": []
+    },
+    {
+     "title": "Security delivery accelerators",
+     "description": "Regulatory Readiness & Control Mapping, Continuous Compliance & Audit Evidence, and Cloud, AI & Identity Security Baselines support assessment and control work.",
+     "accent": "teal",
+     "href": "/products-and-accelerators/delivery-accelerators",
+     "linkLabel": "Explore delivery accelerators"
+    }
+   ],
+   "noteLabel": "Software and services are separate choices",
+   "note": "Products are available by licence, subscription or SaaS, with or without a Linkfields services engagement. Agree deployment, data handling and integration requirements for the selected offering."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "delivery",
+   "eyebrow": "Delivery and engagement",
+   "heading": "From assessment to continuous evidence",
+   "description": "Illustrative engagement pattern: agree scope, owners and acceptance criteria before delivery.",
+   "variant": "compact",
+   "columns": 3,
+   "tone": "ink",
+   "items": [
+    {
+     "title": "Scope and assess",
+     "description": "Agree assets, control requirements, access and testing boundaries. Define evidence needs and the responsibilities of each team.",
+     "accent": "teal",
+     "number": "01",
+     "footLabel": "Example output",
+     "footText": "Assessment scope and evidence baseline"
+    },
+    {
+     "title": "Validate and remediate",
+     "description": "Validate findings, prioritise remediation with owners and record changes. Recheck the exposures or controls addressed.",
+     "accent": "teal",
+     "number": "02",
+     "footLabel": "Example output",
+     "footText": "Finding register and revalidation evidence"
+    },
+    {
+     "title": "Monitor and evidence",
+     "description": "Choose ongoing controls or operations where needed. Agree coverage, integrations, escalation and review cadence in the service scope.",
+     "accent": "teal",
+     "number": "03",
+     "footLabel": "Example output",
+     "footText": "Operating responsibilities and evidence register"
+    }
+   ],
+   "ctaLabel": "Compare commercial models",
+   "ctaUrl": "/services#engagement-models",
+   "noteLabel": "Governance and evidence",
+   "note": "Agree asset scope, validated findings, mapped controls, remediation owners and revalidation evidence. Confirm monitoring coverage, integrations and escalation; an assessment is not compliance certification."
+  },
+  {
+   "__component": "sections.feature-tiles",
+   "anchorId": "where-this-applies",
+   "eyebrow": "Industry context",
+   "heading": "Where this portfolio applies",
+   "description": "Explore illustrative security requirements across these sectors.",
+   "variant": "compact",
+   "columns": 4,
+   "tone": "navy",
+   "items": [
+    {
+     "title": "Telecom",
+     "description": "External exposure, identity and access reviews.",
+     "accent": "teal",
+     "href": "/industries/telecom",
+     "linkLabel": "Explore sector"
+    },
+    {
+     "title": "BFSI",
+     "description": "Control mapping and remediation evidence.",
+     "accent": "teal",
+     "href": "/industries/bfsi",
+     "linkLabel": "Explore sector"
+    },
+    {
+     "title": "Healthcare & Pharma",
+     "description": "Sensitive-data access and cloud-control reviews.",
+     "accent": "teal",
+     "href": "/industries/healthcare-pharma",
+     "linkLabel": "Explore sector"
+    },
+    {
+     "title": "Public Sector",
+     "description": "Access governance and control evidence.",
+     "accent": "teal",
+     "href": "/industries/public-sector",
+     "linkLabel": "Explore sector"
+    }
+   ]
+  },
+  {
+   "__component": "sections.contact-form",
+   "anchorId": "get-in-touch",
+   "heading": "Let’s connect",
+   "subheading": "Tell us about your security priorities",
+   "nextStepsTitle": "",
+   "nextSteps": [],
+   "layout": "section",
+   "theme": "dark"
+  }
+ ]
+}

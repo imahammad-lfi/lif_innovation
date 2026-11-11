@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_anchor_link",
+  "info": {
+    "displayName": "Anchor link",
+    "icon": "arrowDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "targetId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

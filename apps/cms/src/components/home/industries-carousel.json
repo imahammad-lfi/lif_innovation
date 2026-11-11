@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_home_industries_carousel",
+  "info": { "displayName": "Home industries carousel", "icon": "landscape", "description": "Image-led home industry cards with carousel controls." },
+  "options": {},
+  "attributes": {
+    "anchorId": { "type": "string" },
+    "heading": { "type": "string" },
+    "description": { "type": "text" },
+    "items": { "type": "component", "repeatable": true, "component": "elements.home-industry-card" }
+  }
+}

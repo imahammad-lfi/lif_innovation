@@ -22,7 +22,7 @@ services:
     environment:
       HOST: 0.0.0.0
       PORT: "1337"
-      PUBLIC_URL: ${CMS_PUBLIC_URL:-http://localhost:1337}
+      PUBLIC_URL: ${CMS_PUBLIC_URL:?Set CMS_PUBLIC_URL in the env file (CMS address used in emails and the admin)}
       IS_PROXIED: ${IS_PROXIED:-false}
       PROXY_MAX_IPS_COUNT: "1"
       APP_KEYS: ${APP_KEYS:?Set APP_KEYS in .env}
@@ -42,10 +42,10 @@ services:
       DATABASE_POOL_MAX: "10"
       UPLOAD_PROVIDER: local
       UPLOAD_SIZE_LIMIT: "52428800"
-      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000,http://localhost:1337}
+      CORS_ORIGINS: ${CORS_ORIGINS:?Set CORS_ORIGINS in the env file}
       WEBSITE_REVALIDATE_URL: http://web:3000/api/revalidate
       WEBSITE_REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET in .env}
-      WEBSITE_URL: ${WEBSITE_URL:-http://localhost:3000}
+      WEBSITE_URL: ${WEBSITE_URL:?Set WEBSITE_URL in the env file (website address used in email links)}
       # Enquiry emails (thank-you + sales alert) via Microsoft 365 / Microsoft Graph. Off until MS_GRAPH_* is
       # configured; see docs/CMS-BRANDING-AND-EMAIL.md. EMAIL_PROVIDER=nodemailer uses SMTP_* (local Mailpit testing).
       ENQUIRY_EMAILS_ENABLED: ${ENQUIRY_EMAILS_ENABLED:-false}
@@ -79,7 +79,7 @@ services:
       args:
         CONTENT_SOURCE: strapi
         STRAPI_URL: http://cms:1337
-        NEXT_PUBLIC_SITE_URL: ${SITE_URL:-http://localhost:3000}
+        NEXT_PUBLIC_SITE_URL: ${SITE_URL:?Set SITE_URL in the env file}
         NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${NEXT_PUBLIC_TURNSTILE_SITE_KEY:-}
         MEDIA_HOSTS: ${MEDIA_HOSTS:-}
     environment:
@@ -90,7 +90,7 @@ services:
       REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET in .env}
       TURNSTILE_SECRET_KEY: ${TURNSTILE_SECRET_KEY:-}
       NEXT_PUBLIC_TURNSTILE_SITE_KEY: ${NEXT_PUBLIC_TURNSTILE_SITE_KEY:-}
-      NEXT_PUBLIC_SITE_URL: ${SITE_URL:-http://localhost:3000}
+      NEXT_PUBLIC_SITE_URL: ${SITE_URL:?Set SITE_URL in the env file}
       MEDIA_HOSTS: ${MEDIA_HOSTS:-}
     ports:
       - "${WEB_PORT:-3000}:3000"

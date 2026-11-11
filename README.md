@@ -81,13 +81,18 @@ docker compose up -d --build                          # postgres + cms (:1337) +
 docker compose --profile seed run --rm seed           # import all pages, posts and images into Strapi
 ```
 
-**Environments: `.env`, `.env.test`, `.env.prod`** (all git-ignored; template: `.env.example`)
+**Environments: `.env`, `.env.test`, `.env.prod`** (all git-ignored; each has its own committed template)
 
-| File | Command | Compose project | Website / CMS |
-| --- | --- | --- | --- |
-| `.env` | `docker compose up -d` | from `COMPOSE_PROJECT_NAME` | `WEB_PORT` / `CMS_PORT` |
-| `.env.test` | `docker compose --env-file .env.test up -d --build` | `linkfields-test` | :3010 / :1340 |
-| `.env.prod` | `docker compose --env-file .env.prod up -d --build` | `linkfields-prod` | :3000 / :1337 behind HTTPS |
+| File | Template | Command | Compose project | Website / CMS |
+| --- | --- | --- | --- | --- |
+| `.env` | `.env.example` | `docker compose up -d` | from `COMPOSE_PROJECT_NAME` | `WEB_PORT` / `CMS_PORT` (localhost) |
+| `.env.test` | `.env.test.example` | `docker compose --env-file .env.test up -d --build` | `linkfields-test` | :3010 / :1337 (https://lfinew.lfidemo.com, CMS http://100.127.234.5:1337) |
+| `.env.prod` | `.env.prod.example` | `docker compose --env-file .env.prod up -d --build` | `linkfields-prod` | :3000 / :1337 behind HTTPS |
+
+On a server, copy that environment's template (`cp .env.test.example .env.test`), set its real addresses and fill in
+the secrets. `WEBSITE_URL` (links in enquiry emails) and `CMS_PUBLIC_URL` (the "Open lead in CMS" button in the sales
+alert) must be the environment's public addresses, never localhost. `docker compose` refuses to start when `SITE_URL`,
+`WEBSITE_URL`, `CMS_PUBLIC_URL` or `CORS_ORIGINS` is missing, so an environment can no longer fall back to localhost.
 
 Each file has its own secrets, compose project, database and media volumes, so the stacks never share data. Ports,
 `SITE_URL`, `CMS_PUBLIC_URL`, `CORS_ORIGINS` and `IS_PROXIED` come from the file. `SITE_URL` is baked into the website build

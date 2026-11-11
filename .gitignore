@@ -20,9 +20,11 @@ apps/cms/public/uploads/*
 .env
 .env.*
 !.env.example
+!.env.*.example
 **/.env
 **/.env.*
 !**/.env.example
+!**/.env.*.example
 
 # terraform
 infra/terraform/.terraform/

@@ -1,9 +1,0 @@
-{
-  "collectionName": "components_elements_company_carousel_slide",
-  "info": { "displayName": "Company carousel slide", "icon": "picture", "description": "Workplace image and its location label" },
-  "options": {},
-  "attributes": {
-    "image": { "type": "media", "multiple": false, "allowedTypes": ["images", "files", "videos"] },
-    "label": { "type": "string" }
-  }
-}

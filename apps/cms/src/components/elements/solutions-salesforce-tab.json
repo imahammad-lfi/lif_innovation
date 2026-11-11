@@ -1,9 +1,0 @@
-{
-  "collectionName": "components_elements_solutions_salesforce_tab",
-  "info": { "displayName": "Solutions Salesforce tab", "icon": "apps", "description": "One Salesforce service tab and its cloud cards." },
-  "options": {},
-  "attributes": {
-    "label": { "type": "string" }, "title": { "type": "text" }, "description": { "type": "richtext" },
-    "cards": { "type": "component", "repeatable": true, "component": "shared.icon-card" }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "collectionName": "components_elements_services_numbered_item",
-  "info": { "displayName": "Services numbered item", "icon": "numberList", "description": "One numbered service-help statement." },
-  "options": {},
-  "attributes": {
-    "description": { "type": "text" }
-  }
-}

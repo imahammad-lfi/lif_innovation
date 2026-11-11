@@ -1,9 +1,0 @@
-{
-  "collectionName": "components_elements_services_accordion_item",
-  "info": { "displayName": "Services accordion item", "icon": "bulletList", "description": "Expandable service-process title and copy." },
-  "options": {},
-  "attributes": {
-    "title": { "type": "string" },
-    "description": { "type": "text" }
-  }
-}

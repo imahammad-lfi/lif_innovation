@@ -1,9 +1,0 @@
-{
-  "collectionName": "components_solutions_numbered_list",
-  "info": { "displayName": "Solutions numbered list", "icon": "numbers", "description": "Numbered capability statements." },
-  "options": {},
-  "attributes": {
-    "anchorId": { "type": "string" }, "heading": { "type": "text" },
-    "items": { "type": "component", "repeatable": true, "component": "shared.text-item" }
-  }
-}

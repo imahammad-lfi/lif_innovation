@@ -89,7 +89,9 @@ export function ScrollToTop() {
         />
       </svg>
       <span className="hover-swap relative grid size-[38px] place-items-center rounded-full bg-brand-gradient text-white shadow-[0_8px_20px_-8px_rgba(255,120,0,0.95),inset_0_1px_0_rgba(255,255,255,0.3)] md:size-[41px]">
-        <ArrowUp aria-hidden strokeWidth={2.4} className="size-[18px] transition-transform duration-300 group-hover:-translate-y-0.5 motion-reduce:group-hover:translate-y-0" />
+        <span className="grid place-items-center">
+          <ArrowUp aria-hidden strokeWidth={2.4} className="size-[18px] transition-transform duration-300 group-hover:-translate-y-0.5 motion-reduce:group-hover:translate-y-0" />
+        </span>
       </span>
     </button>
   );

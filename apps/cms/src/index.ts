@@ -55,11 +55,49 @@ async function ensureRevalidationWebhook(strapi: Core.Strapi) {
   for (const hook of hooksNow) runner.update?.(hook);
 }
 
+/**
+ * Lead list in Content Manager: newest enquiry first, with the submission time as a column.
+ * Applied once per version (core-store flag), so later changes editors make in "Configure the view" are kept.
+ */
+const LEAD_LIST_VIEW_VERSION = 1;
+
+async function configureLeadListView(strapi: Core.Strapi) {
+  const flags = strapi.store({ type: 'plugin', name: 'linkfields-admin' });
+  if (((await flags.get({ key: 'lead-list-view' })) as number | null) === LEAD_LIST_VIEW_VERSION) return;
+
+  const service = strapi.plugin('content-manager').service('content-types');
+  const contentType = strapi.contentType('api::lead.lead');
+  const current = await service.findConfiguration(contentType);
+  const list: string[] = current.layouts?.list ?? ['id', 'reference', 'name', 'email'];
+  const withoutTime = list.filter((field) => field !== 'createdAt');
+  const afterRef = withoutTime.indexOf('reference') + 1;
+  const columns = [...withoutTime.slice(0, afterRef), 'createdAt', ...withoutTime.slice(afterRef)];
+
+  await service.updateConfiguration(contentType, {
+    settings: { ...current.settings, defaultSortBy: 'createdAt', defaultSortOrder: 'DESC' },
+    layouts: { ...current.layouts, list: columns },
+    metadatas: {
+      ...current.metadatas,
+      createdAt: {
+        ...current.metadatas?.createdAt,
+        list: { ...current.metadatas?.createdAt?.list, label: 'Submitted', sortable: true },
+      },
+    },
+  });
+  await flags.set({ key: 'lead-list-view', value: LEAD_LIST_VIEW_VERSION });
+  strapi.log.info('[bootstrap] lead list view: newest first, "Submitted" column');
+}
+
 export default {
   register() {},
 
   async bootstrap({ strapi }: { strapi: Core.Strapi }) {
     await grantPublicRead(strapi);
+    try {
+      await configureLeadListView(strapi);
+    } catch (error) {
+      strapi.log.warn(`[bootstrap] could not configure the lead list view: ${(error as Error).message}`);
+    }
     try {
       await ensureRevalidationWebhook(strapi);
     } catch (error) {

@@ -205,3 +205,37 @@ variable "web_task_count_enabled" {
   type        = bool
   default     = true
 }
+
+variable "enquiry_email_provider" {
+  description = "How the CMS sends enquiry emails (thank-you + sales alert): \"graph\" (Microsoft 365 via Microsoft Graph) or \"none\" (emails off; leads are still stored). With \"graph\", put the client secret into the ms_graph_client_secret_arn secret before deploying the CMS."
+  type        = string
+  default     = "none"
+  validation {
+    condition     = contains(["graph", "none"], var.enquiry_email_provider)
+    error_message = "enquiry_email_provider must be \"graph\" or \"none\"."
+  }
+}
+
+variable "ms_graph_tenant_id" {
+  description = "Entra ID directory (tenant) ID of the email app registration (enquiry_email_provider = \"graph\")."
+  type        = string
+  default     = ""
+}
+
+variable "ms_graph_client_id" {
+  description = "Application (client) ID of the email app registration (needs the Mail.Send application permission)."
+  type        = string
+  default     = ""
+}
+
+variable "ms_graph_sender" {
+  description = "Mailbox enquiry emails are sent from."
+  type        = string
+  default     = "sales@linkfields.com"
+}
+
+variable "enquiry_notify_to" {
+  description = "Comma-separated recipients of the internal sales alert for each enquiry."
+  type        = string
+  default     = "sales@linkfields.com"
+}

@@ -18,6 +18,8 @@ locals {
   media_fqdn              = "media.${var.domain_name}"
   internal_namespace_name = "internal.${var.domain_name}"
 
+  enquiry_emails_graph = var.enquiry_email_provider == "graph"
+
   web_image = "${aws_ecr_repository.web.repository_url}:${var.web_image_tag}"
   cms_image = "${aws_ecr_repository.cms.repository_url}:${var.cms_image_tag}"
 

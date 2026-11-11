@@ -58,6 +58,12 @@ services:
       SMTP_PASSWORD: ${SMTP_PASSWORD:-}
       EMAIL_FROM: ${EMAIL_FROM:-Linkfields Sales <sales@linkfields.com>}
       EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-sales@linkfields.com}
+      # Microsoft 365 via Graph (EMAIL_PROVIDER=graph); otherwise SMTP_* above are used.
+      EMAIL_PROVIDER: ${EMAIL_PROVIDER:-nodemailer}
+      MS_GRAPH_TENANT_ID: ${MS_GRAPH_TENANT_ID:-}
+      MS_GRAPH_CLIENT_ID: ${MS_GRAPH_CLIENT_ID:-}
+      MS_GRAPH_CLIENT_SECRET: ${MS_GRAPH_CLIENT_SECRET:-}
+      MS_GRAPH_SENDER: ${MS_GRAPH_SENDER:-}
     volumes:
       - cms_uploads:/opt/app/public/uploads
     extra_hosts:

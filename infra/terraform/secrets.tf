@@ -75,6 +75,15 @@ resource "aws_secretsmanager_secret" "lead_token" {
   recovery_window_in_days = var.deletion_protection ? 30 : 0
 }
 
+# Microsoft Graph client secret for enquiry emails. Like the lead token, Terraform creates only the container so the
+# value never lands in source control or state. Put the app registration's client secret value into it.
+resource "aws_secretsmanager_secret" "ms_graph_client_secret" {
+  count                   = local.enquiry_emails_graph ? 1 : 0
+  name                    = "${local.name_prefix}/ms-graph-client-secret"
+  description             = "Operator-populated Entra ID client secret for sending enquiry emails via Microsoft Graph"
+  recovery_window_in_days = var.deletion_protection ? 30 : 0
+}
+
 resource "aws_secretsmanager_secret" "turnstile" {
   count                   = var.enable_turnstile ? 1 : 0
   name                    = "${local.name_prefix}/turnstile"

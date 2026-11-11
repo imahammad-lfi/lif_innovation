@@ -39,22 +39,33 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   const security = { allowedTypes: allowedMediaTypes, deniedTypes };
   const sizeLimit = env.int('UPLOAD_SIZE_LIMIT', 50 * 1024 * 1024);
 
-  // Enquiry emails (thank-you to the visitor + alert to sales) go through SMTP via Nodemailer.
-  // Configure SMTP_* in .env (see docs/CMS-BRANDING-AND-EMAIL.md). Without SMTP_USERNAME the
-  // connection is unauthenticated (used for the local Mailpit test inbox).
+  // Enquiry emails (thank-you to the visitor + alert to sales).
+  // - EMAIL_PROVIDER=graph: Microsoft 365 via Microsoft Graph sendMail (app registration with the
+  //   Mail.Send application permission; MS_GRAPH_* in .env). Provider: the local package
+  //   strapi-provider-email-graph (providers/email-graph, file: dependency in package.json).
+  // - otherwise (default "nodemailer"): SMTP_* in .env (see docs/CMS-BRANDING-AND-EMAIL.md). Without
+  //   SMTP_USERNAME the connection is unauthenticated (used for the local Mailpit test inbox).
   const smtpUser = env('SMTP_USERNAME', '');
+  const useGraph = env('EMAIL_PROVIDER', 'nodemailer').toLowerCase() === 'graph';
   const email = {
     config: {
-      provider: 'nodemailer',
-      providerOptions: {
-        host: env('SMTP_HOST', '127.0.0.1'),
-        port: env.int('SMTP_PORT', 1025),
-        secure: env.bool('SMTP_SECURE', false),
-        requireTLS: env.bool('SMTP_REQUIRE_TLS', false),
-        ...(smtpUser ? { auth: { user: smtpUser, pass: env('SMTP_PASSWORD', '') } } : {}),
-        connectionTimeout: 15_000,
-        greetingTimeout: 10_000,
-      },
+      provider: useGraph ? 'strapi-provider-email-graph' : 'nodemailer',
+      providerOptions: useGraph
+        ? {
+            tenantId: env('MS_GRAPH_TENANT_ID', ''),
+            clientId: env('MS_GRAPH_CLIENT_ID', ''),
+            clientSecret: env('MS_GRAPH_CLIENT_SECRET', ''),
+            sender: env('MS_GRAPH_SENDER', ''),
+          }
+        : {
+            host: env('SMTP_HOST', '127.0.0.1'),
+            port: env.int('SMTP_PORT', 1025),
+            secure: env.bool('SMTP_SECURE', false),
+            requireTLS: env.bool('SMTP_REQUIRE_TLS', false),
+            ...(smtpUser ? { auth: { user: smtpUser, pass: env('SMTP_PASSWORD', '') } } : {}),
+            connectionTimeout: 15_000,
+            greetingTimeout: 10_000,
+          },
       settings: {
         defaultFrom: env('EMAIL_FROM', 'Linkfields Sales <sales@linkfields.com>'),
         defaultReplyTo: env('EMAIL_REPLY_TO', 'sales@linkfields.com'),

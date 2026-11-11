@@ -90,6 +90,7 @@ data "aws_iam_policy_document" "task_execution_secrets" {
       aws_secretsmanager_secret.lead_token.arn,
       aws_db_instance.cms.master_user_secret[0].secret_arn,
       var.enable_turnstile ? aws_secretsmanager_secret.turnstile[0].arn : null,
+      local.enquiry_emails_graph ? aws_secretsmanager_secret.ms_graph_client_secret[0].arn : null,
     ])
   }
 }
@@ -368,7 +369,7 @@ resource "aws_ecs_task_definition" "cms" {
     image        = local.cms_image
     essential    = true
     portMappings = [{ containerPort = 1337, protocol = "tcp" }]
-    environment = [
+    environment = concat([
       { name = "HOST", value = "0.0.0.0" }, { name = "PORT", value = "1337" },
       { name = "PUBLIC_URL", value = "https://${local.cms_fqdn}" }, { name = "IS_PROXIED", value = "true" },
       { name = "PROXY_MAX_IPS_COUNT", value = "2" }, { name = "DATABASE_CLIENT", value = "postgres" },
@@ -382,8 +383,17 @@ resource "aws_ecs_task_definition" "cms" {
       { name = "CORS_ORIGINS", value = "${local.site_url},https://${local.cms_fqdn}" },
       { name = "CSP_MEDIA_HOSTS", value = "https://${local.media_fqdn}" },
       { name = "WEBSITE_REVALIDATE_URL", value = "http://web.${local.internal_namespace_name}:3000/api/revalidate" },
-    ]
-    secrets = [
+      # Enquiry emails (apps/cms/src/utils/enquiry-email.ts; docs/CMS-BRANDING-AND-EMAIL.md).
+      { name = "WEBSITE_URL", value = local.site_url },
+      { name = "ENQUIRY_EMAILS_ENABLED", value = tostring(local.enquiry_emails_graph) },
+      { name = "ENQUIRY_NOTIFY_TO", value = var.enquiry_notify_to },
+      ], local.enquiry_emails_graph ? [
+      { name = "EMAIL_PROVIDER", value = "graph" },
+      { name = "MS_GRAPH_TENANT_ID", value = var.ms_graph_tenant_id },
+      { name = "MS_GRAPH_CLIENT_ID", value = var.ms_graph_client_id },
+      { name = "MS_GRAPH_SENDER", value = var.ms_graph_sender },
+    ] : [])
+    secrets = concat([
       { name = "APP_KEYS", valueFrom = "${aws_secretsmanager_secret.strapi.arn}:APP_KEYS::" },
       { name = "API_TOKEN_SALT", valueFrom = "${aws_secretsmanager_secret.strapi.arn}:API_TOKEN_SALT::" },
       { name = "ADMIN_JWT_SECRET", valueFrom = "${aws_secretsmanager_secret.strapi.arn}:ADMIN_JWT_SECRET::" },
@@ -392,7 +402,9 @@ resource "aws_ecs_task_definition" "cms" {
       { name = "JWT_SECRET", valueFrom = "${aws_secretsmanager_secret.strapi.arn}:JWT_SECRET::" },
       { name = "DATABASE_PASSWORD", valueFrom = "${aws_db_instance.cms.master_user_secret[0].secret_arn}:password::" },
       { name = "WEBSITE_REVALIDATE_SECRET", valueFrom = aws_secretsmanager_secret.revalidate.arn },
-    ]
+      ], local.enquiry_emails_graph ? [
+      { name = "MS_GRAPH_CLIENT_SECRET", valueFrom = aws_secretsmanager_secret.ms_graph_client_secret[0].arn },
+    ] : [])
     logConfiguration = {
       logDriver = "awslogs"
       options   = { awslogs-group = aws_cloudwatch_log_group.cms.name, awslogs-region = var.aws_region, awslogs-stream-prefix = "ecs" }

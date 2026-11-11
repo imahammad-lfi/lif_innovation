@@ -25,3 +25,11 @@ cms_image_tag          = "latest"
 # Rulesets differ by Cloudflare plan. Disable only the unavailable group, not DNS or TLS settings.
 enable_cloudflare_rules = true
 enable_turnstile        = false
+
+# Enquiry emails. "none" keeps them off; "graph" sends through Microsoft 365 (Microsoft Graph). With "graph", apply,
+# put the client secret value into the ms_graph_client_secret_arn output's secret, then redeploy the CMS.
+enquiry_email_provider = "none"
+ms_graph_tenant_id     = ""
+ms_graph_client_id     = ""
+ms_graph_sender        = "sales@linkfields.com"
+enquiry_notify_to      = "sales@linkfields.com"

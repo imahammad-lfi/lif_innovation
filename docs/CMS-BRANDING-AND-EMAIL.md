@@ -150,6 +150,38 @@ Settings are environment variables in `apps/cms/.env` (template: `apps/cms/.env.
   re-enable it until a final removal date is announced in the second half of 2027). Source: Microsoft Exchange Team
   blog, "Updated Exchange Online SMTP AUTH Basic Authentication Deprecation Timeline", 27 Jan 2026.
 
+### Microsoft 365 via Microsoft Graph (recommended for Microsoft 365)
+
+Instead of SMTP, the CMS can send through Microsoft Graph `sendMail` with an Entra ID app registration
+(OAuth client credentials, so the Basic-auth SMTP deprecation does not apply). Set `EMAIL_PROVIDER=graph`;
+`SMTP_*` are then ignored. Provider: the local package `strapi-provider-email-graph` in
+`apps/cms/providers/email-graph` (a `file:` dependency in `apps/cms/package.json`; the Dockerfile copies it before
+`npm ci`). Configured in the local Docker setup since 11 Nov 2026; on AWS set `enquiry_email_provider = "graph"` in
+Terraform (see below). On a single server, put the variables in `apps/cms/.env` and restart `lf-cms`.
+
+| Variable | Purpose |
+| --- | --- |
+| `EMAIL_PROVIDER` | `graph` for Microsoft Graph, `nodemailer` (default) for SMTP |
+| `MS_GRAPH_TENANT_ID` / `MS_GRAPH_CLIENT_ID` | Directory (tenant) ID and Application (client) ID of the app registration (`Linkfields_Website_New`) |
+| `MS_GRAPH_CLIENT_SECRET` | Client secret **value** (not its ID). Secret: keep it in `.env` / the secrets store only; note its expiry date |
+| `MS_GRAPH_SENDER` | Mailbox sent from; empty = the address in `EMAIL_FROM` (`sales@linkfields.com`). The From line uses this mailbox with the `EMAIL_FROM` display name |
+
+How it sends: the message is built as MIME (Nodemailer's composer) and posted as base64 MIME, so the plain-text
+alternative, the inline logo and the `Auto-Submitted` header are kept; `X-Auto-Response-Suppress: All` is added for
+Outlook/Exchange auto-responders. A copy is always saved in the sender's Sent Items (Graph cannot turn this off for MIME
+sends). Throttling (429/503/504) is retried up to 4 times, honouring `Retry-After`; a 401 refreshes the token once.
+Missing `MS_GRAPH_*` settings never stop the CMS from starting: the send fails and the lead shows *Email status: failed*
+with the reason.
+
+Azure requirements: Microsoft Graph **application** permission `Mail.Send` with admin consent. That permission lets the
+app send as *any* mailbox in the tenant, so Linkfields IT should limit it to the sender mailbox with an Exchange
+application access policy / RBAC for Applications scope.
+
+**AWS (Terraform):** set `enquiry_email_provider = "graph"`, `ms_graph_tenant_id`, `ms_graph_client_id` and optionally
+`ms_graph_sender` in `terraform.tfvars`, apply, then put the client secret value into the secret named by the output
+`ms_graph_client_secret_arn` (`aws secretsmanager put-secret-value --secret-id <arn> --secret-string '<value>'`) and
+redeploy the CMS service. The default `enquiry_email_provider = "none"` keeps enquiry emails off (leads are still stored).
+
 **DNS for deliverability** (current state checked 10 Nov 2026):
 
 - SPF: already includes all three providers. No change needed.

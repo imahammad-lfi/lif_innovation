@@ -13,6 +13,8 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 COPY package.json package-lock.json ./
+# Local packages referenced as file: dependencies (the Microsoft Graph email provider).
+COPY providers ./providers
 RUN npm ci
 COPY . .
 RUN npm run build \

@@ -67,7 +67,7 @@
      "description": "Agree the real requirements, business baseline and constraints before prioritising work.",
      "accent": "orange",
      "number": "01",
-     "bullets": "Client decisions – priorities, success measures and risk appetite\nLinkfields outputs – assessment, prioritised backlog and roadmap\nAccountability – agree business sponsor and delivery lead",
+     "bullets": "Client decisions - priorities, success measures and risk appetite\nLinkfields outputs - assessment, prioritised backlog and roadmap\nAccountability - agree business sponsor and delivery lead",
      "footLabel": "Acceptance gate",
      "footText": "Confirm scope, baseline, dependencies and decision owners before build."
     },
@@ -76,7 +76,7 @@
      "description": "Build and validate iteratively, using the software and accelerators that fit the requirement.",
      "accent": "blue",
      "number": "02",
-     "bullets": "Client decisions – review increments and approve changes\nLinkfields outputs – working increments, test evidence and release plan\nAccountability – agree technical, quality and security owners",
+     "bullets": "Client decisions - review increments and approve changes\nLinkfields outputs - working increments, test evidence and release plan\nAccountability - agree technical, quality and security owners",
      "footLabel": "Acceptance gate",
      "footText": "Review quality, security and business acceptance evidence before release."
     },
@@ -85,7 +85,7 @@
      "description": "Compare adoption and operational results with the baseline, then prioritise the next improvement.",
      "accent": "yellow",
      "number": "03",
-     "bullets": "Client decisions – accept handover and improvement priorities\nLinkfields outputs – benefit review and operating-model handover\nAccountability – agree service owner and benefit owner",
+     "bullets": "Client decisions - accept handover and improvement priorities\nLinkfields outputs - benefit review and operating-model handover\nAccountability - agree service owner and benefit owner",
      "footLabel": "Acceptance gate",
      "footText": "Confirm operational readiness, ownership and the measures used for benefit review."
     }
@@ -117,7 +117,7 @@
        "href": "/products-and-accelerators/testoriumz",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz quality engineering platform"
        }
       },
@@ -126,7 +126,7 @@
        "href": "/products-and-accelerators/vectorx",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vectorx.png",
+        "__media": "custom/logos/plate/vectorx-plate.png",
         "alt": "VectorX code and supply-chain analysis"
        }
       }

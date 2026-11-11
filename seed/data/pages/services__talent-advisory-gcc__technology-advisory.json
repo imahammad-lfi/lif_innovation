@@ -64,25 +64,25 @@
     {
      "title": "Prioritised technology roadmap",
      "description": "A sequenced investment plan with dependencies, decision owners and approval gates.",
-     "bullets": "Decision supported – what to fund first and what must happen before delivery",
+     "bullets": "Decision supported - what to fund first and what must happen before delivery",
      "accent": "yellow"
     },
     {
      "title": "Architecture assessment",
      "description": "A current-state view, integration dependencies and target options with trade-offs.",
-     "bullets": "Decision supported – which architecture fits the business and its constraints",
+     "bullets": "Decision supported - which architecture fits the business and its constraints",
      "accent": "yellow"
     },
     {
      "title": "Application portfolio rationalisation",
      "description": "A retain, modernise, replace or retire assessment linked to business capability.",
-     "bullets": "Decision supported – where to reduce duplication and focus change",
+     "bullets": "Decision supported - where to reduce duplication and focus change",
      "accent": "yellow"
     },
     {
      "title": "Cloud and data readiness",
      "description": "A readiness view covering workloads, data quality, access and governance dependencies.",
-     "bullets": "Decision supported – which prerequisites need resolving before implementation",
+     "bullets": "Decision supported - which prerequisites need resolving before implementation",
      "accent": "yellow",
      "links": [
       {
@@ -100,7 +100,7 @@
     {
      "title": "Product and solution discovery",
      "description": "A validated business brief, prioritised requirements and prototype findings where appropriate.",
-     "bullets": "Decision supported – whether to proceed, revise or stop an idea",
+     "bullets": "Decision supported - whether to proceed, revise or stop an idea",
      "accent": "yellow"
     }
    ]
@@ -118,28 +118,28 @@
     {
      "title": "Align priorities",
      "description": "Bring business and technology stakeholders together around objectives, constraints and investment choices.",
-     "bullets": "Output – agreed decision brief and success measures",
+     "bullets": "Output - agreed decision brief and success measures",
      "accent": "yellow",
      "number": "01"
     },
     {
      "title": "Assess the landscape",
      "description": "Review architecture, applications, data and integration dependencies.",
-     "bullets": "Output – current-state assessment and option constraints",
+     "bullets": "Output - current-state assessment and option constraints",
      "accent": "yellow",
      "number": "02"
     },
     {
      "title": "Validate the options",
      "description": "Validate stakeholder assumptions with user research, technical assessment and prototype testing where appropriate.",
-     "bullets": "Output – findings, trade-offs and a recommendation",
+     "bullets": "Output - findings, trade-offs and a recommendation",
      "accent": "yellow",
      "number": "03"
     },
     {
      "title": "Agree the roadmap",
      "description": "Sequence work and assign decision owners, dependencies and approval gates.",
-     "bullets": "Output – prioritised roadmap and the next delivery decision",
+     "bullets": "Output - prioritised roadmap and the next delivery decision",
      "accent": "yellow",
      "number": "04"
     }
@@ -158,10 +158,10 @@
     {
      "title": "Linkworks",
      "description": "Consider composable enterprise applications where ERP or CRM does not fit.",
-     "bullets": "Assessment question – can microservices, REST APIs and composable UI address the gap?",
+     "bullets": "Assessment question - can microservices, REST APIs and composable UI address the gap?",
      "accent": "yellow",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -170,10 +170,10 @@
     {
      "title": "testoriumz",
      "description": "Consider continuous quality engineering when the roadmap includes application change.",
-     "bullets": "Assessment question – what test automation and CI/CD assurance does the programme need?",
+     "bullets": "Assessment question - what test automation and CI/CD assurance does the programme need?",
      "accent": "yellow",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -182,7 +182,7 @@
     {
      "title": "Delivery accelerators",
      "description": "Consider reusable modernisation, integration, migration and release-assurance IP.",
-     "bullets": "Assessment question – which reusable artefacts fit the agreed delivery scope?",
+     "bullets": "Assessment question - which reusable artefacts fit the agreed delivery scope?",
      "accent": "yellow",
      "href": "/products-and-accelerators/delivery-accelerators",
      "linkLabel": "Explore delivery accelerators"
@@ -232,19 +232,19 @@
     {
      "title": "Security and data boundaries",
      "description": "Identify sensitive information, access constraints and security-review requirements before assessment or prototype work.",
-     "bullets": "Artefact – agreed access and information-handling requirements",
+     "bullets": "Artefact - agreed access and information-handling requirements",
      "accent": "yellow"
     },
     {
      "title": "Decision and approval record",
      "description": "Capture assumptions, option trade-offs, risk owners and the evidence needed at each investment gate.",
-     "bullets": "Artefact – decision log and sign-off criteria",
+     "bullets": "Artefact - decision log and sign-off criteria",
      "accent": "yellow"
     },
     {
      "title": "From decision to delivery",
      "description": "Example engagement pattern, not a completed client case: a fragmented application estate prompts a dependency assessment.",
-     "bullets": "Assessment – map duplicated capability and interfaces\nDecision – prioritise a bounded modernisation tranche\nDelivery change – resolve integration and regression prerequisites before the build",
+     "bullets": "Assessment - map duplicated capability and interfaces\nDecision - prioritise a bounded modernisation tranche\nDelivery change - resolve integration and regression prerequisites before the build",
      "accent": "yellow"
     }
    ],

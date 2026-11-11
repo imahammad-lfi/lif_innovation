@@ -34,7 +34,7 @@ function Tile({ item }: { item: ImageCard }) {
         </span>
       ) : null}
       <div className="absolute inset-x-4 bottom-4 xl:inset-x-5 xl:bottom-5">
-        <h3 className="font-heading text-[15px] font-semibold leading-[1.3] text-white sm:text-[17px] xl:text-[18px] 3xl:text-[20px]">{item.title}</h3>
+        <h3 className="font-heading text-[14px] font-semibold leading-[1.3] text-white sm:text-[15.5px] xl:text-[16.5px] 3xl:text-[18px]">{item.title}</h3>
         <div className="mt-2 h-[3px] w-8 rounded-full bg-brand-line transition-[width] duration-500 group-hover:w-14" />
       </div>
     </>
@@ -60,10 +60,10 @@ export function IndustriesShowcase({ data }: SectionProps<Data>) {
       <div aria-hidden className="absolute inset-0 -z-10 bg-black/60" />
       <Eyebrow>{data.eyebrow}</Eyebrow>
       {data.heading ? (
-        <h2 className="mt-2 font-heading text-[24px] font-semibold leading-[1.2] text-white xl:text-[32px] 3xl:text-[40px]">{data.heading}</h2>
+        <h2 className="mt-2 font-heading text-[21.5px] font-semibold leading-[1.2] text-white xl:text-[27.5px] 3xl:text-[34.5px]">{data.heading}</h2>
       ) : null}
       {data.description ? (
-        <p className="mt-4 max-w-[68ch] font-sans text-[15px] leading-[1.7] text-white/70 xl:text-[16px] 3xl:text-[18px]">{data.description}</p>
+        <p className="mt-4 max-w-[68ch] font-sans text-[14px] leading-[1.7] text-white/70 xl:text-[14.5px] 3xl:text-[16.5px]">{data.description}</p>
       ) : null}
       {data.items?.length ? (
         <div className="mt-8 grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 xl:mt-12 xl:gap-5">

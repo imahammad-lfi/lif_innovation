@@ -118,7 +118,7 @@
      "title": "Asset health and maintenance planning",
      "description": "Connect equipment history and maintenance records so teams can investigate condition changes and plan interventions.",
      "accent": "purple",
-     "bullets": "Prerequisite – validate usable history and model performance.\nBoundary – recommendations support maintenance owners, not automated control or safety decisions.\nMeasure to agree – Maintenance schedule adherence and unplanned downtime over an agreed period.",
+     "bullets": "Prerequisite - validate usable history and model performance.\nBoundary - recommendations support maintenance owners, not automated control or safety decisions.\nMeasure to agree - Maintenance schedule adherence and unplanned downtime over an agreed period.",
      "href": "/products-and-accelerators/digital-twin-suite",
      "linkLabel": "Explore asset prediction IP"
     },
@@ -126,7 +126,7 @@
      "title": "Materials, inventory and logistics",
      "description": "Connect extraction-to-delivery material records, inventory and business logistics applications to expose reconciliation exceptions.",
      "accent": "orange",
-     "bullets": "Control – materials teams review discrepancies and approve adjustments.\nOutput – reconciled material views and inventory exception workflows.\nMeasure to agree – Inventory variance, reconciliation effort and material-data completeness.",
+     "bullets": "Control - materials teams review discrepancies and approve adjustments.\nOutput - reconciled material views and inventory exception workflows.\nMeasure to agree - Inventory variance, reconciliation effort and material-data completeness.",
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore workflow applications"
     },
@@ -134,7 +134,7 @@
      "title": "Operational reporting and exception review",
      "description": "Bring approved asset and process data into dashboards with explicit freshness, lineage and role-based access.",
      "accent": "purple",
-     "bullets": "Control – supervisors investigate exceptions and coordinate action.\nOutput – metric definitions, reporting views and an escalation route.\nMeasure to agree – Reporting freshness, completeness and time to investigate exceptions.",
+     "bullets": "Control - supervisors investigate exceptions and coordinate action.\nOutput - metric definitions, reporting views and an escalation route.\nMeasure to agree - Reporting freshness, completeness and time to investigate exceptions.",
      "href": "/products-and-accelerators/power-bi-ai-ml",
      "linkLabel": "Explore reporting IP"
     }
@@ -156,7 +156,7 @@
      "title": "Terminal workflow integration",
      "description": "Connect terminal business records and operational-system interfaces for midstream and downstream exception handling.",
      "accent": "orange",
-     "bullets": "Control – terminal staff authorise changes within agreed access boundaries.\nOutput – interface map, transaction reconciliation and an exception queue.\nMeasure to agree – Transaction completeness and exception resolution time.",
+     "bullets": "Control - terminal staff authorise changes within agreed access boundaries.\nOutput - interface map, transaction reconciliation and an exception queue.\nMeasure to agree - Transaction completeness and exception resolution time.",
      "href": "/services/digital-transformation/integration-services",
      "linkLabel": "Explore integration services"
     },
@@ -164,7 +164,7 @@
      "title": "ERP and operational integration",
      "description": "Connect finance, procurement, inventory and asset-related business records through agreed ERP and application interfaces.",
      "accent": "blue",
-     "bullets": "Control – process owners approve reconciliations and release gates.\nOutput – data mapping, regression pack and migration acceptance evidence.\nMeasure to agree – Reconciliation exceptions and application release defects.",
+     "bullets": "Control - process owners approve reconciliations and release gates.\nOutput - data mapping, regression pack and migration acceptance evidence.\nMeasure to agree - Reconciliation exceptions and application release defects.",
      "href": "/services/intelligent-enterprise-platforms/platform-migration-ams",
      "linkLabel": "Explore platform migration & AMS"
     },
@@ -172,7 +172,7 @@
      "title": "Fuel commerce and retail applications",
      "description": "Connect order, site and commercial application data with enterprise processes for fuel retail and commercial operations.",
      "accent": "orange",
-     "bullets": "Control – commercial teams review order and service exceptions.\nOutput – composable application/API flows and agreed regression tests.\nMeasure to agree – Order hand-off completeness and exception handling effort.",
+     "bullets": "Control - commercial teams review order and service exceptions.\nOutput - composable application/API flows and agreed regression tests.\nMeasure to agree - Order hand-off completeness and exception handling effort.",
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore composable applications"
     },
@@ -180,7 +180,7 @@
      "title": "Asset and operational analytics",
      "description": "Combine approved asset history, inventory and operational records to support reporting, simulation and planning.",
      "accent": "purple",
-     "bullets": "Prerequisite – validate source data, freshness and prediction fit.\nBoundary – analysts review outputs; models do not operate process controls.\nMeasure to agree – Forecast evaluation, reporting completeness and planning rework.",
+     "bullets": "Prerequisite - validate source data, freshness and prediction fit.\nBoundary - analysts review outputs; models do not operate process controls.\nMeasure to agree - Forecast evaluation, reporting completeness and planning rework.",
      "href": "/products-and-accelerators/digital-twin-suite",
      "linkLabel": "Explore simulation IP"
     }
@@ -206,7 +206,7 @@
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore Linkworks",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks logo"
      }
     },
@@ -244,7 +244,7 @@
        "label": "testoriumz",
        "href": "/products-and-accelerators/testoriumz",
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz logo"
        }
       }
@@ -266,13 +266,13 @@
      "title": "Map systems and decision rights",
      "description": "An example engagement maps asset sources, ERP or terminal business interfaces and the people who act on outputs. Separate advisory analytics from process control.",
      "accent": "orange",
-     "bullets": "Artefacts – data-flow architecture and responsibility matrix\nDecisions – approved access, data freshness and change authority"
+     "bullets": "Artefacts - data-flow architecture and responsibility matrix\nDecisions - approved access, data freshness and change authority"
     },
     {
      "title": "Validate before operational use",
      "description": "Review history and model fit, test interfaces and agree a controlled release. Capture exception handling, security controls and operational acceptance.",
      "accent": "teal",
-     "bullets": "Artefacts – validation record, regression evidence and release plan\nMeasures – baseline, evaluation period and acceptance thresholds"
+     "bullets": "Artefacts - validation record, regression evidence and release plan\nMeasures - baseline, evaluation period and acceptance thresholds"
     },
     {
      "title": "Scope an appropriate engagement",

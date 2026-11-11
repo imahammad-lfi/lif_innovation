@@ -146,7 +146,7 @@
      "description": "Cloud-native solutions, composable UI and REST APIs can support application modernisation within a cloud migration; these application capabilities do not replace cloud infrastructure.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -157,7 +157,7 @@
      "description": "Continuous testing, low-code automation and CI/CD integration can support release assurance for application and integration changes during migration.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -177,16 +177,16 @@
    "heading": "From workload assessment to optimised operations",
    "items": [
     {
-     "description": "Assess — Baseline business needs, workloads, dependencies and spend. Client owners confirm the platform scope, service objectives, recovery requirements and migration priorities."
+     "description": "Assess - Baseline business needs, workloads, dependencies and spend. Client owners confirm the platform scope, service objectives, recovery requirements and migration priorities."
     },
     {
-     "description": "Design — Agree landing zones, IAM, network controls, recovery and cost attribution. Define client, provider and Linkfields responsibilities; security and quality requirements gate the design."
+     "description": "Design - Agree landing zones, IAM, network controls, recovery and cost attribution. Define client, provider and Linkfields responsibilities; security and quality requirements gate the design."
     },
     {
-     "description": "Migrate and validate — Move or modernise workloads in waves. Test data, integrations, cutover, rollback and recovery against agreed acceptance criteria before the client release decision."
+     "description": "Migrate and validate - Move or modernise workloads in waves. Test data, integrations, cutover, rollback and recovery against agreed acceptance criteria before the client release decision."
     },
     {
-     "description": "Operate and optimise — Transfer monitoring, runbooks and escalation ownership. Measure cost, performance and recovery evidence; agree coverage, exclusions and response/restoration terms for any managed scope."
+     "description": "Operate and optimise - Transfer monitoring, runbooks and escalation ownership. Measure cost, performance and recovery evidence; agree coverage, exclusions and response/restoration terms for any managed scope."
     }
    ]
   },
@@ -195,7 +195,7 @@
    "anchorId": "acceptance-and-evidence",
    "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
    "heading": "Acceptance for cutover and operations",
-   "body": "Cutover acceptance includes data and integration validation, access-control checks, release evidence and tested rollback and recovery procedures. The client approves remaining risks; operating owners accept monitoring, runbooks and escalation boundaries.\n\nTrack workload cost and performance over an agreed period, separating rate discounts and right-sizing from architectural changes. Compare recovery evidence and service performance with agreed objectives—not an unconditional availability or savings promise.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+   "body": "Cutover acceptance includes data and integration validation, access-control checks, release evidence and tested rollback and recovery procedures. The client approves remaining risks; operating owners accept monitoring, runbooks and escalation boundaries.\n\nTrack workload cost and performance over an agreed period, separating rate discounts and right-sizing from architectural changes. Compare recovery evidence and service performance with agreed objectives - not an unconditional availability or savings promise.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
    "theme": "light"
   },
   {

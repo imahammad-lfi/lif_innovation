@@ -13,7 +13,7 @@ type Data = {
 export async function BlogListing({ data }: SectionProps<Data>) {
   const posts = await getBlogPosts();
   return (
-    <section className="mt-[72px] bg-black px-gutter py-24 3xl:py-[120px] max-[768px]:mt-16 max-[768px]:py-16">
+    <section className="mt-[72px] bg-black px-gutter py-24 3xl:py-28 max-[768px]:mt-16 max-[768px]:py-16">
       <BlogListingClient
         heading={data.heading}
         discoverHeading={data.discoverHeading}

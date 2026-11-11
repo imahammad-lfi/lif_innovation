@@ -17,8 +17,17 @@ export default {
   afterCreate(event: CreateEvent) {
     const lead = event.result;
     if (!lead?.email) return;
-    setImmediate(() => {
-      void sendEnquiryEmails(strapi, lead);
-    });
+    const start = () =>
+      setImmediate(() => {
+        void sendEnquiryEmails(strapi, lead);
+      });
+    // The document service creates the lead inside a transaction. Start only after it commits, otherwise
+    // the emailStatus update runs on another connection, cannot see the uncommitted row and is lost.
+    // A nested transaction shares the outer commit callbacks, so onCommit fires after the real commit.
+    if (strapi.db.inTransaction()) {
+      void strapi.db.transaction(async ({ onCommit }) => {
+        onCommit(start);
+      });
+    } else start();
   },
 };

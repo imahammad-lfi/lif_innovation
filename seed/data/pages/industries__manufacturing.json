@@ -118,7 +118,7 @@
      "title": "Production and business planning",
      "description": "When demand, capacity and stock plans diverge, connect ERP orders and planning data into a reviewable forecast and schedule.",
      "accent": "purple",
-     "bullets": "Workflow – planners review assumptions and approve changes.\nOutput – shared planning views and a documented exception queue.",
+     "bullets": "Workflow - planners review assumptions and approve changes.\nOutput - shared planning views and a documented exception queue.",
      "footLabel": "Measure to agree",
      "footText": "Forecast error and planning rework against an agreed baseline.",
      "href": "/products-and-accelerators/predictive-analytics-suite",
@@ -128,7 +128,7 @@
      "title": "Execution visibility and ERP integration",
      "description": "When progress updates require manual reconciliation, connect agreed production-status sources with ERP and operational applications.",
      "accent": "orange",
-     "bullets": "Boundary – read and exchange approved data; no assumed equipment control.\nOutput – interface contracts, reconciled status and failed-message handling.",
+     "bullets": "Boundary - read and exchange approved data; no assumed equipment control.\nOutput - interface contracts, reconciled status and failed-message handling.",
      "footLabel": "Measure to agree",
      "footText": "Status freshness, reconciliation effort and integration exceptions.",
      "href": "/services/digital-transformation/integration-services",
@@ -138,7 +138,7 @@
      "title": "Quality records and exceptions",
      "description": "When quality evidence is scattered, connect inspection records, document approvals and corrective-action routing.",
      "accent": "blue",
-     "bullets": "Control – quality teams review exceptions and retain disposition authority.\nOutput – traceable records and an agreed approval workflow.",
+     "bullets": "Control - quality teams review exceptions and retain disposition authority.\nOutput - traceable records and an agreed approval workflow.",
      "footLabel": "Measure to agree",
      "footText": "Record completeness, approval time and exception rework.",
      "href": "/products-and-accelerators/linkworks",
@@ -148,7 +148,7 @@
      "title": "Asset maintenance and supply insight",
      "description": "When asset history and spare-parts availability are disconnected, combine equipment, maintenance and inventory data for planning.",
      "accent": "purple",
-     "bullets": "Prerequisite – usable history, known data freshness and model validation.\nControl – maintenance teams approve interventions; suppliers remain connected through agreed interfaces.",
+     "bullets": "Prerequisite - usable history, known data freshness and model validation.\nControl - maintenance teams approve interventions; suppliers remain connected through agreed interfaces.",
      "footLabel": "Measure to agree",
      "footText": "Maintenance planning accuracy and parts-availability exceptions.",
      "href": "/products-and-accelerators/digital-twin-suite",
@@ -174,7 +174,7 @@
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore Linkworks",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks logo"
      }
     },
@@ -202,7 +202,7 @@
      "href": "/products-and-accelerators/testoriumz",
      "linkLabel": "Explore testoriumz",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz logo"
      }
     },
@@ -232,13 +232,13 @@
      "title": "Map the production-to-enterprise flow",
      "description": "An example engagement starts with the process, ERP and approved shop-floor interfaces. Define data contracts, owners and a read/write boundary.",
      "accent": "orange",
-     "bullets": "Artefacts – workflow map and integration architecture\nDecisions – plant scope, dependencies and responsibility matrix"
+     "bullets": "Artefacts - workflow map and integration architecture\nDecisions - plant scope, dependencies and responsibility matrix"
     },
     {
      "title": "Agree quality and acceptance gates",
      "description": "Assess data readiness, review predictive models and test application changes before release. Operational teams retain quality and maintenance decisions.",
      "accent": "teal",
-     "bullets": "Artefacts – validation plan, regression evidence and release checklist\nMeasures – baseline, evaluation period and acceptance criteria"
+     "bullets": "Artefacts - validation plan, regression evidence and release checklist\nMeasures - baseline, evaluation period and acceptance criteria"
     },
     {
      "title": "Choose a delivery model",

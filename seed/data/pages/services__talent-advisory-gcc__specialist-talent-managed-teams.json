@@ -122,13 +122,13 @@
     {
      "title": "You direct delivery",
      "description": "Specialists embedded in your teams, with delivery direction retained by you.",
-     "bullets": "Best fit – a specific capability or capacity gap in a client-led team\nYour responsibility – backlog priorities, daily direction and acceptance of work\nLinkfields scope – specialist sourcing and onboarding support as agreed",
+     "bullets": "Best fit - a specific capability or capacity gap in a client-led team\nYour responsibility - backlog priorities, daily direction and acceptance of work\nLinkfields scope - specialist sourcing and onboarding support as agreed",
      "accent": "yellow"
     },
     {
      "title": "Agree the working boundaries",
      "description": "Define the role, skills evidence and working arrangements before mobilisation.",
-     "bullets": "Governance – named contacts, review cadence and escalation route\nAcceptance – your delivery standards and review process\nChange – agree role, capacity or replacement requests through the engagement process",
+     "bullets": "Governance - named contacts, review cadence and escalation route\nAcceptance - your delivery standards and review process\nChange - agree role, capacity or replacement requests through the engagement process",
      "accent": "yellow"
     }
    ],
@@ -148,13 +148,13 @@
     {
      "title": "Linkfields runs the delivery pod",
      "description": "Outcome-based delivery pods we run end to end, within the scope and responsibilities agreed for the engagement.",
-     "bullets": "Best fit – a defined delivery need you want a team to own\nLinkfields responsibility – team coordination and delivery of agreed scope\nYour responsibility – business priorities, timely decisions, inputs and acceptance",
+     "bullets": "Best fit - a defined delivery need you want a team to own\nLinkfields responsibility - team coordination and delivery of agreed scope\nYour responsibility - business priorities, timely decisions, inputs and acceptance",
      "accent": "yellow"
     },
     {
      "title": "Make accountability explicit",
      "description": "Agree delivery measures, quality gates and change handling before work enters the pod.",
-     "bullets": "Governance – progress, risks, dependencies and escalation reviews\nAcceptance – agreed deliverables and evidence at review gates\nChange – assess scope, effort and acceptance impacts before approval",
+     "bullets": "Governance - progress, risks, dependencies and escalation reviews\nAcceptance - agreed deliverables and evidence at review gates\nChange - assess scope, effort and acceptance impacts before approval",
      "accent": "yellow"
     }
    ]
@@ -172,25 +172,25 @@
     {
      "title": "Define the capability brief",
      "description": "Describe the work, constraints and responsibilities the team needs to cover.",
-     "bullets": "Output – capability and responsibility brief",
+     "bullets": "Output - capability and responsibility brief",
      "accent": "yellow"
     },
     {
      "title": "Agree the model",
      "description": "Choose client-directed specialists or a Linkfields-managed delivery pod.",
-     "bullets": "Output – accountability, acceptance and commercial agreement",
+     "bullets": "Output - accountability, acceptance and commercial agreement",
      "accent": "yellow"
     },
     {
      "title": "Select and onboard",
      "description": "Agree skills validation, access, induction and ways of working before delivery.",
-     "bullets": "Output – selection and onboarding plan",
+     "bullets": "Output - selection and onboarding plan",
      "accent": "yellow"
     },
     {
      "title": "Deliver and review",
      "description": "Review progress, quality, capacity and change requests against agreed priorities.",
-     "bullets": "Output – performance and change record",
+     "bullets": "Output - performance and change record",
      "accent": "yellow"
     }
    ],
@@ -213,7 +213,7 @@
      "bullets": "",
      "accent": "yellow",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -225,7 +225,7 @@
      "bullets": "",
      "accent": "yellow",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -234,7 +234,7 @@
     {
      "title": "Governed, cyber-safe delivery",
      "description": "Agree access boundaries, code and release reviews, quality evidence and escalation responsibilities.",
-     "bullets": "Applicable IP – Automated Testing & Release Assurance Packs and Cyber-Safe Delivery\nScope question – who configures, operates and accepts each control?",
+     "bullets": "Applicable IP - Automated Testing & Release Assurance Packs and Cyber-Safe Delivery\nScope question - who configures, operates and accepts each control?",
      "accent": "yellow",
      "href": "/products-and-accelerators/delivery-accelerators",
      "linkLabel": "Explore delivery accelerators"

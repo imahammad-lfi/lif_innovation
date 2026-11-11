@@ -12,7 +12,7 @@
   {
    "__component": "sections.page-hero",
    "title": "Telecom",
-   "subtitle": "Connect customer journeys, modernise telecom applications and automate service operations—secure by design.",
+   "subtitle": "Connect customer journeys, modernise telecom applications and automate service operations - secure by design.",
    "backgroundImage": {
     "__media": "custom/hero-whatsapp-omnichannel.jpg",
     "alt": "Telecom service and operations context"
@@ -114,7 +114,7 @@
      "title": "Billing and reconciliation exceptions",
      "description": "When billing records and payment status diverge, teams need a reviewable exception queue.",
      "accent": "blue",
-     "bullets": "Workflow – Connect billing and finance inputs; route mismatches with supporting records.\nControl – Finance owners approve corrections; access and change history remain traceable.",
+     "bullets": "Workflow - Connect billing and finance inputs; route mismatches with supporting records.\nControl - Finance owners approve corrections; access and change history remain traceable.",
      "footLabel": "Measure to agree",
      "footText": "Exception age, manual rework and reconciliation completeness.",
      "href": "/services/digital-transformation/integration-services",
@@ -124,7 +124,7 @@
      "title": "Customer-service hand-offs",
      "description": "When enquiries move between channels, context and ownership can be lost.",
      "accent": "orange",
-     "bullets": "Workflow – Connect CRM and service channels with case status and escalation paths.\nControl – Service teams own escalations; approved knowledge and access rules guide responses.",
+     "bullets": "Workflow - Connect CRM and service channels with case status and escalation paths.\nControl - Service teams own escalations; approved knowledge and access rules guide responses.",
      "footLabel": "Measure to agree",
      "footText": "Hand-off completion, repeat contacts and resolution time.",
      "href": "/services/digital-transformation/whatsapp-omnichannel",
@@ -134,7 +134,7 @@
      "title": "Legacy application modernisation",
      "description": "When older applications constrain change, begin with dependencies rather than a wholesale rebuild.",
      "accent": "teal",
-     "bullets": "Workflow – Map APIs, rebuild selected components and integrate regression checks into releases.\nControl – Engineering owners approve quality and security gates before deployment.",
+     "bullets": "Workflow - Map APIs, rebuild selected components and integrate regression checks into releases.\nControl - Engineering owners approve quality and security gates before deployment.",
      "footLabel": "Measure to agree",
      "footText": "Regression coverage, release defects and interface reliability.",
      "href": "/services/digital-transformation/app-modernisation",
@@ -144,7 +144,7 @@
      "title": "Churn and segmentation insight",
      "description": "When customer and usage data is fragmented, prediction needs a governed foundation.",
      "accent": "purple",
-     "bullets": "Workflow – Prepare permitted data and evaluate churn or segmentation models for analyst review.\nControl – Agree data rights, model validation and limits on automated action.",
+     "bullets": "Workflow - Prepare permitted data and evaluate churn or segmentation models for analyst review.\nControl - Agree data rights, model validation and limits on automated action.",
      "footLabel": "Measure to agree",
      "footText": "Model performance, data quality and analyst adoption.",
      "href": "/products-and-accelerators/predictive-analytics-suite",
@@ -168,7 +168,7 @@
      "accent": "orange",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -180,7 +180,7 @@
      "accent": "orange",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -192,7 +192,7 @@
      "accent": "teal",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX logo"
      },
      "href": "/products-and-accelerators/vectorx",
@@ -216,7 +216,7 @@
      "accent": "teal",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX logo"
      },
      "href": "/products-and-accelerators/vajrax",
@@ -238,21 +238,21 @@
      "title": "Frame the workflow",
      "description": "Start with one billing, support or application-change constraint and its accountable owner.",
      "accent": "orange",
-     "bullets": "Inputs – current applications, interface inventory and process samples\nOutput – prioritised workflow and dependency map",
+     "bullets": "Inputs - current applications, interface inventory and process samples\nOutput - prioritised workflow and dependency map",
      "number": "01"
     },
     {
      "title": "Design controlled change",
      "description": "Agree customer-data access, escalation ownership and quality/security gates. Churn work depends on usable history and model validation.",
      "accent": "teal",
-     "bullets": "Artefacts – interface map, access matrix and review checkpoints\nQuality gate – agreed tests and exception handling",
+     "bullets": "Artefacts - interface map, access matrix and review checkpoints\nQuality gate - agreed tests and exception handling",
      "number": "02"
     },
     {
      "title": "Agree acceptance and operation",
      "description": "Define a baseline for the selected service or release measure, acceptance criteria and operating ownership.",
      "accent": "blue",
-     "bullets": "Artefacts – acceptance measures, release evidence and ownership plan\nCommercial model – project, managed service or dedicated team",
+     "bullets": "Artefacts - acceptance measures, release evidence and ownership plan\nCommercial model - project, managed service or dedicated team",
      "number": "03",
      "href": "/company/our-approach",
      "linkLabel": "Explore our approach"

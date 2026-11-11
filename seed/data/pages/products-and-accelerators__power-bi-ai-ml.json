@@ -68,19 +68,19 @@
     {
      "title": "AI/ML in Power BI",
      "description": "Adapt model-output integration to the agreed data contract and reporting environment.",
-     "bullets": "Reuse scope – analytics integration IP\nConfigure – model source, measures and refresh\nOutput – predictions beside business measures",
+     "bullets": "Reuse scope - analytics integration IP\nConfigure - model source, measures and refresh\nOutput - predictions beside business measures",
      "accent": "purple"
     },
     {
      "title": "Predictive dashboards",
      "description": "Build a forecast view that gives users the context needed for planning.",
-     "bullets": "Reuse scope – predictive reporting IP\nConfigure – horizon, actuals and forecast context\nOutput – actual and forecast comparison",
+     "bullets": "Reuse scope - predictive reporting IP\nConfigure - horizon, actuals and forecast context\nOutput - actual and forecast comparison",
      "accent": "purple"
     },
     {
      "title": "Risk scoring visuals",
      "description": "Build a risk-review view that lets authorised users compare and prioritise cases.",
-     "bullets": "Reuse scope – risk reporting IP\nConfigure – score context and review criteria\nOutput – prioritised risk-review view",
+     "bullets": "Reuse scope - risk reporting IP\nConfigure - score context and review criteria\nOutput - prioritised risk-review view",
      "accent": "purple"
     }
    ],
@@ -100,28 +100,28 @@
     {
      "title": "User and decision brief",
      "description": "Identify report users, their decisions and the actions a forecast or score should support.",
-     "bullets": "Reuse – applicable reporting IP\nAccept – user and decision brief",
+     "bullets": "Reuse - applicable reporting IP\nAccept - user and decision brief",
      "accent": "purple",
      "number": "01"
     },
     {
      "title": "Model and data contract",
      "description": "Check output meaning, data access, model limitations and refresh needs.",
-     "bullets": "Tailor – source and measure definitions\nAccept – validated model/data contract",
+     "bullets": "Tailor - source and measure definitions\nAccept - validated model/data contract",
      "accent": "purple",
      "number": "02"
     },
     {
      "title": "Configured report",
      "description": "Configure views and test the reporting environment before user review.",
-     "bullets": "Tailor – report, refresh and permissions\nAccept – refresh and security test results",
+     "bullets": "Tailor - report, refresh and permissions\nAccept - refresh and security test results",
      "accent": "purple",
      "number": "03"
     },
     {
      "title": "User acceptance and handover",
      "description": "Validate interpretation with users and assign model/report monitoring owners.",
-     "bullets": "Tailor – training and operating guidance\nAccept – user sign-off and handover",
+     "bullets": "Tailor - training and operating guidance\nAccept - user sign-off and handover",
      "accent": "purple",
      "number": "04"
     }
@@ -142,19 +142,19 @@
     {
      "title": "Platform and data",
      "description": "Confirm that the reporting environment can support the intended use and data access.",
-     "bullets": "Agree – Power BI licensing and capacity\nCheck – data permissions and source access\nDefine – refresh mode and reporting scope",
+     "bullets": "Agree - Power BI licensing and capacity\nCheck - data permissions and source access\nDefine - refresh mode and reporting scope",
      "accent": "purple"
     },
     {
      "title": "Model source and hosting",
      "description": "Decide whether the model is already available or needs a separate development scope.",
-     "bullets": "Identify – model owner and output contract\nAgree – hosting and integration boundary\nRecord – limitations and validation evidence",
+     "bullets": "Identify - model owner and output contract\nAgree - hosting and integration boundary\nRecord - limitations and validation evidence",
      "accent": "purple"
     },
     {
      "title": "Security and support",
      "description": "Keep access and ownership clear across reports, data and model outputs.",
-     "bullets": "Agree – permissions and row-level security\nTest – refresh and authorised access\nName – report, model and support owners",
+     "bullets": "Agree - permissions and row-level security\nTest - refresh and authorised access\nName - report, model and support owners",
      "accent": "purple"
     }
    ],

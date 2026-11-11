@@ -22,11 +22,11 @@ export default function NotFound() {
       <div aria-hidden className="pointer-events-none absolute -bottom-48 -left-32 -z-10 size-[420px] rounded-full bg-[#6A8BFF]/[0.08] blur-[130px]" />
       <div className="mx-auto flex max-w-[1100px] flex-col gap-10 xl:gap-12">
         <div className="flex flex-col gap-5">
-          <span className="font-sans text-[11.5px] font-semibold uppercase tracking-[0.28em] text-brand">Error 404</span>
-          <h1 className="max-w-[760px] font-heading text-[34px] font-semibold leading-[1.1] tracking-[-0.02em] xl:text-[52px]">
+          <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.28em] text-brand">Error 404</span>
+          <h1 className="max-w-[760px] font-heading text-[27.5px] font-semibold leading-[1.1] tracking-[-0.02em] xl:text-[46px]">
             We couldn&rsquo;t find that page
           </h1>
-          <p className="max-w-[620px] font-sans text-[15px] leading-[1.65] text-white/70 xl:text-[17px]">
+          <p className="max-w-[620px] font-sans text-[14px] leading-[1.65] text-white/70 xl:text-[15.5px]">
             The link may have changed or the page may have moved. Explore our portfolios, or tell us what you are looking for.
           </p>
           <div className="mt-2 flex flex-wrap gap-3">
@@ -49,11 +49,11 @@ export default function NotFound() {
               href={r.href}
               className="group flex flex-col gap-1.5 rounded-2xl border border-white/10 bg-white/[0.04] p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-brand/40 hover:bg-white/[0.07]"
             >
-              <span className="flex items-center justify-between font-heading text-[16px] font-semibold">
+              <span className="flex items-center justify-between font-heading text-[14.5px] font-semibold">
                 {r.label}
                 <ArrowRight aria-hidden className="size-4 text-brand transition-transform duration-300 group-hover:translate-x-0.5" />
               </span>
-              <span className="font-sans text-[13.5px] text-white/60">{r.note}</span>
+              <span className="font-sans text-[13px] text-white/60">{r.note}</span>
             </Link>
           ))}
         </nav>

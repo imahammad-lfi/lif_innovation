@@ -17,7 +17,7 @@ export function ProcessGrid({ data }: SectionProps<Data>) {
     : cards;
 
   return (
-    <section className="relative isolate overflow-hidden bg-ink px-gutter py-24 text-white 3xl:py-[120px] max-[768px]:py-16">
+    <section className="relative isolate overflow-hidden bg-ink px-gutter py-24 text-white 3xl:py-28 max-[768px]:py-16">
       <CmsImage media={data.backgroundImage} alt="" fill sizes="100vw" className="-z-20 object-cover" />
       <div className="absolute inset-0 -z-10 bg-ink/80" />
       <div className="mb-12 max-[768px]:mb-8">
@@ -32,10 +32,10 @@ export function ProcessGrid({ data }: SectionProps<Data>) {
                   <CmsImage media={card.icon} alt="" width={24} height={24} className="size-6 object-contain max-[768px]:size-5" />
                 </div>
               ) : null}
-              <h3 className="font-heading text-[18px] font-semibold leading-[1.35] text-white 3xl:text-[20px] max-[768px]:text-[16px]">{card.title}</h3>
+              <h3 className="font-heading text-[16.5px] font-semibold leading-[1.35] text-white 3xl:text-[18px] max-[768px]:text-[14.5px]">{card.title}</h3>
             </div>
             <div className="my-5 h-px w-full bg-white/[0.07] max-[768px]:my-4" />
-            <p className="max-w-[68ch] font-sans text-[15px] leading-[1.65] text-white/65 3xl:text-[16px] max-[768px]:text-[14.5px]">{card.description}</p>
+            <p className="max-w-[68ch] font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[14.5px] max-[768px]:text-[13.5px]">{card.description}</p>
           </article>
         ) : (
           <div key={`center-${index}`} className="w-full max-w-[220px] justify-self-center self-center py-6 max-[768px]:max-w-[180px]">

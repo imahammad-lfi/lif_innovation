@@ -167,7 +167,7 @@
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore Linkworks",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "links": [
@@ -191,7 +191,7 @@
      "href": "/products-and-accelerators/testoriumz",
      "linkLabel": "Explore testoriumz",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "links": [

@@ -127,19 +127,19 @@
      "title": "Acquisition integration",
      "description": "Decide which processes and systems to harmonise, retain or consolidate.",
      "accent": "blue",
-     "bullets": "Input – acquired estate and operating model\nOutput – integration and master-data plan\nControl – Process and data owners approve changes before release."
+     "bullets": "Input - acquired estate and operating model\nOutput - integration and master-data plan\nControl - Process and data owners approve changes before release."
     },
     {
      "title": "Divestiture & carve-out",
      "description": "Define the business and data to separate, including shared-service dependencies.",
      "accent": "blue",
-     "bullets": "Input – separation perimeter and obligations\nOutput – selective data and interface plan\nControl – Approve access, retention, reconciliation and transition ownership."
+     "bullets": "Input - separation perimeter and obligations\nOutput - selective data and interface plan\nControl - Approve access, retention, reconciliation and transition ownership."
     },
     {
      "title": "Template-led rollouts",
      "description": "Balance a global process template with local operational and reporting requirements.",
      "accent": "blue",
-     "bullets": "Input – template, sites and local needs\nOutput – rollout waves and exception register\nControl – Template owners govern local variations and master data."
+     "bullets": "Input - template, sites and local needs\nOutput - rollout waves and exception register\nControl - Template owners govern local variations and master data."
     }
    ]
   },
@@ -158,28 +158,28 @@
      "description": "Baseline processes, custom code, interfaces and data. Agree the target and migration approach.",
      "accent": "blue",
      "number": "01",
-     "bullets": "Gate – Approved fit-gap, dependency register and readiness actions."
+     "bullets": "Gate - Approved fit-gap, dependency register and readiness actions."
     },
     {
      "title": "Design & prepare",
      "description": "Configure agreed processes, define extensions and prepare rehearsal environments and data rules.",
      "accent": "blue",
      "number": "02",
-     "bullets": "Gate – Approved design, role model and migration mappings."
+     "bullets": "Gate - Approved design, role model and migration mappings."
     },
     {
      "title": "Validate & cut over",
      "description": "Rehearse loads, reconcile data and test critical processes with business users.",
      "accent": "blue",
      "number": "03",
-     "bullets": "Gate – Accepted regression evidence, cutover and recovery runbook."
+     "bullets": "Gate - Accepted regression evidence, cutover and recovery runbook."
     },
     {
      "title": "Enable & operate",
      "description": "Train users, transfer knowledge and prioritise post-launch changes with the service owner.",
      "accent": "blue",
      "number": "04",
-     "bullets": "Gate – Accepted adoption plan, handover and improvement backlog."
+     "bullets": "Gate - Accepted adoption plan, handover and improvement backlog."
     }
    ]
   },
@@ -199,7 +199,7 @@
      "accent": "blue",
      "bullets": "Microservices, REST APIs and composable UI\nCloud-native delivery with DevSecOps",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -209,7 +209,7 @@
      "title": "Migration and release assurance",
      "description": "Select reusable packs for the estate and release risks identified during discovery.",
      "accent": "blue",
-     "bullets": "Readiness – dependencies and decision log\nReconciliation – totals, exceptions and owners\nRegression – scenarios, results and sign-off",
+     "bullets": "Readiness - dependencies and decision log\nReconciliation - totals, exceptions and owners\nRegression - scenarios, results and sign-off",
      "href": "/products-and-accelerators/delivery-accelerators",
      "linkLabel": "Explore delivery accelerators"
     }

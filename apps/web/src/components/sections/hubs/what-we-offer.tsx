@@ -48,9 +48,9 @@ export function WhatWeOffer({ data }: SectionProps<Data>) {
               ) : null}
               <div className="flex flex-1 flex-col px-3 pb-3 pt-5">
                 {card.title ? (
-                  <h3 className="font-heading text-[18.5px] font-semibold leading-[1.25] tracking-[-0.01em] text-white xl:text-[19.5px] 3xl:text-[21px]">{card.title}</h3>
+                  <h3 className="font-heading text-[16.5px] font-semibold leading-[1.25] tracking-[-0.01em] text-white xl:text-[18px] 3xl:text-[18px]">{card.title}</h3>
                 ) : null}
-                <Markdown className="mt-3 flex flex-col gap-3 break-words font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[15px] [&_a]:font-semibold [&_a]:text-[var(--acc)] [&_a:hover]:underline [&_li]:marker:text-[var(--acc)] [&_strong]:font-semibold [&_strong]:text-white/90 [&_ul]:list-disc [&_ul]:space-y-1 [&_ul]:pl-5">
+                <Markdown className="mt-3 flex flex-col gap-3 break-words font-sans text-[13.5px] leading-[1.65] text-white/65 3xl:text-[14px] [&_a]:font-semibold [&_a]:text-[var(--acc)] [&_a:hover]:underline [&_li]:marker:text-[var(--acc)] [&_strong]:font-semibold [&_strong]:text-white/90 [&_ul]:list-disc [&_ul]:space-y-1 [&_ul]:pl-5">
                   {card.description}
                 </Markdown>
                 {card.cta?.href ? (

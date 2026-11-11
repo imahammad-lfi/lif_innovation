@@ -114,7 +114,7 @@
      "title": "Patient enquiries and appointments",
      "description": "Disconnected enquiry and appointment channels can leave administrative teams without a shared case view.",
      "accent": "orange",
-     "bullets": "Workflow – Connect service requests, appointment status and staff hand-offs.\nControl – Staff own scheduling and escalation; agree permitted data and role-based access.",
+     "bullets": "Workflow - Connect service requests, appointment status and staff hand-offs.\nControl - Staff own scheduling and escalation; agree permitted data and role-based access.",
      "footLabel": "Measure to agree",
      "footText": "Hand-off completion, repeat enquiries and administrative cycle time.",
      "href": "/services/digital-transformation/whatsapp-omnichannel",
@@ -124,7 +124,7 @@
      "title": "Health application and data integration",
      "description": "Administrative applications need consistent data flows without broadening access to sensitive records.",
      "accent": "teal",
-     "bullets": "Workflow – Map interfaces, transform permitted data and route quality exceptions to system owners.\nControl – Agree consent/access requirements, data boundaries and accountable source ownership.",
+     "bullets": "Workflow - Map interfaces, transform permitted data and route quality exceptions to system owners.\nControl - Agree consent/access requirements, data boundaries and accountable source ownership.",
      "footLabel": "Measure to agree",
      "footText": "Interface reliability, data quality and exception resolution.",
      "href": "/services/digital-transformation/integration-services",
@@ -134,7 +134,7 @@
      "title": "Pharma supply visibility",
      "description": "Procurement, inventory and distribution records can leave supply teams with different views of stock.",
      "accent": "blue",
-     "bullets": "Workflow – Connect purchase orders, stock movements and distribution status for exception review.\nControl – Supply owners validate records and actions; agree access and data freshness.",
+     "bullets": "Workflow - Connect purchase orders, stock movements and distribution status for exception review.\nControl - Supply owners validate records and actions; agree access and data freshness.",
      "footLabel": "Measure to agree",
      "footText": "Inventory reconciliation, exception age and fulfilment visibility.",
      "href": "/services/intelligent-enterprise-platforms",
@@ -144,7 +144,7 @@
      "title": "Controlled documents and approvals",
      "description": "Operational documents and approval queues need clear versions, access and reviewer accountability.",
      "accent": "purple",
-     "bullets": "Workflow – Use document intelligence to find source content and workflow automation to route operational approvals.\nControl – Named reviewers approve changes; retain source references and decision records.",
+     "bullets": "Workflow - Use document intelligence to find source content and workflow automation to route operational approvals.\nControl - Named reviewers approve changes; retain source references and decision records.",
      "footLabel": "Measure to agree",
      "footText": "Approval turnaround, rework and record completeness.",
      "href": "/products-and-accelerators/textiq",
@@ -168,7 +168,7 @@
      "accent": "orange",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -180,7 +180,7 @@
      "accent": "purple",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ logo"
      },
      "href": "/products-and-accelerators/textiq",
@@ -204,7 +204,7 @@
      "accent": "orange",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -226,21 +226,21 @@
      "title": "Frame the workflow",
      "description": "Select an administrative or pharmaceutical supply workflow and the staff responsible for it.",
      "accent": "orange",
-     "bullets": "Inputs – application map, permitted data flows and redacted process samples\nOutput – prioritised workflow and integration scope",
+     "bullets": "Inputs - application map, permitted data flows and redacted process samples\nOutput - prioritised workflow and integration scope",
      "number": "01"
     },
     {
      "title": "Design controlled change",
      "description": "Agree consent and access requirements, human approval points and evidence needs with the responsible teams.",
      "accent": "teal",
-     "bullets": "Artefacts – interface map, access matrix and review checkpoints\nQuality gate – agreed tests and exception handling",
+     "bullets": "Artefacts - interface map, access matrix and review checkpoints\nQuality gate - agreed tests and exception handling",
      "number": "02"
     },
     {
      "title": "Agree acceptance and operation",
      "description": "Define an administrative or supply baseline, data-quality checks and acceptance measures. Any clinical, interoperability or pharma validation scope needs separate assessment.",
      "accent": "blue",
-     "bullets": "Artefacts – acceptance measures, release evidence and ownership plan\nCommercial model – project, managed service or dedicated team",
+     "bullets": "Artefacts - acceptance measures, release evidence and ownership plan\nCommercial model - project, managed service or dedicated team",
      "number": "03",
      "href": "/company/our-approach",
      "linkLabel": "Explore our approach"

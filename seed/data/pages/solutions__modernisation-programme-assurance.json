@@ -194,7 +194,7 @@
      "description": "Composable enterprise applications, microservices and REST APIs where ERP or CRM does not fit.",
      "accent": "blue",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -205,7 +205,7 @@
      "description": "Continuous testing, low-code automation and CI/CD integration for regression and release decisions.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",

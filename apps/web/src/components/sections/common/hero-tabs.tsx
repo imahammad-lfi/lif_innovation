@@ -5,7 +5,7 @@ import { createPortal } from "react-dom";
 import type { AnchorLink } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 import { CONTACT_SECTION_ID, openContactDialog } from "@/lib/contact-dialog";
-import { dockHeight, headerHeight, sectionScrollTop } from "@/lib/landing";
+import { dockHeight, dockedScrollTop, headerHeight } from "@/lib/landing";
 import { byId } from "@/lib/dom";
 
 const noopSubscribe = () => () => undefined;
@@ -49,9 +49,7 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
     let current: string | null = null;
     for (const l of links) {
       const el = byId(l.targetId);
-      // Current once its top passes the line, or once the page is at (or past) its landing position, which can sit
-      // a little higher when the landing keeps a card row whole below the fold.
-      if (el && (el.getBoundingClientRect().top <= line || sectionScrollTop(el) <= window.scrollY + 2)) current = l.targetId;
+      if (el && el.getBoundingClientRect().top <= line) current = l.targetId;
     }
     const scrollable = range > 200;
     const atBottom = scrollable && window.innerHeight + window.scrollY >= doc.scrollHeight - 4;
@@ -115,8 +113,7 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
     const el = byId(id);
     if (!el) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    // Same fit-to-screen landing as menu/footer #links (lib/landing): heading under the chrome, no half cards.
-    const target = () => sectionScrollTop(el);
+    const target = () => dockedScrollTop(el);
     lockUntil.current = Date.now() + (reduce ? 120 : 1100);
     setActive(id);
     window.scrollTo({ top: target(), behavior: reduce ? "auto" : "smooth" });
@@ -165,9 +162,9 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
         className={cn(
           "relative shrink-0 cursor-pointer whitespace-nowrap rounded-full font-heading font-semibold uppercase transition-[background-color,color,transform,box-shadow] duration-200 hover:scale-[1.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/70 motion-reduce:hover:scale-100",
           variant === "hero"
-            ? "px-4 py-2 text-[11.5px] tracking-[0.1em] xl:px-5 xl:py-2.5 xl:text-[12.5px] 3xl:px-6 3xl:text-[13.5px]"
+            ? "px-4 py-2 text-[11px] tracking-[0.1em] xl:px-5 xl:py-2.5 xl:text-[12px] 3xl:px-6 3xl:text-[13px]"
             : // Docked: compact so every tab and the full page name fit on one line at desktop widths.
-              "px-3.5 py-[7px] text-[11px] tracking-[0.07em] xl:px-3 2xl:px-3.5 2xl:text-[11.5px] 3xl:px-5 3xl:text-[12.5px] 3xl:tracking-[0.08em]",
+              "px-3.5 py-[7px] text-[11px] tracking-[0.07em] xl:px-3 2xl:px-3.5 2xl:text-[11px] 3xl:px-5 3xl:text-[12px] 3xl:tracking-[0.08em]",
           on
             ? "bg-brand-gradient text-white shadow-[0_8px_22px_-10px_rgba(255,120,0,0.9),inset_0_1px_0_rgba(255,255,255,0.22)]"
             : "text-white/75 hover:bg-white/10 hover:text-white",
@@ -194,20 +191,20 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
         aria-label="On this page (pinned)"
         aria-hidden={!docked}
         className={cn(
-          "fixed inset-x-0 top-[72px] z-[150] border-b border-white/[0.08] bg-[#07090f]/85 shadow-[0_12px_30px_-18px_rgba(0,0,0,0.9)] backdrop-blur-xl max-sm:top-[64px] 3xl:top-[84px]",
+          "fixed inset-x-0 top-[var(--hdr-h)] z-[150] border-b border-white/[0.08] bg-[#07090f]/85 shadow-[0_12px_30px_-18px_rgba(0,0,0,0.9)] backdrop-blur-xl",
           // Animate in when docking; disappear at once when the hero bar is back, so two bars never show together.
           docked
-            ? "visible translate-y-0 opacity-100 transition-[transform,opacity] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none"
+            ? "visible translate-y-0 opacity-100 transition-[transform,opacity,top] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none"
             : "pointer-events-none invisible -translate-y-3 opacity-0 transition-none",
         )}
       >
         <span aria-hidden className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand/40 to-transparent" />
-        <div className="relative flex h-[52px] items-center max-sm:h-12 xl:grid xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] xl:gap-5 xl:px-gutter">
+        <div className="relative flex h-[52px] items-center max-sm:h-12 xl:grid xl:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] xl:gap-5 xl:px-gutter-nav">
           {/* Page name: full name on one line, or two short lines on narrower desktops; hidden rather than cut off. */}
           <div className="@container hidden min-w-0 xl:block">
             <div className="hidden min-w-0 items-center gap-2.5 @min-[130px]:flex">
               <span aria-hidden className="h-4 w-[3px] shrink-0 rounded-full bg-[linear-gradient(180deg,#ffa033,#ff7800_55%,#ec5a06)]" />
-              <span title={title ?? undefined} className="line-clamp-2 font-heading text-[13px] font-semibold leading-[1.25] text-white/90 @max-[200px]:text-[12px] 3xl:text-[14px]">{title}</span>
+              <span title={title ?? undefined} className="line-clamp-2 font-heading text-[12.5px] font-semibold leading-[1.25] text-white/90 @max-[200px]:text-[12px] 3xl:text-[13.5px]">{title}</span>
             </div>
           </div>
           <div
@@ -219,7 +216,7 @@ export function HeroTabs({ links, title }: { links: AnchorLink[]; title?: string
           </div>
           <div className="@container hidden min-w-0 xl:block">
             <div className="hidden items-center justify-end gap-3 @min-[110px]:flex">
-              <span className="font-heading text-[11px] font-semibold uppercase tabular-nums tracking-[0.14em] text-white/45 3xl:text-[12px]">
+              <span className="font-heading text-[11px] font-semibold uppercase tabular-nums tracking-[0.14em] text-white/45 3xl:text-[11.5px]">
                 <span className="sr-only">Section </span>
                 <span className="text-white">{pad(index + 1)}</span>
                 <span aria-hidden> / </span>

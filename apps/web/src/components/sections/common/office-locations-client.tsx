@@ -110,21 +110,21 @@ export function OfficeLocationsClient({ offices, showMap = true }: { offices: Of
                     <span aria-hidden className="grid size-11 place-items-center rounded-full bg-brand-gradient text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.7)]">
                       <MapPin className="size-5" />
                     </span>
-                    <p className="mt-4 font-heading text-[17px] font-semibold text-white">Linkfields {current.country}</p>
-                    <p className="mt-2 font-sans text-[13px] leading-[1.6] text-white/70">
+                    <p className="mt-4 font-heading text-[15.5px] font-semibold text-white">Linkfields {current.country}</p>
+                    <p className="mt-2 font-sans text-[12.5px] leading-[1.6] text-white/70">
                       The interactive map is provided by Google Maps. Loading it shares your IP address with Google, which may set its own cookies.
                     </p>
-                    <button type="button" onClick={allowMap} className="btn-primary mt-5 h-11 px-6 text-[14px]">
+                    <button type="button" onClick={allowMap} className="btn-primary mt-5 h-11 px-6 text-[13.5px]">
                       Show map
                     </button>
-                    <p className="mt-3 font-sans text-[11.5px] text-white/55">We&rsquo;ll remember this choice on this device.</p>
+                    <p className="mt-3 font-sans text-[12px] text-white/55">We&rsquo;ll remember this choice on this device.</p>
                   </div>
                 </div>
               )}
               <span aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-[2px] bg-[linear-gradient(90deg,var(--acc),transparent_80%)]" />
             </div>
             <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 border-t border-white/[0.08] bg-[#0b1020]/95 px-4 py-3 backdrop-blur sm:px-5">
-              <p className="flex min-w-0 items-center gap-2 font-heading text-[14px] font-semibold text-white">
+              <p className="flex min-w-0 items-center gap-2 font-heading text-[13.5px] font-semibold text-white">
                 <MapPin aria-hidden className="size-4 shrink-0 text-[var(--acc)]" />
                 <span className="truncate">
                   Linkfields {current.country}
@@ -135,7 +135,7 @@ export function OfficeLocationsClient({ offices, showMap = true }: { offices: Of
                 href={mapSearchUrl(current)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover-grow inline-flex items-center gap-1.5 font-heading text-[13px] font-semibold text-[var(--acc)]"
+                className="hover-grow inline-flex items-center gap-1.5 font-heading text-[12.5px] font-semibold text-[var(--acc)]"
               >
                 Open in Google Maps
                 <ArrowUpRight aria-hidden className="size-3.5" />
@@ -168,13 +168,13 @@ export function OfficeLocationsClient({ offices, showMap = true }: { offices: Of
               >
                 <span className="flex w-full items-center gap-2">
                   <span aria-hidden className="size-2 shrink-0 rounded-full bg-[var(--acc)] shadow-[0_0_10px_var(--acc)]" />
-                  <span className="font-heading text-[15.5px] font-semibold leading-[1.3] text-white 3xl:text-[16.5px]">{o.country}</span>
+                  <span className="font-heading text-[14.5px] font-semibold leading-[1.3] text-white 3xl:text-[14.5px]">{o.country}</span>
                   {o.isHeadquarters ? (
                     <span className="ml-auto rounded-full bg-brand-gradient px-2 py-0.5 font-sans text-[11px] font-bold uppercase tracking-[0.14em] text-white">HQ</span>
                   ) : null}
                 </span>
                 {o.role ? <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.12em] text-[var(--acc)]">{o.role}</span> : null}
-                <address className="font-sans text-[13px] not-italic leading-[1.55] text-white/65 3xl:text-[14px]">
+                <address className="font-sans text-[12.5px] not-italic leading-[1.55] text-white/65 3xl:text-[13.5px]">
                   {officeLines(o).map((l) => (
                     <span key={l} className="block">
                       {l}
@@ -187,7 +187,7 @@ export function OfficeLocationsClient({ offices, showMap = true }: { offices: Of
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={`Directions to Linkfields ${o.country} (opens Google Maps)`}
-                className="hover-grow mx-4 mb-4 mt-1 inline-flex w-fit origin-left items-center gap-1.5 font-heading text-[12.5px] font-semibold text-[var(--acc)] sm:mx-5 sm:mb-5"
+                className="hover-grow mx-4 mb-4 mt-1 inline-flex w-fit origin-left items-center gap-1.5 font-heading text-[12px] font-semibold text-[var(--acc)] sm:mx-5 sm:mb-5"
               >
                 <Navigation aria-hidden className="size-3.5" />
                 Directions

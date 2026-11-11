@@ -767,7 +767,7 @@ export interface HomeHeroSlider extends Struct.ComponentSchema {
         },
         number
       > &
-      Schema.Attribute.DefaultTo<6>;
+      Schema.Attribute.DefaultTo<4>;
     backgroundVideo: Schema.Attribute.Media<'videos' | 'files'>;
     eyebrow: Schema.Attribute.String;
     partners: Schema.Attribute.Component<'elements.home-partner', true>;
@@ -1339,7 +1339,7 @@ export interface SectionsOverview extends Struct.ComponentSchema {
 export interface SectionsPageHero extends Struct.ComponentSchema {
   collectionName: 'components_sections_page_hero';
   info: {
-    description: 'Inner-page hero with background image and in-page anchor tabs';
+    description: 'Inner-page hero with background image and in-page anchor tabs. Optional logo: a transparent PNG/SVG for dark backgrounds, shown in place of the visible title (the title stays for screen readers and SEO).';
     displayName: 'Page hero';
     icon: 'landscape';
   };

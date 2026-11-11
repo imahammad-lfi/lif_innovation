@@ -10,7 +10,7 @@ export function Eyebrow({ children, className, tone = "dark" }: { children?: Rea
   if (!children) return null;
   return (
     <div className={cn("my-2.5 flex w-fit items-center xl:my-3.5", className)}>
-      <span className={cn("font-sans text-[11.5px] font-semibold leading-[1.4] tracking-[0.28em] xl:text-[12.5px]", tone === "light" ? "text-[#b34f00]" : "text-brand")}>
+      <span className={cn("font-sans text-[11px] font-semibold leading-[1.4] tracking-[0.28em] xl:text-[12px]", tone === "light" ? "text-[#b34f00]" : "text-brand")}>
         {typeof children === "string" ? children.toUpperCase() : children}
       </span>
     </div>

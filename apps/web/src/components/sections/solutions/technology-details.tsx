@@ -18,8 +18,8 @@ type Data = {
   layout?: "grid" | "grid-compact" | "stack" | null;
 };
 
-const bodyClass = "max-w-[68ch] font-sans text-[15px] leading-[1.65] text-white/65 3xl:text-[16px] max-[768px]:text-[14.5px]";
-const cardTitleClass = "font-heading text-[18px] font-semibold leading-[1.35] text-white 3xl:text-[20px] max-[768px]:text-[16px]";
+const bodyClass = "max-w-[68ch] font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[14.5px] max-[768px]:text-[13.5px]";
+const cardTitleClass = "font-heading text-[16.5px] font-semibold leading-[1.35] text-white 3xl:text-[18px] max-[768px]:text-[14.5px]";
 
 export function TechnologyDetails({ data }: SectionProps<Data>) {
   const cards = data.cards ?? [];
@@ -27,7 +27,7 @@ export function TechnologyDetails({ data }: SectionProps<Data>) {
   const compactGrid = data.layout === "grid-compact";
 
   return (
-    <section id={data.anchorId || undefined} className="relative isolate overflow-hidden bg-ink px-gutter py-24 text-white 3xl:py-[120px] max-[768px]:py-16">
+    <section id={data.anchorId || undefined} className="relative isolate overflow-hidden bg-ink px-gutter py-24 text-white 3xl:py-28 max-[768px]:py-16">
       <CmsImage media={data.backgroundImage} alt="" fill sizes="100vw" className="-z-20 object-cover object-left-top" />
       <div className="absolute inset-0 -z-10 bg-ink/55" />
       <div className="grid grid-cols-1 items-start gap-12 xl:grid-cols-[minmax(0,0.8fr)_minmax(0,2fr)] 3xl:gap-16 max-[768px]:gap-8">
@@ -38,7 +38,7 @@ export function TechnologyDetails({ data }: SectionProps<Data>) {
             </div>
           ) : null}
           <Eyebrow>{data.eyebrow}</Eyebrow>
-          {data.heading ? <h2 className="font-heading text-[32px] font-semibold leading-[1.2] text-white 3xl:text-[40px] max-[768px]:text-[24px]">{data.heading}</h2> : null}
+          {data.heading ? <h2 className="font-heading text-[27.5px] font-semibold leading-[1.2] text-white 3xl:text-[34.5px] max-[768px]:text-[21.5px]">{data.heading}</h2> : null}
           <Markdown className={`mt-4 ${bodyClass}`}>{data.description}</Markdown>
           {data.secondaryEyebrow ? <Eyebrow className="mt-8">{data.secondaryEyebrow}</Eyebrow> : null}
           {data.secondaryHeading ? <h3 className={`mt-6 ${cardTitleClass}`}>{data.secondaryHeading}</h3> : null}

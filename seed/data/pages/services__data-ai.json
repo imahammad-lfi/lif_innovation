@@ -142,7 +142,7 @@
      "href": "/products-and-accelerators/textiq",
      "linkLabel": "Explore textIQ",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ product logo"
      },
      "links": [
@@ -166,7 +166,7 @@
      "href": "/products-and-accelerators/finsight",
      "linkLabel": "Explore FinSight",
      "logo": {
-      "__media": "custom/logos/finsight.png",
+      "__media": "custom/logos/plate/finsight-plate.png",
       "alt": "FinSight product logo"
      },
      "links": [
@@ -185,7 +185,7 @@
      "href": "/products-and-accelerators/edupilot",
      "linkLabel": "Explore EduPilot",
      "logo": {
-      "__media": "custom/logos/edupilot.png",
+      "__media": "custom/logos/plate/edupilot-plate.png",
       "alt": "EduPilot product logo"
      },
      "links": []

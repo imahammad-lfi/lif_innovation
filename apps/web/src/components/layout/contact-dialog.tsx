@@ -189,17 +189,17 @@ export function ContactDialog({ heading, subheading, nextStepsTitle, nextSteps, 
                 aria-hidden
                 className="absolute inset-0 -z-10 bg-[radial-gradient(120%_80%_at_0%_0%,rgba(255,120,0,0.20)_0%,transparent_55%),radial-gradient(90%_70%_at_100%_100%,rgba(23,95,255,0.22)_0%,transparent_60%)] md:border-r md:border-white/[0.07]"
               />
-              <p className="font-sans text-[11.5px] font-semibold uppercase tracking-[0.28em] text-brand">{heading}</p>
-              <Dialog.Title className="mt-4 max-w-[16ch] pr-10 font-heading text-[26px] font-semibold leading-[1.15] text-white md:pr-0 md:text-[32px]">
+              <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.28em] text-brand">{heading}</p>
+              <Dialog.Title className="mt-4 max-w-[16ch] pr-10 font-heading text-[21.5px] font-semibold leading-[1.15] text-white md:pr-0 md:text-[27.5px]">
                 {subheading}
               </Dialog.Title>
               <DeckBars className="mt-5" />
-              <Dialog.Description id="contact-dialog-desc" className="mt-5 max-w-[40ch] font-sans text-[14px] leading-[1.65] text-white/70">
+              <Dialog.Description id="contact-dialog-desc" className="mt-5 max-w-[40ch] font-sans text-[13.5px] leading-[1.65] text-white/70">
                 Share a few details and the right portfolio specialist will work with you on the next step.
               </Dialog.Description>
               {nextSteps.length ? (
                 <div className="mt-8 hidden md:block">
-                  {nextStepsTitle ? <h3 className="font-heading text-[15px] font-semibold text-white">{nextStepsTitle}</h3> : null}
+                  {nextStepsTitle ? <h3 className="font-heading text-[14px] font-semibold text-white">{nextStepsTitle}</h3> : null}
                   <ol className="mt-4 flex flex-col gap-3.5">
                     {nextSteps.map((s, i) => (
                       <li key={i} className="flex items-start gap-3">
@@ -209,7 +209,7 @@ export function ContactDialog({ heading, subheading, nextStepsTitle, nextSteps, 
                         >
                           {i + 1}
                         </span>
-                        <span className="pt-[2px] font-sans text-[13.5px] leading-[1.55] text-white/70">{s}</span>
+                        <span className="pt-[2px] font-sans text-[13px] leading-[1.55] text-white/70">{s}</span>
                       </li>
                     ))}
                   </ol>

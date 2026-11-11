@@ -53,7 +53,7 @@
    "anchorId": "what-we-deliver",
    "eyebrow": "WHAT WE DELIVER",
    "heading": "What we deliver",
-   "description": "A roadmap, engineered change and an agreed operating scope—not a forced rebuild of every application.",
+   "description": "A roadmap, engineered change and an agreed operating scope - not a forced rebuild of every application.",
    "items": [
     {
      "title": "Application assessment and roadmap",
@@ -139,7 +139,7 @@
      "description": "Microservices, REST APIs, composable UI, cloud-native solutions and DevSecOps for capabilities where ERP or CRM does not fit. It need not replace a suitable core platform.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -150,7 +150,7 @@
      "description": "Test management, low-code automation, AI root-cause analysis, dashboards and CI/CD integration support continuous release assurance.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -177,16 +177,16 @@
    "heading": "From application estate to assured releases",
    "items": [
     {
-     "description": "Assess — Map dependencies, user journeys and operating risks. Client application owners confirm business priorities, access and baseline measures; agree the assessment and roadmap."
+     "description": "Assess - Map dependencies, user journeys and operating risks. Client application owners confirm business priorities, access and baseline measures; agree the assessment and roadmap."
     },
     {
-     "description": "Design — Agree target architecture, migration waves, data controls and coexistence. The client approves acceptance criteria, rollback triggers and security requirements before build."
+     "description": "Design - Agree target architecture, migration waves, data controls and coexistence. The client approves acceptance criteria, rollback triggers and security requirements before build."
     },
     {
-     "description": "Build — Engineer UX, APIs and automated pipelines. Prototype priority screens and test them with representative users; review code, configuration and access changes."
+     "description": "Build - Engineer UX, APIs and automated pipelines. Prototype priority screens and test them with representative users; review code, configuration and access changes."
     },
     {
-     "description": "Validate and hand over — Test migration, security and regression against the agreed gates. Record the release decision, rehearse rollback and transfer runbooks, monitoring and ownership to operations."
+     "description": "Validate and hand over - Test migration, security and regression against the agreed gates. Record the release decision, rehearse rollback and transfer runbooks, monitoring and ownership to operations."
     }
    ]
   },
@@ -195,7 +195,7 @@
    "anchorId": "acceptance-and-evidence",
    "eyebrow": "ACCEPTANCE & ACCOUNTABILITY",
    "heading": "Evidence for each migration wave",
-   "body": "A release decision should include dependency updates, regression results, security findings and rollback evidence—not just a completed build. Business owners accept priority journeys; technical owners record unresolved risks and operating readiness.\n\nCompare release lead time, incidents and cost-to-change with the agreed baseline after each wave. Agree measurement periods and responsibility for the service after handover.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
+   "body": "A release decision should include dependency updates, regression results, security findings and rollback evidence - not just a completed build. Business owners accept priority journeys; technical owners record unresolved risks and operating readiness.\n\nCompare release lead time, incidents and cost-to-change with the agreed baseline after each wave. Agree measurement periods and responsibility for the service after handover.\n\nSee [Our approach and commercial models](/company/our-approach) for delivery governance and engagement details.",
    "theme": "light"
   },
   {

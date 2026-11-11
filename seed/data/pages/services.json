@@ -12,7 +12,7 @@
   {
    "__component": "sections.page-hero",
    "title": "Services",
-   "subtitle": "AI-driven technology, engineering and advisory across five integrated portfolios — backed by our own software, reusable accelerators and leadership with 20+ years of industry experience.",
+   "subtitle": "AI-driven technology, engineering and advisory across five integrated portfolios - backed by our own software, reusable accelerators and leadership with 20+ years of industry experience.",
    "backgroundImage": {
     "__media": "custom/hero-digital-transformation.jpg",
     "alt": "Connected enterprise technology services"
@@ -103,7 +103,7 @@
        "href": "/products-and-accelerators/linkworks",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        }
       },
@@ -112,7 +112,7 @@
        "href": "/products-and-accelerators/testoriumz",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz"
        }
       }
@@ -163,7 +163,7 @@
        "href": "/products-and-accelerators/linkworks",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        }
       }
@@ -204,7 +204,7 @@
        "href": "/products-and-accelerators/textiq",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/textiq.png",
+        "__media": "custom/logos/plate/textiq-plate.png",
         "alt": "textIQ"
        }
       },
@@ -213,7 +213,7 @@
        "href": "/products-and-accelerators/finsight",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/finsight.png",
+        "__media": "custom/logos/plate/finsight-plate.png",
         "alt": "FinSight"
        }
       },
@@ -222,7 +222,7 @@
        "href": "/products-and-accelerators/edupilot",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/edupilot.png",
+        "__media": "custom/logos/plate/edupilot-plate.png",
         "alt": "EduPilot"
        }
       }
@@ -263,7 +263,7 @@
        "href": "/products-and-accelerators/vajrax",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vajrax.png",
+        "__media": "custom/logos/plate/vajrax-plate.png",
         "alt": "VajraX"
        }
       },
@@ -272,7 +272,7 @@
        "href": "/products-and-accelerators/vectorx",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vectorx.png",
+        "__media": "custom/logos/plate/vectorx-plate.png",
         "alt": "VectorX"
        }
       },
@@ -281,7 +281,7 @@
        "href": "/products-and-accelerators/ai-governance",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/ai-governance.png",
+        "__media": "custom/logos/plate/ai-governance-plate.png",
         "alt": "AI Governance"
        }
       }
@@ -386,31 +386,31 @@
      "title": "Fixed Price",
      "accent": "orange",
      "description": "Defined scope and outcome delivered against agreed milestones and acceptance criteria.",
-     "bullets": "Best for – Well-defined projects, migrations, discrete builds."
+     "bullets": "Best for - Well-defined projects, migrations, discrete builds."
     },
     {
      "title": "Time & Materials",
      "accent": "blue",
      "description": "Flexible delivery where scope evolves, with transparent rates and governance.",
-     "bullets": "Best for – Discovery, evolving roadmaps, co-development."
+     "bullets": "Best for - Discovery, evolving roadmaps, co-development."
     },
     {
      "title": "Managed Service",
      "accent": "teal",
      "description": "Ongoing service with agreed service levels, governance and continuous improvement.",
-     "bullets": "Best for – Application management, managed quality, managed security."
+     "bullets": "Best for - Application management, managed quality, managed security."
     },
     {
      "title": "Dedicated Team",
      "accent": "purple",
      "description": "Persistent squads or specialist teams aligned to your priorities and ways of working.",
-     "bullets": "Best for – Product engineering, sustained capacity, capability centres (GCC)."
+     "bullets": "Best for - Product engineering, sustained capacity, capability centres (GCC)."
     },
     {
      "title": "Outcome-Based",
      "accent": "yellow",
      "description": "Commercials linked to measurable business or operational outcomes, where these can be agreed and evidenced.",
-     "bullets": "Best for – Assurance, exposure closure, resolution-rate engagements."
+     "bullets": "Best for - Assurance, exposure closure, resolution-rate engagements."
     }
    ],
    "eyebrow": "How we engage",

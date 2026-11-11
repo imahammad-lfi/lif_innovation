@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { CmsImage } from "@/components/cms/cms-image";
 import { SmartLink } from "@/components/primitives/smart-link";
 import type { Link, Media } from "@/lib/content/types";
+import { isPlateLogo, PLATE_BOX } from "@/lib/logo-plate";
 import { cn } from "@/lib/utils";
 
 /**
@@ -49,7 +50,7 @@ export function DeckBars({ className }: { className?: string }) {
 export function DeckLabel({ children, className }: { children?: ReactNode; className?: string }) {
   if (!children) return null;
   return (
-    <span className={cn("block font-sans text-[11.5px] font-semibold uppercase leading-[1.4] tracking-[0.28em] text-brand xl:text-[12.5px]", className)}>
+    <span className={cn("block font-sans text-[11px] font-semibold uppercase leading-[1.4] tracking-[0.28em] text-brand xl:text-[12px]", className)}>
       {children}
     </span>
   );
@@ -76,7 +77,7 @@ export function DeckStage({
   return (
     <section
       id={id || undefined}
-      className={cn("relative isolate w-full overflow-clip px-gutter py-16 xl:py-24 3xl:py-28", TONES[t], className)}
+      className={cn("relative isolate w-full overflow-hidden px-gutter py-16 xl:py-24 3xl:py-28", TONES[t], className)}
     >
       {t === "navy" ? (
         <div
@@ -115,7 +116,7 @@ export function DeckHeader({
         {heading ? (
           <h2
             className={cn(
-              "mt-3 whitespace-pre-line font-heading text-[28px] font-semibold leading-[1.15] tracking-[-0.02em] text-white xl:text-[40px] 3xl:text-[48px]",
+              "mt-3 whitespace-pre-line font-heading text-[24px] font-semibold leading-[1.15] tracking-[-0.02em] text-white xl:text-[34.5px] 3xl:text-[41.5px]",
               headingClassName,
             )}
           >
@@ -124,7 +125,7 @@ export function DeckHeader({
         ) : null}
         <DeckBars className="mt-4" />
         {description ? (
-          <p className="mt-5 max-w-[76ch] whitespace-pre-line short:mt-3 font-sans text-[15px] leading-[1.7] text-white/70 xl:text-[16.5px] 3xl:text-[18px]">{description}</p>
+          <p className="mt-5 max-w-[76ch] whitespace-pre-line font-sans text-[14px] leading-[1.7] text-white/70 xl:text-[14.5px] 3xl:text-[16.5px]">{description}</p>
         ) : null}
       </div>
       {aside ? <div className="shrink-0">{aside}</div> : null}
@@ -147,7 +148,9 @@ export function LogoPlate({
   size?: "sm" | "md" | "lg";
 }) {
   const dims = { sm: "h-9 w-[104px] px-2.5", md: "h-12 w-[138px] px-3.5", lg: "h-[64px] w-[168px] px-5" }[size];
-  const inner = { sm: "h-[20px]", md: "h-[26px]", lg: "h-[36px]" }[size];
+  const inner = isPlateLogo(media)
+    ? cn(PLATE_BOX, { sm: "max-h-[30px]", md: "max-h-[40px]", lg: "max-h-[54px]" }[size])
+    : cn("relative block w-full", { sm: "h-[20px]", md: "h-[26px]", lg: "h-[36px]" }[size]);
   const body = (
     <span
       className={cn(
@@ -158,11 +161,11 @@ export function LogoPlate({
       )}
     >
       {media ? (
-        <span className={cn("relative block w-full", inner)}>
-          <CmsImage media={media} alt={name || ""} fill sizes="180px" className="object-contain" />
+        <span className={inner}>
+          <CmsImage media={media} alt={name || ""} fill sizes="180px" quality={isPlateLogo(media) ? 90 : undefined} className="object-contain" />
         </span>
       ) : (
-        <span className="font-heading text-[15px] font-bold text-[#0b1530]">{name}</span>
+        <span className="font-heading text-[14px] font-bold text-[#0b1530]">{name}</span>
       )}
     </span>
   );
@@ -219,7 +222,8 @@ export function LogoRow({
           <SmartLink
             key={`${l.label}-${i}`}
             href={l.href || "#"}
-            className="inline-flex items-center rounded-full bg-white/[0.05] px-3 py-1.5 font-sans text-[12px] font-semibold text-white/80 ring-1 ring-white/10 transition-colors hover:bg-[var(--acc-soft)] hover:text-white hover:ring-[var(--acc-line)]"
+            data-chip=""
+            className="inline-flex items-center rounded-[15px] bg-white/[0.05] px-3 py-1.5 font-sans text-[11.5px] font-semibold text-balance text-white/80 ring-1 ring-white/10 transition-colors hover:bg-[var(--acc-soft)] hover:text-white hover:ring-[var(--acc-line)]"
           >
             {l.label}
           </SmartLink>
@@ -245,13 +249,13 @@ export function Bullets({ text, className, dense }: { text?: string | null; clas
   const items = parseBullets(text);
   if (!items.length) return null;
   return (
-    <ul className={cn(dense ? "space-y-2" : "space-y-2.5", "font-sans text-[13.5px] leading-[1.55] 3xl:text-[14.5px]", className)}>
+    <ul className={cn(dense ? "space-y-2" : "space-y-2.5", "font-sans text-[13px] leading-[1.55] 3xl:text-[13.5px]", className)}>
       {items.map((b, i) => (
         <li key={`${b.title}-${i}`} className="flex gap-2.5">
           <span aria-hidden className="mt-[7px] size-[6px] shrink-0 rounded-full bg-[var(--acc)] shadow-[0_0_8px_var(--acc)]" />
           <span className="min-w-0">
             <span className="font-semibold text-white/90">{b.title}</span>
-            {b.detail ? <span className="text-white/55"> – {b.detail}</span> : null}
+            {b.detail ? <span className="text-white/55"> - {b.detail}</span> : null}
           </span>
         </li>
       ))}

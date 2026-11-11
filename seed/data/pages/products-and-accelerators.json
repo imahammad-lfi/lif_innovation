@@ -12,7 +12,7 @@
   {
    "__component": "sections.page-hero",
    "title": "Products & Accelerators",
-   "subtitle": "Software we own and accelerators we reuse — licensed on their own or delivered with our services to shorten time to value.",
+   "subtitle": "Software we own and accelerators we reuse - licensed on their own or delivered with our services to shorten time to value.",
    "backgroundImage": {
     "__media": "custom/hero-products-accelerators.jpg",
     "alt": "Products & Accelerators product and technology illustration"
@@ -68,7 +68,7 @@
       {
        "name": "Linkworks",
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        },
        "tagline": "Composable business applications",
@@ -81,7 +81,7 @@
       {
        "name": "testoriumz",
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz"
        },
        "tagline": "Continuous quality engineering",
@@ -103,7 +103,7 @@
       {
        "name": "Linkworks",
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        },
        "tagline": "Composable business applications",
@@ -125,7 +125,7 @@
       {
        "name": "textIQ",
        "logo": {
-        "__media": "custom/logos/textiq.png",
+        "__media": "custom/logos/plate/textiq-plate.png",
         "alt": "textIQ"
        },
        "tagline": "Document intelligence",
@@ -138,7 +138,7 @@
       {
        "name": "FinSight",
        "logo": {
-        "__media": "custom/logos/finsight.png",
+        "__media": "custom/logos/plate/finsight-plate.png",
         "alt": "FinSight"
        },
        "tagline": "Conversational financial analysis",
@@ -151,7 +151,7 @@
       {
        "name": "EduPilot",
        "logo": {
-        "__media": "custom/logos/edupilot.png",
+        "__media": "custom/logos/plate/edupilot-plate.png",
         "alt": "EduPilot"
        },
        "tagline": "Course creation",
@@ -173,7 +173,7 @@
       {
        "name": "VajraX",
        "logo": {
-        "__media": "custom/logos/vajrax.png",
+        "__media": "custom/logos/plate/vajrax-plate.png",
         "alt": "VajraX"
        },
        "tagline": "External exposure validation",
@@ -186,7 +186,7 @@
       {
        "name": "VectorX",
        "logo": {
-        "__media": "custom/logos/vectorx.png",
+        "__media": "custom/logos/plate/vectorx-plate.png",
         "alt": "VectorX"
        },
        "tagline": "Code and supply-chain analysis",
@@ -199,7 +199,7 @@
       {
        "name": "AI Governance",
        "logo": {
-        "__media": "custom/logos/ai-governance.png",
+        "__media": "custom/logos/plate/ai-governance-plate.png",
         "alt": "AI Governance"
        },
        "tagline": "AI gateway and guardrails",
@@ -417,7 +417,7 @@
    "body": "Start with one use case, the systems involved and the people who will use the result. Ask for a guided walkthrough, supported-estate details and the deployment, security and support information needed for your procurement review.\n\nExplore the evaluation workflows for [Linkworks](/products-and-accelerators/linkworks#how-it-works), [testoriumz](/products-and-accelerators/testoriumz#how-it-works), [VajraX](/products-and-accelerators/vajrax#how-it-works) and [VectorX](/products-and-accelerators/vectorx#how-it-works).",
    "secondaryEyebrow": "",
    "secondaryHeading": "Confirm the product and delivery boundary",
-   "secondaryBody": "Review current capabilities, documentation and any third-party licence dependencies during the discussion. AI Governance is a Linkfields offering built on Portkey + Opik; clarify the Linkfields layer and third-party terms for your scope.\n\n[Visit testoriumz.com — product website](https://testoriumz.com). For an assisted fit or demo discussion, use the form below.",
+   "secondaryBody": "Review current capabilities, documentation and any third-party licence dependencies during the discussion. AI Governance is a Linkfields offering built on Portkey + Opik; clarify the Linkfields layer and third-party terms for your scope.\n\n[Visit testoriumz.com - product website](https://testoriumz.com). For an assisted fit or demo discussion, use the form below.",
    "theme": "light"
   },
   {

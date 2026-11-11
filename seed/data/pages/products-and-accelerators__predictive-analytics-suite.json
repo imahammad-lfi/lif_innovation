@@ -68,25 +68,25 @@
     {
      "title": "Churn and segmentation",
      "description": "Adapt the suite’s customer model starting points to your customer history and engagement context.",
-     "bullets": "Inputs – customer behaviour and retention history\nOutputs – churn probability and distinct customer segments\nDecision – prioritise retention and engagement",
+     "bullets": "Inputs - customer behaviour and retention history\nOutputs - churn probability and distinct customer segments\nDecision - prioritise retention and engagement",
      "accent": "purple"
     },
     {
      "title": "Demand forecasting",
      "description": "Adapt demand models to your planning horizon, demand drivers and operating constraints.",
-     "bullets": "Inputs – historical demand and relevant drivers\nOutput – forecast for an agreed horizon\nDecision – plan stock, capacity or resources",
+     "bullets": "Inputs - historical demand and relevant drivers\nOutput - forecast for an agreed horizon\nDecision - plan stock, capacity or resources",
      "accent": "purple"
     },
     {
      "title": "Fraud and anomaly detection",
      "description": "Adapt detection models to the activity in scope and the team’s investigation rules.",
-     "bullets": "Inputs – transactions, activity and reviewed outcomes\nOutput – prioritised anomalies for investigation\nDecision – route cases to human review",
+     "bullets": "Inputs - transactions, activity and reviewed outcomes\nOutput - prioritised anomalies for investigation\nDecision - route cases to human review",
      "accent": "purple"
     },
     {
      "title": "Loan default prediction",
      "description": "Adapt risk models to the lending population and the credit decision they will support.",
-     "bullets": "Inputs – lending history and repayment outcomes\nOutput – default-risk score with limitations\nDecision – support credit and portfolio review",
+     "bullets": "Inputs - lending history and repayment outcomes\nOutput - default-risk score with limitations\nDecision - support credit and portfolio review",
      "accent": "purple"
     }
    ],
@@ -106,28 +106,28 @@
     {
      "title": "Decision brief",
      "description": "Agree the decision, owner and action a prediction should support.",
-     "bullets": "Reuse – relevant model family\nAccept – scope and evaluation criteria",
+     "bullets": "Reuse - relevant model family\nAccept - scope and evaluation criteria",
      "accent": "purple",
      "number": "01"
     },
     {
      "title": "Readiness findings",
      "description": "Review history, labels, access and data quality before model adaptation.",
-     "bullets": "Tailor – features and data preparation\nAccept – data gaps and remediation plan",
+     "bullets": "Tailor - features and data preparation\nAccept - data gaps and remediation plan",
      "accent": "purple",
      "number": "02"
     },
     {
      "title": "Validated model",
      "description": "Calibrate and test against relevant historical outcomes, with limitations recorded.",
-     "bullets": "Tailor – thresholds and decision context\nAccept – evaluation and review evidence",
+     "bullets": "Tailor - thresholds and decision context\nAccept - evaluation and review evidence",
      "accent": "purple",
      "number": "03"
     },
     {
      "title": "Integrated pilot",
      "description": "Connect outputs to a controlled decision workflow and define monitoring ownership.",
-     "bullets": "Tailor – integration and human review\nAccept – pilot and monitoring plan",
+     "bullets": "Tailor - integration and human review\nAccept - pilot and monitoring plan",
      "accent": "purple",
      "number": "04"
     }
@@ -148,19 +148,19 @@
     {
      "title": "Data and access",
      "description": "Discovery or data engineering comes first when usable history, labels or access are missing.",
-     "bullets": "Agree – history, labels and permitted use\nCheck – quality, representativeness and access\nName – data owner",
+     "bullets": "Agree - history, labels and permitted use\nCheck - quality, representativeness and access\nName - data owner",
      "accent": "purple"
     },
     {
      "title": "Decision controls",
      "description": "Predictions inform a decision; they do not remove the need for accountable review.",
-     "bullets": "Name – business decision owner\nAgree – human review and escalation\nReview – explainability and fairness where relevant",
+     "bullets": "Name - business decision owner\nAgree - human review and escalation\nReview - explainability and fairness where relevant",
      "accent": "purple"
     },
     {
      "title": "Deployment and support",
      "description": "Choose the pilot boundary before estimating delivery or committing to production use.",
-     "bullets": "Agree – hosting, integration and permissions\nDefine – monitoring and change thresholds\nName – deployment and support owners",
+     "bullets": "Agree - hosting, integration and permissions\nDefine - monitoring and change thresholds\nName - deployment and support owners",
      "accent": "purple"
     }
    ],

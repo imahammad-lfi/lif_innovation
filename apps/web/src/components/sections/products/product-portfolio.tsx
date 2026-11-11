@@ -4,6 +4,7 @@ import { Eyebrow } from "@/components/primitives/eyebrow";
 import { ReadMore } from "@/components/primitives/read-more";
 import { SmartLink } from "@/components/primitives/smart-link";
 import { accentVars } from "@/lib/accent";
+import { isPlateLogo, PLATE_BOX } from "@/lib/logo-plate";
 import type { Accent, Media } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 import type { SectionProps } from "../types";
@@ -62,11 +63,11 @@ function LogoChip({ product, className }: { product: Product; className?: string
       )}
     >
       {product.logo ? (
-        <span className="relative block h-[30px] w-full 3xl:h-[34px]">
-          <CmsImage media={product.logo} alt={product.name} fill sizes="160px" className="object-contain" />
+        <span className={isPlateLogo(product.logo) ? PLATE_BOX : "relative block h-[30px] w-full 3xl:h-[34px]"}>
+          <CmsImage media={product.logo} alt={product.name} fill sizes="170px" quality={isPlateLogo(product.logo) ? 90 : undefined} className="object-contain" />
         </span>
       ) : (
-        <span className="font-heading text-[17px] font-bold text-[#0b1530]">{product.name}</span>
+        <span className="font-heading text-[15.5px] font-bold text-[#0b1530]">{product.name}</span>
       )}
     </span>
   );
@@ -83,17 +84,17 @@ function ProductRow({ product }: { product: Product }) {
       <LogoChip product={product} className="h-[64px] w-[150px] max-[480px]:h-[52px] max-[480px]:w-[160px] 3xl:h-[72px] 3xl:w-[170px]" />
       <span className="flex min-w-0 flex-1 flex-col gap-1.5">
         {product.tagline ? (
-          <span className="font-heading text-[15px] font-semibold leading-[1.35] text-white 3xl:text-[16px]">{product.tagline}</span>
+          <span className="font-heading text-[14px] font-semibold leading-[1.35] text-white 3xl:text-[14.5px]">{product.tagline}</span>
         ) : null}
         {product.description ? (
-          <span className="font-sans text-[13.5px] leading-[1.55] text-white/60 3xl:text-[14px]">{product.description}</span>
+          <span className="font-sans text-[13px] leading-[1.55] text-white/60 3xl:text-[13.5px]">{product.description}</span>
         ) : null}
         {tags.length ? (
           <span className="mt-1 flex flex-wrap gap-1.5">
             {tags.map((t) => (
               <span
                 key={t}
-                className="rounded-full bg-[var(--acc-soft)] px-2.5 py-[3px] font-sans text-[11.5px] font-medium leading-[1.4] text-white/80 ring-1 ring-[var(--acc-line)]"
+                className="rounded-full bg-[var(--acc-soft)] px-2.5 py-[3px] font-sans text-[11px] font-medium leading-[1.4] text-white/80 ring-1 ring-[var(--acc-line)]"
               >
                 {t}
               </span>
@@ -142,11 +143,11 @@ function CategoryCard({ category, className }: { category: Category; className?:
       />
       <header className="flex items-center gap-3">
         {category.number ? (
-          <span className="flex h-7 min-w-9 items-center justify-center rounded-full bg-[var(--acc-soft)] px-2.5 font-heading text-[12.5px] font-bold text-[var(--acc)] ring-1 ring-[var(--acc-line)]">
+          <span className="flex h-7 min-w-9 items-center justify-center rounded-full bg-[var(--acc-soft)] px-2.5 font-heading text-[12px] font-bold text-[var(--acc)] ring-1 ring-[var(--acc-line)]">
             {category.number}
           </span>
         ) : null}
-        <h3 className="font-heading text-[18px] font-semibold leading-[1.3] text-white xl:text-[20px] 3xl:text-[22px]">{category.title}</h3>
+        <h3 className="font-heading text-[16.5px] font-semibold leading-[1.3] text-white xl:text-[18px] 3xl:text-[20px]">{category.title}</h3>
       </header>
       {category.products?.length ? (
         <div className="mt-5 flex flex-col gap-3 xl:mt-6 3xl:gap-4">
@@ -185,12 +186,12 @@ export function ProductPortfolio({ data }: SectionProps<Data>) {
         <div className="max-w-[760px]">
           <Eyebrow>{data.eyebrow}</Eyebrow>
           {data.heading ? (
-            <h2 className="mt-2 font-heading text-[24px] font-semibold leading-[1.2] text-white xl:text-[32px] 3xl:text-[40px]">{data.heading}</h2>
+            <h2 className="mt-2 font-heading text-[21.5px] font-semibold leading-[1.2] text-white xl:text-[27.5px] 3xl:text-[34.5px]">{data.heading}</h2>
           ) : null}
           <BrandBars className="mt-4" />
         </div>
         {data.description ? (
-          <p className="max-w-[46ch] font-sans text-[15px] leading-[1.65] text-white/65 xl:text-[16px] 3xl:text-[18px]">{data.description}</p>
+          <p className="max-w-[46ch] font-sans text-[14px] leading-[1.65] text-white/65 xl:text-[14.5px] 3xl:text-[16.5px]">{data.description}</p>
         ) : null}
       </div>
       {cats.length ? (

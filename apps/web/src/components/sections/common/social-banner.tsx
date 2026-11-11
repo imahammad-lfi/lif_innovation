@@ -14,7 +14,7 @@ export function SocialBanner({ data, context }: SectionProps<Data>) {
       <div aria-hidden className="absolute -left-20 -top-40 -z-10 size-[380px] rounded-full bg-white/10 blur-[110px]" />
       <div aria-hidden className="absolute -bottom-40 right-10 -z-10 size-[380px] rounded-full bg-brand/20 blur-[120px]" />
       <div className="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
-        <h2 className="font-heading text-[22px] font-semibold leading-[1.25] text-white xl:text-[28px] 3xl:text-[34px]">{heading}</h2>
+        <h2 data-type-role="band" className="font-heading text-[20px] font-semibold leading-[1.25] text-white xl:text-[24px] 3xl:text-[27.5px]">{heading}</h2>
         <div className="flex flex-wrap gap-3">
           {links.map((l) => (
             <SmartLink
@@ -28,7 +28,7 @@ export function SocialBanner({ data, context }: SectionProps<Data>) {
                 <CmsImage media={l.icon} alt={l.label ?? l.platform} fill sizes="32px" className="object-contain" />
               </span>
               <span className="flex flex-col">
-                <span className="font-heading text-[13.5px] font-semibold leading-[1.3] text-white">{l.label}</span>
+                <span className="font-heading text-[13px] font-semibold leading-[1.3] text-white">{l.label}</span>
                 <span className="font-sans text-[12px] leading-[1.3] text-white/70">{l.handle}</span>
               </span>
             </SmartLink>

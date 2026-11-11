@@ -1,6 +1,6 @@
 # Database backup
 
-`linkfields_cms.sql.gz` is a plain-SQL `pg_dump` of the live Strapi database (`linkfields_cms`), taken 2026-11-10 from
+`linkfields_cms.sql.gz` is a plain-SQL `pg_dump` of the live Strapi database (`linkfields_cms`), taken 2026-11-11 from
 PostgreSQL 18.6. It holds all CMS content (pages, global header/footer, events and pop-ups, blog posts, news),
 website enquiries (leads), media-library records, admin users and roles, and Strapi settings.
 

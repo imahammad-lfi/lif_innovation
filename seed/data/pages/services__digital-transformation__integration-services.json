@@ -139,7 +139,7 @@
      "description": "REST APIs and composable applications can address custom integration and business capabilities where ERP or CRM does not fit; this is distinct from Boomi.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -150,7 +150,7 @@
      "description": "Continuous testing and CI/CD integration support end-to-end regression, alongside Automated Testing & Release Assurance Packs and Cyber-Safe Delivery.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -177,16 +177,16 @@
    "heading": "From integration landscape to dependable operations",
    "items": [
     {
-     "description": "Inventory — Identify systems, interfaces, data owners and failure patterns. Client owners confirm access, critical transactions and the reconciliation baseline."
+     "description": "Inventory - Identify systems, interfaces, data owners and failure patterns. Client owners confirm access, critical transactions and the reconciliation baseline."
     },
     {
-     "description": "Design — Agree contracts, target patterns, access controls and transformations. Obtain sign-off from system, data and security owners before building the selected integrations."
+     "description": "Design - Agree contracts, target patterns, access controls and transformations. Obtain sign-off from system, data and security owners before building the selected integrations."
     },
     {
-     "description": "Build and validate — Implement mappings and connections; test end-to-end flows, reconciliation and security. Demonstrate retry, duplicate and failure handling against acceptance criteria."
+     "description": "Build and validate - Implement mappings and connections; test end-to-end flows, reconciliation and security. Demonstrate retry, duplicate and failure handling against acceptance criteria."
     },
     {
-     "description": "Deploy and operate — Validate cutover and rollback, transfer runbooks and alert ownership, then monitor and improve. Record platform versions, change responsibilities and agreed service objectives."
+     "description": "Deploy and operate - Validate cutover and rollback, transfer runbooks and alert ownership, then monitor and improve. Record platform versions, change responsibilities and agreed service objectives."
     }
    ]
   },

@@ -40,7 +40,7 @@
     }
    ],
    "logo": {
-    "__media": "custom/logos/on-dark/textiq-on-dark.png",
+    "__media": "custom/logos/svg/textiq-on-dark.svg",
     "alt": "textIQ logo"
    }
   },
@@ -69,7 +69,7 @@
     {
      "label": "textIQ",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ product logo"
      }
     }
@@ -78,19 +78,19 @@
     {
      "title": "Intelligent search",
      "description": "Ask a business question across a document collection and inspect the returned information. For example, assess how a reviewer would locate material relevant to a particular policy.",
-     "bullets": "Input – a question and document collection\nEvaluation output – relevant results checked against source material",
+     "bullets": "Input - a question and document collection\nEvaluation output - relevant results checked against source material",
      "accent": "purple"
     },
     {
      "title": "Extraction and classification",
      "description": "Turn selected document information into an organised output. Agree the fields and categories for a sample, then compare the result with the reviewer’s expected values.",
-     "bullets": "Input – sample documents and a field/category list\nEvaluation output – extracted and classified information for review",
+     "bullets": "Input - sample documents and a field/category list\nEvaluation output - extracted and classified information for review",
      "accent": "purple"
     },
     {
      "title": "Summarisation",
      "description": "Produce a shorter account of document content for a reviewer to assess. Test which points are retained or omitted before using a summary in a business workflow.",
-     "bullets": "Input – document content and summary requirements\nEvaluation output – a summary reviewed for omissions and errors",
+     "bullets": "Input - document content and summary requirements\nEvaluation output - a summary reviewed for omissions and errors",
      "accent": "purple"
     }
    ],

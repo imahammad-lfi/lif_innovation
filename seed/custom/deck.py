@@ -470,6 +470,25 @@ def set_anchors(doc, pairs):
     hero["anchorLinks"] = [{"label": lbl.upper(), "targetId": t} for lbl, t in pairs if t in present]
 
 
+def product_hero_logo(doc):
+    """Product pages show the product's logo in the banner instead of the text title (11 Nov 2026). The banner is dark,
+    so it uses the on-dark version (white wordmark, lighter brand blue). Since 11 Nov 10:33 these are SVGs traced from
+    the original logos by tools/vectorise_logos.py (seed/assets/custom/logos/svg/), so the edges stay crisp at any size
+    and are never re-compressed (VajraX: on-dark raster from the client's high-resolution logo). The light cards and menu
+    pills use the balanced plate files (tools/logo_plates.py, apply.plate_logos). Accelerators have no logo,
+    so they keep the text title."""
+    path = doc.get("path") or ""
+    key = path[len(P) + 1:] if path.startswith(P + "/") else None
+    if key not in PRODUCTS:
+        return
+    hero = find(doc.get("sections") or [], "sections.page-hero")
+    if hero is not None:
+        # VajraX: the client supplied a high-resolution transparent logo (11 Nov 12:22), so its banner uses the on-dark
+        # raster made from it (wordmark turned white, icon untouched) instead of a traced SVG.
+        src = "custom/logos/on-dark/vajrax-on-dark.png" if key == "vajrax" else f"custom/logos/svg/{key}-on-dark.svg"
+        hero["logo"] = M(src, f"{PRODUCTS[key]} logo")
+
+
 INLINE_MORE = re.compile(r"\n*\*\*\[Read more[^\]]*\]\(([^)]+)\)\*\*")
 
 
@@ -543,6 +562,7 @@ def apply(doc):
     """Since 9 Nov 2026 every page except Home is a fully authored doc in seed/custom/pages; only Home is laid out here."""
     path = doc.get("path")
     fix_stats(doc)
+    product_hero_logo(doc)
     if path != "/":
         return
     if path == "/":
@@ -696,7 +716,7 @@ def home_hero(doc):
         base.update(opts)
         out.append(base)
     hero["slides"] = out
-    hero["autoplaySeconds"] = 4  # seconds per slide (CMS field, 4-15)
+    hero["autoplaySeconds"] = 4  # seconds per slide (CMS field, 4-15); 4 s per the 10 Nov review
     hero["partnersLabel"] = "OEM & technology partners"
     hero["partners"] = [{"label": label,
                          "image": _m(f"custom/partners/mono/oem-mono-{mono}.png", f"{label} logo"),

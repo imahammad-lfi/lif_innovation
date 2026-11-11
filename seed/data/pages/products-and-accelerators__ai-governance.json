@@ -40,7 +40,7 @@
     }
    ],
    "logo": {
-    "__media": "custom/logos/on-dark/ai-governance-on-dark.png",
+    "__media": "custom/logos/svg/ai-governance-on-dark.svg",
     "alt": "AI Governance logo"
    }
   },
@@ -69,7 +69,7 @@
     {
      "label": "AI Governance",
      "logo": {
-      "__media": "custom/logos/ai-governance.png",
+      "__media": "custom/logos/plate/ai-governance-plate.png",
       "alt": "AI Governance product logo"
      }
     }
@@ -78,19 +78,19 @@
     {
      "title": "Guardrails",
      "description": "Translate AI-use rules into a control checklist: what should be permitted, restricted or reviewed. Demonstrate the relevant gateway behaviour before approving the configuration.",
-     "bullets": "Input – agreed AI-use policies\nEvaluation output – policy tests and supported-control scope",
+     "bullets": "Input - agreed AI-use policies\nEvaluation output - policy tests and supported-control scope",
      "accent": "teal"
     },
     {
      "title": "Cost visibility",
      "description": "Use cost visibility to assess the spend associated with the agreed AI workload. Confirm the available usage views and attribution detail rather than assume universal budget enforcement.",
-     "bullets": "Input – workload and cost-review needs\nEvaluation output – usage views and review responsibilities",
+     "bullets": "Input - workload and cost-review needs\nEvaluation output - usage views and review responsibilities",
      "accent": "teal"
     },
     {
      "title": "Tracing",
      "description": "Inspect the path of an AI interaction to understand how the workload behaves. Agree which trace evidence is needed and who may inspect prompt and response content.",
-     "bullets": "Input – sample interactions and evidence needs\nEvaluation output – trace coverage and data-handling rules",
+     "bullets": "Input - sample interactions and evidence needs\nEvaluation output - trace coverage and data-handling rules",
      "accent": "teal"
     }
    ],

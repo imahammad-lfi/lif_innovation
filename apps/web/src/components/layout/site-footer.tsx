@@ -44,7 +44,7 @@ export async function SiteFooter() {
         src="/maps/world-dots.svg"
         alt=""
         aria-hidden
-        className="pointer-events-none absolute -right-24 top-6 hidden w-[880px] max-w-none opacity-[0.08] [mask-image:radial-gradient(closest-side,#000_55%,transparent)] lg:block"
+        className="pointer-events-none absolute right-[max(-6rem,calc(50%-1056px))] top-6 hidden w-[880px] max-w-none opacity-[0.08] [mask-image:radial-gradient(closest-side,#000_55%,transparent)] lg:block"
       />
 
       <div className="relative px-gutter pb-7 pt-11 xl:pt-12 3xl:pt-16">
@@ -60,10 +60,10 @@ export async function SiteFooter() {
                 )}
               </Link>
               {global.footerTagline ? (
-                <p className="max-w-[330px] text-[13px] leading-[1.6] text-white/60 3xl:text-[14px]">{global.footerTagline}</p>
+                <p className="max-w-[330px] text-[12.5px] leading-[1.6] text-white/60 3xl:text-[13.5px]">{global.footerTagline}</p>
               ) : null}
               {!offices.length && global.footerLocations ? (
-                <p className="flex max-w-[330px] items-start gap-2 text-[12.5px] leading-[1.6] text-white/50">
+                <p className="flex max-w-[330px] items-start gap-2 text-[12px] leading-[1.6] text-white/50">
                   <MapPin aria-hidden className="mt-[3px] size-3.5 shrink-0 text-brand" />
                   <span>{global.footerLocations}</span>
                 </p>
@@ -86,7 +86,7 @@ export async function SiteFooter() {
                     </span>
                     <span className="flex min-w-0 flex-col gap-0.5 leading-[1.25]">
                       <span className="text-[11px] font-semibold uppercase tracking-[0.13em] text-white/60">{e.label}</span>
-                      <span className="truncate text-[13.5px] text-white/85 transition-colors group-hover:text-white">{e.address}</span>
+                      <span className="truncate text-[13px] text-white/85 transition-colors group-hover:text-white">{e.address}</span>
                     </span>
                     <ArrowUpRight
                       aria-hidden
@@ -102,7 +102,7 @@ export async function SiteFooter() {
           <div className="hidden grid-cols-3 gap-x-6 gap-y-8 md:grid xl:grid-cols-5 xl:gap-x-7 3xl:gap-x-10">
             {linkColumns.map((col) => (
               <nav key={col.title} aria-label={col.title} className="group/col flex min-w-0 flex-col">
-                <span className="font-heading text-[13px] font-semibold leading-[1.3] text-white 3xl:text-[14px]">{col.title}</span>
+                <span className="font-heading text-[12.5px] font-semibold leading-[1.3] text-white 3xl:text-[13.5px]">{col.title}</span>
                 <span aria-hidden className="mt-2 h-[2px] w-6 rounded-full bg-brand-line transition-[width] duration-500 ease-out group-hover/col:w-12" />
                 <ul className="mt-4 flex flex-col gap-2">
                   {col.links?.map((l) => (
@@ -110,7 +110,7 @@ export async function SiteFooter() {
                       <SmartLink
                         href={l.href}
                         newTab={l.openInNewTab}
-                        className="group inline-flex origin-left items-center text-[13px] leading-[1.4] text-white/60 transition-[color,scale] duration-300 hover:scale-[1.03] hover:text-white focus-visible:text-white 3xl:text-[14px]"
+                        className="group inline-flex origin-left items-center text-[12.5px] leading-[1.4] text-white/60 transition-[color,scale] duration-300 hover:scale-[1.03] hover:text-white focus-visible:text-white 3xl:text-[13.5px]"
                       >
                         <span aria-hidden className="h-[2px] w-0 rounded-full bg-brand-line shadow-[0_0_8px_rgba(255,140,0,0.8)] transition-all duration-300 group-hover:mr-2 group-hover:w-3.5 group-focus-visible:mr-2 group-focus-visible:w-3.5" />
                         {l.label}
@@ -126,14 +126,14 @@ export async function SiteFooter() {
           <div className="divide-y divide-white/[0.07] border-y border-white/[0.07] md:hidden">
             {linkColumns.map((col) => (
               <details key={col.title} className="group/acc">
-                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-heading text-[14px] font-semibold text-white [&::-webkit-details-marker]:hidden">
+                <summary className="flex cursor-pointer list-none items-center justify-between py-3.5 font-heading text-[13.5px] font-semibold text-white [&::-webkit-details-marker]:hidden">
                   {col.title}
                   <ChevronDown aria-hidden className="size-4 text-white/50 transition-transform duration-300 group-open/acc:rotate-180 group-open/acc:text-brand" />
                 </summary>
                 <ul className="grid grid-cols-2 gap-x-4 gap-y-2.5 pb-4">
                   {col.links?.map((l) => (
                     <li key={l.href ?? l.label} className="flex">
-                      <SmartLink href={l.href} newTab={l.openInNewTab} className="link-underline text-[13px] leading-[1.4] text-white/65 hover:text-white">
+                      <SmartLink href={l.href} newTab={l.openInNewTab} className="link-underline text-[12.5px] leading-[1.4] text-white/65 hover:text-white">
                         {l.label}
                       </SmartLink>
                     </li>
@@ -166,7 +166,7 @@ export async function SiteFooter() {
                 >
                   <span className="flex items-center gap-2">
                     <span aria-hidden className="size-1.5 shrink-0 rounded-full bg-[var(--acc)] shadow-[0_0_8px_var(--acc)] transition-transform duration-300 group-hover/office:scale-[1.6]" />
-                    <span className="truncate font-heading text-[13px] font-semibold text-white transition-colors duration-300 group-hover/office:text-[var(--acc)]">{o.country}</span>
+                    <span className="truncate font-heading text-[12.5px] font-semibold text-white transition-colors duration-300 group-hover/office:text-[var(--acc)]">{o.country}</span>
                     {o.isHeadquarters ? (
                       <span className="shrink-0 rounded-full bg-brand-gradient px-1.5 py-px text-[11px] font-bold uppercase tracking-[0.12em] text-white">HQ</span>
                     ) : null}
@@ -178,7 +178,7 @@ export async function SiteFooter() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`Directions to Linkfields ${o.country} (opens Google Maps)`}
-                    className="hover-grow link-underline mt-2 inline-flex w-fit origin-left items-center gap-1 pb-0.5 text-[11.5px] font-semibold text-[var(--acc)]"
+                    className="hover-grow link-underline mt-2 inline-flex w-fit origin-left items-center gap-1 pb-0.5 text-[12px] font-semibold text-[var(--acc)]"
                   >
                     <Navigation aria-hidden className="size-3" />
                     Directions
@@ -279,7 +279,7 @@ function BadgePlate({ badge: b, fallbackAlt, breakWide = false }: { badge: Badge
   );
   const rank = b.caption?.match(/^(#\d+)(.*)$/);
   const caption = b.caption ? (
-    <span className="line-clamp-2 w-full max-w-[156px] text-center text-[11px] leading-[1.35] text-white/55 transition-colors group-hover/bp:text-white/80">
+    <span className="line-clamp-2 w-full max-w-[156px] text-center text-[12px] leading-[1.35] text-white/55 transition-colors group-hover/bp:text-white/80">
       {rank ? (
         <>
           <span className="font-heading font-bold text-brand">{rank[1]}</span>

@@ -105,31 +105,31 @@
      "title": "Assess & baseline",
      "description": "Inventory applications, data, interfaces and target options.",
      "accent": "blue",
-     "bullets": "Gate – Approved estate and readiness register."
+     "bullets": "Gate - Approved estate and readiness register."
     },
     {
      "title": "Design & prepare",
      "description": "Agree scope, data rules, controls and rehearsals.",
      "accent": "blue",
-     "bullets": "Gate – Approved design, mappings and test plan."
+     "bullets": "Gate - Approved design, mappings and test plan."
     },
     {
      "title": "Migrate & reconcile",
      "description": "Run test loads and resolve data exceptions.",
      "accent": "blue",
-     "bullets": "Gate – Data-owner reconciliation and exception acceptance."
+     "bullets": "Gate - Data-owner reconciliation and exception acceptance."
     },
     {
      "title": "Validate & cut over",
      "description": "Test business journeys, access and recovery.",
      "accent": "blue",
-     "bullets": "Gate – Accepted regression and cutover/rollback runbook."
+     "bullets": "Gate - Accepted regression and cutover/rollback runbook."
     },
     {
      "title": "Operate & improve",
      "description": "Transfer knowledge and prioritise service improvements.",
      "accent": "blue",
-     "bullets": "Gate – Accepted handover and improvement backlog."
+     "bullets": "Gate - Accepted handover and improvement backlog."
     }
    ]
   },
@@ -147,25 +147,25 @@
      "title": "Scope & transition",
      "description": "Agree supported applications, environments and regions before taking responsibility.",
      "accent": "blue",
-     "bullets": "Service inventory and exclusions\nKnowledge transfer and transition criteria\nAgree – Coverage hours, L1–L3 split and escalation responsibilities."
+     "bullets": "Service inventory and exclusions\nKnowledge transfer and transition criteria\nAgree - Coverage hours, L1–L3 split and escalation responsibilities."
     },
     {
      "title": "Incidents & problems",
      "description": "Establish intake, prioritisation and escalation around business impact.",
      "accent": "blue",
-     "bullets": "Incident ownership and communications\nRoot-cause and recurring-problem backlog\nAgree – Severity definitions, response targets and provider dependencies."
+     "bullets": "Incident ownership and communications\nRoot-cause and recurring-problem backlog\nAgree - Severity definitions, response targets and provider dependencies."
     },
     {
      "title": "Change & release",
      "description": "Separate routine requests, enhancements and production releases.",
      "accent": "blue",
-     "bullets": "Change approval and release calendar\nRegression, rollback and security evidence\nAgree – Monitoring, access, patching and release responsibilities."
+     "bullets": "Change approval and release calendar\nRegression, rollback and security evidence\nAgree - Monitoring, access, patching and release responsibilities."
     },
     {
      "title": "Governance & improvement",
      "description": "Review service demand, trends, risks and improvement priorities with the service owner.",
      "accent": "blue",
-     "bullets": "Service report and review cadence\nPrioritised backlog and acceptance measures\nModel – Managed Service or Dedicated Team, with service levels agreed in the contract."
+     "bullets": "Service report and review cadence\nPrioritised backlog and acceptance measures\nModel - Managed Service or Dedicated Team, with service levels agreed in the contract."
     }
    ]
   },
@@ -183,25 +183,25 @@
      "title": "Migration & Readiness",
      "description": "Structure the decisions and dependencies that determine migration scope.",
      "accent": "blue",
-     "bullets": "Estate and dependency checklist\nReadiness register and decision log\nExample – Risk, owner, action, acceptance gate and status."
+     "bullets": "Estate and dependency checklist\nReadiness register and decision log\nExample - Risk, owner, action, acceptance gate and status."
     },
     {
      "title": "Regression & Release Assurance",
      "description": "Make critical journeys and release evidence repeatable.",
      "accent": "blue",
-     "bullets": "Risk-based scenario pack\nResults, defects and sign-off record\nExample – Scenario, expected result, evidence and release approver."
+     "bullets": "Risk-based scenario pack\nResults, defects and sign-off record\nExample - Scenario, expected result, evidence and release approver."
     },
     {
      "title": "Data Migration & Reconciliation",
      "description": "Trace the move from source records to accepted target data.",
      "accent": "blue",
-     "bullets": "Mapping and test-load checks\nReconciliation and exception reports\nExample – Source/target totals, variance, owner and resolution."
+     "bullets": "Mapping and test-load checks\nReconciliation and exception reports\nExample - Source/target totals, variance, owner and resolution."
     },
     {
      "title": "Intelligent Platform Operations",
      "description": "Use operational evidence to guide the next service improvement.",
      "accent": "blue",
-     "bullets": "Service backlog and reporting structure\nOperational checks and runbook outline\nExample – Incident/change trend, decision, action owner and review status."
+     "bullets": "Service backlog and reporting structure\nOperational checks and runbook outline\nExample - Incident/change trend, decision, action owner and review status."
     }
    ],
    "ctaLabel": "Explore delivery accelerators",
@@ -213,7 +213,7 @@
      "href": "/products-and-accelerators/linkworks",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      }
     },
@@ -222,7 +222,7 @@
      "href": "/products-and-accelerators/testoriumz",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      }
     }

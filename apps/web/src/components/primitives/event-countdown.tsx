@@ -58,10 +58,10 @@ export function EventCountdown({
           <LiveDot />
         </span>
         <span className="flex flex-col">
-          <span className="font-heading text-[15px] font-semibold text-white">
+          <span className="font-heading text-[14px] font-semibold text-white">
             Open now · Day {s.day} of {s.days}
           </span>
-          <span className="font-sans text-[12.5px] text-white/60">Come and see us {until}</span>
+          <span className="font-sans text-[12px] text-white/60">Come and see us {until}</span>
         </span>
       </div>
     );
@@ -97,12 +97,12 @@ export function EventCountdown({
           </span>
           {lead}
         </span>
-        <span className="font-sans text-[11.5px] text-white/50 max-[380px]:hidden">{when}</span>
+        <span className="font-sans text-[12px] text-white/50 max-[380px]:hidden">{when}</span>
       </div>
       <div role="timer" aria-label={`${lead} ${spoken}`} className={cn("mt-2.5 grid gap-2", units.length === 4 ? "grid-cols-4" : "grid-cols-3")}>
         {units.map((u) => (
           <div key={u.l} aria-hidden className="flex flex-col items-center rounded-xl bg-[#0b1430] py-2 ring-1 ring-white/[0.07]">
-            <span className="font-heading text-[24px] font-bold leading-none tracking-[-0.02em] text-white tabular-nums sm:text-[26px]">
+            <span className="font-heading text-[21.5px] font-bold leading-none tracking-[-0.02em] text-white tabular-nums sm:text-[21.5px]">
               {u.l === "Days" || u.l === "Day" ? u.v : pad(u.v)}
             </span>
             <span className="mt-1 font-sans text-[11px] font-semibold uppercase tracking-[0.18em] text-white/60">{u.l}</span>

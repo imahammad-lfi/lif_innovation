@@ -41,7 +41,7 @@ export function GlobalPresence({ data }: SectionProps<Data>) {
     .filter(Boolean);
   const compact = data.variant === "compact";
   const cta = data.ctaUrl ? (
-    <SmartLink href={data.ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[14px] font-semibold text-brand hover:text-[#ff9a3d]">
+    <SmartLink href={data.ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[13.5px] font-semibold text-brand hover:text-[#ff9a3d]">
       {data.ctaLabel || "Find your regional contact"}
       <ArrowRight aria-hidden className="size-4 transition-transform group-hover/cta:translate-x-0.5" />
     </SmartLink>
@@ -99,7 +99,7 @@ export function GlobalPresence({ data }: SectionProps<Data>) {
                 </span>
                 <span
                   className={cn(
-                    "absolute left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-[#0c111d]/90 px-2.5 py-1 font-sans text-[11px] font-semibold text-white ring-1 ring-[var(--acc-line)] backdrop-blur max-sm:hidden xl:text-[11.5px]",
+                    "absolute left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-[#0c111d]/90 px-2.5 py-1 font-sans text-[11px] font-semibold text-white ring-1 ring-[var(--acc-line)] backdrop-blur max-sm:hidden xl:text-[11px]",
                     below ? "top-[calc(100%+6px)]" : "bottom-[calc(100%+6px)]",
                   )}
                 >
@@ -114,8 +114,8 @@ export function GlobalPresence({ data }: SectionProps<Data>) {
             {locs.map((l) => (
               <li key={l.name} style={accentVars(l.accent)} className="flex items-center gap-2.5 rounded-full bg-white/[0.04] py-2 pl-3 pr-4 ring-1 ring-[var(--acc-line)]">
                 <span aria-hidden className="size-2.5 shrink-0 rounded-full bg-[var(--acc)] shadow-[0_0_10px_var(--acc)]" />
-                <span className="font-heading text-[14px] font-semibold text-white">{l.name}</span>
-                {l.role ? <span className="font-sans text-[12.5px] text-white/55">{l.role}</span> : null}
+                <span className="font-heading text-[13.5px] font-semibold text-white">{l.name}</span>
+                {l.role ? <span className="font-sans text-[12px] text-white/55">{l.role}</span> : null}
               </li>
             ))}
           </ul>
@@ -125,11 +125,11 @@ export function GlobalPresence({ data }: SectionProps<Data>) {
             <li key={l.name} style={accentVars(l.accent)} className="card-surface flex items-center gap-4 px-5 py-4">
               <span aria-hidden className="size-3 shrink-0 rounded-full bg-[var(--acc)] shadow-[0_0_12px_var(--acc)]" />
               <div className="min-w-0">
-                <p className="font-heading text-[15.5px] font-semibold leading-[1.3] text-white xl:text-[16.5px]">
+                <p className="font-heading text-[14.5px] font-semibold leading-[1.3] text-white xl:text-[14.5px]">
                   {l.name}
                   {l.hq ? <span className="ml-2 rounded-full bg-brand-gradient px-2 py-0.5 align-middle font-sans text-[11px] font-bold uppercase tracking-[0.14em] text-[#0a0f1d]">HQ</span> : null}
                 </p>
-                {l.role ? <p className="mt-0.5 font-sans text-[13px] leading-[1.45] text-white/60">{l.role}</p> : null}
+                {l.role ? <p className="mt-0.5 font-sans text-[12.5px] leading-[1.45] text-white/60">{l.role}</p> : null}
               </div>
             </li>
           ))}
@@ -139,7 +139,7 @@ export function GlobalPresence({ data }: SectionProps<Data>) {
       {strip.length ? (
         <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 rounded-2xl bg-white/[0.03] px-6 py-4 ring-1 ring-white/[0.07]">
           {strip.map((s, i) => (
-            <span key={s} className="flex items-center gap-6 font-sans text-[14px] font-medium text-white/80 xl:text-[15px]">
+            <span key={s} className="flex items-center gap-6 font-sans text-[13.5px] font-medium text-white/80 xl:text-[14px]">
               {i ? <span aria-hidden className="size-1.5 rounded-full bg-brand/70" /> : null}
               {s}
             </span>

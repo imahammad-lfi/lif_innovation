@@ -30,8 +30,8 @@ export function SolutionsGrid({ data }: SectionProps<Data>) {
                     className="h-auto max-h-[46px] w-auto max-w-[170px] object-contain transition-transform duration-300 group-hover/tile:scale-105 motion-reduce:transform-none"
                   />
                 </div>
-                {card.title ? <h3 className="mt-5 font-heading text-[18px] font-semibold leading-[1.3] text-white xl:text-[19px]">{card.title}</h3> : null}
-                {card.description ? <p className="mt-2.5 flex-1 font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[15px]">{card.description}</p> : null}
+                {card.title ? <h3 className="mt-5 font-heading text-[16.5px] font-semibold leading-[1.3] text-white xl:text-[16.5px]">{card.title}</h3> : null}
+                {card.description ? <p className="mt-2.5 flex-1 font-sans text-[13.5px] leading-[1.65] text-white/65 3xl:text-[14px]">{card.description}</p> : null}
                 <div className="mt-auto pt-5">
                   <ReadMore href={card.cta?.href} label={card.cta?.label} newTab={card.cta?.openInNewTab} />
                 </div>

@@ -25,13 +25,13 @@ export function MessageBanner({ data }: SectionProps<Data>) {
       />
       <div className="flex flex-col items-center justify-between gap-7 text-center md:flex-row md:text-left">
         <div className="max-w-[880px]">
-          <p className="font-heading text-[22px] font-semibold leading-[1.25] text-white xl:text-[28px] 3xl:text-[34px]">{data.title}</p>
+          <p data-type-role="band" className="font-heading text-[20px] font-semibold leading-[1.25] text-white xl:text-[24px] 3xl:text-[27.5px]">{data.title}</p>
           {data.description ? (
-            <p className="mt-3 font-sans text-[15px] leading-[1.6] text-white/80 xl:text-[16px] 3xl:text-[18px]">{data.description}</p>
+            <p className="mt-3 font-sans text-[14px] leading-[1.6] text-white/80 xl:text-[14.5px] 3xl:text-[16.5px]">{data.description}</p>
           ) : null}
         </div>
         {data.ctaLabel ? (
-          <SmartLink href={data.ctaUrl || "/contact-us"} className="btn-primary group shrink-0 max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[14px]">
+          <SmartLink href={data.ctaUrl || "/contact-us"} className="btn-primary group shrink-0 max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[13.5px]">
             {data.ctaLabel}
             <ArrowRight aria-hidden className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
           </SmartLink>

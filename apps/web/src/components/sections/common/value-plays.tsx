@@ -46,7 +46,7 @@ export function ValuePlays({ data }: SectionProps<Data>) {
         description={data.description}
         aside={
           data.ctaUrl ? (
-            <SmartLink href={data.ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[14px] font-semibold text-brand hover:text-[#ff9a3d]">
+            <SmartLink href={data.ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[13.5px] font-semibold text-brand hover:text-[#ff9a3d]">
               {data.ctaLabel || "Let's connect"}
               <ArrowRight aria-hidden className="size-4 transition-transform group-hover/cta:translate-x-0.5" />
             </SmartLink>
@@ -64,11 +64,11 @@ export function ValuePlays({ data }: SectionProps<Data>) {
           {plays.map((p, i) => (
             <li key={p.title} style={accentVars(p.accent || CYCLE[i % CYCLE.length])} className={`card-surface grid items-center gap-4 p-5 lg:gap-6 lg:px-6 ${COLS}`}>
               <div className="flex min-w-0 items-center gap-3.5">
-                <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-[var(--acc)] font-heading text-[15px] font-bold text-[#0a0f1d] shadow-[0_10px_24px_-10px_var(--acc)]">
+                <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-[var(--acc)] font-heading text-[14px] font-bold text-[#0a0f1d] shadow-[0_10px_24px_-10px_var(--acc)]">
                   {i + 1}
                 </span>
                 <div className="min-w-0">
-                  <h3 className="font-heading text-[16.5px] font-semibold leading-[1.3] text-white xl:text-[17.5px]">
+                  <h3 className="font-heading text-[14.5px] font-semibold leading-[1.3] text-white xl:text-[16px]">
                     {p.href ? (
                       <SmartLink href={p.href} className="transition-colors hover:text-[var(--acc)]">
                         {p.title}
@@ -82,7 +82,7 @@ export function ValuePlays({ data }: SectionProps<Data>) {
                       href={p.href}
                       aria-hidden
                       tabIndex={-1}
-                      className="group/play mt-1 inline-flex items-center gap-1.5 font-sans text-[12.5px] font-semibold text-[var(--acc)]"
+                      className="group/play mt-1 inline-flex items-center gap-1.5 font-sans text-[12px] font-semibold text-[var(--acc)]"
                     >
                       {p.linkLabel || "Explore this play"}
                       <ArrowRight className="size-3.5 transition-transform group-hover/play:translate-x-0.5" />
@@ -91,15 +91,15 @@ export function ValuePlays({ data }: SectionProps<Data>) {
                 </div>
               </div>
               <Cell label="Customer trigger">
-                <p className="font-sans text-[13.5px] leading-[1.55] text-white/60 xl:text-[14px]">{p.trigger}</p>
+                <p className="font-sans text-[13px] leading-[1.55] text-white/60 xl:text-[13.5px]">{p.trigger}</p>
               </Cell>
               <Cell label="Business outcome">
-                <p className="font-sans text-[13.5px] font-medium leading-[1.55] text-white/85 xl:text-[14px]">{p.outcome}</p>
+                <p className="font-sans text-[13px] font-medium leading-[1.55] text-white/85 xl:text-[13.5px]">{p.outcome}</p>
               </Cell>
               <Cell label="Linkfields IP">
                 <ul className="flex flex-wrap gap-1.5">
                   {chips(p.ip).map((c) => (
-                    <li key={c} className="rounded-full bg-[var(--acc-soft)] px-2.5 py-1 font-sans text-[11.5px] font-semibold leading-[1.3] text-[var(--acc)] ring-1 ring-[var(--acc-line)]">
+                    <li key={c} className="rounded-full bg-[var(--acc-soft)] px-2.5 py-1 font-sans text-[11px] font-semibold leading-[1.3] text-[var(--acc)] ring-1 ring-[var(--acc-line)]">
                       {c}
                     </li>
                   ))}

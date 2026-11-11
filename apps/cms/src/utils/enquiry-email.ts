@@ -343,7 +343,7 @@ Regards,<br><strong style="color:${C.ink}">Linkfields – Sales team</strong><br
 <a href="mailto:${esc(ctx.salesEmail)}" style="color:${C.orangeDeep};text-decoration:none">${esc(ctx.salesEmail)}</a> &nbsp;·&nbsp; <a href="${esc(ctx.websiteUrl)}" style="color:${C.orangeDeep};text-decoration:none">linkfields.com</a>
 </td></tr>`;
 
-  const footer = `<strong style="color:${C.ink}">Linkfields</strong> — One strategic partner across your transformation.<br>
+  const footer = `<strong style="color:${C.ink}">Linkfields</strong> - One strategic partner across your transformation.<br>
 ${ctx.offices.length ? `${esc(ctx.offices.join(' · '))}<br>` : ''}
 You are receiving this email because an enquiry was submitted at linkfields.com using this address. If this wasn’t you, please let us know at <a href="mailto:${esc(ctx.salesEmail)}" style="color:${C.muted}">${esc(ctx.salesEmail)}</a>.
 <a href="${esc(`${ctx.websiteUrl}/privacy-policy`)}" style="color:${C.muted}">Privacy Policy</a><br>
@@ -454,7 +454,7 @@ ${row('Requirements', multiline(lead.message || '—'), true)}
 let logoCache: Buffer | null = null;
 function logoAttachment(strapi: Core.Strapi) {
   const file = path.join(strapi.dirs.app.root, 'email-assets', 'linkfields-logo.png');
-  // Inline buffer (the Strapi Nodemailer provider rejects file-path attachments for safety).
+  // Inline buffer (the Graph and Nodemailer providers reject file-path attachments for safety).
   if (!logoCache) logoCache = fs.existsSync(file) ? fs.readFileSync(file) : Buffer.alloc(0);
   return logoCache.length
     ? [{ filename: 'linkfields-logo.png', content: logoCache, contentType: 'image/png', cid: LOGO_CID, contentDisposition: 'inline' as const }]

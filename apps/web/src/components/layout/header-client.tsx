@@ -9,7 +9,9 @@ import { CmsImage } from "@/components/cms/cms-image";
 import { AccentIcon, LinkIcon } from "@/components/primitives/accent-icon";
 import { SmartLink } from "@/components/primitives/smart-link";
 import { accentVars } from "@/lib/accent";
+import { isPlateLogo, PLATE_BOX } from "@/lib/logo-plate";
 import { MobileDrawer } from "./mobile-drawer";
+import { COMPACT_AT } from "@/lib/landing";
 import type { Link as LinkT, Media, NavGroup, NavItem } from "@/lib/content/types";
 import { cn } from "@/lib/utils";
 
@@ -29,71 +31,48 @@ function Logo({ logo, className }: { logo: Media | null; className?: string }) {
 
 export function HeaderClient({ logo, navigation, cta }: Props) {
   const pathname = usePathname();
-  /*
-   * Mega menu behaviour:
-   * - hover opens a panel; it closes shortly after the cursor leaves both the nav item and the panel;
-   * - a click (or Enter/Space) pins it: a pinned panel ignores the cursor leaving and closes only on a second
-   *   click of the same item, a click outside, Escape, a link click or a route change;
-   * - hovering another item switches to that item's panel in hover mode.
-   * The open menu remembers the path it was opened on, so navigating closes it without an effect.
-   */
-  const [menu, setMenu] = useState<{ label: string; path: string; pinned: boolean } | null>(null);
-  const current = menu && menu.path === pathname ? menu : null;
-  const open = current?.label ?? null;
-  const pinned = Boolean(current?.pinned);
+  // The open menu remembers the path it was opened on, so navigating closes it without an effect.
+  const [menu, setMenu] = useState<{ label: string; path: string } | null>(null);
+  const open = menu && menu.path === pathname ? menu.label : null;
+  const setOpen = useCallback((label: string | null) => setMenu(label ? { label, path: pathname } : null), [pathname]);
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const navRef = useRef<HTMLUListElement>(null);
-  const panelRef = useRef<HTMLDivElement>(null);
 
   const cancelClose = () => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
   };
-  const close = useCallback(() => {
-    if (closeTimer.current) clearTimeout(closeTimer.current);
-    setMenu(null);
-  }, []);
-  const hoverOpen = (label: string) => {
-    cancelClose();
-    setMenu((m) => (m && m.label === label && m.path === pathname ? m : { label, path: pathname, pinned: false }));
-  };
-  const togglePin = (label: string) => {
-    cancelClose();
-    setMenu(open === label && pinned ? null : { label, path: pathname, pinned: true });
-  };
-  // Hover-mode panels close after a short grace period (enough to cross the gap between item and panel).
   const scheduleClose = useCallback(() => {
     if (closeTimer.current) clearTimeout(closeTimer.current);
-    closeTimer.current = setTimeout(() => setMenu((m) => (m && !m.pinned ? null : m)), 200);
+    closeTimer.current = setTimeout(() => setOpen(null), 160);
+  }, [setOpen]);
+
+  // Full-size header at the top of the page; compact once the visitor scrolls (with hysteresis so it never flickers).
+  useEffect(() => {
+    const root = document.documentElement;
+    let raf = 0;
+    const update = () => {
+      raf = 0;
+      const y = window.scrollY;
+      const compact = root.dataset.hdr === "compact";
+      if (!compact && y > COMPACT_AT) root.dataset.hdr = "compact";
+      else if (compact && y < COMPACT_AT / 3) delete root.dataset.hdr;
+    };
+    const onScroll = () => {
+      if (!raf) raf = window.requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.cancelAnimationFrame(raf);
+    };
   }, []);
 
+  // close the mega menu on Escape
   useEffect(() => {
-    if (!open) return;
-    // Escape closes the menu and returns focus to its nav item when focus was inside the menu.
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key !== "Escape") return;
-      const active = document.activeElement;
-      const focusInside = Boolean(active && (navRef.current?.contains(active) || panelRef.current?.contains(active)));
-      close();
-      if (focusInside) navRef.current?.querySelector<HTMLButtonElement>(`button[data-menu="${CSS.escape(open)}"]`)?.focus();
-    };
-    // A click anywhere outside the nav items and the panel closes it (pinned or not).
-    const onPointerDown = (e: PointerEvent) => {
-      const t = e.target as Node;
-      if (!navRef.current?.contains(t) && !panelRef.current?.contains(t)) close();
-    };
-    // The cursor leaving the browser window counts as leaving the menu.
-    const root = document.documentElement;
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(null);
     window.addEventListener("keydown", onKey);
-    document.addEventListener("pointerdown", onPointerDown);
-    root.addEventListener("mouseleave", scheduleClose);
-    return () => {
-      window.removeEventListener("keydown", onKey);
-      document.removeEventListener("pointerdown", onPointerDown);
-      root.removeEventListener("mouseleave", scheduleClose);
-    };
-  }, [open, close, scheduleClose]);
-
-  useEffect(() => () => cancelClose(), []);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [setOpen]);
 
   const activeGroup = navigation.find((g) => g.label === open && g.items?.length);
 
@@ -102,23 +81,23 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
       {activeGroup ? (
         <div
           aria-hidden
-          className="fixed inset-x-0 bottom-0 top-[72px] -z-30 bg-black/50 backdrop-blur-[3px] animate-in fade-in duration-300 max-lg:hidden 3xl:top-[84px]"
+          className="fixed inset-x-0 bottom-0 top-[var(--hdr-h)] -z-30 bg-black/50 backdrop-blur-[3px] animate-in fade-in duration-300 max-lg:hidden"
           onMouseEnter={scheduleClose}
-          onClick={close}
+          onClick={() => setOpen(null)}
         />
       ) : null}
       <div
         className={cn(
-          "relative border-b border-white/[0.07] bg-black/65 backdrop-blur-xl backdrop-saturate-150 transition-colors duration-300",
+          "relative border-b border-white/[0.07] bg-black/65 backdrop-blur-xl backdrop-saturate-150 transition-[background-color,box-shadow] duration-300 compact:bg-black/80 compact:shadow-[0_14px_34px_-22px_rgba(0,0,0,0.95)]",
           activeGroup && "bg-[#0b0b0b]/95",
         )}
       >
-        <div className="flex h-[72px] animate-fade-up items-center justify-between gap-6 px-gutter [animation-duration:0.5s] [animation-fill-mode:backwards] max-sm:h-[64px] 3xl:h-[84px]">
-          <Logo logo={logo} className="h-[34px] w-[134px] max-[1025px]:h-[28px] max-[1025px]:w-[110px] 3xl:h-[40px] 3xl:w-[159px]" />
+        <div className="flex h-[var(--hdr-h)] animate-fade-up items-center justify-between gap-6 px-gutter-nav transition-[height] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] [animation-duration:0.5s] [animation-fill-mode:backwards] motion-reduce:transition-none">
+          <Logo logo={logo} className="h-[var(--hdr-logo)] w-[calc(var(--hdr-logo)*3.95)] transition-[height,width] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] motion-reduce:transition-none" />
 
           {/* Desktop navigation */}
           <nav aria-label="Main" className="max-lg:hidden">
-            <ul ref={navRef} className="flex items-center gap-[34px] font-heading text-[14px] font-medium text-white/80 max-[1180px]:gap-[22px] max-[1025px]:gap-[14px] max-[1025px]:text-[13px] 3xl:gap-[44px] 3xl:text-[15px]">
+            <ul className="flex items-center gap-[32px] font-heading text-[13px] font-medium tracking-[0.005em] text-white/80 max-[1180px]:gap-[22px] max-[1025px]:gap-[14px] max-[1025px]:text-[12.5px] 3xl:gap-[42px] 3xl:text-[13.5px]">
               {navigation.map((group) => {
                 const hasMenu = Boolean(group.items?.length);
                 const isOpen = open === group.label;
@@ -139,13 +118,12 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
                   );
                 }
                 return (
-                  <li key={group.label} onMouseEnter={() => hoverOpen(group.label)} onMouseLeave={scheduleClose}>
+                  <li key={group.label} onMouseEnter={() => (cancelClose(), setOpen(group.label))} onMouseLeave={scheduleClose}>
                     <button
                       type="button"
                       aria-expanded={isOpen}
                       aria-haspopup="true"
-                      data-menu={group.label}
-                      onClick={() => togglePin(group.label)}
+                      onClick={() => setOpen(isOpen ? null : group.label)}
                       className={cn(
                         "hover-grow relative flex cursor-pointer items-center gap-[6px] rounded-md py-[10px] outline-none transition-colors hover:text-white focus-visible:text-white after:absolute after:inset-x-0 after:-bottom-[2px] after:h-[2px] after:origin-center after:scale-x-0 after:rounded-full after:bg-brand-line after:transition-transform after:duration-300 hover:after:scale-x-100 focus-visible:after:scale-x-100",
                         (isOpen || active) && "text-white",
@@ -166,7 +144,7 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
 
           <SmartLink
             href={cta.href || "/contact-us"}
-            className="hover-grow hover-swap group inline-flex h-10 shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-brand-gradient px-5 font-heading text-[14px] font-semibold text-white shadow-[0_8px_24px_-10px_rgba(255,120,0,0.75),inset_0_1px_0_rgba(255,255,255,0.22)] lg:max-[1025px]:h-9 lg:max-[1025px]:px-4 lg:max-[1025px]:text-[13px] max-lg:ml-auto max-sm:hidden 3xl:h-11 3xl:px-6 3xl:text-[15px]"
+            className="hover-grow hover-swap group inline-flex h-[var(--hdr-btn)] shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-brand-gradient px-5 font-heading text-[13px] font-semibold text-white shadow-[0_8px_24px_-10px_rgba(255,120,0,0.75),inset_0_1px_0_rgba(255,255,255,0.22)] lg:max-[1025px]:h-9 lg:max-[1025px]:px-4 lg:max-[1025px]:text-[12.5px] max-lg:ml-auto max-sm:hidden transition-[height,transform] duration-300 3xl:px-6 3xl:text-[13.5px]"
           >
             {cta.label || "Let's connect"}
             <ArrowRight aria-hidden className="size-4 transition-transform duration-300 group-hover:translate-x-0.5 lg:max-[1025px]:hidden" />
@@ -180,10 +158,12 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
             link (e.g. BFSI › Banking while on /industries/bfsi) keeps the path, so it would stay open over the page. */}
         {activeGroup ? (
           <div
-            ref={panelRef}
             className="contents"
             onClickCapture={(e) => {
-              if ((e.target as HTMLElement).closest("a[href]")) close();
+              if ((e.target as HTMLElement).closest("a[href]")) {
+                cancelClose();
+                setOpen(null);
+              }
             }}
           >
             <MegaMenu group={activeGroup} onEnter={cancelClose} onLeave={scheduleClose} />
@@ -201,8 +181,8 @@ export function HeaderClient({ logo, navigation, cta }: Props) {
  */
 const TILE = "acc-tile group/tile relative flex flex-col overflow-hidden rounded-2xl bg-[#0b1020]";
 const TILE_TITLE =
-  "font-heading text-[15px] font-semibold leading-[1.3] text-white transition-colors 3xl:text-[16px]";
-const TILE_DESC = "font-sans text-[13px] leading-[1.55] text-white/55 3xl:text-[13.5px]";
+  "font-heading text-[14px] font-semibold leading-[1.3] text-white transition-colors 3xl:text-[14.5px]";
+const TILE_DESC = "font-sans text-[12.5px] leading-[1.55] text-white/55 3xl:text-[13px]";
 const SUB_LABEL = "font-sans text-[11px] font-semibold uppercase leading-[1.3] tracking-[0.14em] text-[var(--acc)] 3xl:text-[11px]";
 
 function TileDecor({ bar = true }: { bar?: boolean }) {
@@ -220,7 +200,7 @@ function TileDecor({ bar = true }: { bar?: boolean }) {
 function MenuLinks({ links }: { links: NonNullable<NavGroup["items"]>[number]["links"] }) {
   if (!links?.length) return null;
   return (
-    <ul className="flex flex-col gap-[9px] font-sans text-[13.5px] leading-[1.35] text-white/65 3xl:text-[14.5px]">
+    <ul className="flex flex-col gap-[9px] font-sans text-[13px] leading-[1.35] text-white/65 3xl:text-[13.5px]">
       {links.map((l) => (
         <li key={l.href ?? l.label}>
           <SmartLink
@@ -247,7 +227,7 @@ function MenuChips({ links, column = false }: { links: NonNullable<NavGroup["ite
           <SmartLink
             href={l.href}
             newTab={l.openInNewTab}
-            className="group/ln hover-grow inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[var(--acc-soft)] py-[5px] pl-2.5 pr-3 font-sans text-[12.5px] font-medium leading-[1.3] text-white/80 ring-1 ring-[var(--acc-line)] hover:text-white hover:ring-[var(--acc)] 3xl:text-[13px]"
+            className="group/ln hover-grow inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[var(--acc-soft)] py-[5px] pl-2.5 pr-3 font-sans text-[12px] font-medium leading-[1.3] text-white/80 ring-1 ring-[var(--acc-line)] hover:text-white hover:ring-[var(--acc)] 3xl:text-[12.5px]"
           >
             <LinkIcon media={l.icon} className="size-[13px]" />
             {l.label}
@@ -311,14 +291,14 @@ function MenuTile({ item, layout = "stack", className }: { item: NavItem; layout
         </>
       )}
       {!hasLinks ? (
-        <span className="mt-auto inline-flex items-center gap-1.5 pt-4 font-heading text-[12.5px] font-semibold text-[var(--acc)] 3xl:text-[13px]">
+        <span className="mt-auto inline-flex items-center gap-1.5 pt-4 font-heading text-[12px] font-semibold text-[var(--acc)] 3xl:text-[12.5px]">
           {item.ctaLabel || "Explore"}
           <ArrowRight aria-hidden className="size-3.5 transition-transform duration-300 group-hover/tile:translate-x-0.5" />
         </span>
       ) : item.ctaLabel ? (
         <SmartLink
           href={item.ctaHref || item.href}
-          className="hover-grow group/cta mt-auto inline-flex w-fit origin-left items-center gap-2 pt-4 font-heading text-[13px] font-semibold text-[var(--acc)]"
+          className="hover-grow group/cta mt-auto inline-flex w-fit origin-left items-center gap-2 pt-4 font-heading text-[12.5px] font-semibold text-[var(--acc)]"
         >
           {item.ctaLabel}
           <ArrowRight aria-hidden className="size-4 transition-transform group-hover/cta:translate-x-0.5" />
@@ -380,13 +360,18 @@ function SectionTile({ item }: { item: NavItem }) {
             <li key={l.href ?? l.label}>
               <SmartLink href={l.href} newTab={l.openInNewTab} className="group/pl hover-grow flex origin-left flex-col">
                 {l.logo ? (
-                  <span className="flex h-[34px] w-[118px] items-center justify-center rounded-lg bg-white px-2.5 shadow-[0_6px_18px_-10px_rgba(0,0,0,0.9)] ring-1 ring-black/5 transition-shadow duration-300 group-hover/pl:shadow-[0_8px_22px_-8px_var(--acc),0_0_0_2px_var(--acc-line)] 3xl:h-[38px] 3xl:w-[128px]">
-                    <span className="relative block h-[22px] w-full 3xl:h-[24px]">
-                      <CmsImage media={l.logo} alt={l.label || ""} fill sizes="124px" className="object-contain" />
+                  <span
+                    className={cn(
+                      "flex items-center justify-center rounded-lg bg-white shadow-[0_6px_18px_-10px_rgba(0,0,0,0.9)] ring-1 ring-black/5 transition-shadow duration-300 group-hover/pl:shadow-[0_8px_22px_-8px_var(--acc),0_0_0_2px_var(--acc-line)]",
+                      isPlateLogo(l.logo) ? "h-[38px] w-[124px] px-2 3xl:h-[42px] 3xl:w-[136px]" : "h-[34px] w-[118px] px-2.5 3xl:h-[38px] 3xl:w-[128px]",
+                    )}
+                  >
+                    <span className={isPlateLogo(l.logo) ? PLATE_BOX : "relative block h-[22px] w-full 3xl:h-[24px]"}>
+                      <CmsImage media={l.logo} alt={l.label || ""} fill sizes="140px" quality={isPlateLogo(l.logo) ? 90 : undefined} className="object-contain" />
                     </span>
                   </span>
                 ) : (
-                  <span className="font-heading text-[13.5px] font-semibold leading-[1.3] text-white/85 transition-colors group-hover/pl:text-[var(--acc)] 3xl:text-[14px]">
+                  <span className="font-heading text-[13px] font-semibold leading-[1.3] text-white/85 transition-colors group-hover/pl:text-[var(--acc)] 3xl:text-[13.5px]">
                     {l.label}
                   </span>
                 )}
@@ -411,8 +396,8 @@ function SectionedItems({ items }: { items: NavItem[] }) {
         <div key={sec.name || "items"}>
           {sec.name ? (
             <div className="mb-3 flex flex-wrap items-baseline gap-x-3 gap-y-1 3xl:mb-4">
-              <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-brand 3xl:text-[12px]">{sec.name}</span>
-              {sec.description ? <span className="font-sans text-[12.5px] text-white/45 3xl:text-[13px]">{sec.description}</span> : null}
+              <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-brand 3xl:text-[11.5px]">{sec.name}</span>
+              {sec.description ? <span className="font-sans text-[12px] text-white/45 3xl:text-[12.5px]">{sec.description}</span> : null}
             </div>
           ) : null}
           <div className={cn("grid gap-3 3xl:gap-4", SECTION_COLS[Math.min(sec.items.length, 5)])}>
@@ -459,7 +444,7 @@ function ImageCardItems({ items }: { items: NavItem[] }) {
                     <SmartLink
                       href={l.href}
                       newTab={l.openInNewTab}
-                      className="hover-grow inline-flex rounded-full bg-[var(--acc-soft)] px-2.5 py-[3px] font-sans text-[11.5px] font-medium leading-[1.4] text-white/80 ring-1 ring-[var(--acc-line)] transition-colors hover:bg-[var(--acc)] hover:text-[#0b1020]"
+                      className="hover-grow inline-flex rounded-full bg-[var(--acc-soft)] px-2.5 py-[3px] font-sans text-[11px] font-medium leading-[1.4] text-white/80 ring-1 ring-[var(--acc-line)] transition-colors hover:bg-[var(--acc)] hover:text-[#0b1020]"
                     >
                       {l.label}
                     </SmartLink>
@@ -479,25 +464,6 @@ function MegaMenu({ group, onEnter, onLeave }: { group: NavGroup; onEnter: () =>
   const sectioned = Boolean(group.items?.some((i) => i.section));
   const imageCards = !sectioned && Boolean(group.items?.some((i) => i.image));
   const servicesGrid = !sectioned && !imageCards && count === 5 && Boolean(group.items?.some((i) => i.groupLinks?.length));
-
-  // Tall panels scroll inside (orange `menu-scroll` bar); a bottom fade shows while more content is below.
-  const scrollRef = useRef<HTMLDivElement>(null);
-  const [moreBelow, setMoreBelow] = useState(false);
-  const updateMoreBelow = useCallback(() => {
-    const el = scrollRef.current;
-    if (el) setMoreBelow(el.scrollHeight - el.scrollTop - el.clientHeight > 4);
-  }, []);
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    el.scrollTop = 0;
-    updateMoreBelow();
-    const ro = new ResizeObserver(updateMoreBelow);
-    ro.observe(el);
-    if (el.firstElementChild) ro.observe(el.firstElementChild);
-    return () => ro.disconnect();
-  }, [group, updateMoreBelow]);
-
   return (
     <div
       role="region"
@@ -506,63 +472,50 @@ function MegaMenu({ group, onEnter, onLeave }: { group: NavGroup; onEnter: () =>
       onMouseLeave={onLeave}
       className="absolute inset-x-0 top-full border-b border-white/[0.07] bg-[#070a14]/95 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.8)] backdrop-blur-xl animate-in fade-in slide-in-from-top-1 duration-300 max-lg:hidden"
     >
-      <div
-        ref={scrollRef}
-        onScroll={updateMoreBelow}
-        className="menu-scroll max-h-[calc(100vh-136px)] overflow-y-auto overscroll-contain 3xl:max-h-[calc(100vh-148px)]"
-      >
-        <div className="grid grid-cols-[250px_1fr] gap-10 px-gutter py-8 max-[1280px]:grid-cols-1 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
-          <div className="flex flex-col gap-4 max-[1280px]:flex-row max-[1280px]:items-center max-[1280px]:justify-between max-[1280px]:border-b max-[1280px]:border-white/[0.07] max-[1280px]:pb-4">
-            <span className="font-heading text-[22px] font-semibold leading-[1.2] tracking-[-0.01em] text-white max-[1280px]:text-[17px] 3xl:text-[26px]">{group.label}</span>
-            <span aria-hidden className="h-[2px] w-10 rounded-full bg-brand-line max-[1280px]:hidden" />
-            {group.description ? (
-              <p className="font-sans text-[13.5px] leading-[1.6] text-white/60 max-[1280px]:hidden 3xl:text-[14.5px]">{group.description}</p>
-            ) : null}
-            {group.coverImage ? (
-              <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden rounded-2xl ring-1 ring-white/10 max-[1280px]:hidden">
-                <CmsImage media={group.coverImage} alt={group.label} fill sizes="300px" className="object-cover" />
-                <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,10,20,0)_45%,rgba(7,10,20,0.6)_100%)]" />
-              </div>
-            ) : null}
-            {group.href ? (
-              <SmartLink href={group.href} className="hover-grow group mt-1 inline-flex w-fit origin-left items-center gap-2 font-heading text-[13.5px] font-semibold text-brand">
-                Explore {group.label.toLowerCase()}
-                <ArrowRight aria-hidden className="size-4 transition-transform group-hover:translate-x-0.5" />
-              </SmartLink>
-            ) : null}
-          </div>
-          {sectioned ? (
-            <SectionedItems items={group.items ?? []} />
-          ) : imageCards ? (
-            <ImageCardItems items={group.items ?? []} />
-          ) : (
-            servicesGrid ? (
-              // Five portfolios: three tiles, then two wide tiles that fill the row (services beside their IP chips).
-              // The second row sizes each tile to its content first, then shares the spare width, so long service
-              // names and chips stay on one line wherever the screen allows.
-              <div className="flex flex-col gap-3 3xl:gap-4">
-                <div className="grid grid-cols-3 gap-3 3xl:gap-4">
-                  {group.items?.slice(0, 3).map((item) => <MenuTile key={item.label} item={item} />)}
-                </div>
-                <div className="grid grid-cols-[auto_auto] gap-3 3xl:gap-4">
-                  {group.items?.slice(3).map((item) => <MenuTile key={item.label} item={item} layout="split" className="min-w-0" />)}
-                </div>
-              </div>
-            ) : (
-              <div className={cn("grid content-start gap-3 3xl:gap-4", count === 4 ? "grid-cols-4 max-[1280px]:grid-cols-2" : "grid-cols-3")}>
-                {group.items?.map((item) => <MenuTile key={item.label} item={item} />)}
-              </div>
-            )
-          )}
+      <div className="grid max-h-[calc(100vh-var(--hdr-h))] grid-cols-[250px_1fr] gap-10 overflow-y-auto px-gutter-nav py-8 [scrollbar-width:none] max-[1280px]:grid-cols-1 3xl:grid-cols-[300px_1fr] 3xl:gap-14 3xl:py-10">
+        <div className="flex flex-col gap-4 max-[1280px]:flex-row max-[1280px]:items-center max-[1280px]:justify-between max-[1280px]:border-b max-[1280px]:border-white/[0.07] max-[1280px]:pb-4">
+          <span className="font-heading text-[20px] font-semibold leading-[1.2] tracking-[-0.01em] text-white max-[1280px]:text-[15.5px] 3xl:text-[21.5px]">{group.label}</span>
+          <span aria-hidden className="h-[2px] w-10 rounded-full bg-brand-line max-[1280px]:hidden" />
+          {group.description ? (
+            <p className="font-sans text-[13px] leading-[1.6] text-white/60 max-[1280px]:hidden 3xl:text-[13.5px]">{group.description}</p>
+          ) : null}
+          {group.coverImage ? (
+            <div className="relative mt-2 aspect-[4/3] w-full overflow-hidden rounded-2xl ring-1 ring-white/10 max-[1280px]:hidden">
+              <CmsImage media={group.coverImage} alt={group.label} fill sizes="300px" className="object-cover" />
+              <div aria-hidden className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,10,20,0)_45%,rgba(7,10,20,0.6)_100%)]" />
+            </div>
+          ) : null}
+          {group.href ? (
+            <SmartLink href={group.href} className="hover-grow group mt-1 inline-flex w-fit origin-left items-center gap-2 font-heading text-[13px] font-semibold text-brand">
+              Explore {group.label.toLowerCase()}
+              <ArrowRight aria-hidden className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </SmartLink>
+          ) : null}
         </div>
-      </div>
-      <span
-        aria-hidden
-        className={cn(
-          "pointer-events-none absolute bottom-0 left-0 right-2.5 h-14 bg-[linear-gradient(180deg,rgba(7,10,20,0),#070a14)] transition-opacity duration-300",
-          moreBelow ? "opacity-100" : "opacity-0",
+        {sectioned ? (
+          <SectionedItems items={group.items ?? []} />
+        ) : imageCards ? (
+          <ImageCardItems items={group.items ?? []} />
+        ) : (
+          servicesGrid ? (
+            // Five portfolios: three tiles, then two wide tiles that fill the row (services beside their IP chips).
+            // The second row sizes each tile to its content first, then shares the spare width, so long service
+            // names and chips stay on one line wherever the screen allows.
+            <div className="flex flex-col gap-3 3xl:gap-4">
+              <div className="grid grid-cols-3 gap-3 3xl:gap-4">
+                {group.items?.slice(0, 3).map((item) => <MenuTile key={item.label} item={item} />)}
+              </div>
+              <div className="grid grid-cols-[auto_auto] gap-3 3xl:gap-4">
+                {group.items?.slice(3).map((item) => <MenuTile key={item.label} item={item} layout="split" className="min-w-0" />)}
+              </div>
+            </div>
+          ) : (
+            <div className={cn("grid content-start gap-3 3xl:gap-4", count === 4 ? "grid-cols-4 max-[1280px]:grid-cols-2" : "grid-cols-3")}>
+              {group.items?.map((item) => <MenuTile key={item.label} item={item} />)}
+            </div>
+          )
         )}
-      />
+      </div>
     </div>
   );
 }

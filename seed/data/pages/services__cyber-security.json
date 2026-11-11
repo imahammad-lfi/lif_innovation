@@ -142,7 +142,7 @@
      "href": "/products-and-accelerators/vajrax",
      "linkLabel": "Explore VajraX",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX product logo"
      },
      "links": [
@@ -161,7 +161,7 @@
      "href": "/products-and-accelerators/vectorx",
      "linkLabel": "Explore VectorX",
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX product logo"
      },
      "links": [
@@ -185,7 +185,7 @@
      "href": "/products-and-accelerators/ai-governance",
      "linkLabel": "Explore AI Governance",
      "logo": {
-      "__media": "custom/logos/ai-governance.png",
+      "__media": "custom/logos/plate/ai-governance-plate.png",
       "alt": "AI Governance product logo"
      },
      "links": []

@@ -25,9 +25,11 @@ type Data = {
   partners?: Partner[] | null;
   partnersLabel?: string | null;
   proofPoints?: Proof[] | null;
-  /** Seconds each slide stays on screen (CMS: 4–15, default 4). */
+  /** Seconds each slide stays on screen (CMS: 4–15, default 6). */
   autoplaySeconds?: number | null;
 };
+/** Sets a full-bleed strip needs so the loop never shows a gap up to a 5120px-wide screen (approx. px per item). */
+const fillCopies = (items: number, itemPx: number) => Math.max(3, Math.ceil(5120 / Math.max(1, items * itemPx)) + 1);
 export function HeroSlider({ data }: SectionProps<Data>) {
   const videoUrl = mediaUrl(data.backgroundVideo);
   const posterUrl = mediaUrl(data.videoPoster);
@@ -36,14 +38,15 @@ export function HeroSlider({ data }: SectionProps<Data>) {
   const slides = data.slides ?? [];
   const seconds = Math.min(15, Math.max(4, Number(data.autoplaySeconds) || 4));
   const partners = data.partners ?? [];
+  const partnersLabel = data.partnersLabel || "OEM & technology partners";
   const proof = (data.proofPoints ?? []).filter((p) => p.label && (p.value || p.logo));
   // Height of the bottom strips, so the copy, dots and globe sit above them.
   const strips = proof.length && partners.length ? "both" : proof.length || partners.length ? "one" : "none";
   return (
     <section
       className={cn(
-        "relative isolate h-[800px] overflow-hidden text-white 3xl:h-[920px] max-[768px]:h-[860px]",
-        strips === "both" && "h-[860px] 3xl:h-[1000px] max-[768px]:h-[960px]",
+        "relative isolate h-[var(--hero-h)] overflow-hidden text-white [--hero-h:clamp(640px,100svh,800px)] 3xl:[--hero-h:clamp(680px,100svh,920px)] max-[768px]:[--hero-h:860px]",
+        strips === "both" && "[--hero-h:clamp(650px,100svh,860px)] 3xl:[--hero-h:clamp(720px,100svh,1000px)] max-[768px]:[--hero-h:960px]",
         globe ? "hero-globe-stage" : "bg-ink",
       )}
       style={{ "--hero-strips": strips === "both" ? "128px" : "64px" } as React.CSSProperties}
@@ -57,7 +60,7 @@ export function HeroSlider({ data }: SectionProps<Data>) {
       {globe && videoUrl ? (
         <div
           aria-hidden
-          className="pointer-events-none absolute right-[5vw] top-[calc(72px+(100%-72px-var(--hero-strips,132px))/2)] -z-10 aspect-square w-[min(40vw,580px)] -translate-y-1/2 3xl:w-[680px] min-[1921px]:right-[calc(50%_-_860px)] max-[1180px]:right-[3vw] max-[1180px]:w-[42vw] max-[768px]:left-1/2 max-[768px]:right-auto max-[768px]:top-[84px] max-[768px]:w-[min(58vw,240px)] max-[768px]:-translate-x-1/2 max-[768px]:translate-y-0"
+          className="pointer-events-none absolute right-[max(120px,calc(50%-840px))] max-[1561px]:right-[104px] max-[1281px]:right-[72px] top-[calc(72px+(100%-72px-var(--hero-strips,132px))/2)] -z-10 aspect-square w-[min(40vw,580px,calc(var(--hero-h)-72px-var(--hero-strips,132px)-64px))] -translate-y-1/2 3xl:w-[min(680px,calc(var(--hero-h)-84px-var(--hero-strips,132px)-64px))] max-[1180px]:right-[48px] max-[1180px]:w-[min(38vw,calc(var(--hero-h)-72px-var(--hero-strips,132px)-64px))] max-[768px]:left-1/2 max-[768px]:right-auto max-[768px]:top-[84px] max-[768px]:w-[min(58vw,240px)] max-[768px]:-translate-x-1/2 max-[768px]:translate-y-0"
         >
           <div className="globe-halo absolute inset-[-30%] rounded-full" />
           <GlobeVideo src={videoUrl} type={data.backgroundVideo?.mime} poster={posterUrl} />
@@ -74,27 +77,28 @@ export function HeroSlider({ data }: SectionProps<Data>) {
             <div
               key={`${slide.title}-${index}`}
               className={cn(
-                "flex h-full items-center pt-[72px] max-[768px]:items-start",
+                "flex h-full items-center px-gutter pt-[72px] max-[768px]:items-start",
                 strips === "both" ? "pb-[176px] max-[768px]:pb-[190px]" : "pb-[120px] max-[768px]:pb-24",
                 globe ? "max-[768px]:pt-[calc(96px+min(58vw,240px))]" : "max-[768px]:pt-[260px]",
               )}
             >
-              <div className="w-full px-gutter">
-              <div data-carousel-hold className={cn("w-full max-w-[650px] 3xl:max-w-[760px] max-[768px]:max-w-[440px]", globe && "max-w-[600px] max-[1180px]:max-w-[50vw] max-[768px]:max-w-[440px]")}>
+              <div data-carousel-hold className={cn("w-full max-w-[620px] 3xl:max-w-[720px] max-[768px]:max-w-[440px]", globe && "max-w-[580px] 3xl:max-w-[680px] max-[1180px]:max-w-[50vw] max-[768px]:max-w-[440px]")}>
                 {eyebrow ? (
-                  <p className="mb-5 flex items-center gap-3 text-balance font-sans text-[11.5px] font-semibold uppercase tracking-[0.24em] text-brand 3xl:text-[12.5px] max-[768px]:mb-4 max-[768px]:text-[11px]">
-                    <span aria-hidden className="h-px w-8 bg-brand" />
-                    {eyebrow}
+                  <p className="mb-5 inline-flex max-w-full items-center gap-2.5 rounded-full border border-white/[0.1] bg-white/[0.04] py-[7px] pl-2 pr-4 font-sans text-[11px] font-semibold uppercase leading-[1.3] tracking-[0.2em] text-white/80 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] backdrop-blur-sm short:mb-3 3xl:text-[11.5px] max-[768px]:mb-4 max-[768px]:rounded-none max-[768px]:border-0 max-[768px]:bg-transparent max-[768px]:p-0 max-[768px]:tracking-[0.16em] max-[768px]:shadow-none max-[768px]:backdrop-blur-none">
+                    <span aria-hidden className="flex size-[18px] shrink-0 items-center justify-center rounded-full bg-brand/15 ring-1 ring-brand/30">
+                      <span className="size-1.5 rounded-full bg-brand-gradient shadow-[0_0_10px_rgba(255,140,0,0.95)]" />
+                    </span>
+                    <span className="bg-[linear-gradient(90deg,#FFC21A,#FF8C00_60%,#FF7800)] bg-clip-text text-transparent">{eyebrow}</span>
                   </p>
                 ) : null}
-                <Heading className="font-heading text-[44px] font-semibold leading-[1.1] text-white 3xl:text-[52px] max-[1180px]:text-[38px] max-[768px]:text-[30px]"><Highlight text={slide.title} /></Heading>
-                {slide.description ? <p className="mt-6 max-w-[55ch] text-pretty font-sans text-[17px] leading-[1.6] text-white/65 3xl:text-[19px] max-[768px]:mt-5 max-[768px]:text-[15.5px]">{slide.description}</p> : null}
+                <Heading className="text-balance font-heading text-[40px] font-semibold leading-[1.08] tracking-[-0.022em] text-white 3xl:text-[46px] max-[1180px]:text-[34.5px] short:text-[34.5px] max-[768px]:text-[27.5px]"><Highlight text={slide.title} /></Heading>
+                {slide.description ? <p className="relative mt-5 max-w-[34rem] text-pretty pl-5 font-sans text-[14.5px] leading-[1.65] text-white/70 before:absolute before:inset-y-1 before:left-0 before:w-[2px] before:rounded-full before:bg-[linear-gradient(180deg,#FF8C00,#FFB21E_45%,#3b6fe0)] 3xl:max-w-[38rem] 3xl:text-[16.5px] short:mt-4 short:text-[14px] max-[768px]:mt-4 max-[768px]:pl-4 max-[768px]:text-[14.5px]">{slide.description}</p> : null}
                 {/* Chips need the desktop copy width; below 1024px the CTA leads to the full section instead. */}
                 {chips.length ? (
-                  <ul aria-label={eyebrow || "Highlights"} className="mt-6 flex max-w-[600px] flex-wrap gap-2 max-lg:hidden">
+                  <ul aria-label={eyebrow || "Highlights"} className="mt-6 flex max-w-[600px] flex-wrap gap-2 short:mt-4 max-lg:hidden">
                     {chips.map((chip) => {
                       const chipClass =
-                        "group/chip inline-flex h-8 items-center gap-2 rounded-full border border-white/12 bg-white/[0.05] px-3.5 font-sans text-[12.5px] font-medium text-white/80 backdrop-blur-sm transition-[transform,background-color,border-color,color,box-shadow] duration-300 3xl:h-9 3xl:text-[13.5px]";
+                        "group/chip inline-flex h-8 items-center gap-2 rounded-full border border-white/12 bg-white/[0.05] px-3.5 font-sans text-[12px] font-medium text-white/80 backdrop-blur-sm transition-[transform,background-color,border-color,color,box-shadow] duration-300 3xl:h-9 3xl:text-[13px] short:h-7";
                       const dot = <span aria-hidden className="size-1.5 shrink-0 rounded-full bg-[var(--acc)] shadow-[0_0_10px_var(--acc)] transition-transform duration-300 group-hover/chip:scale-125" />;
                       return (
                         <li key={chip.label} style={accentVars(chip.accent)}>
@@ -117,9 +121,9 @@ export function HeroSlider({ data }: SectionProps<Data>) {
                     })}
                   </ul>
                 ) : null}
-                <div className={cn("mt-8 flex flex-wrap items-center gap-3 max-[768px]:mt-7", chips.length > 0 && "lg:mt-7")}>
+                <div className={cn("mt-8 flex flex-wrap items-center gap-3 max-[768px]:mt-7", chips.length > 0 && "lg:mt-7", "short:mt-5")}>
                   {data.primaryCta?.label ? (
-                    <SmartLink href={data.primaryCta.href} newTab={data.primaryCta.openInNewTab} className="btn-primary group max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[14px]">
+                    <SmartLink href={data.primaryCta.href} newTab={data.primaryCta.openInNewTab} className="btn-primary group max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[13.5px]">
                       <span>{data.primaryCta.label}</span>
                       <ArrowRight aria-hidden className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
                     </SmartLink>
@@ -130,8 +134,8 @@ export function HeroSlider({ data }: SectionProps<Data>) {
                       newTab={slide.cta.openInNewTab}
                       className={cn(
                         data.primaryCta?.label
-                          ? "btn-secondary group px-6 max-[768px]:h-11 max-[768px]:px-5 max-[768px]:text-[14px]"
-                          : "btn-primary max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[14px]",
+                          ? "btn-secondary group px-6 max-[768px]:h-11 max-[768px]:px-5 max-[768px]:text-[13.5px]"
+                          : "btn-primary max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[13.5px]",
                       )}
                     >
                       <span>{slide.cta.label}</span>
@@ -140,16 +144,15 @@ export function HeroSlider({ data }: SectionProps<Data>) {
                   ) : null}
                 </div>
               </div>
-              </div>
             </div>
           );
         })}
       </HeroFade>
       {proof.length || partners.length ? (
-        <div className="absolute inset-x-0 bottom-0 z-10 border-t border-white/[0.08] bg-[#03060f]/45 backdrop-blur-md">
+        <div data-full-bleed className="absolute inset-x-0 bottom-0 z-10 border-t border-white/[0.08] bg-[#03060f]/45 backdrop-blur-md">
           {proof.length ? (
             <div className="border-b border-white/[0.06]">
-            <Marquee label="Credentials and recognition" duration={proof.length * 6} className="min-[1921px]:mx-auto min-[1921px]:max-w-[1720px]">
+            <Marquee label="Credentials and recognition" duration={proof.length * 6} copies={fillCopies(proof.length, 250)}>
               {proof.map((p, i) => {
                 const body = (
                   <>
@@ -159,11 +162,11 @@ export function HeroSlider({ data }: SectionProps<Data>) {
                       </span>
                     ) : null}
                     {p.value ? (
-                      <span className="bg-[linear-gradient(90deg,#FFB21E,#FF7800)] bg-clip-text font-heading text-[22px] font-bold leading-none tracking-tight text-transparent 3xl:text-[26px] max-[768px]:text-[18px]">
+                      <span className="bg-[linear-gradient(90deg,#FFB21E,#FF7800)] bg-clip-text font-heading text-[20px] font-bold leading-none tracking-tight text-transparent 3xl:text-[21.5px] max-[768px]:text-[16.5px]">
                         {p.value}
                       </span>
                     ) : null}
-                    <span className="whitespace-nowrap font-sans text-[12.5px] leading-[1.4] text-white/65 transition-colors group-hover/pf:text-white 3xl:text-[13.5px] max-[768px]:text-[12px]">
+                    <span className="whitespace-nowrap font-sans text-[12px] leading-[1.4] text-white/65 transition-colors group-hover/pf:text-white 3xl:text-[13px] max-[768px]:text-[12px]">
                       {p.label}
                     </span>
                   </>
@@ -183,13 +186,16 @@ export function HeroSlider({ data }: SectionProps<Data>) {
             </div>
           ) : null}
           {partners.length ? (
-            <div className="flex items-center min-[1921px]:pr-gutter max-[768px]:flex-col max-[768px]:items-stretch max-[768px]:pt-3">
-              <p className="flex shrink-0 items-center gap-2.5 pl-gutter pr-6 font-sans text-[11px] font-bold uppercase leading-[1.4] tracking-[0.22em] 3xl:text-[11.5px] max-[768px]:justify-center max-[768px]:px-gutter">
+            <div className="flex items-center max-[768px]:flex-col max-[768px]:items-stretch max-[768px]:pt-3">
+              {/* Static label; only the logos scroll, from beside the label to the right edge of the screen. The label
+                  uses the fixed content gutter (not the centred one) so ultra-wide screens keep logos across the strip. */}
+              <p className="flex shrink-0 items-center gap-2.5 pl-10 pr-6 font-sans text-[11px] font-bold uppercase leading-[1.4] tracking-[0.22em] min-[1025px]:pl-24 min-[1281px]:pl-32 3xl:pl-36 3xl:text-[11.5px] max-[768px]:justify-center max-[768px]:px-gutter">
                 <span aria-hidden className="size-1.5 shrink-0 rounded-full bg-brand-gradient shadow-[0_0_10px_rgba(255,140,0,0.9)]" />
-                <span className="bg-[linear-gradient(90deg,#FFC21A,#FF8C00_55%,#FF7800)] bg-clip-text text-transparent">{data.partnersLabel || "OEM & technology partners"}</span>
+                <span className="whitespace-nowrap bg-[linear-gradient(90deg,#FFC21A,#FF8C00_55%,#FF7800)] bg-clip-text text-transparent">{partnersLabel}</span>
               </p>
-              <Marquee label={data.partnersLabel || "OEM & technology partners"} duration={partners.length * 4.5} reverse className="min-w-0 flex-1">
-                {partners.map((partner, i) => {
+              <Marquee label={partnersLabel} duration={partners.length * 4.5} reverse copies={fillCopies(partners.length, 90)} className="min-w-0 flex-1 max-[768px]:w-full">
+                {[
+                  ...partners.map((partner, i) => {
                   const w = partner.image?.width ?? 200;
                   const h = partner.image?.height ?? 80;
                   // Optical sizing: compact marks get more height than long wordmarks.
@@ -237,7 +243,8 @@ export function HeroSlider({ data }: SectionProps<Data>) {
                       {logo}
                     </span>
                   );
-                })}
+                  }),
+                ]}
               </Marquee>
             </div>
           ) : null}

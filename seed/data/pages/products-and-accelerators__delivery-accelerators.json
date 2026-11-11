@@ -152,28 +152,28 @@
     {
      "title": "Risk and readiness map",
      "description": "Review change, dependencies and assurance obligations.",
-     "bullets": "Reuse – relevant assessment patterns\nAccept – scope, risks and required gates",
+     "bullets": "Reuse - relevant assessment patterns\nAccept - scope, risks and required gates",
      "accent": "orange",
      "number": "01"
     },
     {
      "title": "Selected IP set",
      "description": "Select applicable packs and adapt checks to the technology and requirements.",
-     "bullets": "Reuse – relevant pack set\nAccept – tailored checks and responsibilities",
+     "bullets": "Reuse - relevant pack set\nAccept - tailored checks and responsibilities",
      "accent": "blue",
      "number": "02"
     },
     {
      "title": "Evidence at defined gates",
      "description": "Run the automated and manual checks agreed for each stage.",
-     "bullets": "Reuse – selected checks and evidence structure\nAccept – results, gaps and remediation",
+     "bullets": "Reuse - selected checks and evidence structure\nAccept - results, gaps and remediation",
      "accent": "teal",
      "number": "03"
     },
     {
      "title": "Release evidence",
      "description": "Review findings with accountable owners and retain the decision evidence.",
-     "bullets": "Tailor – release decision and handover\nAccept – release gate and evidence record",
+     "bullets": "Tailor - release decision and handover\nAccept - release gate and evidence record",
      "accent": "yellow",
      "number": "04"
     }
@@ -194,19 +194,19 @@
     {
      "title": "Change and applicable IP",
      "description": "Choose the pack set from the actual programme scope, not from a generic platform promise.",
-     "bullets": "Modernisation – architecture and interface scope\nMigration – data mappings and reconciliation rules\nRelease – changed journeys and gate criteria",
+     "bullets": "Modernisation - architecture and interface scope\nMigration - data mappings and reconciliation rules\nRelease - changed journeys and gate criteria",
      "accent": "blue"
     },
     {
      "title": "Access and evidence",
      "description": "Readiness depends on accessible systems and accountable review.",
-     "bullets": "Provide – approved system access and evidence\nName – delivery, security and control owners\nAgree – acceptance gates and release constraints",
+     "bullets": "Provide - approved system access and evidence\nName - delivery, security and control owners\nAgree - acceptance gates and release constraints",
      "accent": "teal"
     },
     {
      "title": "Adoption and ownership",
      "description": "Separate reusable delivery IP from proprietary product licences.",
-     "bullets": "Confirm – pack applicability and reuse rights\nAgree – engagement and handover scope\nName – maintenance and support owners",
+     "bullets": "Confirm - pack applicability and reuse rights\nAgree - engagement and handover scope\nName - maintenance and support owners",
      "accent": "yellow"
     }
    ],
@@ -247,7 +247,7 @@
      "href": "/products-and-accelerators/linkworks",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      }
     },
@@ -256,7 +256,7 @@
      "href": "/products-and-accelerators/testoriumz",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      }
     },
@@ -265,7 +265,7 @@
      "href": "/products-and-accelerators/vectorx",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX product logo"
      }
     },

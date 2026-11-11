@@ -140,7 +140,7 @@
      "description": "Composable enterprise applications and REST APIs can support workflows where existing ERP or CRM capabilities do not fit.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -151,7 +151,7 @@
      "description": "Low-code testing and CI/CD integration support workflow release assurance, with Cyber-Safe Delivery controls selected for the engagement.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -178,16 +178,16 @@
    "heading": "Discover, redesign, assure and operate",
    "items": [
     {
-     "description": "Discover and baseline — Map work, volumes, manual effort and exceptions. Process owners validate the scope, costs and measures before agreeing the automation backlog."
+     "description": "Discover and baseline - Map work, volumes, manual effort and exceptions. Process owners validate the scope, costs and measures before agreeing the automation backlog."
     },
     {
-     "description": "Redesign and control — Choose APIs, RPA and AI roles. Agree human approvals, least-privilege credentials, audit trails and data-handling requirements with process and security owners."
+     "description": "Redesign and control - Choose APIs, RPA and AI roles. Agree human approvals, least-privilege credentials, audit trails and data-handling requirements with process and security owners."
     },
     {
-     "description": "Build and assure — Implement tasks and integration; test failure, duplicate and exception paths. Client owners accept the workflow and release gates before controlled deployment."
+     "description": "Build and assure - Implement tasks and integration; test failure, duplicate and exception paths. Client owners accept the workflow and release gates before controlled deployment."
     },
     {
-     "description": "Operate and optimise — Transfer runbooks, monitoring and change ownership. Review exceptions and net benefits against the baseline; agree support hours, escalation routes and service responsibilities with your team."
+     "description": "Operate and optimise - Transfer runbooks, monitoring and change ownership. Review exceptions and net benefits against the baseline; agree support hours, escalation routes and service responsibilities with your team."
     }
    ]
   },

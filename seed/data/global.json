@@ -95,7 +95,7 @@
        "href": "/products-and-accelerators/linkworks",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        },
        "icon": {
@@ -107,7 +107,7 @@
        "href": "/products-and-accelerators/testoriumz",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz"
        },
        "icon": {
@@ -193,7 +193,7 @@
        "href": "/products-and-accelerators/linkworks",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        },
        "icon": {
@@ -255,7 +255,7 @@
        "href": "/products-and-accelerators/textiq",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/textiq.png",
+        "__media": "custom/logos/plate/textiq-plate.png",
         "alt": "textIQ"
        },
        "icon": {
@@ -267,7 +267,7 @@
        "href": "/products-and-accelerators/finsight",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/finsight.png",
+        "__media": "custom/logos/plate/finsight-plate.png",
         "alt": "FinSight"
        },
        "icon": {
@@ -279,7 +279,7 @@
        "href": "/products-and-accelerators/edupilot",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/edupilot.png",
+        "__media": "custom/logos/plate/edupilot-plate.png",
         "alt": "EduPilot"
        },
        "icon": {
@@ -341,7 +341,7 @@
        "href": "/products-and-accelerators/vajrax",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vajrax.png",
+        "__media": "custom/logos/plate/vajrax-plate.png",
         "alt": "VajraX"
        },
        "icon": {
@@ -353,7 +353,7 @@
        "href": "/products-and-accelerators/vectorx",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vectorx.png",
+        "__media": "custom/logos/plate/vectorx-plate.png",
         "alt": "VectorX"
        },
        "icon": {
@@ -364,6 +364,10 @@
        "label": "AI Governance",
        "href": "/products-and-accelerators/ai-governance",
        "openInNewTab": false,
+       "logo": {
+        "__media": "custom/logos/plate/ai-governance-plate.png",
+        "alt": "AI Governance"
+       },
        "icon": {
         "__media": "custom/icons/sub/ai-governance.svg"
        }
@@ -565,7 +569,7 @@
        "openInNewTab": false,
        "description": "App modernisation & composable UI",
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        }
       },
@@ -575,7 +579,7 @@
        "openInNewTab": false,
        "description": "Quality engineering",
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz"
        }
       }
@@ -602,7 +606,7 @@
        "openInNewTab": false,
        "description": "Composable apps",
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        }
       }
@@ -629,7 +633,7 @@
        "openInNewTab": false,
        "description": "Document intelligence",
        "logo": {
-        "__media": "custom/logos/textiq.png",
+        "__media": "custom/logos/plate/textiq-plate.png",
         "alt": "textIQ"
        }
       },
@@ -639,7 +643,7 @@
        "openInNewTab": false,
        "description": "Financial insights",
        "logo": {
-        "__media": "custom/logos/finsight.png",
+        "__media": "custom/logos/plate/finsight-plate.png",
         "alt": "FinSight"
        }
       },
@@ -649,7 +653,7 @@
        "openInNewTab": false,
        "description": "Instant course creation",
        "logo": {
-        "__media": "custom/logos/edupilot.png",
+        "__media": "custom/logos/plate/edupilot-plate.png",
         "alt": "EduPilot"
        }
       }
@@ -676,7 +680,7 @@
        "openInNewTab": false,
        "description": "Exposure validation",
        "logo": {
-        "__media": "custom/logos/vajrax.png",
+        "__media": "custom/logos/plate/vajrax-plate.png",
         "alt": "VajraX"
        }
       },
@@ -686,7 +690,7 @@
        "openInNewTab": false,
        "description": "Supply-chain security",
        "logo": {
-        "__media": "custom/logos/vectorx.png",
+        "__media": "custom/logos/plate/vectorx-plate.png",
         "alt": "VectorX"
        }
       },
@@ -694,7 +698,11 @@
        "label": "AI Governance",
        "href": "/products-and-accelerators/ai-governance",
        "openInNewTab": false,
-       "description": "AI gateway & guardrails"
+       "description": "AI gateway & guardrails",
+       "logo": {
+        "__media": "custom/logos/plate/ai-governance-plate.png",
+        "alt": "AI Governance"
+       }
       }
      ],
      "groupLabel": null,
@@ -1574,7 +1582,7 @@
   ],
   "serviceOptions": [
    {
-    "label": "Not sure — help me choose",
+    "label": "Not sure - help me choose",
     "value": "Not sure",
     "group": null
    },

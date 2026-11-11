@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowRight, Check, Copy, Loader2, RotateCcw } from "lucide-react";
-import Link from "next/link";
+import { PrivacyPolicyLink } from "@/components/legal/privacy-dialog";
 import { usePathname } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 
@@ -252,7 +252,7 @@ export function ContactFormClient({
   }
 
   const field = cn(
-    "h-12 w-full rounded-xl border px-4 font-sans text-[14.5px] outline-none transition-[border-color,box-shadow,background-color] duration-200 3xl:h-14 3xl:text-[16px]",
+    "h-12 w-full rounded-xl border px-4 font-sans text-[13.5px] outline-none transition-[border-color,box-shadow,background-color] duration-200 3xl:h-14 3xl:text-[14.5px] max-sm:text-[16px]",
     "focus:border-brand focus:ring-4 focus:ring-brand/15 aria-[invalid=true]:border-red-400/70",
     dark
       ? "border-white/12 bg-white/[0.04] text-white placeholder:text-white/45 hover:border-white/25"
@@ -260,7 +260,7 @@ export function ContactFormClient({
   );
   const err = (k: keyof Values) =>
     errors[k] ? (
-      <span id={`${idPrefix}-${k}-error`} role="alert" className="mt-1.5 pl-1 font-sans text-[12.5px] text-red-400">
+      <span id={`${idPrefix}-${k}-error`} role="alert" className="mt-1.5 pl-1 font-sans text-[12px] text-red-400">
         {errors[k]}
       </span>
     ) : null;
@@ -277,7 +277,7 @@ export function ContactFormClient({
     if (last && last.label === g) last.items.push(o);
     else groups.push({ label: g, items: [o] });
   }
-  const label = cn("mb-1.5 pl-1 font-sans text-[12.5px] font-medium tracking-[0.01em]", dark ? "text-white/70" : "text-[#4b5157]");
+  const label = cn("mb-1.5 pl-1 font-sans text-[12px] font-medium tracking-[0.01em]", dark ? "text-white/70" : "text-[#4b5157]");
   const req = <span aria-hidden className="text-brand"> *</span>;
   const optionEl = (o: Option) => (
     <option key={`${o.group ?? ""}-${o.value ?? o.label}`} value={o.value ?? o.label} className={dark ? "bg-black text-cloud" : "bg-white text-coal"}>
@@ -313,12 +313,12 @@ export function ContactFormClient({
           <Check aria-hidden className="relative size-7 stroke-[2.5]" />
         </span>
         <div>
-          <p className="font-sans text-[11.5px] font-semibold uppercase tracking-[0.18em] text-brand">Enquiry received</p>
-          <h3 className={cn("mt-2 text-balance font-display text-[24px] font-semibold leading-[1.2] tracking-[-0.01em] md:text-[28px]", dark ? "text-white" : "text-[#0b0b0b]")}>
+          <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.18em] text-brand">Enquiry received</p>
+          <h3 className={cn("mt-2 text-balance font-display text-[21.5px] font-semibold leading-[1.2] tracking-[-0.01em] md:text-[24px]", dark ? "text-white" : "text-[#0b0b0b]")}>
             {headline.replace(/[.!]$/, "")}
           </h3>
           {rest.length ? (
-            <p className={cn("mt-2 font-sans text-[15.5px] leading-[1.6]", dark ? "text-white/75" : "text-[#4b5157]")}>{rest.join(" ")}</p>
+            <p className={cn("mt-2 font-sans text-[14.5px] leading-[1.6]", dark ? "text-white/75" : "text-[#4b5157]")}>{rest.join(" ")}</p>
           ) : null}
         </div>
         {receipt.reference ? (
@@ -330,13 +330,13 @@ export function ContactFormClient({
           >
             <div>
               <p className="font-sans text-[11px] font-semibold uppercase tracking-[0.16em] text-brand">Your reference</p>
-              <p className={cn("mt-1 select-all font-mono text-[21px] font-bold tracking-[0.06em]", dark ? "text-white" : "text-[#0b1020]")}>{receipt.reference}</p>
+              <p className={cn("mt-1 select-all font-mono text-[18px] font-bold tracking-[0.06em]", dark ? "text-white" : "text-[#0b1020]")}>{receipt.reference}</p>
             </div>
             <button
               type="button"
               onClick={copy}
               className={cn(
-                "inline-flex h-9 items-center gap-1.5 rounded-full border px-4 font-sans text-[13px] font-semibold transition-[transform,background-color,border-color,color] duration-200 hover:-translate-y-px hover:scale-[1.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/60",
+                "inline-flex h-9 items-center gap-1.5 rounded-full border px-4 font-sans text-[12.5px] font-semibold transition-[transform,background-color,border-color,color] duration-200 hover:-translate-y-px hover:scale-[1.04] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand/60",
                 dark ? "border-white/20 bg-white/[0.06] text-white hover:border-brand/60 hover:bg-brand/20" : "border-black/15 bg-white text-[#0b1020] hover:border-brand/60 hover:bg-[#fff1e3]",
               )}
             >
@@ -345,7 +345,7 @@ export function ContactFormClient({
             </button>
           </div>
         ) : null}
-        <p className={cn("font-sans text-[13.5px] leading-[1.65]", dark ? "text-white/65" : "text-[#5b6167]")}>
+        <p className={cn("font-sans text-[13px] leading-[1.65]", dark ? "text-white/65" : "text-[#5b6167]")}>
           {receipt.stored ? (
             <>
               A confirmation email with your reference is on its way to <strong className={dark ? "text-white" : "text-[#0b0b0b]"}>{receipt.email}</strong>.{" "}
@@ -364,7 +364,7 @@ export function ContactFormClient({
             setCopied(false);
           }}
           className={cn(
-            "inline-flex items-center gap-2 font-sans text-[13.5px] font-semibold transition-[color,transform] duration-200 hover:translate-x-0.5",
+            "inline-flex items-center gap-2 font-sans text-[13px] font-semibold transition-[color,transform] duration-200 hover:translate-x-0.5",
             dark ? "text-white/80 hover:text-white" : "text-[#0b1020] hover:text-brand",
           )}
         >
@@ -499,15 +499,13 @@ export function ContactFormClient({
         />
       </div>
       {serverError ? (
-        <p role="alert" className="rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 font-sans text-[13px] text-red-300">
+        <p role="alert" className="rounded-xl border border-red-500/40 bg-red-500/10 px-4 py-3 font-sans text-[12.5px] text-red-300">
           {serverError}
         </p>
       ) : null}
-      <p className={cn("-mt-1 font-sans text-[12.5px] leading-[1.6]", dark ? "text-white/55" : "text-[#5b6167]")}>
+      <p className={cn("-mt-1 font-sans text-[12px] leading-[1.6]", dark ? "text-white/55" : "text-[#5b6167]")}>
         <span aria-hidden className="text-brand">*</span> Required. We use your details only to respond to your enquiry. See our{" "}
-        <Link href="/privacy-policy" className={cn("underline underline-offset-2", dark ? "text-white/80 hover:text-white" : "text-[#0b0b0b]")}>
-          Privacy Policy
-        </Link>
+        <PrivacyPolicyLink className={cn("underline underline-offset-2", dark ? "text-white/80 hover:text-white" : "text-[#0b0b0b]")} />
         .
       </p>
       <div className="flex flex-wrap items-center justify-between gap-4">
@@ -515,7 +513,7 @@ export function ContactFormClient({
         <button
           type="submit"
           disabled={status === "sending"}
-          className="btn-primary group max-[768px]:h-11 max-[768px]:w-full max-[768px]:px-6 max-[768px]:text-[14px]"
+          className="btn-primary group max-[768px]:h-11 max-[768px]:w-full max-[768px]:px-6 max-[768px]:text-[13.5px]"
         >
           <span>{status === "sending" ? "Sending…" : status === "sent" ? "Sent" : submitLabel}</span>
           {status === "sending" ? (

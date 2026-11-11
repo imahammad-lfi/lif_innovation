@@ -2,19 +2,21 @@ import { byId, visibleQuery } from "@/lib/dom";
 /**
  * Section landing: put the start of a section just below the fixed chrome.
  *
- * The chrome is the fixed header (64 / 72 / 84 px by breakpoint) plus, on pages with an
- * "On this page" tab bar, the docked tab bar (49 / 53 px) that appears once the hero is scrolled past.
+ * The chrome is the fixed header plus, on pages with an "On this page" tab bar, the docked tab bar
+ * (49 / 53 px) that appears once the hero is scrolled past. The header is full size at the top of the page
+ * (64 / 72 / 84 px by breakpoint) and compact once scrolled past COMPACT_AT (56 / 60 / 64 px), so a landing
+ * below that point is measured against the compact header.
  * Used by in-page tabs, cross-page #hash links (menus, footer, content) and the contact pop-up.
  */
 export const DOCK_H = 53;
 export const DOCK_H_SM = 49;
+/** Scroll position (px) beyond which the header is compact (see header-client). */
+export const COMPACT_AT = 48;
 
-export function headerHeight() {
-  const header = document.querySelector("header");
-  const bar = header?.firstElementChild;
-  const h = bar instanceof HTMLElement ? bar.getBoundingClientRect().height : 0;
-  if (h > 40 && h < 120) return h;
+/** Header height at a scroll position (default: the current one). */
+export function headerHeight(scrollY = window.scrollY) {
   const w = window.innerWidth;
+  if (scrollY > COMPACT_AT) return w < 640 ? 56 : w >= 1561 ? 64 : 60;
   return w < 640 ? 64 : w >= 1561 ? 84 : 72;
 }
 
@@ -25,60 +27,26 @@ export const dockHeight = () => (window.innerWidth < 640 ? DOCK_H_SM : DOCK_H);
 export const pageHasTabs = () =>
   Boolean(visibleQuery('nav[aria-label="On this page"]') || visibleQuery('nav[aria-label="On this page (pinned)"]'));
 
-export const landingOffset = () => headerHeight() + (pageHasTabs() ? dockHeight() : 0);
-
-/** Space kept between the chrome and the section's content when landing. */
-const LAND_BREATH = 24;
-/** Lowest the heading may sit under the chrome when the page moves up to keep a card row off-screen whole. */
-const LAND_MAX_GAP = 150;
-/** Card-like blocks inside a section that should never be left half visible at the bottom of the screen. */
-const LAND_CARDS = "[data-land-card], .card-surface, .acc-tile";
-
-const docRect = (el: Element) => {
-  const r = el.getBoundingClientRect();
-  return { top: r.top + window.scrollY, bottom: r.bottom + window.scrollY, visible: r.width > 0 && r.height > 0 };
-};
+/** Chrome above a landed section. Landings end with the page scrolled, so the header is compact by default. */
+export const landingOffset = (scrollY = Number.POSITIVE_INFINITY) => headerHeight(scrollY) + (pageHasTabs() ? dockHeight() : 0);
 
 /**
- * Scroll position for landing on a section (tabs, menu/footer #links, contact pop-up). Fits the section to the
- * screen instead of using a fixed offset:
- * 1. the section's empty top padding is skipped, so its heading sits LAND_BREATH px below the chrome;
- * 2. if a card row is then cut by the bottom of the screen, the page moves down just far enough to show it in
- *    full while the section heading stays below the chrome; if that is not possible, it moves up a little (the
- *    heading at most LAND_MAX_GAP px under the chrome) so the row starts whole below the fold.
- * Computed in document coordinates only, so repeated calls (the landing re-checks while late layout settles)
- * return the same value wherever the page is currently scrolled.
+ * Scroll position that puts `el`'s top edge flush with the bottom of the chrome (`extra` px of chrome on top,
+ * e.g. the docked tab bar when the caller adds it itself). Sections near the top keep the full-size header.
  */
 export function sectionScrollTop(el: Element) {
-  const chrome = landingOffset();
-  const sec = docRect(el);
-  const pad = el instanceof HTMLElement ? parseFloat(getComputedStyle(el).paddingTop) || 0 : 0;
-  let top = sec.top - chrome + 1 + Math.max(0, pad - LAND_BREATH);
+  const top = el.getBoundingClientRect().top + window.scrollY;
+  let y = top - landingOffset() + 1;
+  if (y <= COMPACT_AT) y = top - landingOffset(0) + 1;
+  return Math.max(0, Math.round(y));
+}
 
-  const view = window.innerHeight;
-  if (view - chrome > 240) {
-    const heading = el.querySelector("h2, h3");
-    const headTop = heading ? docRect(heading).top : sec.top + pad;
-    // Down: furthest the page may move while the heading stays fully visible (4 px under the chrome).
-    const maxTop = Math.max(top, headTop - chrome - 4);
-    // Up: the heading may sit lower, at most LAND_MAX_GAP px under the chrome (above it the previous section shows).
-    const minTop = Math.min(top, headTop - chrome - LAND_MAX_GAP);
-    const fold = top + view;
-    let down = top;
-    let rowTop = Infinity;
-    for (const card of el.querySelectorAll(LAND_CARDS)) {
-      if (card.parentElement?.closest(LAND_CARDS)) continue; // nested card: its outer card decides
-      const r = docRect(card);
-      if (!r.visible || r.top < headTop || r.top >= fold || r.bottom <= fold) continue;
-      down = Math.max(down, r.bottom - view + 4);
-      rowTop = Math.min(rowTop, r.top);
-    }
-    if (down > top) {
-      if (down <= maxTop) top = down; // the cut row fits once the page moves down a little: show it in full
-      else if (rowTop - view - 4 >= minTop) top = rowTop - view - 4; // else start that row below the fold
-    }
-  }
-  return Math.max(0, Math.round(top));
+/** Like sectionScrollTop, for callers that always count the docked tab bar (the in-page tabs). */
+export function dockedScrollTop(el: Element) {
+  const top = el.getBoundingClientRect().top + window.scrollY;
+  let y = top - headerHeight(Number.POSITIVE_INFINITY) - dockHeight() + 1;
+  if (y <= COMPACT_AT) y = top - headerHeight(0) - dockHeight() + 1;
+  return Math.max(0, y);
 }
 
 const reducedMotion = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;

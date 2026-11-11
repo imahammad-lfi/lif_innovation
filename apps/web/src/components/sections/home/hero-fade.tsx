@@ -26,7 +26,7 @@ const HOLD = "[data-carousel-hold]";
  * hero space (the globe, the background) no longer stops the slides — previously a cursor resting anywhere on the
  * full-screen hero froze it. Reduced-motion users get no autoplay.
  */
-export function HeroFade({ children, className, dotsClassName, interval = 6000, ariaLabel = "Carousel" }: HeroFadeProps) {
+export function HeroFade({ children, className, dotsClassName, interval = 4000, ariaLabel = "Carousel" }: HeroFadeProps) {
   const slides = React.Children.toArray(children);
   const count = slides.length;
   const [active, setActive] = React.useState(0);

@@ -23,7 +23,7 @@ export function ReadMore({
     </>
   );
   const cls = cn(
-    "rm-link hover-grow group/rm inline-flex w-fit origin-left items-center gap-2 font-heading text-[13.5px] font-semibold leading-[1.4] text-brand 3xl:text-[15px]",
+    "rm-link hover-grow group/rm inline-flex w-fit origin-left items-center gap-2 font-heading text-[13px] font-semibold leading-[1.4] text-brand 3xl:text-[14px]",
     className,
   );
   if (!href) return <span className={cls}>{content}</span>;

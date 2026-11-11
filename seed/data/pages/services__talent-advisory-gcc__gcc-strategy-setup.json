@@ -68,37 +68,37 @@
     {
      "title": "Business and capability case",
      "description": "A statement of the business need, centre service scope and intended outcomes.",
-     "bullets": "Decision supported – which capability belongs in the centre",
+     "bullets": "Decision supported - which capability belongs in the centre",
      "accent": "yellow"
     },
     {
      "title": "Operating model and decision rights",
      "description": "A retained-versus-centre responsibility map and reporting structure.",
-     "bullets": "Decision supported – who directs, delivers and accepts work",
+     "bullets": "Decision supported - who directs, delivers and accepts work",
      "accent": "yellow"
     },
     {
      "title": "Talent and leadership plan",
      "description": "A phased capability and leadership plan aligned to the proposed service catalogue.",
-     "bullets": "Decision supported – which roles and skills are needed at each stage",
+     "bullets": "Decision supported - which roles and skills are needed at each stage",
      "accent": "yellow"
     },
     {
      "title": "Delivery environment requirements",
      "description": "A view of tools, environments, access and integration dependencies.",
-     "bullets": "Decision supported – what must be ready before work moves",
+     "bullets": "Decision supported - what must be ready before work moves",
      "accent": "yellow"
     },
     {
      "title": "Governance and KPI design",
      "description": "A proposed review cadence, performance measures, risk ownership and escalation map.",
-     "bullets": "Decision supported – how to oversee delivery and evidence progress",
+     "bullets": "Decision supported - how to oversee delivery and evidence progress",
      "accent": "yellow"
     },
     {
      "title": "Launch and readiness roadmap",
      "description": "A phased setup plan with dependencies, accountable owners and launch gates.",
-     "bullets": "Decision supported – when and how to proceed to setup",
+     "bullets": "Decision supported - when and how to proceed to setup",
      "accent": "yellow"
     }
    ],
@@ -120,28 +120,28 @@
     {
      "title": "Agree the objectives",
      "description": "Define the business need, capability scope and constraints with decision-makers.",
-     "bullets": "Gate – approved objectives and advisory scope",
+     "bullets": "Gate - approved objectives and advisory scope",
      "accent": "yellow",
      "number": "01"
     },
     {
      "title": "Validate the target model",
      "description": "Test service boundaries, retained responsibilities and ownership options.",
-     "bullets": "Gate – agreed operating model and decision rights",
+     "bullets": "Gate - agreed operating model and decision rights",
      "accent": "yellow",
      "number": "02"
     },
     {
      "title": "Phase the launch plan",
      "description": "Sequence talent, environments and dependencies; cost the plan where financial modelling is in scope.",
-     "bullets": "Gate – approved phased plan and assumptions",
+     "bullets": "Gate - approved phased plan and assumptions",
      "accent": "yellow",
      "number": "03"
     },
     {
      "title": "Decide launch ownership",
      "description": "Review readiness and unresolved risks before choosing the setup route.",
-     "bullets": "Gate – client-owned setup or a separately scoped BOT hand-off",
+     "bullets": "Gate - client-owned setup or a separately scoped BOT hand-off",
      "accent": "yellow",
      "number": "04",
      "href": "/services/talent-advisory-gcc/gcc-build-operate-transfer",
@@ -162,7 +162,7 @@
     {
      "title": "Governance baseline",
      "description": "Design the review cadence, risk register, acceptance evidence and escalation responsibilities.",
-     "bullets": "Blueprint output – proposed delivery-governance and control requirements\nQuality output – testing and release-assurance requirements",
+     "bullets": "Blueprint output - proposed delivery-governance and control requirements\nQuality output - testing and release-assurance requirements",
      "accent": "yellow",
      "href": "/products-and-accelerators/delivery-accelerators",
      "linkLabel": "Explore delivery accelerators"
@@ -170,10 +170,10 @@
     {
      "title": "Linkworks",
      "description": "Assess whether composable enterprise applications fit the centre’s service catalogue.",
-     "bullets": "Blueprint questions – what is configured, who operates it and which licence rights apply?",
+     "bullets": "Blueprint questions - what is configured, who operates it and which licence rights apply?",
      "accent": "yellow",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -182,7 +182,7 @@
     {
      "title": "Cyber-Safe Delivery",
      "description": "Identify security requirements for access, engineering workflows and release gates.",
-     "bullets": "Blueprint output – security responsibilities and review evidence\nIP decision – reusable quality and security packs relevant to the scoped work",
+     "bullets": "Blueprint output - security responsibilities and review evidence\nIP decision - reusable quality and security packs relevant to the scoped work",
      "accent": "yellow"
     }
    ],
@@ -204,13 +204,13 @@
     {
      "title": "Service catalogue and ownership",
      "description": "Illustrative blueprint outline, not client work: define an application engineering service with business priorities retained by the client.",
-     "bullets": "Centre scope – agreed engineering and quality activities\nRetained scope – product direction and acceptance\nDecision record – service boundaries and accountable owners",
+     "bullets": "Centre scope - agreed engineering and quality activities\nRetained scope - product direction and acceptance\nDecision record - service boundaries and accountable owners",
      "accent": "yellow"
     },
     {
      "title": "People, governance and launch",
      "description": "Sequence the capability and leadership plan against readiness rather than an assumed launch date.",
-     "bullets": "Talent plan – phased skills and leadership requirements\nGovernance – review cadence, risks and evidence\nLaunch gate – access, environment and responsibility readiness",
+     "bullets": "Talent plan - phased skills and leadership requirements\nGovernance - review cadence, risks and evidence\nLaunch gate - access, environment and responsibility readiness",
      "accent": "yellow"
     }
    ]

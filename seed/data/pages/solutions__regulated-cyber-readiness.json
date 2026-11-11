@@ -174,7 +174,7 @@
      "description": "AI-powered exposure validation of the external attack surface, informing remediation priorities.",
      "accent": "teal",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX product logo"
      },
      "href": "/products-and-accelerators/vajrax",

@@ -40,7 +40,7 @@
     }
    ],
    "logo": {
-    "__media": "custom/logos/on-dark/finsight-on-dark.png",
+    "__media": "custom/logos/svg/finsight-on-dark.svg",
     "alt": "FinSight logo"
    }
   },
@@ -69,7 +69,7 @@
     {
      "label": "FinSight",
      "logo": {
-      "__media": "custom/logos/finsight.png",
+      "__media": "custom/logos/plate/finsight-plate.png",
       "alt": "FinSight product logo"
      }
     }
@@ -78,13 +78,13 @@
     {
      "title": "Ask a financial question",
      "description": "Use a question to explore an agreed financial dataset. For example, evaluate a question about movement between reporting periods, with the period, entity and measure defined first.",
-     "bullets": "Input – reporting question and approved dataset\nEvaluation output – an answer checked against expected calculations",
+     "bullets": "Input - reporting question and approved dataset\nEvaluation output - an answer checked against expected calculations",
      "accent": "purple"
     },
     {
      "title": "Review and report",
      "description": "Use the analysis in a reporting workflow, with a finance reviewer checking the figures and narrative. Confirm which report outputs and any chart or export formats the product supports.",
-     "bullets": "Input – reviewed analysis and reporting requirements\nEvaluation output – a sample report with reconciliation checks",
+     "bullets": "Input - reviewed analysis and reporting requirements\nEvaluation output - a sample report with reconciliation checks",
      "accent": "purple"
     }
    ],

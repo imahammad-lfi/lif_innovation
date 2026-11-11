@@ -26,25 +26,25 @@ type Data = {
 export function ProcessAccordion({ data }: Pick<SectionProps<Data>, "data">) {
   const hasArtwork = data.backgroundStyle !== "dark" && data.backgroundImage;
   return (
-    <section id={data.anchorId || undefined} className="relative isolate overflow-hidden bg-ink px-gutter py-24 3xl:py-[120px] max-[768px]:py-16">
+    <section id={data.anchorId || undefined} className="relative isolate overflow-hidden bg-ink px-gutter py-24 3xl:py-28 max-[768px]:py-16">
       {hasArtwork ? <CmsImage media={data.backgroundImage} alt="" fill sizes="100vw" className="-z-10 object-cover" /> : null}
       <div className="relative">
         <div className="grid items-start gap-12 min-[1100px]:grid-cols-[minmax(0,0.9fr)_minmax(0,1fr)] 3xl:gap-20 max-[768px]:gap-8">
           <div className="min-w-0">
             <Eyebrow className="mb-2 mt-0 xl:mb-2 xl:mt-0">{data.eyebrow}</Eyebrow>
-            {data.heading ? <h2 className="max-w-[26ch] font-heading text-[32px] font-semibold leading-[1.2] text-white 3xl:text-[40px] max-[768px]:text-[24px]">{data.heading}</h2> : null}
-            {data.description ? <p className="mt-4 max-w-[68ch] font-sans text-[17px] leading-[1.6] text-white/65 3xl:text-[19px] max-[768px]:text-[15.5px]">{data.description}</p> : null}
+            {data.heading ? <h2 className="max-w-[26ch] font-heading text-[27.5px] font-semibold leading-[1.2] text-white 3xl:text-[34.5px] max-[768px]:text-[21.5px]">{data.heading}</h2> : null}
+            {data.description ? <p className="mt-4 max-w-[68ch] font-sans text-[15.5px] leading-[1.6] text-white/65 3xl:text-[16.5px] max-[768px]:text-[14.5px]">{data.description}</p> : null}
           </div>
           <Accordion type="single" collapsible className="w-full min-w-0 border-t border-white/[0.07]">
             {data.items?.map((item, index) => (
               <AccordionItem key={`${item.title}-${index}`} value={`item-${index}`} className="border-b border-white/[0.07] last:border-b">
                 <AccordionTrigger className="group items-center gap-5 rounded-none px-0 py-6 text-left hover:no-underline focus-visible:border-transparent focus-visible:ring-brand/40 [&_[data-slot=accordion-trigger-icon]]:hidden max-[768px]:py-5">
-                  <span className="font-heading text-[18px] font-semibold leading-[1.35] text-white transition-colors group-hover:text-brand group-data-[state=open]:text-brand 3xl:text-[20px] max-[768px]:text-[16px]">{item.title}</span>
+                  <span className="font-heading text-[16.5px] font-semibold leading-[1.35] text-white transition-colors group-hover:text-brand group-data-[state=open]:text-brand 3xl:text-[18px] max-[768px]:text-[14.5px]">{item.title}</span>
                   <span aria-hidden className="flex size-8 shrink-0 items-center justify-center rounded-full bg-white/[0.04] ring-1 ring-white/10 transition-colors group-hover:bg-brand/10 group-data-[state=open]:bg-brand/10 group-data-[state=open]:text-brand">
                     <ChevronDown className="size-4 text-white/65 transition-transform duration-200 group-data-[state=open]:rotate-180 motion-reduce:transition-none" />
                   </span>
                 </AccordionTrigger>
-                <AccordionContent className="h-auto! max-w-[68ch] pb-6 pr-10 font-sans text-[15px] leading-[1.65] text-white/65 3xl:text-[16px] max-[768px]:pr-0 max-[768px]:text-[14.5px]">{item.description}</AccordionContent>
+                <AccordionContent className="h-auto! max-w-[68ch] pb-6 pr-10 font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[14.5px] max-[768px]:pr-0 max-[768px]:text-[13.5px]">{item.description}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>

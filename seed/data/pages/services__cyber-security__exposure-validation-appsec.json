@@ -67,7 +67,7 @@
      "description": "AI-powered exposure validation of the external attack surface within authorised scope.",
      "accent": "teal",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX product wordmark"
      },
      "eyebrow": "LINKFIELDS PRODUCT",
@@ -80,7 +80,7 @@
      "description": "Code scanning and supply-chain analysis, repo to release.",
      "accent": "teal",
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX product wordmark"
      },
      "eyebrow": "LINKFIELDS PRODUCT",

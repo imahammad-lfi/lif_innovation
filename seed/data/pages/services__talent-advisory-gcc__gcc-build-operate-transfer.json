@@ -68,19 +68,19 @@
     {
      "title": "Specialist capability and leadership",
      "description": "A capability and leadership model aligned to the centre’s agreed service scope.",
-     "bullets": "Deliverable – team responsibilities, capability plan and knowledge-transfer requirements",
+     "bullets": "Deliverable - team responsibilities, capability plan and knowledge-transfer requirements",
      "accent": "yellow"
     },
     {
      "title": "Governed delivery and quality controls",
      "description": "Working practices and review gates that make scope, quality, risks and decisions visible.",
-     "bullets": "Deliverable – governance model, acceptance criteria and delivery evidence",
+     "bullets": "Deliverable - governance model, acceptance criteria and delivery evidence",
      "accent": "yellow"
     },
     {
      "title": "Tooling and operating knowledge",
      "description": "An agreed environment and tooling model with documented working practices.",
-     "bullets": "Deliverable – environment inventory, operating documentation and rights register",
+     "bullets": "Deliverable - environment inventory, operating documentation and rights register",
      "accent": "yellow"
     }
    ]
@@ -98,7 +98,7 @@
     {
      "title": "Build",
      "description": "Agree the blueprint, then establish the team, environments and initial delivery practices within scope.",
-     "bullets": "Linkfields – build and launch the agreed capability\nClient decision – approve scope, access and launch readiness\nExit evidence – responsibility map, onboarding plan and ready environments",
+     "bullets": "Linkfields - build and launch the agreed capability\nClient decision - approve scope, access and launch readiness\nExit evidence - responsibility map, onboarding plan and ready environments",
      "accent": "yellow",
      "number": "01",
      "href": "/services/talent-advisory-gcc/gcc-strategy-setup",
@@ -107,14 +107,14 @@
     {
      "title": "Operate",
      "description": "Run agreed delivery, develop capability and review stabilisation and scaling needs.",
-     "bullets": "Linkfields – manage delivery and maintain operating evidence\nClient decision – approve priorities, changes and scale\nExit evidence – delivery records, controls, documentation and readiness review",
+     "bullets": "Linkfields - manage delivery and maintain operating evidence\nClient decision - approve priorities, changes and scale\nExit evidence - delivery records, controls, documentation and readiness review",
      "accent": "yellow",
      "number": "02"
     },
     {
      "title": "Transfer",
      "description": "Assess readiness and transition the agreed people, knowledge and operating responsibilities.",
-     "bullets": "Linkfields – prepare and execute the agreed handover\nClient decision – accept scope, exceptions and future accountability\nExit evidence – signed acceptance record and continuity plan",
+     "bullets": "Linkfields - prepare and execute the agreed handover\nClient decision - accept scope, exceptions and future accountability\nExit evidence - signed acceptance record and continuity plan",
      "accent": "yellow",
      "number": "03"
     }
@@ -135,7 +135,7 @@
     {
      "title": "Delivery governance and quality IP",
      "description": "Configure agreed review practices, delivery evidence and testing or release-assurance packs around the centre’s work.",
-     "bullets": "Operate – name control and evidence owners\nRetain – document the working model and agreed reusable artefacts",
+     "bullets": "Operate - name control and evidence owners\nRetain - document the working model and agreed reusable artefacts",
      "accent": "yellow",
      "href": "/products-and-accelerators/delivery-accelerators",
      "linkLabel": "Explore delivery accelerators"
@@ -143,16 +143,16 @@
     {
      "title": "Cyber-Safe Delivery",
      "description": "Embed agreed security responsibilities and review gates into engineering and delivery workflows.",
-     "bullets": "Configure – access, code and release-control requirements\nOperate – agree security review and escalation ownership\nRetain – control documentation and agreed evidence",
+     "bullets": "Configure - access, code and release-control requirements\nOperate - agree security review and escalation ownership\nRetain - control documentation and agreed evidence",
      "accent": "yellow"
     },
     {
      "title": "Linkworks",
      "description": "Consider composable enterprise applications where the centre’s work extends beyond ERP or CRM fit.",
-     "bullets": "Configure and operate – agree application scope and operator\nRetain – agreed applications and documentation subject to contract\nLicense – define continuing product-use rights separately",
+     "bullets": "Configure and operate - agree application scope and operator\nRetain - agreed applications and documentation subject to contract\nLicense - define continuing product-use rights separately",
      "accent": "yellow",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -177,25 +177,25 @@
     {
      "title": "People and operating responsibilities",
      "description": "Confirm named leadership, responsibilities and proposed people-transition arrangements, with knowledge-transfer requirements agreed before handover.",
-     "bullets": "Evidence – responsibility map and knowledge-transfer record\nGate – client accepts future accountability and unresolved people dependencies",
+     "bullets": "Evidence - responsibility map and knowledge-transfer record\nGate - client accepts future accountability and unresolved people dependencies",
      "accent": "yellow"
     },
     {
      "title": "Processes, environments and records",
      "description": "Check documented processes, environment inventories, access control, delivery records and operating instructions.",
-     "bullets": "Evidence – reviewed documentation and access-transition plan\nGate – agreed owners can operate the transferred scope",
+     "bullets": "Evidence - reviewed documentation and access-transition plan\nGate - agreed owners can operate the transferred scope",
      "accent": "yellow"
     },
     {
      "title": "Software, IP and licences",
      "description": "Identify custom deliverables, reusable IP, proprietary products and third-party licences separately.",
-     "bullets": "Evidence – rights and licence register with restrictions\nGate – agreed ownership and continuing use rights\nBoundary – Linkfields products remain separately licensed unless otherwise contracted",
+     "bullets": "Evidence - rights and licence register with restrictions\nGate - agreed ownership and continuing use rights\nBoundary - Linkfields products remain separately licensed unless otherwise contracted",
      "accent": "yellow"
     },
     {
      "title": "Acceptance and continuity",
      "description": "Agree the readiness criteria, exceptions, handover sequence and any continuity-support scope.",
-     "bullets": "Evidence – acceptance record and exception register\nGate – client approval of readiness and residual risks\nBoundary – legal, entity and facility transfer must be explicitly agreed",
+     "bullets": "Evidence - acceptance record and exception register\nGate - client approval of readiness and residual risks\nBoundary - legal, entity and facility transfer must be explicitly agreed",
      "accent": "yellow"
     }
    ]

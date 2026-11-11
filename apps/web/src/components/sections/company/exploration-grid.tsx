@@ -9,9 +9,9 @@ type Data = { anchorId?: string | null; eyebrow?: string | null; heading?: strin
 export function ExplorationGrid({ data }: SectionProps<Data>) {
   const cards = data.cards ?? [];
   return (
-    <section id={data.anchorId || undefined} className="bg-ink px-gutter py-24 3xl:py-30 max-[768px]:py-16">
+    <section id={data.anchorId || undefined} className="bg-ink px-gutter py-24 3xl:py-28 max-[768px]:py-16">
       <Eyebrow>{data.eyebrow}</Eyebrow>
-      {data.heading ? <h2 className="max-w-[900px] font-heading text-[32px] font-semibold leading-[1.2] text-white 3xl:text-[40px] max-[768px]:text-[24px]">{data.heading}</h2> : null}
+      {data.heading ? <h2 className="max-w-[900px] font-heading text-[27.5px] font-semibold leading-[1.2] text-white 3xl:text-[34.5px] max-[768px]:text-[21.5px]">{data.heading}</h2> : null}
       {cards.length ? (
         <div className="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-2 3xl:gap-8 max-[768px]:mt-8 max-[768px]:gap-4">
           {cards.map((card, index) => (
@@ -21,7 +21,7 @@ export function ExplorationGrid({ data }: SectionProps<Data>) {
                   <CmsImage media={card.icon} alt="" width={24} height={24} className="size-6 object-contain max-[768px]:size-5" />
                 </div>
               ) : null}
-              {card.description ? <p className="max-w-[68ch] font-sans text-[15px] leading-[1.65] text-white/65 3xl:text-[16px] max-[768px]:text-[14.5px]">{card.description}</p> : null}
+              {card.description ? <p className="max-w-[68ch] font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[14.5px] max-[768px]:text-[13.5px]">{card.description}</p> : null}
             </article>
           ))}
         </div>

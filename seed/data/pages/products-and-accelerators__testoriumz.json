@@ -44,7 +44,7 @@
     }
    ],
    "logo": {
-    "__media": "custom/logos/on-dark/testoriumz-on-dark.png",
+    "__media": "custom/logos/svg/testoriumz-on-dark.svg",
     "alt": "testoriumz logo"
    }
   },
@@ -107,7 +107,7 @@
      "href": "#get-in-touch",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz"
      }
     }
@@ -153,7 +153,7 @@
    "body": "A delivery team needs to check a customer journey as application code changes. In this illustrative use case, the team evaluates testoriumz for test planning, reusable low-code tests, pipeline execution and failure investigation.\n\nReview test results and dashboards with the release owner to assess the evidence needed for the next release. Product functionality is distinct from optional Linkfields test design and quality-engineering services.",
    "secondaryEyebrow": "",
    "secondaryHeading": "Explore the product website",
-   "secondaryBody": "[Visit testoriumz.com — product website](https://testoriumz.com) for the separate product destination. Use the local form to request an assisted demo around your delivery workflow; do not include credentials or confidential test data in an initial enquiry.\n\n[AI Code Assurance](/solutions/ai-code-assurance) combines quality and security gates for AI-written change. [Modernisation & Programme Assurance](/solutions/modernisation-programme-assurance) addresses regression risk during application and platform change.",
+   "secondaryBody": "[Visit testoriumz.com - product website](https://testoriumz.com) for the separate product destination. Use the local form to request an assisted demo around your delivery workflow; do not include credentials or confidential test data in an initial enquiry.\n\n[AI Code Assurance](/solutions/ai-code-assurance) combines quality and security gates for AI-written change. [Modernisation & Programme Assurance](/solutions/modernisation-programme-assurance) addresses regression risk during application and platform change.",
    "theme": "light"
   },
   {

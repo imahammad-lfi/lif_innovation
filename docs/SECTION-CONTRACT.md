@@ -157,7 +157,7 @@ Python builders in `seed/transform/lib.py` (read the docstrings):
 
 | UID | builder | original |
 | --- | --- | --- |
-| `sections.page-hero` {title, subtitle, backgroundImage, anchorLinks[]} | `lib.hero_section(page_key, heroSectionData, anchors=None)` | inner-page hero 512/450/384/320 px with centred title + tab strip |
+| `sections.page-hero` {title, subtitle, logo?, backgroundImage, anchorLinks[]} | `lib.hero_section(page_key, heroSectionData, anchors=None)` | inner-page hero 512/450/384/320 px with centred title (or the optional on-dark logo in its place, title kept as sr-only text) + tab strip |
 | `sections.overview` {anchorId, eyebrow, heading, body, secondaryEyebrow, secondaryHeading, secondaryBody, theme} | `lib.overview_section(heroSectionData, anchor_id="overview", theme="light")` | `ant-row` "OVERVIEW" block on #F0F0F0 |
 | `sections.message-banner` {anchorId, title, description, ctaLabel, ctaUrl} | `lib.message_banner(doc)` | `messageBanner_*` blue strip + orange CTA |
 | `sections.stats-band` | `lib.stats_band(doc=None)` | `persistentlyInnovative` |

@@ -157,7 +157,7 @@
     {
      "title": "Linkfields software: AI gateway & guardrails",
      "logo": {
-      "__media": "custom/logos/ai-governance.png",
+      "__media": "custom/logos/plate/ai-governance-plate.png",
       "alt": "AI Governance software"
      },
      "description": "AI Governance brings guardrails, cost and tracing through a Linkfields layer built on Portkey and Opik. It does not replace organisational accountability.",

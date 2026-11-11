@@ -108,7 +108,7 @@
      "number": "01",
      "title": "Knowledge assistant",
      "description": "A user question retrieves authorised sources and returns a cited answer for verification.",
-     "bullets": "Boundary — user permissions and source scope\nReview — verify the answer against its citations\nMeasures to agree — grounded answer quality and time to find information",
+     "bullets": "Boundary - user permissions and source scope\nReview - verify the answer against its citations\nMeasures to agree - grounded answer quality and time to find information",
      "href": "/services/data-ai/ai-strategy-governance",
      "linkLabel": "Scope policy and ownership",
      "accent": "purple"
@@ -117,7 +117,7 @@
      "number": "02",
      "title": "Document review",
      "description": "A document becomes extracted fields and a summary, then moves to human approval.",
-     "bullets": "Boundary — no unreviewed downstream decision\nReview — reconcile output with the document\nMeasures to agree — extraction accuracy and document review time",
+     "bullets": "Boundary - no unreviewed downstream decision\nReview - reconcile output with the document\nMeasures to agree - extraction accuracy and document review time",
      "href": "/services/digital-transformation/integration-services",
      "linkLabel": "Scope workflow integration",
      "accent": "purple"
@@ -126,7 +126,7 @@
      "number": "03",
      "title": "Task agent",
      "description": "A request becomes an approved API action, followed by logged completion or escalation.",
-     "bullets": "Boundary — approved tools and action limits\nReview — approval for sensitive actions\nMeasures to agree — correct task completion and task turnaround time",
+     "bullets": "Boundary - approved tools and action limits\nReview - approval for sensitive actions\nMeasures to agree - correct task completion and task turnaround time",
      "href": "/services/cyber-security/ai-security-grc",
      "linkLabel": "Scope security validation",
      "accent": "purple"
@@ -174,7 +174,7 @@
     {
      "title": "textIQ",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ document intelligence software"
      },
      "description": "Intelligent search and insight across unstructured enterprise content.",
@@ -185,7 +185,7 @@
     {
      "title": "FinSight",
      "logo": {
-      "__media": "custom/logos/finsight.png",
+      "__media": "custom/logos/plate/finsight-plate.png",
       "alt": "FinSight financial analysis software"
      },
      "description": "Conversational analysis and reporting over financial data.",
@@ -196,7 +196,7 @@
     {
      "title": "EduPilot",
      "logo": {
-      "__media": "custom/logos/edupilot.png",
+      "__media": "custom/logos/plate/edupilot-plate.png",
       "alt": "EduPilot course creation software"
      },
      "description": "Rapid course creation for education and corporate learning.",

@@ -181,11 +181,11 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                 </span>
               ) : null}
               <span className="flex min-w-0 flex-col">
-                <span className="truncate font-heading text-[13.5px] font-semibold leading-[1.25] text-white">
+                <span className="truncate font-heading text-[13px] font-semibold leading-[1.25] text-white">
                   <span className="md:hidden">{follow ? pillLabel : eyebrow || pillLabel}</span>
                   <span className="max-md:hidden">{pillLabel}</span>
                 </span>
-                <span className="truncate font-sans text-[11.5px] leading-[1.35] text-white/55">
+                <span className="truncate font-sans text-[12px] leading-[1.35] text-white/55">
                   <span className="md:hidden">
                     {follow ? (
                       promo.eventTitle
@@ -209,7 +209,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                   </span>
                 </span>
               </span>
-              <span className="ml-auto hidden shrink-0 items-center gap-1 rounded-full bg-brand-gradient px-2.5 py-1.5 font-heading text-[12px] font-semibold text-white transition-[filter] group-hover:brightness-110 max-md:inline-flex">
+              <span className="ml-auto hidden shrink-0 items-center gap-1 rounded-full bg-brand-gradient px-2.5 py-1.5 font-heading text-[11.5px] font-semibold text-white transition-[filter] group-hover:brightness-110 max-md:inline-flex">
                 {follow ? "Let\u2019s connect" : "Let\u2019s meet"}
               </span>
               <ArrowRight aria-hidden className="size-4 shrink-0 text-brand transition-transform group-hover:translate-x-0.5 max-md:hidden" />
@@ -248,13 +248,13 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                 <div aria-hidden className="absolute inset-y-0 right-0 w-16 bg-[linear-gradient(90deg,transparent,#070d1f)]" />
                 {promo.quote ? (
                   <figure className="absolute inset-x-7 bottom-7">
-                    <span aria-hidden className="font-heading text-[44px] font-bold leading-none text-[#FFC21A]">&ldquo;</span>
-                    <blockquote className="-mt-3 font-heading text-[16.5px] font-medium leading-[1.45] text-white">{promo.quote}</blockquote>
+                    <span aria-hidden className="font-heading text-[40px] font-bold leading-none text-[#FFC21A]">&ldquo;</span>
+                    <blockquote className="-mt-3 font-heading text-[14.5px] font-medium leading-[1.45] text-white">{promo.quote}</blockquote>
                     <span aria-hidden className="mt-4 block h-[3px] w-20 rounded-full bg-[linear-gradient(90deg,#FFC21A,#FF7800,#3D7BFF)]" />
                     {promo.quoteAuthor ? (
                       <figcaption className="mt-3">
-                        <span className="block font-heading text-[14.5px] font-semibold text-white">{promo.quoteAuthor}</span>
-                        {promo.quoteRole ? <span className="block font-sans text-[12.5px] text-white/60">{promo.quoteRole}</span> : null}
+                        <span className="block font-heading text-[13.5px] font-semibold text-white">{promo.quoteAuthor}</span>
+                        {promo.quoteRole ? <span className="block font-sans text-[12px] text-white/60">{promo.quoteRole}</span> : null}
                       </figcaption>
                     ) : null}
                   </figure>
@@ -287,14 +287,14 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                     ) : null}
                   </div>
                 </div>
-                <Dialog.Title className="mt-6 font-heading text-[28px] font-bold leading-[1.08] tracking-[-0.015em] text-white sm:text-[34px] md:text-[38px]">
+                <Dialog.Title className="mt-6 font-heading text-[24px] font-bold leading-[1.08] tracking-[-0.015em] text-white sm:text-[27.5px] md:text-[34.5px]">
                   {before}
                   {highlight ? (
                     <span className="bg-[linear-gradient(90deg,#FFC21A,#FF7800)] bg-clip-text text-transparent">{highlight}</span>
                   ) : null}
                   {after}
                 </Dialog.Title>
-                <Dialog.Description className="mt-4 font-sans text-[14.5px] leading-[1.65] text-white/70 md:text-[15px]">
+                <Dialog.Description className="mt-4 font-sans text-[13.5px] leading-[1.65] text-white/70 md:text-[14px]">
                   {body}
                 </Dialog.Description>
                 {/* Phones: the CEO portrait and quote (the desktop photo column) as a compact card below the invitation. */}
@@ -308,7 +308,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                     ) : null}
                     <div className="min-w-0">
                       {promo.quote ? (
-                        <blockquote className="font-heading text-[14px] font-medium leading-[1.45] text-white/90">
+                        <blockquote className="font-heading text-[13.5px] font-medium leading-[1.45] text-white/90">
                           <span aria-hidden className="text-[#FFC21A]">&ldquo;</span>
                           {promo.quote}
                           <span aria-hidden className="text-[#FFC21A]">&rdquo;</span>
@@ -316,7 +316,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                       ) : null}
                       {promo.quoteAuthor ? (
                         <figcaption className={promo.quote ? "mt-2.5" : undefined}>
-                          <span className="block font-heading text-[13.5px] font-semibold text-white">{promo.quoteAuthor}</span>
+                          <span className="block font-heading text-[13px] font-semibold text-white">{promo.quoteAuthor}</span>
                           {promo.quoteRole ? <span className="block font-sans text-[12px] leading-[1.4] text-white/55">{promo.quoteRole}</span> : null}
                         </figcaption>
                       ) : null}
@@ -328,7 +328,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                     {stand ? (
                       <div className="row-span-2 flex min-w-[118px] flex-col justify-center rounded-xl bg-[linear-gradient(140deg,#FF9A3D,#FF6A00_60%,#F05A00)] px-4 py-3 shadow-[0_12px_30px_-14px_rgba(255,120,0,0.8)] ring-1 ring-white/15">
                         <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.2em] text-white/85">Meet us at</span>
-                        <span className="mt-0.5 font-heading text-[22px] font-bold leading-none tracking-[-0.01em] text-white">
+                        <span className="mt-0.5 font-heading text-[20px] font-bold leading-none tracking-[-0.01em] text-white">
                           {standIsStand ? `Stand ${stand}` : stand}
                         </span>
                       </div>
@@ -338,7 +338,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                         <span className={cn("flex size-7 shrink-0 items-center justify-center rounded-lg ring-1", tone)}>
                           <Icon aria-hidden className="size-[15px]" />
                         </span>
-                        <span className="font-sans text-[13px] font-medium leading-[1.35] text-white/85">{text}</span>
+                        <span className="font-sans text-[12.5px] font-medium leading-[1.35] text-white/85">{text}</span>
                       </div>
                     ))}
                   </div>
@@ -348,7 +348,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                   <a
                     href={calendarHref}
                     download
-                    className="mt-2 inline-flex h-10 items-center gap-2 self-start font-heading text-[13.5px] font-semibold text-white/75 transition-colors hover:text-[#FFC21A] md:hidden"
+                    className="mt-2 inline-flex h-10 items-center gap-2 self-start font-heading text-[13px] font-semibold text-white/75 transition-colors hover:text-[#FFC21A] md:hidden"
                   >
                     <CalendarPlus aria-hidden className="size-4" />
                     Add to calendar
@@ -367,7 +367,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                     <SmartLink
                       href={primaryCta.href}
                       onClick={dismiss}
-                      className="hover-grow hover-swap group inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-brand-gradient px-6 font-heading text-[14px] font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.8),inset_0_1px_0_rgba(255,255,255,0.22)] max-md:px-3 max-md:text-[13.5px]"
+                      className="hover-grow hover-swap group inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-brand-gradient px-6 font-heading text-[13.5px] font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.8),inset_0_1px_0_rgba(255,255,255,0.22)] max-md:px-3 max-md:text-[13px]"
                     >
                       {primaryCta.label}
                       <ArrowRight aria-hidden className="size-4 shrink-0 transition-transform group-hover:translate-x-0.5 max-[380px]:hidden" />
@@ -377,7 +377,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                     <SmartLink
                       href={secondaryCta.href}
                       onClick={dismiss}
-                      className="hover-grow hover-fill inline-flex h-11 items-center justify-center whitespace-nowrap rounded-full px-5 font-heading text-[14px] font-semibold text-white ring-1 ring-white/20 hover:ring-transparent max-md:px-3 max-md:text-[13.5px]"
+                      className="hover-grow hover-fill inline-flex h-11 items-center justify-center whitespace-nowrap rounded-full px-5 font-heading text-[13.5px] font-semibold text-white ring-1 ring-white/20 hover:ring-transparent max-md:px-3 max-md:text-[13px]"
                     >
                       {secondaryCta.label}
                     </SmartLink>
@@ -386,7 +386,7 @@ export function EventPromoClient({ promos }: { promos: ResolvedPromo[] }) {
                     <a
                       href={calendarHref}
                       download
-                      className="inline-flex h-11 items-center gap-2 px-1 font-heading text-[13.5px] font-semibold text-white/75 transition-colors hover:text-[#FFC21A] max-md:hidden"
+                      className="inline-flex h-11 items-center gap-2 px-1 font-heading text-[13px] font-semibold text-white/75 transition-colors hover:text-[#FFC21A] max-md:hidden"
                     >
                       <CalendarPlus aria-hidden className="size-4" />
                       Add to calendar

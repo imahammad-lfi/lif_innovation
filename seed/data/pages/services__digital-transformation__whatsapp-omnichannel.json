@@ -142,7 +142,7 @@
      "description": "REST APIs and composable applications can connect custom service workflows where existing ERP or CRM capabilities do not fit.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -153,7 +153,7 @@
      "description": "Continuous testing and CI/CD integration can support journey assurance. Select Automated Testing & Release Assurance Packs and Cyber-Safe Delivery to fit the release scope.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -180,16 +180,16 @@
    "heading": "From customer need to a connected journey",
    "items": [
     {
-     "description": "Discover — Prioritise the service journey and baseline outcomes. Client owners confirm the provider model, supported channels, systems and operational constraints."
+     "description": "Discover - Prioritise the service journey and baseline outcomes. Client owners confirm the provider model, supported channels, systems and operational constraints."
     },
     {
-     "description": "Design — Agree conversations, consent, authentication and human handovers. The client approves content, templates where required, data access and retention responsibilities."
+     "description": "Design - Agree conversations, consent, authentication and human handovers. The client approves content, templates where required, data access and retention responsibilities."
     },
     {
-     "description": "Connect — Implement approved interfaces and workflow permissions. System and service owners validate mappings, audit trails, failures and escalation paths."
+     "description": "Connect - Implement approved interfaces and workflow permissions. System and service owners validate mappings, audit trails, failures and escalation paths."
     },
     {
-     "description": "Assure and improve — Test the complete journey, opt-out and handover before staged release. Agree release approval, operating ownership and feedback measures; improve the flow within the agreed scope."
+     "description": "Assure and improve - Test the complete journey, opt-out and handover before staged release. Agree release approval, operating ownership and feedback measures; improve the flow within the agreed scope."
     }
    ]
   },

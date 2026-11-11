@@ -79,7 +79,7 @@ export function PhoneField({
             invalid && "border-red-400/70",
           )}
         >
-          <span className="text-[17px] leading-none">{current ? flag(current.code) : "🌐"}</span>
+          <span className="text-[15.5px] leading-none">{current ? flag(current.code) : "🌐"}</span>
           <span className="tabular-nums">+{current?.dial ?? ""}</span>
           <ChevronDown className="ml-auto size-3.5 opacity-50" />
         </span>

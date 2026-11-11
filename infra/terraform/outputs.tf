@@ -38,11 +38,6 @@ output "lead_token_secret_arn" {
   value       = aws_secretsmanager_secret.lead_token.arn
 }
 
-output "ms_graph_client_secret_arn" {
-  description = "Put the Entra ID app's client secret value into this secret (only when enquiry_email_provider = \"graph\")."
-  value       = local.enquiry_emails_graph ? aws_secretsmanager_secret.ms_graph_client_secret[0].arn : null
-}
-
 output "turnstile_site_key" {
   description = "Public Turnstile site key; pass it as NEXT_PUBLIC_TURNSTILE_SITE_KEY during the web image build."
   value       = var.enable_turnstile ? cloudflare_turnstile_widget.site[0].sitekey : null

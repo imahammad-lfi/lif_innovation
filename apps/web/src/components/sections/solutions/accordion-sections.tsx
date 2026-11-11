@@ -11,10 +11,10 @@ type StackData = { anchorId?: string | null; eyebrow?: string | null; heading?: 
 type GridData = { anchorId?: string | null; eyebrow?: string | null; heading?: string | null; description?: string | null; cards?: IconCard[] | null; variant?: "dark" | "transparent" | "intro" | "offer-rows" | null; backgroundImage?: Media | null };
 type NumberedData = { anchorId?: string | null; heading?: string | null; items?: TextItem[] | null };
 
-const sectionClass = "relative isolate overflow-hidden bg-ink px-gutter py-24 3xl:py-[120px] max-[768px]:py-16";
-const titleClass = "font-heading text-[32px] font-semibold leading-[1.2] text-white 3xl:text-[40px] max-[768px]:text-[24px]";
-const cardTitleClass = "font-heading text-[18px] font-semibold leading-[1.35] text-white 3xl:text-[20px] max-[768px]:text-[16px]";
-const bodyClass = "max-w-[68ch] font-sans text-[15px] leading-[1.65] text-white/65 3xl:text-[16px] max-[768px]:text-[14.5px]";
+const sectionClass = "relative isolate overflow-hidden bg-ink px-gutter py-24 3xl:py-28 max-[768px]:py-16";
+const titleClass = "font-heading text-[27.5px] font-semibold leading-[1.2] text-white 3xl:text-[34.5px] max-[768px]:text-[21.5px]";
+const cardTitleClass = "font-heading text-[16.5px] font-semibold leading-[1.35] text-white 3xl:text-[18px] max-[768px]:text-[14.5px]";
+const bodyClass = "max-w-[68ch] font-sans text-[14px] leading-[1.65] text-white/65 3xl:text-[14.5px] max-[768px]:text-[13.5px]";
 
 export function SplitAccordion({ data }: SectionProps<SplitData>) {
   return (
@@ -157,7 +157,7 @@ export function NumberedList({ data }: SectionProps<NumberedData>) {
       <ol className="mt-12 grid grid-cols-1 gap-x-6 md:grid-cols-2 3xl:gap-x-8 max-[768px]:mt-8">
         {(data.items ?? []).map((item, index) => (
           <li key={`${item.title}-${index}`} className="flex items-start gap-4 border-t border-white/[0.07] py-6 max-[768px]:py-5">
-            <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-brand/10 font-heading text-[13px] font-semibold leading-[1.5] text-brand ring-1 ring-brand/20">{index + 1}</span>
+            <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-brand/10 font-heading text-[12.5px] font-semibold leading-[1.5] text-brand ring-1 ring-brand/20">{index + 1}</span>
             <span className={`pt-0.5 ${bodyClass}`}>{item.title}</span>
           </li>
         ))}

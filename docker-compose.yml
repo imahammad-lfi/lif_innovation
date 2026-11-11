@@ -43,13 +43,19 @@ services:
       UPLOAD_PROVIDER: local
       UPLOAD_SIZE_LIMIT: "52428800"
       CORS_ORIGINS: http://localhost:3000,http://localhost:1337
-      # Default targets a Next.js server run on the host (VS Code). Set to http://web:3000/api/revalidate when using the docker web service.
-      WEBSITE_REVALIDATE_URL: ${WEBSITE_REVALIDATE_URL:-http://host.docker.internal:3000/api/revalidate}
+      WEBSITE_REVALIDATE_URL: http://web:3000/api/revalidate
       WEBSITE_REVALIDATE_SECRET: ${REVALIDATE_SECRET:?Set REVALIDATE_SECRET in .env}
       WEBSITE_URL: ${WEBSITE_URL:-http://localhost:3000}
-      # Enquiry emails (thank-you + sales alert). Off until SMTP is configured; see docs/CMS-BRANDING-AND-EMAIL.md.
+      # Enquiry emails (thank-you + sales alert) via Microsoft 365 / Microsoft Graph. Off until MS_GRAPH_* is
+      # configured; see docs/CMS-BRANDING-AND-EMAIL.md. EMAIL_PROVIDER=nodemailer uses SMTP_* (local Mailpit testing).
       ENQUIRY_EMAILS_ENABLED: ${ENQUIRY_EMAILS_ENABLED:-false}
       ENQUIRY_NOTIFY_TO: ${ENQUIRY_NOTIFY_TO:-sales@linkfields.com}
+      EMAIL_PROVIDER: ${EMAIL_PROVIDER:-graph}
+      MS_GRAPH_TENANT_ID: ${MS_GRAPH_TENANT_ID:-}
+      MS_GRAPH_CLIENT_ID: ${MS_GRAPH_CLIENT_ID:-}
+      MS_GRAPH_CLIENT_SECRET: ${MS_GRAPH_CLIENT_SECRET:-}
+      MS_GRAPH_SENDER: ${MS_GRAPH_SENDER:-}
+      MS_GRAPH_SAVE_TO_SENT_ITEMS: ${MS_GRAPH_SAVE_TO_SENT_ITEMS:-true}
       SMTP_HOST: ${SMTP_HOST:-}
       SMTP_PORT: ${SMTP_PORT:-587}
       SMTP_SECURE: ${SMTP_SECURE:-false}
@@ -58,16 +64,8 @@ services:
       SMTP_PASSWORD: ${SMTP_PASSWORD:-}
       EMAIL_FROM: ${EMAIL_FROM:-Linkfields Sales <sales@linkfields.com>}
       EMAIL_REPLY_TO: ${EMAIL_REPLY_TO:-sales@linkfields.com}
-      # Microsoft 365 via Graph (EMAIL_PROVIDER=graph); otherwise SMTP_* above are used.
-      EMAIL_PROVIDER: ${EMAIL_PROVIDER:-nodemailer}
-      MS_GRAPH_TENANT_ID: ${MS_GRAPH_TENANT_ID:-}
-      MS_GRAPH_CLIENT_ID: ${MS_GRAPH_CLIENT_ID:-}
-      MS_GRAPH_CLIENT_SECRET: ${MS_GRAPH_CLIENT_SECRET:-}
-      MS_GRAPH_SENDER: ${MS_GRAPH_SENDER:-}
     volumes:
       - cms_uploads:/opt/app/public/uploads
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
     ports:
       - "1337:1337"
     depends_on:
@@ -76,8 +74,6 @@ services:
     restart: unless-stopped
 
   web:
-    # Off by default; the website is run from the host. Start it with: docker compose --profile web up -d web
-    profiles: ["web"]
     build:
       context: ./apps/web
       args:

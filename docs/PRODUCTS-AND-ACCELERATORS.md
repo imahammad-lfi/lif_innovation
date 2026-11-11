@@ -72,8 +72,9 @@ drawer shows the same sections, with expandable product categories.
 
 - Menu definition: `seed/custom/portfolio.json` → `productsMenu` (applied by `seed/custom/apply.py`,
   `patch_products_menu`). Page documents: `seed/custom/pages/products-and-accelerators*.json`.
-- Logos: `seed/assets/custom/logos/` (textIQ, FinSight, EduPilot, VajraX, Linkworks and testoriumz from the
-  product sites; VectorX and AI Governance rendered as wordmarks in the site fonts). Accelerator icons:
+- Logos: `seed/assets/custom/logos/` (textIQ, FinSight, EduPilot, Linkworks and testoriumz from the product sites;
+  VajraX from the new official logo file supplied on 11 Nov 2026; VectorX and AI Governance rendered as wordmarks in the
+  site fonts). Balanced plate versions: `logos/plate/<slug>-plate.png` (see below). Accelerator icons:
   `seed/assets/custom/icons/acc-*.svg` (Lucide, ISC licence). Banners: `seed/assets/custom/hero-*.jpg` (AI-generated
   for this project).
 - To rebuild: `python3 seed/custom/apply.py`, then validate (`node apps/cms/scripts/validate-seed.mjs`), then import
@@ -90,7 +91,41 @@ drawer shows the same sections, with expandable product categories.
 ## Logos and colour effects (November 2026)
 
 * `shared.link` has an optional `logo` media field. `apply.py` (`with_logo`) attaches `seed/assets/custom/logos/<slug>.png`
-  to every product link in the Products menu whose slug has a logo (Linkworks, testoriumz, textIQ, FinSight, EduPilot, VajraX, VectorX).
-  AI Governance stays text because its wordmark is too wide for a menu plate.
+  to every product link in the Products menu whose slug has a logo (Linkworks, testoriumz, textIQ, FinSight, EduPilot, VajraX,
+  VectorX and, since 11 Nov 2026, AI Governance; the earlier rule that kept very wide wordmarks as text was removed).
 * Desktop menu and mobile drawer render logos on white plates; the hub product rows already use `LogoChip`.
 * Category, product-row, accelerator and menu tiles use the shared `.acc-tile` treatment (see DESIGN-SYSTEM.md).
+
+## Balanced logo sizes (11 Nov 2026, 12:22)
+
+* Every product logo on a white plate (menu, mobile drawer, product cards on the hub, home page and event page, Linkfields IP
+  tiles on the service pages) now uses a **plate file**: `seed/assets/custom/logos/plate/<slug>-plate.png`. Each plate file
+  has the same shape (3.25 : 1) and places the logo so its lower-case letters are the same height, so all eight wordmarks
+  read at the same size side by side, whether the logo has a tall icon (VajraX, FinSight) or none (VectorX).
+* The seed pipeline swaps `logos/<slug>.png` for the plate file automatically (`apply.py`, final pass). The banner logos on
+  the product pages are separate and unchanged by this.
+* To add or replace a product logo: save the transparent, trimmed original as `seed/assets/custom/logos/<slug>.png`, add the
+  slug to `SLUGS` in `tools/logo_metrics.py`, run `python3 tools/logo_plates.py --preview /tmp/plates.png`, check the
+  preview (all wordmarks the same height), then rebuild the seed and import. Editors uploading by hand use the generated
+  `<slug>-plate.png` and **keep "-plate" in the file name**: the website recognises plate files by that name and gives them
+  the balanced box.
+* VajraX: the new logo (shaded icon, black "Vajra", orange "X") replaced the 2025 logo everywhere on 11 Nov 2026: menu,
+  drawer, product cards, Linkfields IP tiles and the VajraX page banner. The three unused older VajraX files were removed from
+  the Media Library; the old artwork is kept only in `seed/assets/custom/logos/retired/`.
+
+## Product banner logos (11 Nov 2026)
+
+* `sections.page-hero` has an optional **logo** image field. When it is set, the banner shows the logo in place of the
+  visible title; the title text stays in the page heading for screen readers and search engines, so keep it filled in.
+* Seven product pages use on-dark vector versions of their logos (`seed/assets/custom/logos/svg/<slug>-on-dark.svg`,
+  uploaded to the Media Library as `<slug>_on_dark…svg`), set by `deck.product_hero_logo()` in the seed pipeline. VajraX
+  uses the new official logo directly as a high-resolution PNG (`logos/on-dark/vajrax-on-dark.png`, 1600 px wide, "Vajra"
+  turned white). Accelerator pages have no logo and keep the text title.
+* The SVGs are traced from the original logos by `tools/vectorise_logos.py` (needs `potrace`, `scipy`, `numpy`,
+  `Pillow`): the white-background fringe is removed, outlines are smoothed and each brand colour is traced to smooth curves,
+  so the banner logos have clean, sharp edges at every screen size. Light-background versions
+  (`logos/svg/<slug>.svg`) are generated alongside for future use; the menu pills and cards use the plate files above.
+* Editors: Content Manager → Page → open the product page → first section (Page hero) → **logo** → choose or upload an
+  SVG made for dark backgrounds (white or light wordmark; a transparent PNG works but must be at least twice the
+  displayed size, about 800 px wide, to stay sharp) → Save → Publish. Remove the image to return
+  to the text title. The website sizes the logo automatically from its proportions (see DESIGN-SYSTEM.md).

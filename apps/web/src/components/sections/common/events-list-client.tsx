@@ -38,16 +38,16 @@ export type EventsListData = {
 };
 
 const PRIMARY =
-  "hover-grow group inline-flex h-11 items-center gap-2 rounded-full bg-brand-gradient px-6 font-heading text-[14px] font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.8),inset_0_1px_0_rgba(255,255,255,0.22)] hover:brightness-110";
+  "hover-grow group inline-flex h-11 items-center gap-2 rounded-full bg-brand-gradient px-6 font-heading text-[13.5px] font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.8),inset_0_1px_0_rgba(255,255,255,0.22)] hover:brightness-110";
 const SECONDARY =
-  "hover-grow group inline-flex h-11 items-center gap-2 rounded-full border border-white/20 bg-white/[0.04] px-5 font-heading text-[14px] font-semibold text-white transition-colors hover:border-white/40 hover:bg-white/[0.08]";
-const CHIP = "inline-flex items-center rounded-full border border-white/12 bg-white/[0.05] px-2.5 py-1 font-sans text-[11.5px] font-medium text-white/75";
+  "hover-grow group inline-flex h-11 items-center gap-2 rounded-full border border-white/20 bg-white/[0.04] px-5 font-heading text-[13.5px] font-semibold text-white transition-colors hover:border-white/40 hover:bg-white/[0.08]";
+const CHIP = "inline-flex items-center rounded-full border border-white/12 bg-white/[0.05] px-2.5 py-1 font-sans text-[11px] font-medium text-white/75";
 
 function StatusChip({ ev, now }: { ev: EventItem; now: number }) {
   const phase = eventPhase(ev, now);
   if (phase === "live")
     return (
-      <span className="inline-flex items-center gap-2 rounded-full bg-[#16a34a] px-3 py-1.5 font-heading text-[12px] font-semibold text-white shadow-lg">
+      <span className="inline-flex items-center gap-2 rounded-full bg-[#16a34a] px-3 py-1.5 font-heading text-[11.5px] font-semibold text-white shadow-lg">
         <span className="relative flex size-2">
           <span className="absolute inline-flex size-full animate-ping rounded-full bg-white/80 motion-reduce:hidden" />
           <span className="relative inline-flex size-2 rounded-full bg-white" />
@@ -58,7 +58,7 @@ function StatusChip({ ev, now }: { ev: EventItem; now: number }) {
   const d = daysUntil(ev, now);
   const label = d <= 1 ? "Starts tomorrow" : d <= 60 ? `Starts in ${d} days` : "Coming up";
   return (
-    <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-gradient px-3 py-1.5 font-heading text-[12px] font-semibold text-white shadow-lg">
+    <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-gradient px-3 py-1.5 font-heading text-[11.5px] font-semibold text-white shadow-lg">
       <Clock aria-hidden className="size-3.5" />
       {label}
     </span>
@@ -75,8 +75,8 @@ function DateTile({ ev, className }: { ev: EventItem; className?: string }) {
       )}
     >
       <span className="font-sans text-[11px] font-semibold uppercase tracking-[0.2em] text-brand">{t.month}</span>
-      <span className="font-heading text-[22px] font-bold leading-tight tracking-[-0.02em] text-white">{t.day}</span>
-      <span className="font-sans text-[11px] text-white/55">{t.year}</span>
+      <span className="font-heading text-[20px] font-bold leading-tight tracking-[-0.02em] text-white">{t.day}</span>
+      <span className="font-sans text-[12px] text-white/55">{t.year}</span>
     </div>
   );
 }
@@ -111,14 +111,14 @@ function UpcomingCard({ ev, now }: { ev: EventItem; now: number }) {
           {ev.category ? <span className={CHIP}>{ev.category}</span> : null}
           {ev.format ? <span className={CHIP}>{FORMAT_LABEL[ev.format] ?? ev.format}</span> : null}
           {ev.role ? (
-            <span className="inline-flex items-center gap-1 rounded-full border border-[#FFC21A]/40 bg-[#FFC21A]/10 px-2.5 py-1 font-sans text-[11.5px] font-semibold text-[#FFC21A]">
+            <span className="inline-flex items-center gap-1 rounded-full border border-[#FFC21A]/40 bg-[#FFC21A]/10 px-2.5 py-1 font-sans text-[11px] font-semibold text-[#FFC21A]">
               <Sparkles aria-hidden className="size-3" />
               {ev.role}
             </span>
           ) : null}
         </div>
-        <h3 className="font-heading text-[26px] font-semibold leading-[1.15] tracking-[-0.02em] text-white xl:text-[34px]">{ev.title}</h3>
-        <ul className="grid gap-2.5 font-sans text-[14.5px] text-white/80">
+        <h3 className="font-heading text-[21.5px] font-semibold leading-[1.15] tracking-[-0.02em] text-white xl:text-[24px]">{ev.title}</h3>
+        <ul className="grid gap-2.5 font-sans text-[13.5px] text-white/80">
           <li className="flex items-start gap-3">
             <CalendarDays aria-hidden className="mt-0.5 size-[18px] shrink-0 text-[#3D7BFF]" />
             <span>
@@ -139,7 +139,7 @@ function UpcomingCard({ ev, now }: { ev: EventItem; now: number }) {
             </li>
           ) : null}
         </ul>
-        {ev.summary ? <p className="font-sans text-[15px] leading-[1.7] text-white/70">{ev.summary}</p> : null}
+        {ev.summary ? <p className="font-sans text-[14px] leading-[1.7] text-white/70">{ev.summary}</p> : null}
         <EventCountdown schedule={scheduleOf(ev)} className="max-w-[460px]" />
         <div className="mt-auto flex flex-wrap items-center gap-3 pt-1">
           <SmartLink href={meet.href!} className={PRIMARY}>
@@ -161,7 +161,7 @@ function UpcomingCard({ ev, now }: { ev: EventItem; now: number }) {
             href={ev.organiserUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex w-fit items-center gap-1 font-sans text-[13px] text-white/55 underline-offset-4 transition-colors hover:text-white hover:underline"
+            className="inline-flex w-fit items-center gap-1 font-sans text-[12.5px] text-white/55 underline-offset-4 transition-colors hover:text-white hover:underline"
           >
             Official event website
             <ArrowUpRight aria-hidden className="size-3.5" />
@@ -193,20 +193,20 @@ function PastCard({ ev }: { ev: EventItem }) {
         <span className="absolute left-4 top-4 rounded-full bg-[#070b16]/80 px-2.5 py-1 font-sans text-[11px] font-semibold uppercase tracking-[0.14em] text-white/80 backdrop-blur">
           Past event
         </span>
-        <DateTile ev={ev} className="absolute bottom-3 left-3 min-w-[64px] px-2.5 py-1.5 [&>span:nth-child(2)]:text-[18px]" />
+        <DateTile ev={ev} className="absolute bottom-3 left-3 min-w-[64px] px-2.5 py-1.5 [&>span:nth-child(2)]:text-[16.5px]" />
       </div>
       <div className="flex flex-1 flex-col gap-3 p-6">
-        <p className="font-sans text-[12.5px] font-medium text-white/55">
+        <p className="font-sans text-[12px] font-medium text-white/55">
           {[ev.category, place || (ev.format ? FORMAT_LABEL[ev.format] : null)].filter(Boolean).join(" · ")}
         </p>
-        <h3 className="font-heading text-[20px] font-semibold leading-snug tracking-[-0.01em] text-white">{ev.title}</h3>
-        {ev.role ? <p className="font-sans text-[13px] font-semibold text-[#FFC21A]">{ev.role}</p> : null}
-        <p className="font-sans text-[14px] leading-[1.65] text-white/70">{ev.recap || ev.summary}</p>
+        <h3 className="font-heading text-[18px] font-semibold leading-snug tracking-[-0.01em] text-white">{ev.title}</h3>
+        {ev.role ? <p className="font-sans text-[12.5px] font-semibold text-[#FFC21A]">{ev.role}</p> : null}
+        <p className="font-sans text-[13.5px] leading-[1.65] text-white/70">{ev.recap || ev.summary}</p>
         {link ? (
           <SmartLink
             href={link.href!}
             newTab={link.openInNewTab}
-            className="mt-auto inline-flex w-fit items-center gap-1.5 pt-2 font-heading text-[13.5px] font-semibold text-white transition-colors hover:text-brand"
+            className="mt-auto inline-flex w-fit items-center gap-1.5 pt-2 font-heading text-[13px] font-semibold text-white transition-colors hover:text-brand"
           >
             {link.label || "Read more"}
             {link.openInNewTab ? <ArrowUpRight aria-hidden className="size-4" /> : <ArrowRight aria-hidden className="size-4" />}
@@ -231,8 +231,8 @@ export function EventsListClient({ data, events, serverNow }: { data: EventsList
           ) : (
             <div className="card-surface flex flex-col items-start gap-4 rounded-[22px] p-8 xl:flex-row xl:items-center xl:justify-between xl:p-10">
               <div className="max-w-[60ch]">
-                <h3 className="font-heading text-[22px] font-semibold text-white">{data.emptyTitle || "New events will be announced soon"}</h3>
-                {data.emptyText ? <p className="mt-2 font-sans text-[15px] leading-[1.7] text-white/70">{data.emptyText}</p> : null}
+                <h3 className="font-heading text-[20px] font-semibold text-white">{data.emptyTitle || "New events will be announced soon"}</h3>
+                {data.emptyText ? <p className="mt-2 font-sans text-[14px] leading-[1.7] text-white/70">{data.emptyText}</p> : null}
               </div>
               <div className="flex flex-wrap gap-3">
                 <SmartLink href="/contact-us#get-in-touch" className={PRIMARY}>

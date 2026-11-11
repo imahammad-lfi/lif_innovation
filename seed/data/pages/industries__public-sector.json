@@ -12,7 +12,7 @@
   {
    "__component": "sections.page-hero",
    "title": "Public Sector",
-   "subtitle": "Connect citizen requests with agency workflows—accessible, traceable and secure by design.",
+   "subtitle": "Connect citizen requests with agency workflows - accessible, traceable and secure by design.",
    "backgroundImage": {
     "__media": "custom/hero-public-sector.jpg",
     "alt": "Public service building and citizen services"
@@ -118,7 +118,7 @@
      "title": "Citizen application and status journeys",
      "description": "When citizens repeat information across channels, connect enquiries, applications and status updates with the team responsible for the request.",
      "accent": "orange",
-     "bullets": "Discovery – agree language, accessibility and assisted-channel hand-offs.\nControl – verify identity and route exceptions to authorised staff.",
+     "bullets": "Discovery - agree language, accessibility and assisted-channel hand-offs.\nControl - verify identity and route exceptions to authorised staff.",
      "footLabel": "Measure to agree",
      "footText": "Journey completion, hand-off effort and status-update clarity.",
      "href": "/products-and-accelerators/linkworks",
@@ -128,7 +128,7 @@
      "title": "Case and document ownership",
      "description": "When records and approvals are fragmented, connect document intake, validation and routing with named case owners.",
      "accent": "blue",
-     "bullets": "Control – staff review evidence and approve public-service decisions.\nOutput – ownership trail, approval record and agreed retention controls.",
+     "bullets": "Control - staff review evidence and approve public-service decisions.\nOutput - ownership trail, approval record and agreed retention controls.",
      "footLabel": "Measure to agree",
      "footText": "Case rework, approval time and evidence completeness.",
      "href": "/products-and-accelerators/intelligent-workflow-automation",
@@ -138,7 +138,7 @@
      "title": "Controlled agency data integration",
      "description": "When agency systems cannot exchange necessary information, define APIs and data contracts for the approved sharing purpose.",
      "accent": "teal",
-     "bullets": "Control – agree role-based access, record scope and exception review.\nOutput – interface specifications and a traceable data-sharing flow.",
+     "bullets": "Control - agree role-based access, record scope and exception review.\nOutput - interface specifications and a traceable data-sharing flow.",
      "footLabel": "Measure to agree",
      "footText": "Data completeness, failed exchanges and reconciliation effort.",
      "href": "/services/digital-transformation/integration-services",
@@ -148,7 +148,7 @@
      "title": "Service-demand and resource planning",
      "description": "When planning relies on disconnected counts, combine case volumes, service demand and operational records into governed reporting.",
      "accent": "purple",
-     "bullets": "Control – planners review definitions, data quality and access.\nOutput – metric catalogue and planning dashboards; no autonomous public decisions.",
+     "bullets": "Control - planners review definitions, data quality and access.\nOutput - metric catalogue and planning dashboards; no autonomous public decisions.",
      "footLabel": "Measure to agree",
      "footText": "Reporting freshness and consistency of planning inputs.",
      "href": "/services/data-ai/data-platforms-analytics",
@@ -174,7 +174,7 @@
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore Linkworks",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks logo"
      }
     },
@@ -186,7 +186,7 @@
      "href": "/products-and-accelerators/textiq",
      "linkLabel": "Explore textIQ",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ logo"
      }
     },
@@ -198,7 +198,7 @@
      "href": "/products-and-accelerators/ai-governance",
      "linkLabel": "Explore AI Governance",
      "logo": {
-      "__media": "custom/logos/ai-governance.png",
+      "__media": "custom/logos/plate/ai-governance-plate.png",
       "alt": "AI Governance logo"
      }
     },
@@ -228,13 +228,13 @@
      "title": "Define the service and controls",
      "description": "Map citizen and assisted channels, case ownership and records. Agree accessibility and language requirements, data permissions and human-review points.",
      "accent": "orange",
-     "bullets": "Artefacts – service blueprint and responsibility matrix\nAcceptance – agreed journey, access and accessibility checks"
+     "bullets": "Artefacts - service blueprint and responsibility matrix\nAcceptance - agreed journey, access and accessibility checks"
     },
     {
      "title": "Prepare delivery and procurement scope",
      "description": "Linkfields is headquartered in South Africa, with an Offshore Delivery Centre in India and international market presence. Agree delivery accountability, data boundaries and procurement requirements.",
      "accent": "blue",
-     "bullets": "Discussion – contracting scope, delivery roles and evidence requirements\nArtefacts – proposed architecture, control matrix and acceptance plan"
+     "bullets": "Discussion - contracting scope, delivery roles and evidence requirements\nArtefacts - proposed architecture, control matrix and acceptance plan"
     },
     {
      "title": "Agree a measurable next step",

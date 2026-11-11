@@ -19,6 +19,9 @@ import os
 import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+# Set by apply.py to its dash-style normaliser: entries written with " — " / " – " still match body text that the
+# site-wide dash rule has already rewritten to " - " (and their replacement is written in the same style).
+NORMALISE = None
 _TOKEN = re.compile(r"([^.\[\]]+)|\[(\d+)\]")
 
 
@@ -70,9 +73,12 @@ def _apply(target, spec, label, report, root_for_edits):
         if not isinstance(val, str):
             report.append(f"{label}: {e['field']} is not text")
             continue
-        if e["find"] in val:
-            box[key] = val.replace(e["find"], e["replace"], 1)
-        elif e["replace"] not in val:
+        find, repl = e["find"], e["replace"]
+        if NORMALISE and find not in val and repl not in val:
+            find, repl = NORMALISE(find), NORMALISE(repl)
+        if find in val:
+            box[key] = val.replace(find, repl, 1)
+        elif repl not in val:
             report.append(f"{label}: text not found in {e.get('section')} {e['field']}: {e['find'][:70]!r}")
 
 

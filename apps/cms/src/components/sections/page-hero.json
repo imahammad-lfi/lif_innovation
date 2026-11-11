@@ -3,7 +3,7 @@
   "info": {
     "displayName": "Page hero",
     "icon": "landscape",
-    "description": "Inner-page hero with background image and in-page anchor tabs"
+    "description": "Inner-page hero with background image and in-page anchor tabs. Optional logo: a transparent PNG/SVG for dark backgrounds, shown in place of the visible title (the title stays for screen readers and SEO)."
   },
   "options": {},
   "attributes": {

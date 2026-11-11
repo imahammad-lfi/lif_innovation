@@ -1,3 +1,4 @@
+import path from 'node:path';
 import type { Core } from '@strapi/strapi';
 
 /**
@@ -40,32 +41,41 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
   const sizeLimit = env.int('UPLOAD_SIZE_LIMIT', 50 * 1024 * 1024);
 
   // Enquiry emails (thank-you to the visitor + alert to sales).
-  // - EMAIL_PROVIDER=graph: Microsoft 365 via Microsoft Graph sendMail (app registration with the
-  //   Mail.Send application permission; MS_GRAPH_* in .env). Provider: the local package
-  //   strapi-provider-email-graph (providers/email-graph, file: dependency in package.json).
-  // - otherwise (default "nodemailer"): SMTP_* in .env (see docs/CMS-BRANDING-AND-EMAIL.md). Without
-  //   SMTP_USERNAME the connection is unauthenticated (used for the local Mailpit test inbox).
+  // - EMAIL_PROVIDER=graph (default): Microsoft 365 through the Microsoft Graph API with an Entra ID app
+  //   registration (application permission Mail.Send). Provider: providers/email-graph. Configure MS_GRAPH_*.
+  // - EMAIL_PROVIDER=nodemailer (or smtp): Nodemailer over SMTP, kept for the local Mailpit test inbox only. Without
+  //   SMTP_USERNAME the connection is unauthenticated.
+  // See docs/CMS-BRANDING-AND-EMAIL.md.
+  const useSmtp = ['nodemailer', 'smtp'].includes(env('EMAIL_PROVIDER', 'graph').toLowerCase());
   const smtpUser = env('SMTP_USERNAME', '');
-  const useGraph = env('EMAIL_PROVIDER', 'nodemailer').toLowerCase() === 'graph';
   const email = {
     config: {
-      provider: useGraph ? 'strapi-provider-email-graph' : 'nodemailer',
-      providerOptions: useGraph
+      ...(useSmtp
         ? {
-            tenantId: env('MS_GRAPH_TENANT_ID', ''),
-            clientId: env('MS_GRAPH_CLIENT_ID', ''),
-            clientSecret: env('MS_GRAPH_CLIENT_SECRET', ''),
-            sender: env('MS_GRAPH_SENDER', ''),
+            provider: 'nodemailer',
+            providerOptions: {
+              host: env('SMTP_HOST', '127.0.0.1'),
+              port: env.int('SMTP_PORT', 1025),
+              secure: env.bool('SMTP_SECURE', false),
+              requireTLS: env.bool('SMTP_REQUIRE_TLS', false),
+              ...(smtpUser ? { auth: { user: smtpUser, pass: env('SMTP_PASSWORD', '') } } : {}),
+              connectionTimeout: 15_000,
+              greetingTimeout: 10_000,
+            },
           }
         : {
-            host: env('SMTP_HOST', '127.0.0.1'),
-            port: env.int('SMTP_PORT', 1025),
-            secure: env.bool('SMTP_SECURE', false),
-            requireTLS: env.bool('SMTP_REQUIRE_TLS', false),
-            ...(smtpUser ? { auth: { user: smtpUser, pass: env('SMTP_PASSWORD', '') } } : {}),
-            connectionTimeout: 15_000,
-            greetingTimeout: 10_000,
-          },
+            // Loaded by absolute path (Strapi falls back to require(provider) when no
+            // @strapi/provider-email-* package matches). Strapi always runs with the app root as cwd.
+            provider: path.join(process.cwd(), 'providers', 'email-graph'),
+            providerOptions: {
+              tenantId: env('MS_GRAPH_TENANT_ID', ''),
+              clientId: env('MS_GRAPH_CLIENT_ID', ''),
+              clientSecret: env('MS_GRAPH_CLIENT_SECRET', ''),
+              // Mailbox the app sends as (UPN or shared mailbox); defaults to the EMAIL_FROM address.
+              sender: env('MS_GRAPH_SENDER', ''),
+              saveToSentItems: env.bool('MS_GRAPH_SAVE_TO_SENT_ITEMS', true),
+            },
+          }),
       settings: {
         defaultFrom: env('EMAIL_FROM', 'Linkfields Sales <sales@linkfields.com>'),
         defaultReplyTo: env('EMAIL_REPLY_TO', 'sales@linkfields.com'),

@@ -201,6 +201,77 @@ def cta_lexicon(obj, comp=None):
             cta_lexicon(v, comp)
 
 
+# Dash style (10 Nov 2026, 23:42 review): body text uses a spaced hyphen " - " instead of spaced em/en dashes
+# (and em dashes run into words). Headings, titles, names and alt text keep their typography; numeric ranges
+# ("2019–2024") and Markdown heading lines are untouched. Idempotent.
+_DASH_KEEP_KEYS = SKIP_KEYS | {"title", "heading", "headline", "subheading", "metaTitle", "seoTitle", "name", "alt",
+                               "alternativeText", "caption"}
+_DASH_KEEP_PHRASES = ("PitchXPO Conclave 2026 \u2013 Real Economy",)
+_DASH_SPACED = re.compile(r"[ \t]+[\u2014\u2013][ \t]+")
+_DASH_TIGHT = re.compile(r"(?<=[A-Za-z0-9)])\u2014(?=[A-Za-z0-9(])")
+
+
+def _dash_text(text):
+    if not isinstance(text, str) or ("\u2014" not in text and "\u2013" not in text) or text.strip() in ("\u2014", "\u2013"):
+        return text
+    keep = {}
+    for i, k in enumerate(_DASH_KEEP_PHRASES):
+        if k in text:
+            keep[f"\u0000d{i}\u0000"] = k
+            text = text.replace(k, f"\u0000d{i}\u0000")
+    lines = []
+    for line in text.split("\n"):
+        if not line.lstrip().startswith("#"):
+            line = _DASH_TIGHT.sub(" - ", _DASH_SPACED.sub(" - ", line))
+        lines.append(line)
+    text = "\n".join(lines)
+    for ph, k in keep.items():
+        text = text.replace(ph, k)
+    return text
+
+
+def dash_style(obj):
+    if isinstance(obj, dict):
+        for k, v in list(obj.items()):
+            if k in _DASH_KEEP_KEYS:
+                continue
+            if isinstance(v, str):
+                obj[k] = _dash_text(v)
+            else:
+                dash_style(v)
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            if isinstance(v, str):
+                obj[i] = _dash_text(v)
+            else:
+                dash_style(v)
+    return obj
+
+
+content_fixes.NORMALISE = _dash_text
+
+# Product logos on white plates (menus, product cards, logo tiles) use the balanced plate files made by
+# tools/logo_plates.py: same canvas shape and same x-height share for every product, so every wordmark shows at the same
+# text size (11 Nov 2026). The banner logos (on-dark versions) are not affected.
+PLATE_SLUGS = ("linkworks", "testoriumz", "vajrax", "vectorx", "ai-governance", "textiq", "finsight", "edupilot")
+_PLATE_RE = re.compile(r"^custom/logos/(%s)\.png$" % "|".join(re.escape(s) for s in PLATE_SLUGS))
+
+
+def plate_logos(obj):
+    if isinstance(obj, dict):
+        v = obj.get("__media")
+        if isinstance(v, str):
+            m = _PLATE_RE.match(v)
+            if m:
+                obj["__media"] = f"custom/logos/plate/{m.group(1)}-plate.png"
+        for x in obj.values():
+            plate_logos(x)
+    elif isinstance(obj, list):
+        for x in obj:
+            plate_logos(x)
+    return obj
+
+
 def site_rules(doc):
     """Removals that apply to every page, plus a British English pass over all text."""
     path = doc.get("path")
@@ -228,6 +299,7 @@ def site_rules(doc):
     cta_lexicon(doc)
     supportive(doc)
     british(doc)
+    dash_style(doc)
 
 
 def redirect_map():
@@ -333,49 +405,15 @@ def patch_global(g, portfolio):
 LOGOS = os.path.join(ROOT, "seed", "assets", "custom", "logos")
 
 
-def png_size(path):
-    """(width, height) from the PNG IHDR header; no PIL needed. (0, 0) if the file is not a readable PNG."""
-    try:
-        with open(path, "rb") as fh:
-            head = fh.read(24)
-        if head[:8] == b"\x89PNG\r\n\x1a\n" and head[12:16] == b"IHDR":
-            return int.from_bytes(head[16:20], "big"), int.from_bytes(head[20:24], "big")
-    except OSError:
-        pass
-    return 0, 0
-
-
 def with_logo(link):
-    """Product links get their logo (seed/assets/custom/logos/<slug>.png) unless the mark is a very wide wordmark."""
+    """Product links get their logo (seed/assets/custom/logos/<slug>.png). Since 11 Nov 2026 this includes the wide
+    AI Governance wordmark (about 9:1), which was previously shown as text; the pill scales it to fit."""
     out = dict(link)
     slug = (link.get("href") or "").rstrip("/").rsplit("/", 1)[-1]
     f = os.path.join(LOGOS, slug + ".png")
     if slug and os.path.exists(f):
-        w, h = png_size(f)
-        wide = w / max(h, 1) > 7
-        if not wide:
-            out["logo"] = media(f"custom/logos/{slug}.png", link.get("label"))
+        out["logo"] = media(f"custom/logos/{slug}.png", link.get("label"))
     return out
-
-
-def patch_product_hero(doc):
-    """Product pages (/products-and-accelerators/<slug>) show their on-dark logo in the page hero, in place of the
-    text title: custom/logos/on-dark/<slug>-on-dark.png (made by tools/mk_ondark_logos.mjs from logos/<slug>.png,
-    or official dark-background artwork). No on-dark file = text title."""
-    if not isinstance(doc, dict):
-        return
-    path = (doc.get("path") or "").rstrip("/")
-    prefix = "/products-and-accelerators/"
-    if not path.startswith(prefix) or "/" in path[len(prefix):]:
-        return
-    slug = path[len(prefix):]
-    hero = next((s for s in doc.get("sections") or [] if s.get("__component") == "sections.page-hero"), None)
-    if not hero:
-        return
-    if os.path.exists(os.path.join(LOGOS, "on-dark", f"{slug}-on-dark.png")):
-        hero["logo"] = media(f"custom/logos/on-dark/{slug}-on-dark.png", f"{hero.get('title') or slug} logo")
-    else:
-        hero.pop("logo", None)
 
 
 def patch_products_menu(g, portfolio):
@@ -550,7 +588,6 @@ def main(argv):
             site_global.featured_insights(doc)
         else:
             patch_industries_sections(doc, portfolio)
-            patch_product_hero(doc)
         if p.endswith(os.sep + "index.json"):
             patch_home(doc, portfolio)
         if not p.endswith(("global.json", "blog-posts.json", "news-articles.json", "events.json")):
@@ -561,6 +598,8 @@ def main(argv):
             british(doc)
             if p.endswith("blog-posts.json"):
                 content_fixes.apply_posts(doc, fixes, fix_report)
+        dash_style(doc)
+        plate_logos(doc)
         if json.dumps(doc, sort_keys=True) != before:
             save(p, doc)
             changed += 1

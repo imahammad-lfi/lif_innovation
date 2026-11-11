@@ -95,8 +95,9 @@ To start from the authored content instead of the backup (no enquiries, new admi
 3. **Publish refresh.** Set `WEBSITE_REVALIDATE_URL` and `WEBSITE_REVALIDATE_SECRET` in the CMS (the secret must equal
    the website's `REVALIDATE_SECRET`). The CMS creates the publish webhook from these at start-up (the backup holds no
    secret), and publishing in Strapi then updates the website within seconds.
-4. **Enquiry emails.** Fill in `SMTP_*` and set `ENQUIRY_EMAILS_ENABLED=true`. Relay options and SPF, DKIM and DMARC
-   steps are in `docs/CMS-BRANDING-AND-EMAIL.md`.
+4. **Enquiry emails.** Emails go through Microsoft 365 via Microsoft Graph. Fill in `MS_GRAPH_TENANT_ID`,
+   `MS_GRAPH_CLIENT_ID`, `MS_GRAPH_CLIENT_SECRET` and `MS_GRAPH_SENDER`, then set `ENQUIRY_EMAILS_ENABLED=true`. App
+   registration, mailbox restriction and SPF, DKIM and DMARC steps are in `docs/CMS-BRANDING-AND-EMAIL.md`.
 5. **Behind HTTPS** set `IS_PROXIED=true` and `PUBLIC_URL=https://<cms domain>` in the CMS, then run
    `npm run build` again (the admin bundle embeds the URL).
 6. **Test**: open the home page, an inner page and `/events`; submit the contact form and check the reference
@@ -108,7 +109,7 @@ To start from the authored content instead of the backup (no enquiries, new admi
 | --- | --- |
 | `README.md` | Architecture, local development, scripts, single-server hosting with `systemd` |
 | `docs/DEPLOYMENT.md` | AWS (ECS Fargate, RDS, S3 + CloudFront) and Cloudflare (DNS, TLS, WAF), Terraform, CI/CD, costs |
-| `docs/CMS-BRANDING-AND-EMAIL.md` | Admin branding, accounts, enquiry references, thank-you and sales emails, SMTP |
+| `docs/CMS-BRANDING-AND-EMAIL.md` | Admin branding, accounts, enquiry references, thank-you and sales emails, Microsoft 365 / Graph set-up |
 | `docs/EVENTS-AND-POPUPS.md` | Creating events and pop-ups, countdown and expiry rules |
 | `docs/DESIGN-SYSTEM.md` | Design rules: tiles, gradients, hover effects, section landing, accessibility; home hero slides, timing (6 s) and per-slide options |
 | `docs/SERVICES-PORTFOLIO.md`, `docs/PRODUCTS-AND-ACCELERATORS.md` | Service and product structure, redirects |

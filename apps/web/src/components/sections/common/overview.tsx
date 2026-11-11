@@ -24,7 +24,7 @@ function Block({ eyebrow, heading, body, dark }: { eyebrow?: string | null; head
         {heading ? (
           <h2
             className={cn(
-              "w-full whitespace-pre-line font-heading text-[24px] font-semibold leading-[1.2] xl:max-w-[40%] xl:text-[32px] 3xl:text-[40px]",
+              "w-full whitespace-pre-line font-heading text-[21.5px] font-semibold leading-[1.2] xl:max-w-[40%] xl:text-[27.5px] 3xl:text-[34.5px]",
               dark ? "text-white" : "text-[#0b0b0b]",
             )}
           >
@@ -35,7 +35,7 @@ function Block({ eyebrow, heading, body, dark }: { eyebrow?: string | null; head
           <div className="w-full xl:max-w-[52%]">
             <Markdown
               className={cn(
-                "text-left font-sans text-[15px] leading-[1.7] xl:text-[16px] 3xl:text-[18px] [&_p:last-child]:pb-0 [&_p]:pb-4",
+                "text-left font-sans text-[14px] leading-[1.7] xl:text-[14.5px] 3xl:text-[16.5px] [&_p:last-child]:pb-0 [&_p]:pb-4",
                 dark ? "text-white/65" : "text-[#4b5157]",
               )}
             >

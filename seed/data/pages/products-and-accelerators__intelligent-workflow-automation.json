@@ -68,19 +68,19 @@
     {
      "title": "Workflow automation",
      "description": "Adapt repeatable workflow patterns to your process steps, roles and exception paths.",
-     "bullets": "Inputs – task data and process rules\nConfigure – hand-offs, approvals and exceptions\nOutput – controlled task flow",
+     "bullets": "Inputs - task data and process rules\nConfigure - hand-offs, approvals and exceptions\nOutput - controlled task flow",
      "accent": "orange"
     },
     {
      "title": "AI orchestration",
      "description": "Place AI-supported tasks inside a workflow with defined context, permissions and human review.",
-     "bullets": "Inputs – permitted data and task context\nConfigure – AI boundaries and review points\nOutput – decision support for review",
+     "bullets": "Inputs - permitted data and task context\nConfigure - AI boundaries and review points\nOutput - decision support for review",
      "accent": "purple"
     },
     {
      "title": "Application integration",
      "description": "Adapt integration patterns to the applications and interfaces in scope; connectors are selected during assessment.",
-     "bullets": "Inputs – system APIs and data contracts\nConfigure – mappings, access and failure handling\nOutput – information passed between systems",
+     "bullets": "Inputs - system APIs and data contracts\nConfigure - mappings, access and failure handling\nOutput - information passed between systems",
      "accent": "orange"
     }
    ],
@@ -100,28 +100,28 @@
     {
      "title": "Scoped process",
      "description": "Map the decision, process owner, baseline and exceptions.",
-     "bullets": "Reuse – relevant workflow patterns\nAccept – process scope and baseline",
+     "bullets": "Reuse - relevant workflow patterns\nAccept - process scope and baseline",
      "accent": "orange",
      "number": "01"
     },
     {
      "title": "Integration and approval design",
      "description": "Define system contracts, permissions and approval responsibilities.",
-     "bullets": "Tailor – interfaces and human controls\nAccept – integration and approval design",
+     "bullets": "Tailor - interfaces and human controls\nAccept - integration and approval design",
      "accent": "orange",
      "number": "02"
     },
     {
      "title": "Tested workflow",
      "description": "Test normal paths, incomplete inputs and failures before release.",
-     "bullets": "Tailor – rules and exception handling\nAccept – workflow and exception evidence",
+     "bullets": "Tailor - rules and exception handling\nAccept - workflow and exception evidence",
      "accent": "orange",
      "number": "03"
     },
     {
      "title": "Controlled release",
      "description": "Agree a release boundary and an operating handover with accountable owners.",
-     "bullets": "Tailor – deployment and operating runbook\nAccept – release and handover criteria",
+     "bullets": "Tailor - deployment and operating runbook\nAccept - release and handover criteria",
      "accent": "orange",
      "number": "04"
     }
@@ -142,19 +142,19 @@
     {
      "title": "Systems and process",
      "description": "Start with an owned, repeatable process and accessible interfaces.",
-     "bullets": "Provide – system/API access and data contracts\nName – process and rule owners\nAgree – scope and baseline",
+     "bullets": "Provide - system/API access and data contracts\nName - process and rule owners\nAgree - scope and baseline",
      "accent": "orange"
     },
     {
      "title": "Permissions and exceptions",
      "description": "Define what each task may access, recommend or change.",
-     "bullets": "Agree – data permissions and AI task boundaries\nName – human approval and escalation points\nTest – failures, exceptions and audit trail",
+     "bullets": "Agree - data permissions and AI task boundaries\nName - human approval and escalation points\nTest - failures, exceptions and audit trail",
      "accent": "orange"
     },
     {
      "title": "Operating ownership",
      "description": "Plan a controlled release and the responsibilities after go-live.",
-     "bullets": "Agree – deployment and security boundaries\nName – support and exception owners\nMeasure – cycle time or manual touches against an agreed baseline",
+     "bullets": "Agree - deployment and security boundaries\nName - support and exception owners\nMeasure - cycle time or manual touches against an agreed baseline",
      "accent": "orange"
     }
    ],
@@ -225,7 +225,7 @@
      "href": "/products-and-accelerators/linkworks",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      }
     }

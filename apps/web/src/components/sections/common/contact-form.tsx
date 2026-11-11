@@ -64,10 +64,10 @@ export async function ContactForm({ data, context }: SectionProps<Data>) {
         <div className="flex flex-col">
           {subheading ? (
             <>
-              <p className="w-fit font-sans text-[11.5px] font-semibold uppercase leading-[1.4] tracking-[0.28em] text-brand xl:text-[12.5px]">{heading}</p>
+              <p className="w-fit font-sans text-[11px] font-semibold uppercase leading-[1.4] tracking-[0.28em] text-brand xl:text-[12px]">{heading}</p>
               <h2
                 className={cn(
-                  "mt-5 max-w-[18ch] font-heading text-[28px] font-semibold leading-[1.15] xl:text-[40px] 3xl:text-[48px]",
+                  "mt-5 max-w-[18ch] font-heading text-[24px] font-semibold leading-[1.15] xl:text-[34.5px] 3xl:text-[41.5px]",
                   dark ? "text-white" : "text-[#0b0b0b]",
                 )}
               >
@@ -77,7 +77,7 @@ export async function ContactForm({ data, context }: SectionProps<Data>) {
           ) : (
             <h2
               className={cn(
-                "max-w-[18ch] font-heading text-[28px] font-semibold leading-[1.15] xl:text-[40px] 3xl:text-[48px]",
+                "max-w-[18ch] font-heading text-[24px] font-semibold leading-[1.15] xl:text-[34.5px] 3xl:text-[41.5px]",
                 dark ? "text-white" : "text-[#0b0b0b]",
               )}
             >
@@ -87,7 +87,7 @@ export async function ContactForm({ data, context }: SectionProps<Data>) {
           <DeckBars className="mt-5" />
           {nextStepsTitle || nextSteps.length ? (
             <div className="mt-10 xl:mt-12">
-              <h3 className={cn("font-heading text-[16px] font-semibold xl:text-[18px] 3xl:text-[20px]", dark ? "text-white" : "text-[#0b0b0b]")}>
+              <h3 className={cn("font-heading text-[14.5px] font-semibold xl:text-[16.5px] 3xl:text-[18px]", dark ? "text-white" : "text-[#0b0b0b]")}>
                 {nextStepsTitle}
               </h3>
               <ol className="mt-5 flex flex-col gap-4">
@@ -95,13 +95,13 @@ export async function ContactForm({ data, context }: SectionProps<Data>) {
                   <li key={i} className="flex items-start gap-3.5">
                     <span
                       aria-hidden
-                      className="flex size-7 shrink-0 items-center justify-center rounded-full bg-brand/12 font-heading text-[12px] font-semibold text-brand ring-1 ring-brand/30"
+                      className="flex size-7 shrink-0 items-center justify-center rounded-full bg-brand/12 font-heading text-[11.5px] font-semibold text-brand ring-1 ring-brand/30"
                     >
                       {i + 1}
                     </span>
                     <span
                       className={cn(
-                        "pt-[3px] font-sans text-[14px] leading-[1.6] xl:text-[15px] 3xl:text-[16px]",
+                        "pt-[3px] font-sans text-[13.5px] leading-[1.6] xl:text-[14px] 3xl:text-[14.5px]",
                         dark ? "text-white/75" : "text-[#4b5157]",
                       )}
                     >

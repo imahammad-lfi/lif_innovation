@@ -36,9 +36,3 @@ infra/terraform/terraform.tfvars
 *.log
 __pycache__/
 *.pyc
-
-# confidential CMS backup (visitor enquiries, admin accounts) — hand over separately, never commit
-database/*.sql.gz
-
-# Playwright MCP tool output (screenshots, page snapshots: may contain form data)
-.playwright-mcp/

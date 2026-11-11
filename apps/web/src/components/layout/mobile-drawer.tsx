@@ -8,6 +8,7 @@ import { CmsImage } from "@/components/cms/cms-image";
 import { AccentIcon, LinkIcon } from "@/components/primitives/accent-icon";
 import { SmartLink } from "@/components/primitives/smart-link";
 import { accentHex, accentVars } from "@/lib/accent";
+import { isPlateLogo, PLATE_BOX } from "@/lib/logo-plate";
 import { cn } from "@/lib/utils";
 import type { Link as LinkT, Media, NavGroup } from "@/lib/content/types";
 
@@ -147,7 +148,7 @@ export function MobileDrawer({ navigation, cta }: { navigation: NavGroup[]; cta:
             <SmartLink
               href={cta.href || "/contact-us"}
               onClick={close}
-              className="hover-grow hover-swap mx-auto mt-4 flex h-12 w-full max-w-[350px] shrink-0 items-center justify-center gap-2 rounded-full bg-brand-gradient font-heading text-[15px] font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.8),inset_0_1px_0_rgba(255,255,255,0.22)]"
+              className="hover-grow hover-swap mx-auto mt-4 flex h-12 w-full max-w-[350px] shrink-0 items-center justify-center gap-2 rounded-full bg-brand-gradient font-heading text-[14px] font-semibold text-white shadow-[0_10px_30px_-10px_rgba(255,120,0,0.8),inset_0_1px_0_rgba(255,255,255,0.22)]"
             >
               {cta.label || "Let's connect"}
               <ArrowRight aria-hidden className="size-4" />
@@ -169,7 +170,7 @@ function SubLinks({ links, onNavigate }: { links?: LinkT[] | null; onNavigate: (
           href={l.href}
           newTab={l.openInNewTab}
           onClick={onNavigate}
-          className="group/sl flex flex-col py-3 font-sans text-[13.5px] leading-[1.4] text-white/60 transition-colors hover:text-[var(--acc)]"
+          className="group/sl flex flex-col py-3 font-sans text-[13px] leading-[1.4] text-white/60 transition-colors hover:text-[var(--acc)]"
         >
           {l.icon ? (
             <span className="flex items-center gap-2.5">
@@ -177,9 +178,9 @@ function SubLinks({ links, onNavigate }: { links?: LinkT[] | null; onNavigate: (
               {l.label}
             </span>
           ) : l.logo ? (
-            <span className="flex h-[26px] w-[100px] items-center justify-center rounded-md bg-white px-2 ring-1 ring-black/5">
-              <span className="relative block h-[15px] w-full">
-                <CmsImage media={l.logo} alt={l.label || ""} fill sizes="100px" className="object-contain" />
+            <span className={cn("flex items-center justify-center rounded-md bg-white px-2 ring-1 ring-black/5", isPlateLogo(l.logo) ? "h-[34px] w-[112px]" : "h-[26px] w-[100px]")}>
+              <span className={isPlateLogo(l.logo) ? PLATE_BOX : "relative block h-[15px] w-full"}>
+                <CmsImage media={l.logo} alt={l.label || ""} fill sizes="112px" quality={isPlateLogo(l.logo) ? 90 : undefined} className="object-contain" />
               </span>
             </span>
           ) : (
@@ -216,8 +217,8 @@ function Collapsible({ items, level = 0, onNavigate }: { items: Item[]; level?: 
   const baseId = useId();
   const top = level === 0;
   const labelClass = top
-    ? "font-heading text-[17px] font-semibold leading-[1.3] text-white"
-    : "font-heading text-[14.5px] font-medium leading-[1.35] text-white/85";
+    ? "font-heading text-[15.5px] font-semibold leading-[1.3] text-white"
+    : "font-heading text-[13.5px] font-medium leading-[1.35] text-white/85";
 
   return (
     <div className={cn("flex flex-col", !top && "mb-3 rounded-2xl border border-white/[0.06] bg-white/[0.03] p-1.5")}>
@@ -322,7 +323,7 @@ function Collapsible({ items, level = 0, onNavigate }: { items: Item[]; level?: 
                     <SmartLink
                       href={it.href}
                       onClick={onNavigate}
-                      className="mb-2 flex items-center justify-between rounded-xl border border-brand/25 bg-brand/[0.07] px-3.5 py-3 font-heading text-[14px] font-semibold text-brand"
+                      className="mb-2 flex items-center justify-between rounded-xl border border-brand/25 bg-brand/[0.07] px-3.5 py-3 font-heading text-[13.5px] font-semibold text-brand"
                     >
                       Explore {it.label}
                       <ArrowRight aria-hidden className="size-4" />

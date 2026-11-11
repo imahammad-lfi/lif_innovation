@@ -68,25 +68,25 @@
     {
      "title": "Equipment failure prediction",
      "description": "Adapt an applicable model to equipment condition and operating behaviour, with model availability and fit confirmed during assessment.",
-     "bullets": "Inputs – condition and maintenance history\nOutput – failure-risk assessment\nDecision – prioritise maintenance",
+     "bullets": "Inputs - condition and maintenance history\nOutput - failure-risk assessment\nDecision - prioritise maintenance",
      "accent": "purple"
     },
     {
      "title": "Forecasting simulation",
      "description": "Test changed operating assumptions within an asset or process model, rather than only extending a historical forecast.",
-     "bullets": "Inputs – process data and scenario assumptions\nOutput – compared scenario results\nDecision – review a proposed operational change",
+     "bullets": "Inputs - process data and scenario assumptions\nOutput - compared scenario results\nDecision - review a proposed operational change",
      "accent": "purple"
     },
     {
      "title": "Inventory optimisation",
      "description": "Adapt inventory models to demand, replenishment rules and the constraints of the operating network.",
-     "bullets": "Inputs – stock, demand and replenishment data\nOutput – inventory scenario comparison\nDecision – balance availability and stock",
+     "bullets": "Inputs - stock, demand and replenishment data\nOutput - inventory scenario comparison\nDecision - balance availability and stock",
      "accent": "purple"
     },
     {
      "title": "Real-time monitoring",
      "description": "Agree monitoring frequency around source refresh, connectivity and ingestion design so operational teams know how current each view will be.",
-     "bullets": "Inputs – operational readings and asset mapping\nOutput – current-state view at agreed refresh\nDecision – review changes needing attention",
+     "bullets": "Inputs - operational readings and asset mapping\nOutput - current-state view at agreed refresh\nDecision - review changes needing attention",
      "accent": "purple"
     }
    ],
@@ -106,28 +106,28 @@
     {
      "title": "Scoped twin",
      "description": "Define the operational question, asset or process boundary and advisory scope.",
-     "bullets": "Reuse – applicable model starting point\nAccept – decision brief and boundary",
+     "bullets": "Reuse - applicable model starting point\nAccept - decision brief and boundary",
      "accent": "purple",
      "number": "01"
     },
     {
      "title": "Data and model map",
      "description": "Map available sources to the model and record operational constraints.",
-     "bullets": "Tailor – source and asset mappings\nAccept – data and fidelity assumptions",
+     "bullets": "Tailor - source and asset mappings\nAccept - data and fidelity assumptions",
      "accent": "purple",
      "number": "02"
     },
     {
      "title": "Calibrated scenarios",
      "description": "Check model behaviour against observed operations before comparing alternative scenarios.",
-     "bullets": "Tailor – calibration and assumptions\nAccept – validation and scenario evidence",
+     "bullets": "Tailor - calibration and assumptions\nAccept - validation and scenario evidence",
      "accent": "purple",
      "number": "03"
     },
     {
      "title": "Monitored pilot",
      "description": "Let operational owners review outputs within a controlled decision pilot.",
-     "bullets": "Tailor – monitoring and review workflow\nAccept – pilot and model-update plan",
+     "bullets": "Tailor - monitoring and review workflow\nAccept - pilot and model-update plan",
      "accent": "purple",
      "number": "04"
     }
@@ -148,19 +148,19 @@
     {
      "title": "Operational data",
      "description": "Establish whether the data can represent the asset or process at the fidelity needed.",
-     "bullets": "Provide – accessible operational history\nAgree – asset boundary and source mapping\nCheck – refresh and connectivity dependencies",
+     "bullets": "Provide - accessible operational history\nAgree - asset boundary and source mapping\nCheck - refresh and connectivity dependencies",
      "accent": "purple"
     },
     {
      "title": "Calibration and control",
      "description": "Keep advisory decision support separate from any control or write-back capability.",
-     "bullets": "Name – calibration and operational owners\nAgree – scenario validation criteria\nDefine – human review and write-back boundary",
+     "bullets": "Name - calibration and operational owners\nAgree - scenario validation criteria\nDefine - human review and write-back boundary",
      "accent": "purple"
     },
     {
      "title": "Environment and handover",
      "description": "Set hosting, access and monitoring responsibilities before introducing the twin into operations.",
-     "bullets": "Agree – hosting and integration scope\nDefine – model changes and access controls\nName – support and handover owners",
+     "bullets": "Agree - hosting and integration scope\nDefine - model changes and access controls\nName - support and handover owners",
      "accent": "purple"
     }
    ],

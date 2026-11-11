@@ -16,19 +16,41 @@ Already done by the lead (do not redo):
 Breakpoints used in this codebase: mobile `max-[768px]:`, tablet `max-[1025px]:`, desktop default (designed at 1440),
 wide `3xl:` (≥1561px) or the existing `max-[1560px]:` desktop-first pattern. Keep whichever pattern the file uses.
 
-| Role | Desktop 1440 | Wide ≥1561 | Mobile ≤768 | Font / weight / leading |
-|---|---|---|---|---|
-| Display (home hero h1) | 44px | 52px | 30px | heading 600, 1.1 |
-| Page hero h1 | 40px | 48px | 28px | heading 600, 1.15 |
-| Section title h2 | 32px | 40px | 24px | heading 600, 1.2 |
-| Card / item title h3 | 18px | 20px | 16px | heading 600, 1.35 |
-| Lead paragraph | 17px | 19px | 15.5px | sans 400, 1.6 |
-| Body | 15px | 16px | 14.5px | sans 400, 1.65 |
-| Small / meta / captions | 13px | 14px | 12.5px | sans 400–500, 1.5 |
-| Labels (uppercase) | 11–12px | 13px | 11px | sans 600, tracking 0.12–0.14em |
-| Big numbers (stats) | 56px | 64px | 40px | heading 600, 1.05 |
+**Type ramp (11 Nov 2026).** Only these font sizes are used anywhere on the site (px):
+`10.5 · 11 · 11.5 · 12 · 12.5 · 13 · 13.5 · 14 · 14.5 · 15.5 · 16 · 16.5 · 18 · 20 · 21.5 · 24 · 27.5 · 34.5 · 40 · 41.5 · 46 · 48 · 55`
+(16px is reserved for form fields on phones). Each role below has a primary size and a permitted range of ramp steps;
+components choose from that range (compact cards use the lower steps, feature cards the upper ones).
 
-- Never use `font-light` / `font-thin`. Never use text below 12px except uppercase labels (≥10.5px).
+| Role | Desktop 1026–1560 | Wide ≥1561 | Mobile ≤768 | Font / weight / leading |
+|---|---|---|---|---|
+| Display (home hero h1/h2) | **40px** (34.5px ≤1180px wide or on short screens) | **46px** | **27.5px** | heading 600, 1.08, -0.022em |
+| Page hero h1 | **34.5px** | **41.5px** | **24px** | heading 600, 1.15 |
+| Section title h2 | 27.5px (statement headings up to 40px) | 34.5px (27.5–46px) | 21.5px (up to 27.5px) | heading 600, 1.2 |
+| Band heading (compact bands: email contacts, message and social banners; `data-type-role="band"`) | 20px (18–24px) | 21.5–27.5px | 18px (16.5–21.5px) | heading 600, 1.25 |
+| Card / item title h3 | 16.5px (14–24px) | 18px (14.5–24px) | 14.5px (13.5–21.5px) | heading 600, 1.35 |
+| Lead paragraph | 15.5px (hero lead 14.5px) | 17px (hero lead 16.5px) | 14.5px | sans 400, 1.6 |
+| Body | 14px | 14.5px | 13.5px | sans 400, 1.65 |
+| Small / meta / captions | 12.5px (min 12px) | 13.5px (min 12px) | 12px | sans 400–500, 1.5 |
+| Labels (uppercase or letter-spaced) | 11–11.5px (10.5–13.5px) | 11.5–12.5px (10.5–13.5px) | 11px (10.5–12.5px) | sans 600, tracking 0.12–0.22em |
+| Chips, tags, badges (pills) | 11–11.5px (pill tabs up to 13.5px) | up to 13.5px | 11px (pill tabs up to 13.5px) | sans 500–600, 1.3–1.4 |
+| Big numbers (stats) | 48px (18–55px) | 55px | 34.5px (16.5–41.5px) | heading 600, 1.05 |
+| Menu items (header) | **13px** (12.5px at 1024–1025px, where the full menu is compacted to fit) | **13.5px** | drawer 15.5px (sub-items 13.5px) | sans 500 (drawer: heading 600) |
+
+Bold values are exact; the others are the primary size with the permitted range in brackets. Text and buttons stay
+between 12px and 16.5px (wide 18px); footer text between 12px and 14.5px.
+
+Scale reduced on 10 Nov 2026 (client: "make the font size small to give more smart look"): every arbitrary
+`text-[Npx]` class was rescaled once (≤11px unchanged, 11.5–14px −0.5px, 14.5–18px ×0.92, 18.5–24px ×0.90, >24px
+×0.86, rounded to 0.5px). Form fields stay at 16px on phones (`max-sm:text-[16px]`) so iOS does not zoom on focus.
+On 11 Nov 2026 the remaining odd sizes (15, 17, 19, 22.5, 26, 29, 31, 36, 38, 39.5, 44.5, 46.5px …) were moved to the
+nearest ramp step (ties go to the smaller step) with `python3 tools/type_ramp_codemod.py` (80 classes in 37 files;
+re-run it with `--dry` after adding components: it must report 0 changes).
+
+- Never use `font-light` / `font-thin`. Never use text below 12px, except uppercase / letter-spaced labels (≥10.5px)
+  and pill chips, tags and badges (≥11px).
+- Check: `python3 tools/design_conformance_qa.py <base> <out_dir>` measures every page × screen size (phone, projectors,
+  laptops, FHD, QHD, ultrawide, 4K, 5120px) against this table, the ramp, the 12px rule, gutters, header heights,
+  section padding, hero height / globe offset and the hero autoplay timing (writes `summary.md`).
 - Paragraph measure: cap long copy at ~68ch (`max-w-[68ch]` or the existing width constraints).
 - Headings get `text-wrap: balance` globally; h1/h2 have -0.015em tracking globally — do not add positive tracking
   to headings or nav. Uppercase labels keep their positive tracking.
@@ -44,11 +66,26 @@ wide `3xl:` (≥1561px) or the existing `max-[1560px]:` desktop-first pattern. K
   or orange `from-[#ff7800] to-[#ffb36b]` — use sparingly (max once per section).
 
 ## Spacing
-- Section vertical padding: desktop 96px (`py-24`), wide 120px, mobile 64px (`py-16`). Keep consistent rhythm; remove
+- Section vertical padding: desktop 96px (`py-24`), wide 112px (`3xl:py-28`; the last 31 sections at 120px were
+  aligned on 11 Nov 2026), mobile 64px (`py-16`). Compact bands ("Our approach" timeline) use 64 / 80px. Keep consistent rhythm; remove
   extreme values (e.g. 150–200px gaps) unless a hero needs them.
 - Section header: Eyebrow → h2 gap ~8px (Eyebrow already has margin), h2 → lead 16px, header → content 48px (mobile 32px).
 - Grids: gap 24px desktop (`gap-6`), 32px wide, 16px mobile.
-- Horizontal gutters: `px-gutter` (unchanged).
+- Horizontal gutters. Two gutters (10 Nov 2026): the **menu bar** (`px-gutter-nav`: 20 / 40 / 48px) runs wider
+  than the **page content** (`px-gutter` / `pl-gutter`: 20 / 40 / 96 / 128 / 144px at <640 / ≥640 / ≥1025 / ≥1281 /
+  ≥1561px), so content sits about one inch (≈ 88–96 CSS px) inside the logo and the header CTA on desktops.
+  Wider than 1920px both gutters grow (`max(144px, (100% - 1920px) / 2 + 144px)` for content), so everything stays
+  in one centred 1920px frame on large monitors, ultra-wides, 4K TVs and projectors while backgrounds stay full-bleed.
+  Use `px-gutter` on full-width blocks only (the percentage resolves against the containing block); boxed elements
+  with their own `max-w-…` use `px-gutter-box` (fixed 20 / 40 / 96 / 128 / 144px). Do not add `mx-auto max-w-[1920px]`
+  around a `px-gutter` element. The pinned section-tab bar uses `px-gutter-nav` (it lines up with the menu bar).
+  The hero globe is offset from the right just outside the content edge
+  (`max(120px, 50% - 840px)` / 104px / 72px / 48px at ≥1561 / ≥1281 / ≥1181 / ≤1180px).
+- Short desktop screens: the `short:` variant (`≥769px` wide and `≤760px` tall — laptops with browser chrome,
+  720p/768p projectors) compacts the home hero copy; the desktop hero height follows the screen
+  (`clamp(650px, 100svh, 860px)`, wide `clamp(720px, 100svh, 1000px)`) and the globe shrinks with it.
+- Large-screen check: `python3 tools/large_screen_qa.py <base> <out_dir> [--shots]` (17 pages × 14 sizes from
+  1024×768 projectors to 5120 super-ultrawide: frame alignment, hero fit, marquee fill, overflow, widget overlap).
 
 ## Surfaces & shapes
 - Cards: `card-surface` utility (soft border, subtle gradient, orange border on hover) or equivalent; padding `p-6`
@@ -86,8 +123,47 @@ from `accentVars()` (`--acc`, `--acc-soft`, `--acc-line`). The class adds a corn
 border (`::before`) and, on hover/focus, an accent glow with a 1.5% scale (disabled for `prefers-reduced-motion`).
 Use `.acc-tile-flat` on containers that hold their own interactive rows (glow without the scale).
 
-**Logo plates.** Product wordmarks are designed for light backgrounds, so on dark surfaces they always sit on a white plate
-(menu: 118×34, drawer: 100×26, hub rows: `LogoChip`). Very wide wordmarks (aspect > 7, e.g. AI Governance) fall back to text in the menu.
+**Logo plates.** Product wordmarks are designed for light backgrounds, so on dark surfaces they always sit on a white plate.
+The one exception is the product page banner (below), which uses a dedicated on-dark version of the logo with no plate.
+
+**Balanced product logos (11 Nov 2026, 12:22).** A plate fits its logo into a fixed box, so before this change a logo with
+a tall icon (VajraX, FinSight) got a small wordmark and a text-only logo (VectorX, AI Governance) a large one. Now every
+product logo is used through a *plate file* (`seed/assets/custom/logos/plate/<slug>-plate.png`, made by
+`tools/logo_plates.py`): the same transparent canvas shape (3.25 : 1) with the logo scaled so its lower-case letters
+(x-height, measured by `tools/logo_metrics.py`) are 24% of the canvas height. Rules:
+- Any box shows every product wordmark at the same text size. Boxes use the plate shape (`PLATE_BOX`,
+  `lib/logo-plate.ts`): desktop menu 124×38 (136×42 from 1920px), drawer 112×34, hub product rows (`LogoChip`) and logo
+  tiles (`LogoPlate`, max height 30/40/54). Measured on production: one x-height per context (menu 8.0px at 1440 and 8.9px
+  from 1920px, drawer 7.1px, hub cards 8.7px, product tiles 8.1px), spread 0.0px across all eight logos.
+- Components recognise plate files by `_plate_` in the uploaded file name (keep `-plate` in the name when uploading); partner
+  and platform logos are unaffected and keep their own boxes.
+- Plate logos and banner logos are delivered at image quality 90 (default 75) for clean edges; both are small files.
+- The Services mega-menu shows Linkfields IP as text chips with icons, not logos (by design).
+
+**Product banner logos (11 Nov 2026).** The eight product pages (Linkworks, testoriumz, VajraX, VectorX, AI Governance,
+textIQ, FinSight, EduPilot) show the product logo in the page banner in place of the text title; accelerator pages keep the
+text title. Rules:
+- Use the on-dark SVG in `seed/assets/custom/logos/svg/<slug>-on-dark.svg` (since 11 Nov 10:33; the earlier PNGs in
+  `logos/on-dark/` are superseded): black or navy wordmark turned white, brand blue lifted to a lighter tint of the same hue
+  (HLS lightness at least 64%) so it reads on the dark banner, orange and yellow unchanged. Never place the
+  light-background original directly on a banner.
+- **VajraX exception (11 Nov 12:22).** VajraX has a new official logo (shaded icon, black "Vajra", orange "X"), supplied
+  as a 2048 px transparent file. It is used directly, not traced: `logos/vajrax.png` (trimmed, 1600×610) for plates and
+  `logos/on-dark/vajrax-on-dark.png` for the banner, where only the black "Vajra" letters are turned white (icon and orange
+  "X" untouched). At 1600 px it is about four times the largest displayed size, so it stays sharp; the old 2025 logo is kept
+  only in `logos/retired/` and has been removed from the Media Library. `tools/vectorise_logos.py` skips VajraX.
+- Banner logos must be vector (SVG). The product logos only exist as small bitmaps cut out of a white background; drawn
+  larger on high-density screens and re-compressed by the image optimiser they showed soft, lumpy edges with a pale
+  fringe. `tools/vectorise_logos.py` traces each original into an SVG: it removes the white matte from the edge pixels,
+  finds the flat brand colours, smooths each colour's outline (stair-steps and compression bumps removed) and traces it
+  with potrace. Flat-colour logos become pure vector; the shaded VajraX icon keeps its own shading inside a traced vector
+  outline, so its edges are crisp too. SVGs bypass the image optimiser and stay sharp at any size. Re-run the tool after
+  replacing a logo, and judge the result at 5x zoom on the dark banner colour.
+- Size by area, not height, so compact marks and long wordmarks carry the same visual weight: width = √(area × aspect),
+  with area 6,800 px² on phones, 10,000 from 640px, 14,000 from 1280px and 17,500 from 1920px (for example testoriumz
+  199×34 → 285×49 → 319×55; AI Governance 249×27 → 357×39 → 399×44). Width is capped at min(84vw, 560px).
+- The h1 keeps the product name as screen-reader-only text; the image is decorative (empty alt), so the name is announced
+  once and search engines still see the heading text. A soft drop shadow separates the logo from busy backgrounds.
 
 **Industries grid (`sections.industries-grid`).** Slide-style dark navy photo cards: portrait image, title, one-sentence
 description and dot tags; tag colours cycle blue / yellow / orange. Content comes from `seed/custom/portfolio.json → industries`
@@ -280,9 +356,9 @@ and **Publish**. The footer and the Contact page update together. Reorder entrie
 ### Home hero slides (10 Nov 2026)
 - **Five slides, in this order:** One strategic partner · *Strategic value plays* ("We lead with outcomes, not
   offerings", corporate deck slide 15) · AI Code Assurance · Global Capability Centres · Software and accelerators.
-- **Timing: 6 seconds per slide**, set in the CMS: *Content Manager › Page › Home › Hero slider › Autoplay seconds*
-  (whole number, 4–15, default 6). The active dot fills with the brand gradient as the time runs, so visitors can see
-  when the next slide is coming.
+- **Timing: 4 seconds per slide** (changed from 6 s on 10 Nov, client request), set in the CMS: *Content Manager ›
+  Page › Home › Hero slider › Autoplay seconds* (whole number, 4–15; default and website fallback 4 since 11 Nov).
+  The active dot fills with the brand gradient as the time runs, so visitors can see when the next slide is coming.
 - **Pause rule:** the timer pauses only while the cursor or keyboard focus is on the slide copy (eyebrow, headline,
   text, chips and buttons), not over the globe or the rest of the hero. When the cursor leaves, the slide resumes with
   its remaining time instead of restarting. The pause/play button stops autoplay completely; with *reduced motion*
@@ -297,3 +373,46 @@ and **Publish**. The footer and the Contact page update together. Reorder entrie
     button ("Explore the value plays" → `#value-plays`) leads to the full section just below.
 - The home *Strategic value plays* section no longer repeats the slide headline in its description
   ("Pick the challenge closest to yours…"), so the two read as a lead-in and the detail rather than a duplicate.
+
+## Round 10 Nov 2026 (23:42): smaller type, compact header, inset content, process timeline
+- **Header**: full height at the top of the page, compact once scrolled (`html[data-hdr="compact"]`, set in
+  `header-client.tsx` with hysteresis). Heights live in `--hdr-h`: phones (<640px) 64 → 56px, tablets and desktops
+  (640–1560px) 72 → 60px, wide (≥1561px) 84 → 64px (plus a 1px bottom border). Anything that sits under the header (mega menu, pinned tabs, landing offsets in `lib/landing.ts`)
+  reads `--hdr-h` / the compact height, never a hard-coded 72/84px. Use the `compact:` variant for styling.
+- **Hero**: 4 seconds per slide (`autoplaySeconds` on the hero, CMS field 4–15). The eyebrow is a glass pill with a
+  glowing brand dot (plain label on phones); the description has a slim orange → blue accent rule.
+- **Strips**: the credentials and partner strips are full-bleed (edge to edge on every screen). `Marquee` takes a
+  `copies` prop so a 5120px screen never shows a gap. The "OEM & technology partners" label is static (11 Nov, client
+  request): it sits at the left of the partner strip (fixed content gutter 40 / 96 / 128 / 144px, so it lines up with the
+  hero copy up to 1920px) and only the logos scroll, from beside the label to the right edge of the screen. On phones the
+  label sits above the logos.
+- **"Our approach" (`services.numbered-help`)**: a compact numbered timeline (gradient-ring markers 01–04 joined by a
+  gradient rule; 4 / 2 / 1 columns) on a deep navy band (`py-16`). Editors write each step as
+  `Title - description`; the lead-in becomes the step title.
+- **Dashes**: body text uses a spaced hyphen " - " instead of spaced em/en dashes. `seed/custom/apply.py`
+  (`dash_style`) enforces it on every seed run; headings, titles, names, alt text, date ranges and the official
+  event name "PitchXPO Conclave 2026 – Real Economy" keep their typography. Editors adding copy in Strapi should
+  type " - " in body text.
+
+## Round 11 Nov (12:22): VajraX logo, privacy pop-up, balanced product logos
+
+- **New VajraX logo** everywhere (menu, drawer, product cards, Linkfields IP tiles, VajraX banner); see *Product banner
+  logos › VajraX exception* above.
+- **Balanced product logos**: all product logos on white plates use plate files with equal x-height; see
+  *Balanced product logos* above.
+- **Privacy Policy pop-up** (`components/legal/privacy-dialog.tsx`, `privacy-content.tsx`, `app/api/legal/privacy`). The
+  "Privacy Policy" link in the enquiry form (pop-up and inline on the Contact page) no longer opens the page behind the
+  form. It opens a second dialog stacked above the enquiry form (z-index 1170/1180, above the contact dialog), so the policy
+  is always in front and the form never needs to be closed:
+  - The text is the published *Privacy policy* page (its rich-text sections), fetched when the link is first used, so the
+    policy is edited in one place. Its `##` / `###` headings become h3 / h4 under the dialog title (h2).
+  - Desktop: centred 760px panel; phones: bottom sheet. Own scroll area; the page and the form behind do not scroll.
+  - Close with ×, "Back to the form", Escape or a click outside. Only the policy closes; the enquiry form stays open with
+    everything typed kept, and focus returns to the "Privacy Policy" link.
+  - "Open the full page ↗" opens `/privacy-policy` in a new tab. Ctrl/⌘-click and middle-click on the link keep normal
+    link behaviour; without JavaScript the link still opens the page.
+
+- **Link chips (deck rows)** - text chips next to logo plates use `rounded-[15px]` rather than `rounded-full`: on one line
+  (30 px tall) they are the same pill; when a long label must wrap in a narrow column (1280-1365 px four-column tiles) the
+  chip becomes a tidy rounded tag with balanced lines instead of an oval. They carry `data-chip` so QA tools classify them
+  as chips (11-13.5 px) at any height. Do not force `whitespace-nowrap` - the label would overflow the column.

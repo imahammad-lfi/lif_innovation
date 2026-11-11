@@ -40,7 +40,7 @@
     }
    ],
    "logo": {
-    "__media": "custom/logos/on-dark/edupilot-on-dark.png",
+    "__media": "custom/logos/svg/edupilot-on-dark.svg",
     "alt": "EduPilot logo"
    }
   },
@@ -69,7 +69,7 @@
     {
      "label": "EduPilot",
      "logo": {
-      "__media": "custom/logos/edupilot.png",
+      "__media": "custom/logos/plate/edupilot-plate.png",
       "alt": "EduPilot product logo"
      }
     }
@@ -78,19 +78,19 @@
     {
      "title": "Define the course",
      "description": "Set the audience, learning objectives and approved subject material. Establish how the material enters the authoring workflow and which source formats are supported.",
-     "bullets": "Input – course brief and approved material\nEvaluation output – source and authoring scope",
+     "bullets": "Input - course brief and approved material\nEvaluation output - source and authoring scope",
      "accent": "purple"
     },
     {
      "title": "Develop a draft",
      "description": "Use the course-creation capability to assess an initial content draft. Check the organisation of the material and the extent to which it addresses the agreed objectives.",
-     "bullets": "Input – agreed learning objectives\nEvaluation output – a course draft for expert review",
+     "bullets": "Input - agreed learning objectives\nEvaluation output - a course draft for expert review",
      "accent": "purple"
     },
     {
      "title": "Review before release",
      "description": "Have an educator or subject-matter expert assess the draft for accuracy and suitability. Confirm the supported hand-off and output formats; do not assume automatic LMS publication.",
-     "bullets": "Input – draft and review rubric\nEvaluation output – approved content and a publishing plan",
+     "bullets": "Input - draft and review rubric\nEvaluation output - approved content and a publishing plan",
      "accent": "purple"
     }
    ],

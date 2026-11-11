@@ -127,7 +127,7 @@
      "description": "Linkfields’ continuous quality engineering platform: test management, low-code automation, AI root-cause analysis, dashboards and CI/CD integration.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz product logo"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -138,7 +138,7 @@
      "description": "Code scanning and supply-chain analysis from repository to release complement testing where AI-written change and software dependencies require security review.",
      "accent": "orange",
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX product logo"
      },
      "href": "/products-and-accelerators/vectorx",
@@ -165,16 +165,16 @@
    "heading": "Quality and security gates across CI/CD",
    "items": [
     {
-     "description": "Baseline risk — Identify critical journeys, AI-code scope and failure impact. Client release owners agree coverage, test environments, permitted data and acceptance thresholds."
+     "description": "Baseline risk - Identify critical journeys, AI-code scope and failure impact. Client release owners agree coverage, test environments, permitted data and acceptance thresholds."
     },
     {
-     "description": "Design maintainable packs — Plan regression, API, performance and user validation. Define traceability, suite ownership and quality/security gates before execution."
+     "description": "Design maintainable packs - Plan regression, API, performance and user validation. Define traceability, suite ownership and quality/security gates before execution."
     },
     {
-     "description": "Execute and triage — Trace results to changes and investigate causes with testoriumz where appropriate. Combine relevant VectorX findings and Cyber-Safe Delivery controls; assign remediation owners."
+     "description": "Execute and triage - Trace results to changes and investigate causes with testoriumz where appropriate. Combine relevant VectorX findings and Cyber-Safe Delivery controls; assign remediation owners."
     },
     {
-     "description": "Review and improve — Present release evidence, residual risks and exceptions to the accountable approver. Maintain test packs and measure escaped defects and validation cycle time after handover."
+     "description": "Review and improve - Present release evidence, residual risks and exceptions to the accountable approver. Maintain test packs and measure escaped defects and validation cycle time after handover."
     }
    ]
   },

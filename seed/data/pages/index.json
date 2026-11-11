@@ -376,7 +376,7 @@
        "href": "/products-and-accelerators/linkworks",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        }
       },
@@ -385,7 +385,7 @@
        "href": "/products-and-accelerators/testoriumz",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/testoriumz.png",
+        "__media": "custom/logos/plate/testoriumz-plate.png",
         "alt": "testoriumz"
        }
       }
@@ -406,7 +406,7 @@
        "href": "/products-and-accelerators/linkworks",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/linkworks.png",
+        "__media": "custom/logos/plate/linkworks-plate.png",
         "alt": "Linkworks"
        }
       }
@@ -427,7 +427,7 @@
        "href": "/products-and-accelerators/textiq",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/textiq.png",
+        "__media": "custom/logos/plate/textiq-plate.png",
         "alt": "textIQ"
        }
       },
@@ -436,7 +436,7 @@
        "href": "/products-and-accelerators/finsight",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/finsight.png",
+        "__media": "custom/logos/plate/finsight-plate.png",
         "alt": "FinSight"
        }
       },
@@ -445,7 +445,7 @@
        "href": "/products-and-accelerators/edupilot",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/edupilot.png",
+        "__media": "custom/logos/plate/edupilot-plate.png",
         "alt": "EduPilot"
        }
       }
@@ -466,7 +466,7 @@
        "href": "/products-and-accelerators/vajrax",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vajrax.png",
+        "__media": "custom/logos/plate/vajrax-plate.png",
         "alt": "VajraX"
        }
       },
@@ -475,7 +475,7 @@
        "href": "/products-and-accelerators/vectorx",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/vectorx.png",
+        "__media": "custom/logos/plate/vectorx-plate.png",
         "alt": "VectorX"
        }
       },
@@ -484,7 +484,7 @@
        "href": "/products-and-accelerators/ai-governance",
        "openInNewTab": false,
        "logo": {
-        "__media": "custom/logos/ai-governance.png",
+        "__media": "custom/logos/plate/ai-governance-plate.png",
         "alt": "AI Governance"
        }
       }
@@ -587,7 +587,7 @@
      "accent": "orange",
      "description": "Composable enterprise applications and workflows.",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks"
      },
      "href": "/products-and-accelerators/linkworks",
@@ -599,7 +599,7 @@
      "accent": "orange",
      "description": "Continuous, automated quality engineering.",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz"
      },
      "href": "/products-and-accelerators/testoriumz",
@@ -611,7 +611,7 @@
      "accent": "purple",
      "description": "Document intelligence for unstructured content.",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ"
      },
      "href": "/products-and-accelerators/textiq",
@@ -623,7 +623,7 @@
      "accent": "purple",
      "description": "Conversational financial analysis.",
      "logo": {
-      "__media": "custom/logos/finsight.png",
+      "__media": "custom/logos/plate/finsight-plate.png",
       "alt": "FinSight"
      },
      "href": "/products-and-accelerators/finsight",
@@ -635,7 +635,7 @@
      "accent": "purple",
      "description": "AI-assisted course creation.",
      "logo": {
-      "__media": "custom/logos/edupilot.png",
+      "__media": "custom/logos/plate/edupilot-plate.png",
       "alt": "EduPilot"
      },
      "href": "/products-and-accelerators/edupilot",
@@ -647,7 +647,7 @@
      "accent": "teal",
      "description": "Continuous exposure validation.",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX"
      },
      "href": "/products-and-accelerators/vajrax",
@@ -659,7 +659,7 @@
      "accent": "teal",
      "description": "Code and software supply-chain security.",
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX"
      },
      "href": "/products-and-accelerators/vectorx",
@@ -671,7 +671,7 @@
      "accent": "teal",
      "description": "AI gateway, policies and guardrails.",
      "logo": {
-      "__media": "custom/logos/ai-governance.png",
+      "__media": "custom/logos/plate/ai-governance-plate.png",
       "alt": "AI Governance"
      },
      "href": "/products-and-accelerators/ai-governance",

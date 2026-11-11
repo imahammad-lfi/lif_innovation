@@ -49,20 +49,20 @@ function AcceleratorCard({ item }: { item: Accelerator }) {
           </span>
         ) : null}
         {item.label ? (
-          <span className="font-sans text-[11px] font-semibold uppercase leading-[1.3] tracking-[0.14em] text-[var(--acc)] 3xl:text-[12px]">
+          <span className="font-sans text-[11px] font-semibold uppercase leading-[1.3] tracking-[0.14em] text-[var(--acc)] 3xl:text-[11.5px]">
             {item.label}
           </span>
         ) : null}
       </span>
-      <h3 className="mt-5 font-heading text-[17px] font-semibold leading-[1.3] text-white xl:text-[18px] 3xl:text-[20px]">{item.title}</h3>
+      <h3 className="mt-5 font-heading text-[15.5px] font-semibold leading-[1.3] text-white xl:text-[16.5px] 3xl:text-[18px]">{item.title}</h3>
       {item.description ? (
-        <p className="mt-2 font-sans text-[13.5px] leading-[1.6] text-white/60 3xl:text-[14.5px]">{item.description}</p>
+        <p className="mt-2 font-sans text-[13px] leading-[1.6] text-white/60 3xl:text-[13.5px]">{item.description}</p>
       ) : null}
       {item.features?.length ? (
         <ul className="mt-5 flex flex-col gap-2.5 border-t border-white/[0.07] pt-5">
           {item.features.map((f, i) =>
             f.title ? (
-              <li key={i} className="flex items-start gap-2.5 font-sans text-[13.5px] leading-[1.45] text-white/80 3xl:text-[14.5px]">
+              <li key={i} className="flex items-start gap-2.5 font-sans text-[13px] leading-[1.45] text-white/80 3xl:text-[13.5px]">
                 <span className="mt-[2px] flex size-[16px] shrink-0 items-center justify-center rounded-full bg-[var(--acc-soft)] ring-1 ring-[var(--acc-line)]">
                   <Check aria-hidden className="size-[10px] stroke-[3] text-[var(--acc)]" />
                 </span>
@@ -73,7 +73,7 @@ function AcceleratorCard({ item }: { item: Accelerator }) {
         </ul>
       ) : null}
       {item.href ? (
-        <span className="mt-auto inline-flex items-center gap-2 pt-6 font-heading text-[13.5px] font-semibold text-[var(--acc)] 3xl:text-[14.5px]">
+        <span className="mt-auto inline-flex items-center gap-2 pt-6 font-heading text-[13px] font-semibold text-[var(--acc)] 3xl:text-[13.5px]">
           {item.linkLabel || "Explore"}
           <ArrowRight aria-hidden className="size-4 transition-transform duration-300 group-hover/acc:translate-x-1" />
         </span>
@@ -123,14 +123,14 @@ export function AcceleratorGrid({ data, context }: SectionProps<Data>) {
         <div className="max-w-[760px]">
           <Eyebrow>{data.eyebrow}</Eyebrow>
           {data.heading ? (
-            <h2 className="mt-2 font-heading text-[24px] font-semibold leading-[1.2] text-white xl:text-[32px] 3xl:text-[40px]">{data.heading}</h2>
+            <h2 className="mt-2 font-heading text-[21.5px] font-semibold leading-[1.2] text-white xl:text-[27.5px] 3xl:text-[34.5px]">{data.heading}</h2>
           ) : null}
           {data.description ? (
-            <p className="mt-4 max-w-[60ch] font-sans text-[15px] leading-[1.65] text-white/65 xl:text-[16px] 3xl:text-[18px]">{data.description}</p>
+            <p className="mt-4 max-w-[60ch] font-sans text-[14px] leading-[1.65] text-white/65 xl:text-[14.5px] 3xl:text-[16.5px]">{data.description}</p>
           ) : null}
         </div>
         {data.ctaLabel && data.ctaUrl ? (
-          <SmartLink href={data.ctaUrl} className="btn-secondary max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[14px]">
+          <SmartLink href={data.ctaUrl} className="btn-secondary max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[13.5px]">
             {data.ctaLabel}
             <ArrowRight aria-hidden className="size-4" />
           </SmartLink>

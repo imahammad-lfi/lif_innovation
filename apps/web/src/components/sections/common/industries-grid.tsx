@@ -64,7 +64,7 @@ function Card({ item, index }: { item: IndustryCard; index: number }) {
 
       <div className="relative flex min-w-0 flex-1 flex-col py-3 pr-2 max-[480px]:py-1.5">
         <div className="flex items-start justify-between gap-3">
-          <h3 className="font-heading text-[18px] font-semibold leading-[1.25] tracking-[-0.01em] text-white xl:text-[19px] 3xl:text-[21px]">
+          <h3 className="font-heading text-[16.5px] font-semibold leading-[1.25] tracking-[-0.01em] text-white xl:text-[16.5px] 3xl:text-[18px]">
             {item.title}
           </h3>
           {item.href ? (
@@ -77,12 +77,12 @@ function Card({ item, index }: { item: IndustryCard; index: number }) {
           ) : null}
         </div>
         {item.description ? (
-          <p className="mt-2.5 font-sans text-[14px] leading-[1.65] text-white/65 max-[480px]:text-[13.5px] 3xl:text-[15px]">
+          <p className="mt-2.5 font-sans text-[13.5px] leading-[1.65] text-white/65 max-[480px]:text-[13px] 3xl:text-[14px]">
             {item.description}
           </p>
         ) : null}
         {tags.length ? (
-          <ul className="mt-auto flex flex-wrap gap-x-3.5 gap-y-1.5 pt-4 font-sans text-[12px] font-semibold leading-[1.35] text-[var(--acc)] 3xl:text-[12.5px]">
+          <ul className="mt-auto flex flex-wrap gap-x-3.5 gap-y-1.5 pt-4 font-sans text-[12px] font-semibold leading-[1.35] text-[var(--acc)] 3xl:text-[12px]">
             {tags.map((t) => (
               <li key={t} className="flex items-center gap-1.5">
                 <span aria-hidden className="size-[5px] rounded-full bg-[var(--acc)] opacity-70" />
@@ -126,10 +126,10 @@ export function IndustriesGrid({ data }: SectionProps<Data>) {
       />
       <div className="mx-auto max-w-[1760px]">
         {data.eyebrow ? (
-          <span className="font-sans text-[12px] font-semibold uppercase tracking-[0.32em] text-brand xl:text-[13px]">{data.eyebrow}</span>
+          <span className="font-sans text-[11.5px] font-semibold uppercase tracking-[0.32em] text-brand xl:text-[12.5px]">{data.eyebrow}</span>
         ) : null}
         {data.heading ? (
-          <h2 className="mt-3 font-heading text-[28px] font-semibold leading-[1.15] tracking-[-0.02em] text-white xl:text-[40px] 3xl:text-[48px]">
+          <h2 className="mt-3 font-heading text-[24px] font-semibold leading-[1.15] tracking-[-0.02em] text-white xl:text-[34.5px] 3xl:text-[41.5px]">
             {data.heading}
           </h2>
         ) : null}
@@ -140,13 +140,13 @@ export function IndustriesGrid({ data }: SectionProps<Data>) {
         </div>
         <div className="mt-5 flex flex-wrap items-end justify-between gap-x-10 gap-y-5">
           {data.description ? (
-            <p className="max-w-[72ch] font-sans text-[15px] leading-[1.7] text-white/70 xl:text-[17px] 3xl:text-[18px]">{data.description}</p>
+            <p className="max-w-[72ch] font-sans text-[14px] leading-[1.7] text-white/70 xl:text-[15.5px] 3xl:text-[16.5px]">{data.description}</p>
           ) : null}
           {data.cta?.href ? (
             <SmartLink
               href={data.cta.href}
               newTab={data.cta.openInNewTab}
-              className="group/cta inline-flex shrink-0 items-center gap-2 font-heading text-[14px] font-semibold text-brand transition-colors hover:text-[#ff9a3d]"
+              className="group/cta inline-flex shrink-0 items-center gap-2 font-heading text-[13.5px] font-semibold text-brand transition-colors hover:text-[#ff9a3d]"
             >
               {data.cta.label || "Explore industries"}
               <ArrowRight aria-hidden className="size-4 transition-transform group-hover/cta:translate-x-0.5" />

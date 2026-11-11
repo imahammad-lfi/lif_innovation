@@ -33,7 +33,7 @@ export function FeaturedInsights({ data, context }: SectionProps<Data>) {
         heading={heading}
         description={data.description}
         aside={
-          <SmartLink href={ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[14px] font-semibold text-brand transition-colors hover:text-[#ff9a3d]">
+          <SmartLink href={ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[13.5px] font-semibold text-brand transition-colors hover:text-[#ff9a3d]">
             {data.ctaLabel || "All insights"}
             <ArrowRight aria-hidden className="size-4 transition-transform group-hover/cta:translate-x-0.5" />
           </SmartLink>
@@ -61,7 +61,7 @@ export function FeaturedInsights({ data, context }: SectionProps<Data>) {
               </span>
             ) : null}
             <div className="absolute inset-x-5 bottom-5 flex flex-col xl:inset-x-6 xl:bottom-6">
-              <p className="line-clamp-2 font-heading text-[16px] font-semibold leading-[1.35] text-white xl:text-[18px] 3xl:text-[20px]">{card.title}</p>
+              <p className="line-clamp-2 font-heading text-[14.5px] font-semibold leading-[1.35] text-white xl:text-[16.5px] 3xl:text-[18px]">{card.title}</p>
               <ReadMore className="mt-3 xl:mt-4" />
             </div>
           </SmartLink>

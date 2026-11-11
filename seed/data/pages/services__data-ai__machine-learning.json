@@ -66,28 +66,28 @@
      "number": "01",
      "title": "Customer & churn models",
      "description": "Support retention teams with customer segments and churn scores.",
-     "bullets": "Data — customer history and outcome definitions\nEvaluation — baseline and intervention timing\nDecision — cases to review for retention",
+     "bullets": "Data - customer history and outcome definitions\nEvaluation - baseline and intervention timing\nDecision - cases to review for retention",
      "accent": "purple"
     },
     {
      "number": "02",
      "title": "Operational anomaly detection",
      "description": "Highlight unusual operational patterns for investigation by an accountable team.",
-     "bullets": "Data — expected patterns and known incidents\nEvaluation — false alerts and missed signals\nDecision — what needs investigation",
+     "bullets": "Data - expected patterns and known incidents\nEvaluation - false alerts and missed signals\nDecision - what needs investigation",
      "accent": "purple"
     },
     {
      "number": "03",
      "title": "Fraud & risk scoring",
      "description": "Support fraud and credit teams with scores for review, including loan default risk.",
-     "bullets": "Data — reviewed labels and outcome windows\nEvaluation — precision, recall and error cost\nDecision — investigation or further review",
+     "bullets": "Data - reviewed labels and outcome windows\nEvaluation - precision, recall and error cost\nDecision - investigation or further review",
      "accent": "purple"
     },
     {
      "number": "04",
      "title": "Demand & maintenance forecasting",
      "description": "Give planning and maintenance teams forecasts or failure estimates with stated limits.",
-     "bullets": "Data — demand or equipment history\nEvaluation — time-aware tests and forecast error\nDecision — planning or maintenance action",
+     "bullets": "Data - demand or equipment history\nEvaluation - time-aware tests and forecast error\nDecision - planning or maintenance action",
      "accent": "purple"
     }
    ]

@@ -164,7 +164,7 @@
      "title": "Linkworks",
      "description": "Composable enterprise applications where ERP or CRM does not fit.",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks"
      },
      "href": "/products-and-accelerators/linkworks"
@@ -174,7 +174,7 @@
      "title": "testoriumz",
      "description": "Test management, low-code automation, AI root-cause analysis and CI/CD integration.",
      "logo": {
-      "__media": "custom/logos/testoriumz.png",
+      "__media": "custom/logos/plate/testoriumz-plate.png",
       "alt": "testoriumz"
      },
      "href": "/products-and-accelerators/testoriumz"
@@ -184,7 +184,7 @@
      "title": "VajraX",
      "description": "AI-powered validation of external attack-surface exposure.",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX"
      },
      "href": "/products-and-accelerators/vajrax"
@@ -194,7 +194,7 @@
      "title": "VectorX",
      "description": "Code scanning and software supply-chain analysis from repo to release.",
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX"
      },
      "href": "/products-and-accelerators/vectorx"
@@ -204,7 +204,7 @@
      "title": "AI Governance",
      "description": "Guardrails, cost visibility and tracing for enterprise AI, built on Portkey and Opik.",
      "logo": {
-      "__media": "custom/logos/ai-governance.png",
+      "__media": "custom/logos/plate/ai-governance-plate.png",
       "alt": "AI Governance"
      },
      "href": "/products-and-accelerators/ai-governance"
@@ -214,7 +214,7 @@
      "title": "textIQ",
      "description": "Search, extraction, classification and summarisation of enterprise documents.",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ"
      },
      "href": "/products-and-accelerators/textiq"
@@ -224,7 +224,7 @@
      "title": "FinSight",
      "description": "Conversational analysis and reporting over financial data.",
      "logo": {
-      "__media": "custom/logos/finsight.png",
+      "__media": "custom/logos/plate/finsight-plate.png",
       "alt": "FinSight"
      },
      "href": "/products-and-accelerators/finsight"
@@ -234,7 +234,7 @@
      "title": "EduPilot",
      "description": "Rapid course creation in education and corporate learning.",
      "logo": {
-      "__media": "custom/logos/edupilot.png",
+      "__media": "custom/logos/plate/edupilot-plate.png",
       "alt": "EduPilot"
      },
      "href": "/products-and-accelerators/edupilot"

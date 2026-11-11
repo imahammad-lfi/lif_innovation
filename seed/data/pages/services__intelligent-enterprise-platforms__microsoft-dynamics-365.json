@@ -178,7 +178,7 @@
    "anchorId": "connected-delivery",
    "eyebrow": "Intelligent Enterprise Platforms",
    "heading": "Connect Dynamics 365 to your Microsoft estate",
-   "description": "Explore illustrative integration patterns—not completed deployments. Discovery confirms the platform capabilities, interfaces and delivery ownership relevant to your business requirements.",
+   "description": "Explore illustrative integration patterns - not completed deployments. Discovery confirms the platform capabilities, interfaces and delivery ownership relevant to your business requirements.",
    "variant": "compact",
    "columns": 3,
    "tone": "navy",
@@ -207,7 +207,7 @@
      "accent": "blue",
      "bullets": "REST APIs, microservices and composable UI\nAgreed integration and support ownership",
      "logo": {
-      "__media": "custom/logos/linkworks.png",
+      "__media": "custom/logos/plate/linkworks-plate.png",
       "alt": "Linkworks product logo"
      },
      "href": "/products-and-accelerators/linkworks",

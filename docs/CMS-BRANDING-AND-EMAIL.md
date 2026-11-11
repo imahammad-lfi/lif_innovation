@@ -109,6 +109,12 @@ Received, newest first.
 The footer carries the tagline, the office countries (from *Global › Offices*), a "you are receiving this because…"
 line and the Privacy Policy link.
 
+**Privacy Policy pop-up on the enquiry form.** The "Privacy Policy" link under the enquiry form opens the policy in a
+pop-up above the form, so visitors can read it without losing what they have typed. The pop-up shows the text of the
+published *Privacy policy* page (Content Manager › Page › `/privacy-policy`, its Rich text sections). Edit and publish that
+page; the pop-up and the page update together (a browser that already opened the pop-up may show the previous text for up
+to five minutes).
+
 **What editors can change without a developer**
 
 | Content in the email | Where to edit |
@@ -124,69 +130,58 @@ Fixed wording (greeting, 24-hour promise, sign-off) is in `apps/cms/src/utils/en
 
 ---
 
-## 5. SMTP configuration (go-live)
+## 5. Microsoft 365 email via Microsoft Graph (go-live)
 
-The CMS sends through SMTP with the official `@strapi/provider-email-nodemailer` provider (`apps/cms/config/plugins.ts`).
-Settings are environment variables in `apps/cms/.env` (template: `apps/cms/.env.example`):
+The CMS sends through **Microsoft 365 using the Microsoft Graph API** (`POST /users/{mailbox}/sendMail`), with the
+local provider `apps/cms/providers/email-graph` (selected in `apps/cms/config/plugins.ts`). It signs in with an
+Entra ID app registration (OAuth 2.0 client credentials). It needs no mailbox password and no SMTP AUTH, so it is not
+affected by Microsoft switching off Basic-authentication SMTP AUTH (default-off for existing tenants from the end of
+December 2026). Messages are saved in the mailbox's *Sent Items*.
+
+Settings are environment variables (root `.env` for Docker, `apps/cms/.env` otherwise):
 
 | Variable | Purpose | Example |
 | --- | --- | --- |
-| `SMTP_HOST` / `SMTP_PORT` | SMTP relay | `smtp-relay.brevo.com` / `587` |
-| `SMTP_SECURE` | `true` only for port 465 | `false` |
-| `SMTP_REQUIRE_TLS` | Force STARTTLS on 587 | `true` |
-| `SMTP_USERNAME` / `SMTP_PASSWORD` | Relay credentials (keep secret) | — |
-| `EMAIL_FROM` | Sender | `Linkfields Sales <sales@linkfields.com>` |
+| `EMAIL_PROVIDER` | `graph` (default). `nodemailer` switches to SMTP for a local Mailpit test inbox | `graph` |
+| `MS_GRAPH_TENANT_ID` | Directory (tenant) ID of the app registration | GUID |
+| `MS_GRAPH_CLIENT_ID` | Application (client) ID | GUID |
+| `MS_GRAPH_CLIENT_SECRET` | Client secret value (keep secret; note its expiry date) | — |
+| `MS_GRAPH_SENDER` | Mailbox the app sends as (user or shared mailbox). Empty = the address in `EMAIL_FROM` | `sales@linkfields.com` |
+| `MS_GRAPH_SAVE_TO_SENT_ITEMS` | Keep a copy in Sent Items | `true` |
+| `EMAIL_FROM` | Display name and address shown as sender (must be the sending mailbox, or one it has *Send As* rights on) | `Linkfields Sales <sales@linkfields.com>` |
 | `EMAIL_REPLY_TO` | Where visitor replies go | `sales@linkfields.com` |
 | `ENQUIRY_NOTIFY_TO` | Sales alert recipients (comma-separated) | `sales@linkfields.com` |
 | `ENQUIRY_EMAILS_ENABLED` | `false` stops both emails (leads are still stored) | `true` |
 | `WEBSITE_URL` | Used for links in the email | `https://www.linkfields.com` |
 
-**Which relay?** linkfields.com's SPF record already authorises Microsoft 365, Brevo (Sendinblue) and Amazon SES.
+**One-off Microsoft 365 set-up (tenant admin):**
 
-- **Recommended: Brevo or Amazon SES.** Both are built for application email, give delivery logs, and work with a
-  simple SMTP key.
-- **Microsoft 365 mailbox (`smtp.office365.com:587`)** only if Linkfields' IT allows it. Microsoft disables
-  Basic-authentication SMTP AUTH **by default for existing tenants at the end of December 2026** (an admin can still
-  re-enable it until a final removal date is announced in the second half of 2027). Source: Microsoft Exchange Team
-  blog, "Updated Exchange Online SMTP AUTH Basic Authentication Deprecation Timeline", 27 Jan 2026.
+1. *Entra admin centre › App registrations › New registration* (single tenant, no redirect URI).
+2. *API permissions › Add › Microsoft Graph › Application permissions › `Mail.Send`*, then **Grant admin consent**.
+3. *Certificates & secrets › New client secret*. Copy the value into `MS_GRAPH_CLIENT_SECRET` and diary the expiry
+   date (renew before it expires, or emails will fail with `invalid_client`).
+4. **Restrict the app to the sending mailbox.** By default `Mail.Send` allows sending as *any* mailbox in the tenant.
+   Limit it with Exchange Online RBAC for Applications (Exchange Online PowerShell):
 
-### Microsoft 365 via Microsoft Graph (recommended for Microsoft 365)
+   ```powershell
+   New-ServicePrincipal -AppId <client-id> -ObjectId <enterprise-app-object-id> -DisplayName "Linkfields website mail"
+   New-ManagementScope -Name "Linkfields website sender" -RecipientRestrictionFilter "PrimarySmtpAddress -eq 'sales@linkfields.com'"
+   New-ManagementRoleAssignment -App <client-id> -Role "Application Mail.Send" -CustomResourceScope "Linkfields website sender"
+   Test-ServicePrincipalAuthorization -Identity <client-id> -Resource sales@linkfields.com
+   ```
 
-Instead of SMTP, the CMS can send through Microsoft Graph `sendMail` with an Entra ID app registration
-(OAuth client credentials, so the Basic-auth SMTP deprecation does not apply). Set `EMAIL_PROVIDER=graph`;
-`SMTP_*` are then ignored. Provider: the local package `strapi-provider-email-graph` in
-`apps/cms/providers/email-graph` (a `file:` dependency in `apps/cms/package.json`; the Dockerfile copies it before
-`npm ci`). Configured in the local Docker setup since 11 Nov 2026; on AWS set `enquiry_email_provider = "graph"` in
-Terraform (see below). On a single server, put the variables in `apps/cms/.env` and restart `lf-cms`.
+   When using RBAC for Applications, remove the tenant-wide `Mail.Send` grant from the app registration so the scoped
+   assignment is the only one. (The older *Application Access Policy* also works but Microsoft recommends RBAC.)
 
-| Variable | Purpose |
-| --- | --- |
-| `EMAIL_PROVIDER` | `graph` for Microsoft Graph, `nodemailer` (default) for SMTP |
-| `MS_GRAPH_TENANT_ID` / `MS_GRAPH_CLIENT_ID` | Directory (tenant) ID and Application (client) ID of the app registration (`Linkfields_Website_New`) |
-| `MS_GRAPH_CLIENT_SECRET` | Client secret **value** (not its ID). Secret: keep it in `.env` / the secrets store only; note its expiry date |
-| `MS_GRAPH_SENDER` | Mailbox sent from; empty = the address in `EMAIL_FROM` (`sales@linkfields.com`). The From line uses this mailbox with the `EMAIL_FROM` display name |
-
-How it sends: the message is built as MIME (Nodemailer's composer) and posted as base64 MIME, so the plain-text
-alternative, the inline logo and the `Auto-Submitted` header are kept; `X-Auto-Response-Suppress: All` is added for
-Outlook/Exchange auto-responders. A copy is always saved in the sender's Sent Items (Graph cannot turn this off for MIME
-sends). Throttling (429/503/504) is retried up to 4 times, honouring `Retry-After`; a 401 refreshes the token once.
-Missing `MS_GRAPH_*` settings never stop the CMS from starting: the send fails and the lead shows *Email status: failed*
-with the reason.
-
-Azure requirements: Microsoft Graph **application** permission `Mail.Send` with admin consent. That permission lets the
-app send as *any* mailbox in the tenant, so Linkfields IT should limit it to the sender mailbox with an Exchange
-application access policy / RBAC for Applications scope.
-
-**AWS (Terraform):** set `enquiry_email_provider = "graph"`, `ms_graph_tenant_id`, `ms_graph_client_id` and optionally
-`ms_graph_sender` in `terraform.tfvars`, apply, then put the client secret value into the secret named by the output
-`ms_graph_client_secret_arn` (`aws secretsmanager put-secret-value --secret-id <arn> --secret-string '<value>'`) and
-redeploy the CMS service. The default `enquiry_email_provider = "none"` keeps enquiry emails off (leads are still stored).
+Graph limits: about 30 messages per minute and 10,000 recipients per day per mailbox. The provider retries
+throttling (429) and temporary errors with back-off, and refreshes the token automatically. Graph only accepts
+custom headers starting with `X-`; others (such as `Auto-Submitted`) are left out.
 
 **DNS for deliverability** (current state checked 10 Nov 2026):
 
 - SPF: already includes all three providers. No change needed.
-- DKIM: no DKIM records were found. **Enable DKIM** for the chosen provider (Brevo › Senders & domains, SES › Verified
-  identities, or Microsoft 365 Defender › DKIM) and publish the CNAMEs it gives you.
+- DKIM: no DKIM records were found. **Enable DKIM** in Microsoft 365 Defender › Email authentication › DKIM for
+  linkfields.com and publish the two CNAMEs it gives you.
 - DMARC: currently `p=none` (monitoring). Once DKIM is live and reports are clean, move to `p=quarantine`.
 
 **After changing `.env`:** restart the CMS (`sudo systemctl restart lf-cms`), then send a test from *Settings › Email
@@ -196,9 +191,12 @@ redeploy the CMS service. The default `enquiry_email_provider = "none"` keeps en
 
 ## 6. Testing and troubleshooting
 
-- In the preview environment the SMTP settings point to **Mailpit**, a local test inbox (`127.0.0.1:1025`, web UI on
-  `127.0.0.1:8025`). Mails are caught there and not delivered to real people.
-- *Email status = failed*: the *Email error* field shows the SMTP error (wrong credentials, TLS, sender not verified).
+- For a local test inbox, set `EMAIL_PROVIDER=nodemailer` and point `SMTP_HOST`/`SMTP_PORT` at **Mailpit**
+  (`127.0.0.1:1025`, web UI on `127.0.0.1:8025`). Mails are caught there and not delivered to real people.
+- *Email status = failed*: the *Email error* field shows the Microsoft Graph error. Common ones:
+  `invalid_client` (wrong or expired client secret), `ErrorAccessDenied` (no admin consent, or the RBAC scope does
+  not include the sending mailbox), `ErrorInvalidUser`/`MailboxNotEnabledForRESTAPI` (`MS_GRAPH_SENDER` is not an
+  Exchange Online mailbox), `ErrorSendAsDenied` (`EMAIL_FROM` differs from the mailbox without Send As rights).
 - *Email status = not-configured*: `ENQUIRY_EMAILS_ENABLED=false`.
 - No lead created at all: the website's `STRAPI_LEAD_TOKEN` is missing or invalid. Production loads it from
   `/home/ubuntu/lf-run/web.env` via the systemd drop-in `/etc/systemd/system/lf-web.service.d/env.conf`, so deploys

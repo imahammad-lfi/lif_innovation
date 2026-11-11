@@ -21,14 +21,14 @@ type Data = {
 export function MediaProcess({ data }: SectionProps<Data>) {
   const compact = data.variant === "compact";
   return (
-    <section id={data.anchorId || undefined} className={`px-gutter py-24 3xl:py-[120px] max-[768px]:py-16 ${compact ? "bg-ink-900" : "bg-[#070401]"}`}>
+    <section id={data.anchorId || undefined} className={`px-gutter py-24 3xl:py-28 max-[768px]:py-16 ${compact ? "bg-ink-900" : "bg-[#070401]"}`}>
       <div className="grid w-full items-center gap-12 min-[900px]:grid-cols-2 3xl:gap-16 max-[768px]:gap-8">
         <div className="min-w-0">
           <Eyebrow className="mb-2 mt-0 xl:mb-2 xl:mt-0">{data.eyebrow}</Eyebrow>
-          {data.heading ? <h2 className="max-w-[26ch] font-heading text-[32px] font-semibold leading-[1.2] text-white 3xl:text-[40px] max-[768px]:text-[24px]">{data.heading}</h2> : null}
-          {data.description ? <p className="mt-4 max-w-[68ch] font-sans text-[17px] leading-[1.6] text-white/65 3xl:text-[19px] max-[768px]:text-[15.5px]">{data.description}</p> : null}
+          {data.heading ? <h2 className="max-w-[26ch] font-heading text-[27.5px] font-semibold leading-[1.2] text-white 3xl:text-[34.5px] max-[768px]:text-[21.5px]">{data.heading}</h2> : null}
+          {data.description ? <p className="mt-4 max-w-[68ch] font-sans text-[15.5px] leading-[1.6] text-white/65 3xl:text-[16.5px] max-[768px]:text-[14.5px]">{data.description}</p> : null}
           {data.points?.length ? (
-            <ul className="mt-5 list-disc space-y-2 pl-5 font-sans text-[15px] leading-[1.65] text-white/65 marker:text-brand/80 3xl:text-[16px] max-[768px]:text-[14.5px]">
+            <ul className="mt-5 list-disc space-y-2 pl-5 font-sans text-[14px] leading-[1.65] text-white/65 marker:text-brand/80 3xl:text-[14.5px] max-[768px]:text-[13.5px]">
               {data.points.map((point, index) => <li key={`${point.description}-${index}`}>{point.description}</li>)}
             </ul>
           ) : null}
@@ -41,7 +41,7 @@ export function MediaProcess({ data }: SectionProps<Data>) {
       </div>
       {data.partners?.length ? (
         <div className="mt-12 w-full border-t border-white/[0.07] pt-8 3xl:mt-16 max-[768px]:mt-8">
-          {data.partnersHeading ? <p className="text-center font-sans text-[13px] font-medium leading-[1.5] text-white/65 3xl:text-[14px] max-[768px]:text-[12.5px]">{data.partnersHeading}</p> : null}
+          {data.partnersHeading ? <p className="text-center font-sans text-[12.5px] font-medium leading-[1.5] text-white/65 3xl:text-[13.5px] max-[768px]:text-[12px]">{data.partnersHeading}</p> : null}
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6 3xl:gap-8 max-[768px]:gap-4">
             {data.partners.map((partner, index) => (
               <a key={`${partner.href}-${index}`} href={partner.href || undefined} target="_blank" rel="noopener noreferrer" aria-label={partner.label || partner.image?.alternativeText || undefined} className="hover-grow relative flex h-20 w-40 items-center justify-center rounded-xl bg-white/[0.025] ring-1 ring-white/[0.07] transition-colors hover:bg-white/[0.06] focus-visible:outline-2 focus-visible:outline-brand max-[768px]:h-16 max-[768px]:w-36">

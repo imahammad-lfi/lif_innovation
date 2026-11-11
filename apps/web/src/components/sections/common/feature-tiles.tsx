@@ -75,28 +75,28 @@ export function Tile({ item, variant, index, cycle }: { item: FeatureTile; varia
               <CmsImage media={item.icon} alt="" width={24} height={24} className="size-6 object-contain" />
             </span>
           ) : item.number ? (
-            <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[var(--acc)] font-heading text-[14px] font-bold text-[#0a0f1d] shadow-[0_10px_24px_-10px_var(--acc)]">
+            <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-[var(--acc)] font-heading text-[13.5px] font-bold text-[#0a0f1d] shadow-[0_10px_24px_-10px_var(--acc)]">
               {item.number}
             </span>
           ) : null}
           {item.eyebrow ? (
-            <span className="min-w-0 font-sans text-[11px] font-semibold uppercase leading-[1.35] tracking-[0.2em] text-[var(--acc)] 3xl:text-[12px]">{item.eyebrow}</span>
+            <span className="min-w-0 font-sans text-[11px] font-semibold uppercase leading-[1.35] tracking-[0.2em] text-[var(--acc)] 3xl:text-[11.5px]">{item.eyebrow}</span>
           ) : null}
         </div>
       ) : null}
       <h3
         className={cn(
           "font-heading font-semibold leading-[1.25] tracking-[-0.01em] text-white",
-          compact ? "text-[16.5px] 3xl:text-[18px]" : portfolio ? "text-[19px] 3xl:text-[21px]" : "text-[18.5px] xl:text-[19.5px] 3xl:text-[21px]",
+          compact ? "text-[14.5px] 3xl:text-[16.5px]" : portfolio ? "text-[16.5px] 3xl:text-[18px]" : "text-[16.5px] xl:text-[18px] 3xl:text-[18px]",
         )}
       >
         {item.title}
       </h3>
       {item.tagline ? (
-        <p className="mt-2 font-sans text-[11px] font-semibold uppercase leading-[1.45] tracking-[0.16em] text-[var(--acc)] 3xl:text-[12px]">{item.tagline}</p>
+        <p className="mt-2 font-sans text-[11px] font-semibold uppercase leading-[1.45] tracking-[0.16em] text-[var(--acc)] 3xl:text-[11.5px]">{item.tagline}</p>
       ) : null}
       {item.description ? (
-        <p className={cn("max-w-[86ch] font-sans leading-[1.65] text-white/65", compact ? "mt-2.5 text-[13.5px] 3xl:text-[14.5px]" : "mt-3 text-[14px] 3xl:text-[15px]")}>
+        <p className={cn("max-w-[86ch] font-sans leading-[1.65] text-white/65", compact ? "mt-2.5 text-[13px] 3xl:text-[13.5px]" : "mt-3 text-[13.5px] 3xl:text-[14px]")}>
           {item.description}
         </p>
       ) : null}
@@ -104,7 +104,7 @@ export function Tile({ item, variant, index, cycle }: { item: FeatureTile; varia
       {item.groupLabel || item.links?.length ? (
         <div className="mt-5 border-t border-white/[0.07] pt-4">
           {item.groupLabel ? (
-            <span className="mb-2.5 block font-sans text-[11px] font-semibold uppercase tracking-[0.22em] text-white/45 3xl:text-[11.5px]">{item.groupLabel}</span>
+            <span className="mb-2.5 block font-sans text-[11px] font-semibold uppercase tracking-[0.22em] text-white/45 3xl:text-[11px]">{item.groupLabel}</span>
           ) : null}
           <LogoRow links={item.links} size="sm" />
         </div>
@@ -112,9 +112,9 @@ export function Tile({ item, variant, index, cycle }: { item: FeatureTile; varia
       {item.footLabel || item.footText ? (
         <div className="mt-5 rounded-xl bg-white/[0.03] p-3.5 ring-1 ring-white/[0.06]">
           {item.footLabel ? (
-            <span className="block font-sans text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--acc)] 3xl:text-[11.5px]">{item.footLabel}</span>
+            <span className="block font-sans text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--acc)] 3xl:text-[11px]">{item.footLabel}</span>
           ) : null}
-          {item.footText ? <p className="mt-1 font-sans text-[13px] leading-[1.55] text-white/75 3xl:text-[14px]">{item.footText}</p> : null}
+          {item.footText ? <p className="mt-1 font-sans text-[12.5px] leading-[1.55] text-white/75 3xl:text-[13.5px]">{item.footText}</p> : null}
         </div>
       ) : null}
       {item.href ? (
@@ -145,7 +145,7 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
         description={data.description}
         aside={
           data.ctaUrl ? (
-            <SmartLink href={data.ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[14px] font-semibold text-brand transition-colors hover:text-[#ff9a3d]">
+            <SmartLink href={data.ctaUrl} className="group/cta inline-flex items-center gap-2 font-heading text-[13.5px] font-semibold text-brand transition-colors hover:text-[#ff9a3d]">
               {data.ctaLabel || "Learn more"}
               <ArrowRight aria-hidden className="size-4 transition-transform group-hover/cta:translate-x-0.5" />
             </SmartLink>
@@ -159,7 +159,7 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
         </div>
       ) : null}
       {items.length ? (
-        <div className={cn("flex flex-wrap justify-center gap-5", data.heading || (data.logos?.length && !logosAfter) ? "mt-10 xl:mt-12 short:mt-7" : "")}>
+        <div className={cn("flex flex-wrap justify-center gap-5", data.heading || (data.logos?.length && !logosAfter) ? "mt-10 xl:mt-12" : "")}>
           {items.map((item, i) => (
             <div key={`${item.title}-${i}`} className={cn("min-w-0", BASIS[cols])}>
               <Tile item={item} variant={data.variant} index={i} cycle={cycle} />
@@ -182,7 +182,7 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
             <ul className="flex flex-wrap gap-2">
               {chips.map((c) => {
                 const m = /^\[([^\]]+)\]\(([^)]+)\)$/.exec(c);
-                const chip = "rounded-full bg-[var(--acc-soft)] px-3 py-1.5 font-sans text-[12.5px] font-semibold leading-[1.3] text-white/90 ring-1 ring-[var(--acc-line)] xl:text-[13px]";
+                const chip = "rounded-full bg-[var(--acc-soft)] px-3 py-1.5 font-sans text-[12px] font-semibold leading-[1.3] text-white/90 ring-1 ring-[var(--acc-line)] xl:text-[12.5px]";
                 return (
                   <li key={c}>
                     {m ? (
@@ -198,7 +198,7 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
               })}
             </ul>
           ) : data.note ? (
-            <p className="font-sans text-[14px] leading-[1.6] text-white/75 xl:text-[15px]">{data.note}</p>
+            <p className="font-sans text-[13.5px] leading-[1.6] text-white/75 xl:text-[14px]">{data.note}</p>
           ) : null}
         </div>
       ) : null}
@@ -207,7 +207,7 @@ export function FeatureTiles({ data }: SectionProps<Data>) {
           {strip.map((s, i) => (
             <span key={s} className="flex items-center gap-8">
               {i ? <span aria-hidden className="hidden h-5 w-px bg-white/15 sm:block" /> : null}
-              <span className={cn("font-heading text-[15px] font-semibold xl:text-[17px]", STRIP_COLOURS[i % STRIP_COLOURS.length])}>{s}</span>
+              <span className={cn("font-heading text-[14px] font-semibold xl:text-[15.5px]", STRIP_COLOURS[i % STRIP_COLOURS.length])}>{s}</span>
             </span>
           ))}
         </div>

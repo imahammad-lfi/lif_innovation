@@ -45,10 +45,10 @@ export function ContactBanner({ data }: SectionProps<Data>) {
       <div className="flex items-center gap-10 max-[1360px]:flex-col max-[1360px]:items-stretch max-[1360px]:gap-6">
         {heading ? (
           <div className="w-[260px] shrink-0 3xl:w-[340px] max-[1360px]:w-auto">
-            <h2 className="font-heading text-[22px] font-semibold leading-[1.25] text-white 3xl:text-[26px] max-[768px]:text-[20px]">
+            <h2 data-type-role="band" className="font-heading text-[20px] font-semibold leading-[1.25] text-white 3xl:text-[21.5px] max-[768px]:text-[18px]">
               <Highlight text={heading} />
             </h2>
-            {data.description ? <p className="mt-2 max-w-[48ch] text-pretty font-sans text-[14px] leading-[1.55] text-white/60 3xl:text-[15px]">{data.description}</p> : null}
+            {data.description ? <p className="mt-2 max-w-[48ch] text-pretty font-sans text-[13.5px] leading-[1.55] text-white/60 3xl:text-[14px]">{data.description}</p> : null}
           </div>
         ) : null}
         <ul className="grid min-w-0 flex-1 grid-cols-3 gap-4 max-[900px]:grid-cols-1 max-[900px]:gap-3">
@@ -71,8 +71,8 @@ export function ContactBanner({ data }: SectionProps<Data>) {
                     <Icon className="size-[19px]" strokeWidth={2} />
                   </span>
                   <span className="min-w-0 flex-1">
-                    <span className="block font-sans text-[11px] font-semibold uppercase leading-[1.4] tracking-[0.16em] text-white/50 3xl:text-[11.5px]">{title}</span>
-                    <span title={contact.email ?? undefined} className="mt-1 block truncate font-heading text-[15.5px] font-semibold leading-[1.35] text-white transition-colors duration-300 group-hover:text-[var(--acc)] 3xl:text-[17px]">
+                    <span className="block font-sans text-[11px] font-semibold uppercase leading-[1.4] tracking-[0.16em] text-white/50 3xl:text-[11px]">{title}</span>
+                    <span title={contact.email ?? undefined} className="mt-1 block truncate font-heading text-[14.5px] font-semibold leading-[1.35] text-white transition-colors duration-300 group-hover:text-[var(--acc)] 3xl:text-[15.5px]">
                       {contact.email}
                     </span>
                   </span>

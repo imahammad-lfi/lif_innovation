@@ -12,7 +12,7 @@
   {
    "__component": "sections.page-hero",
    "title": "BFSI",
-   "subtitle": "Banking, insurance and fintech: modernise financial journeys, automate document-heavy operations and govern risk insight—secure by design.",
+   "subtitle": "Banking, insurance and fintech: modernise financial journeys, automate document-heavy operations and govern risk insight - secure by design.",
    "backgroundImage": {
     "__media": "custom/hero-bfsi.jpg",
     "alt": "BFSI service and operations context"
@@ -113,7 +113,7 @@
      "title": "Servicing and reconciliation",
      "description": "Connect customer channels, servicing cases and reconciliation exceptions.",
      "accent": "orange",
-     "bullets": "Workflow – integrate account enquiries and exception queues\nControl – human escalation, access controls and correction approval\nMeasure to agree – case hand-offs and reconciliation completeness",
+     "bullets": "Workflow - integrate account enquiries and exception queues\nControl - human escalation, access controls and correction approval\nMeasure to agree - case hand-offs and reconciliation completeness",
      "href": "/services/digital-transformation/integration-services",
      "linkLabel": "Explore integration services"
     },
@@ -121,7 +121,7 @@
      "title": "Modernisation and release assurance",
      "description": "Modernise selected application components using Linkworks; test changed journeys with testoriumz.",
      "accent": "blue",
-     "bullets": "Workflow – map dependencies and automate regression tests\nControl – VectorX code/dependency review and release approval\nMeasure to agree – regression coverage and release defects",
+     "bullets": "Workflow - map dependencies and automate regression tests\nControl - VectorX code/dependency review and release approval\nMeasure to agree - regression coverage and release defects",
      "href": "/products-and-accelerators/testoriumz",
      "linkLabel": "Explore testoriumz"
     },
@@ -129,7 +129,7 @@
      "title": "Fraud signals and control evidence",
      "description": "Evaluate fraud/anomaly or loan-default signals for investigation, not automatic decisions.",
      "accent": "teal",
-     "bullets": "Workflow – route validated signals with control evidence\nControl – analyst accountability, model review and scoped VajraX exposure validation\nMeasure to agree – model evaluation and evidence completeness",
+     "bullets": "Workflow - route validated signals with control evidence\nControl - analyst accountability, model review and scoped VajraX exposure validation\nMeasure to agree - model evaluation and evidence completeness",
      "href": "/services/data-ai/machine-learning",
      "linkLabel": "Explore machine learning"
     }
@@ -149,7 +149,7 @@
      "title": "Claims and document triage",
      "description": "Use textIQ to organise claims and policy information for review.",
      "accent": "purple",
-     "bullets": "Workflow – extract, validate and route document information\nControl – reviewers approve decisions and escalate incomplete inputs\nMeasure to agree – review cycle time and rework",
+     "bullets": "Workflow - extract, validate and route document information\nControl - reviewers approve decisions and escalate incomplete inputs\nMeasure to agree - review cycle time and rework",
      "href": "/products-and-accelerators/textiq",
      "linkLabel": "Explore textIQ"
     },
@@ -157,7 +157,7 @@
      "title": "Policy, billing and service integration",
      "description": "Connect policy enquiries, premium records and billing exceptions with Linkworks.",
      "accent": "blue",
-     "bullets": "Workflow – integrate policy, finance and CRM status\nControl – approved changes and testoriumz software-release checks\nMeasure to agree – exception age and hand-off completion",
+     "bullets": "Workflow - integrate policy, finance and CRM status\nControl - approved changes and testoriumz software-release checks\nMeasure to agree - exception age and hand-off completion",
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore Linkworks"
     },
@@ -165,7 +165,7 @@
      "title": "Human-reviewed underwriting",
      "description": "Tailor Intelligent Workflow Automation around human-reviewed underwriting steps.",
      "accent": "teal",
-     "bullets": "Workflow – route information and approvals to underwriters\nControl – reviewer accountability, model validation and traceable decisions\nMeasure to agree – turnaround and decision-record completeness",
+     "bullets": "Workflow - route information and approvals to underwriters\nControl - reviewer accountability, model validation and traceable decisions\nMeasure to agree - turnaround and decision-record completeness",
      "href": "/products-and-accelerators/intelligent-workflow-automation",
      "linkLabel": "Explore workflow accelerator"
     }
@@ -185,7 +185,7 @@
      "title": "Payment integration and reconciliation",
      "description": "Integrate existing payment-provider events, application status and settlement records for operational review.",
      "accent": "orange",
-     "bullets": "Workflow – integrate provider APIs and reconciliation queues\nControl – operations approval and documented API/access boundaries\nMeasure to agree – exception age and interface reliability",
+     "bullets": "Workflow - integrate provider APIs and reconciliation queues\nControl - operations approval and documented API/access boundaries\nMeasure to agree - exception age and interface reliability",
      "href": "/products-and-accelerators/linkworks",
      "linkLabel": "Explore Linkworks"
     },
@@ -193,7 +193,7 @@
      "title": "Quality and security gates",
      "description": "Integrate testoriumz and VectorX testing and code/supply-chain review into CI/CD.",
      "accent": "teal",
-     "bullets": "Workflow – test critical journeys and assess dependencies\nControl – release criteria, remediation and rollback ownership\nMeasure to agree – unresolved findings and release defects",
+     "bullets": "Workflow - test critical journeys and assess dependencies\nControl - release criteria, remediation and rollback ownership\nMeasure to agree - unresolved findings and release defects",
      "href": "/products-and-accelerators/vectorx",
      "linkLabel": "Explore VectorX"
     },
@@ -201,7 +201,7 @@
      "title": "Governed analytics and AI",
      "description": "Evaluate anomaly models and FinSight analysis; AI Governance provides a Linkfields gateway built on Portkey and Opik.",
      "accent": "purple",
-     "bullets": "Workflow – govern approved AI tools and financial analysis\nControl – data rights, analyst review and model evaluation\nMeasure to agree – traceability and reporting reconciliation",
+     "bullets": "Workflow - govern approved AI tools and financial analysis\nControl - data rights, analyst review and model evaluation\nMeasure to agree - traceability and reporting reconciliation",
      "href": "/products-and-accelerators/ai-governance",
      "linkLabel": "Explore AI Governance"
     }
@@ -223,7 +223,7 @@
      "accent": "purple",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/textiq.png",
+      "__media": "custom/logos/plate/textiq-plate.png",
       "alt": "textIQ logo"
      },
      "href": "/products-and-accelerators/textiq",
@@ -242,7 +242,7 @@
      "accent": "purple",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/finsight.png",
+      "__media": "custom/logos/plate/finsight-plate.png",
       "alt": "FinSight logo"
      },
      "href": "/products-and-accelerators/finsight",
@@ -261,7 +261,7 @@
      "accent": "teal",
      "eyebrow": "Product",
      "logo": {
-      "__media": "custom/logos/vajrax.png",
+      "__media": "custom/logos/plate/vajrax-plate.png",
       "alt": "VajraX logo"
      },
      "href": "/products-and-accelerators/vajrax",

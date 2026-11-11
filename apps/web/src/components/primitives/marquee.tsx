@@ -12,15 +12,18 @@ type MarqueeProps = {
   /** Seconds for one full set to pass; scale with the number of items. */
   duration?: number;
   reverse?: boolean;
+  /** Identical sets in the track (min 3). Full-bleed strips need more so a 5K / ultra-wide screen never shows a gap. */
+  copies?: number;
 };
 
 /**
- * Continuous, CSS-only logo/text strip. The set is rendered three times so wide screens never show a gap;
- * copies 2 and 3 are hidden from assistive tech and removed from the Tab order (not `inert`, which would also
+ * Continuous, CSS-only logo/text strip. The set is rendered `copies` times (default 3) so wide screens never show a
+ * gap; every copy after the first is hidden from assistive tech and removed from the Tab order (not `inert`, which would also
  * block hover and clicks on the copies that fill most of a wide screen). Hover or keyboard focus pauses it, the hero's
  * pause button pauses it (`[data-motion-paused]`), and reduced-motion users get a static, scrollable row.
  */
-export function Marquee({ children, label, className, listClassName, duration = 40, reverse = false }: MarqueeProps) {
+export function Marquee({ children, label, className, listClassName, duration = 40, reverse = false, copies = 3 }: MarqueeProps) {
+  const sets = Math.max(3, Math.round(copies));
   const items = React.Children.toArray(children);
   if (!items.length) return null;
   const list = (copy: number) => (
@@ -41,9 +44,9 @@ export function Marquee({ children, label, className, listClassName, duration = 
     <div role="region" aria-label={label} className={cn("marquee relative overflow-hidden", className)}>
       <div
         className={cn("marquee-track flex w-max", reverse && "marquee-reverse")}
-        style={{ "--marquee-duration": `${duration}s` } as React.CSSProperties}
+        style={{ "--marquee-duration": `${duration}s`, "--marquee-copies": sets } as React.CSSProperties}
       >
-        {[0, 1, 2].map(list)}
+        {Array.from({ length: sets }, (_, copy) => list(copy))}
       </div>
       <MarqueeFocusGuard />
     </div>

@@ -11,9 +11,9 @@ type Data = { anchorId?: string | null; eyebrow?: string | null; heading?: strin
 export function OfficePresence({ data }: SectionProps<Data>) {
   const offices = data.offices ?? [];
   return (
-    <section id={data.anchorId || undefined} className="bg-ink px-gutter py-24 3xl:py-30 max-[768px]:py-16">
+    <section id={data.anchorId || undefined} className="bg-ink px-gutter py-24 3xl:py-28 max-[768px]:py-16">
       <Eyebrow>{data.eyebrow}</Eyebrow>
-      {data.heading ? <h2 className="max-w-[900px] font-heading text-[32px] font-semibold leading-[1.2] text-white 3xl:text-[40px] max-[768px]:text-[24px]">{data.heading}</h2> : null}
+      {data.heading ? <h2 className="max-w-[900px] font-heading text-[27.5px] font-semibold leading-[1.2] text-white 3xl:text-[34.5px] max-[768px]:text-[21.5px]">{data.heading}</h2> : null}
       {data.mapImage ? (
         <div className="relative my-12 aspect-[2.12] w-full overflow-hidden rounded-2xl max-[768px]:my-8">
           <CmsImage media={data.mapImage} alt="Global offices map" fill sizes="100vw" className="object-contain" />
@@ -29,13 +29,13 @@ export function OfficePresence({ data }: SectionProps<Data>) {
                     <CmsImage media={office.icon} alt="" width={24} height={24} className="size-6 object-contain max-[768px]:size-5" />
                   </div>
                 ) : null}
-                {office.country ? <h3 className="font-heading text-[18px] font-semibold leading-[1.35] text-white 3xl:text-[20px] max-[768px]:text-[16px]">{office.country}</h3> : null}
+                {office.country ? <h3 className="font-heading text-[16.5px] font-semibold leading-[1.35] text-white 3xl:text-[18px] max-[768px]:text-[14.5px]">{office.country}</h3> : null}
               </div>
               <div className="mt-5 flex-1">
-                {office.address ? <p className="max-w-[68ch] whitespace-pre-line font-sans text-[13px] leading-[1.5] text-white/65 3xl:text-[14px] max-[768px]:text-[12.5px]">{office.address}</p> : null}
-                {office.phone ? <p className="mt-4 whitespace-pre-line font-sans text-[13px] leading-[1.5] text-white/65 3xl:text-[14px] max-[768px]:text-[12.5px]">{office.phone}</p> : null}
+                {office.address ? <p className="max-w-[68ch] whitespace-pre-line font-sans text-[12.5px] leading-[1.5] text-white/65 3xl:text-[13.5px] max-[768px]:text-[12px]">{office.address}</p> : null}
+                {office.phone ? <p className="mt-4 whitespace-pre-line font-sans text-[12.5px] leading-[1.5] text-white/65 3xl:text-[13.5px] max-[768px]:text-[12px]">{office.phone}</p> : null}
               </div>
-              {office.directionsLabel ? <span className="btn-secondary mt-6 self-start group-hover:border-brand/40 max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[14px]"><span>{office.directionsLabel}</span><ArrowRight aria-hidden className="size-4" /></span> : null}
+              {office.directionsLabel ? <span className="btn-secondary mt-6 self-start group-hover:border-brand/40 max-[768px]:h-11 max-[768px]:px-6 max-[768px]:text-[13.5px]"><span>{office.directionsLabel}</span><ArrowRight aria-hidden className="size-4" /></span> : null}
             </SmartLink>
           ))}
         </div>

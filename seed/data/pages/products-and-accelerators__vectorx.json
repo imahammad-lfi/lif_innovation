@@ -40,7 +40,7 @@
     }
    ],
    "logo": {
-    "__media": "custom/logos/on-dark/vectorx-on-dark.png",
+    "__media": "custom/logos/svg/vectorx-on-dark.svg",
     "alt": "VectorX logo"
    }
   },
@@ -85,7 +85,7 @@
      "href": "#get-in-touch",
      "openInNewTab": false,
      "logo": {
-      "__media": "custom/logos/vectorx.png",
+      "__media": "custom/logos/plate/vectorx-plate.png",
       "alt": "VectorX"
      }
     }

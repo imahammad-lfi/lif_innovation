@@ -142,6 +142,11 @@ Useful scripts:
 See **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)** for the AWS + Cloudflare architecture, Terraform, CI/CD (GitHub Actions),
 first-time seeding, operations and costs.
 
+### DigitalOcean App Platform
+
+Website and CMS run as two apps with managed PostgreSQL and Spaces for media. App specs are in `.do/`; the
+step-by-step guide, including copying the database and media, is in [docs/DEPLOY-DIGITALOCEAN.md](docs/DEPLOY-DIGITALOCEAN.md).
+
 ### Single-server hosting (preview / small installs)
 
 For one-box hosting (the current preview runs this way) `infra/systemd/` contains two production units:

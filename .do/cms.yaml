@@ -1,0 +1,96 @@
+# DigitalOcean App Platform spec: Linkfields CMS (Strapi 5) + managed PostgreSQL.
+# Guide: docs/DEPLOY-DIGITALOCEAN.md. Paste into Apps › linkfields-cms › Settings › App Spec › Edit.
+# Replace every CHANGE_ME and enter the SECRET values (DigitalOcean encrypts them on save).
+name: linkfields-cms
+region: lon
+
+services:
+  - name: cms
+    github:
+      repo: imahammad-lfi/lif_innovation
+      branch: main
+      deploy_on_push: false # deploys are manual: Actions › Deploy
+    source_dir: apps/cms
+    dockerfile_path: apps/cms/Dockerfile
+    http_port: 1337
+    instance_count: 1
+    instance_size_slug: apps-s-1vcpu-2gb # Strapi needs about 1 GB at runtime
+    health_check:
+      http_path: /_health
+      initial_delay_seconds: 60
+      period_seconds: 20
+    envs:
+      # ---- Server ----
+      - { key: HOST, value: 0.0.0.0 }
+      - { key: PORT, value: "1337" }
+      - { key: NODE_ENV, value: production }
+      # Public CMS address: ${APP_URL} becomes the custom domain (e.g. https://cms.linkfields.com) once added.
+      - { key: PUBLIC_URL, value: "${APP_URL}" }
+      - { key: IS_PROXIED, value: "true" }
+      - { key: PROXY_IP_HEADER, value: do-connecting-ip }
+      - { key: PROXY_MAX_IPS_COUNT, value: "1" }
+
+      # ---- Strapi secrets (openssl rand -base64 32; APP_KEYS = two values, comma-separated) ----
+      - { key: APP_KEYS, type: SECRET, value: "CHANGE_ME_KEY1,CHANGE_ME_KEY2" }
+      - { key: API_TOKEN_SALT, type: SECRET, value: CHANGE_ME }
+      - { key: ADMIN_JWT_SECRET, type: SECRET, value: CHANGE_ME }
+      - { key: TRANSFER_TOKEN_SALT, type: SECRET, value: CHANGE_ME }
+      - { key: ENCRYPTION_KEY, type: SECRET, value: CHANGE_ME }
+      - { key: JWT_SECRET, type: SECRET, value: CHANGE_ME }
+
+      # ---- Database (bound to the managed cluster below) ----
+      - { key: DATABASE_CLIENT, value: postgres }
+      - { key: DATABASE_HOST, value: "${db.HOSTNAME}" }
+      - { key: DATABASE_PORT, value: "${db.PORT}" }
+      - { key: DATABASE_NAME, value: "${db.DATABASE}" }
+      - { key: DATABASE_USERNAME, value: "${db.USERNAME}" }
+      - { key: DATABASE_PASSWORD, value: "${db.PASSWORD}" }
+      - { key: DATABASE_SSL, value: "true" }
+      - { key: DATABASE_SSL_CA, value: "${db.CA_CERT}" }
+      - { key: DATABASE_POOL_MIN, value: "0" }
+      - { key: DATABASE_POOL_MAX, value: "10" }
+
+      # ---- Media: DigitalOcean Spaces (the App Platform disk is wiped on every deploy) ----
+      - { key: UPLOAD_PROVIDER, value: aws-s3 }
+      - { key: AWS_ENDPOINT, value: "https://lon1.digitaloceanspaces.com" }
+      - { key: AWS_REGION, value: us-east-1 } # Spaces ignores it; the endpoint selects the region
+      - { key: AWS_BUCKET, value: CHANGE_ME_BUCKET }
+      - { key: AWS_ACCESS_KEY_ID, type: SECRET, value: CHANGE_ME }
+      - { key: AWS_SECRET_ACCESS_KEY, type: SECRET, value: CHANGE_ME }
+      - { key: AWS_ACL, value: public-read }
+      - { key: CDN_URL, value: "https://CHANGE_ME_BUCKET.lon1.cdn.digitaloceanspaces.com" }
+      - { key: CSP_MEDIA_HOSTS, value: CHANGE_ME_BUCKET.lon1.cdn.digitaloceanspaces.com }
+      - { key: UPLOAD_SIZE_LIMIT, value: "52428800" }
+
+      # ---- Website (the linkfields-web app) ----
+      - { key: WEBSITE_URL, value: "https://CHANGE_ME_WEBSITE" } # links in enquiry emails
+      - { key: CORS_ORIGINS, value: "https://CHANGE_ME_WEBSITE,${APP_URL}" }
+      - { key: WEBSITE_REVALIDATE_URL, value: "https://CHANGE_ME_WEBSITE/api/revalidate?now=1" }
+      - { key: WEBSITE_REVALIDATE_SECRET, type: SECRET, value: CHANGE_ME } # = REVALIDATE_SECRET of the website
+
+      # ---- Enquiry emails: Microsoft 365 via Microsoft Graph ----
+      - { key: ENQUIRY_EMAILS_ENABLED, value: "true" }
+      - { key: ENQUIRY_NOTIFY_TO, value: sales@linkfields.com }
+      - { key: EMAIL_PROVIDER, value: graph }
+      - { key: EMAIL_FROM, value: "Linkfields Sales <sales@linkfields.com>" }
+      - { key: EMAIL_REPLY_TO, value: sales@linkfields.com }
+      - { key: MS_GRAPH_TENANT_ID, type: SECRET, value: CHANGE_ME }
+      - { key: MS_GRAPH_CLIENT_ID, type: SECRET, value: CHANGE_ME }
+      - { key: MS_GRAPH_CLIENT_SECRET, type: SECRET, value: CHANGE_ME }
+      - { key: MS_GRAPH_SENDER, value: sales@linkfields.com }
+      - { key: MS_GRAPH_SAVE_TO_SENT_ITEMS, value: "true" }
+
+ingress:
+  rules:
+    - component: { name: cms }
+      match: { path: { prefix: / } }
+
+databases:
+  # Create the cluster first: Databases › Create › PostgreSQL, London, name linkfields-db;
+  # then in the cluster's Users & Databases add user "linkfields" and database "linkfields_cms".
+  - name: db
+    engine: PG
+    production: true
+    cluster_name: linkfields-db
+    db_name: linkfields_cms
+    db_user: linkfields

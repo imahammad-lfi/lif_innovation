@@ -127,7 +127,8 @@ later `www.linkfields.com`) and set `WEBSITE_REVALIDATE_SECRET` to the website's
 - After the domains are live, update and save (each redeploys):
   CMS `WEBSITE_URL`, `CORS_ORIGINS`, `WEBSITE_REVALIDATE_URL` → `www.linkfields.com`;
   website `STRAPI_URL` → `https://cms.linkfields.com`.
-  `PUBLIC_URL` and `NEXT_PUBLIC_SITE_URL` use `${APP_URL}` and follow the primary domain automatically.
+  The CMS `PUBLIC_URL` uses `${APP_URL}` and follows its primary domain automatically. The website's
+  `NEXT_PUBLIC_SITE_URL` is fixed to `https://www.linkfields.com` (canonical links and the sitemap).
 
 ## Deploying changes
 

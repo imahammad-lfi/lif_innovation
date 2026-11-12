@@ -24,8 +24,8 @@ services:
       - { key: CONTENT_SOURCE, value: strapi, scope: RUN_AND_BUILD_TIME }
       # Public CMS address (the linkfields-cms app's URL, or https://cms.linkfields.com once the domain is set).
       - { key: STRAPI_URL, value: "https://CHANGE_ME_CMS", scope: RUN_AND_BUILD_TIME }
-      # Canonical site address; ${APP_URL} becomes https://www.linkfields.com once the domain is added.
-      - { key: NEXT_PUBLIC_SITE_URL, value: "${APP_URL}", scope: RUN_AND_BUILD_TIME }
+      # Canonical site address (links, sitemap, social cards). A fixed value: ${APP_URL} is empty during the build.
+      - { key: NEXT_PUBLIC_SITE_URL, value: "https://www.linkfields.com", scope: RUN_AND_BUILD_TIME }
       # Spaces CDN host that serves the CMS media (no https://).
       - { key: MEDIA_HOSTS, value: CHANGE_ME_BUCKET.lon1.cdn.digitaloceanspaces.com, scope: RUN_AND_BUILD_TIME }
       # Same value as WEBSITE_REVALIDATE_SECRET in the CMS app.

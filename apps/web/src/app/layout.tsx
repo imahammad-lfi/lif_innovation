@@ -33,8 +33,7 @@ const inter = Inter({
   display: "swap",
 });
 
-// "||" not "??": an empty build argument must fall back too, or new URL("") breaks the build.
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.linkfields.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.linkfields.com";
 
 export async function generateMetadata(): Promise<Metadata> {
   const global = await getGlobal();

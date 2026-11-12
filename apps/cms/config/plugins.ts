@@ -34,14 +34,9 @@ const deniedTypes = [
  * - AWS: set UPLOAD_PROVIDER=aws-s3. Credentials come from the ECS task role (default AWS SDK
  *   credential chain), so no static keys are required. Files are served through CDN_URL
  *   (the Cloudflare-proxied media domain in front of the S3 bucket).
- * - DigitalOcean Spaces (or any S3-compatible store): UPLOAD_PROVIDER=aws-s3 plus AWS_ENDPOINT
- *   (e.g. https://lon1.digitaloceanspaces.com), AWS_ACCESS_KEY_ID / AWS_SECRET_ACCESS_KEY (a Spaces key),
- *   AWS_ACL=public-read and CDN_URL=https://<bucket>.lon1.cdn.digitaloceanspaces.com. See docs/DEPLOY-DIGITALOCEAN.md.
  */
 const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin => {
   const useS3 = env('UPLOAD_PROVIDER', 'local') === 'aws-s3';
-  const s3Endpoint = env('AWS_ENDPOINT', '');
-  const s3AccessKeyId = env('AWS_ACCESS_KEY_ID', '');
   const security = { allowedTypes: allowedMediaTypes, deniedTypes };
   const sizeLimit = env.int('UPLOAD_SIZE_LIMIT', 50 * 1024 * 1024);
 
@@ -109,11 +104,6 @@ const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin =>
               rootPath: env('CDN_ROOT_PATH', ''),
               s3Options: {
                 region: env('AWS_REGION', 'eu-west-2'),
-                // S3-compatible stores (DigitalOcean Spaces) need their endpoint and a static key pair.
-                ...(s3Endpoint ? { endpoint: s3Endpoint } : {}),
-                ...(s3AccessKeyId
-                  ? { credentials: { accessKeyId: s3AccessKeyId, secretAccessKey: env('AWS_SECRET_ACCESS_KEY', '') } }
-                  : {}),
                 params: {
                   ACL: env('AWS_ACL', 'private'),
                   signedUrlExpires: env.int('AWS_SIGNED_URL_EXPIRES', 15 * 60),

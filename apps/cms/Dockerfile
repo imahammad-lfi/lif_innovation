@@ -25,7 +25,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends libvips42 \
     && rm -rf /var/lib/apt/lists/* \
     && groupadd --system --gid 1001 strapi \
-    && useradd --system --uid 1001 --gid strapi strapi
+    && useradd --system --uid 1001 --gid strapi --home-dir /home/strapi --create-home strapi
 
 COPY --from=build --chown=strapi:strapi /opt/app /opt/app
 RUN mkdir -p /opt/app/public/uploads /opt/app/.tmp \
